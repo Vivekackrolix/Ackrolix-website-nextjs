@@ -79,6 +79,9 @@ const Banner = () => {
   ];
 
   return (
+   
+
+   
     <div className="container-ack md:px-0 px-5">
       <Slider {...settings} className="mx-auto relative">
         {clientsData.map((item) => (
@@ -115,6 +118,8 @@ const Banner = () => {
         </div>
       </div>
     </div>
+
+   
   );
 };
 

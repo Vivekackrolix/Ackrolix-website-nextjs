@@ -20,16 +20,16 @@ const index = () => {
       <div className="pt-[20px]">
         <Banner />
         <About />
-        <OurServices/>
-        <Portfolio/>
+        <OurServices />
+        <Portfolio />
         <Advisors />
-        <Memories/>
-        <Card/>
-        <Leaders/>
-        <Videos/>
-        <Clients/>
-        <Blogs/>
-        <Testimonial/>
+        <Memories />
+        <Card />
+        <Leaders />
+        <Videos />
+        <Clients />
+        <Blogs />
+        <Testimonial />
         <Footer />
       </div>
     </>

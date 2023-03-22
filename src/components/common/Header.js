@@ -4,6 +4,7 @@ import Navbar from '../Header/Navbar'
 
 const Header = () => {
   return (
+    
     <div className='container-ack'>
       <HeaderLogo />
       <hr/>

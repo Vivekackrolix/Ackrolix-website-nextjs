@@ -83,7 +83,7 @@ const Advisors = () => {
                 </p>
 
                 <div className="pb-5">
-                  <button className="text-black px-6 py-2 text-sm border-b group-hover:border-primary group-hover:border-b-2">
+                  <button className="text-black py-2 text-sm border-b group-hover:border-primary group-hover:border-b-2">
                     See More
                   </button>
                 </div>

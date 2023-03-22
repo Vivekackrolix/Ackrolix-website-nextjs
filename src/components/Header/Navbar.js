@@ -68,12 +68,12 @@ const Navbar = () => {
             {/* for mobile end */}
             <li
               className={
-                router.pathname == "/expertise"
+                router.pathname == "/services"
                   ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
                   : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
               }
             >
-              <Link href="/expertise"> Our Expertise</Link>
+              <Link href="/services"> Our Expertise</Link>
             </li>
            
             {/* for mobile start */}
