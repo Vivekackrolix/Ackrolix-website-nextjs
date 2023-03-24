@@ -2,7 +2,7 @@ import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Advisors = () => {
-  const productData = [
+  const advisor = [
     {
       id: 1,
 
@@ -62,10 +62,10 @@ const Advisors = () => {
         </div>
       </div>
       <div className="grid md:grid-cols-3 gap-3">
-        {productData.map((item) => (
+        {advisor.map((item) => (
           <>
             <div className="group p-6" key="id">
-              <div className="relative text-center py-6 border-2 border-[#F6F8F9] duration duration-200 group-hover:-translate-y-2  hover:drop-shadow-sm hover:bg-[#F6F8F9]/40 hover:border rounded-xl">
+              <div className="relative text-center py-6 border-2 border-[#F6F8F9] duration duration-200 group-hover:-translate-y-2  hover:drop-shadow-sm hover:bg-[#F6F8F9]/40 hover:border-2 rounded-xl">
                 <div className="inline-flex justify-center items-center rounded-md md:mt-8 ">
                   <img
                     src={item.image}
