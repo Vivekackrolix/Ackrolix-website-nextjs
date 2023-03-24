@@ -143,12 +143,12 @@ const Navbar = () => {
             {/* for mobile end */}
             <li
               className={
-                router.pathname == "/port"
+                router.pathname == "/portfolio"
                   ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
                   : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
               }
             >
-              <Link href="/port"> Portfolio</Link>
+              <Link href="/portfolio"> Portfolio</Link>
             </li>
             {/* for mobile start */}
             <li className="md:hidden block ">
