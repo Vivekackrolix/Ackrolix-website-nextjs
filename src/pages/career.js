@@ -3,7 +3,8 @@ import Head from "next/head";
 import React from "react";
 import TopHeaderCareer from "@component/components/Career/TopHeaderCareer";
 import WhyJoinUsCareer from "@component/components/Career/WhyJoinUsCareer";
-
+import JobListingCareer from "@component/components/Career/JobListingCareer";
+import Footer from "@component/components/common/Footer";
 const career = () => {
   return (
     <div>
@@ -13,6 +14,8 @@ const career = () => {
       <Header />
       <TopHeaderCareer />
       <WhyJoinUsCareer />
+      <JobListingCareer />
+      <Footer />
     </div>
   );
 };
