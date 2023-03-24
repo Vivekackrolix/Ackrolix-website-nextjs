@@ -4,7 +4,6 @@ import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { ImFacebook } from "react-icons/im";
 import { MdArrowRightAlt, MdPlayArrow } from "react-icons/md";
 import Subscription from "../home/Subscription";
-
 const Footer = () => {
   return (
     <div
@@ -13,10 +12,10 @@ const Footer = () => {
         backgroundImage: 'url("/assets/images/backgroundfooter.png")',
       }}
     >
-<div className="absolute md:-top-10 md:left-44 md:px-0 px-5 -top-12">
-<Subscription/>
-</div>
-  
+      <div className="absolute md:-top-10 md:left-44 md:px-0 px-5 -top-12">
+        <Subscription />
+      </div>
+
       <div className="container-ack ">
         <div className="md:pt-36 pt-72 ">
           <div className=" grid md:grid-cols-12 justify-between  gap-12 md:px-0 px-5">

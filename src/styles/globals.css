@@ -2,18 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
-
-body{
-  font-family: 'DM Sans', sans-serif;
+body,
+div,
+html {
+  font-family: "Be Vietnam Pro" !important;
 }
 
-.container-ack{
+.container-ack {
   max-width: 1150px;
   margin: auto;
 }
-
 
 /* navbar */
 
@@ -24,14 +22,14 @@ body{
   top: 100px;
   left: 0;
   z-index: 1;
-  transition: .3s ease-in;
+  transition: 0.3s ease-in;
   overflow: visible;
 }
-.header-home{
+.header-home {
   z-index: 999;
 }
 .header-bg {
-  background-color: #2544EE;
+  background-color: #2544ee;
   z-index: 99;
 }
 
@@ -50,8 +48,6 @@ body{
   font-size: 1rem;
 }
 
-
-
 .nav-font {
   font-size: 16px;
 }
@@ -60,49 +56,43 @@ body{
   font-size: 1rem;
 }
 
-
 .header .navbar img {
   width: 200px;
   height: auto;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px){  
-
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .header {
     background-color: white;
     width: 100%;
     top: 0px;
     left: 0;
     z-index: 1;
-    transition: .3s ease-in;
+    transition: 0.3s ease-in;
     overflow: visible;
     padding: 5px 5px;
   }
 
-
-  .header .navbar{
+  .header .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-
   .header .navbar img {
     width: 130px;
     height: auto;
   }
- }
+}
 
 .header .nav-menu {
   display: flex;
   padding-bottom: 5px;
-
 }
 
 .header .nav-item {
   padding: 0.6rem;
 }
-
 
 .hamburger {
   display: none;
@@ -116,75 +106,69 @@ body{
   display: none;
 }
 
-@media screen and (max-width:940px) {
+@media screen and (max-width: 940px) {
   .nav-item a {
-      color: #fff;
+    color: #fff;
   }
 
   .header {
-      max-width: 100%;
+    max-width: 100%;
   }
 
   .header .navbar {
-      max-width: 100%;
+    max-width: 100%;
   }
 
   .hamburger {
-      display: block;
+    display: block;
   }
 
-
   .nav-menu {
-      position: fixed;
-      left: -100%;
-      top: 90px;
-      flex-direction: column;
-      background-color: black;
-      width: 100%;
-      height: 100vh;
-      overflow-y: scroll;
-      z-index: 999;
-      transition: .3s;
+    position: fixed;
+    left: -100%;
+    top: 90px;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    z-index: 999;
+    transition: 0.3s;
   }
 
   .nav-menu.active {
-      left: 0;
-      top: 56px;
+    left: 0;
+    top: 56px;
   }
 
   .nav-desk {
-      margin: 1.5rem 0;
+    margin: 1.5rem 0;
   }
 
-
-
   .dropdown-menu {
-      visibility: hidden;
+    visibility: hidden;
   }
 
   .dropdown-mobile {
-      display: none;
+    display: none;
   }
 }
 
 /* navbar end */
 
-
-.texttransparent{
-    text-shadow: -1px -1px 0 #0d0d0d38, 1px -1px 0 #0d0d0d38, -1px 1px 0 #0d0d0d38, 1px 1px 0 #0d0d0d38;
+.texttransparent {
+  text-shadow: -1px -1px 0 #0d0d0d38, 1px -1px 0 #0d0d0d38, -1px 1px 0 #0d0d0d38,
+    1px 1px 0 #0d0d0d38;
 }
-
 
 /* cards leader */
 
-
 .cardBox:hover .card {
-  transform: rotateY( 180deg);
+  transform: rotateY(180deg);
 }
 
-
 .card {
-  background: #F6F8F9;
+  background: #f6f8f9;
   cursor: default;
   height: 320px;
   transform-style: preserve-3d;
@@ -194,8 +178,6 @@ body{
   animation: giro 1s 1;
   border-radius: 6px;
 }
-
-
 
 .card p {
   margin-bottom: 2px;
@@ -224,7 +206,7 @@ body{
 }
 
 .card .back {
-  transform: rotateY( 180deg);
+  transform: rotateY(180deg);
 }
 
 .card .back a {
@@ -244,11 +226,11 @@ body{
 }
 
 .cardBox:nth-child(1) .card .back {
-  background: #D9D9D9;
+  background: #d9d9d9;
 }
 
 .cardBox:nth-child(3) .card .back {
-  background: #D9D9D9;
+  background: #d9d9d9;
 }
 
 .cardBox:nth-child(2) .card {
@@ -268,19 +250,19 @@ body{
 
 @-webkit-keyframes giro {
   from {
-    transform: rotateY( 180deg);
+    transform: rotateY(180deg);
   }
   to {
-    transform: rotateY( 0deg);
+    transform: rotateY(0deg);
   }
 }
 
 @keyframes giro {
   from {
-    transform: rotateY( 180deg);
+    transform: rotateY(180deg);
   }
   to {
-    transform: rotateY( 0deg);
+    transform: rotateY(0deg);
   }
 }
 
@@ -307,15 +289,12 @@ body{
   }
 }
 
-
 .cardBox2:hover .card2 {
-  transform: rotateY( 180deg);
+  transform: rotateY(180deg);
 }
 
-
-
 .card2 {
-  background: #D9D9D9;
+  background: #d9d9d9;
   cursor: default;
   height: 320px;
   transform-style: preserve-3d;
@@ -326,8 +305,7 @@ body{
   border-radius: 6px;
 }
 
-
-.card2 p{
+.card2 p {
   margin-bottom: 2px;
 }
 
@@ -355,7 +333,7 @@ body{
 }
 
 .card2 .back {
-  transform: rotateY( 180deg);
+  transform: rotateY(180deg);
 }
 
 .card2 .back a {
@@ -375,34 +353,32 @@ body{
 }
 
 .cardBox2:nth-child(1) .card2 .back {
-  background: #F6F8F9;
+  background: #f6f8f9;
 }
 .cardBox2:nth-child(2) .card2 .back {
-  background: #F6F8F9;
+  background: #f6f8f9;
 }
-
 
 .cardBox2:nth-child(2) .card2 {
   -webkit-animation: giro 1.5s 1;
   animation: giro 1.5s 1;
 }
 
-
 @-webkit-keyframes giro {
   from {
-    transform: rotateY( 180deg);
+    transform: rotateY(180deg);
   }
   to {
-    transform: rotateY( 0deg);
+    transform: rotateY(0deg);
   }
 }
 
 @keyframes giro {
   from {
-    transform: rotateY( 180deg);
+    transform: rotateY(180deg);
   }
   to {
-    transform: rotateY( 0deg);
+    transform: rotateY(0deg);
   }
 }
 
@@ -429,13 +405,77 @@ body{
   }
 }
 
-
 /* cards end */
 
-.svgimg{
+.svgimg {
   fill: #090909;
 }
 
 .svgimg:hover {
- fill:#FFBF00;
+  fill: #ffbf00;
+}
+
+/* Career Pages  */
+
+.psAbsolute {
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.HdingAboutMeDta {
+  width: 40%;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.HdingAboutMeDta p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.container-custom {
+  max-width: 1260px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.TopCarerBnr {
+  position: relative;
+  display: block;
+  margin-top: 30px;
+}
+
+.whyJoinUsHeading {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.whyJoinUsHeading .psAbsolute {
+  width: 100%;
+  top: 36%;
+  text-align: left;
+  position: absolute;
+  font-weight: 800;
+  margin-left: 10px;
+  transform: translate(-50%, 10px);
+  font-size: 28px;
+  line-height: 1;
+}
+
+.txthding {
+  width: 44%;
+  font-size: 16px;
+  font-weight: 400;
 }
