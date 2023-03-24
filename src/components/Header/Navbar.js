@@ -13,8 +13,7 @@ const Navbar = () => {
   // close menu on click
   const closeMenu = () => setClick(false);
 
-
-    const router = useRouter();
+  const router = useRouter();
 
   return (
     <div className="header text-black duration-300  w-full z-20  header-home ">
@@ -30,7 +29,6 @@ const Navbar = () => {
                 : "nav-menu flex justify-between space-x-4"
             }
           >
-            
             <li
               className={
                 router.pathname == "/"
@@ -40,7 +38,6 @@ const Navbar = () => {
             >
               <Link href="/">Home</Link>
             </li>
-            
             {/* for mobile start */}
             <li className="md:hidden block ">
               <Link href="/">
@@ -48,7 +45,6 @@ const Navbar = () => {
               </Link>
             </li>
             {/* for mobile end */}
-           
             <li
               className={
                 router.pathname == "/about"
@@ -58,7 +54,6 @@ const Navbar = () => {
             >
               <Link href="/about">About</Link>
             </li>
-            
             {/* for mobile start */}
             <li className="md:hidden block ">
               <Link href="/">
@@ -75,7 +70,6 @@ const Navbar = () => {
             >
               <Link href="/services"> Our Expertise</Link>
             </li>
-           
             {/* for mobile start */}
             <li className="md:hidden block ">
               <Link href="/">
@@ -92,7 +86,6 @@ const Navbar = () => {
             >
               <Link href="/advisor">Advisors</Link>
             </li>
-         
             {/* for mobile start */}
             <li className="md:hidden block ">
               <Link href="/">
@@ -109,7 +102,6 @@ const Navbar = () => {
             >
               <Link href="/experts"> Our Experts</Link>
             </li>
-           
             {/* for mobile start */}
             <li className="md:hidden block ">
               <Link href="/">
@@ -126,7 +118,6 @@ const Navbar = () => {
             >
               <Link href="/moments"> Moments</Link>
             </li>
-           
             {/* for mobile start */}
             <li className="md:hidden block ">
               <Link href="/">
@@ -136,17 +127,16 @@ const Navbar = () => {
             {/* for mobile end */}
             <li
               className={
-                router.pathname == "/care"
+                router.pathname == "/career"
                   ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
                   : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
               }
             >
-              <Link href="/care"> Career</Link>
+              <Link href="/career"> Career</Link>
             </li>
-           
             {/* for mobile start */}
             <li className="md:hidden block ">
-              <Link href="/">
+              <Link href="/career">
                 <p className="text-white px-10">Career</p>
               </Link>
             </li>
@@ -160,7 +150,6 @@ const Navbar = () => {
             >
               <Link href="/port"> Portfolio</Link>
             </li>
-            
             {/* for mobile start */}
             <li className="md:hidden block ">
               <Link href="/">
@@ -177,7 +166,6 @@ const Navbar = () => {
             >
               <Link href="/tech"> Technologies</Link>
             </li>
-          
             {/* for mobile start */}
             <li className="md:hidden block ">
               <Link href="/">
@@ -194,7 +182,6 @@ const Navbar = () => {
             >
               <Link href="/serve"> Industry We Serve</Link>
             </li>
-          
             {/* for mobile start */}
             <li className="md:hidden block ">
               <Link href="/">

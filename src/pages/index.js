@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import Footer from "@component/components/common/Footer";
 import Banner from "@component/components/home/Banner";
 import Header from "@component/components/common/Header";
@@ -16,6 +17,9 @@ import Portfolio from "@component/components/home/Portfolio";
 const index = () => {
   return (
     <>
+      <Head>
+        <title>Home Page</title>
+      </Head>
       <Header />
       <div className="pt-[20px]">
         <Banner />
