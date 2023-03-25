@@ -46,10 +46,31 @@ const All = () => {
       designation: "CTO",
       desc: "Everything you’ve ever wanted is on the other side of fear.",
     },
+    {
+      id: 7,
+      image: "/assets/images/advisorone.png",
+      name: "Macauley Herring",
+      designation: "CTO",
+      desc: "Everything you’ve ever wanted is on the other side of fear.",
+    },
+    {
+      id: 8,
+      image: "/assets/images/advisorone.png",
+      name: "Macauley Herring",
+      designation: "CTO",
+      desc: "Everything you’ve ever wanted is on the other side of fear.",
+    },
+    {
+      id: 9,
+      image: "/assets/images/advisorone.png",
+      name: "Macauley Herring",
+      designation: "CTO",
+      desc: "Everything you’ve ever wanted is on the other side of fear.",
+    },
   ];
   return (
     <div className="container-ack">
-      <div className="grid md:grid-cols-3 gap-3 pt-16 pb-10">
+      <div className="grid md:grid-cols-3 md:grid-rows-3 gap-3 pt-16 pb-10">
         {advisors.map((item) => (
           <>
             <div className="group p-6" key="id">

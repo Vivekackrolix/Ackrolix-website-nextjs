@@ -1,4 +1,4 @@
-import List from '@component/components/Advisors/List'
+import List from '@component/components/advisors/List'
 import Footer from '@component/components/common/Footer'
 import Header from '@component/components/common/Header'
 import Heading from '@component/components/common/Heading'

@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="md:text-[9.8rem] text-[3.3rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
           Technologies
         </div>
-        <div className="absolute md:top-[10rem] top-[2.3rem] md:left-[31rem] left-[8rem]">
+        <div className="absolute md:top-[10rem] top-[2.3rem] md:left-[31rem] left-[6rem]">
           <div className="text-3xl  text-center font-bold ">Technologies</div>
         </div>
       </div>
