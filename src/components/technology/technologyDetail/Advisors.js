@@ -1,16 +1,15 @@
-import Link from 'next/link';
-import React from 'react'
-
-const List = () => {
-
-    const advisors = [
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+const Advisors = () => {
+    const advisor = [
         {
           id: 1,
     
           image: "/assets/images/advisorone.png",
           name: "Layan  Alrahmain, M.D.",
           desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-       link:"/advisorDetailPage",
         },
         {
           id: 2,
@@ -18,15 +17,13 @@ const List = () => {
           image: "/assets/images/advisortwo.png",
           name: "Layan  Alrahmain, M.D.",
           desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-       
-          link:"/advisorDetailPage", },
+        },
         {
           id: 3,
     
           image: "/assets/images/advisorthree.png",
           name: "Layan  Alrahmain, M.D.",
           desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-          link:"/advisorDetailPage",
         },
         {
           id: 4,
@@ -34,7 +31,6 @@ const List = () => {
           image: "/assets/images/advisortwo.png",
           name: "Layan  Alrahmain, M.D.",
           desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-          link:"/advisorDetailPage",
         },
         {
           id: 5,
@@ -42,7 +38,6 @@ const List = () => {
           image: "/assets/images/advisorthree.png",
           name: "Layan  Alrahmain, M.D.",
           desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-          link:"/advisorDetailPage",
         },
         {
           id: 6,
@@ -50,16 +45,86 @@ const List = () => {
           image: "/assets/images/advisorone.png",
           name: "Layan  Alrahmain, M.D.",
           desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-          link:"/advisorDetailPage",
         },
       ];
+      const settings = {
+        className: "center",
+        slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        focusOnSelect: true,
+        dots: true,
+        infinite: true,
+        arrows: false,
+        loop: true,
+        autoplay: true,
+        speed: 1000,
+    
+        lazyLoad: true,
+        accessibility: true,
+        cssEase: "ease-out",
+        swipeToSlide: true,
+        // nextArrow: <SampleNextArrow />,
+        // prevArrow: <SamplePrevArrow />,
+    
+        responsive: [
+          {
+            breakpoint: 1080,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              infinite: true,
+            },
+          },
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              infinite: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              initialSlide: 1,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+    
+              speed: 4000,
+            },
+          },
+        ],
+      };
+    
   return (
-    <div className='container-ack'>
-         <div className="grid md:grid-cols-3 gap-3 py-16">
-        {advisors.map((item) => (
+    <div className="container-ack">
+     <div className="relative">
+        <div className="md:text-[10rem] text-[5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
+          Advisors
+        </div>
+        <div className="absolute md:top-[9.5rem] top-5 md:left-[11rem]">
+          <div className="text-3xl  text-center font-bold ">Our Advisors</div>
+          <p className="text-base text-center ">
+            Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
+            tincidunt urna vulputate. Elit amet nam nulla
+          </p>
+        </div>
+      </div>
+
+      <div className="">
+      <Slider {...settings} className=" mx-auto ">
+        {advisor.map((item) => (
           <>
             <div className="group p-6" key="id">
-              <div className="relative text-center py-6 border-2 border-[#F6F8F9] duration duration-200 group-hover:-translate-y-2  hover:drop-shadow-sm hover:bg-[#F6F8F9]/40 hover:border-2 rounded-xl md:h-[27rem]">
+              <div className="relative text-center py-6 border-2 border-[#F6F8F9] duration duration-200 group-hover:-translate-y-2  hover:drop-shadow-sm hover:bg-[#F6F8F9]/40 hover:border-2 rounded-xl">
                 <div className="inline-flex justify-center items-center rounded-md md:mt-8 ">
                   <img
                     src={item.image}
@@ -77,21 +142,18 @@ const List = () => {
                 </p>
 
                 <div className="pb-5">
-                  {/* if link will be used only in one in maping */}
-                  {/* <Link href={item.link ? item?.link : ''}> */}
-                  <Link href={item.link} >
                   <button className="text-black py-2 text-sm border-b group-hover:border-primary group-hover:border-b-2">
                     See More
                   </button>
-                  </Link>
                 </div>
               </div>
             </div>
           </>
         ))}
+        </Slider>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default List
+export default Advisors;
