@@ -125,7 +125,7 @@ const Clients = () => {
       </div>
 
       <div className="py-16">
-        <Slider {...settings} className="testimonialSlider mx-auto">
+        <Slider {...settings} className=" mx-auto">
           {clientsData.map((item) => (
             <>
               <div className="group " key={item}>

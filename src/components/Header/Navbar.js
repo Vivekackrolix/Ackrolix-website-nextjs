@@ -104,7 +104,7 @@ const Navbar = () => {
             </li>
             {/* for mobile start */}
             <li className="md:hidden block ">
-              <Link href="/">
+              <Link href="/experts">
                 <p className="text-white px-10">Our Experts</p>
               </Link>
             </li>
@@ -159,16 +159,16 @@ const Navbar = () => {
             {/* for mobile end */}
             <li
               className={
-                router.pathname == "/tech"
+                router.pathname == "/technology"
                   ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
                   : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
               }
             >
-              <Link href="/tech"> Technologies</Link>
+              <Link href="/technology"> Technologies</Link>
             </li>
             {/* for mobile start */}
             <li className="md:hidden block ">
-              <Link href="/">
+              <Link href="/technology">
                 <p className="text-white px-10">Technologies</p>
               </Link>
             </li>

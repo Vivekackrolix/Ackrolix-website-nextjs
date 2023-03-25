@@ -138,7 +138,7 @@ const Tabs = () => {
                 <div className="">
                   <div>
                     <div className="group p-6" key="id">
-                      <div className="relative text-center  border-2 border-[#F6F8F9] duration duration-200 group-hover:-translate-y-2  hover:drop-shadow-sm hover:bg-[#F6F8F9]/40 hover:border-2 rounded-xl">
+                      <div className="relative text-center  border-2 border-[#F6F8F9] duration duration-200 group-hover:-translate-y-2  hover:drop-shadow-sm hover:bg-[#F6F8F9]/40 hover:border-2 rounded-xl md:h-[26rem]">
                         <div className=" ">
                           <img
                             src={item.image}
