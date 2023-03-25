@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const HeaderLogo = () => {
@@ -70,9 +71,12 @@ const HeaderLogo = () => {
       </div>
 
       <div className="col-span-2 flex justify-end">
-        <button className=" py-2 px-5 rounded-md bg-secondary text-white font-semibold hover:bg-primary">
+        <Link
+          href="/contact"
+          className=" py-2 px-5 rounded-md bg-secondary text-white font-semibold hover:bg-primary"
+        >
           Contact Us
-        </button>
+        </Link>
       </div>
     </div>
   );

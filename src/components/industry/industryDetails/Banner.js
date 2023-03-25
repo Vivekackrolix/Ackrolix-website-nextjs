@@ -5,18 +5,8 @@ const Banner = () => {
   return (
     <div>
       <div className="md:px-0 px-5">
-        <div className="pt-24">
-          <div className="text-4xl  text-center font-bold ">
-            Etiam nulla lectus amet nunc molestie at vulputate.
-          </div>
-          <p className="text-base text-center md:w-[80%] mx-auto pt-3">
-            Nunc convallis semper justo quis tempor. Praesent molestie, lorem
-            sed imperdiet tempor, libero urna semper urna, facilisis vulputate
-            velit arcu vitae mi. Donec ac nisi ex.{" "}
-          </p>
-        </div>
         <div className="">
-          <div className="md:grid grid-cols-2 gap-6 items-center container-ack">
+          <div className="md:grid grid-cols-2 gap-10 items-center container-ack">
             <div className="pb-5 pt-10 relative ">
               <img
                 src="/assets/images/industry/lineCircle.png"
@@ -35,7 +25,7 @@ const Banner = () => {
 
             <div className=" md:px-0 px-2 pb-10 md:pb-0  relative">
               <div className="">
-                <div className="text-3xl   font-bold ">
+                <div className="text-3xl   font-semibold ">
                   Lorem Ipsum dolor sit amet Eget at auctor purus
                 </div>
                 <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4 md:pt-8 pt-4">
@@ -52,11 +42,11 @@ const Banner = () => {
                 </div>
 
                 <div className="pt-4">
-              <button className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md flex items-center">
-                <span className="text-base"> Know More </span>
-                <MdKeyboardArrowRight className=" text-base text-white hover:text-" />
-              </button>
-            </div>
+                  <button className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md flex items-center">
+                    <span className="text-base"> Know More </span>
+                    <MdKeyboardArrowRight className=" text-base text-white hover:text-" />
+                  </button>
+                </div>
               </div>
             </div>
           </div>
