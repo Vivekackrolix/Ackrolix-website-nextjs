@@ -3,11 +3,11 @@ import Head from "next/head";
 import Heading from "@component/components/common/Heading";
 import Header from "@component/components/common/Header";
 import ComponentHead from "@component/components/common/ComponentHead";
-import Card from "@component/components/industry/Card";
 import Band from "@component/components/common/Band";
 import Footer from "@component/components/common/Footer";
 import Banner from "@component/components/industry/industryDetails/Banner";
 import Advisors from "@component/components/common/Advisor";
+import CardSlider from "@component/components/industry/industryDetails/CardSlider";
 
 const industryDetailsPage = () => {
   return (
@@ -28,7 +28,9 @@ const industryDetailsPage = () => {
           head="Work Sample"
           sub="Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas tincidunt urna vulputate. Elit amet nam nulla "
         />
-        <Card />
+
+        <CardSlider />
+
         <ComponentHead
           title="Advisors"
           head="Our Advisors in This Industry"

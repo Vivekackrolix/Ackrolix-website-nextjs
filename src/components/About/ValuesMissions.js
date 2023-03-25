@@ -3,7 +3,7 @@ import React from "react";
 const ValuesMissions = () => {
   return (
     <div className="container-sck">
-      <div className="grid md:grid-cols-5 gap-6 items-center  container-ack  ">
+      <div className="grid md:grid-cols-5 gap-6 items-center  container-ack">
         <div className=" md:col-span-2 md:px-0 px-5 pb-5 md:pb-0  relative">
           <div className="md:text-9xl  text-center md:text-left text-[5rem] text-white tracking-[1rem] texttransparent font-bold  md:pt-10 ">
             Lorem
