@@ -58,8 +58,8 @@ const Card = () => {
                   wherever you are.
                 </p>
                 <Link
-                  href=""
-                  className="text-black hover:underline underline-offset-2 decoration-primary text-sm"
+                  href="/industryDetailsPage"
+                  className="text-black font-semibold hover:underline underline-offset-2 decoration-primary text-sm"
                 >
                   Know More
                 </Link>
