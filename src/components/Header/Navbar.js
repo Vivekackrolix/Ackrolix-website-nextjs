@@ -180,11 +180,11 @@ const Navbar = () => {
                   : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
               }
             >
-              <Link href="/serve"> Industry We Serve</Link>
+              <Link href="/IndustryWeServe"> Industry We Serve</Link>
             </li>
             {/* for mobile start */}
             <li className="md:hidden block ">
-              <Link href="/">
+              <Link href="/IndustryWeServe">
                 <p className="text-white px-10">Industry We Serve</p>
               </Link>
             </li>

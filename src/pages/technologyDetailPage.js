@@ -5,6 +5,7 @@ import Band from "@component/components/common/Band";
 import Banner from "@component/components/technology/technologyDetail/Banner";
 import Section from "@component/components/technology/technologyDetail/Section";
 import React from "react";
+import ComponentHead from "@component/components/common/ComponentHead";
 
 const TechnologyDetailPage = () => {
   return (
@@ -12,8 +13,14 @@ const TechnologyDetailPage = () => {
       <Header />
       <Banner />
       <Section />
-      <Advisors/>
-      <Band/>
+      <ComponentHead
+        title=" Advisors"
+        sub="Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
+            tincidunt urna vulputate. Elit amet nam nulla"
+        head="Our Advisors"
+      />
+      <Advisors />
+      <Band />
       <Footer />
     </div>
   );

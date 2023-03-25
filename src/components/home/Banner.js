@@ -8,18 +8,17 @@ const Banner = () => {
     className: "center",
     centerMode: true,
     infinite: true,
-    centerPadding: "90px",
+    centerPadding: "180px",
     slidesToShow: 1,
-    autoplay: true,
-    autoplaySpeed: 900,
+    autoplay: false,
+    autoplaySpeed: 1000,
     focusOnSelect: true,
     dots: false,
     infinite: true,
     arrows: true,
     loop: true,
     autoplay: true,
-    speed: 1000,
-
+    speed: 1500,
     lazyLoad: true,
     accessibility: true,
     cssEase: "ease-out",
@@ -79,14 +78,11 @@ const Banner = () => {
   ];
 
   return (
-   
-
-   
-    <div className="container-ack md:px-0 px-5">
+    <div className=" md:px-0 px-5 HomePageSlider">
       <Slider {...settings} className="mx-auto relative">
         {clientsData.map((item) => (
           <>
-            <div className="group " key={item}>
+            <div className="group SldrImgDta" key={item}>
               <div className="relative text-center">
                 <div className="">
                   <img
@@ -101,25 +97,23 @@ const Banner = () => {
         ))}
       </Slider>
 
-      <div className="bg-white drop-shadow-md md:px-10 py-12 md:w-[35%] w-[60%] absolute md:top-40 top-28 md:left-24 rounded-lg  md:mt-0 mt-5  px-5 ">
-        <h2 className="text-secondary md:text-5xl text-2xl">
+      <div className="bg-white drop-shadow-md md:px-10 py-12 md:w-[30%] w-[60%] absolute md:top-0 top-0 md:left-14 rounded-lg  md:mt-0 mt-5  px-5 ">
+        <h2 className="text-secondary md:text-3xl text-1xl">
           <span className="text-primary"> Lorem ipsum </span>dolor sit amet Eget
           at auctor purus{" "}
         </h2>
-        <p className="text-textcolor pt-4">
+        <p className="text-textcolor pt-4 text-[15px]">
           Lorem ipsum dolor sit amet consectetur. Mus id quam mauris semper
           viverra hac faucibus morbi quam.
         </p>
-        <div className="pt-12 w-full">
-          <button className="bg-secondary hover:bg-primary text-white px-12 py-4 rounded-md flex items-center">
+        <div className="pt-10 w-full">
+          <button className="bg-secondary hover:bg-primary text-white px-12 py-3 justify-center rounded-md flex items-center w-full text-center">
             <span className="text-base"> View All </span>
             <MdKeyboardArrowRight className=" text-base" />
           </button>
         </div>
       </div>
     </div>
-
-   
   );
 };
 
