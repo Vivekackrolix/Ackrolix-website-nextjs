@@ -756,3 +756,32 @@ h6 {
 .AboutSliderSection {
   position: relative;
 }
+
+.AboutSliderSection .slick-slide.slick-current .SldrDtaAbout {
+  height: 500px;
+}
+
+.SldrDtaAbout {
+  position: relative;
+  display: block;
+  height: 400px;
+  transition: all 1s ease;
+}
+
+.SldrDtaAbout .px-2 {
+  height: 100%;
+}
+
+.SldrDtaAbout .px-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.MemoriesSlider .slick-slide {
+  width: 400px;
+  height: 400px !important;
+  transition: transform 0.4s;
+  position: relative;
+  transform: scale(0.7) translate(640px);
+}
