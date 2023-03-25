@@ -145,7 +145,7 @@ const Testimonial = () => {
                       />
                       <div className="px-4 pt-6">
                         
-                        <div className="text-black text-lg font-text pt-4 text-center">
+                        <div className="text-black font-text pt-4 text-center">
                           {item.para}
                         </div>
                         <div className="text-xl font-semibold pt-3 text-black text-center">

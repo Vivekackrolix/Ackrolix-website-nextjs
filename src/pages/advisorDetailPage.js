@@ -1,4 +1,4 @@
-import DetailPage from '@component/components/Advisors/DetailPage'
+import DetailPage from '@component/components/advisors/DetailPage'
 import Footer from '@component/components/common/Footer'
 import Header from '@component/components/common/Header'
 import Heading from '@component/components/common/Heading'
