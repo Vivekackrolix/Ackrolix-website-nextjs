@@ -645,3 +645,114 @@ h6 {
   padding: 5px 25px;
   border-radius: 5px;
 }
+
+/* Portfolio */
+
+.PortifloClum {
+  margin-top: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.Protfolicol-12 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.Protfolicol-12 .col4RptProfolio {
+  position: relative;
+  width: 32%;
+  height: 250px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #d2d2d280;
+  overflow: hidden;
+}
+
+.Protfolicol-12 .col4RptProfolio:hover .BacimgDtls img {
+  top: -768%;
+}
+
+/* .Protfolicol-12 .col4RptProfolio */
+
+.col4RptProfolio .BacimgDtls {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.col4RptProfolio .BacimgDtls img {
+  border-radius: 5px;
+  top: 0px;
+  width: 100%;
+  position: absolute;
+  transition: all 8s ease;
+}
+
+.col4RptProfolio .BxShow {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  border-radius: 5px;
+  background-color: rgb(0 0 0 / 35%);
+  transition: all 1s ease;
+}
+
+.Protfolicol-12 .col4RptProfolio:hover .BxShow {
+  opacity: 1;
+  visibility: visible;
+}
+
+.BxMnvrSwn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.BxMnvrSwn h5 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.BxMnvrSwn a {
+  font-size: 14px;
+}
+
+/* Home Page Slider */
+
+.HomePageSlider {
+  position: relative;
+  display: block;
+  padding-bottom: 80px;
+  overflow: hidden;
+}
+
+.HomePageSlider .slick-list .slick-slide .SldrImgDta .relative.text-center img {
+  transform: scale(0.9);
+  transition: all 1s ease;
+}
+
+.HomePageSlider
+  .slick-list
+  .slick-slide.slick-active
+  .SldrImgDta
+  .relative.text-center
+  img {
+  transform: scale(1);
+}
+
+/* About Slider Section */
+
+.AboutSliderSection {
+  position: relative;
+}
