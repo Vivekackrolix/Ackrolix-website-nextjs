@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Blogs = () => {
@@ -21,6 +22,8 @@ const Blogs = () => {
           <img src="/assets/images/blogone.png" alt="" className="rounded-md" />
 
           <div>
+
+            <p className="w-full text-base text-textcolor text-justify font-text  pb-4">22 March 2023 </p>
             <h2 className="font-semibold text-lg py-3 text-secondary text-left">
               Lorem ipsum dolor sit amet in maecenas tinc
             </h2>
@@ -32,10 +35,11 @@ const Blogs = () => {
               aliquam.
             </div>
             <div className="pb-5 flex justify-between">
-              <button className="text-black px-6 py-2 text-sm  border-primary border-b-2">
+              <Link href="/blogs">
+              <button className="text-black  py-2 text-sm  border-primary border-b-2">
                 Read More
               </button>
-
+              </Link>
               <div className="flex space-x-4">
                 <svg
                   width="18"
@@ -82,6 +86,7 @@ const Blogs = () => {
 
         <div className="md:grid md:grid-cols-2 gap-12 items-center pt-10 hidden">
           <div>
+          <p className="w-full text-base text-textcolor text-justify font-text  pb-4">22 March 2023 </p>
             <h2 className="font-semibold text-lg py-3 text-secondary text-left">
               Lorem ipsum dolor sit amet in maecenas tinc
             </h2>
@@ -93,7 +98,7 @@ const Blogs = () => {
               aliquam.
             </div>
             <div className="pb-5 flex justify-between">
-              <button className="text-black px-6 py-2 text-sm  border-primary border-b-2">
+              <button className="text-black  py-2 text-sm  border-primary border-b-2">
                 Read More
               </button>
 
@@ -157,6 +162,7 @@ const Blogs = () => {
             />
           </div>{" "}
           <div>
+          <p className="w-full text-base text-textcolor text-justify font-text  pb-4">22 March 2023 </p>
             <h2 className="font-semibold text-lg py-3 text-secondary text-left">
               Lorem ipsum dolor sit amet in maecenas tinc
             </h2>
@@ -168,7 +174,7 @@ const Blogs = () => {
               aliquam.
             </div>
             <div className="pb-5 flex justify-between">
-              <button className="text-black px-6 py-2 text-sm  border-primary border-b-2">
+              <button className="text-black  py-2 text-sm  border-primary border-b-2">
                 Read More
               </button>
 
@@ -224,6 +230,7 @@ const Blogs = () => {
           />
 
           <div>
+          <p className="w-full text-base text-textcolor text-justify font-text  pb-4">22 March 2023 </p>
             <h2 className="font-semibold text-lg py-3 text-secondary text-left">
               Lorem ipsum dolor sit amet in maecenas tinc
             </h2>
@@ -235,7 +242,7 @@ const Blogs = () => {
               aliquam.
             </div>
             <div className="pb-5 flex justify-between">
-              <button className="text-black px-6 py-2 text-sm  border-primary border-b-2">
+              <button className="text-black  py-2 text-sm  border-primary border-b-2">
                 Read More
               </button>
 
