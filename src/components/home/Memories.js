@@ -9,16 +9,14 @@ const Memories = () => {
   const resumeData = [
     { id: "1", sliderImg: "assets/images/memoriesone.png" },
 
-    { id: "2", sliderImg: "assets/images/memoriestwo.png" },
+    { id: "2", sliderImg: "assets/images/memoriesone.png" },
 
     { id: "3", sliderImg: "assets/images/memoriesone.png" },
 
-    { id: "4", sliderImg: "assets/images/memoriestwo.png" },
+    { id: "4", sliderImg: "assets/images/memoriesone.png" },
 
     { id: "5", sliderImg: "assets/images/memoriesone.png" },
   ];
-
- 
 
   const PrevArrow = ({ onClick }) => {
     return (
@@ -26,7 +24,7 @@ const Memories = () => {
         className="arrow prev cursor-pointer text-5xl absolute sm:top-[250px] bg-white text-black border-[1px]  prevarrow rounded-[50%] sm:left-[29%] z-10"
         onClick={onClick}
       >
-         <BiChevronLeft />
+        <BiChevronLeft />
       </div>
     );
   };
@@ -38,13 +36,10 @@ const Memories = () => {
         onClick={onClick}
       >
         <BiChevronRight />
-       
       </div>
     );
   };
 
-
- 
   const [imgslide, setImgslide] = useState(0);
 
   const settings = {
@@ -54,9 +49,9 @@ const Memories = () => {
     infinite: true,
     lazyLoad: true,
     centerMode: true,
-    centerPadding: "0px",
+    centerPadding: "200px",
     speed: 300,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
@@ -64,7 +59,7 @@ const Memories = () => {
       {
         breakpoint: 1080,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
           arrows: true,
@@ -73,7 +68,7 @@ const Memories = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
           arrows: true,
@@ -82,7 +77,7 @@ const Memories = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1,
           arrows: true,
@@ -116,30 +111,21 @@ const Memories = () => {
       </div>
       <div className=" h-screen md:mt-0 mt-10">
         <div className="text-white  mx-auto">
-          <div className="absolute  md:right-20 right-[5%] cursor-pointer top-10 z-20 md:top-10">
-            
-          </div>
-          <div className="pt-28">
+          <div className="absolute  md:right-20 right-[5%] cursor-pointer top-10 z-20 md:top-10"></div>
+          <div className="pt-28 MemoriesSlider">
             <Slider {...settings}>
               {resumeData.map((item, indx) => {
                 return (
                   <div
                     className={
-                      indx === imgslide
-                        ? "scale-100 rounded-sm md:shadow-md  md:shadow-[#fff] opacity-100"
-                        : "opacity-50 scale-75 duration-300"
+                      "scale-100 rounded-sm md:shadow-md md:shadow-[#fff] opacity-100"
                     }
                   >
                     <img
                       alt="Slider"
                       src={item.sliderImg}
-                      className={
-                        indx === imgslide
-                          ? "rounded-sm md:w-full h-[60vh] mx-auto"
-                          : ""
-                      }
+                      className={"rounded-sm md:w-full  mx-auto"}
                     />
-                    
                   </div>
                 );
               })}

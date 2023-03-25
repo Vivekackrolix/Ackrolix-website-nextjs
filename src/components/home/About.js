@@ -34,7 +34,7 @@ const About = () => {
     infinite: true,
     arrows: false,
     loop: true,
-    autoplay: true,
+    autoplay: false,
     speed: 2000,
     lazyLoad: true,
     accessibility: true,
@@ -118,9 +118,9 @@ const About = () => {
 
         <div className="pb-5 pt-10 col-span-3 AboutSliderSection">
           <Slider {...settings} className=" mx-auto">
-            {aboutdata.map((item) => (
+            {aboutdata?.map((item, index) => (
               <>
-                <div className="group py-2 relative SldrDtaAbout" key={item}>
+                <div className="group py-2 relative SldrDtaAbout" key={index}>
                   <div className="px-2">
                     <img
                       src={item.image}
