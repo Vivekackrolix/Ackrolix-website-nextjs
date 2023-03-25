@@ -1,15 +1,16 @@
-import Footer from '@component/components/common/Footer'
-import Navbar from '@component/components/Header/Navbar'
-import React from 'react'
+import BlogDetail from "@component/components/blogs/BlogDetail";
+import Footer from "@component/components/common/Footer";
+import Header from "@component/components/common/Header";
+import React from "react";
 
 const BlogDetailPage = () => {
   return (
     <div>
-      <Navbar/>
-
-      <Footer/>
+      <Header />
+      <BlogDetail />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default BlogDetailPage
+export default BlogDetailPage;

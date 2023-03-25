@@ -6,11 +6,12 @@ import Banner from "@component/components/technology/technologyDetail/Banner";
 import Section from "@component/components/technology/technologyDetail/Section";
 import React from "react";
 import ComponentHead from "@component/components/common/ComponentHead";
+import Heading from "@component/components/common/Heading";
 
 const TechnologyDetailPage = () => {
   return (
     <div>
-      <Header />
+      <Header />     
       <Banner />
       <Section />
       <ComponentHead

@@ -4,10 +4,10 @@ const Heading = () => {
   return (
     <div className="container-ack md:pt-0 md:pb-0 pt-10 pb-5">
       <div className="relative">
-        <div className="md:text-[9.8rem] text-[5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
+        <div className="md:text-[9.8rem] text-[3.3rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
           Technologies
         </div>
-        <div className="absolute md:top-[10rem] top-[4rem] md:left-[31rem] left-[8rem]">
+        <div className="absolute md:top-[10rem] top-[2rem] md:left-[31rem] left-[7rem]">
           <div className="text-3xl  text-center font-bold ">Technologies</div>
         </div>
       </div>
