@@ -1,4 +1,4 @@
-import JobListingCareer from "../components/career/JobListingCareer";
+import JobListingCareer from "../components/Career/JobListingCareer";
 import TopHeaderCareer from "../components/Career/TopHeaderCareer";
 import WhyJoinUsCareer from "../components/Career/WhyJoinUsCareer";
 import Footer from "../components/common/Footer";

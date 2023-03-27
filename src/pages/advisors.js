@@ -1,4 +1,4 @@
-import List from "../components/advisors/List";
+import List from "../components/Advisors/List";
 import Footer from "../components/common/Footer";
 import Header from "../components/common/Header";
 import Heading from "../components/common/Heading";
