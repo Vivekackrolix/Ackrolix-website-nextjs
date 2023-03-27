@@ -1,11 +1,11 @@
-import "@component/styles/globals.css";
-import "@component/styles/careerStyles.css";
-import FloatingButtons from "@component/components/common/FloatingButtons";
+import "../styles/globals.css";
+import "../styles/careerStyles.css";
+import FloatingButtons from "../components/common/FloatingButtons";
 export default function App({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
-      <FloatingButtons/>
+      <FloatingButtons />
     </>
   );
 }

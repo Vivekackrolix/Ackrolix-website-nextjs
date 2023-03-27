@@ -1,12 +1,12 @@
 import React from "react";
 import Head from "next/head";
-import Heading from "@component/components/common/Heading";
-import Header from "@component/components/common/Header";
-import Banner from "@component/components/industry/Banner";
-import ComponentHead from "@component/components/common/ComponentHead";
-import Card from "@component/components/industry/Card";
-import Band from "@component/components/common/Band";
-import Footer from "@component/components/common/Footer";
+import Heading from "../components/common/Heading";
+import Header from "../components/common/Header";
+import Banner from "../components/industry/Banner";
+import ComponentHead from "../components/common/ComponentHead";
+import Card from "../components/industry/Card";
+import Band from "../components/common/Band";
+import Footer from "../components/common/Footer";
 
 const IndustryWeServe = () => {
   return (
