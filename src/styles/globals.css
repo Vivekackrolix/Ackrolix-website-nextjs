@@ -745,11 +745,12 @@ h6 {
 
 .HomePageSlider
   .slick-list
-  .slick-slide.slick-active
+  .slick-slide.slick-center
   .SldrImgDta
   .relative.text-center
   img {
   transform: scale(1);
+  width: 100%;
 }
 
 
@@ -826,58 +827,26 @@ h6 {
   object-fit: cover;
 }
 
-/* .MemoriesSlider .slick-slide {
-  width: 400px;
-  height: 400px !important;
-  transition: transform 0.4s;
-  position: relative;
-  transform: scale(0.7) translate(640px);
-} */
-
-/* Slider Css */
-
-.MemoriesSlider .slick-slide {
-  width: 400px;
-  height: 400px !important;
-  transition: transform 0.4s;
-  position: relative;
+.MemoriesSlider .slick-slide .SldrMemories {
+  transform: scale(0.8);
+  transition: all 1s ease;
 }
 
-.MemoriesSlider .slick-slide {
-  transform: scale(0.7) translate(640px);
-}
-
-.MemoriesSlider .slick-slide.slick-center + .slick-slide {
-  transform: scale(0.8) translate(-250px);
-  z-index: 10;
-}
-
-.MemoriesSlider .slick-slide.slick-center + .slick-slide + .item.slick-slide {
-  transform: scale(0.7) translate(-640px);
-  z-index: 5;
-}
-
-.MemoriesSlider .slick-slide.slick-active {
-  transform: scale(0.8) translate(250px);
-}
-
-.MemoriesSlider .slick-slide.slick-center {
-  /* margin: 0 -10%; */
+.MemoriesSlider .slick-slide.slick-current .SldrMemories {
   transform: scale(1);
-  z-index: 30;
-  /* margin-left: -125px; */
 }
 
-.slick-center:after {
-  opacity: 0;
+.PsAbluteData {
+  position: absolute;
+  max-width: 1150px;
+  margin: auto;
+  width: 100%;
+  left: 50%;
+  top: 0px;
+  transform: translate(-50%, 0px);
 }
 
-.MemoriesSlider {
-  position: relative;
-  z-index: 200;
-  padding: 0 0px;
-  margin: 5rem auto;
-  max-width: 85%;
+.HomePageSlider .slick-slide img {
   width: 100%;
 }
 
