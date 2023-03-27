@@ -4,7 +4,7 @@ import { IoMdCall, IoMdMail } from 'react-icons/io'
 
 const FloatingButtons = () => {
   return (
-    <div className=" fixed flex items-center justify-between w-full  py-5 top-60 z-50">
+    <div className=" fixed flex items-center justify-between py-5 top-60 z-50">
 
     <div className='bg-[#F6F8F9] p-4 rounded-md'>
         <IoMdMail size={28} className="text-black hover:text-primary"/>
