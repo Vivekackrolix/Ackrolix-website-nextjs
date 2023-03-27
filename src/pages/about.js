@@ -1,9 +1,9 @@
-import Banner from "@component/components/about/Banner";
-import Card from "@component/components/about/Card";
-import Section from "@component/components/about/Section";
-import SectionTwo from "@component/components/about/SectionTwo";
-import ValuesMissions from "@component/components/about/ValuesMissions";
-import VideoSection from "@component/components/about/VideoSection";
+import Banner from "@component/components/About/Banner";
+import Card from "@component/components/About/Card";
+import Section from "@component/components/About/Section";
+import SectionTwo from "@component/components/About/SectionTwo";
+import ValuesMissions from "@component/components/About/ValuesMissions";
+import VideoSection from "@component/components/About/VideoSection";
 import Footer from "@component/components/common/Footer";
 import Header from "@component/components/common/Header";
 import Clients from "@component/components/home/Clients";
@@ -14,12 +14,12 @@ const About = () => {
     <div className="">
       <Header />
       <Banner />
-      <Section/>
-      <Card/>
-      <VideoSection/>
-      <ValuesMissions/>
-      <SectionTwo/>
-      <Clients/>
+      <Section />
+      <Card />
+      <VideoSection />
+      <ValuesMissions />
+      <SectionTwo />
+      <Clients />
       <Footer />
     </div>
   );
