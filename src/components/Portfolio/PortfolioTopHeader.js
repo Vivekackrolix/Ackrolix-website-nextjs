@@ -7,7 +7,7 @@ function PortfolioTopHeader() {
       <div className="container-custom">
         <div className="w-full relative">
           <div className="relative">
-            <div class="md:text-[10rem] text-[5rem] leading-[170px] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
+            <div className="md:text-[10rem] text-[5rem] leading-[170px] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
               Portfolio
             </div>
             <div className="psAbsolute"> Portfolio </div>
