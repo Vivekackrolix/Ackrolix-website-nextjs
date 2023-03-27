@@ -6,7 +6,7 @@ export default function TopHeaderCareer() {
       <div className="container-custom  md:px-0 px-5">
         <div className="w-full relative">
           <div className="relative">
-            <div class="md:text-[10rem] text-[5rem] leading-[170px] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
+            <div className="md:text-[10rem] text-[5rem] leading-[170px] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
               Career
             </div>
             <div className="psAbsolute"> Career </div>

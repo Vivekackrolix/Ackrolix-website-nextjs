@@ -35,7 +35,7 @@ const FormSection = () => {
                     name="name"
                     id="name"
                     placeholder="Name"
-                    class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 px-6 text-[#6B7280] outline-none focus:border-primary focus:shadow-md"
+                    className="w-full rounded-md border border-[#e0e0e0] bg-white py-2 px-6 text-[#6B7280] outline-none focus:border-primary focus:shadow-md"
                   />
                 </div>
                 <div>
@@ -44,7 +44,7 @@ const FormSection = () => {
                     name="email"
                     id="email"
                     placeholder="Email"
-                    class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 px-6  text-[#6B7280] outline-none focus:border-primary focus:shadow-md"
+                    className="w-full rounded-md border border-[#e0e0e0] bg-white py-2 px-6  text-[#6B7280] outline-none focus:border-primary focus:shadow-md"
                   />
                 </div>
                 <div>
@@ -53,7 +53,7 @@ const FormSection = () => {
                     name="phone"
                     id="phone"
                     placeholder="Phone Number"
-                    class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 px-6  text-[#6B7280] outline-none focus:border-primary focus:shadow-md"
+                    className="w-full rounded-md border border-[#e0e0e0] bg-white py-2 px-6  text-[#6B7280] outline-none focus:border-primary focus:shadow-md"
                   />
                 </div>
                 <div>
@@ -62,7 +62,7 @@ const FormSection = () => {
                     name="service"
                     id="service"
                     placeholder="Service you looking for?"
-                    class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 px-6  text-[#6B7280] outline-none focus:border-primary focus:shadow-md"
+                    className="w-full rounded-md border border-[#e0e0e0] bg-white py-2 px-6  text-[#6B7280] outline-none focus:border-primary focus:shadow-md"
                   />
                 </div>
                 <div>
@@ -72,7 +72,7 @@ const FormSection = () => {
                     name="message"
                     id="mesage"
                     placeholder="Write your message"
-                    class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 px-6  text-[#6B7280] outline-none focus:border-primary focus:shadow-md"
+                    className="w-full rounded-md border border-[#e0e0e0] bg-white py-2 px-6  text-[#6B7280] outline-none focus:border-primary focus:shadow-md"
                   />
                 </div>
                 <div className="">

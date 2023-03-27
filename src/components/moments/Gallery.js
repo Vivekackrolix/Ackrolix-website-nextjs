@@ -3,7 +3,7 @@ import React from "react";
 const Gallery = () => {
   return (
     <div className="container-ack">
-      <div className="grid grid-cols-3 gap-8 p-5">
+      <div className="md:grid grid-cols-3 gap-8 md:space-y-0 space-y-4 md:px-0 px-5">
         <div className="shadow-lg  rounded-lg">
           <img src="/assets/images/memories/gallery1.png" />
         </div>

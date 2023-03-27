@@ -7,15 +7,11 @@ import { BiChevronLeft } from "react-icons/bi";
 import { BiChevronRight } from "react-icons/bi";
 const Memories = () => {
   const resumeData = [
-    { id: "1", sliderImg: "assets/images/memoriesone.png" },
-
-    { id: "2", sliderImg: "assets/images/memoriesone.png" },
-
-    { id: "3", sliderImg: "assets/images/memoriesone.png" },
-
-    { id: "4", sliderImg: "assets/images/memoriesone.png" },
-
-    { id: "5", sliderImg: "assets/images/memoriesone.png" },
+    { id: 1, sliderImg: "assets/images/memoriesone.png" },
+    { id: 2, sliderImg: "assets/images/memoriesone.png" },
+    { id: 3, sliderImg: "assets/images/memoriesone.png" },
+    { id: 4, sliderImg: "assets/images/memoriesone.png" },
+    { id: 5, sliderImg: "assets/images/memoriesone.png" },
   ];
 
   const PrevArrow = ({ onClick }) => {
@@ -49,10 +45,10 @@ const Memories = () => {
     infinite: true,
     lazyLoad: true,
     centerMode: true,
-    centerPadding: "200px",
+    centerPadding: "0px",
     speed: 300,
     slidesToShow: 2,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
     responsive: [
@@ -117,6 +113,7 @@ const Memories = () => {
               {resumeData.map((item, indx) => {
                 return (
                   <div
+                    key={indx}
                     className={
                       "scale-100 rounded-sm md:shadow-md md:shadow-[#fff] opacity-100"
                     }

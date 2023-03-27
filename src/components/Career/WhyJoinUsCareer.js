@@ -7,7 +7,7 @@ function WhyJoinUsCareer() {
         <div className="whyJoinUsHeading mt-10">
           <div className="col4WhyHding">
             <div className="relative">
-              <div class="md:text-[8rem] text-[5rem] leading-[170px] text-white tracking-wider text-center texttransparent font-bold   ">
+              <div className="md:text-[8rem] text-[5rem] leading-[170px] text-white tracking-wider text-center texttransparent font-bold   ">
                 Why
               </div>
               <div className="psAbsolute"> Why Join Us </div>
