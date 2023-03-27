@@ -20,7 +20,7 @@ function WhyJoinUsCareer() {
           </div>
         </div>
 
-        <div className="flex justify-between w-full whyJoinUs">
+        <div className="md:flex justify-between w-full gap-5 whyJoinUs">
           <div className="col4WhyJon">
             <div className="Icon">
               <img src="/assets/images/career-img/3square.png" />

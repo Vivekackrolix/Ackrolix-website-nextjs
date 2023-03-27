@@ -49,7 +49,7 @@ function JobListingCareer() {
 
   return (
     <>
-      <div className="container-ack ">
+      <div className="container-ack  md:px-0 px-5">
         <div className="relative">
           <div className="md:text-[10rem] text-[5rem] text-[#Fff] tracking-wider text-center texttransparent font-bold  md:pt-10 ">
             Career
@@ -63,9 +63,9 @@ function JobListingCareer() {
           </div>
         </div>
 
-        <div className="flex  justify-between items-center  flex-wrap ">
+        <div className="md:flex  justify-between items-center  flex-wrap ">
           {JobListData.map((JobList, index) => (
-            <div className="border border-[#D2D2D280] p-4 rounded-md w-[49%] mb-6">
+            <div className="border border-[#D2D2D280] p-4 rounded-md md:w-[49%] mb-6 md:mt-0 mt-10">
               <small className="bg-[#090909] text-[#ABABAB] text-[12px] rounded-[20px] py-1 px-3">
                 {" "}
                 Software Development{" "}
@@ -99,7 +99,7 @@ function JobListingCareer() {
                 </span>
               </p>
 
-              <div className="flex justify-between">
+              <div className="md:flex justify-between">
                 <div className="Rmte">
                   <svg
                     width="12"
@@ -130,7 +130,7 @@ function JobListingCareer() {
 
                   <span className="text-textcolor text-[14px]">Full-time</span>
                 </div>
-                <div className="AplyBtnSwh">
+                <div className="AplyBtnSwh md:mt-0 mt-7">
                   <button
                     onClick={openModal}
                     className="bg-secondary text-white px-8 py-1 text-[12px] border border-transparent rounded-md mr-2"
