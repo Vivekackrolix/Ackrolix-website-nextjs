@@ -27,7 +27,7 @@ const Banner = () => {
           <div class="shadow rounded-lg">
             <img src="/assets/images/memories/img1.png" />
           </div>
-          <div class="col-span-2">3</div>
+          <div class="col-span-2"></div>
           <div class="rounded-lg row-span-2">
             <img src="/assets/images/memories/img2.png" />
           </div>
