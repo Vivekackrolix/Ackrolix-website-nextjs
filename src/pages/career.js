@@ -1,10 +1,10 @@
-import Header from "@component/components/common/Header";
+import JobListingCareer from "../components/career/JobListingCareer";
+import TopHeaderCareer from "../components/Career/TopHeaderCareer";
+import WhyJoinUsCareer from "../components/Career/WhyJoinUsCareer";
+import Footer from "../components/common/Footer";
+import Header from "../components/common/Header";
 import Head from "next/head";
 import React from "react";
-import WhyJoinUsCareer from "@component/components/career/WhyJoinUsCareer";
-import JobListingCareer from "@component/components/career/JobListingCareer";
-import Footer from "@component/components/common/Footer";
-import TopHeaderCareer from "@component/components/Career/TopHeaderCareer";
 const career = () => {
   return (
     <div>
