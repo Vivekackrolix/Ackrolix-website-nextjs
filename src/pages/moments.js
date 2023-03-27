@@ -1,7 +1,7 @@
-import Footer from "../components/common/Footer";
-import Header from "../components/common/Header";
-import Banner from "../components/moments/Banner";
-import Gallery from "../components/moments/Gallery";
+import Footer from "../components/Common/Footer";
+import Header from "../components/Common/Header";
+import Banner from "../components/Moments/Banner";
+import Gallery from "../components/Moments/Gallery";
 import React from "react";
 
 const moments = () => {

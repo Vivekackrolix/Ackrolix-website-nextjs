@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
-function JobListingCareer() {
-  const JobListData = [
+
+const JobListData = [
     {
       id: 1,
       name: "Front-end Developer ",
@@ -36,6 +36,7 @@ function JobListingCareer() {
         "Sling Servlerts and JSP Development, Sling Models Services, OSGI/FELIX, Web services creation and Consumption",
     },
   ];
+const JobListingCareers = ()  => {
 
   let [isOpen, setIsOpen] = useState(false);
 
@@ -65,7 +66,7 @@ function JobListingCareer() {
 
         <div className="md:flex  justify-between items-center  flex-wrap ">
           {JobListData.map((JobList, index) => (
-            <div className="border border-[#D2D2D280] p-4 rounded-md md:w-[49%] mb-6 md:mt-0 mt-10">
+            <div key={index} className="border border-[#D2D2D280] p-4 rounded-md md:w-[49%] mb-6 md:mt-0 mt-10">
               <small className="bg-[#090909] text-[#ABABAB] text-[12px] rounded-[20px] py-1 px-3">
                 {" "}
                 Software Development{" "}
@@ -139,7 +140,7 @@ function JobListingCareer() {
                     Apply{" "}
                   </button>
                   <Link
-                    href={"/career_details"}
+                    href={"/careerDetails"}
                     className="bg-white text-black border border-secondary px-5 py-1 text-[12px] rounded-md  hover:bg-black hover:text-white"
                   >
                     {" "}
@@ -302,4 +303,4 @@ function JobListingCareer() {
   );
 }
 
-export default JobListingCareer;
+export default JobListingCareers;

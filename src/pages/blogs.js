@@ -1,8 +1,8 @@
-import Bloglist from "../components/blogs/BlogList";
-import SingleBlog from "../components/blogs/SingleBlog";
-import Footer from "../components/common/Footer";
-import Header from "../components/common/Header";
-import Heading from "../components/common/Heading";
+import Bloglist from "../components/Blogs/BlogList";
+import SingleBlog from "../components/Blogs/SingleBlog";
+import Footer from "../components/Common/Footer";
+import Header from "../components/Common/Header";
+import Heading from "../components/Common/Heading";
 import Head from "next/head";
 import React from "react";
 

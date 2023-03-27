@@ -3,7 +3,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { ImFacebook } from "react-icons/im";
 import { MdArrowRightAlt, MdPlayArrow } from "react-icons/md";
-import Subscription from "../home/Subscription";
+import Subscription from "../Home/Subscription";
 const Footer = () => {
   return (
     <div

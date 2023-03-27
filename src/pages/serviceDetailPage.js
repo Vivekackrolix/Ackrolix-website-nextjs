@@ -1,5 +1,5 @@
-import Footer from "../components/common/Footer";
-import Header from "../components/common/Header";
+import Footer from "../components/Common/Footer";
+import Header from "../components/Common/Header";
 import Banner from "../components/Services/detailPage/Banner";
 import Cards from "../components/Services/detailPage/Cards";
 import Enquiry from "../components/Services/detailPage/Enquiry";

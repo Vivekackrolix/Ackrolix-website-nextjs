@@ -1,13 +1,14 @@
 import React from "react";
-import Header from "../components/common/Header";
+import Header from "../components/Common/Header";
 import { Fragment, useState } from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Dialog, Transition } from "@headlessui/react";
-import JobListingCareer from "../components/career/JobListingCareer";
-import Footer from "../components/common/Footer";
+import JobListingCareers from "../components/Career/JobListingCareers";
+import Footer from "../components/Common/Footer";
 import { AiOutlineClose } from "react-icons/ai";
 import Head from "next/head";
-function career_details() {
+
+const CareerDetails = ()=> {
   let [isOpen, setIsOpen] = useState(false);
 
   function closeModal() {
@@ -276,10 +277,10 @@ function career_details() {
           </div>
         </Dialog>
       </Transition>
-      <JobListingCareer />
+      <JobListingCareers />
       <Footer />
     </>
   );
 }
 
-export default career_details;
+export default CareerDetails;
