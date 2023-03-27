@@ -3,13 +3,13 @@ import React from "react";
 const Banner = () => {
   return (
     <>
-      <div className="container-ack relative h-screen">
-        <div className="absolute">
+      <div className="container-ack relative overflow-hidden md:px-0 px-4">
+        <div className="md:absolute">
           <div className=" md:col-span-2 md:px-0 pb-5 md:pb-0  relative">
             <div className="md:text-9xl text-center md:text-left text-[3rem] text-white tracking-[0.5rem] texttransparent font-bold  md:pt-10 ">
               Memories
             </div>
-            <div className="px-2">
+            <div className="px-2 overflow-hidden">
               <div className="text-3xl font-bold absolute md:top-[5rem] top-[3rem] md:left-2 left-[4rem] text-center md:text-left">
                 Our Memories
               </div>
@@ -22,14 +22,25 @@ const Banner = () => {
           </div>
         </div>
         {/* images section start */}
-        <div class="grid grid-cols-4 gap-4 p-5">
-          <div class="col-span-3"></div>
-          <div class="shadow-lg p-10 rounded-lg">
-            <img src="/assets/images/" />
+        <div className="md:grid grid-cols-4 gap-4 py-5 md:space-y-0 space-y-4">
+          <div className="col-span-3"></div>
+          <div className="shadow rounded-lg">
+            <img src="/assets/images/memories/img1.png" />
           </div>
-          <div class="shadow-lg p-10 rounded-lg">3</div>
-          <div class="shadow-lg p-10 rounded-lg">4</div>
-          <div class="shadow-lg p-10 rounded-lg">5</div>
+          <div className="col-span-2"></div>
+          <div className="rounded-lg row-span-2">
+            <img src="/assets/images/memories/img2.png" />
+          </div>
+          <div className="rounded-lg">
+            <img src="/assets/images/memories/img3.png" />
+          </div>
+          <div className="rounded-lg"></div>
+          <div className="rounded-lg">
+            <img src="/assets/images/memories/img4.png" />
+          </div>
+          <div className="rounded-lg">
+            <img src="/assets/images/memories/img5.png" />
+          </div>
         </div>
         {/* images section end */}
       </div>

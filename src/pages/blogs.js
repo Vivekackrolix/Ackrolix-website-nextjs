@@ -1,15 +1,18 @@
-
-import Bloglist from "@component/components/blogs/BlogList";
-import SingleBlog from "@component/components/blogs/SingleBlog";
-import Footer from "@component/components/common/Footer";
-import Header from "@component/components/common/Header";
-import Heading from "@component/components/common/Heading";
+import Bloglist from "../components/blogs/BlogList";
+import SingleBlog from "../components/blogs/SingleBlog";
+import Footer from "../components/common/Footer";
+import Header from "../components/common/Header";
+import Heading from "../components/common/Heading";
+import Head from "next/head";
 import React from "react";
 
 const Blogs = () => {
   return (
     <div>
       <Header />
+      <Head>
+        <title>Blogs</title>
+      </Head>
       <div
         className=""
         style={{
@@ -23,7 +26,7 @@ const Blogs = () => {
         />
         <SingleBlog />
       </div>
-<Bloglist/>
+      <Bloglist />
       <Footer />
     </div>
   );

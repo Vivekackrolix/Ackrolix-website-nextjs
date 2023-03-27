@@ -10,7 +10,7 @@ const FormSection = () => {
         className="bg-cover"
         style={{ backgroundImage: `url("/assets/images/careerBg.png")` }}
       >
-        <div className="container-ack md:grid grid-cols-2 md:px-0 px-5">
+        <div className="container-ack md:grid grid-cols-2 md:px-0 px-5 md:pt-0 pt-12">
           <div className="col-span-1">
             <div className="relative">
               <div className="md:text-[7rem] text-[5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
@@ -20,14 +20,14 @@ const FormSection = () => {
                 <h2>
                   Get in <span className="text-primary">Touch</span>
                 </h2>
-                <p className=" text-start text-sm md:pr-12">
+                <p className=" md:text-start text-center text-sm md:pr-12">
                   Lorem Ipsum has been the industry's standard dummy text ever
                   since the 1500s, when an unknown printer took a galley
                 </p>
               </div>
             </div>
             {/* form start */}
-            <form>
+            <form className="md:pt-0 pt-7">
               <div className="space-y-4 md:px-16 py-8 text-sm">
                 <div>
                   <input

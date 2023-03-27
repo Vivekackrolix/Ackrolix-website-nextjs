@@ -1,17 +1,17 @@
-import Footer from "@component/components/common/Footer";
-import Header from "@component/components/common/Header";
-import Advisors from "@component/components/technology/technologyDetail/Advisors";
-import Band from "@component/components/common/Band";
-import Banner from "@component/components/technology/technologyDetail/Banner";
-import Section from "@component/components/technology/technologyDetail/Section";
+import Footer from "../components/common/Footer";
+import Header from "../components/common/Header";
+import Advisors from "../components/technology/technologyDetail/Advisors";
+import Band from "../components/common/Band";
+import Banner from "../components/technology/technologyDetail/Banner";
+import Section from "../components/technology/technologyDetail/Section";
 import React from "react";
-import ComponentHead from "@component/components/common/ComponentHead";
-import Heading from "@component/components/common/Heading";
+import ComponentHead from "../components/common/ComponentHead";
+import Heading from "../components/common/Heading";
 
 const TechnologyDetailPage = () => {
   return (
     <div>
-      <Header />     
+      <Header />
       <Banner />
       <Section />
       <ComponentHead

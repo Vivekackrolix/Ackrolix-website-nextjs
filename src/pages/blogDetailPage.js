@@ -1,6 +1,6 @@
-import BlogDetail from "@component/components/blogs/BlogDetail";
-import Footer from "@component/components/common/Footer";
-import Header from "@component/components/common/Header";
+import BlogDetail from "../components/blogs/BlogDetail";
+import Footer from "../components/common/Footer";
+import Header from "../components/common/Header";
 import React from "react";
 
 const BlogDetailPage = () => {

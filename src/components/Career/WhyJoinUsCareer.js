@@ -7,7 +7,7 @@ function WhyJoinUsCareer() {
         <div className="whyJoinUsHeading mt-10">
           <div className="col4WhyHding">
             <div className="relative">
-              <div class="md:text-[8rem] text-[5rem] leading-[170px] text-white tracking-wider text-center texttransparent font-bold   ">
+              <div className="md:text-[8rem] text-[5rem] leading-[170px] text-white tracking-wider text-center texttransparent font-bold   ">
                 Why
               </div>
               <div className="psAbsolute"> Why Join Us </div>
@@ -20,7 +20,7 @@ function WhyJoinUsCareer() {
           </div>
         </div>
 
-        <div className="flex justify-between w-full whyJoinUs">
+        <div className="md:flex justify-between w-full gap-5 whyJoinUs">
           <div className="col4WhyJon">
             <div className="Icon">
               <img src="/assets/images/career-img/3square.png" />
