@@ -10,13 +10,13 @@ const FormSection = () => {
         className="bg-cover"
         style={{ backgroundImage: `url("/assets/images/careerBg.png")` }}
       >
-        <div className="container-ack md:grid grid-cols-2">
+        <div className="container-ack md:grid grid-cols-2 md:px-0 px-5">
           <div className="col-span-1">
             <div className="relative">
               <div className="md:text-[7rem] text-[5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
                 Connect
               </div>
-              <div className="absolute md:top-28 top-5 left-16 text-3xl  text-center font-semibold flex flex-col space-y-6 items-start">
+              <div className="absolute md:top-28 top-10 left-16 text-3xl  text-center font-semibold flex flex-col md:space-y-6 items-start">
                 <h2>
                   Get in <span className="text-primary">Touch</span>
                 </h2>
@@ -28,7 +28,7 @@ const FormSection = () => {
             </div>
             {/* form start */}
             <form>
-              <div className="space-y-4 px-16 py-8 text-sm">
+              <div className="space-y-4 md:px-16 py-8 text-sm">
                 <div>
                   <input
                     type="text"
@@ -83,7 +83,7 @@ const FormSection = () => {
               </div>
             </form>
             {/* form end */}
-            <div className="grid grid-cols-3 gap-4 pl-16 pb-4">
+            <div className="grid md:grid-cols-3 gap-4 pl-16 pb-4">
               <div className="flex space-x-2">
                 <BiPhoneCall size={25} />
                 <div className="text-xs">
