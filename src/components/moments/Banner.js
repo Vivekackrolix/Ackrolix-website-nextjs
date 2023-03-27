@@ -22,23 +22,23 @@ const Banner = () => {
           </div>
         </div>
         {/* images section start */}
-        <div class="grid grid-cols-4 gap-4 py-5">
-          <div class="col-span-3"></div>
-          <div class="shadow rounded-lg">
+        <div className="grid grid-cols-4 gap-4 py-5">
+          <div className="col-span-3"></div>
+          <div className="shadow rounded-lg">
             <img src="/assets/images/memories/img1.png" />
           </div>
-          <div class="col-span-2"></div>
-          <div class="rounded-lg row-span-2">
+          <div className="col-span-2"></div>
+          <div className="rounded-lg row-span-2">
             <img src="/assets/images/memories/img2.png" />
           </div>
-          <div class="rounded-lg">
+          <div className="rounded-lg">
             <img src="/assets/images/memories/img3.png" />
           </div>
-          <div class="rounded-lg"></div>
-          <div class="rounded-lg">
+          <div className="rounded-lg"></div>
+          <div className="rounded-lg">
             <img src="/assets/images/memories/img4.png" />
           </div>
-          <div class="rounded-lg">
+          <div className="rounded-lg">
             <img src="/assets/images/memories/img5.png" />
           </div>
         </div>
