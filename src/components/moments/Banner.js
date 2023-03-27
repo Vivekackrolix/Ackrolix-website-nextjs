@@ -23,11 +23,13 @@ const Banner = () => {
         </div>
         {/* images section start */}
         <div class="grid grid-cols-4 gap-4 p-5">
-          <div class="shadow-lg  p-10 rounded-lg row-span-2">1</div>
-          <div class="shadow-lg p-10 rounded-lg">2</div>
-          <div class="shadow-lg p-10 rounded-lg row-span-2">3</div>
+          <div class="col-span-3"></div>
+          <div class="shadow-lg p-10 rounded-lg">
+            <img src="/assets/images/" />
+          </div>
+          <div class="shadow-lg p-10 rounded-lg">3</div>
           <div class="shadow-lg p-10 rounded-lg">4</div>
-          <div class="shadow-lg p-10 rounded-lg col-span-3">5</div>
+          <div class="shadow-lg p-10 rounded-lg">5</div>
         </div>
         {/* images section end */}
       </div>
