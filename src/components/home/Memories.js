@@ -40,13 +40,13 @@ const Memories = () => {
 
   const settings = {
     dots: false,
-    AutoPlay: true,
+    autoplay: true,
     className: "center",
     infinite: true,
     lazyLoad: true,
     centerMode: true,
     centerPadding: "0px",
-    speed: 300,
+    speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
     prevArrow: <PrevArrow />,
@@ -105,62 +105,27 @@ const Memories = () => {
           </p>
         </div>
       </div>
-      <div className=" h-screen md:mt-0 mt-10">
+      <div className=" md:mt-0 mt-10">
         <div className="text-white  mx-auto">
           <div className="absolute  md:right-20 right-[5%] cursor-pointer top-10 z-20 md:top-10"></div>
-          <div className="pt-28 MemoriesSlider">
+          <div className="pt-15 MemoriesSlider">
             <Slider {...settings}>
-              {/* {resumeData.map((item, indx) => { */}
-              {/* return ( */}
-              <div
-                className={
-                  "scale-100 rounded-sm md:shadow-md md:shadow-[#fff] opacity-100"
-                }
-              >
-                <img
-                  alt="Slider"
-                  src="/assets/images/memoriesone.png"
-                  className={"rounded-sm md:w-full  mx-auto"}
-                />
-              </div>
-
-              <div
-                className={
-                  "scale-100 rounded-sm md:shadow-md md:shadow-[#fff] opacity-100"
-                }
-              >
-                <img
-                  alt="Slider"
-                  src="/assets/images/memoriesone.png"
-                  className={"rounded-sm md:w-full  mx-auto"}
-                />
-              </div>
-
-              <div
-                className={
-                  "scale-100 rounded-sm md:shadow-md md:shadow-[#fff] opacity-100"
-                }
-              >
-                <img
-                  alt="Slider"
-                  src="/assets/images/memoriesone.png"
-                  className={"rounded-sm md:w-full  mx-auto"}
-                />
-              </div>
-
-              <div
-                className={
-                  "scale-100 rounded-sm md:shadow-md md:shadow-[#fff] opacity-100"
-                }
-              >
-                <img
-                  alt="Slider"
-                  src="/assets/images/memoriesone.png"
-                  className={"rounded-sm md:w-full  mx-auto"}
-                />
-              </div>
-              {/* ); */}
-              {/* })} */}
+              {resumeData.map((item, indx) => {
+                return (
+                  <div
+                    key={indx}
+                    className={
+                      "scale-100 SldrMemories rounded-sm md:shadow-md md:shadow-[#fff] opacity-100"
+                    }
+                  >
+                    <img
+                      alt="Slider"
+                      src={item.sliderImg}
+                      className={"rounded-sm md:w-full  mx-auto"}
+                    />
+                  </div>
+                );
+              })}
             </Slider>
           </div>
         </div>
