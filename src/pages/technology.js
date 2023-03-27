@@ -3,6 +3,7 @@ import Header from '@component/components/common/Header'
 import Backend from '@component/components/technology/Backend'
 import Heading from '@component/components/technology/Heading'
 import Section from '@component/components/technology/Section'
+
 import Head from 'next/head'
 import React from 'react'
 
@@ -16,7 +17,7 @@ const Technology = () => {
        <Heading/>
       <Section/>
       <Backend/>
-        <Footer/>
+        <Footer/> 
     </div>
   )
 }
