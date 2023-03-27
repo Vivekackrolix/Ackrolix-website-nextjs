@@ -9,7 +9,7 @@ const Location = () => {
             Locations
           </div>
           <div className="">
-            <div className="text-3xl   font-bold absolute md:top-[5rem] top-[3rem] md:left-2 left-[4rem] text-center md:text-left">
+            <div className="text-3xl text-secondary font-bold absolute md:top-[5rem] top-[2rem] md:left-2 left-[4rem] text-center md:text-left">
               Global <span className="text-primary">Spread</span>
             </div>
             <div className=" w-[90%] text-base text-textcolor font-text  pb-4">
