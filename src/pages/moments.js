@@ -1,6 +1,6 @@
 import Footer from "@component/components/common/Footer";
 import Header from "@component/components/common/Header";
-import Banner from "@component/components/moments/banner";
+import Banner from "@component/components/moments/Banner";
 import Gallery from "@component/components/moments/Gallery";
 import React from "react";
 
