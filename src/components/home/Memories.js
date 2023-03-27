@@ -42,7 +42,7 @@ const Memories = () => {
     dots: false,
     AutoPlay: true,
     className: "center",
-    infinite: false,
+    infinite: true,
     lazyLoad: true,
     centerMode: true,
     centerPadding: "0px",
