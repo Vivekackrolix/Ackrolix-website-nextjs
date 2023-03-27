@@ -3,7 +3,7 @@ import Header from "../components/common/Header";
 import { Fragment, useState } from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Dialog, Transition } from "@headlessui/react";
-import JobListingCareer from "../components/career/JobListingCareer";
+import JobListingCareer from "../components/Career/JobListingCareer";
 import Footer from "../components/common/Footer";
 import { AiOutlineClose } from "react-icons/ai";
 import Head from "next/head";
