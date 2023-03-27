@@ -50,7 +50,6 @@ const Advisors = () => {
   const settings = {
     className: "center",
     slidesToShow: 3,
-    autoplay: true,
     autoplaySpeed: 1000,
     focusOnSelect: true,
     dots: true,

@@ -7,11 +7,9 @@ const Banner = () => {
   const settings = {
     className: "center",
     centerMode: true,
-    infinite: true,
     centerPadding: "180px",
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
     autoplaySpeed: 1000,
     focusOnSelect: true,
     dots: false,

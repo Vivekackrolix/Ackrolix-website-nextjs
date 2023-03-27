@@ -57,7 +57,6 @@ const Advisors = () => {
     infinite: true,
     arrows: false,
     loop: true,
-    autoplay: true,
     speed: 1000,
 
     lazyLoad: true,
