@@ -152,7 +152,7 @@ const Navbar = () => {
             </li>
             {/* for mobile start */}
             <li className="md:hidden block ">
-              <Link href="/">
+              <Link href="/portfolio">
                 <p className="text-white px-10">Portfolio</p>
               </Link>
             </li>

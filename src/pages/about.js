@@ -7,11 +7,15 @@ import VideoSection from "@component/components/about/VideoSection";
 import Footer from "@component/components/common/Footer";
 import Header from "@component/components/common/Header";
 import Clients from "@component/components/home/Clients";
+import Head from "next/head";
 import React from "react";
 
 const About = () => {
   return (
     <div className="">
+       <Head>
+        <title>About Us</title>
+      </Head>
       <Header />
       <Banner />
       <Section />

@@ -4,12 +4,16 @@ import SingleBlog from "@component/components/blogs/SingleBlog";
 import Footer from "@component/components/common/Footer";
 import Header from "@component/components/common/Header";
 import Heading from "@component/components/common/Heading";
+import Head from "next/head";
 import React from "react";
 
 const Blogs = () => {
   return (
     <div>
       <Header />
+      <Head>
+        <title>Blogs</title>
+      </Head>
       <div
         className=""
         style={{

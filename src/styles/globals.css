@@ -440,11 +440,12 @@ h6 {
 }
 
 .HdingAboutMeDta {
-  width: 40%;
   position: relative;
   display: block;
   margin: 0 auto;
 }
+
+
 
 .HdingAboutMeDta p {
   text-align: center;
@@ -751,6 +752,53 @@ h6 {
   transform: scale(1);
 }
 
+
+@media only screen and (min-width: 320px) and (max-width: 480px){ 
+  .psAbsolute{
+    width: 100%;
+  text-align: center;
+  top: 33%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+  }
+
+  .whyJoinUsHeading{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .txthding{
+    width: 100%;
+  }
+  .whyJoinUs .col4WhyJon{
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  .Protfolicol-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .Protfolicol-12 .col4RptProfolio{
+    width: 100%;
+    margin-top: 30px;
+  }
+  .HdingAboutMeDta.Profolio{
+    width: 100%;
+  }
+ }
+
+
 /* About Slider Section */
 
 .AboutSliderSection {
@@ -844,3 +892,14 @@ h6 {
   max-width: 85%;
   width: 100%;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px){  
+
+  .HdingAboutMeDta {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+ }
+
