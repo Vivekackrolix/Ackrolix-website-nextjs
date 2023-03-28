@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { IoMdThermometer } from "react-icons/io";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import Link from "next/link";
 
 const aboutdata = [
   {
@@ -27,14 +28,16 @@ const aboutdata = [
 const About = () => {
   const settings = {
     className: "center",
-    slidesToShow: 2.1,
+    slidesToShow: 2,
+    slidesToScroll: 1,
     centerMode: false,
-    focusOnSelect: true,
+    focusOnSelect: false,
     dots: true,
     infinite: true,
     arrows: false,
     loop: true,
-    autoplay: false,
+    autoplay: true,
+    autoplaySpeed: 1000,
     speed: 2000,
     lazyLoad: true,
     accessibility: true,
@@ -82,7 +85,7 @@ const About = () => {
   };
 
   return (
-    <div className="bg-[#F6F8F9]">
+    <div className="bg-[#F6F8F9] h-screen">
       <div className="md:grid grid-cols-5 gap-6 items-center  hidden ">
         <div className="col-span-2 md:px-0 px-5 pb-10 md:pb-0  relative">
           <div className="md:text-[9.5em] text-[#F6F8F9] tracking-wider texttransparent font-bold  md:pt-10 ">
@@ -107,10 +110,12 @@ const About = () => {
                 massa gravida.{" "}
               </p>
               <div className="pt-4">
+                <Link href="/about">
                 <button className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md flex items-center">
                   <span className="text-base"> Know More </span>
                   <MdKeyboardArrowRight className=" text-base text-white hover:text-" />
                 </button>
+                </Link>
               </div>
             </div>
           </div>

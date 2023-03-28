@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BiChevronLeft } from "react-icons/bi";
 import { BiChevronRight } from "react-icons/bi";
+import Link from "next/link";
 const Memories = () => {
   const resumeData = [
     { id: 1, sliderImg: "assets/images/memoriesone.png" },
@@ -130,13 +131,14 @@ const Memories = () => {
           </div>
         </div>
       </div>
-
-      <div className="flex justify-center md:pt-4">
-        <button className="bg-secondary hover:bg-primary text-white px-12 py-2 rounded-md flex items-center">
-          <span className="text-base"> View All </span>
-          <MdKeyboardArrowRight className=" text-base" />
-        </button>
-      </div>
+      <Link href="/moments">
+        <div className="flex justify-center md:pt-4">
+          <button className="bg-secondary hover:bg-primary text-white px-12 py-2 rounded-md flex items-center">
+            <span className="text-base"> View All </span>
+            <MdKeyboardArrowRight className=" text-base" />
+          </button>
+        </div>
+      </Link>
     </div>
   );
 };

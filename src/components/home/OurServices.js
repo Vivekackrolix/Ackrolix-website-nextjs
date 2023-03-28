@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
@@ -32,12 +33,14 @@ const OurServices = () => {
                     ultrices id enim lectus sagittis viverra interdum.
                   </div>
                 </div>
+                <Link href="/services">
                 <div className="pt-4 flex justify-center">
                   <button className="bg-transparent hover:bg-secondary text-white border border-white px-8 py-2 rounded-md flex items-center">
                     <span className="text-base"> Know More </span>
                     <MdKeyboardArrowRight className=" text-base" />
                   </button>
                 </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -62,12 +65,14 @@ const OurServices = () => {
                     ultrices id enim lectus sagittis viverra interdum.
                   </div>
                 </div>
+                <Link href="/services">
                 <div className="pt-4 flex justify-center">
                   <button className="bg-transparent hover:bg-secondary text-white border border-white px-8 py-2 rounded-md flex items-center">
                     <span className="text-base"> Know More </span>
                     <MdKeyboardArrowRight className=" text-base" />
                   </button>
                 </div>
+                </Link>
               </div>
             </div>
           </div>
