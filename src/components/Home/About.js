@@ -88,14 +88,18 @@ const About = () => {
     <div className="bg-[#F6F8F9] h-screen">
       <div className="md:grid grid-cols-5 gap-6 items-center  hidden ">
         <div className="col-span-2 md:px-0 px-5 pb-10 md:pb-0  relative">
-          <div className="md:text-[9.5em] text-[#F6F8F9] tracking-wider texttransparent font-bold  md:pt-10 ">
-            About
-          </div>
-          <div className="">
-            <div className="text-3xl  leading-relaxed font-light left-[3em]  absolute top-[8.5rem] ">
+          <div className="relative">
+            <div className="md:text-[8rem] text-[5rem] tracking-wider text-left texttransparent font-bold  md:pt-10 ">
               About
             </div>
-            <div className="md:w-[95%] pl-20 w-full text-base text-textcolor text-justify font-text  pb-4">
+            <div className="absolute md:top-[6.7rem] top-[4rem] left-[4em]  inset-x-0 flex justify-left">
+              <div className="text-[46px]  text-left font-bold max-w-xl">
+                About
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <div className="md:w-[95%] pl-16 w-full text-base text-textcolor text-justify font-text  pb-4">
               <p className="mb-2">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
@@ -111,10 +115,10 @@ const About = () => {
               </p>
               <div className="pt-4">
                 <Link href="/about">
-                <button className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md flex items-center">
-                  <span className="text-base"> Know More </span>
-                  <MdKeyboardArrowRight className=" text-base text-white hover:text-" />
-                </button>
+                  <button className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md flex items-center">
+                    <span className="text-base"> Know More </span>
+                    <MdKeyboardArrowRight className=" text-base text-white hover:text-" />
+                  </button>
                 </Link>
               </div>
             </div>

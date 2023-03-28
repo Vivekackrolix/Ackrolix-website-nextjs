@@ -93,13 +93,13 @@ const Banner = () => {
           </>
         ))}
       </Slider>
-      <div className="PsAbluteData">
-        <div className="bg-white drop-shadow-md md:px-10 py-12 md:w-[30%] w-[60%] absolute md:top-0 top-0 md:left-0 rounded-lg  md:mt-0 mt-5  px-5 ">
-          <h2 className="text-secondary md:text-3xl text-1xl">
+      <div className="">
+        <div className="bg-white drop-shadow-md md:px-10 py-12 md:w-[33%] w-[60%] absolute md:top-0 top-0 md:left-[3.6rem] rounded-lg  mt-5  px-5 ">
+          <h2 className="text-secondary md:text-[34px] text-xl font-bold leading-[1.2]">
             <span className="text-primary"> Lorem ipsum </span>dolor sit amet
             Eget at auctor purus{" "}
           </h2>
-          <p className="text-textcolor pt-4 text-[15px]">
+          <p className="text-textcolor pt-4 text-[15px] text-justify">
             Lorem ipsum dolor sit amet consectetur. Mus id quam mauris semper
             viverra hac faucibus morbi quam.
           </p>

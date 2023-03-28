@@ -4,7 +4,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { ImFacebook } from "react-icons/im";
 import { IoMdCall, IoMdMail } from "react-icons/io";
-import{GoLocation} from "react-icons/go";
+import { GoLocation } from "react-icons/go";
 import { MdArrowRightAlt, MdPlayArrow } from "react-icons/md";
 import Subscription from "../Home/Subscription";
 const Footer = () => {
@@ -78,27 +78,27 @@ const Footer = () => {
                 <ul className="">
                   <Link href="/">
                     <li className="pt-4 text-sm hover:text-primary">
-                      <h2 className="">Home</h2>
+                      <span className="">Home</span>
                     </li>
                   </Link>
                   <Link href="/about">
                     <li className="pt-4 text-sm hover:text-primary">
-                      <h2 className="">About</h2>
+                      <span className="">About</span>
                     </li>
                   </Link>
                   <Link href="/services">
                     <li className="pt-4 text-sm hover:text-primary">
-                      <h2 className="">Our Expertise</h2>
+                      <span className="">Our Expertise</span>
                     </li>
                   </Link>
                   <Link href="/advisors">
                     <li className="pt-4 text-sm hover:text-primary">
-                      <h2 className="">Advisors</h2>
+                      <span className="">Advisors</span>
                     </li>
                   </Link>
                   <Link href="/experts">
                     <li className="pt-4 text-sm hover:text-primary">
-                      <h2 className="">Our Experts</h2>
+                      <span className="">Our Experts</span>
                     </li>
                   </Link>
                 </ul>
@@ -106,27 +106,27 @@ const Footer = () => {
                 <ul className="">
                   <Link href="/moments">
                     <li className="pt-4 text-sm hover:text-primary">
-                      <h2 className="">Moments</h2>
+                      <span className="">Moments</span>
                     </li>
                   </Link>
                   <Link href="/career">
                     <li className="pt-4 text-sm hover:text-primary">
-                      <h2 className="">Career</h2>
+                      <span className="">Career</span>
                     </li>
                   </Link>
                   <Link href="/portfolio">
                     <li className="pt-4 text-sm hover:text-primary">
-                      <h2 className="">Portfolio</h2>
+                      <span className="">Portfolio</span>
                     </li>
                   </Link>
                   <Link href="/technology">
                     <li className="pt-4 text-sm hover:text-primary">
-                      <h2 className="">Technologies</h2>
+                      <span className="">Technologies</span>
                     </li>
                   </Link>
                   <Link href="/industryWeServe">
                     <li className="pt-4 text-sm hover:text-primary">
-                      <h2 className="">Industry We Serve</h2>
+                      <span className="">Industry We Serve</span>
                     </li>
                   </Link>
                 </ul>
@@ -137,7 +137,10 @@ const Footer = () => {
               <div className="flex space-x-10 py-4">
                 <ul className="">
                   <li className="flex space-x-2 items-center pt-4 group cursor-pointer">
-                    <GoLocation size={24} className="text-black group-hover:text-primary mt-3"/>
+                    <GoLocation
+                      size={24}
+                      className="text-black group-hover:text-primary mt-3"
+                    />
 
                     <h2 className="text-sm md:w-[90%]">
                       359, Sector 28, Golf Course Road Gurugram -122001 Haryana
@@ -146,14 +149,20 @@ const Footer = () => {
                   </li>
                   <Link href="tel:+918178567042">
                     <li className="flex space-x-2 items-center pt-6 group">
-                    <IoMdCall size={28} className="text-black group-hover:text-primary mt-3"/>
-                      <h2 className="text-sm">+91-8178567042</h2>
+                      <IoMdCall
+                        size={28}
+                        className="text-black group-hover:text-primary mt-3"
+                      />
+                      <span className="text-sm">+91-8178567042</span>
                     </li>
                   </Link>
                   <Link href="mailto:info@ackrolix.com">
                     <li className="flex space-x-2 items-center pt-6 group">
-                    <IoMdMail size={28} className="text-black group-hover:text-primary"/>
-                      <h2 className="text-sm">Info@ackrolix.com</h2>
+                      <IoMdMail
+                        size={28}
+                        className="text-black group-hover:text-primary"
+                      />
+                      <span className="text-sm">Info@ackrolix.com</span>
                     </li>
                   </Link>
                 </ul>
@@ -176,10 +185,10 @@ const Footer = () => {
                   <path d="M7.25 0.84375C3.2648 0.84375 0.03125 3.75426 0.03125 7.34063C0.03125 13.1156 7.25 21.0562 7.25 21.0562C7.25 21.0562 14.4688 13.1156 14.4688 7.34063C14.4688 3.75426 11.2352 0.84375 7.25 0.84375ZM7.25 10.95C6.67891 10.95 6.12064 10.7807 5.64579 10.4634C5.17094 10.1461 4.80085 9.69512 4.5823 9.1675C4.36375 8.63988 4.30657 8.0593 4.41798 7.49918C4.5294 6.93906 4.80441 6.42455 5.20823 6.02073C5.61205 5.61691 6.12656 5.3419 6.68668 5.23048C7.2468 5.11907 7.82738 5.17625 8.355 5.3948C8.88262 5.61335 9.33359 5.98344 9.65087 6.45829C9.96815 6.93314 10.1375 7.49141 10.1375 8.0625C10.1367 8.82806 9.83218 9.56202 9.29085 10.1033C8.74952 10.6447 8.01556 10.9492 7.25 10.95Z" />
                 </svg>
 
-                <h2 className="text-sm md:w-[90%]">
+                <span className="text-sm md:w-[90%]">
                   359, Sector 28, Golf Course Road Gurugram -122001 Haryana
                   India
-                </h2>
+                </span>
               </div>
 
               <div className="flex space-x-2 items-center pt-4">
@@ -212,10 +221,10 @@ const Footer = () => {
                   <path d="M7.25 0.84375C3.2648 0.84375 0.03125 3.75426 0.03125 7.34063C0.03125 13.1156 7.25 21.0562 7.25 21.0562C7.25 21.0562 14.4688 13.1156 14.4688 7.34063C14.4688 3.75426 11.2352 0.84375 7.25 0.84375ZM7.25 10.95C6.67891 10.95 6.12064 10.7807 5.64579 10.4634C5.17094 10.1461 4.80085 9.69512 4.5823 9.1675C4.36375 8.63988 4.30657 8.0593 4.41798 7.49918C4.5294 6.93906 4.80441 6.42455 5.20823 6.02073C5.61205 5.61691 6.12656 5.3419 6.68668 5.23048C7.2468 5.11907 7.82738 5.17625 8.355 5.3948C8.88262 5.61335 9.33359 5.98344 9.65087 6.45829C9.96815 6.93314 10.1375 7.49141 10.1375 8.0625C10.1367 8.82806 9.83218 9.56202 9.29085 10.1033C8.74952 10.6447 8.01556 10.9492 7.25 10.95Z" />
                 </svg>
 
-                <h2 className="text-sm md:w-[90%]">
+                <span className="text-sm md:w-[90%]">
                   359, Sector 28, Golf Course Road Gurugram -122001 Haryana
                   India
-                </h2>
+                </span>
               </div>
             </div>
           </div>

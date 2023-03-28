@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { BiChevronLeft } from "react-icons/bi";
 import { BiChevronRight } from "react-icons/bi";
 import Link from "next/link";
+import ComponentHead from "../Common/ComponentHead";
 const Memories = () => {
   const resumeData = [
     { id: 1, sliderImg: "assets/images/memoriesone.png" },
@@ -94,19 +95,12 @@ const Memories = () => {
 
   return (
     <div className="container-ack md:px-0 px-5 md:pt-0 pt-16">
-      <div className="relative">
-        <div className="md:text-[10rem] text-[5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
-          Memories
-        </div>
-        <div className="absolute  md:top-[9.5rem] top-5 md:left-[11rem]">
-          <div className="text-3xl  text-center font-bold ">Our Memories</div>
-          <p className="text-base text-center ">
-            Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
-            tincidunt urna vulputate. Elit amet nam nulla
-          </p>
-        </div>
-      </div>
-      <div className=" md:mt-0 mt-10">
+      <ComponentHead
+        title="Memories"
+        sub="Our Memories"
+        head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+      />
+      <div className="mt-10">
         <div className="text-white  mx-auto">
           <div className="absolute  md:right-20 right-[5%] cursor-pointer top-10 z-20 md:top-10"></div>
           <div className="pt-15 MemoriesSlider">

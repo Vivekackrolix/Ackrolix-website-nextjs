@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import ComponentHead from "../Common/ComponentHead";
 
 const Advisors = () => {
   const advisor = [
@@ -56,18 +57,12 @@ const Advisors = () => {
 
   return (
     <div className="container-ack md:px-0 px-5 md:pt-0 pt-16">
-      <div className="relative">
-        <div className="md:text-[10rem] text-[5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
-          Advisors
-        </div>
-        <div className="absolute md:top-[9.5rem] top-5 md:left-[11rem]">
-          <div className="text-3xl  text-center font-bold ">Our Advisors</div>
-          <p className="text-base text-center ">
-            Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
-            tincidunt urna vulputate. Elit amet nam nulla
-          </p>
-        </div>
-      </div>
+       <ComponentHead
+        title="Advisors"
+        sub="Our Advisors"
+        head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+      />
+      
       <div className="grid md:grid-cols-3 gap-3">
         {advisor.map((item, e) => (
           <>
@@ -85,7 +80,7 @@ const Advisors = () => {
                   {item.name}
                 </h2>
 
-                <p className="text-black/50 group-hover:text-black py-2 pb-4  text-center px-3 text-sm ">
+                <p className="text-black/50 group-hover:text-black py-2 pb-4  text-justify tracking-tighter px-3 text-sm ">
                   {item.desc}
                 </p>
                 <Link href={item.link}>

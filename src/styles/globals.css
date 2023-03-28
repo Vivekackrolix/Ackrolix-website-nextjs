@@ -167,9 +167,16 @@ h6 {
 /* navbar end */
 
 .texttransparent {
-  text-shadow: -1px -1px 0 #0d0d0d38, 1px -1px 0 #0d0d0d38, -1px 1px 0 #0d0d0d38,
-    1px 1px 0 #0d0d0d38;
+  color: transparent;
+  -webkit-text-stroke: 1px #e2e2e2;
+  line-height: 1.1;
 }
+
+.shadowbox{
+  box-shadow: 0px 0.6px 3px 6px #00000023;
+}
+
+
 
 /* cards leader */
 
@@ -418,7 +425,7 @@ h6 {
 /* cards end */
 
 .svgimg {
-  fill: #090909;
+  fill: #1c1e22;
 }
 
 .svgimg:hover {
@@ -444,8 +451,6 @@ h6 {
   display: block;
   margin: 0 auto;
 }
-
-
 
 .HdingAboutMeDta p {
   text-align: center;
@@ -732,6 +737,7 @@ h6 {
 /* Home Page Slider */
 
 .HomePageSlider {
+  padding-top: 18px;
   position: relative;
   display: block;
   padding-bottom: 80px;
@@ -753,21 +759,20 @@ h6 {
   width: 100%;
 }
 
-
-@media only screen and (min-width: 320px) and (max-width: 480px){ 
-  .psAbsolute{
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .psAbsolute {
     width: 100%;
-  text-align: center;
-  top: 33%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 1;
+    text-align: center;
+    top: 33%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
   }
 
-  .whyJoinUsHeading{
+  .whyJoinUsHeading {
     width: 100%;
     position: relative;
     display: flex;
@@ -775,30 +780,29 @@ h6 {
     align-items: center;
     justify-content: space-between;
   }
-  .txthding{
+  .txthding {
     width: 100%;
   }
-  .whyJoinUs .col4WhyJon{
+  .whyJoinUs .col4WhyJon {
     width: 100%;
     margin-top: 16px;
   }
 
-  .Protfolicol-12{
+  .Protfolicol-12 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
   }
 
-  .Protfolicol-12 .col4RptProfolio{
+  .Protfolicol-12 .col4RptProfolio {
     width: 100%;
     margin-top: 30px;
   }
-  .HdingAboutMeDta.Profolio{
+  .HdingAboutMeDta.Profolio {
     width: 100%;
   }
- }
-
+}
 
 /* About Slider Section */
 
@@ -850,13 +854,28 @@ h6 {
   width: 100%;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px){  
-
-  .HdingAboutMeDta {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .HdingAboutMeDta {
     width: 100%;
     position: relative;
     display: block;
     margin: 0 auto;
   }
- }
+}
+ 
+
+.containerzoom{
+  display: inline-block;
+  overflow: hidden;  
+}
+
+.containerzoom .zoomimg {
+  display: block;
+  transition: transform .4s;   /* smoother zoom */
+}
+.containerzoom:hover .zoomimg {
+  transform: scale(1.3);
+  transform-origin: 50% 50%;
+}
+
 

@@ -1,24 +1,17 @@
 import Link from "next/link";
 import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import ComponentHead from "../Common/ComponentHead";
 
 const OurServices = () => {
   return (
     <div className="container-ack pb-16 md:px-0 px-5 md:pt-0 pt-16">
-      <div className="relative">
-        <div className="md:text-[10rem] text-[5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
-          Services
-        </div>
-        <div className="absolute md:top-[9.5rem] top-5 md:left-[11rem]">
-          <div className="text-3xl  text-center font-bold ">Our Services</div>
-          <p className="text-base text-center ">
-            Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
-            tincidunt urna vulputate. Elit amet nam nulla
-          </p>
-        </div>
-      </div>
-
-      <div className="grid md:grid-cols-2 gap-12 md:pt-0 pt-5">
+      <ComponentHead
+        title="Services"
+        sub="Our Services "
+        head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+      />
+      <div className="grid md:grid-cols-2 gap-12 md:pt-16 pt-5">
         <div className="overflow-hidden  cursor-pointer rounded-2xl relative group">
           <div className="w-full absolute text-center bottom-0 drop-shadow-2xl z-10 group-hover:z-0 px-6 py-2  group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-150 ease-in-out text-white font-semibold text-2xl bg-gradient-to-t from-[#090909] bg-opacity-50">
             Lorem Ipsum

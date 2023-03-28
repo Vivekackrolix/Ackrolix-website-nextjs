@@ -21,21 +21,20 @@ const index = () => {
         <title>Home Page</title>
       </Head>
       <Header />
-      <div className="pt-[20px]">
-        <Banner />
-        <About />
-        <OurServices />
-        <Portfolio />
-        <Advisors />
-        <Memories />
-        <Card />
-        <Leaders />
-        <Videos />
-        <Clients />
-        <Blogs />
-        <Testimonial />
-        <Footer />
-      </div>
+
+      <Banner />
+      <About />
+      <OurServices />
+      <Portfolio />
+      <Advisors />
+      <Memories />
+      <Card />
+      <Leaders />
+      <Videos />
+      <Clients />
+      <Blogs />
+      <Testimonial />
+      <Footer />
     </>
   );
 };
