@@ -1,11 +1,11 @@
-import JobListingCareer from "../components/Career/JobListingCareer";
+import JobListingCareers from "../components/Career/JobListingCareers";
 import TopHeaderCareer from "../components/Career/TopHeaderCareer";
 import WhyJoinUsCareer from "../components/Career/WhyJoinUsCareer";
-import Footer from "../components/common/Footer";
-import Header from "../components/common/Header";
+import Footer from "../components/Common/Footer";
+import Header from "../components/Common/Header";
 import Head from "next/head";
 import React from "react";
-const career = () => {
+const Career = () => {
   return (
     <div>
       <Head>
@@ -14,10 +14,10 @@ const career = () => {
       <Header />
       <TopHeaderCareer />
       <WhyJoinUsCareer />
-      <JobListingCareer />
+      <JobListingCareers />
       <Footer />
     </div>
   );
 };
 
-export default career;
+export default Career;

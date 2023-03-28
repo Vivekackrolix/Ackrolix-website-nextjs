@@ -1,7 +1,7 @@
 import DetailPage from "../components/Advisors/DetailPage";
-import Footer from "../components/common/Footer";
-import Header from "../components/common/Header";
-import Heading from "../components/common/Heading";
+import Footer from "../components/Common/Footer";
+import Header from "../components/Common/Header";
+import Heading from "../components/Common/Heading";
 import React from "react";
 
 const AdvisorDetailPage = () => {

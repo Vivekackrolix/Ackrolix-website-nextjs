@@ -1,13 +1,13 @@
 import React from "react";
 import Head from "next/head";
-import Heading from "../components/common/Heading";
-import Header from "../components/common/Header";
-import ComponentHead from "../components/common/ComponentHead";
-import Band from "../components/common/Band";
-import Footer from "../components/common/Footer";
-import Banner from "../components/industry/industryDetails/Banner";
-import Advisors from "../components/common/Advisor";
-import CardSlider from "../components/industry/industryDetails/CardSlider";
+import Heading from "../components/Common/Heading";
+import Header from "../components/Common/Header";
+import ComponentHead from "../components/Common/ComponentHead";
+import Band from "../components/Common/Band";
+import Footer from "../components/Common/Footer";
+import Banner from "../components/Industry/IndustryDetails/Banner";
+import Advisors from "../components/Common/Advisor";
+import CardSlider from "../components/Industry/IndustryDetails/CardSlider";
 
 const industryDetailsPage = () => {
   return (

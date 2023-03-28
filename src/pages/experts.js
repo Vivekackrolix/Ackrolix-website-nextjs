@@ -1,7 +1,7 @@
-import Footer from "../components/common/Footer";
-import Header from "../components/common/Header";
-import Heading from "../components/common/Heading";
-import AllExperts from "../components/expert/AllExperts";
+import Footer from "../components/Common/Footer";
+import Header from "../components/Common/Header";
+import Heading from "../components/Common/Heading";
+import AllExperts from "../components/Expert/AllExperts";
 import Head from "next/head";
 import React from "react";
 

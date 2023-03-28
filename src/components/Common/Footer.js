@@ -6,7 +6,7 @@ import { ImFacebook } from "react-icons/im";
 import { IoMdCall, IoMdMail } from "react-icons/io";
 import{GoLocation} from "react-icons/go";
 import { MdArrowRightAlt, MdPlayArrow } from "react-icons/md";
-import Subscription from "../home/Subscription";
+import Subscription from "../Home/Subscription";
 const Footer = () => {
   return (
     <div

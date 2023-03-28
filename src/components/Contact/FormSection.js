@@ -21,8 +21,7 @@ const FormSection = () => {
                   Get in <span className="text-primary">Touch</span>
                 </h2>
                 <p className=" md:text-start text-center text-sm md:pr-12">
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the 1500s, when an unknown printer took a galley
+                  {"Lorem Ipsum has been the Industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"}
                 </p>
               </div>
             </div>

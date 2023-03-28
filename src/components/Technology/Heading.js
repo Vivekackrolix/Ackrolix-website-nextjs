@@ -14,7 +14,7 @@ const Heading = () => {
       <p className="text-base text-center w-[80%] mx-auto ">
         Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed
         imperdiet tempor, libero urna semper urna, facilisis vulputate velit
-        arcu vitae mi. Donec ac nisi ex."
+        arcu vitae mi. Donec ac nisi ex.
       </p>
     </div>
   );

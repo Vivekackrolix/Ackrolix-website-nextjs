@@ -14,7 +14,7 @@ const Banner = () => {
       <p className="text-base text-center md:w-[80%] mx-auto ">
         Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed
         imperdiet tempor, libero urna semper urna, facilisis vulputate velit
-        arcu vitae mi. Donec ac nisi ex."
+        arcu vitae mi. Donec ac nisi ex.
       </p>
 
 
@@ -24,7 +24,7 @@ const Banner = () => {
         </div>
 
         <div className=" md:px-0 px-5 pb-10 md:pb-0  relative">
-          
+
           <div className="">
             <div className="text-3xl  font-bold ">
              Lorem Ipsum dolor sit amet

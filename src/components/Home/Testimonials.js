@@ -12,7 +12,7 @@ const clientsData = [
     image: "/assets/images/testimonialone.png",
     text: "Name",
     designation: "(Designation)",
-    para: "Lorem Ipsum is simply dummy text of the printing andtypesettingindustryLorem Ipsum is simply dummy text of the printing and typesetting industry typese",
+    para: "Lorem Ipsum is simply dummy text of the printing andtypesettingindustryLorem Ipsum is simply dummy text of the printing and typesetting Industry typese",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const clientsData = [
     image: "/assets/images/testimonialtwo.png",
     text: "Name",
     designation: "(Designation)",
-    para: "Lorem Ipsum is simply dummy text of the printing andtypesettingindustryLorem Ipsum is simply dummy text of the printing and typesetting industry typese",
+    para: "Lorem Ipsum is simply dummy text of the printing andtypesettingindustryLorem Ipsum is simply dummy text of the printing and typesetting Industry typese",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const clientsData = [
     image: "/assets/images/testimonialthree.png",
     text: "Name",
     designation: "(Designation)",
-    para: "Lorem Ipsum is simply dummy text of the printing andtypesettingindustryLorem Ipsum is simply dummy text of the printing and typesetting industry typese",
+    para: "Lorem Ipsum is simply dummy text of the printing andtypesettingindustryLorem Ipsum is simply dummy text of the printing and typesetting Industry typese",
   },
   {
     id: 4,
@@ -36,21 +36,21 @@ const clientsData = [
     image: "/assets/images/testimonialone.png",
     text: "Name",
     designation: "(Designation)",
-    para: "Lorem Ipsum is simply dummy text of the printing andtypesettingindustryLorem Ipsum is simply dummy text of the printing and typesetting industry typese",
+    para: "Lorem Ipsum is simply dummy text of the printing andtypesettingindustryLorem Ipsum is simply dummy text of the printing and typesetting Industry typese",
   },
   {
     id: 5,
     image: "/assets/images/testimonialtwo.png",
     text: "Name",
     designation: "(Designation)",
-    para: "Lorem Ipsum is simply dummy text of the printing andtypesettingindustryLorem Ipsum is simply dummy text of the printing and typesetting industry typese",
+    para: "Lorem Ipsum is simply dummy text of the printing andtypesettingindustryLorem Ipsum is simply dummy text of the printing and typesetting Industry typese",
   },
   {
     id: 6,
     image: "/assets/images/testimonialthree.png",
     text: "Name",
     designation: "(Designation)",
-    para: "Lorem Ipsum is simply dummy text of the printing andtypesettingindustryLorem Ipsum is simply dummy text of the printing and typesetting industry typese",
+    para: "Lorem Ipsum is simply dummy text of the printing andtypesettingindustryLorem Ipsum is simply dummy text of the printing and typesetting Industry typese",
   },
 ];
 

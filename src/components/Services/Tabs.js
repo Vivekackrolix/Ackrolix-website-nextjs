@@ -110,16 +110,15 @@ const Tabs = () => {
     <div className="container-ack md:px-0 px-5">
       <div>
         <div className="flex justify-center md:space-x-3 space-x-2 cursor-pointer">
-          {tabs.map((item) => (
+          {tabs.map((item, index) => (
             <div
               onClick={() => setSelect(item.id)}
               className="group py-10"
-              key={item}
+              key={index}
             >
-              {" "}
               <div
                 className={` md:px-12 px-3 py-2 rounded-md ${
-                  select == item.id
+                  select === item.id
                     ? "bg-secondary text-white border-2 "
                     : "   border-2 border-black/90"
                 }`}
@@ -131,11 +130,11 @@ const Tabs = () => {
         </div>
       </div>
       <div className="">
-        {select == 1 ? (
+        {select === 1 ? (
           <>
             <div className="grid md:grid-cols-3 gap-2">
-              {productData.map((item) => (
-                <div className="">
+              {productData.map((item, index) => (
+                <div key={index}>
                   <div>
                     <div className="group p-6" key="id">
                       <div className="relative text-center  border-2 border-[#F6F8F9] duration duration-200 group-hover:-translate-y-2  hover:drop-shadow-sm hover:bg-[#F6F8F9]/40 hover:border-2 rounded-xl md:h-[26rem]">
@@ -172,8 +171,8 @@ const Tabs = () => {
         ) : (
           <>
             <div className="grid md:grid-cols-3 gap-2">
-              {serviceData.map((item) => (
-                <div className="">
+              {serviceData.map((item, index) => (
+                <div key={index}>
                   <div>
                     <div className="group p-6" key="id">
                       <div className="relative text-center  border-2 border-[#F6F8F9] duration duration-200 group-hover:-translate-y-2  hover:drop-shadow-sm hover:bg-[#F6F8F9]/40 hover:border-2 rounded-xl">

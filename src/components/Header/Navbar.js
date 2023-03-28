@@ -111,7 +111,7 @@ const Navbar = () => {
             {/* for mobile end */}
             <li
               className={
-                router.pathname == "/moments"
+                router.pathname == "/Moments"
                   ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
                   : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
               }
@@ -132,11 +132,11 @@ const Navbar = () => {
                   : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
               }
             >
-              <Link href="/career"> Career</Link>
+              <Link href="/Career"> Career</Link>
             </li>
             {/* for mobile start */}
             <li className="md:hidden block ">
-              <Link href="/career">
+              <Link href="/Career">
                 <p className="text-white px-10">Career</p>
               </Link>
             </li>
@@ -159,7 +159,7 @@ const Navbar = () => {
             {/* for mobile end */}
             <li
               className={
-                router.pathname == "/technology"
+                router.pathname == "/Technology"
                   ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
                   : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
               }

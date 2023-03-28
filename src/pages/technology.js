@@ -1,8 +1,8 @@
-import Footer from "../components/common/Footer";
-import Header from "../components/common/Header";
-import Backend from "../components/technology/Backend";
-import Heading from "../components/technology/Heading";
-import Section from "../components/technology/Section";
+import Footer from "../components/Common/Footer";
+import Header from "../components/Common/Header";
+import Backend from "../components/Technology/Backend";
+import Heading from "../components/Technology/Heading";
+import Section from "../components/Technology/Section";
 
 import Head from "next/head";
 import React from "react";

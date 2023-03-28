@@ -1,19 +1,19 @@
 import React from "react";
 import Head from "next/head";
-import Footer from "../components/common/Footer";
-import Banner from "../components/home/Banner";
-import Header from "../components/common/Header";
-import About from "../components/home/About";
-import Advisors from "../components/home/Advisors";
-import Memories from "../components/home/Memories";
-import Leaders from "../components/home/Leaders";
-import Videos from "../components/home/Videos";
-import Blogs from "../components/home/Blogs";
-import Testimonial from "../components/home/Testimonials";
-import Clients from "../components/home/Clients";
-import Card from "../components/home/Card";
-import OurServices from "../components/home/OurServices";
-import Portfolio from "../components/home/Portfolio";
+import Footer from "../components/Common/Footer";
+import Banner from "../components/Home/Banner";
+import Header from "../components/Common/Header";
+import About from "../components/Home/About";
+import Advisors from "../components/Home/Advisors";
+import Memories from "../components/Home/Memories";
+import Leaders from "../components/Home/Leaders";
+import Videos from "../components/Home/Videos";
+import Blogs from "../components/Home/Blogs";
+import Testimonial from "../components/Home/Testimonials";
+import Clients from "../components/Home/Clients";
+import Card from "../components/Home/Card";
+import OurServices from "../components/Home/OurServices";
+import Portfolio from "../components/Home/Portfolio";
 const index = () => {
   return (
     <>

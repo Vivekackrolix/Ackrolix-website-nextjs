@@ -48,7 +48,6 @@ const Clients = () => {
     infinite: true,
     arrows: true,
     loop: true,
-    autoplay: true,
     speed: 1000,
 
     lazyLoad: true,
@@ -107,7 +106,7 @@ const Clients = () => {
           </div>
         </div>
         <div className="text-base text-left text-textcolor col-span-2 ">
-        Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices id enim lectus sagittis viverra interdum.Lorem ipsum dolor sit amet consectetur. 
+        Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices id enim lectus sagittis viverra interdum.Lorem ipsum dolor sit amet consectetur.
         </div>
       </div>
 

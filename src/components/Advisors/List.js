@@ -6,50 +6,50 @@ const List = () => {
     const advisors = [
         {
           id: 1,
-    
+
           image: "/assets/images/advisorone.png",
           name: "Layan  Alrahmain, M.D.",
-          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting Industry. Lorem Ipsum has been the Industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
        link:"/advisorDetailPage",
         },
         {
           id: 2,
-    
+
           image: "/assets/images/advisortwo.png",
           name: "Layan  Alrahmain, M.D.",
-          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-       
+          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting Industry. Lorem Ipsum has been the Industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
           link:"/advisorDetailPage", },
         {
           id: 3,
-    
+
           image: "/assets/images/advisorthree.png",
           name: "Layan  Alrahmain, M.D.",
-          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting Industry. Lorem Ipsum has been the Industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
           link:"/advisorDetailPage",
         },
         {
           id: 4,
-    
+
           image: "/assets/images/advisortwo.png",
           name: "Layan  Alrahmain, M.D.",
-          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting Industry. Lorem Ipsum has been the Industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
           link:"/advisorDetailPage",
         },
         {
           id: 5,
-    
+
           image: "/assets/images/advisorthree.png",
           name: "Layan  Alrahmain, M.D.",
-          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting Industry. Lorem Ipsum has been the Industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
           link:"/advisorDetailPage",
         },
         {
           id: 6,
-    
+
           image: "/assets/images/advisorone.png",
           name: "Layan  Alrahmain, M.D.",
-          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting Industry. Lorem Ipsum has been the Industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
           link:"/advisorDetailPage",
         },
       ];
