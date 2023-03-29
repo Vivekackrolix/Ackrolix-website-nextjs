@@ -3,41 +3,41 @@ import Link from "next/link";
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
+import ComponentHead from "../Common/ComponentHead";
 
 const JobListData = [
-    {
-      id: 1,
-      name: "Front-end Developer ",
-      discription:
-        "We’re looking for a mid-level Front-end Developer to join our team.",
-      experice: "5-7 Years",
-      Salary: "10-20 LPA",
-      Skills:
-        "Sling Servlerts and JSP Development, Sling Models Services, OSGI/FELIX, Web services creation and Consumption",
-    },
-    {
-      id: 2,
-      name: "Back-end Developer ",
-      discription:
-        "We’re looking for a mid-level Front-end Developer to join our team.",
-      experice: "5-7 Years",
-      Salary: "10-20 LPA",
-      Skills:
-        "Sling Servlerts and JSP Development, Sling Models Services, OSGI/FELIX, Web services creation and Consumption",
-    },
-    {
-      id: 3,
-      name: "Senior Back-end Developer ",
-      discription:
-        "We’re looking for a mid-level Front-end Developer to join our team.",
-      experice: "5-7 Years",
-      Salary: "10-20 LPA",
-      Skills:
-        "Sling Servlerts and JSP Development, Sling Models Services, OSGI/FELIX, Web services creation and Consumption",
-    },
-  ];
-const JobListingCareers = ()  => {
-
+  {
+    id: 1,
+    name: "Front-end Developer ",
+    discription:
+      "We’re looking for a mid-level Front-end Developer to join our team.",
+    experice: "5-7 Years",
+    Salary: "10-20 LPA",
+    Skills:
+      "Sling Servlerts and JSP Development, Sling Models Services, OSGI/FELIX, Web services creation and Consumption",
+  },
+  {
+    id: 2,
+    name: "Back-end Developer ",
+    discription:
+      "We’re looking for a mid-level Front-end Developer to join our team.",
+    experice: "5-7 Years",
+    Salary: "10-20 LPA",
+    Skills:
+      "Sling Servlerts and JSP Development, Sling Models Services, OSGI/FELIX, Web services creation and Consumption",
+  },
+  {
+    id: 3,
+    name: "Senior Back-end Developer ",
+    discription:
+      "We’re looking for a mid-level Front-end Developer to join our team.",
+    experice: "5-7 Years",
+    Salary: "10-20 LPA",
+    Skills:
+      "Sling Servlerts and JSP Development, Sling Models Services, OSGI/FELIX, Web services creation and Consumption",
+  },
+];
+const JobListingCareers = () => {
   let [isOpen, setIsOpen] = useState(false);
 
   function closeModal() {
@@ -51,22 +51,18 @@ const JobListingCareers = ()  => {
   return (
     <>
       <div className="container-ack  md:px-0 px-5">
-        <div className="relative">
-          <div className="md:text-[10rem] text-[5rem] text-[#Fff] tracking-wider text-center texttransparent font-bold  md:pt-10 ">
-            Career
-          </div>
-          <div className="absolute md:top-[9rem] top-5 md:left-[11rem]">
-            <div className="text-3xl  text-center font-bold">Lorem Ipsum</div>
-            <p className="text-base text-center text-[14px] text-color">
-              Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
-              tincidunt urna vulputate. Elit amet nam nulla
-            </p>
-          </div>
-        </div>
+        <ComponentHead
+          title="Career"
+          sub="Lorem Ipsum"
+          head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+        />
 
-        <div className="md:flex  justify-between items-center  flex-wrap ">
+        <div className="md:flex  justify-between items-center  flex-wrap pt-10 ">
           {JobListData.map((JobList, index) => (
-            <div key={index} className="border border-[#D2D2D280] p-4 rounded-md md:w-[49%] mb-6 md:mt-0 mt-10">
+            <div
+              key={index}
+              className="border border-[#D2D2D280] p-4 rounded-md md:w-[49%] mb-6 md:mt-0 mt-10"
+            >
               <small className="bg-[#090909] text-[#ABABAB] text-[12px] rounded-[20px] py-1 px-3">
                 {" "}
                 Software Development{" "}
@@ -301,6 +297,6 @@ const JobListingCareers = ()  => {
       </Transition>
     </>
   );
-}
+};
 
 export default JobListingCareers;

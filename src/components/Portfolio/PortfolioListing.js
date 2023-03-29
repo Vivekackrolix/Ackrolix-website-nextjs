@@ -29,11 +29,11 @@ function PortfolioListing() {
     <>
       <div className="container-ack md:px-0 px-5">
         <div className="grid md:grid-cols-4 md:gap-7 cursor-pointer w-[60%] mx-auto border-2 border-secondary/10 p-2 rounded-md md:mt-10 mt-12">
-          {tabs.map((item) => (
+          {tabs.map((item,e) => (
             <div
               onClick={() => setSelect(item.id)}
               className="group  "
-              key={item}
+              key={e}
             >
               {" "}
               <div

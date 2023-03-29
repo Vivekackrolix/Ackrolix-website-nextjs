@@ -43,22 +43,23 @@ const Process = () => {
     >
       <div className="container-ack md:px-0 px-5">
         <div className="grid md:grid-cols-2 gap-10 items-center container-ack  ">
-          <div className="md:px-0 px-5 pb-10 md:pb-0 md:pt-0 pt-10  relative">
-            <div className="md:text-9xl text-[5rem] text-[#f6f7f9] tracking-wider texttransparent font-bold  md:pt-10 ">
+        <div className="relative">
+            <div className="md:text-[8rem] text-[5rem] tracking-wider text-left texttransparent font-bold  md:pt-10 ">
               Process
             </div>
-            <div className="">
-              <div className="text-3xl  leading-relaxed font-bold  absolute md:top-[6.5rem] top-[6rem] ">
-                Process We Follow
+            <div className="absolute md:top-[6.7rem] top-[4rem] inset-x-0 flex justify-left">
+              <div className="text-[46px]  text-left font-bold max-w-xl">
+              Process We Follow
               </div>
 
-              <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  py-4">
+            </div>
+            <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  py-4">
                 With our integrated CRM, project management, collaboration and
                 invoicing capabilities, you can manage your business in one
                 secure platform.
               </div>
-            </div>
           </div>
+       
 
           <div className="pb-5 md:pt-10  ">
             <div className="  relative ">
@@ -82,9 +83,9 @@ const Process = () => {
         </div>
 
         <div className="grid md:grid-cols-3 py-10 gap-10">
-          {process.map((item) => (
+          {process.map((item,index) => (
             <>
-              <div className="group ">
+              <div className="group " key={index}>
                 <div className="flex">
                   <p className="bg-black rounded-full px-3 py-1 text-lg text-white ">{item.id}</p>
                   </div>

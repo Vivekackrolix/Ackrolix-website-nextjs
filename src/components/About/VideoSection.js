@@ -5,15 +5,18 @@ const VideoSection = () => {
   return (
     <div className="container-ack md:px-0 px-5">
       <div className="grid md:grid-cols-5 items-center  ">
-        <div className="relative md:col-span-3">
-          <div className="md:text-[10rem] text-[5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
-            VIdeo
-          </div>
-          <div className="absolute md:top-[9.2rem] top-[2rem] left-[3rem]">
-            <div className="text-3xl  text-center font-bold  md:w-[70%] w-[90%]">
-              Lorem Ipsum Dolor Sit Amet
+        <div className=" md:col-span-3 py-8">
+          <div className="relative">
+            <div className="md:text-[7rem] text-[5rem] tracking-wider text-left texttransparent font-bold  ">
+              Video
+            </div>
+            <div className="absolute md:top-[4.3rem] top-[4rem]  inset-x-0 flex justify-left">
+              <div className="text-4xl text-left font-bold ">
+                Lorem Ipsum Dolor Sit Amet
+              </div>
             </div>
           </div>
+          
         </div>
         <div className="text-base md:text-left text-center text-textcolor md:col-span-2 ">
           Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices

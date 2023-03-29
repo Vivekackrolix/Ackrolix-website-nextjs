@@ -38,71 +38,19 @@ const clientsData = [
 ];
 
 const Section = () => {
-  const settings = {
-    className: "center",
-    slidesToShow: 5,
-    autoplay: true,
-    autoplaySpeed: 700,
-    focusOnSelect: true,
-    dots: false,
-    infinite: true,
-    arrows: true,
-    loop: true,
-    autoplay: true,
-    speed: 1000,
 
-    lazyLoad: true,
-    accessibility: true,
-    cssEase: "ease-out",
-    swipeToSlide: true,
-    // nextArrow: <SampleNextArrow />,
-    // prevArrow: <SamplePrevArrow />,
-
-    responsive: [
-      {
-        breakpoint: 1080,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          speed: 4000,
-        },
-      },
-    ],
-  };
   return (
     <div className="container-ack py-16 md:px-0 px-5">
       <div className="grid md:grid-cols-2 gap-6 items-start container-ack  ">
         <div className="  pb-10 md:pb-0  relative">
-          <div className="md:text-9xl text-[5rem] text-white tracking-wider texttransparent font-bold  md:pt-10 ">
+        <div className="md:text-[8rem] text-[5rem] tracking-wider text-left texttransparent font-bold  md:pt-10 ">
             Lorem
           </div>
           <div className="">
-            <div className="text-3xl  leading-relaxed font-bold  absolute md:top-[6.5rem] top-[3rem] ">
+          <div className="absolute md:top-[6.7rem] top-[4rem] inset-x-0 flex justify-left">
+          <div className="text-[46px]  text-left font-bold max-w-xl">
               Lorem ipsum dolor
+            </div>
             </div>
             <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4">
               Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
@@ -156,25 +104,7 @@ const Section = () => {
           <Tabs />
         </div>
       </div>
-      <div className=" pt-16">
-        <Slider {...settings} className="testimonialSlider mx-auto">
-          {clientsData.map((item) => (
-            <>
-              <div className="group " key={item}>
-                <div className="relative text-center">
-                  <div className="">
-                    <img
-                      src={item.image}
-                      alt=" "
-                      className="  rounded-lg w-[50%] mx-auto "
-                    />
-                  </div>
-                </div>
-              </div>
-            </>
-          ))}
-        </Slider>
-      </div>
+     
     </div>
   );
 };

@@ -1,22 +1,16 @@
 import React from "react";
+import ComponentHead from "../Common/ComponentHead";
 
 const Leaders = () => {
   return (
     <div className="container-ack md:px-0 px-5 md:pt-0 pt-16">
-      <div className="relative">
-        <div className="md:text-[10rem] text-[5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
-          Leaders
-        </div>
-        <div className="absolute md:top-[9.5rem] top-5 md:left-[11rem]">
-          <div className="text-3xl  text-center font-bold ">Our Leaders</div>
-          <p className="text-base text-center ">
-            Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
-            tincidunt urna vulputate. Elit amet nam nulla
-          </p>
-        </div>
-      </div>
+      <ComponentHead
+        title="Leaders"
+        sub="Our Leaders"
+        head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+      />
 
-      <div className="grid md:grid-cols-3 gap-10">
+      <div className="grid md:grid-cols-3 gap-10 pt-10">
         <div className="cardBox  ">
           <div className="card">
             <div className="front">

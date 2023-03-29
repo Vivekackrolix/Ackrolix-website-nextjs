@@ -6,18 +6,18 @@ const Banner = () => {
       <div className="container-ack relative overflow-hidden md:px-0 px-4">
         <div className="md:absolute">
           <div className=" md:col-span-2 md:px-0 pb-5 md:pb-0  relative">
-            <div className="md:text-9xl text-center md:text-left text-[3rem] text-white tracking-[0.5rem] texttransparent font-bold  md:pt-10 ">
+            <div className="md:text-[8rem] text-[5rem] tracking-wider text-left texttransparent font-bold  md:pt-10 ">
               Memories
             </div>
-            <div className="px-2 overflow-hidden">
-              <div className="text-3xl font-bold absolute md:top-[5rem] top-[3rem] md:left-2 left-[4rem] text-center md:text-left">
+            <div className="absolute md:top-[6.7rem] top-[4rem]   inset-x-0 flex justify-left">
+              <div className="text-[46px]  text-left font-bold max-w-xl">
                 Our Memories
               </div>
-              <div className="w-96 text-base text-textcolor font-text pb-4">
-                Nunc convallis semper justo quis tempor. Praesent molestie,
-                lorem sed imperdiet tempor, libero urna semper urna, facilisis
-                vulputate velit arcu vitae mi. Donec ac nisi ex.
-              </div>
+            </div>
+            <div className="w-96 text-base text-textcolor font-text pb-4">
+              Nunc convallis semper justo quis tempor. Praesent molestie, lorem
+              sed imperdiet tempor, libero urna semper urna, facilisis vulputate
+              velit arcu vitae mi. Donec ac nisi ex.
             </div>
           </div>
         </div>

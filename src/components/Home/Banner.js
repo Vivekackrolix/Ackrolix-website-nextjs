@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import Link from "next/link";
 const Banner = () => {
   const settings = {
     className: "center",
@@ -10,13 +11,13 @@ const Banner = () => {
     centerPadding: "180px",
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplaySpeed: 1000,
     focusOnSelect: true,
     dots: false,
     infinite: true,
     arrows: true,
     loop: true,
-    autoplay: false,
+    autoplay: true,
+    autoplaySpeed: 2500,
     speed: 1500,
     lazyLoad: true,
     accessibility: true,
@@ -75,11 +76,11 @@ const Banner = () => {
   ];
 
   return (
-    <div className=" md:px-0 px-5 HomePageSlider">
+    <div className=" md:px-0 px-5 HomePageSlider md:pb-[80px] pb-[150px]">
       <Slider {...settings} className="mx-auto relative">
-        {clientsData.map((item) => (
+        {clientsData.map((item, index) => (
           <>
-            <div className="group SldrImgDta" key={item}>
+            <div className="group SldrImgDta" key={index}>
               <div className="relative text-center">
                 <div className="">
                   <img
@@ -93,20 +94,24 @@ const Banner = () => {
           </>
         ))}
       </Slider>
-      <div className="PsAbluteData">
-        <div className="bg-white drop-shadow-md md:px-10 py-12 md:w-[30%] w-[60%] absolute md:top-0 top-0 md:left-0 rounded-lg  md:mt-0 mt-5  px-5 ">
-          <h2 className="text-secondary md:text-3xl text-1xl">
+      <div className="">
+        <div className="bg-white boxshadowbanner md:px-10 py-12 md:w-[33%] w-[60%] absolute md:top-0 top-0 md:left-[3.6rem] rounded-lg  mt-2  px-5 ">
+          <h2 className="text-secondary md:text-[34px] text-xl font-bold leading-[1.2]">
             <span className="text-primary"> Lorem ipsum </span>dolor sit amet
             Eget at auctor purus{" "}
           </h2>
-          <p className="text-textcolor pt-4 text-[15px]">
+          <p className="text-textcolor pt-4 text-[15px] text-justify">
             Lorem ipsum dolor sit amet consectetur. Mus id quam mauris semper
             viverra hac faucibus morbi quam.
           </p>
           <div className="pt-10 w-full">
-            <button className="bg-secondary hover:bg-primary text-white px-12 py-3 justify-center rounded-md flex items-center w-full text-center">
-              <span className="text-base"> View All </span>
-              <MdKeyboardArrowRight className=" text-base" />
+            <button className="button-3 bg-secondary hover:bg-primary text-white px-12 py-3 justify-center rounded-md flex items-center w-full text-center">
+            <div className="eff-3"></div>
+              <span className="text-base flex items-center ">
+                {" "}
+                View All
+                <MdKeyboardArrowRight className=" text-base" />
+              </span>
             </button>
           </div>
         </div>

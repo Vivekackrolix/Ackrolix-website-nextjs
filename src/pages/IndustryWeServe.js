@@ -24,8 +24,8 @@ const IndustryWeServe = () => {
         <Banner />
         <ComponentHead
           title="We Serve"
-          head="Lorem Ipsum"
-          sub="Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas tincidunt urna vulputate. Elit amet nam nulla "
+          sub="Lorem Ipsum"
+          head ="Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas tincidunt urna vulputate. Elit amet nam nulla "
         />
         <Card />
         <Band />

@@ -5,6 +5,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BiChevronLeft } from "react-icons/bi";
 import { BiChevronRight } from "react-icons/bi";
+import Link from "next/link";
+import ComponentHead from "../Common/ComponentHead";
 const Memories = () => {
   const resumeData = [
     { id: 1, sliderImg: "assets/images/memoriesone.png" },
@@ -47,10 +49,11 @@ const Memories = () => {
     centerMode: true,
     centerPadding: "0px",
     speed: 1000,
+    autoplaySpeed: 2000,
     slidesToShow: 3,
     slidesToScroll: 1,
-    prevArrow: <PrevArrow />,
-    nextArrow: <NextArrow />,
+    // prevArrow: <PrevArrow />,
+    // nextArrow: <NextArrow />,
     responsive: [
       {
         breakpoint: 1080,
@@ -93,19 +96,12 @@ const Memories = () => {
 
   return (
     <div className="container-ack md:px-0 px-5 md:pt-0 pt-16">
-      <div className="relative">
-        <div className="md:text-[10rem] text-[5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
-          Memories
-        </div>
-        <div className="absolute  md:top-[9.5rem] top-5 md:left-[11rem]">
-          <div className="text-3xl  text-center font-bold ">Our Memories</div>
-          <p className="text-base text-center ">
-            Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
-            tincidunt urna vulputate. Elit amet nam nulla
-          </p>
-        </div>
-      </div>
-      <div className=" md:mt-0 mt-10">
+      <ComponentHead
+        title="Memories"
+        sub="Our Memories"
+        head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+      />
+      <div className="mt-10">
         <div className="text-white  mx-auto">
           <div className="absolute  md:right-20 right-[5%] cursor-pointer top-10 z-20 md:top-10"></div>
           <div className="pt-15 MemoriesSlider">
@@ -130,13 +126,16 @@ const Memories = () => {
           </div>
         </div>
       </div>
-
-      <div className="flex justify-center md:pt-4">
-        <button className="bg-secondary hover:bg-primary text-white px-12 py-2 rounded-md flex items-center">
-          <span className="text-base"> View All </span>
-          <MdKeyboardArrowRight className=" text-base" />
-        </button>
-      </div>
+      <div className="flex justify-center pt-6 ">
+        <Link href="/moments">
+          <button className= " button-2  px-12 py-2 rounded-md">
+            <div className="eff-2"></div>
+            <span className="text-base flex items-center "> View All 
+            <MdKeyboardArrowRight className=" text-base" />
+            </span>
+          </button>
+          </Link>
+        </div>
     </div>
   );
 };

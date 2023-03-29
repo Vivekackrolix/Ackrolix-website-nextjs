@@ -55,10 +55,10 @@ const List = () => {
       ];
   return (
     <div className='container-ack'>
-         <div className="grid md:grid-cols-3 gap-3 py-16">
-        {advisors.map((item) => (
+         <div className="grid md:grid-cols-3 gap-3 pb-16">
+        {advisors.map((item,index) => (
           <>
-            <div className="group p-6" key="id">
+            <div className="group p-6" key={index}>
               <div className="relative text-center py-6 border-2 border-[#F6F8F9] duration duration-200 group-hover:-translate-y-2  hover:drop-shadow-sm hover:bg-[#F6F8F9]/40 hover:border-2 rounded-xl md:h-[27rem]">
                 <div className="inline-flex justify-center items-center rounded-md md:mt-8 ">
                   <img

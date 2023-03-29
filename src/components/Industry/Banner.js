@@ -1,20 +1,12 @@
+import Link from "next/link";
 import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Banner = () => {
   return (
     <div>
-      <div className="md:px-0 px-5">
-        <div className="pt-24">
-          <div className="text-4xl  text-center font-bold ">
-            Etiam nulla lectus amet nunc molestie at vulputate.
-          </div>
-          <p className="text-base text-center md:w-[80%] mx-auto pt-3">
-            Nunc convallis semper justo quis tempor. Praesent molestie, lorem
-            sed imperdiet tempor, libero urna semper urna, facilisis vulputate
-            velit arcu vitae mi. Donec ac nisi ex.{" "}
-          </p>
-        </div>
+      <div className="md:px-0 px-5 pb-10">
+      
         <div className="">
           <div className="md:grid grid-cols-2 gap-6 items-center container-ack">
             <div className="pb-5 pt-10 relative ">
@@ -52,10 +44,12 @@ const Banner = () => {
                 </div>
 
                 <div className="pt-4">
+                  <Link href="industryDetailsPage">
               <button className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md flex items-center">
                 <span className="text-base"> Know More </span>
                 <MdKeyboardArrowRight className=" text-base text-white hover:text-" />
               </button>
+              </Link>
             </div>
               </div>
             </div>

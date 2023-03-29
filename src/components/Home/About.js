@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { IoMdThermometer } from "react-icons/io";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import Link from "next/link";
 
 const aboutdata = [
   {
@@ -27,14 +28,16 @@ const aboutdata = [
 const About = () => {
   const settings = {
     className: "center",
-    slidesToShow: 2.1,
+    slidesToShow: 2,
+    slidesToScroll: 1,
     centerMode: false,
-    focusOnSelect: true,
+    focusOnSelect: false,
     dots: true,
     infinite: true,
     arrows: false,
     loop: true,
-    autoplay: false,
+    autoplay: true,
+    autoplaySpeed: 1000,
     speed: 2000,
     lazyLoad: true,
     accessibility: true,
@@ -82,17 +85,21 @@ const About = () => {
   };
 
   return (
-    <div className="bg-[#F6F8F9]">
+    <div className="bg-[#F6F8F9] h-screen">
       <div className="md:grid grid-cols-5 gap-6 items-center  hidden ">
         <div className="col-span-2 md:px-0 px-5 pb-10 md:pb-0  relative">
-          <div className="md:text-[9.5em] text-[#F6F8F9] tracking-wider texttransparent font-bold  md:pt-10 ">
-            About
-          </div>
-          <div className="">
-            <div className="text-3xl  leading-relaxed font-light left-[3em]  absolute top-[8.5rem] ">
+          <div className="relative">
+            <div className="md:text-[8rem] text-[5rem] tracking-wider text-left texttransparent font-bold  md:pt-10 ">
               About
             </div>
-            <div className="md:w-[95%] pl-20 w-full text-base text-textcolor text-justify font-text  pb-4">
+            <div className="absolute md:top-[6.7rem] top-[4rem] left-[4em]  inset-x-0 flex justify-left">
+              <div className="text-[46px]  text-left font-bold max-w-xl">
+                About
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <div className="md:w-[95%] pl-16 w-full text-base text-textcolor text-justify font-text  pb-4">
               <p className="mb-2">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
@@ -106,11 +113,17 @@ const About = () => {
                 Lorem ipsum dolor sit amet consectetur. Integer eget orci nec
                 massa gravida.{" "}
               </p>
-              <div className="pt-4">
-                <button className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md flex items-center">
-                  <span className="text-base"> Know More </span>
-                  <MdKeyboardArrowRight className=" text-base text-white hover:text-" />
-                </button>
+              <div className="flex justify-start pb-10 pt-5">
+                <Link href="/about">
+                  <button className=" button-2  px-8 py-2 rounded-md">
+                    <div className="eff-2"></div>
+                    <span className="text-base flex items-center ">
+                      {" "}
+                      Know More
+                      <MdKeyboardArrowRight className=" text-base" />
+                    </span>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -155,11 +168,17 @@ const About = () => {
               Lorem ipsum dolor sit amet consectetur. Integer eget orci nec
               massa gravida.
             </div>
-            <div className="pt-4">
-              <button className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md flex items-center">
-                <span className="text-base"> Know More </span>
-                <MdKeyboardArrowRight className=" text-base text-white hover:text-" />
-              </button>
+            <div className="flex justify-center pb-10 pt-4">
+              <Link href="/about">
+                <button className=" button-2  px-12 py-2 rounded-md">
+                  <div className="eff-2"></div>
+                  <span className="text-base flex items-center ">
+                    {" "}
+                    Know More
+                    <MdKeyboardArrowRight className=" text-base" />
+                  </span>
+                </button>
+              </Link>
             </div>
           </div>
         </div>

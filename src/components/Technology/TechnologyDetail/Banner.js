@@ -3,21 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="container-ack md:px-0 px-5">
-      <div className="relative">
-        <div className="md:text-[9.8rem] text-[3.3rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
-          Technologies
-        </div>
-        <div className="absolute md:top-[10rem] top-[2.3rem] md:left-[31rem] left-[6rem]">
-          <div className="text-3xl  text-center font-bold ">Technologies</div>
-        </div>
-      </div>
-      <p className="text-base text-center md:w-[80%] mx-auto ">
-        Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed
-        imperdiet tempor, libero urna semper urna, facilisis vulputate velit
-        arcu vitae mi. Donec ac nisi ex.
-      </p>
-
-
+    
       <div className="md:grid grid-cols-2 gap-6 items-center container-ack  ">
         <div className="pb-5 pt-10 ">
           <img src="/assets/images/aboutusimg3.png" alt="" />
