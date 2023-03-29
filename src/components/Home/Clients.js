@@ -97,7 +97,7 @@ const Clients = () => {
   return (
     <div className="container-ack md:px-0 px-5 md:pt-0 pt-16">
       <div className="md:grid grid-cols-2 items-center hidden pt-12 ">
-      <div className=" ">
+    
       <div className="relative">
             <div className="md:text-[7rem] text-[5rem] tracking-wider text-left texttransparent font-bold  ">
             Clients
@@ -108,8 +108,6 @@ const Clients = () => {
               </div>
             </div>
           </div>
-         
-        </div>
         <div className="text-base text-left text-textcolor  ">
         Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices id enim lectus sagittis viverra interdum.Lorem ipsum dolor sit amet consectetur.
         </div>
@@ -130,9 +128,9 @@ const Clients = () => {
 
       <div className="py-16">
         <Slider {...settings} className=" mx-auto">
-          {clientsData.map((item) => (
+          {clientsData.map((item,index) => (
             <>
-              <div className="group " key={item}>
+              <div className="group " key={index}>
                 <div className="relative text-center">
                   <div className="">
                     <img

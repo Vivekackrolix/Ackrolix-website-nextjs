@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { MdKeyboardArrowRight } from 'react-icons/md'
 
@@ -22,12 +23,19 @@ const Card = () => {
               pellentesque tempor cursus cursus amet odio. Orci eu sagittis leo
               duis enim mi massa etiam.
             </div>
-            <div className="pt-4">
-              <button className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md flex items-center">
-                <span className="text-base"> Contact Us </span>
-                <MdKeyboardArrowRight className=" text-base text-white " />
-              </button>
-            </div>
+
+            <div className="flex justify-start pb-10 pt-5">
+        <Link href="/contact">
+          <button className=" button-2  px-12 py-2 rounded-md">
+            <div className="eff-2"></div>
+            <span className="text-base flex items-center ">
+              {" "}
+              Contact Us
+              <MdKeyboardArrowRight className=" text-base" />
+            </span>
+          </button>
+        </Link>
+      </div>
           
         </div>
       </div>

@@ -136,9 +136,9 @@ const Testimonial = () => {
 
           <div className="md:pt-0 pt-10">
             <Slider {...settings} className="testimonialSlider mx-auto">
-              {clientsData.map((item) => (
+              {clientsData.map((item,index) => (
                 <>
-                  <div className="group py-10 relative" key={item}>
+                  <div className="group py-10 relative" key={index}>
                     <div className="hover:bg-[#F6F8F9] border-2 border-[#F6F8F9] text-left mx-3 py-8 rounded-md  hovertestimonial">
                       <div className="flex flex-col items-center justify-left">
                         <img
@@ -164,14 +164,20 @@ const Testimonial = () => {
               ))}
             </Slider>
           </div>
-          <Link href="/testimonials">
-            <div className="pt-4 flex items-center justify-center">
-              <button className="bg-secondary hover:bg-primary text-white px-12 py-2 rounded-md flex items-center">
-                <span className="text-base"> View All </span>
-                <MdKeyboardArrowRight className=" text-base" />
-              </button>
-            </div>
-          </Link>
+
+          <div className="flex justify-center pb-10 pt-5">
+        <Link href="/testimonials">
+          <button className=" button-2  px-12 py-2 rounded-md">
+            <div className="eff-2"></div>
+            <span className="text-base flex items-center ">
+              {" "}
+              View All
+              <MdKeyboardArrowRight className=" text-base" />
+            </span>
+          </button>
+        </Link>
+      </div>
+
         </div>
       </div>
     </>

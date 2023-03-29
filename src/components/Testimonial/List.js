@@ -77,9 +77,9 @@ const List = () => {
         </div>
         <div>
           <div className="grid md:grid-cols-3 gap-7 pt-10">
-            {clientsData.map((item) => (
+            {clientsData.map((item,e) => (
               <>
-                <div className="group py-10 relative" key={item}>
+                <div className="group py-10 relative" key={e}>
                   <div className="hover:bg-[#F6F8F9] border-2 border-[#F6F8F9] text-left mx-3 py-8 rounded-md  hovertestimonial">
                     <div className="flex flex-col items-center justify-left">
                       <img

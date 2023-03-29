@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { BiMessageAltDetail } from "react-icons/bi";
+import ComponentHead from "../Common/ComponentHead";
 
 const Backend = () => {
   const data = [
@@ -69,21 +70,12 @@ const Backend = () => {
 
   return (
     <div className="container-ack md:px-0 px-5">
-      <div className="relative">
-        <div className="md:text-[10rem] text-[5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
-          Backend
-        </div>
-        <div className="absolute md:top-[9.5rem] top-5 md:left-[3rem]">
-          <div className="text-3xl  text-center font-bold ">
-            Gain more insight into how people use your
-          </div>
-          <p className="text-base text-center w-[95%] pt-2">
-            With our integrated CRM, project management, collaboration and
-            invoicing capabilities, you can manage every aspect of your business
-            in one secure platform.
-          </p>
-        </div>
-      </div>
+      <ComponentHead
+        title="Backend"
+        sub=" Gain more insight"
+        head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+      />
+      
 
       <div>
         <div className="grid md:grid-cols-3 gap-10 py-16">

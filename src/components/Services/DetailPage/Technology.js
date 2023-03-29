@@ -1,4 +1,5 @@
 import React from "react";
+import ComponentHead from "../../Common/ComponentHead";
 
 const Technology = () => {
   const process = [
@@ -42,25 +43,16 @@ const Technology = () => {
 
   return (
     <div className="container-ack md:px-0 px-5">
-      <div className="relative">
-        <div className="md:text-[10rem] text-[3.5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
-          Technology
-        </div>
-        <div className="absolute md:top-[9.5rem] top-5 md:left-[11rem]">
-          <div className="text-3xl  text-center font-bold ">
-            Website Technology
-          </div>
-          <p className="text-base text-center ">
-            Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
-            tincidunt urna vulputate. Elit amet nam nulla
-          </p>
-        </div>
-      </div>
+       <ComponentHead
+        title="Technology"
+        sub="Website Technology"
+        head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+      />
 
-      <div className="grid md:grid-cols-3 md:py-10 md:pt-0 pt-20 gap-10">
-        {process.map((item) => (
+      <div className="grid md:grid-cols-3 md:py-10  pt-16 gap-10">
+        {process.map((item,e) => (
           <>
-            <div className="group  flex justify-start items-center border border-textcolor rounded-md p-3 hover:bg-gray-100 hover:border-transparent">
+            <div key={e} className="group  flex justify-start items-center border border-textcolor rounded-md p-3 hover:bg-gray-100 hover:border-transparent">
               <img src={item.src} alt="" />
               <div>
                 <h2 className="font-semibold text-lg pt-3 text-black ">

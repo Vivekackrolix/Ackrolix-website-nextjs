@@ -12,16 +12,21 @@ const TechnologyDetailPage = () => {
   return (
     <div>
       <Header />
+      <Heading
+        titletext="Technologies"
+        title="Technologies "
+        subtext="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+      />
       <Banner />
       <Section />
+      <Band />
       <ComponentHead
         title=" Advisors"
-        sub="Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
+        head="Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
             tincidunt urna vulputate. Elit amet nam nulla"
-        head="Our Advisors"
+        sub="Our Advisors"
       />
       <Advisors />
-      <Band />
       <Footer />
     </div>
   );

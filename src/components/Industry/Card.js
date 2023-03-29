@@ -44,7 +44,7 @@ const Card = () => {
     <div className="container-ack">
       <div className="md:grid grid-cols-3 gap-8 px-8">
         {data.map((item, e) => (
-          <div className="group pt-10 relative" key={item}>
+          <div className="group pt-10 relative" key={e}>
             <div className="bg-[#F6F8F9] border-2 border-[#F6F8F9] text-left pt-12 pb-8 px-6 rounded-md hovertestimonial">
               <div className="flex flex-col space-y-3">
                 <span className="rounded-full w-12 h-12 absolute top-4 text-white flex justify-center items-center bg-black left-[9rem]">

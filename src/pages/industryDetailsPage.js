@@ -19,25 +19,24 @@ const industryDetailsPage = () => {
         <Header />
         <Heading
           titletext="We Serve"
-          title="HealthCare And Medical Website Design Company"
+          title="HealthCare And Medical "
           subtext="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex.  "
         />
         <Banner />
         <ComponentHead
           title="Sample"
-          head="Work Sample"
-          sub="Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas tincidunt urna vulputate. Elit amet nam nulla "
+          sub="Work Sample"
+          head="Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas tincidunt urna vulputate. Elit amet nam nulla "
         />
 
         <CardSlider />
-
+        <Band />
         <ComponentHead
           title="Advisors"
-          head="Our Advisors in This Industry"
-          sub="Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas tincidunt urna vulputate. Elit amet nam nulla "
+          sub="Our Advisors"
+          head="Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas tincidunt urna vulputate. Elit amet nam nulla "
         />
         <Advisors />
-        <Band />
         <Footer />
       </div>
     </>

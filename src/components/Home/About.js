@@ -113,11 +113,15 @@ const About = () => {
                 Lorem ipsum dolor sit amet consectetur. Integer eget orci nec
                 massa gravida.{" "}
               </p>
-              <div className="pt-4">
+              <div className="flex justify-start pb-10 pt-5">
                 <Link href="/about">
-                  <button className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md flex items-center">
-                    <span className="text-base"> Know More </span>
-                    <MdKeyboardArrowRight className=" text-base text-white hover:text-" />
+                  <button className=" button-2  px-8 py-2 rounded-md">
+                    <div className="eff-2"></div>
+                    <span className="text-base flex items-center ">
+                      {" "}
+                      Know More
+                      <MdKeyboardArrowRight className=" text-base" />
+                    </span>
                   </button>
                 </Link>
               </div>
@@ -164,11 +168,17 @@ const About = () => {
               Lorem ipsum dolor sit amet consectetur. Integer eget orci nec
               massa gravida.
             </div>
-            <div className="pt-4">
-              <button className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md flex items-center">
-                <span className="text-base"> Know More </span>
-                <MdKeyboardArrowRight className=" text-base text-white hover:text-" />
-              </button>
+            <div className="flex justify-center pb-10 pt-4">
+              <Link href="/about">
+                <button className=" button-2  px-12 py-2 rounded-md">
+                  <div className="eff-2"></div>
+                  <span className="text-base flex items-center ">
+                    {" "}
+                    Know More
+                    <MdKeyboardArrowRight className=" text-base" />
+                  </span>
+                </button>
+              </Link>
             </div>
           </div>
         </div>

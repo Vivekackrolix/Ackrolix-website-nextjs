@@ -16,14 +16,19 @@ const Card = () => {
                 Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
                 ultrices id enim lectus sagittis viverra interdum.
               </div>
-              <Link href="/contact">
-                <div className="pt-4">
-                  <button className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md flex items-center">
-                    <span className="text-base"> Contact Us </span>
-                    <MdKeyboardArrowRight className=" text-base" />
+
+              <div className="flex justify-left pb-10 pt-5">
+                <Link href="/contact">
+                  <button className=" button-2  px-8 py-2 rounded-md">
+                    <div className="eff-2"></div>
+                    <span className="text-base flex items-center ">
+                      {" "}
+                      Contact Us
+                      <MdKeyboardArrowRight className=" text-base" />
+                    </span>
                   </button>
-                </div>
-              </Link>
+                </Link>
+              </div>
             </div>
           </div>
 

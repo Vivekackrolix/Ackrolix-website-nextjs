@@ -91,9 +91,9 @@ const Cards = () => {
   return (
     <div className="container-ack md:px-0 px-5">
       <div className="md:grid lg:grid-cols-4 md:grid-cols-2 px-5 md:py-20 py-10 gap-8 hidden">
-        {card.map((item) => (
+        {card.map((item, index) => (
           <>
-            <div className={`${item.cols} `}>
+            <div className={`${item.cols} `} key={index}>
               <div
                 className={`${item.bgcolor} px-3 py-5 h-full  rounded-2xl shadow-box`}
               >
@@ -103,14 +103,14 @@ const Cards = () => {
                 <div className="relative">
                   <div className={`${item.main}`}>
                     {item.maintitle ? (
-                      <div className="md:text-[6.5rem] text-[4.6rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
+                      <div className="md:text-[6.5rem] text-[5rem] tracking-wider text-left texttransparent font-bold  md:pt-10">
                         {item.maintitle}{" "}
                       </div>
                     ) : null}
                   </div>
                   <div className={`${item.main}`}>
                     {item.subtitle ? (
-                      <div className="absolute md:top-[6.5rem] top-5 md:left-[3rem] text-3xl font-semibold ">
+                      <div className="text-3xl   font-bold  absolute md:top-[6.7rem]  top-[4rem]">
                         {item.subtitle}{" "}
                       </div>
                     ) : null}
@@ -134,48 +134,47 @@ const Cards = () => {
       </div>
 
       <div>
-      
-<div className="md:hidden block ">
-        {card.map((item) => (
-          <>
-            <div className={`${item.cols} `}>
-              <div
-                className={`${item.bgcolor} px-3 py-5 h-full  rounded-2xl shadow-box my-10`}
-              >
-                <div className={`${item.display}`}>
-                  {item.icon ? <img src={item.icon} className=" " /> : null}
-                </div>
-                <div className="relative">
-                  <div className={`${item.main}`}>
-                    {item.maintitle ? (
-                      <div className="md:text-[6.5rem] text-[4.6rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
-                        {item.maintitle}{" "}
-                      </div>
-                    ) : null}
-                  </div>
-                  <div className={`${item.main}`}>
-                    {item.subtitle ? (
-                      <div className="absolute md:top-[6.5rem] top-5 md:left-[3rem] text-3xl font-semibold ">
-                        {item.subtitle}{" "}
-                      </div>
-                    ) : null}
-                  </div>
-                  <h5
-                    className={`${item.textcolor} ${item.textsize} ${item.border} ${item.fontbold}  py-2 font-semibold  `}
-                  >
-                    {" "}
-                    {item.title}
-                  </h5>
-                </div>
-                <p
-                  className={`${item.textcolor}  text-justify pt-1 leading-relaxed text-sm text-textcolor`}
+        <div className="md:hidden block ">
+          {card.map((item, index) => (
+            <>
+              <div className={`${item.cols} `} key={index}>
+                <div
+                  className={`${item.bgcolor} px-3 py-5 h-full  rounded-2xl shadow-box my-10`}
                 >
-                  {item.para}
-                </p>
+                  <div className={`${item.display}`}>
+                    {item.icon ? <img src={item.icon} className=" " /> : null}
+                  </div>
+                  <div className="relative">
+                    <div className={`${item.main}`}>
+                      {item.maintitle ? (
+                        <div className="md:text-[6.5rem] text-[4.6rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
+                          {item.maintitle}{" "}
+                        </div>
+                      ) : null}
+                    </div>
+                    <div className={`${item.main}`}>
+                      {item.subtitle ? (
+                        <div className="absolute md:top-[6.5rem] top-5 md:left-[3rem] text-3xl font-semibold ">
+                          {item.subtitle}{" "}
+                        </div>
+                      ) : null}
+                    </div>
+                    <h5
+                      className={`${item.textcolor} ${item.textsize} ${item.border} ${item.fontbold}  py-2 font-semibold  `}
+                    >
+                      {" "}
+                      {item.title}
+                    </h5>
+                  </div>
+                  <p
+                    className={`${item.textcolor}  text-justify pt-1 leading-relaxed text-sm text-textcolor`}
+                  >
+                    {item.para}
+                  </p>
+                </div>
               </div>
-            </div>
-          </>
-        ))}
+            </>
+          ))}
         </div>
       </div>
     </div>

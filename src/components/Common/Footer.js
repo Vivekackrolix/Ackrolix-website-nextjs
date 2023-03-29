@@ -15,7 +15,7 @@ const Footer = () => {
         backgroundImage: 'url("/assets/images/backgroundfooter.png")',
       }}
     >
-      <div className="absolute md:-top-10 md:left-44 md:px-0 px-5 -top-12">
+      <div className="absolute md:-top-10 md:left-28 md:px-0 px-5 -top-12">
         <Subscription />
       </div>
 
@@ -143,8 +143,7 @@ const Footer = () => {
                     />
 
                     <h2 className="text-sm md:w-[90%]">
-                      359, Sector 28, Golf Course Road Gurugram -122001 Haryana
-                      India
+                      139 Rider House Sec 44, Gurugram 122108
                     </h2>
                   </li>
                   <Link href="tel:+918178567042">
@@ -162,7 +161,7 @@ const Footer = () => {
                         size={28}
                         className="text-black group-hover:text-primary"
                       />
-                      <span className="text-sm">Info@ackrolix.com</span>
+                      <span className="text-sm">info@ackrolix.com</span>
                     </li>
                   </Link>
                 </ul>
@@ -186,8 +185,7 @@ const Footer = () => {
                 </svg>
 
                 <span className="text-sm md:w-[90%]">
-                  359, Sector 28, Golf Course Road Gurugram -122001 Haryana
-                  India
+                  139 Rider House Sec 44, Gurugram 122108
                 </span>
               </div>
 
@@ -204,8 +202,7 @@ const Footer = () => {
                 </svg>
 
                 <h2 className="text-sm md:w-[90%]">
-                  359, Sector 28, Golf Course Road Gurugram -122001 Haryana
-                  India
+                  139 Rider House Sec 44, Gurugram 122108
                 </h2>
               </div>
 
@@ -222,8 +219,7 @@ const Footer = () => {
                 </svg>
 
                 <span className="text-sm md:w-[90%]">
-                  359, Sector 28, Golf Course Road Gurugram -122001 Haryana
-                  India
+                  139 Rider House Sec 44, Gurugram 122108
                 </span>
               </div>
             </div>

@@ -8,18 +8,27 @@ import Section from "../components/Services/DetailPage/Section";
 import Technology from "../components/Services/DetailPage/Technology";
 import Work from "../components/Services/DetailPage/Work";
 import React from "react";
+import Clients from "../components/Home/Clients";
 
 const serviceDetailPage = () => {
   return (
     <div>
       <Header />
-      <Banner />
+      <div
+        className=" bg-right"
+        style={{
+          backgroundImage: 'url("/assets/images/mainbackground.png ")',
+        }}
+      >
+        <Banner />
+      </div>
       <Cards />
       <Technology />
       <Process />
       <Work />
       <Section />
       <Enquiry />
+      <Clients/>
       <Footer />
     </div>
   );

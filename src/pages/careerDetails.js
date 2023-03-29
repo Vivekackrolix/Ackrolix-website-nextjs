@@ -27,7 +27,7 @@ const CareerDetails = ()=> {
       <div className="container-ack">
         <div className="py-12 space-y-8">
           <div className="text-center space-y-4">
-            <h2 className="text-4xl text-center">
+            <h2 className="text-4xl  text-center font-bold ">
               Etiam nulla lectus amet nunc molestie at <br /> vulputate.
             </h2>
             <p className="text-gray-500">Rhoncus, accumsan dictum</p>

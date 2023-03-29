@@ -57,16 +57,16 @@ const Advisors = () => {
 
   return (
     <div className="container-ack md:px-0 px-5 md:pt-0 pt-16">
-       <ComponentHead
+      <ComponentHead
         title="Advisors"
         sub="Our Advisors"
         head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
       />
-      
-      <div className="grid md:grid-cols-3 gap-3">
+
+      <div className="grid md:grid-cols-3 gap-6 pt-12">
         {advisor.map((item, e) => (
           <>
-            <div className="group p-6" key={e}>
+            <div className="group " key={e}>
               <div className="relative text-center py-6 border-2 border-[#F6F8F9] duration duration-200 group-hover:-translate-y-2  hover:drop-shadow-sm hover:bg-[#F6F8F9] hover:border-2 rounded-xl">
                 <div className="inline-flex justify-center items-center rounded-md md:mt-8 ">
                   <img
@@ -95,14 +95,19 @@ const Advisors = () => {
           </>
         ))}
       </div>
-      <Link href="/advisors">
-        <div className="flex justify-center md:pt-4">
-          <button className="bg-secondary hover:bg-primary text-white px-12 py-2 rounded-md flex items-center">
-            <span className="text-base"> View All </span>
-            <MdKeyboardArrowRight className=" text-base" />
+
+      <div className="flex justify-center pb-10 pt-5">
+        <Link href="/advisors">
+          <button className=" button-2  px-12 py-2 rounded-md">
+            <div className="eff-2"></div>
+            <span className="text-base flex items-center ">
+              {" "}
+              View All
+              <MdKeyboardArrowRight className=" text-base" />
+            </span>
           </button>
-        </div>
-      </Link>
+        </Link>
+      </div>
     </div>
   );
 };

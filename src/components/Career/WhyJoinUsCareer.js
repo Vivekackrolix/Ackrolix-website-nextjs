@@ -7,10 +7,13 @@ function WhyJoinUsCareer() {
         <div className="whyJoinUsHeading mt-10">
           <div className="col4WhyHding">
             <div className="relative">
-              <div className="md:text-[8rem] text-[5rem] leading-[170px] text-white tracking-wider text-center texttransparent font-bold   ">
+            <div className="md:text-[8rem] text-[5rem] tracking-wider text-left texttransparent font-bold  md:pt-10 ">
                 Why
               </div>
-              <div className="psAbsolute"> Why Join Us </div>
+              <div className="absolute md:top-[6.7rem] top-[4rem] inset-x-0 flex justify-left">
+              <div className="text-[46px] text-left font-bold max-w-xl">
+               Why Join Us
+               </div> </div>
             </div>
           </div>
 

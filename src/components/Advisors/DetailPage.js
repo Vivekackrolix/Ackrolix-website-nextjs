@@ -80,7 +80,7 @@ const DetailPage = () => {
   ];
 
   return (
-    <div className="container-ack md:pt-16 ">
+    <div className="container-ack ">
       <div className="group py-10 relative">
         <div className="hover:bg-[#F6F8F9] bg-white  border-2 border-[#D2D2D2] text-left mx-3 py-8 rounded-md  hovertestimonial">
           <div className="flex flex-col items-center justify-left">
@@ -130,9 +130,9 @@ const DetailPage = () => {
                 <p className=" md;col-span-1 font-semibold text-lg">Employment</p>
 
                 <div className="md:col-span-2 flex flex-col space-y-6">
-                  {employment.map((item) => (
+                  {employment.map((item,index) => (
                     <>
-                      <div className="md:flex justify-between" key={item.id}>
+                      <div className="md:flex justify-between" key={index}>
                         <p className="font-semibold">
                           {item.year} - {item.university}
                         </p>

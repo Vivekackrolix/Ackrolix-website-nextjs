@@ -5,7 +5,7 @@ import ComponentHead from "../Common/ComponentHead";
 
 const OurServices = () => {
   return (
-    <div className="container-ack pb-16 md:px-0 px-5 md:pt-0 pt-16">
+    <div className="container-ack pb-16 md:px-0 px-5 md:pt-0 pt-6">
       <ComponentHead
         title="Services"
         sub="Our Services "
@@ -26,14 +26,19 @@ const OurServices = () => {
                     ultrices id enim lectus sagittis viverra interdum.
                   </div>
                 </div>
-                <Link href="/services">
-                <div className="pt-4 flex justify-center">
-                  <button className="bg-transparent hover:bg-secondary text-white border border-white px-8 py-2 rounded-md flex items-center">
-                    <span className="text-base"> Know More </span>
-                    <MdKeyboardArrowRight className=" text-base" />
-                  </button>
+
+                <div className="flex justify-center">
+                  <Link href="/services">
+                    <button className=" button-1  px-8 py-2 rounded-md">
+                      <div className="eff-1"></div>
+                      <span className="text-base flex items-center ">
+                        {" "}
+                        Know More
+                        <MdKeyboardArrowRight className=" text-base" />
+                      </span>
+                    </button>
+                  </Link>
                 </div>
-                </Link>
               </div>
             </div>
           </div>
@@ -58,14 +63,18 @@ const OurServices = () => {
                     ultrices id enim lectus sagittis viverra interdum.
                   </div>
                 </div>
-                <Link href="/services">
-                <div className="pt-4 flex justify-center">
-                  <button className="bg-transparent hover:bg-secondary text-white border border-white px-8 py-2 rounded-md flex items-center">
-                    <span className="text-base"> Know More </span>
-                    <MdKeyboardArrowRight className=" text-base" />
-                  </button>
+                <div className="flex justify-center">
+                  <Link href="/services">
+                    <button className=" button-1  px-8 py-2 rounded-md">
+                      <div className="eff-1"></div>
+                      <span className="text-base flex items-center ">
+                        {" "}
+                        Know More
+                        <MdKeyboardArrowRight className=" text-base" />
+                      </span>
+                    </button>
+                  </Link>
                 </div>
-                </Link>
               </div>
             </div>
           </div>

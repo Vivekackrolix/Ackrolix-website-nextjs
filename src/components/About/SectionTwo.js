@@ -16,12 +16,14 @@ const SectionTwo = () => {
         </div>
 
         <div className=" md:px-0 px-5 pb-10 md:pb-0  relative">
-          <div className="md:text-9xl text-[5rem] text-white tracking-[1rem] texttransparent font-bold  md:pt-10 ">
-         Lorem
-          </div>
+        <div className="md:text-[7rem] text-[5rem] tracking-wider text-left texttransparent font-bold  ">
+          Lorem
+            </div>
           <div className="">
-            <div className="text-3xl   font-bold  absolute md:top-[5rem] top-[2rem] ">
-            Lorem ipsum dolor sit amet Eget at auctor purus 
+          <div className="absolute md:top-[4.3rem] top-[4rem]  inset-x-0 flex justify-left">
+              <div className="text-4xl  text-left font-bold ">
+                Lorem Ipsum Dolor Ipsum 
+              </div>
             </div>
             <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4">
               Lorem ipsum dolor sit amet consectetur. Sapien porttitor non

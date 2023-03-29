@@ -23,11 +23,11 @@ const Tabs = () => {
     <div className="container-ack md:px-0 px-5">
       <div className="flex flex-col">
         <div className="grid grid-cols-3 cursor-pointer">
-          {tabs.map((item) => (
+          {tabs.map((item,e) => (
             <div
               onClick={() => setSelect(item.id)}
               className="group py-10"
-              key={item}
+              key={e}
             >
               {" "}
               <div

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { BiPhoneCall } from "react-icons/bi";
 import { FaLocationArrow } from "react-icons/fa";
@@ -16,7 +17,7 @@ const FormSection = () => {
               <div className="md:text-[7rem] text-[5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
                 Connect
               </div>
-              <div className="absolute md:top-28 top-10 left-16 text-3xl  text-center font-semibold flex flex-col md:space-y-6 items-start">
+              <div className="absolute md:top-[5.8rem] font-bold top-10 left-16 text-[46px]  text-center flex flex-col md:space-y-6 items-start">
                 <h2>
                   Get in <span className="text-primary">Touch</span>
                 </h2>
@@ -83,29 +84,33 @@ const FormSection = () => {
             </form>
             {/* form end */}
             <div className="grid md:grid-cols-3 gap-4 pl-16 pb-4">
+            <Link href="tel:+918178567042">
               <div className="flex space-x-2">
                 <BiPhoneCall size={25} />
                 <div className="text-xs">
                   <h2 className="font-semibold">PHONE</h2>
-                  <p className="text-primary">03 5432 1234</p>
+                  <p className="text-primary">+91-8178567042</p>
                 </div>
               </div>
-              <div className="flex space-x-2">
+              </Link>
+              <div className="flex space-x-2 cursor-pointer">
                 <FaLocationArrow size={30} />
                 <div className="text-xs">
                   <h2 className="font-semibold">ADDRESS</h2>
                   <p className="text-primary">
-                    139 Ride House Sec 44, Gurugram 122108
+                    139 Rider House Sec 44, Gurugram 122108
                   </p>
                 </div>
               </div>
+              <Link href="mailto:info@ackrolix.com">
               <div className="flex space-x-2">
                 <MdOutlineMail size={25} />
                 <div className="text-xs">
                   <h2 className="font-semibold">EMAIL</h2>
-                  <p className="text-primary">info@marcc.com.au</p>
+                  <p className="text-primary">info@ackrolix.com</p>
                 </div>
               </div>
+              </Link>
             </div>
           </div>
           <div className="col-span-1">

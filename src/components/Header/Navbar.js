@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <div className="header text-black duration-300  w-full z-20  header-home py-2">
-      <nav className="navbar  bg-white">
+      <nav className="navbar ">
         <Link href="/" className="md:hidden block">
           <img src="/assets/images/acklogo.png" alt="image" />
         </Link>
@@ -122,7 +122,7 @@ const Navbar = () => {
             <Link href="/moments"> 
             <li
               className={
-                router.pathname == "/Moments"
+                router.pathname == "/moments"
                   ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
                   : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
               }
@@ -132,7 +132,7 @@ const Navbar = () => {
             </Link>
             {/* for mobile start */}
             <li className="md:hidden block ">
-              <Link href="/">
+              <Link href="/moments">
                 <p className="text-white px-10">Moments</p>
               </Link>
             </li>
@@ -176,7 +176,7 @@ const Navbar = () => {
             <Link href="/technology">
             <li
               className={
-                router.pathname == "/Technology"
+                router.pathname == "/technology"
                   ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
                   : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
               }

@@ -49,10 +49,11 @@ const Memories = () => {
     centerMode: true,
     centerPadding: "0px",
     speed: 1000,
+    autoplaySpeed: 2000,
     slidesToShow: 3,
     slidesToScroll: 1,
-    prevArrow: <PrevArrow />,
-    nextArrow: <NextArrow />,
+    // prevArrow: <PrevArrow />,
+    // nextArrow: <NextArrow />,
     responsive: [
       {
         breakpoint: 1080,
@@ -125,14 +126,16 @@ const Memories = () => {
           </div>
         </div>
       </div>
-      <Link href="/moments">
-        <div className="flex justify-center md:pt-4">
-          <button className="bg-secondary hover:bg-primary text-white px-12 py-2 rounded-md flex items-center">
-            <span className="text-base"> View All </span>
+      <div className="flex justify-center pt-6 ">
+        <Link href="/moments">
+          <button className= " button-2  px-12 py-2 rounded-md">
+            <div className="eff-2"></div>
+            <span className="text-base flex items-center "> View All 
             <MdKeyboardArrowRight className=" text-base" />
+            </span>
           </button>
+          </Link>
         </div>
-      </Link>
     </div>
   );
 };

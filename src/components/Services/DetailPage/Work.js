@@ -1,4 +1,5 @@
 import React from "react";
+import ComponentHead from "../../Common/ComponentHead";
 
 const Work = () => {
   const work = [
@@ -29,23 +30,16 @@ const Work = () => {
   ];
   return (
     <div className="container-ack md:px-0 px-5">
-      <div className="relative">
-        <div className="md:text-[10rem] text-[4.5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
-          Showcase
-        </div>
-        <div className="absolute md:top-[9.5rem] top-5 md:left-[11rem]">
-          <div className="text-3xl  text-center font-bold ">Work Showcase</div>
-          <p className="text-base text-center ">
-            Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
-            tincidunt urna vulputate. Elit amet nam nulla
-          </p>
-        </div>
-      </div>
+      <ComponentHead
+        title="Showcase"
+        sub="Work Showcase"
+        head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+      />
 
-      <div className="grid md:grid-cols-3 gap-5 md:pt-0 pt-12">
-        {work.map((item) => (
+      <div className="grid md:grid-cols-3 gap-5 pt-12">
+        {work.map((item, e) => (
           <>
-            <div className="border border-textcolor p-2 rounded-md">
+            <div className="border border-textcolor p-2 rounded-md" key={e}>
               <img src={item.src} alt="" />
             </div>
           </>

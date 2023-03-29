@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 const Banner = () => {
   return (
     <div
-      className="h-screen"
+      className="h-screen bg-right"
       style={{
         backgroundImage: 'url("/assets/images/mainbackground.png ")',
       }}
@@ -15,11 +15,11 @@ const Banner = () => {
         </div>
 
         <div className=" md:px-0 px-5 pb-10 md:pb-0  relative">
-          <div className="md:text-9xl text-[6rem] text-white tracking-[1rem] texttransparent font-bold  md:pt-10 ">
+          <div className="md:text-[8rem] text-[5rem] tracking-wider text-left texttransparent font-bold  md:pt-10">
             <span className="text-[#fbfcfc]">Abo</span>ut
           </div>
           <div className="">
-            <div className="text-3xl   font-bold  absolute md:top-[5rem]  top-[4rem]">
+            <div className="text-3xl   font-bold  absolute md:top-[5.8rem]  top-[4rem]">
               <span className="text-primary">Lorem ipsum</span> dolor sit amet
               Eget at auctor purus
             </div>
