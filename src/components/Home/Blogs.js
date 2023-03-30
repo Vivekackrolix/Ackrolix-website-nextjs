@@ -1,24 +1,18 @@
 import Link from "next/link";
 import React from "react";
+import ComponentHead from "../Common/ComponentHead";
 
 const Blogs = () => {
   return (
     <div className="bg-[#F6F8F9]">
       <div className="container-ack md:px-0 px-5">
-        <div className="relative">
-          <div className="md:text-[10rem] text-[5rem] text-[#F6F8F9] tracking-wider text-center texttransparent font-bold  md:pt-10 ">
-            Blogs
-          </div>
-          <div className="absolute md:top-[9.5rem] top-5 md:left-[11rem]">
-            <div className="text-3xl  text-center font-bold ">Blogs</div>
-            <p className="text-base text-center ">
-              Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
-              tincidunt urna vulputate. Elit amet nam nulla
-            </p>
-          </div>
-        </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center md:pt-0 pt-10">
+      <ComponentHead
+        title="Blogs"
+        sub="Blogs"
+        head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+      />
+        <div className="grid md:grid-cols-2 gap-12 items-center  pt-12">
           <img src="/assets/images/blogone.png" alt="" className="rounded-md" />
 
           <div>

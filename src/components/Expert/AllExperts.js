@@ -98,12 +98,7 @@ const All = () => {
             </div>
           </>
         ))}
-      </div>
-      <div className=" flex justify-center items-center md:pb-10" >
-<button className="bg-white border-2 border-secondary text-secondary px-12 py-2 rounded-md hover:bg-secondary hover:text-white">
-    View All
-</button>
-      </div>
+      </div> 
     </div>
   );
 };

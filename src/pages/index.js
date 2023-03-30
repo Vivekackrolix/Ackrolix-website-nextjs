@@ -21,7 +21,6 @@ const index = () => {
         <title>Home Page</title>
       </Head>
       <Header />
-
       <Banner />
       <About />
       <OurServices />
