@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import Link from "next/link";
+import ComponentHead from "../Common/ComponentHead";
 
 const clientsData = [
   {
@@ -120,23 +121,24 @@ const Testimonial = () => {
           }}
         >
           <div className="relative">
-            <div className="md:text-[10rem] text-[4rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
+            <div className="md:text-[8rem] text-[3.8rem] tracking-wider text-center texttransparent font-bold  md:pt-10 ">
               Testimonial
             </div>
-            <div className="absolute md:top-[9.5rem] top-5 md:left-[11rem]">
-              <div className="text-3xl  text-center font-bold ">
+            <div className="absolute md:top-[6.7rem] top-[0.5rem] inset-x-0 flex justify-center">
+              <div className="text-[46px]  text-center font-bold max-w-xl">
                 Testimonial
               </div>
-              <p className="text-base text-center ">
-                Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
-                tincidunt urna vulputate. Elit amet nam nulla
-              </p>
             </div>
           </div>
+          <p className="text-base text-gray-400 text-center md:w-[60%] mx-auto ">
+            Nunc convallis semper justo quis tempor. Praesent molestie, lorem
+            sed imperdiet tempor, libero urna semper urna, facilisis vulputate
+            velit arcu vitae mi. Donec ac nisi ex.
+          </p>
 
-          <div className="md:pt-0 pt-10">
+          <div className="pt-12">
             <Slider {...settings} className="testimonialSlider mx-auto">
-              {clientsData.map((item,index) => (
+              {clientsData.map((item, index) => (
                 <>
                   <div className="group py-10 relative" key={index}>
                     <div className="hover:bg-[#F6F8F9] border-2 border-[#F6F8F9] text-left mx-3 py-8 rounded-md  hovertestimonial">
@@ -166,18 +168,17 @@ const Testimonial = () => {
           </div>
 
           <div className="flex justify-center pb-10 pt-5">
-        <Link href="/testimonials">
-          <button className=" button-2  px-12 py-2 rounded-md">
-            <div className="eff-2"></div>
-            <span className="text-base flex items-center ">
-              {" "}
-              View All
-              <MdKeyboardArrowRight className=" text-base" />
-            </span>
-          </button>
-        </Link>
-      </div>
-
+            <Link href="/testimonials">
+              <button className=" button-2  px-12 py-2 rounded-md">
+                <div className="eff-2"></div>
+                <span className="text-base flex items-center ">
+                  {" "}
+                  View All
+                  <MdKeyboardArrowRight className=" text-base" />
+                </span>
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </>
