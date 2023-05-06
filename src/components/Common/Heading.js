@@ -8,7 +8,7 @@ const Heading = ({ titletext, title, subtext }) => {
           {titletext}
         </div>
         <div className="absolute md:top-[6.7rem] top-[4rem] inset-x-0 flex justify-center">
-          <div className="text-[46px]  text-center font-bold max-w-xl">
+          <div className="text-[46px] max-[480px]:text-[30px] text-center font-bold max-w-xl">
             {title}
           </div>
         </div>

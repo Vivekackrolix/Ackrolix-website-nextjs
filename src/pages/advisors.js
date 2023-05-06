@@ -22,7 +22,7 @@ const Advisors = () => {
       <Heading
         titletext="Advisors"
         title="Our Advisors"
-        subtext="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+        subtext="Our team of Industry Experts has the skills and experience to turn an idea into a successful product that exceeds expectations"
       />
 
       </div>

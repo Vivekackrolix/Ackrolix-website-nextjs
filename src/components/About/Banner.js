@@ -19,21 +19,24 @@ const Banner = () => {
             <span className="text-[#fbfcfc]">Abo</span>ut
           </div>
           <div className="">
-            <div className="text-3xl   font-bold  absolute md:top-[5.8rem]  top-[4rem]">
-              <span className="text-primary">Lorem ipsum</span> dolor sit amet
-              Eget at auctor purus
+            <div className="text-3xl  font-bold  absolute md:top-[5.7rem]  top-[4rem]">
+              <span className="text-primary">Driving success </span> through the
+              power of technology
             </div>
             <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4">
-              Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
-              ultrices id enim lectus sagittis viverra interdum. Nisi lobortis
-              tincidunt convallis viverra. Scelerisque sed orci amet proin cras
-              quam pellentesque. Sollicitudin sed velit nunc nunc morbi sed
-              aliquam.
+              As a product development company, our focus is on creating
+              innovative solutions that meet the needs and desires of our
+              clients. Ackrolix a team of experts has the skills and experience
+              to turn an idea into a successful product that exceeds
+              expectations. One of our strengths as a company is our ability to
+              stay up-to-date with the latest technologies and trends in product
+              development.
             </div>
             <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  py-4">
-              Lorem ipsum dolor sit amet consectetur. Fermentum tortor et arcu
-              pellentesque tempor cursus cursus amet odio. Orci eu sagittis leo
-              duis enim mi massa etiam.
+              Ackrolix is known for its innovative approach, collaborative
+              spirit, and commitment to excellence. Our clients trust us to
+              deliver high-quality solutions that meet their needs and help them
+              to achieve their goals.
             </div>
           </div>
         </div>
@@ -41,16 +44,16 @@ const Banner = () => {
 
       <div className=" grid md:grid-cols-12 md:gap-0 gap-4 justify-center container-ack pt-8">
         <div className="md:col-span-3 flex flex-col  items-center">
-            <p className=" text-2xl font-bold text-secondary"> 300+</p>
-            <p>Lorem ipsum dolor sit</p>
+          <p className=" text-2xl font-bold text-secondary"> 1056+</p>
+          <p>Projects Completed</p>
         </div>
         <div className=" md:col-span-3 flex flex-col items-center">
-            <p className=" text-2xl font-bold text-secondary"> 300+</p>
-            <p>Lorem ipsum dolor sit</p>
+          <p className=" text-2xl font-bold text-secondary"> 50+</p>
+          <p>Active Clients</p>
         </div>
         <div className="md:col-span-3 flex flex-col items-center">
-            <p className=" text-2xl font-bold text-secondary"> 300+</p>
-            <p>Lorem ipsum dolor sit</p>
+          <p className=" text-2xl font-bold text-secondary">740+ </p>
+          <p>Cups of Coffee</p>
         </div>
       </div>
     </div>

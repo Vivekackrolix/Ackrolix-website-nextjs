@@ -1,16 +1,11 @@
 import Link from "next/link";
 import React from "react";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import { ImFacebook } from "react-icons/im";
 import { IoMdCall, IoMdMail } from "react-icons/io";
 import { GoLocation } from "react-icons/go";
-import { MdArrowRightAlt, MdPlayArrow } from "react-icons/md";
 import Subscription from "../Home/Subscription";
 const Footer = () => {
   return (
-    <div
-      className="mt-20 relative"
+    <div className="mt-20 relative"
       style={{
         backgroundImage: 'url("/assets/images/backgroundfooter.png")',
       }}
@@ -20,12 +15,12 @@ const Footer = () => {
       </div>
 
       <div className="container-ack ">
-        <div className="md:pt-36 pt-72 ">
-          <div className=" grid md:grid-cols-12 justify-between  gap-12 md:px-0 px-5">
+        <div className="md:pt-36 pt-72">
+          <div className=" grid md:grid-cols-12 justify-between  gap-12 md:px-0 px-5 pb-10">
             <div className="md:col-span-4  space-y-4">
               <Link href="/">
                 <div>
-                  <img src="/assets/images/acklogo.png" className="w-48" />
+                  <img src="/assets/images/logoack.png" className="w-48" />
                 </div>
               </Link>
               <p className="text-sm">
@@ -37,9 +32,9 @@ const Footer = () => {
                 <Link href="https://m.facebook.com/people/Ackrolix-Innovations-Pvt-Ltd/100076925016084/">
                   <svg
                     className="svgimg"
-                    width="25"
+                    width="24"
                     height="24"
-                    viewBox="0 0 22 21"
+                    viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -49,9 +44,9 @@ const Footer = () => {
                 <Link href="https://www.instagram.com/ackrolix/">
                   <svg
                     className="svgimg"
-                    width="23"
+                    width="24"
                     height="24"
-                    viewBox="0 0 20 21"
+                    viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -61,13 +56,15 @@ const Footer = () => {
                 <Link href="https://in.linkedin.com/company/ackrolix">
                   <svg
                     className="svgimg"
-                    width="25"
-                    height="21"
-                    viewBox="0 0 22 18"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path d="M21.3125 2.70509C20.5388 3.04125 19.7202 3.26273 18.8826 3.36251C19.7629 2.84705 20.4249 2.02814 20.7445 1.05938C19.9122 1.54604 19.0032 1.88751 18.0563 2.06915C17.6576 1.65129 17.1781 1.31887 16.6469 1.0921C16.1157 0.865329 15.544 0.74894 14.9664 0.750007C12.6281 0.750007 10.7357 2.61485 10.7357 4.91368C10.7341 5.23344 10.7707 5.55224 10.8449 5.86329C9.16811 5.78468 7.5262 5.35694 6.02421 4.60742C4.52222 3.85791 3.19322 2.80312 2.12223 1.51055C1.7465 2.14397 1.54779 2.86667 1.54688 3.60313C1.54688 5.04688 2.30012 6.32305 3.4375 7.07071C2.76363 7.05472 2.10357 6.87636 1.51336 6.55079V6.60235C1.51336 8.62188 2.9743 10.302 4.90789 10.6844C4.54428 10.7813 4.16959 10.8304 3.79328 10.8305C3.52626 10.8309 3.25985 10.805 2.99793 10.7531C3.53547 12.4074 5.09996 13.6106 6.9532 13.6449C5.44731 14.8055 3.59847 15.4327 1.69727 15.4281C1.3598 15.4276 1.02264 15.4075 0.6875 15.368C2.6216 16.603 4.86984 17.2563 7.16461 17.25C14.9574 17.25 19.2148 10.9035 19.2148 5.39923C19.2148 5.21876 19.21 5.03829 19.2014 4.86212C20.0278 4.27433 20.7426 3.54388 21.3125 2.70509Z" />
+                    <path
+                      d="M11.1392 0.240936C5.41751 0.240936 0.779297 4.87924 0.779297 10.601C0.779297 16.3228 5.41751 20.9611 11.1392 20.9611C16.8609 20.9611 21.4991 16.3228 21.4991 10.601C21.4991 4.87924 16.8609 0.240936 11.1392 0.240936ZM8.60318 14.8951H6.5053V8.14374H8.60318V14.8951ZM7.54129 7.31494C6.87869 7.31494 6.45026 6.84549 6.45026 6.2649C6.45026 5.67243 6.89164 5.21702 7.56827 5.21702C8.2449 5.21702 8.6593 5.67243 8.67225 6.2649C8.67225 6.84549 8.2449 7.31494 7.54129 7.31494ZM16.2652 14.8951H14.1673V11.1536C14.1673 10.2827 13.863 9.69128 13.1043 9.69128C12.5248 9.69128 12.1806 10.0917 12.0284 10.4769C11.9723 10.614 11.9583 10.8082 11.9583 11.0014V14.894H9.85932V10.2967C9.85932 9.45386 9.83234 8.74916 9.80428 8.14266H11.627L11.723 9.08047H11.7651C12.0414 8.64016 12.718 7.9905 13.85 7.9905C15.2303 7.9905 16.2652 8.91535 16.2652 10.9032V14.8951Z"
+                    />
                   </svg>
                 </Link>
               </div>
@@ -75,57 +72,57 @@ const Footer = () => {
             <div className="md:col-span-5 p-2">
               <h2 className="text-xl font-semibold text-black">EXPLORE</h2>
               <div className="flex space-x-40 py-4">
-                <ul className="">
+                <ul className="explore">
                   <Link href="/">
-                    <li className="pt-4 text-sm hover:text-primary">
+                    <li className="text-sm hover:text-primary">
                       <span className="">Home</span>
                     </li>
                   </Link>
                   <Link href="/about">
-                    <li className="pt-4 text-sm hover:text-primary">
+                    <li className="text-sm hover:text-primary">
                       <span className="">About</span>
                     </li>
                   </Link>
                   <Link href="/services">
-                    <li className="pt-4 text-sm hover:text-primary">
+                    <li className="text-sm hover:text-primary">
                       <span className="">Our Expertise</span>
                     </li>
                   </Link>
                   <Link href="/advisors">
-                    <li className="pt-4 text-sm hover:text-primary">
+                    <li className="text-sm hover:text-primary">
                       <span className="">Advisors</span>
                     </li>
                   </Link>
                   <Link href="/experts">
-                    <li className="pt-4 text-sm hover:text-primary">
+                    <li className="text-sm hover:text-primary">
                       <span className="">Our Experts</span>
                     </li>
                   </Link>
                 </ul>
 
-                <ul className="">
+                <ul className="explore">
                   <Link href="/moments">
-                    <li className="pt-4 text-sm hover:text-primary">
+                    <li className="text-sm hover:text-primary">
                       <span className="">Moments</span>
                     </li>
                   </Link>
                   <Link href="/career">
-                    <li className="pt-4 text-sm hover:text-primary">
+                    <li className="text-sm hover:text-primary">
                       <span className="">Career</span>
                     </li>
                   </Link>
                   <Link href="/portfolio">
-                    <li className="pt-4 text-sm hover:text-primary">
+                    <li className="text-sm hover:text-primary">
                       <span className="">Portfolio</span>
                     </li>
                   </Link>
                   <Link href="/technology">
-                    <li className="pt-4 text-sm hover:text-primary">
+                    <li className="text-sm hover:text-primary">
                       <span className="">Technologies</span>
                     </li>
                   </Link>
                   <Link href="/industryWeServe">
-                    <li className="pt-4 text-sm hover:text-primary">
+                    <li className="text-sm hover:text-primary">
                       <span className="">Industry We Serve</span>
                     </li>
                   </Link>
@@ -168,7 +165,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
+          {/* 
           <div className="py-6 md:px-0 px-5">
             <h2 className="text-xl font-semibold text-black">OUR LOCATIONS</h2>
             <div className=" grid md:grid-cols-3 gap-7">
@@ -223,10 +220,14 @@ const Footer = () => {
                 </span>
               </div>
             </div>
-          </div>
+          </div> */}
           <hr className="h-[1px] bg-dark " />
           <div className="text-center py-5 text-sm md:px-0 px-5">
-            <p> © Copyright 2023 | Website Design & Developed By Ackrolix</p>
+            <p>
+              {" "}
+              © Copyright 2023 <span className="font-semibold">Ackrolix Innovation Pvt. Ltd.</span> | All Rights
+              Reserved
+            </p>
           </div>
         </div>
       </div>

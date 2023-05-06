@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { MdKeyboardArrowRight } from "react-icons/md";
+// import { HiLightBulb } from "react-icons/hi";
 import Link from "next/link";
 const Banner = () => {
   const settings = {
@@ -17,8 +18,8 @@ const Banner = () => {
     arrows: true,
     loop: true,
     autoplay: true,
-    autoplaySpeed: 2500,
-    speed: 1500,
+    autoplaySpeed: 4500,
+    speed: 1000,
     lazyLoad: true,
     accessibility: true,
     cssEase: "ease-out",
@@ -55,28 +56,27 @@ const Banner = () => {
   const clientsData = [
     {
       id: 1,
-
-      image: "/assets/images/mainbannertwo.png",
+      image: "/assets/images/banner/banner-one.jpg",
+      
     },
     {
       id: 2,
 
-      image: "/assets/images/mainbannertwo.png",
+      image: "/assets/images/banner/banner-three.jpg",
     },
     {
       id: 3,
 
-      image: "/assets/images/mainbannertwo.png",
-    },
-    {
-      id: 4,
-
-      image: "/assets//images/mainbannertwo.png",
+      image:"/assets/images/banner/banner-two.jpg",
     },
   ];
 
   return (
-    <div className=" md:px-0 px-5 HomePageSlider md:pb-[80px] pb-[150px]">
+    <div  className="bg-right"
+    style={{
+      backgroundImage: 'url("/assets/images/mainbackground.png ")',
+    }}>
+    <div className=" md:px-0 px-5 HomePageSlider md:pb-20 pb-5 md:pt-0 pt-5">
       <Slider {...settings} className="mx-auto relative">
         {clientsData.map((item, index) => (
           <>
@@ -86,7 +86,7 @@ const Banner = () => {
                   <img
                     src={item.image}
                     alt=" "
-                    className="  rounded-lg  mx-auto md:h-full object-cover"
+                    className="  rounded-lg  mx-auto md:h-full  h-[450px] object-cover"
                   />
                 </div>
               </div>
@@ -95,27 +95,37 @@ const Banner = () => {
         ))}
       </Slider>
       <div className="">
-        <div className="bg-white boxshadowbanner md:px-10 py-12 md:w-[33%] w-[60%] absolute md:top-0 top-0 md:left-[3.6rem] rounded-lg  mt-2  px-5 ">
-          <h2 className="text-secondary md:text-[34px] text-xl font-bold leading-[1.2]">
-            <span className="text-primary"> Lorem ipsum </span>dolor sit amet
-            Eget at auctor purus{" "}
+        <div className="bg-white boxshadowbanner md:px-10 py-12 md:w-[33%] w-[85%] absolute md:top-0 top-6 md:left-[3.6rem] left-7 rounded-lg  mt-2  px-5 ">
+          <div className="flex justify-start items-center space-x-1">
+            <span className="text-primary md:text-lg text-base font-semibold">
+              {" "}
+              Innovation at its finest{" "}
+            </span>{" "}
+            {/* <HiLightBulb size={30} className="text-primary" /> */}
+            <img src="/assets/icons/icon.png" className="w-9 bulb"/>
+          </div>
+          <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
+            Product Conceptualization & Development
           </h2>
-          <p className="text-textcolor pt-4 text-[15px] text-justify">
-            Lorem ipsum dolor sit amet consectetur. Mus id quam mauris semper
-            viverra hac faucibus morbi quam.
+          <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
+          From concept to reality Ackrolix Innovations delivers game changing products for startups & fortune companies.
           </p>
           <div className="pt-10 w-full">
-            <button className="button-3 bg-secondary hover:bg-primary text-white px-12 py-3 justify-center rounded-md flex items-center w-full text-center">
-            <div className="eff-3"></div>
-              <span className="text-base flex items-center ">
-                {" "}
-                View All
-                <MdKeyboardArrowRight className=" text-base" />
-              </span>
-            </button>
+            <Link href="/contact">
+              <button className="button-3 bg-secondary hover:bg-primary text-white px-12 py-3 justify-center rounded-md flex items-center w-full text-center">
+                <div className="eff-3"></div>
+                <span className="text-base flex items-center ">
+                  {" "}
+                  Discover Now
+                  <MdKeyboardArrowRight className=" text-base" />
+                 
+                </span>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

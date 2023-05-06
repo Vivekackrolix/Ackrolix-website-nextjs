@@ -42,14 +42,14 @@ const Memories = () => {
 
   const settings = {
     dots: false,
-    autoplay: true,
+    autoplay: false,
     className: "center",
     infinite: true,
     lazyLoad: true,
     centerMode: true,
     centerPadding: "0px",
-    speed: 1000,
-    autoplaySpeed: 2000,
+    speed: 400,
+    autoplaySpeed: 3000,
     slidesToShow: 3,
     slidesToScroll: 1,
     // prevArrow: <PrevArrow />,
@@ -97,9 +97,9 @@ const Memories = () => {
   return (
     <div className="container-ack md:px-0 px-5 md:pt-0 pt-16">
       <ComponentHead
-        title="Memories"
-        sub="Our Memories"
-        head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+        title="Moments"
+        sub="Life At Ackrolix"
+        head="Creating Memories that reminds: Ackrolix Innovations "
       />
       <div className="mt-10">
         <div className="text-white  mx-auto">

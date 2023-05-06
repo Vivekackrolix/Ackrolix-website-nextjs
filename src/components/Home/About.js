@@ -1,27 +1,27 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { IoMdThermometer } from "react-icons/io";
+// import { IoMdThermometer } from "react-icons/io";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import Link from "next/link";
 
 const aboutdata = [
   {
     id: 1,
-    image: "/assets/images/aboutone.png",
+    image: "/assets/images/about/about-slide-1.png",
   },
   {
     id: 2,
-    image: "/assets/images/aboutone.png",
+    image: "/assets/images/about/about-slide-2.png",
   },
   {
     id: 3,
-    image: "/assets/images/aboutone.png",
+    image: "/assets/images/about/about-slide-3.png",
   },
   {
     id: 4,
-    image: "/assets/images/aboutone.png",
+    image: "/assets/images/about/about-slide-4.png",
   },
 ];
 
@@ -37,13 +37,14 @@ const About = () => {
     arrows: false,
     loop: true,
     autoplay: true,
-    autoplaySpeed: 1000,
-    speed: 2000,
+    autoplaySpeed: 3500,
+    speed: 300,
     lazyLoad: true,
     accessibility: true,
     cssEase: "ease-out",
     swipeToSlide: true,
     // adaptiveHeight: true,
+
     // nextArrow: <SampleNextArrow />,
     // prevArrow: <SamplePrevArrow />,
 
@@ -85,33 +86,42 @@ const About = () => {
   };
 
   return (
-    <div className="bg-[#F6F8F9] h-screen">
-      <div className="md:grid grid-cols-5 gap-6 items-center  hidden ">
-        <div className="col-span-2 md:px-0 px-5 pb-10 md:pb-0  relative">
-          <div className="relative">
-            <div className="md:text-[8rem] text-[5rem] tracking-wider text-left texttransparent font-bold  md:pt-10 ">
+    <div className="bg-[#F6F8F9] py-10">
+      <div className="md:grid grid-cols-5 gap-4 items-center mobile-hide">
+        <div className="col-span-2 md:px-0 px-5 pb-10 md:pb-0 ">
+          {/* <div className="">
+             <div className="md:text-[8rem] text-[5rem] tracking-wider text-left texttransparent font-bold  md:pt-10 ">
               About
             </div>
-            <div className="absolute md:top-[6.7rem] top-[4rem] left-[4em]  inset-x-0 flex justify-left">
-              <div className="text-[46px]  text-left font-bold max-w-xl">
-                About
-              </div>
-            </div>
-          </div>
+          </div> */}
           <div className="">
-            <div className="md:w-[95%] pl-16 w-full text-base text-textcolor text-justify font-text  pb-4">
+            <div className="md:w-[95%] pl-16 w-full md:text-base text-xs text-textcolor text-justify font-text pb-4">
+              <div className="line-heading">
+                <div className="text-[46px] max-[480px]:text-[30px] text-secondary relative z-10 pb-5 text-left font-bold max-w-xl">
+                  Who We Are
+                </div>
+              </div>
+              <div className="load-wrapp relative bottom-[15px]">
+                <div className="load">
+                  <div className="line"></div>
+                  <div className="line"></div>
+                  <div className="line"></div>
+                </div>
+              </div>
               <p className="mb-2">
                 {" "}
-                Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
-                ultrices id enim lectus sagittis viverra interdum. Nisi lobortis
-                tincidunt convallis viverra. Scelerisque sed orci amet proin
-                cras quam pellentesque. Sollicitudin sed velit nunc nunc morbi
-                sed aliquam.{" "}
+                Ackrolix Innovations Pvt Ltd is an award winning product
+                conceptualization & development company that partners with
+                businesses to create digital experiences to their customers'
+                love, across strategy, design, mobile applications and web
+                technologies.
               </p>
               <p className="mb-2">
                 {" "}
-                Lorem ipsum dolor sit amet consectetur. Integer eget orci nec
-                massa gravida.{" "}
+                Over the last Eight years, we have employed technology as a
+                force-multiplier and built disruptive, business-driven and
+                measurable design and technology interventions to make this
+                complex world of ours, exceedingly obvious.
               </p>
               <div className="flex justify-start pb-10 pt-5">
                 <Link href="/about">
@@ -129,7 +139,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="pb-5 pt-10 col-span-3 AboutSliderSection">
+        <div className="col-span-3 AboutSliderSection">
           <Slider {...settings} className=" mx-auto">
             {aboutdata?.map((item, index) => (
               <>
@@ -149,26 +159,38 @@ const About = () => {
       </div>
 
       <div className=" container-ack md:hidden px-5 pt-16">
-        <div className=" md:px-0 px-5 pb-10 md:pb-0  relative">
-          <div className="md:text-9xl text-[5rem] text-[#F6F8F9] tracking-wider texttransparent font-bold  md:pt-10 ">
-            About
-          </div>
-          <div className="">
-            <div className="text-3xl  leading-relaxed font-bold  absolute md:top-[6.5rem] top-[3rem] ">
-              About
+        <div className="md:pb-0 relative">
+          
+          <div className="w-full md:text-base text-xs text-textcolor text-justify font-text pb-4">
+              <div className="line-heading">
+                <div className="text-[46px] max-[480px]:text-[30px] text-secondary relative z-10 pb-5 text-left font-bold max-w-xl">
+                  Who We Are
+                </div>
+              </div>
+              <div className="load-wrapp relative bottom-[15px]">
+                <div className="load">
+                  <div className="line"></div>
+                  <div className="line"></div>
+                  <div className="line"></div>
+                </div>
+              </div>
+            <div className="w-full text-base text-textcolor text-justify font-text  pb-4 ">
+              Ackrolix Innovations Pvt Ltd is an award winning product
+              conceptualization & development company that partners with
+              businesses to create digital experiences to their customers' love,
+              across strategy, design, mobile applications and web technologies.
             </div>
-            <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4 ">
-              Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
-              ultrices id enim lectus sagittis viverra interdum. Nisi lobortis
-              tincidunt convallis viverra. Scelerisque sed orci amet proin cras
-              quam pellentesque. Sollicitudin sed velit nunc nunc morbi sed
-              aliquam.
+            <div className="w-full text-base text-textcolor text-justify font-text  py-4">
+              Over the last Eight years, we have employed technology as a
+              force-multiplier and built disruptive, business-driven and
+              measurable design and technology interventions to make this
+              complex world of ours, exceedingly obvious. We have successfully
+              moved business metrics and delivered high impact work for 120+
+              startups, unicorns, nonprofits and industry titans across sectors
+              such as Jindal Steel & Power (JSPL) , Intech Organics, Expert
+              Buddy, Nesto Hub & many more..
             </div>
-            <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  py-4">
-              Lorem ipsum dolor sit amet consectetur. Integer eget orci nec
-              massa gravida.
-            </div>
-            <div className="flex justify-center pb-10 pt-4">
+            <div className="flex pb-10 pt-4">
               <Link href="/about">
                 <button className=" button-2  px-12 py-2 rounded-md">
                   <div className="eff-2"></div>
@@ -183,11 +205,11 @@ const About = () => {
           </div>
         </div>
 
-        <div className="pb-5 pt-10  ">
+        <div className="pb-5">
           <Slider {...settings} className=" mx-auto">
             {aboutdata.map((item) => (
               <>
-                <div className="group py-10 relative" key={item}>
+                <div className="group relative" key={item}>
                   <div className="px-2">
                     <img
                       src={item.image}
