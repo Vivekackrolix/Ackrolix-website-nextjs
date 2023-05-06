@@ -9,20 +9,20 @@ const Blogs = () => {
 
       <ComponentHead
         title="Blogs"
-        sub="Blogs"
-        head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+        sub="Our Latest Insights"
+        head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi."
       />
-        <div className="grid md:grid-cols-2 gap-12 items-center  pt-12">
+        <div className="grid md:grid-cols-2 gap-8 items-center">
           <img src="/assets/images/blogone.png" alt="" className="rounded-md" />
 
           <div>
-            <p className="w-full text-base text-textcolor text-justify font-text  pb-4">
+            <p className="w-full text-sm font-semibold text-primary text-justify font-text">
               22 March 2023{" "}
             </p>
-            <h2 className="font-semibold text-lg py-3 text-secondary text-left">
+            <h2 className="font-bold text-lg py-2 text-secondary text-left">
               Lorem ipsum dolor sit amet in maecenas tinc
             </h2>
-            <div className=" w-full text-base text-textcolor text-justify font-text  pb-4">
+            <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
               Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
               ultrices id enim lectus sagittis viverra interdum. Nisi lobortis
               tincidunt convallis viverra. Scelerisque sed orci amet proin cras
@@ -35,7 +35,7 @@ const Blogs = () => {
                   Read More
                 </button>
               </Link>
-              <div className="flex space-x-4">
+              {/* <div className="flex space-x-4">
                 <svg
                   width="18"
                   height="18"
@@ -74,20 +74,20 @@ const Blogs = () => {
                     fill="black"
                   />
                 </svg>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
 
-        <div className="md:grid md:grid-cols-2 gap-12 items-center pt-10 hidden">
+        <div className="md:grid md:grid-cols-2 gap-8 items-center pt-10 hidden">
           <div>
-            <p className="w-full text-base text-textcolor text-justify font-text  pb-4">
+            <p className="w-full text-sm font-semibold text-primary text-justify font-text">
               22 March 2023{" "}
             </p>
-            <h2 className="font-semibold text-lg py-3 text-secondary text-left">
+            <h2 className="font-bold text-lg py-2 text-secondary text-left">
               Lorem ipsum dolor sit amet in maecenas tinc
             </h2>
-            <div className=" w-full text-base text-textcolor text-justify font-text  pb-4">
+            <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
               Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
               ultrices id enim lectus sagittis viverra interdum. Nisi lobortis
               tincidunt convallis viverra. Scelerisque sed orci amet proin cras
@@ -100,7 +100,7 @@ const Blogs = () => {
                   Read More
                 </button>
               </Link>
-              <div className="flex space-x-4">
+              {/* <div className="flex space-x-4">
                 <svg
                   width="18"
                   height="18"
@@ -139,7 +139,7 @@ const Blogs = () => {
                     fill="black"
                   />
                 </svg>
-              </div>
+              </div> */}
             </div>
           </div>
           <div>
@@ -151,7 +151,7 @@ const Blogs = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center pt-10 md:hidden">
+        <div className="grid md:grid-cols-2 gap-8 items-center pt-10 md:hidden">
           <div>
             <img
               src="/assets/images/blogtwo.png"
@@ -160,13 +160,13 @@ const Blogs = () => {
             />
           </div>{" "}
           <div>
-            <p className="w-full text-base text-textcolor text-justify font-text  pb-4">
+            <p className="w-full text-sm font-semibold text-primary text-justify font-text">
               22 March 2023{" "}
             </p>
-            <h2 className="font-semibold text-lg py-3 text-secondary text-left">
+            <h2 className="font-bold text-lg py-2 text-secondary text-left">
               Lorem ipsum dolor sit amet in maecenas tinc
             </h2>
-            <div className=" w-full text-base text-textcolor text-justify font-text  pb-4">
+            <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
               Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
               ultrices id enim lectus sagittis viverra interdum. Nisi lobortis
               tincidunt convallis viverra. Scelerisque sed orci amet proin cras
@@ -179,7 +179,7 @@ const Blogs = () => {
                   Read More
                 </button>
               </Link>
-              <div className="flex space-x-4">
+              {/* <div className="flex space-x-4">
                 <svg
                   width="18"
                   height="18"
@@ -218,12 +218,12 @@ const Blogs = () => {
                     fill="black"
                   />
                 </svg>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center pt-10 pb-16">
+        <div className="grid md:grid-cols-2 gap-8 items-center pt-10 pb-16">
           <img
             src="/assets/images/blogthree.png"
             alt=""
@@ -231,13 +231,13 @@ const Blogs = () => {
           />
 
           <div>
-            <p className="w-full text-base text-textcolor text-justify font-text  pb-4">
+            <p className="w-full text-sm font-semibold text-primary text-justify font-text">
               22 March 2023{" "}
             </p>
-            <h2 className="font-semibold text-lg py-3 text-secondary text-left">
+            <h2 className="font-bold text-lg py-2 text-secondary text-left">
               Lorem ipsum dolor sit amet in maecenas tinc
             </h2>
-            <div className=" w-full text-base text-textcolor text-justify font-text  pb-4">
+            <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
               Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
               ultrices id enim lectus sagittis viverra interdum. Nisi lobortis
               tincidunt convallis viverra. Scelerisque sed orci amet proin cras
@@ -250,7 +250,7 @@ const Blogs = () => {
                   Read More
                 </button>
               </Link>
-              <div className="flex space-x-4">
+              {/* <div className="flex space-x-4">
                 <svg
                   width="18"
                   height="18"
@@ -289,7 +289,7 @@ const Blogs = () => {
                     fill="black"
                   />
                 </svg>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

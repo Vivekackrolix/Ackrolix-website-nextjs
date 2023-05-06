@@ -15,13 +15,10 @@ const Card = () => {
           
           
             <div className="text-3xl font-bold   ">
-              Lorem ipsum dolor sit amet
-              Eget at auctor purus
+              We're committed to deliver high quality projects
             </div>
             <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  py-4">
-              Lorem ipsum dolor sit amet consectetur. Fermentum tortor et arcu
-              pellentesque tempor cursus cursus amet odio. Orci eu sagittis leo
-              duis enim mi massa etiam.
+             We recognize that every business is unique, with its own specific needs and challenges. That's why we take a tailored approach to every project, working closely with our clients to develop customized solutions that meet their specific requirements. 
             </div>
 
             <div className="flex justify-start pb-10 pt-5">

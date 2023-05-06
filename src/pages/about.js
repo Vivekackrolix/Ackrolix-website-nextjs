@@ -1,4 +1,3 @@
-
 import Banner from "../components/About/Banner";
 import Card from "../components/About/Card";
 import Section from "../components/About/Section";
@@ -19,10 +18,11 @@ const About = () => {
       </Head>
       <Header />
       <Banner />
+      <ValuesMissions />
       <Section />
       <Card />
       <VideoSection />
-      <ValuesMissions />
+
       <SectionTwo />
       <Clients />
       <Footer />

@@ -5,25 +5,27 @@ import ComponentHead from "../Common/ComponentHead";
 
 const OurServices = () => {
   return (
-    <div className="container-ack pb-16 md:px-0 px-5 md:pt-0 pt-6">
+    <div className="container-ack pb-16 md:px-0 px-5">
       <ComponentHead
-        title="Services"
-        sub="Our Services "
-        head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+        title="Our Expertise"
+        sub="What We Serve"
+        head="Creating products that make a difference: Ackrolix Innovations leads the way in ethical and sustainable practices"
       />
-      <div className="grid md:grid-cols-2 gap-12 md:pt-16 pt-5">
-        <div className="overflow-hidden  cursor-pointer rounded-2xl relative group">
-          <div className="w-full absolute text-center bottom-0 drop-shadow-2xl z-10 group-hover:z-0 px-6 py-2  group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-150 ease-in-out text-white font-semibold text-2xl bg-gradient-to-t from-[#090909] bg-opacity-50">
-            Lorem Ipsum
-          </div>
-          <div className=" bg-[#09090996] h-80 z-10 opacity-0 group-hover:opacity-100 transition duration-150 ease-in-out cursor-pointer absolute  inset-x-0  pt-30 text-white flex items-end">
+      <div className="grid md:grid-cols-2 gap-12 pt-2">
+        <div className="overflow-hidden rounded-2xl relative group concept">
+          {/* <div className="w-full absolute text-center bottom-0 drop-shadow-2xl z-10 opacity-0 group-hover:opacity-100 group-hover:z-0 px-6 py-2 group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-150 ease-in-out text-white font-semibold text-2xl bg-gradient-to-t from-[#090909] bg-opacity-70">
+            Product Conceptualization
+          </div> */}
+          <div className=" bg-[#09090973] backdrop-blur-[1px] h-full z-10 opacity-1 absolute  inset-x-0 text-white flex items-center">
             <div>
-              <div className="p-4 space-y-3 text-2xl group-hover:opacity-100 group-hover:translate-y-0  translate-y-4 pb-10 transform transition duration-200 ease-in-out">
-                <div className="font-bold text-center">Lorem Ipsum</div>
+              <div className="p-4 space-y-3 text-3xl max-[480px]:text-xl">
+                <div className="font-bold text-center">
+                  Product Conceptualization
+                </div>
                 <div className="flex justify-center">
-                  <div className="text-base text-white text-center w-[70%]">
-                    Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
-                    ultrices id enim lectus sagittis viverra interdum.
+                  <div className="text-base text-white text-center w-[70%] max-[480px]:w-[100%]">
+                    We transform your complex product simple, meaningful,
+                    memorable, less clicks, intuitive & functional with UI/UX.
                   </div>
                 </div>
 
@@ -31,7 +33,7 @@ const OurServices = () => {
                   <Link href="/services">
                     <button className=" button-1  px-8 py-2 rounded-md">
                       <div className="eff-1"></div>
-                      <span className="text-base flex items-center ">
+                      <span className="text-base flex items-center font-medium">
                         {" "}
                         Know More
                         <MdKeyboardArrowRight className=" text-base" />
@@ -43,24 +45,25 @@ const OurServices = () => {
             </div>
           </div>
           <img
-            alt=""
-            className="grayscale-0 group-hover:grayscale object-cover h-80 w-full object-left-top"
-            src="/assets/images/serviceone.png"
+            alt="product-concept"
+            className=" object-cover h-full w-full object-left-top"
+            src="/assets/images/product-concept.jpg"
           />
         </div>
 
-        <div className="overflow-hidden  cursor-pointer rounded-2xl relative group">
-          <div className="w-full absolute text-center bottom-0 drop-shadow-2xl z-10 group-hover:z-0 px-6 py-2  group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-150 ease-in-out text-white font-semibold text-2xl bg-gradient-to-t from-[#090909] bg-opacity-50">
-            Lorem Ipsum
+        <div className="overflow-hidden rounded-3xl relative group concept">
+          <div className="w-full absolute grid top-[-16px] items-center cursor-pointer font-bold text-center drop-shadow-2xl z-10 group-hover:z-0 px-6 py-2 group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-150 ease-in-out text-white text-3xl bg-[#09090933] h-full max-[480px]:text-xl">
+            Product Development
           </div>
-          <div className=" bg-[#09090996] h-80 z-10 opacity-0 group-hover:opacity-100 transition duration-150 ease-in-out cursor-pointer absolute  inset-x-0  pt-30 text-white flex items-end">
+          
+          <div className=" bg-[#09090973] h-80 z-10 opacity-0 group-hover:opacity-100 transition duration-150 ease-in-out absolute  inset-x-0  pt-30 text-white flex items-center">
             <div>
-              <div className="p-4 space-y-3 text-2xl group-hover:opacity-100 group-hover:translate-y-0  translate-y-4 pb-10 transform transition duration-200 ease-in-out">
-                <div className="font-bold text-center">Lorem Ipsum</div>
+              <div className="p-4 space-y-3 text-3xl group-hover:opacity-100 group-hover:translate-y-0  translate-y-4 pb-10 transform transition duration-200 ease-in-out max-[480px]:text-xl">
+                <div className="font-bold text-center">Product Development</div>
                 <div className="flex justify-center">
-                  <div className="text-base text-white text-center w-[70%]">
-                    Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
-                    ultrices id enim lectus sagittis viverra interdum.
+                  <div className="text-base text-white text-center w-[70%] max-[480px]:w-[100%]">
+                    It's a Journey to transform the concept into web & app to
+                    market release by using different technologies & strategies.
                   </div>
                 </div>
                 <div className="flex justify-center">
@@ -81,7 +84,7 @@ const OurServices = () => {
           <img
             alt=""
             className="grayscale-0 group-hover:grayscale object-cover h-80 w-full object-left-top"
-            src="/assets/images/serviceone.png"
+            src="/assets/images/product-develop.jpg"
           />
         </div>
       </div>

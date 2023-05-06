@@ -21,7 +21,7 @@ const Experts = () => {
       <Heading
         titletext="Experts"
         title="Our Experts "
-        subtext="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+        subtext="Our team is passionate about product development and takes pride in delivering solutions that exceed expectations. Whether we are working on a new app, a piece of hardware, or a complex software system, we approach each project with the same level of dedication and attention to detail"
       />
 
       </div>

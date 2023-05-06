@@ -11,7 +11,7 @@ function WhyJoinUsCareer() {
                 Why
               </div>
               <div className="absolute md:top-[6.7rem] top-[4rem] inset-x-0 flex justify-left">
-              <div className="text-[46px] text-left font-bold max-w-xl">
+              <div className="text-[46px] max-[480px]:text-[30px] text-left font-bold max-w-xl">
                Why Join Us
                </div> </div>
             </div>

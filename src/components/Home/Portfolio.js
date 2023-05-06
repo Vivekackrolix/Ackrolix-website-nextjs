@@ -6,44 +6,155 @@ import ComponentHead from "../Common/ComponentHead";
 const Portfolio = () => {
   return (
     <div className="bg-[#F6F8F9]">
-      <div className="container-ack md:px-0 px-5">
+      <div className="container-ack md:px-0 px-5 pb-5">
         <ComponentHead
           title="Portfolio"
           sub="Portfolio"
-          head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+          head="Where imagination meets technology: Ackrolix Innovations creates products that defy expectations"
         />
 
-        <div className="grid md:grid-cols-12 gap-4 pb-10 md:pt-0 pt-5">
+        <div className="masonry-grid pb-2">
+          <div className="masonry-grid-item containerzoom">
+            <img
+              className="zoomimg drop-shadow-md"
+              src="/assets/images/portfolio/jindal.jpg"
+              alt=""
+            />
+          </div>
+          <div className="masonry-grid-item containerzoom">
+            <img
+              className="zoomimg drop-shadow-md"
+              src="/assets/images/portfolio/EB.jpg"
+              alt=""
+            />
+          </div>
+          <div className="masonry-grid-item containerzoom">
+            <img
+              className="zoomimg drop-shadow-md"
+              src="/assets/images/portfolio/vivo.jpg"
+              alt=""
+            />
+          </div>
+          <div className="masonry-grid-item containerzoom">
+            <img
+              className="zoomimg drop-shadow-md"
+              src="/assets/images/portfolio/insaano.jpg"
+              alt=""
+            />
+          </div>
+          <div className="masonry-grid-item containerzoom">
+            <img
+              className="zoomimg drop-shadow-md"
+              src="/assets/images/portfolio/toir.jpg"
+              alt=""
+            />
+          </div>
+          <div className="masonry-grid-item containerzoom">
+            <img
+              className="zoomimg drop-shadow-md"
+              src="/assets/images/portfolio/milestone.jpg"
+              alt=""
+            />
+          </div>
+          <div className="masonry-grid-item containerzoom">
+            <img
+              className="zoomimg drop-shadow-md"
+              src="/assets/images/portfolio/kazuki.jpg"
+              alt=""
+            />
+          </div>
+          <div className="masonry-grid-item containerzoom">
+            <img
+              className="zoomimg drop-shadow-md"
+              src="/assets/images/portfolio/c1india.jpg"
+              alt=""
+            />
+          </div>
+          <div className="masonry-grid-item containerzoom">
+            <img
+              className="zoomimg drop-shadow-md"
+              src="/assets/images/portfolio/discovery.png"
+              alt=""
+            />
+          </div>
+          <div className="masonry-grid-item containerzoom">
+            <img
+              className="zoomimg drop-shadow-md"
+              src="/assets/images/portfolio/mr-furniture.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        {/* <section className="portfolio_block">
+          <div className="gallery">
+            <div className=" img_box containerzoom pic">
+              <img className="zoomimg drop-shadow-md" src="/assets/images/portfolio/jindal.jpg" alt="" />
+            </div>
+            <div className=" img_box containerzoom">
+              <img className="zoomimg drop-shadow-md" src="/assets/images/portfolio/insaano.jpg" alt="" />
+            </div>
+            <div className=" img_box containerzoom">
+              <img className="zoomimg drop-shadow-md" src="/assets/images/portfolio/EB.jpg" alt="" />
+            </div>
+            <div className=" img_box containerzoom">
+              <img className="zoomimg drop-shadow-md" src="https://unsplash.it/600/400?image=767" alt="" />
+            </div>
+            <div className=" img_box containerzoom">
+              <img className="zoomimg drop-shadow-md" src="https://unsplash.it/600/400?image=296" alt="" />
+            </div>
+            <div className=" img_box containerzoom">
+              <img className="zoomimg drop-shadow-md" src="https://unsplash.it/600/400?image=168" alt="" />
+            </div>
+            <div className=" img_box containerzoom">
+              <img className="zoomimg drop-shadow-md" src="https://unsplash.it/600/400?image=871" alt="" />
+            </div>
+            <div className=" img_box containerzoom">
+              <img className="zoomimg drop-shadow-md" src="https://unsplash.it/600/400?image=821" alt="" />
+            </div>
+            <div className=" img_box containerzoom">
+              <img className="zoomimg drop-shadow-md" src="https://unsplash.it/600/400?image=164" alt="" />
+            </div>
+            <div className=" img_box containerzoom">
+              <img className="zoomimg drop-shadow-md" src="https://unsplash.it/600/400?image=872" alt="" />
+            </div>
+            <div className=" img_box containerzoom ">
+              <img className="zoomimg drop-shadow-md" src="https://unsplash.it/600/400?image=826" alt="" />
+            </div>
+          </div>
+        </section> */}
+
+        {/* <div className="grid md:grid-cols-12 gap-4 pb-10 md:pt-0 pt-5 items-center">
           <div className="md:col-span-5">
-            <div className="md:flex md:space-x-4 ">
+            <div className="md:flex md:space-x-4 items-baseline">
               <div className="containerzoom">
                 <img
-                  src="/assets/images/prightone.png"
-                  className="md:w-40  md:h-80 w-full h-full object-cover zoomimg"
-                  alt=""
+                  src="/assets/images/portfolio/jindal.jpg"
+                  className="md:w-60 md:h-80 w-full h-full object-fill zoomimg drop-shadow-md"
+                  alt="jindal"
                 />
               </div>
               <div className="containerzoom">
                 <img
-                  src="/assets/images/prighttwo.png"
-                  className=" md:w-80 md:h-60 w-full h-full object-cover md:mt-20 md:pt-0 pt-4 zoomimg"
-                  alt=""
+                  src="/assets/images/portfolio/insaano.jpg"
+                  className="md:w-80 md:h-60 w-full object-fill object-top zoomimg drop-shadow-md"
+                  alt="Insano Health"
                 />
               </div>
             </div>
             <div className="md:flex md:space-x-4 pt-4">
               <div className="containerzoom">
                 <img
-                  src="/assets/images/prightthree.png"
-                  className="md:w-60 md:h-80 w-full h-full object-cover zoomimg"
-                  alt=""
+                  src="/assets/images/portfolio/EB.jpg"
+                  className="md:w-60 md:h-80 w-full h-full object-fill zoomimg drop-shadow-md"
+                  alt="Expert Buddy"
                 />
               </div>
               <div className="containerzoom">
                 <img
-                  src="/assets/images/prightfour.png"
-                  className=" md:w-52 md:h-60 w-full h-full object-cover md:pt-0 pt-4 zoomimg"
-                  alt=""
+                  src="/assets/images/portfolio/vivo.png"
+                  className=" md:w-80 md:h-60 w-full h-full object-fill md:pt-0 pt-4 zoomimg drop-shadow-md"
+                  alt="Vivo health"
                 />
               </div>
             </div>
@@ -52,48 +163,48 @@ const Portfolio = () => {
           <div className="md:col-span-2 flex flex-col justify-center">
             <div className="containerzoom">
               <img
-                src="/assets/images/pimagecenter.png"
-                className="md:w-72 md:h-80 w-full h-full object-cover zoomimg"
-                alt=""
+                src="/assets/images/portfolio/milestone.jpg"
+                className="md:w-72 md:h-80 w-full h-full object-fill object-left zoomimg drop-shadow-md"
+                alt="milestone"
               />
             </div>
           </div>
           <div className="md:col-span-5">
-            <div className="md:flex md:space-x-4">
-              <div className="containerzoom">
+            <div className="md:flex md:space-x-4 items-baseline">
+              <div className="containerzoom ">
                 <img
-                  src="/assets/images/pleftone.png"
-                  className="md:w-60  md:h-48 w-full h-full object-cover md:mt-32 zoomimg"
-                  alt=""
+                  src="/assets/images/portfolio/toir.jpg"
+                  className="md:w-60  md:h-48 w-full h-full object-fill zoomimg drop-shadow-md"
+                  alt="Toir"
                 />
               </div>
               <div className="containerzoom">
                 <img
-                  src="/assets/images/plefttwo.png"
-                  className=" md:w-60 md:h-80 w-full h-full object-cover md:pt-0 pt-4 zoomimg "
-                  alt=""
+                  src="/assets/images/portfolio/kazuki.png"
+                  className=" md:w-60 md:h-80 w-full h-full object-fill md:pt-0 pt-4 zoomimg drop-shadow-md "
+                  alt="kazuki"
                 />
               </div>
             </div>
             <div className="md:flex md:space-x-4 pt-4">
               <div className="containerzoom">
                 <img
-                  src="/assets/images/pleftthree.png"
-                  className="md:w-60 md:h-80 w-full h-full object-cover zoomimg"
-                  alt=""
+                  src="/assets/images/portfolio/mr-furniture.jpg"
+                  className="md:w-60 md:h-80 w-full h-full object-fill zoomimg drop-shadow-md"
+                  alt="mr-furniture"
                 />
               </div>
               <div className="containerzoom">
                 <img
-                  src="/assets/images/pleftfour.png"
-                  className=" md:w-52 md:h-60 w-full h-full object-cover md:pt-0 pt-4 zoomimg"
-                  alt=""
+                  src="/assets/images/portfolio/c1india.jpg"
+                  className="md:w-80 md:h-60 w-full h-full object-fill md:pt-0 pt-4 zoomimg drop-shadow-md"
+                  alt="c1india"
                 />
               </div>
             </div>
             <div></div>
           </div>
-        </div>
+        </div> */}
 
         <div className="flex justify-center pb-10">
           <Link href="/portfolio">

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Disclosure } from "@headlessui/react";
 import { FiChevronDown } from "react-icons/fi";
 import { MdKeyboardArrowDown } from "react-icons/md";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaCross, FaTimes } from "react-icons/fa";
 import { useRouter } from "next/router";
 const Navbar = () => {
   // setting mobile nav
@@ -274,9 +274,12 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="hamburger" onClick={handleClick}>
+        <div className="hamburger cursor-pointer" onClick={handleClick}>
           {click ? (
-            <FaTimes size={30} style={{ color: "#000" }} />
+            <>
+            <FaTimes size={30} style={{ color: "#000" }}  onClick={closeMenu}/>
+            {/* <FaCross size={20} style={{color: "#fff"}}/> */}
+            </>            
           ) : (
             <FaBars size={30} style={{ color: "#000" }} />
           )}

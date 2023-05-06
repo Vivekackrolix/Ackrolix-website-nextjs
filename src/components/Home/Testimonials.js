@@ -65,8 +65,8 @@ const Testimonial = () => {
     arrows: true,
     loop: true,
     autoplay: true,
-    speed: 2000,
-
+    speed: 600,
+    autoplaySpeed: 3000,
     lazyLoad: true,
     accessibility: true,
     cssEase: "ease-out",
@@ -114,33 +114,18 @@ const Testimonial = () => {
   return (
     <>
       <div className="container-ack mmd:px-0 px-5 md:pt-0 pt-10">
-        <div
-          className=" md:w-[1150px] h-full"
-          style={{
-            backgroundImage: 'url("/assets/images/backgroundtestimonial.png ")',
-          }}
-        >
-          <div className="relative">
-            <div className="md:text-[8rem] text-[3.8rem] tracking-wider text-center texttransparent font-bold  md:pt-10 ">
-              Testimonial
-            </div>
-            <div className="absolute md:top-[6.7rem] top-[0.5rem] inset-x-0 flex justify-center">
-              <div className="text-[46px]  text-center font-bold max-w-xl">
-                Testimonial
-              </div>
-            </div>
-          </div>
-          <p className="text-base text-gray-400 text-center md:w-[60%] mx-auto ">
-            Nunc convallis semper justo quis tempor. Praesent molestie, lorem
-            sed imperdiet tempor, libero urna semper urna, facilisis vulputate
-            velit arcu vitae mi. Donec ac nisi ex.
-          </p>
+        <div>
+          <ComponentHead
+            title="Testimonials"
+            sub="A Word From Our Clients"
+            head="Thrilled Clients Speak Out: How Our Experts Solutions Have Transformed Their Business Communication"
+          />
 
-          <div className="pt-12">
+          <div className="">
             <Slider {...settings} className="testimonialSlider mx-auto">
               {clientsData.map((item, index) => (
                 <>
-                  <div className="group py-10 relative" key={index}>
+                  <div className="testimonial group py-10 relative" key={index}>
                     <div className="hover:bg-[#F6F8F9] border-2 border-[#F6F8F9] text-left mx-3 py-8 rounded-md  hovertestimonial">
                       <div className="flex flex-col items-center justify-left">
                         <img
@@ -149,7 +134,7 @@ const Testimonial = () => {
                           className="  rounded-lg w-[25%] absolute top-0  left-[9rem]"
                         />
                         <div className="px-4 pt-6">
-                          <div className="text-black font-text pt-4 text-center">
+                          <div className="text-textcolor text-sm font-text pt-4 text-center">
                             {item.para}
                           </div>
                           <div className="text-xl font-semibold pt-3 text-black text-center">

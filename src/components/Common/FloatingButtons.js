@@ -5,8 +5,8 @@ import { IoMdCall, IoMdMail } from "react-icons/io";
 
 const FloatingButtons = () => {
   return (
-    <div className=" fixed flex items-center justify-between py-5 top-60 z-50">
-      <div className="bg-[#F6F8F9] p-3 rounded-md drop-shadow-lg">
+    <div className=" fixed flex items-center justify-between py-5 top-60 right-0 z-50">
+      <div className="bg-[#F1F1F1] p-3 rounded-l-md shadow-inner">
         <Link href="mailto:info@ackrolix.com">
           <IoMdMail size={24} className="text-black hover:text-primary" />
         </Link>

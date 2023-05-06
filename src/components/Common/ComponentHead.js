@@ -1,21 +1,24 @@
 import React from "react";
-
 const ComponentHead = ({ title, sub, head }) => {
   return (
-    <div className="container-ack md:pt-0 md:pb-0 pt-10 pb-5">
-      <div className="relative">
-        <div className="md:text-[8rem] text-[4.7rem] tracking-wider text-center texttransparent font-bold  md:pt-10 ">
-          {title}
+    <div className="container-ack">
+      <div className="text-center">
+        <div className="dynamic-text" data-content={title}></div>
+        <div className="text-[46px] max-[480px]:text-[30px] text-secondary relative bottom-[18px] z-10 font-bold ">
+          {sub}
         </div>
-        <div className="absolute md:top-[6.7rem] top-[1rem] inset-x-0 flex justify-center">
-          <div className="text-[46px]  text-center font-bold max-w-xl">
-            {sub}
-          </div>
+        <div className="load-wrapp relative bottom-[30px]">
+            <div className="load">
+              <div className="line"></div>
+              <div className="line"></div>
+              <div className="line"></div>
+            </div>
         </div>
-      </div>
-      <p className="text-base text-gray-400 text-center md:w-[60%] mx-auto ">
+        <p className="text-base text-gray-400 relative bottom-[22px] md:w-[60%] mx-auto ">
         {head}
       </p>
+      </div>
+      
     </div>
   );
 };
