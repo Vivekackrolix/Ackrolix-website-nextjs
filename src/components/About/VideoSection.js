@@ -16,7 +16,7 @@ const VideoSection = () => {
               </div>
             </div>
           </div>
-          
+
         </div>
         <div className="text-base md:text-left text-center text-textcolor md:col-span-2 ">
           Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices

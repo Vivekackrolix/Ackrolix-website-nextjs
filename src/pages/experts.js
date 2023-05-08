@@ -13,16 +13,16 @@ const Experts = () => {
         <title>Experts</title>
       </Head>
       <div
-      className="pb-10 bg-right"
-      style={{
-        backgroundImage: 'url("/assets/images/mainbackground.png ")',
-      }}
-    >
-      <Heading
-        titletext="Experts"
-        title="Our Experts "
-        subtext="Our team is passionate about product development and takes pride in delivering solutions that exceed expectations. Whether we are working on a new app, a piece of hardware, or a complex software system, we approach each project with the same level of dedication and attention to detail"
-      />
+        className="pb-10 bg-right"
+        style={{
+          backgroundImage: 'url("/assets/images/mainbackground.png ")',
+        }}
+      >
+        <Heading
+          titletext="Experts"
+          title="Our Experts "
+          subtext="Our team is passionate about product development and takes pride in delivering solutions that exceed expectations. Whether we are working on a new app, a piece of hardware, or a complex software system, we approach each project with the same level of dedication and attention to detail"
+        />
 
       </div>
       <AllExperts />
