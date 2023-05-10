@@ -5,11 +5,10 @@ const Header = () => {
   return (
     <>
       <div
-        className="bg-right"
+        className="bg-right px-4"
         style={{
           backgroundImage: 'url("/assets/images/mainbackground.png ")',
-        }}
-      >
+        }}>
         <div className="container-ack">
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />

@@ -52,25 +52,20 @@ const Banner = () => {
       },
     ],
   };
-
   const clientsData = [
     {
       id: 1,
       image: "/assets/images/banner/banner-one.jpg",
-      
     },
     {
       id: 2,
-
       image: "/assets/images/banner/banner-three.jpg",
     },
     {
       id: 3,
-
       image:"/assets/images/banner/banner-two.jpg",
     },
   ];
-
   return (
     <div  className="bg-right"
     style={{
@@ -118,7 +113,6 @@ const Banner = () => {
                   {" "}
                   Discover Now
                   <MdKeyboardArrowRight className=" text-base" />
-                 
                 </span>
               </button>
             </Link>
@@ -129,5 +123,4 @@ const Banner = () => {
     </div>
   );
 };
-
 export default Banner;

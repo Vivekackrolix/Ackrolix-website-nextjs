@@ -521,7 +521,7 @@ h6 {
   height: 150px;
   position: absolute;
   bottom: 0;
-  width: 540px;
+  width: 100%;
   z-index: 2;
 }
 
@@ -530,7 +530,7 @@ h6 {
   content: "";
   height: 150px;
   position: absolute;
-  width: 540px;
+  width: 100%;
   z-index: 2;
 }
 
@@ -631,7 +631,7 @@ h6 {
   .cardBox {
     margin-left: 2.8%;
     margin-top: 3%;
-    width: 46%;
+    /* width: 46%; */
   }
 
   .card {
@@ -645,7 +645,7 @@ h6 {
 
 @media screen and (max-width: 480px) {
   .cardBox {
-    width: 94.5%;
+    /* width: 94.5%; */
   }
 
   .card {
@@ -1432,6 +1432,7 @@ body:not(.device-touch) .clients-grid li a {
 
 .bulb {
   animation: glow 2s infinite;
+  width: 30px !important;
 }
 
 @keyframes glow {

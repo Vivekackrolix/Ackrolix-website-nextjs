@@ -117,11 +117,10 @@ const Tabs = () => {
               key={index}
             >
               <div
-                className={` md:px-12 px-3 py-2 rounded-md ${
-                  select === item.id
+                className={` md:px-12 px-3 py-2 rounded-md ${select === item.id
                     ? "bg-secondary text-white border-2 "
                     : "   border-2 border-black/90"
-                }`}
+                  }`}
               >
                 {item.text}
               </div>

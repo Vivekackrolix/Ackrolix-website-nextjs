@@ -61,16 +61,16 @@ const Memories = () => {
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-          arrows: true,
+          arrows: false,
         },
       },
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          arrows: true,
+          arrows: false,
         },
       },
       {
@@ -79,7 +79,7 @@ const Memories = () => {
           slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1,
-          arrows: true,
+          arrows: false,
         },
       },
       {
@@ -87,7 +87,7 @@ const Memories = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: true,
+          arrows: false,
         },
       },
     ],
@@ -95,15 +95,15 @@ const Memories = () => {
   };
 
   return (
-    <div className="container-ack md:px-0 px-5 md:pt-0 pt-16">
+    <div className="container-ack px-5 md:pt-0 pt-16 w-full">
       <ComponentHead
         title="Moments"
         sub="Life At Ackrolix"
         head="Creating Memories that reminds: Ackrolix Innovations "
       />
       <div className="mt-10">
-        <div className="text-white  mx-auto">
-          <div className="absolute  md:right-20 right-[5%] cursor-pointer top-10 z-20 md:top-10"></div>
+        <div className="text-white mx-auto">
+          <div className="absolute md:right-20 right-[5%] cursor-pointer top-10 z-20 md:top-10"></div>
           <div className="pt-15 MemoriesSlider">
             <Slider {...settings}>
               {resumeData.map((item, indx) => {
@@ -117,7 +117,7 @@ const Memories = () => {
                     <img
                       alt="Slider"
                       src={item.sliderImg}
-                      className={"rounded-sm md:w-full  mx-auto"}
+                      className={"rounded-sm md:w-[full] mx-auto"}
                     />
                   </div>
                 );
@@ -128,14 +128,14 @@ const Memories = () => {
       </div>
       <div className="flex justify-center pt-6 ">
         <Link href="/moments">
-          <button className= " button-2  px-12 py-2 rounded-md">
+          <button className=" button-2  px-12 py-2 rounded-md">
             <div className="eff-2"></div>
-            <span className="text-base flex items-center "> View All 
-            <MdKeyboardArrowRight className=" text-base" />
+            <span className="text-base flex items-center "> View All
+              <MdKeyboardArrowRight className=" text-base" />
             </span>
           </button>
-          </Link>
-        </div>
+        </Link>
+      </div>
     </div>
   );
 };
