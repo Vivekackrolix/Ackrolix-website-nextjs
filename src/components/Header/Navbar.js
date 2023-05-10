@@ -66,15 +66,15 @@ const Navbar = () => {
             </li>
             {/* for mobile end */}
             <Link href="/services">
-            <li
-              className={
-                router.pathname == "/services"
-                  ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
-                  : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
-              }
-            >
-               Our Expertise
-            </li>
+              <li
+                className={
+                  router.pathname == "/services"
+                    ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
+                    : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
+                }
+              >
+                Our Expertise
+              </li>
             </Link>
             {/* for mobile start */}
             <li className="md:hidden block ">
@@ -84,15 +84,15 @@ const Navbar = () => {
             </li>
             {/* for mobile end */}
             <Link href="/advisors">
-            <li
-              className={
-                router.pathname == "/advisors"
-                  ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
-                  : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
-              }
-            >
-              Advisors
-            </li>
+              <li
+                className={
+                  router.pathname == "/advisors"
+                    ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
+                    : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
+                }
+              >
+                Advisors
+              </li>
             </Link>
             {/* for mobile start */}
             <li className="md:hidden block ">
@@ -102,15 +102,15 @@ const Navbar = () => {
             </li>
             {/* for mobile end */}
             <Link href="/experts">
-            <li
-              className={
-                router.pathname == "/experts"
-                  ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
-                  : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
-              }
-            >
-              Our Experts
-            </li>
+              <li
+                className={
+                  router.pathname == "/experts"
+                    ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
+                    : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
+                }
+              >
+                Our Experts
+              </li>
             </Link>
             {/* for mobile start */}
             <li className="md:hidden block ">
@@ -119,16 +119,16 @@ const Navbar = () => {
               </Link>
             </li>
             {/* for mobile end */}
-            <Link href="/moments"> 
-            <li
-              className={
-                router.pathname == "/moments"
-                  ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
-                  : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
-              }
-            >
-              Moments
-            </li>
+            <Link href="/moments">
+              <li
+                className={
+                  router.pathname == "/moments"
+                    ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
+                    : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
+                }
+              >
+                Moments
+              </li>
             </Link>
             {/* for mobile start */}
             <li className="md:hidden block ">
@@ -137,16 +137,16 @@ const Navbar = () => {
               </Link>
             </li>
             {/* for mobile end */}
-            <Link href="/career"> 
-            <li
-              className={
-                router.pathname == "/career"
-                  ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
-                  : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
-              }
-            >
-             Career
-            </li>
+            <Link href="/career">
+              <li
+                className={
+                  router.pathname == "/career"
+                    ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
+                    : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
+                }
+              >
+                Career
+              </li>
             </Link>
             {/* for mobile start */}
             <li className="md:hidden block ">
@@ -156,15 +156,15 @@ const Navbar = () => {
             </li>
             {/* for mobile end */}
             <Link href="/portfolio">
-            <li
-              className={
-                router.pathname == "/portfolio"
-                  ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
-                  : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
-              }
-            >
-              Portfolio
-            </li>
+              <li
+                className={
+                  router.pathname == "/portfolio"
+                    ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
+                    : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
+                }
+              >
+                Portfolio
+              </li>
             </Link>
             {/* for mobile start */}
             <li className="md:hidden block ">
@@ -174,15 +174,15 @@ const Navbar = () => {
             </li>
             {/* for mobile end */}
             <Link href="/technology">
-            <li
-              className={
-                router.pathname == "/technology"
-                  ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
-                  : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
-              }
-            >
-               Technologies
-            </li>
+              <li
+                className={
+                  router.pathname == "/technology"
+                    ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
+                    : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
+                }
+              >
+                Technologies
+              </li>
             </Link>
             {/* for mobile start */}
             <li className="md:hidden block ">
@@ -192,15 +192,15 @@ const Navbar = () => {
             </li>
             {/* for mobile end */}
             <Link href="/industryWeServe">
-            <li
-              className={
-                router.pathname == "/industryWeServe"
-                  ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
-                  : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
-              }
-            >
-            Industry We Serve
-            </li>
+              <li
+                className={
+                  router.pathname == "/industryWeServe"
+                    ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
+                    : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
+                }
+              >
+                Industry We Serve
+              </li>
             </Link>
             {/* for mobile start */}
             <li className="md:hidden block ">
@@ -277,9 +277,9 @@ const Navbar = () => {
         <div className="hamburger cursor-pointer" onClick={handleClick}>
           {click ? (
             <>
-            <FaTimes size={30} style={{ color: "#000" }}  onClick={closeMenu}/>
-            {/* <FaCross size={20} style={{color: "#fff"}}/> */}
-            </>            
+              <FaTimes size={30} style={{ color: "#000" }} onClick={closeMenu} />
+              {/* <FaCross size={20} style={{color: "#fff"}}/> */}
+            </>
           ) : (
             <FaBars size={30} style={{ color: "#000" }} />
           )}

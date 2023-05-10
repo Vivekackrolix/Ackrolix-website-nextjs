@@ -72,7 +72,7 @@ const Advisors = () => {
                   <img
                     src={item.image}
                     alt="advisor"
-                    className="  rounded-lg w-20 h-20 mx-auto "
+                    className="rounded-lg w-20 h-20 mx-auto"
                   />
                 </div>
 
