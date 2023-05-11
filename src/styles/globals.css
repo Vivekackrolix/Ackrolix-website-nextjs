@@ -1523,3 +1523,34 @@ body:not(.device-touch) .clients-grid li a {
     line-height: 1.4;
   }
 }
+
+
+#text-slider.container {
+  overflow: hidden;
+  /* padding: 20px; */
+  border-radius: 5px;
+  max-width: 960px;
+  margin: 20px auto 20px auto;
+}
+
+#text-slider.container li {
+  display: none;
+}
+
+#text-slider.container .active {
+  display: block;
+}
+
+/* .button-container button {
+ color: #fff;
+ font-size: 14px;
+ padding: 8px 40px;
+ border: none;
+ background-color: #32863b;
+ margin: 0 3px;
+ border-radius: 5px;
+}
+
+.button-container {
+  text-align: center;
+} */
