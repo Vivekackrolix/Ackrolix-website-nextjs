@@ -66,7 +66,7 @@ const Testimonial = () => {
     loop: true,
     autoplay: true,
     speed: 600,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 1000,
     lazyLoad: true,
     accessibility: true,
     cssEase: "ease-out",
@@ -104,7 +104,6 @@ const Testimonial = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-
           speed: 4000,
         },
       },

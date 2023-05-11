@@ -32,8 +32,8 @@ const index = () => {
       <Videos />
       <Clients />
       <Blogs />
-      {/* <Testimonial /> */}
-      {/* <Footer /> */}
+      <Testimonial />
+      <Footer />
     </>
   );
 };
