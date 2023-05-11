@@ -8,7 +8,7 @@ function PortfolioListing() {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       category: 'web',
-      img: '/assets/images/portfolio/project1.jpg',
+      img: '/assets/images/portfolio/project5.jpg',
       img2: '/assets/images/portfolio/project2.jpg'
     },
     {
@@ -136,10 +136,10 @@ function PortfolioListing() {
                   </div>
                   <div className='grid grid-cols-12 gap-4 py-5'>
                     <div className='col-span-6'>
-                      <img src={item.img} className="rounded-md h-100 w-full" />
+                      <img src={item.img2} className="rounded-md h-100 w-full" />
                     </div>
                     <div className='col-span-6'>
-                      <img src={item.img2} className="rounded-md h-100 w-full" />
+                      <img src={item.img} className="rounded-md h-100 w-full" />
                     </div>
                   </div>
                 </div>

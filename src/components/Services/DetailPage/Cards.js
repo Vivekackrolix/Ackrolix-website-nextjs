@@ -4,7 +4,6 @@ const Cards = () => {
   const card = [
     {
       id: 1,
-
       para: "Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex. ",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
@@ -13,12 +12,11 @@ const Cards = () => {
       maintitle: "Solutions",
       subtitle: "We Shape the Perfect Solutions ",
     },
-
     {
       id: 2,
       icon: "/assets/svg/info.svg",
-      title: "Project Introduction",
-      para: "Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.",
+      title: "Complete product teams",
+      para: "Access Business Analysts, Product Designers, Project Managers, QA Engineers, DevOps, or Full-stack developers",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       textsize: "text-xl",
@@ -29,8 +27,8 @@ const Cards = () => {
     {
       id: 3,
       icon: "/assets/svg/info.svg",
-      title: "Project Introduction",
-      para: "Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.Donec mi lorem, .",
+      title: "Fast iterations & frequent releases",
+      para: "Pre-build components and our own templates let our team deliver more in each sprint – this is the perk of having such experienced web developers on board.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       textsize: "text-xl",
@@ -41,8 +39,8 @@ const Cards = () => {
     {
       id: 4,
       icon: "/assets/svg/info.svg",
-      title: "Project Introduction",
-      para: "Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.",
+      title: "Business-tailored architecture",
+      para: "Always designed and develop with your company's growth and the product's scalability in mind",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       textsize: "text-xl",
@@ -53,8 +51,8 @@ const Cards = () => {
     {
       id: 5,
       icon: "/assets/svg/info.svg",
-      title: "Project Introduction",
-      para: "Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.",
+      title: "Thorough quality assurance",
+      para: "We do QA before each deploy through manual and automated tests that catch bugs, performance issues, and conversion blockers.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       textsize: "text-xl",
@@ -65,8 +63,8 @@ const Cards = () => {
     {
       id: 6,
       icon: "/assets/svg/info.svg",
-      title: "Project Introduction",
-      para: "Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.",
+      title: "Scalable & secure infrastructure",
+      para: "Web development services full of custom solutions optimized for efficiency, flexibility and deployment speed.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       textsize: "text-xl",
@@ -77,8 +75,8 @@ const Cards = () => {
     {
       id: 7,
       icon: "/assets/svg/info.svg",
-      title: "Project Introduction",
-      para: "Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.Donec.",
+      title: "World-class UX/UI",
+      para: "Designed to help your business with user adoption",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       textsize: "text-xl",

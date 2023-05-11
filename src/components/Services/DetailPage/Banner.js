@@ -7,12 +7,10 @@ const Banner = () => {
       <div className="container-ack md:px-0 px-5 ">
         <div className="pt-24">
         <div className="text-4xl  text-center font-bold ">
-          Etiam nulla lectus amet nunc molestie at vulputate.
+        Work with a development team with skills CTOs praise.
         </div>
         <p className="text-base text-center md:w-[80%] mx-auto pt-3">
-          Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed
-          imperdiet tempor, libero urna semper urna, facilisis vulputate velit
-          arcu vitae mi. Donec ac nisi ex.{" "}
+        Software supports your business growth, and you need more from it. We’ve helped over 160+ companies build scalable products with confidence. Technology executives chose our development teams because of their skills tested in 7+ markets.{" "}
         </p>
         </div>
         <div>
@@ -25,20 +23,13 @@ const Banner = () => {
           
           <div className="">
             <div className="text-3xl   font-bold ">
-             Lorem Ipsum dolor sit amet
-              Eget at auctor purus
+            One scalable team for start-to-finish development
             </div>
             <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4 md:pt-8 pt-4">
-              Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
-              ultrices id enim lectus sagittis viverra interdum. Nisi lobortis
-              tincidunt convallis viverra. Scelerisque sed orci amet proin cras
-              quam pellentesque. Sollicitudin sed velit nunc nunc morbi sed
-              aliquam.
+            What does it mean to be reliable? <strong> It means your outsourced team works as well as your web developers </strong> do. Access web development services trusted by 98% of CTOs that you’ll find understanding with. They made APIs, custom web applications, hybrid mobile app development, provided web design services, updated stacks, and build cloud-native systems.
             </div>
             <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  py-4">
-              Lorem ipsum dolor sit amet consectetur. Fermentum tortor et arcu
-              pellentesque tempor cursus cursus amet odio. Orci eu sagittis leo
-              duis enim mi massa etiam.
+            One place — everyone you need: Business Analysts, Product Designers, Project Managers, QA Engineers, DevOps, and Full-stack developers. Expect our web development team to be proactive throughout the project with an abundance of improvement suggestions that will get business moving even in areas such as search engine optimization.
             </div>
 
             {/* <div className="pt-4">

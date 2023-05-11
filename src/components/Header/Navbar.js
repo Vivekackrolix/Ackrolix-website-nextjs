@@ -73,7 +73,7 @@ const Navbar = () => {
                     : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
                 }
               >
-                Our Expertise
+                Our Services
               </li>
             </Link>
             {/* for mobile start */}
@@ -83,7 +83,7 @@ const Navbar = () => {
               </Link>
             </li>
             {/* for mobile end */}
-            <Link href="/advisors">
+            {/* <Link href="/advisors">
               <li
                 className={
                   router.pathname == "/advisors"
@@ -93,7 +93,7 @@ const Navbar = () => {
               >
                 Advisors
               </li>
-            </Link>
+            </Link> */}
             {/* for mobile start */}
             <li className="md:hidden block ">
               <Link href="/advisors">

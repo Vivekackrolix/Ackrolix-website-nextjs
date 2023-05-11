@@ -6,37 +6,37 @@ const Technology = () => {
     {
       id: "1",
       src:"/assets/images/service/icon.png",
-      name: "Lorem Ipsum",
+      name: "Node.js",
       desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
     },
     {
       id: "2",
       src:"/assets/images/service/icon.png",
-      name: "Lorem Ipsum",
+      name: "React.js",
       desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
     },
     {
       id: "3",
       src:"/assets/images/service/icon.png",
-      name: "Lorem Ipsum",
+      name: "Angular",
       desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
    },
     {
       id: "4",
       src:"/assets/images/service/icon.png",
-      name: "Lorem Ipsum",
+      name: "Laravel",
       desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
    },
     {
       id: "5",
       src:"/assets/images/service/icon.png",
-      name: "Lorem Ipsum",
+      name: "Typescript",
       desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
    },
     {
       id: "6",
       src:"/assets/images/service/icon.png",
-      name: "Lorem Ipsum",
+      name: "Next.js",
       desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
     },
   ];
@@ -46,20 +46,20 @@ const Technology = () => {
        <ComponentHead
         title="Technology"
         sub="Website Technology"
-        head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+        head="Whatever web applications you’re building, we got your back at every stage of web development, including web design. We’ve built a core system for a bank, an MVP marketplace sold for millions, and other 5☆ custom projects for 140+ companies worldwide."
       />
 
       <div className="grid md:grid-cols-3 md:py-10  pt-16 gap-10">
         {process.map((item,e) => (
           <>
-            <div key={e} className="group  flex justify-start items-center border border-textcolor rounded-md p-3 hover:bg-gray-100 hover:border-transparent">
+            <div key={e} className="group  flex justify-start items-start border border-textcolor rounded-md p-3 hover:bg-gray-100 hover:border-transparent">
               <img src={item.src} alt="" />
               <div>
                 <h2 className="font-semibold text-lg pt-3 text-black ">
                   {item.name}
                 </h2>
 
-                <p className="text-textcolor py-2 pb-4 text-sm ">{item.desc}</p>
+                {/* <p className="text-textcolor py-2 pb-4 text-sm ">{item.desc}</p> */}
               </div>
             </div>
           </>

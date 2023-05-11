@@ -68,15 +68,15 @@ const About = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
           initialSlide: 1,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
 
           speed: 4000,
@@ -89,11 +89,7 @@ const About = () => {
     <div className="bg-[#F6F8F9] py-10">
       <div className="md:grid grid-cols-5 gap-4 items-center mobile-hide">
         <div className="col-span-2 md:px-0 px-5 pb-10 md:pb-0 ">
-          {/* <div className="">
-             <div className="md:text-[8rem] text-[5rem] tracking-wider text-left texttransparent font-bold  md:pt-10 ">
-              About
-            </div>
-          </div> */}
+          
           <div className="">
             <div className="md:w-[95%] pl-16 w-full md:text-base text-xs text-textcolor text-justify font-text pb-4">
               <div className="line-heading">
@@ -160,20 +156,19 @@ const About = () => {
 
       <div className=" container-ack md:hidden px-5 pt-16">
         <div className="md:pb-0 relative">
-          
           <div className="w-full md:text-base text-xs text-textcolor text-justify font-text pb-4">
-              <div className="line-heading">
-                <div className="text-[46px] max-[480px]:text-[30px] text-secondary relative z-10 pb-5 text-left font-bold max-w-xl">
-                  Who We Are
-                </div>
+            <div className="line-heading">
+              <div className="text-[46px] max-[480px]:text-[30px] text-secondary relative z-10 pb-5 text-left font-bold max-w-xl">
+                Who We Are
               </div>
-              <div className="load-wrapp relative bottom-[15px]">
-                <div className="load">
-                  <div className="line"></div>
-                  <div className="line"></div>
-                  <div className="line"></div>
-                </div>
+            </div>
+            <div className="load-wrapp relative bottom-[15px]">
+              <div className="load">
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
               </div>
+            </div>
             <div className="w-full text-base text-textcolor text-justify font-text  pb-4 ">
               Ackrolix Innovations Pvt Ltd is an award winning product
               conceptualization & development company that partners with

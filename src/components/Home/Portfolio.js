@@ -12,7 +12,6 @@ const Portfolio = () => {
           sub="Portfolio"
           head="Where imagination meets technology: Ackrolix Innovations creates products that defy expectations"
         />
-
         <div className="masonry-grid pb-2">
           <div className="masonry-grid-item containerzoom">
             <img
