@@ -1480,6 +1480,13 @@ body:not(.device-touch) .clients-grid li a {
   background-repeat: no-repeat;
 }
 
+@media(max-width: 1220px) {
+  .testimonialSlider::before {
+    display: none;
+  }
+}
+
+
 .testimonialSlider::after {
   background-image: url('../../public/assets/images/bottom-quote.png');
   background-size: contain;

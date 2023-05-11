@@ -18,7 +18,7 @@ const Advisors = () => {
 
       image: "/assets/images/advisor/nishant.png",
       name: "Nishant Joon",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      desc: "I had the pleasure of working with Ackrolix on a complex technology project, and I was blown away by their expertise and professionalism. Their deep understanding of the latest technologies and trends in the industry was evident from the start, and they were able to provide valuable insights and guidance throughout the entire project.",
       link: "/advisorDetailPage",
     },
     {
@@ -32,25 +32,25 @@ const Advisors = () => {
     {
       id: 4,
 
-      image: "/assets/images/advisortwo.png",
-      name: "Layan  Alrahmain, M.D.",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      image: "/assets/images/advisor/geeta.jpg",
+      name: "Geeta Patel.",
+      desc: "Good innovation is about finding creative and effective solutions to problems. It involves thinking outside the box, taking risks, and being open to new ideas. Good innovation can lead to significant advancements in technology.",
       link: "/advisorDetailPage",
     },
     {
       id: 5,
 
-      image: "/assets/images/advisorthree.png",
-      name: "Layan  Alrahmain, M.D.",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      image: "/assets/images/advisor/mahesh.jpg",
+      name: "Mahesh Kumar",
+      desc: "Company motivation is crucial for ensuring that employees remain engaged and productive. A motivated workforce is more likely to go the extra mile to achieve company goals, and this can lead to increased productivity, better customer satisfaction, and higher profits.",
       link: "/advisorDetailPage",
     },
     {
       id: 6,
 
-      image: "/assets/images/advisorone.png",
-      name: "Layan  Alrahmain, M.D.",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      image: "/assets/images/advisor/aditi.jpg",
+      name: "Aditi Ahuja",
+      desc: "Company quality refers to the level of excellence that a company strives to achieve in all aspects of its operations. This includes the quality of its products or services, customer service, employee satisfaction, and overall reputation.",
       link: "/advisorDetailPage",
     },
   ];
@@ -72,7 +72,7 @@ const Advisors = () => {
                   <img
                     src={item.image}
                     alt="advisor"
-                    className="rounded-lg w-20 h-20 mx-auto"
+                    className="rounded-lg w-20 h-20 mx-auto rounded-[100%]"
                   />
                 </div>
 
