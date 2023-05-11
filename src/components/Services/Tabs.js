@@ -4,12 +4,12 @@ import React from "react";
 const tabs = [
   {
     id: 1,
-    text: "Products Based",
+    text: "Product Conceptualization",
   },
 
   {
     id: 2,
-    text: "Services Based",
+    text: "Product Development",
   },
 ];
 
@@ -17,44 +17,44 @@ const productData = [
   {
     id: 1,
     image: "/assets/images/service/serviceimg.png",
-    name: "Lorem Ipsum",
-    desc: "Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices id enim lectus sagittis viverra interdum.",
-    link: "/serviceDetailPage",
+    name: "User Research",
+    desc: "As a leading UX research company in India, dig deep into identifying users' motivations and pain points, investigate their root causes and extract valuable insights.",
+    link: "/app-modernization-details",
   },
   {
     id: 2,
     image: "/assets/images/service/serviceimg1.png",
-    name: "Lorem Ipsum",
-    desc: "Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices id enim lectus sagittis viverra interdum.",
-    link: "/serviceDetailPage",
+    name: "Prototyping",
+    desc: "A prototype is an early draft of a design used to get rapid feedback on whether the intended design works well or needs to be updated in some areas.",
+    link: "/web-development-details",
   },
   {
     id: 3,
     image: "/assets/images/service/serviceimg.png",
-    name: "Lorem Ipsum",
-    desc: "Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices id enim lectus sagittis viverra interdum.",
-    link: "/serviceDetailPage",
+    name: "UX Strategy",
+    desc: "UX strategy is the culmination of your business strategy, the value of innovation your business provides, validated user research, and frictionless user experience.",
+    link: "/web-development-details",
   },
   {
     id: 4,
     image: "/assets/images/service/serviceimg1.png",
-    name: "Lorem Ipsum",
-    desc: "Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices id enim lectus sagittis viverra interdum.",
-    link: "/serviceDetailPage",
+    name: "UI Designing",
+    desc: "An Optimized UI Can Change The Dynamics Of A Business. User Experience is one of the key pillars of your business as it enhances customer satisfaction and promotes growth.",
+    link: "/web-development-details",
   },
   {
     id: 5,
     image: "/assets/images/service/serviceimg.png",
-    name: "Lorem Ipsum",
-    desc: "Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices id enim lectus sagittis viverra interdum.",
-    link: "/serviceDetailPage",
+    name: "Usability Testing",
+    desc: "We closely observe and monitor each action that a user takes and iterate designs to make the product as user friendly as possible.",
+    link: "/web-development-details",
   },
   {
     id: 6,
     image: "/assets/images/service/serviceimg1.png",
-    name: "Lorem Ipsum",
-    desc: "Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices id enim lectus sagittis viverra interdum.",
-    link: "/serviceDetailPage",
+    name: "Data Visualisation",
+    desc: "We present the data in visual form and help decision-makers to identify key opportunities and impending issues.",
+    link: "/web-development-details",
   },
 ];
 
@@ -62,49 +62,49 @@ const serviceData = [
   {
     id: 1,
     image: "/assets/images/service/serviceimg1.png",
-    name: "Lorem Ipsum",
-    desc: "Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices id enim lectus sagittis viverra interdum.",
-    link: "/serviceDetailPage",
+    name: "Digital Product Design",
+    desc: "Product design plays a crucial role in creating exceptional user experiences and driving the success of a product. It encompasses the process of understanding user needs, ideating, prototyping, and iterating to develop a functional and visually appealing product.",
+    link: "/web-development-details",
   },
   {
     id: 2,
     image: "/assets/images/service/serviceimg.png",
-    name: "Lorem Ipsum",
-    desc: "Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices id enim lectus sagittis viverra interdum.",
-    link: "/serviceDetailPage",
+    name: "Web Development",
+    desc: "Whatever web applications you’re building, we got your back at every stage of web development, including web design.We’ve built a core system for a bank, an MVP marketplace sold for millions, and other 5☆ custom projects for 140+ companies worldwide.",
+    link: "/web-development-details",
   },
   {
     id: 3,
     image: "/assets/images/service/serviceimg1.png",
-    name: "Lorem Ipsum",
-    desc: "Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices id enim lectus sagittis viverra interdum.",
-    link: "/serviceDetailPage",
+    name: "App Modernization",
+    desc: "App modernization is the process of revitalising existing applications to leverage modern technologies, enhance performance, improve user experiences, and align with evolving business needs.",
+    link: "/app-modernization-details",
   },
   {
     id: 4,
     image: "/assets/images/service/serviceimg.png",
-    name: "Lorem Ipsum",
-    desc: "Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices id enim lectus sagittis viverra interdum.",
-    link: "/serviceDetailPage",
+    name: "Software Development",
+    desc: "Software development is the process of designing, coding, testing, and maintaining software applications. In today's fast-paced digital world, software plays a vital role in powering businesses and driving innovation.",
+    link: "/web-development-details",
   },
   {
     id: 5,
     image: "/assets/images/service/serviceimg1.png",
-    name: "Lorem Ipsum",
-    desc: "Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices id enim lectus sagittis viverra interdum.",
-    link: "/serviceDetailPage",
+    name: "Ecommerce Development",
+    desc: "Ecommerce development involves designing and building online stores that provide an exceptional user experience, seamless transactions, and robust backend functionality.",
+    link: "/web-development-details",
   },
   {
     id: 6,
     image: "/assets/images/service/serviceimg.png",
-    name: "Lorem Ipsum",
-    desc: "Lorem ipsum dolor sit amet consectetur. Sapien porttitor non ultrices id enim lectus sagittis viverra interdum.",
-    link: "/serviceDetailPage",
+    name: "Cloud Engineering & DevOps",
+    desc: "Together, we will establish an optimal cloud computing workflow that helps you cut down cloud spending, automate infrastructure monitoring, and increase architectural flexibility.",
+    link: "/web-development-details",
   },
 ];
 
 const Tabs = () => {
-  const [select, setSelect] = React.useState(1);
+  const [select, setSelect] = React.useState(2);
 
   return (
     <div className="container-ack md:px-0 px-5">
@@ -118,8 +118,8 @@ const Tabs = () => {
             >
               <div
                 className={` md:px-12 px-3 py-2 rounded-md ${select === item.id
-                    ? "bg-secondary text-white border-2 "
-                    : "   border-2 border-black/90"
+                  ? "bg-secondary text-white border-2 "
+                  : "   border-2 border-black/90"
                   }`}
               >
                 {item.text}

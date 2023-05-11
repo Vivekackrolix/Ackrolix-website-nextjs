@@ -18,7 +18,7 @@ const Banner = () => {
     arrows: true,
     loop: true,
     autoplay: true,
-    autoplaySpeed: 4500,
+    autoplaySpeed: 3000,
     speed: 1000,
     lazyLoad: true,
     accessibility: true,
@@ -28,8 +28,8 @@ const Banner = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -37,8 +37,8 @@ const Banner = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           initialSlide: 2,
         },
       },
@@ -74,14 +74,12 @@ const Banner = () => {
       let activeList = list.findIndex((e) => {
         return e.classList.contains("active");
       });
-
       list[activeList].classList.remove(
         "active",
         "fadeInRight",
         "fadeInLext",
         "animated"
       );
-
       return activeList;
     }
 
@@ -215,32 +213,6 @@ const Banner = () => {
                 luctus ullamcorper.
               </li>
             </ul>
-
-            {/* <div className="flex justify-start items-center space-x-1">
-            <span className="text-primary md:text-lg text-base font-semibold">
-              {" "}
-              Innovation at its finest{" "}
-            </span>{" "}
-            <img src="/assets/icons/icon.png" className="w-9 bulb"/>
-          </div>
-          <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-            Product Conceptualization & Development
-          </h2>
-          <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
-          From concept to reality Ackrolix Innovations delivers game changing products for startups & fortune companies.
-          </p>
-          <div className="pt-10 w-full">
-            <Link href="/contact">
-              <button className="button-3 bg-secondary hover:bg-primary text-white px-12 py-3 justify-center rounded-md flex items-center w-full text-center">
-                <div className="eff-3"></div>
-                <span className="text-base flex items-center ">
-                  {" "}
-                  Discover Now
-                  <MdKeyboardArrowRight className=" text-base" />
-                </span>
-              </button>
-            </Link>
-          </div> */}
           </div>
         </div>
       </div>

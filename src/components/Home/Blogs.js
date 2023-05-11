@@ -7,11 +7,11 @@ const Blogs = () => {
     <div className="bg-[#F6F8F9]">
       <div className="container-ack md:px-0 px-5">
 
-      <ComponentHead
-        title="Blogs"
-        sub="Our Latest Insights"
-        head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi."
-      />
+        <ComponentHead
+          title="Blogs"
+          sub="Our Latest Insights"
+          head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi."
+        />
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <img src="/assets/images/blogone.png" alt="" className="rounded-md" />
 
@@ -20,14 +20,11 @@ const Blogs = () => {
               22 March 2023{" "}
             </p>
             <h2 className="font-bold text-lg py-2 text-secondary text-left">
-              Lorem ipsum dolor sit amet in maecenas tinc
+              Make microservices more efficient & scalable with Backend For Frontend:
             </h2>
             <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
-              Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
-              ultrices id enim lectus sagittis viverra interdum. Nisi lobortis
-              tincidunt convallis viverra. Scelerisque sed orci amet proin cras
-              quam pellentesque. Sollicitudin sed velit nunc nunc morbi sed
-              aliquam.
+              Microservices architecture has gained significant popularity due to its ability to break down large applications into smaller, independent services.
+              However, managing interactions between these services can become complex, especially when dealing with multiple front-end applications.
             </div>
             <div className="pb-5 flex justify-between">
               <Link href="/blogDetailPage">
@@ -85,14 +82,11 @@ const Blogs = () => {
               22 March 2023{" "}
             </p>
             <h2 className="font-bold text-lg py-2 text-secondary text-left">
-              Lorem ipsum dolor sit amet in maecenas tinc
+              Custom project management in agile - Ackrolix is different, just like everybody else
+
             </h2>
             <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
-              Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
-              ultrices id enim lectus sagittis viverra interdum. Nisi lobortis
-              tincidunt convallis viverra. Scelerisque sed orci amet proin cras
-              quam pellentesque. Sollicitudin sed velit nunc nunc morbi sed
-              aliquam.
+              Agile project management has revolutionized the way teams approach software development, fostering flexibility, collaboration, and continuous improvement. However, many organizations find that adopting a one-size-fits-all agile framework doesn't always meet their unique project management needs.
             </div>
             <div className="pb-5 flex justify-between">
               <Link href="/blogDetailPage">
@@ -164,14 +158,10 @@ const Blogs = () => {
               22 March 2023{" "}
             </p>
             <h2 className="font-bold text-lg py-2 text-secondary text-left">
-              Lorem ipsum dolor sit amet in maecenas tinc
+              Custom project management in agile - Ackrolix is different, just like everybody else
             </h2>
             <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
-              Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
-              ultrices id enim lectus sagittis viverra interdum. Nisi lobortis
-              tincidunt convallis viverra. Scelerisque sed orci amet proin cras
-              quam pellentesque. Sollicitudin sed velit nunc nunc morbi sed
-              aliquam.
+              Agile project management has revolutionized the way teams approach software development, fostering flexibility, collaboration, and continuous improvement. However, many organizations find that adopting a one-size-fits-all agile framework doesn't always meet their unique project management needs
             </div>
             <div className="pb-5 flex justify-between">
               <Link href="/blogDetailPage">
@@ -235,14 +225,10 @@ const Blogs = () => {
               22 March 2023{" "}
             </p>
             <h2 className="font-bold text-lg py-2 text-secondary text-left">
-              Lorem ipsum dolor sit amet in maecenas tinc
+              Software development life cycle - how to find your way as a product owner
             </h2>
             <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
-              Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
-              ultrices id enim lectus sagittis viverra interdum. Nisi lobortis
-              tincidunt convallis viverra. Scelerisque sed orci amet proin cras
-              quam pellentesque. Sollicitudin sed velit nunc nunc morbi sed
-              aliquam.
+              In the world of software development, the role of a product owner is critical in driving the success of a project. As a product owner, you play a pivotal role in guiding the development team and ensuring that the end product meets the needs of the users.
             </div>
             <div className="pb-5 flex justify-between">
               <Link href="/blogDetailPage">

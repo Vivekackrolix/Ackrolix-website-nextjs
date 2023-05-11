@@ -2,6 +2,7 @@ import Footer from "../components/Common/Footer";
 import Header from "../components/Common/Header";
 import Heading from "../components/Common/Heading";
 import AllExperts from "../components/Expert/AllExperts";
+import Team from '../components/Team/Team'
 import Head from "next/head";
 import React from "react";
 
@@ -26,6 +27,7 @@ const Experts = () => {
 
       </div>
       <AllExperts />
+      <Team />
       <Footer />
     </div>
   );

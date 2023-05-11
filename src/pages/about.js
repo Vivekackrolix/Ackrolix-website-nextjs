@@ -19,9 +19,9 @@ const About = () => {
       <Header />
       <Banner />
       <ValuesMissions />
-      <Section />
+      {/* <Section /> */}
       <Card />
-      <VideoSection />
+      {/* <VideoSection /> */}
 
       <SectionTwo />
       <Clients />

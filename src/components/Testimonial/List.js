@@ -8,7 +8,7 @@ const List = () => {
       image: "/assets/images/testimonialone.png",
       text: "Name",
       designation: "(Designation)",
-      para: "Lorem Ipsum is simply dummy text of the printing andtypesettin gindustryLorem Ipsum is simply dummy text of the printing and typesetting Industry typese",
+      para: "The project is a grand success. The user feedback is absolutely overwhelming.",
     },
     {
       id: 2,
@@ -77,7 +77,7 @@ const List = () => {
         </div>
         <div>
           <div className="grid md:grid-cols-3 gap-7 pt-10">
-            {clientsData.map((item,e) => (
+            {clientsData.map((item, e) => (
               <>
                 <div className="group py-10 relative" key={e}>
                   <div className="hover:bg-[#F6F8F9] border-2 border-[#F6F8F9] text-left mx-3 py-8 rounded-md  hovertestimonial">

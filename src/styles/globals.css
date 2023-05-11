@@ -1520,17 +1520,17 @@ body:not(.device-touch) .clients-grid li a {
     font-size: 45px;
     top: 18px;
   }
-
-  .mobile-hide {
-    display: none;
-  }
-
   .text-base {
     font-size: 0.9rem;
     line-height: 1.4;
   }
 }
 
+@media only screen and (min-width: 320px) and (max-width: 1175px) {
+  .mobile-hide {
+    display: none;
+  }
+}
 
 #text-slider.container {
   overflow: hidden;
