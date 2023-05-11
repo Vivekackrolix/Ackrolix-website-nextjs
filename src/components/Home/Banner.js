@@ -28,19 +28,18 @@ const Banner = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 3,
+          slidesToScroll: 3,
           infinite: true,
-          dots: false,
-          centerMode: false,
+          dots: true,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          // initialSlide: 2,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
         },
       },
       {
@@ -53,37 +52,58 @@ const Banner = () => {
       },
     ],
   };
-
   const clientsData = [
     {
       id: 1,
       image: "/assets/images/banner/banner-one.jpg",
-      title: 'Innovation at its finest 1',
-      heading: 'Product Conceptualization & Development 1',
-      desc: 'From concept to reality Ackrolix Innovations delivers game changing products for startups & fortune companies.'
     },
     {
       id: 2,
-      image: "/assets/images/banner/banner-four.svg",
-      title: 'Innovation at its finest 2',
-      heading: 'Product Conceptualization & Development 2',
-      desc: 'From concept to reality Ackrolix Innovations delivers game changing products for startups & fortune companies.'
+      image: "/assets/images/banner/banner-three.jpg",
     },
     {
       id: 3,
-      image: "/assets/images/banner/banner-five.svg",
-      title: 'Innovation at its finest 3',
-      heading: 'Product Conceptualization & Development 3',
-      desc: 'From concept to reality Ackrolix Innovations delivers game changing products for startups & fortune companies.'
+      image: "/assets/images/banner/banner-two.jpg",
     },
   ];
 
+  useEffect(() => {
+    let list = [].slice.call(document.querySelector(".container").children);
+
+    function findActiveList() {
+      let activeList = list.findIndex((e) => {
+        return e.classList.contains("active");
+      });
+
+      list[activeList].classList.remove(
+        "active",
+        "fadeInRight",
+        "fadeInLext",
+        "animated"
+      );
+
+      return activeList;
+    }
+
+    function slideShow() {
+      let activeList = findActiveList();
+
+      activeList++;
+      activeList = activeList === list.length ? 0 : activeList;
+
+      list[activeList].classList.add("active", "fadeInRight", "animated");
+    }
+
+    setInterval(slideShow, 4500);
+  }, []);
   return (
-    <div className="bg-right"
+    <div
+      className="bg-right"
       style={{
         backgroundImage: 'url("/assets/images/mainbackground.png ")',
-      }}>
-      <div className="md:px-0 px-5 HomePageSlider md:pb-20 pb-5 md:pt-0 pt-5">
+      }}
+    >
+      <div className=" md:px-0 px-5 HomePageSlider md:pb-20 pb-5 md:pt-0 pt-5">
         <Slider {...settings} className="mx-auto relative">
           {clientsData.map((item, index) => (
             <>
@@ -92,79 +112,139 @@ const Banner = () => {
                   <div className="">
                     <img
                       src={item.image}
-                      alt="banner-img"
-                      className="rounded-lg  mx-auto md:h-[650px]  h-[450px] object-cover"
+                      alt=" "
+                      className="  rounded-lg  mx-auto md:h-full  h-[450px] object-cover"
                     />
                   </div>
-                  {/* Text Card Start */}
-                  <div className="text-left">
-                    <div className="bg-white boxshadowbanner py-12 md:w-[43%] w-[85%] absolute md:top-0 top-6 md:left-[.6rem] left-7 rounded-lg mt-2 px-5">
-                      <div className="flex justify-start items-center space-x-1">
-                        <span className="text-primary md:text-lg text-base font-semibold">
-                          {" "}
-                          {item.title}{" "}
-                        </span>{" "}
-                        <img src="/assets/icons/icon.png" className="bulb" />
-                      </div>
-                      <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-                        {item.heading}
-                      </h2>
-                      <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
-                        {item.desc}
-                      </p>
-                      <div className="pt-10 w-full">
-                        <Link href="/contact">
-                          <button className="button-3 bg-secondary hover:bg-primary text-white px-12 py-3 justify-center rounded-md flex items-center w-full text-center">
-                            <div className="eff-3"></div>
-                            <span className="text-base flex items-center ">
-                              {" "}
-                              Discover Now
-                              <MdKeyboardArrowRight className=" text-base" />
-                            </span>
-                          </button>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  {/* Text Card End */}
                 </div>
               </div>
             </>
           ))}
         </Slider>
-        {/* <div className="">
+        <div className="">
           <div className="bg-white boxshadowbanner md:px-10 py-12 md:w-[33%] w-[85%] absolute md:top-0 top-6 md:left-[3.6rem] left-7 rounded-lg  mt-2  px-5 ">
-            <div className="flex justify-start items-center space-x-1">
-              <span className="text-primary md:text-lg text-base font-semibold">
-                {" "}
-                Innovation at its finest{" "}
-              </span>{" "}
-              <img src="/assets/icons/icon.png" className="w-9 bulb" />
-            </div>
-            <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-              Product Conceptualization & Development
-            </h2>
-            <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
-              From concept to reality Ackrolix Innovations delivers game changing products for startups & fortune companies.
-            </p>
-            <div className="pt-10 w-full">
-              <Link href="/contact">
-                <button className="button-3 bg-secondary hover:bg-primary text-white px-12 py-3 justify-center rounded-md flex items-center w-full text-center">
-                  <div className="eff-3"></div>
-                  <span className="text-base flex items-center ">
+            <ul id="text-slider" class="container">
+              <li class="active">
+                <div className="flex justify-start items-center space-x-1">
+                  <span className="text-primary md:text-lg text-base font-semibold">
                     {" "}
-                    Discover Now
-                    <MdKeyboardArrowRight className=" text-base" />
+                    Innovation at its finest{" "}
+                  </span>{" "}
+                  <img src="/assets/icons/icon.png" className="w-9 bulb" />
+                </div>
+                <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
+                  Product Conceptualization & Development
+                </h2>
+                <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
+                  From concept to reality Ackrolix Innovations delivers game changing products for startups & fortune companies.
+                </p>
+                <div className="pt-10 w-full">
+                  <Link href="/contact">
+                    <button className="button-3 bg-secondary hover:bg-primary text-white px-12 py-3 justify-center rounded-md flex items-center w-full text-center">
+                      <div className="eff-3"></div>
+                      <span className="text-base flex items-center ">
+                        {" "}
+                        Discover Now
+                        <MdKeyboardArrowRight className=" text-base" />
+                      </span>
+                    </button>
+                  </Link>
+                </div>
+              </li>
+              <li>
+                <div className="flex justify-start items-center space-x-1">
+                  <span className="text-primary md:text-lg text-base font-semibold">
+                    {" "}
+                    Innovation at its finest{" "}
+                  </span>{" "}
+                  <img src="/assets/icons/icon.png" className="w-9 bulb" />
+                </div>
+                <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
+                  Product Conceptualization & Development
+                </h2>
+                <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
+                  From concept to reality Ackrolix Innovations delivers game changing products for startups & fortune companies.
+                </p>
+                <div className="pt-10 w-full">
+                  <Link href="/contact">
+                    <button className="button-3 bg-secondary hover:bg-primary text-white px-12 py-3 justify-center rounded-md flex items-center w-full text-center">
+                      <div className="eff-3"></div>
+                      <span className="text-base flex items-center ">
+                        {" "}
+                        Discover Now
+                        <MdKeyboardArrowRight className=" text-base" />
+                      </span>
+                    </button>
+                  </Link>
+                </div>
+              </li>
+              <li>
+                <div className="flex justify-start items-center space-x-1">
+                  <span className="text-primary md:text-lg text-base font-semibold">
+                    {" "}
+                    Innovation at its finest{" "}
+                  </span>{" "}
+                  <img src="/assets/icons/icon.png" className="w-9 bulb" />
+                </div>
+                <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
+                  Product Conceptualization & Development
+                </h2>
+                <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
+                  From concept to reality Ackrolix Innovations delivers game changing products for startups & fortune companies.
+                </p>
+                <div className="pt-10 w-full">
+                  <Link href="/contact">
+                    <button className="button-3 bg-secondary hover:bg-primary text-white px-12 py-3 justify-center rounded-md flex items-center w-full text-center">
+                      <div className="eff-3"></div>
+                      <span className="text-base flex items-center ">
+                        {" "}
+                        Discover Now
+                        <MdKeyboardArrowRight className=" text-base" />
+                      </span>
+                    </button>
+                  </Link>
+                </div>
+              </li>
+              <li>
+                Quisque in sapien lectus, duis tortor aptent lacus, velit massa
+                interdum. Odio blandit quam urna at dis, ultrices molestie et
+                convallis neque. Lobortis dui magna dolor aenean, amet lacinia
+                at non et cras et, hac sed vitae ipsum blandit sagittis sit,
+                wisi class id volutpat in. Porttitor vel tristique ullamcorper
+                nec egestas rutrum. Orci turpis non vitae, ut do possimus ut nam
+                luctus ullamcorper.
+              </li>
+            </ul>
 
-                  </span>
-                </button>
-              </Link>
-            </div>
+            {/* <div className="flex justify-start items-center space-x-1">
+            <span className="text-primary md:text-lg text-base font-semibold">
+              {" "}
+              Innovation at its finest{" "}
+            </span>{" "}
+            <img src="/assets/icons/icon.png" className="w-9 bulb"/>
           </div>
-        </div> */}
+          <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
+            Product Conceptualization & Development
+          </h2>
+          <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
+          From concept to reality Ackrolix Innovations delivers game changing products for startups & fortune companies.
+          </p>
+          <div className="pt-10 w-full">
+            <Link href="/contact">
+              <button className="button-3 bg-secondary hover:bg-primary text-white px-12 py-3 justify-center rounded-md flex items-center w-full text-center">
+                <div className="eff-3"></div>
+                <span className="text-base flex items-center ">
+                  {" "}
+                  Discover Now
+                  <MdKeyboardArrowRight className=" text-base" />
+                </span>
+              </button>
+            </Link>
+          </div> */}
+          </div>
+        </div>
       </div>
     </div>
   );
 };
-
 export default Banner;
