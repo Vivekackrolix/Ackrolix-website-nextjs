@@ -7,58 +7,58 @@ function PortfolioListing() {
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      category: 'web',
-      img: '/assets/images/portfolio/project5.jpg',
-      img2: '/assets/images/portfolio/project2.jpg'
+      category: 'eco',
+      img: '/assets/images/portfolio/pro-1.1.png',
+      img2: '/assets/images/portfolio/pro-1.2.png'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       category: 'web',
-      img: '/assets/images/portfolio/project3.jpg',
-      img2: '/assets/images/portfolio/project4.jpg'
+      img: '/assets/images/portfolio/pro-2.1.png',
+      img2: '/assets/images/portfolio/pro-2.2.png'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       category: 'web',
-      img: '/assets/images/portfolio/project1.jpg',
-      img2: '/assets/images/portfolio/project2.jpg'
+      img: '/assets/images/portfolio/pro-3.1.png',
+      img2: '/assets/images/portfolio/pro-3.2.png'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       category: 'eco',
-      img: '/assets/images/portfolio/project3.jpg',
-      img2: '/assets/images/portfolio/project4.jpg'
+      img: '/assets/images/portfolio/pro-4.1.png',
+      img2: '/assets/images/portfolio/pro-4.2.png'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       category: 'eco',
-      img: '/assets/images/portfolio/project1.jpg',
-      img2: '/assets/images/portfolio/project2.jpg'
+      img: '/assets/images/portfolio/pro-5.1.png',
+      img2: '/assets/images/portfolio/pro-5.2.png'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       category: 'soft',
-      img: '/assets/images/portfolio/project2.jpg',
-      img2: '/assets/images/portfolio/project4.jpg'
+      img: '/assets/images/portfolio/pro-6.1.png',
+      img2: '/assets/images/portfolio/pro-6.2.png'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       category: 'soft',
-      img: '/assets/images/portfolio/project1.jpg',
-      img2: '/assets/images/portfolio/project2.jpg'
+      img: '/assets/images/portfolio/pro-7.1.png',
+      img2: '/assets/images/portfolio/pro-7.2.png'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       category: 'soft',
-      img: '/assets/images/portfolio/project3.jpg',
-      img2: '/assets/images/portfolio/project4.jpg'
+      img: '/assets/images/portfolio/pro-8.1.png',
+      img2: '/assets/images/portfolio/pro-8.2.png'
     },
   ]
 
@@ -81,7 +81,9 @@ function PortfolioListing() {
             </div>
           </div>
           <div>
-            <div className="text-center py-2 rounded-md bg-secondary text-white border-2"
+            <div className={`text-center py-2 rounded-md bg-secondary text-white border-2 
+            ${filterItem === 'web' ? 'bg-slate-400' : ''}`
+            }
               onClick={() => filterItem('web')}
             >
               Website

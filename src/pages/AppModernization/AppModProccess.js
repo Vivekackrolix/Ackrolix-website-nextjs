@@ -42,7 +42,7 @@ const AppModProccess = () => {
         }}
       >
         <div className="container-ack md:px-0 px-5">
-          <div className="grid md:grid-cols-2 gap-10 items-center container-ack  ">
+          <div className="grid md:grid-cols-2 gap-10 items-center container-ack">
             <div className="relative">
               <div className="md:text-[8rem] text-[5rem] tracking-wider text-left texttransparent font-bold  md:pt-10 ">
                 Process
