@@ -10,8 +10,7 @@ const Subscription = () => {
             Subscribe to get updated
           </p>
           <p className="text-sm text-white">
-            Lorem ipsum dolor sit amet consectetur. Mi nibh venenatis in
-            suscipit turpis.
+          Enter your email to get the latest updates, news & articles. 
           </p>
         </div>
         <div className="md:col-span-5 md:pt-0 pt-5">

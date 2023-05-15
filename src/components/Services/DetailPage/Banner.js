@@ -6,7 +6,7 @@ const Banner = () => {
     <div>
       <div className="container-ack md:px-0 px-5 ">
         <div className="pt-24">
-          <div className="text-4xl  text-center font-bold ">
+          <div className="text-4xl text-center font-bold ">
             Work with a development team with skills CTOs praise.
           </div>
           <p className="text-base text-center md:w-[80%] mx-auto pt-3">

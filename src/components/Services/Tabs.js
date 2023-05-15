@@ -85,7 +85,7 @@ const serviceData = [
     image: "/assets/images/service/serviceimg.png",
     name: "Software Development",
     desc: "Software development is the process of designing, coding, testing, and maintaining software applications. In today's fast-paced digital world, software plays a vital role in powering businesses and driving innovation.",
-    link: "/software-development-company",
+    link: "/software-architect-company",
   },
   {
     id: 5,
@@ -156,7 +156,7 @@ const Tabs = () => {
                         <div className="pb-5">
                           <Link href={item.link}>
                             <button className="text-black py-2 text-sm border-b group-hover:border-primary group-hover:border-b-2">
-                              View All
+                              Know More
                             </button>
                           </Link>
                         </div>
@@ -194,7 +194,7 @@ const Tabs = () => {
                         <div className="pb-5">
                           <Link href={item.link}>
                             <button className="text-black py-2 text-sm border-b group-hover:border-primary group-hover:border-b-2">
-                              View All
+                              Know More
                             </button>
                           </Link>
                         </div>

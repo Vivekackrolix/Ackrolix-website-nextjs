@@ -2,23 +2,23 @@ import React from "react";
 
 const AppModEnquiry = () => {
   return (
-    <div className="bg-[#2A3342]">
+    <div className="bg-[#282828]">
       <div className="container-ack md:px-0 px-5">
         <div className="grid md:grid-cols-5 md:gap-[9.5rem] gap-5 items-center">
           <div className="md:col-span-2 md:px-0 px-5 md:pt-0 pt-8  relative">
-            <div className="md:text-[7rem] text-[5rem] tracking-wider text-left texttransparent1 font-bold  md:pt-10 ">
-              Enquiry
+            <div className="md:text-[5rem] text-[4rem] tracking-wider text-left texttransparent1 font-bold  md:pt-10 ">
+              Contact Us
             </div>
             <div className="">
               <div className="absolute md:top-[7rem] top-[4rem] inset-x-0 flex justify-left">
-                <div className="text-[46px]  text-left text-white font-bold max-w-xl">
-                  Enquiry
+                <div className="text-[40px]  text-left text-white font-bold max-w-xl">
+                  Have A Query?
                 </div>
               </div>
 
               <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  py-4">
-                Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
-                tincidunt urna vulputate. Elit amet nam nulla
+              Yes, We Can Help You With Your Ideas, Challenges & Ambitions!!
+Let's make things work. Just tell us the requirements.
               </div>
             </div>
           </div>

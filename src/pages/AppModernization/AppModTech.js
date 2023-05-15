@@ -45,8 +45,8 @@ const AppModTech = () => {
         <div className="container-ack md:px-0 px-5">
             <ComponentHead
                 title="Technology"
-                sub="Website Technology"
-                head="Whatever web applications you’re building, we got your back at every stage of web development, including web design. We’ve built a core system for a bank, an MVP marketplace sold for millions, and other 5☆ custom projects for 140+ companies worldwide."
+                sub="App Modernization"
+                head="The technology stack for app modernization can vary depending on the specific requirements of the application and the chosen modernization approach."
             />
             <div className="grid md:grid-cols-3 md:py-10 pt-16 gap-10">
                 {process.map((item, e) => (
