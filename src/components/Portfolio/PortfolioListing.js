@@ -128,7 +128,7 @@ function PortfolioListing() {
                             <div className="eff-2"></div>
                             <span className="text-base flex items-center ">
                               {" "}
-                              View All
+                              Enquiry Now
                               <MdKeyboardArrowRight className=" text-base" />
                             </span>
                           </button>
