@@ -23,10 +23,8 @@ const Footer = () => {
                   <img src="/assets/images/logoack.png" className="w-48" />
                 </div>
               </Link>
-              <p className="text-sm">
-                Lorem ipsum dolor sit amet consectetur. Mi nibh venenatis in
-                suscipit turpis enim cursus vulputate amet. Lobortis mi platea
-                aliquam senectus tempus mauris neque.
+              <p className="text-sm text-justify">
+              Ackrolix Supports Startup & Enterprises in Developing World-Class Products. We help organizations capitalize on cutting-edge technologies and employ robust frameworks and efficient workflows to create a robust and scalable product.
               </p>
               <div className="flex space-x-5">
                 <Link href="https://m.facebook.com/people/Ackrolix-Innovations-Pvt-Ltd/100076925016084/">

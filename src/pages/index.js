@@ -18,7 +18,7 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>Home Page</title>
+        <title>Ackrolix Innovations Pvt. Ltd.</title>
       </Head>
       <Header />
       <Banner />

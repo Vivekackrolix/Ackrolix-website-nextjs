@@ -2,7 +2,7 @@ import React from "react";
 
 const Band = () => {
   return (
-    <div className="bg-[#2A3342] mt-16 relative">
+    <div className="bg-[#282828] mt-16 relative">
       <div className="container-ack md:py-16  py-24 md:px-0 px-4 ">
         <div className="md:text-3xl text-2xl  font-bold text-white text-center">
           {" "}

@@ -2,7 +2,7 @@ import React from "react";
 
 const AppModEnquiry = () => {
   return (
-    <div className="bg-[#2A3342]">
+    <div className="bg-[#282828]">
       <div className="container-ack md:px-0 px-5">
         <div className="grid md:grid-cols-5 md:gap-[9.5rem] gap-5 items-center">
           <div className="md:col-span-2 md:px-0 px-5 md:pt-0 pt-8  relative">

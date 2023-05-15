@@ -4,33 +4,33 @@ import { AiFillPlayCircle } from "react-icons/ai";
 const process = [
   {
     id: "1",
-    name: "Planning and Requirements Gathering",
-    desc: "This initial phase involves understanding the project requirements, identifying goals and objectives, defining the target audience, and planning the overall scope of the project.",
+    name: "Rehosting or Lift-and-Shift",
+    desc: "This approach involves moving an existing application to a new infrastructure without making significant changes to the application's architecture or functionality.",
   },
   {
     id: "2",
-    name: "UI/UX Design",
-    desc: "In this phase, the website's structure and visual elements are defined. It includes creating wireframes, mockups, and prototypes to outline the layout, navigation, and overall user experience",
+    name: "Refactoring or Re-architecting",
+    desc: "Refactoring involves making structural changes to the application's codebase and architecture while preserving its core functionality. It aims to improve the application's performance, scalability, and maintainability.",
   },
   {
     id: "3",
-    name: "Content Creation",
-    desc: "Once the design is finalized, content creation begins. This includes writing and organizing the textual content, creating or selecting visual assets such as images and videos, and ensuring the content is optimized for search engines (SEO).",
+    name: "Replatforming",
+    desc: "Replatforming entails moving an application to a different platform or technology stack while retaining its core features & functionality. For example, migrating an on-premises application to a cloud platform.",
   },
   {
     id: "4",
-    name: "Development",
-    desc: "The development phase involves translating the design and content into functional code. It includes front-end development, which focuses on building the client-side elements of the website using HTML, CSS, and JavaScript.",
+    name: "Rearchitecting or Redesigning",
+    desc: "Rearchitecting involves a significant overhaul of the application's architecture and design to meet current business needs and technological advancements.",
   },
   {
     id: "5",
-    name: "Testing and Quality Assurance",
-    desc: " Once the development is complete, thorough testing is conducted to ensure the website functions as expected and is free of bugs and errors.",
+    name: "Containerization",
+    desc: "Containerization involves encapsulating an application and its dependencies into containers, using technologies like Docker. This approach allows applications to run consistently across different environments and simplifies deployment and scalability.",
   },
   {
     id: "6",
-    name: "Deployment and Launch",
-    desc: " After successful testing, the website is deployed to a production environment, making it publicly accessible. This involves setting up hosting, configuring servers, and transferring the website files. ",
+    name: "Replacement or Rebuilding",
+    desc: "In some cases, it may be more feasible to replace an existing application with a new solution rather than attempting to modernize it. This approach involves rebuilding the application from scratch, leveraging modern technologies and design principles.",
   },
 ];
 const AppModProccess = () => {
@@ -45,16 +45,16 @@ const AppModProccess = () => {
           <div className="grid md:grid-cols-2 gap-10 items-center container-ack">
             <div className="relative">
               <div className="md:text-[8rem] text-[5rem] tracking-wider text-left texttransparent font-bold  md:pt-10 ">
-                Process
+                Services
               </div>
               <div className="absolute md:top-[6.7rem] top-[4rem] inset-x-0 flex justify-left">
-                <div className="text-[46px]  text-left font-bold max-w-xl">
-                  Process We Follow
+                <div className="text-[36px] text-left font-bold max-w-xl">
+                  App Modernization Services
                 </div>
 
               </div>
               <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  py-4">
-                The web development process typically involves several steps, from planning and designing to coding, testing, and deployment. While the specific process can vary depending on the project and the development methodology being followed.
+              Full-scope app modernization services you can start using quickly (even in weeks!) to fix, boost, and revamp your systems with teams that have worked for over 160 companies.
               </div>
             </div>
 
