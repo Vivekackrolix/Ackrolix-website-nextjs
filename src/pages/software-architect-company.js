@@ -1,5 +1,6 @@
 import React from "react";
-import Footer from '../components/Common/Footer'
+import Head from "next/head";
+import Footer from "../components/Common/Footer";
 import Header from "../components/Common/Header";
 import ServiceBanner from "../components/Services/DetailPage/ServiceBanner";
 import SoftDevTech from "./SoftwareDevelopment/SoftDevTech";
@@ -7,11 +8,14 @@ import SoftDevProccess from "./SoftwareDevelopment/SoftDevProccess";
 import SoftDevWork from "./SoftwareDevelopment/SoftDevWork";
 import SoftDevEnquiry from "./SoftwareDevelopment/SoftDevEnquiry";
 import SoftDevCards from "./SoftwareDevelopment/SoftDevCards";
-import SoftDevClients from "./SoftwareDevelopment/SoftDevClients";
+import Clients from "../components/Home/Clients";
 
 const SoftwareDevelopmentCompany = () => {
   return (
     <div>
+      <Head>
+        Software Architect Company
+      </Head>
       <Header />
       <div
         className=" bg-right"
@@ -21,11 +25,11 @@ const SoftwareDevelopmentCompany = () => {
       >
          <ServiceBanner 
           bannertitle="Unlocking Innovation Through Expert Software Architect Solutions"
-          bannersubtext="We bring your ideas to life and drive innovation through cutting-edge technology solutions. Our team of skilled developers is committed to delivering high-quality software products tailored to meet your specific needs and fuel your business growth."
+          bannersubtext="Technology moves faster than ever, and you need to catch up. Reach measurably higher scalability, performance, and cost optimization thanks to resilient software architecture development."
           serviceimg="/assets/images/aboutusimg3.png"
-          servicehead="Put your present in order so you can focus on scaling up for new users"
-          servicedesc1="Popular apps often fall victim to their own success. They grow fast to satisfy business requirements, patched up ad-hoc by different teams. Eventually, they become sluggish and difficult to maintain, let alone extend and improve. App modernization can turn it all around."
-          servicedesc2="The Ackrolix Innovations development teams have been called to the rescue of many legacy projects. In their course, our developers carried out tech stack migrations and consolidations, refactored codebases, designed and redesigned architectures, moved from a monolith to microservices, and performed architecture audits."
+          servicehead="A well-designed software architecture saves thousands of development hours"
+          servicedesc1="We’ve seen it happen many times in our software engineering work for 200+ projects. Last client dropped server maintenance and operation costs by 300 times. Time to see what performance you can achieve."
+          servicedesc2="Our software architects will help you establish a secure, flexible, and efficient software development process that meets your needs. Aa a well-structured software architecture yields substantial benefits by drastically reducing development time, resulting in significant cost savings equivalent to thousands of hours that would otherwise be expended during the development process."
         />
       </div>
       <SoftDevCards />
@@ -34,7 +38,7 @@ const SoftwareDevelopmentCompany = () => {
       <SoftDevWork />
       {/* <Section /> */}
       <SoftDevEnquiry />
-      <SoftDevClients />
+      <Clients />
       <Footer />
     </div>
   );

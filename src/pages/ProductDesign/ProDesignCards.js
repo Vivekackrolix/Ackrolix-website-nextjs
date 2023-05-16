@@ -4,7 +4,7 @@ const AppModCards = () => {
   const card = [
     {
       id: 1,
-      para: "Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex. ",
+      para: "We aim to create innovative, user-centered, and commercially viable products. These solutions can be provided by in-house design teams, product design agencies, or individual design consultants who specialize in the field.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
@@ -101,7 +101,7 @@ const AppModCards = () => {
                 <div className="relative">
                   <div className={`${item.main}`}>
                     {item.maintitle ? (
-                      <div className="md:text-[6.5rem] text-[5rem] tracking-wider text-left texttransparent font-bold  md:pt-10">
+                      <div className="tracking-wider text-left textorange font-bold md:pt-10">
                         {item.maintitle}{" "}
                       </div>
                     ) : null}
@@ -110,9 +110,17 @@ const AppModCards = () => {
                     {item.subtitle ? (
                       <div className="text-3xl   font-bold  absolute md:top-[6.7rem]  top-[4rem]">
                         {item.subtitle}{" "}
+                        <div className="load-wrapp relative bottom-[20px]">
+                          <div className="load">
+                            <div className="line"></div>
+                            <div className="line"></div>
+                            <div className="line"></div>
+                          </div>
+                        </div>
                       </div>
                     ) : null}
                   </div>
+
                   <h5
                     className={`${item.textcolor} ${item.textsize} ${item.border} ${item.fontbold}  py-2 font-semibold  `}
                   >
@@ -145,7 +153,7 @@ const AppModCards = () => {
                   <div className="relative">
                     <div className={`${item.main}`}>
                       {item.maintitle ? (
-                        <div className="md:text-[6.5rem] text-[4.6rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
+                        <div className="textorange text-white tracking-wider text-center font-bold  md:pt-10 ">
                           {item.maintitle}{" "}
                         </div>
                       ) : null}

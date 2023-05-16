@@ -1,24 +1,25 @@
 import React from "react";
 
-const AppModCards = () => {
+const SoftDevCards = () => {
   const card = [
     {
       id: 1,
-      para: "Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex. ",
+      para: "Software architecture provides a visual representation and documentation of the system's structure, components, and interactions. It serves as a communication tool for stakeholders, developers, and other project members, fostering better understanding and collaboration.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
       maintitle: "Solutions",
-      subtitle: "We Shape the Perfect Solutions",
+      subtitle: "Designing Scalable & Robust Software Architecture",
     },
     {
       id: 2,
-      icon: "/assets/svg/info.svg",
-      title: "Complete product teams",
-      para: "Access Business Analysts, Product Designers, Project Managers, QA Engineers, DevOps, or Full-stack developers",
+      icon: "01",
+      title: "Maintainability",
+      para: "A well-designed architecture promotes ease of maintenance by organizing components and dependencies in a structured manner.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
+      display: "icon",
       textsize: "text-xl",
       fontbold: "font-bold",
       textcolor: "text-secondary",
@@ -26,11 +27,12 @@ const AppModCards = () => {
     },
     {
       id: 3,
-      icon: "/assets/svg/info.svg",
-      title: "Fast iterations & frequent releases",
-      para: "Pre-build components and our own templates let our team deliver more in each sprint – this is the perk of having such experienced web developers on board.",
+      icon: "02",
+      title: "Cost Optimization",
+      para: "Expand without overspending with pay-for-use technology that minimizes infrastructure operation costs.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
+      display: "icon",
       textsize: "text-xl",
       fontbold: "font-bold",
       textcolor: "text-secondary",
@@ -38,11 +40,12 @@ const AppModCards = () => {
     },
     {
       id: 4,
-      icon: "/assets/svg/info.svg",
-      title: "Business-tailored architecture",
-      para: "Always designed and develop with your company's growth and the product's scalability in mind",
+      icon: "03",
+      title: "Modularity",
+      para: "Software architecture promotes the decomposition of a system into modular components, allowing for independent development, testing, and maintenance of individual parts.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
+      display: "icon",
       textsize: "text-xl",
       fontbold: "font-bold",
       textcolor: "text-secondary",
@@ -50,11 +53,12 @@ const AppModCards = () => {
     },
     {
       id: 5,
-      icon: "/assets/svg/info.svg",
-      title: "Thorough quality assurance",
-      para: "We do QA before each deploy through manual and automated tests that catch bugs, performance issues, and conversion blockers.",
+      icon: "04",
+      title: "Security",
+      para: "Architecture plays a crucial role in ensuring the security of a software system. It includes mechanisms for data protection, access control, encryption, and other security measures.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
+      display: "icon",
       textsize: "text-xl",
       fontbold: "font-bold",
       textcolor: "text-secondary",
@@ -62,11 +66,12 @@ const AppModCards = () => {
     },
     {
       id: 6,
-      icon: "/assets/svg/info.svg",
-      title: "Scalable & secure infrastructure",
-      para: "Web development services full of custom solutions optimized for efficiency, flexibility and deployment speed.",
+      icon: "05",
+      title: "Reliability",
+      para: "Software architecture incorporates fault tolerance mechanisms to ensure system reliability and resilience. It includes strategies such as redundancy, error handling, and recovery mechanisms.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
+      display: "icon",
       textsize: "text-xl",
       fontbold: "font-bold",
       textcolor: "text-secondary",
@@ -74,11 +79,12 @@ const AppModCards = () => {
     },
     {
       id: 7,
-      icon: "/assets/svg/info.svg",
-      title: "World-class UX/UI",
-      para: "Designed to help your business with user adoption",
+      icon: "06",
+      title: "Performance",
+      para: "Effective software architecture considers performance requirements and incorporates design decisions that optimize resource utilization, minimize bottlenecks, and enhance overall system efficiency.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
+      display: "icon",
       textsize: "text-xl",
       fontbold: "font-bold",
       textcolor: "text-secondary",
@@ -93,25 +99,32 @@ const AppModCards = () => {
           <>
             <div className={`${item.cols} `} key={index}>
               <div
-                className={`${item.bgcolor} px-3 py-5 h-full  rounded-2xl shadow-box`}
+                className={`${item.bgcolor} px-3 pb-5 h-full  rounded-2xl shadow-box`}
               >
                 <div className={`${item.display}`}>
-                  {item.icon ? <img src={item.icon} className=" " /> : null}
+                  {item.icon}
                 </div>
                 <div className="relative">
                   <div className={`${item.main}`}>
                     {item.maintitle ? (
-                      <div className="md:text-[6.5rem] text-[5rem] tracking-wider text-left texttransparent font-bold  md:pt-10">
+                      <div className="tracking-wider text-left textorange font-bold">
                         {item.maintitle}{" "}
                       </div>
                     ) : null}
                   </div>
                   <div className={`${item.main}`}>
                     {item.subtitle ? (
-                      <div className="text-3xl   font-bold  absolute md:top-[6.7rem]  top-[4rem]">
+                      <div className="text-3xl   font-bold  absolute md:top-[3.8rem]  top-[3rem]">
                         {item.subtitle}{" "}
                       </div>
                     ) : null}
+                    <div className="load-wrapp relative bottom-[-5px]">
+                          <div className="load">
+                            <div className="line"></div>
+                            <div className="line"></div>
+                            <div className="line"></div>
+                          </div>
+                        </div>
                   </div>
                   <h5
                     className={`${item.textcolor} ${item.textsize} ${item.border} ${item.fontbold}  py-2 font-semibold  `}
@@ -137,10 +150,10 @@ const AppModCards = () => {
             <>
               <div className={`${item.cols} `} key={index}>
                 <div
-                  className={`${item.bgcolor} px-3 py-5 h-full  rounded-2xl shadow-box my-10`}
+                  className={`${item.bgcolor} px-3 pb-5 h-full  rounded-2xl shadow-box my-10`}
                 >
                   <div className={`${item.display}`}>
-                    {item.icon ? <img src={item.icon} className=" " /> : null}
+                    {item.icon}
                   </div>
                   <div className="relative">
                     <div className={`${item.main}`}>
@@ -179,4 +192,4 @@ const AppModCards = () => {
   );
 };
 
-export default AppModCards;
+export default SoftDevCards;

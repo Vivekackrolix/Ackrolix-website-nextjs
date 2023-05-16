@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import Footer from '../components/Common/Footer'
 import Header from "../components/Common/Header";
 import ProDesignTech from "./ProductDesign/ProDesignTech";
@@ -6,12 +7,16 @@ import ProDesignProccess from "./ProductDesign/ProDesignProccess";
 import ProDesignWork from "./ProductDesign/ProDesignWork";
 import ProDesignEnquiry from "./ProductDesign/ProDesignEnquiry";
 import ProDesignCards from "./ProductDesign/ProDesignCards";
-import ProDesignClients from "./ProductDesign/ProDesignClients";
+import Clients from "../components/Home/Clients";
 import ServiceBanner from "../components/Services/DetailPage/ServiceBanner";
 
 const ProductDdesignCompany = () => {
   return (
+    
     <div>
+      <Head>
+        <title>Product Design Company</title>
+      </Head>
       <Header />
       <div
         className=" bg-right"
@@ -35,7 +40,7 @@ const ProductDdesignCompany = () => {
       <ProDesignWork />
       {/* <Section /> */}
       <ProDesignEnquiry />
-      <ProDesignClients />
+      <Clients />
       <Footer />
     </div>
   );
