@@ -108,7 +108,7 @@ const About = () => {
                 {" "}
                 Ackrolix Innovations Pvt Ltd is an award winning product
                 conceptualization & development company that partners with
-                businesses to create digital experiences to their customers'
+                businesses to create digital experiences to their customer&apos;s
                 love, across strategy, design, mobile applications and web
                 technologies.
               </p>
@@ -172,7 +172,7 @@ const About = () => {
             <div className="w-full text-base text-textcolor text-justify font-text  pb-4 ">
               Ackrolix Innovations Pvt Ltd is an award winning product
               conceptualization & development company that partners with
-              businesses to create digital experiences to their customers' love,
+              businesses to create digital experiences to their customer&apos;s love,
               across strategy, design, mobile applications and web technologies.
             </div>
             <div className="w-full text-base text-textcolor text-justify font-text  py-4">

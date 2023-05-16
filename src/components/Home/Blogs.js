@@ -86,7 +86,7 @@ const Blogs = () => {
 
             </h2>
             <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
-              Agile project management has revolutionized the way teams approach software development, fostering flexibility, collaboration, and continuous improvement. However, many organizations find that adopting a one-size-fits-all agile framework doesn't always meet their unique project management needs.
+              Agile project management has revolutionized the way teams approach software development, fostering flexibility, collaboration, and continuous improvement. However, many organizations find that adopting a one-size-fits-all agile framework doesn&apos;t always meet their unique project management needs.
             </div>
             <div className="pb-5 flex justify-between">
               <Link href="/blogDetailPage">
@@ -161,7 +161,7 @@ const Blogs = () => {
               Custom project management in agile - Ackrolix is different, just like everybody else
             </h2>
             <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
-              Agile project management has revolutionized the way teams approach software development, fostering flexibility, collaboration, and continuous improvement. However, many organizations find that adopting a one-size-fits-all agile framework doesn't always meet their unique project management needs
+              Agile project management has revolutionized the way teams approach software development, fostering flexibility, collaboration, and continuous improvement. However, many organizations find that adopting a one-size-fits-all agile framework doesn&apos;t always meet their unique project management needs
             </div>
             <div className="pb-5 flex justify-between">
               <Link href="/blogDetailPage">

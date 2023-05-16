@@ -62,7 +62,7 @@ const OurServices = () => {
                 <div className="font-bold text-center">Product Development</div>
                 <div className="flex justify-center">
                   <div className="text-base text-white text-center w-[70%] max-[480px]:w-[100%]">
-                    It's a Journey to transform the concept into web & app to
+                    It&apos;s a Journey to transform the concept into web & app to
                     market release by using different technologies & strategies.
                   </div>
                 </div>

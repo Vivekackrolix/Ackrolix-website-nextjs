@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image"
 import ComponentHead from "../Common/ComponentHead";
 
 const Leaders = () => {
@@ -28,14 +29,14 @@ const Leaders = () => {
       />
 
       <div className="grid md:grid-cols-3 gap-2">
-        {cardData.map(item => {
+        {cardData.map((item, key) => {
           return (
-            <div className="cardBox">
+            <div className="cardBox" key={key}>
               <div className="">
                 <div className="front">
                   <div className="flex flex-col justify-center items-center pt-8">
                     <div>
-                      <img
+                      <Image
                         src={item.img}
                         alt=""
                         className="w-40 h-40 flex justify-center"

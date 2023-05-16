@@ -22,7 +22,7 @@ const Card = () => {
                 Great Things In Business Are Never Done By One Person.
                 <br />
                 <span className="text-primary">
-                  They're Done By A Team Of People
+                  They&apos;re Done By A Team Of People
                 </span>
               </div>
 

@@ -70,7 +70,7 @@ const SectionTwo = () => {
                 <div className="text-base text-textcolor text-justify font-text">
                   <span className="font-semibold ">Quality Assurance - </span>{" "}
                   We have rigorous quality control processes that meets our
-                  clients' expectations.
+                  client&apos;s expectations.
                 </div>
               </div>
               <div className="md:w-[95%] w-full  flex space-x-3  pt-3">
@@ -90,7 +90,7 @@ const SectionTwo = () => {
                   <hr className="w-[30px] h-[5px] bg-primary mt-2" />{" "}
                 </div>
                 <div className="text-base text-textcolor text-justify font-text">
-                  <span className="font-semibold ">Security -</span> We have a strong focus on security, ensuring that our clients' data and systems are protected from cyber threats and other risks.
+                  <span className="font-semibold ">Security -</span> We have a strong focus on security, ensuring that our client&apos;s data and systems are protected from cyber threats and other risks.
  
                 </div>
               </div>
