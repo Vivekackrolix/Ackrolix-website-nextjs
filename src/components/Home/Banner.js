@@ -203,15 +203,6 @@ const Banner = () => {
                   </Link>
                 </div>
               </li>
-              <li>
-                Quisque in sapien lectus, duis tortor aptent lacus, velit massa
-                interdum. Odio blandit quam urna at dis, ultrices molestie et
-                convallis neque. Lobortis dui magna dolor aenean, amet lacinia
-                at non et cras et, hac sed vitae ipsum blandit sagittis sit,
-                wisi class id volutpat in. Porttitor vel tristique ullamcorper
-                nec egestas rutrum. Orci turpis non vitae, ut do possimus ut nam
-                luctus ullamcorper.
-              </li>
             </ul>
           </div>
         </div>
