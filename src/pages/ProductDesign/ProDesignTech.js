@@ -44,14 +44,14 @@ const AppModTech = () => {
     return (
         <div className="container-ack md:px-0 px-5">
             <ComponentHead
-                title="Technology"
-                sub="Website Technology"
+                title="Technologies"
+                sub="Key Technologies For Successful Initiatives"
                 head="Whatever web applications you’re building, we got your back at every stage of web development, including web design. We’ve built a core system for a bank, an MVP marketplace sold for millions, and other 5☆ custom projects for 140+ companies worldwide."
             />
-            <div className="grid md:grid-cols-3 md:py-10 pt-16 gap-10">
+            <div className="grid md:grid-cols-3 pb-20 gap-6 tech-card">
                 {process.map((item, e) => (
                     <>
-                        <div key={e} className="group  flex justify-start items-center border border-textcolor rounded-md p-3 hover:bg-gray-100 hover:border-transparent gap-3 cursor-pointer">
+                        <div key={e} className="group tech flex justify-start items-center border rounded-md p-3 gap-2">
                             <img src={item.img} alt="" className='w-[34px]' />
                             <div>
                                 <span className="font-semibold text-lg pt-3 text-black ">

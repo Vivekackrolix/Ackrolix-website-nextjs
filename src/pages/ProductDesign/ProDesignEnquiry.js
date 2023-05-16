@@ -4,14 +4,14 @@ const AppModEnquiry = () => {
   return (
     <div className="bg-[#282828]">
       <div className="container-ack md:px-0 px-5">
-        <div className="grid md:grid-cols-5 md:gap-[9.5rem] gap-5 items-center">
+        <div className="grid md:grid-cols-5 md:gap-[2.5rem] gap-2 items-center">
           <div className="md:col-span-2 md:px-0 px-5 md:pt-0 pt-8  relative">
-            <div className="md:text-[5rem] text-[4rem] tracking-wider text-left texttransparent1 font-bold  md:pt-10 ">
+            <div className="md:text-[4rem] text-[3rem] tracking-wider text-left texttransparent1 font-bold  md:pt-10 ">
               Contact Us
             </div>
             <div className="">
-              <div className="absolute md:top-[7rem] top-[4rem] inset-x-0 flex justify-left">
-                <div className="text-[40px] text-left text-white font-bold max-w-xl">
+              <div className="absolute md:top-[5.5rem] top-[3rem] inset-x-0 flex justify-left">
+                <div className="text-[32px] capitalize text-left text-white font-bold max-w-xl">
                 Want to start a project?
                 </div>
               </div>

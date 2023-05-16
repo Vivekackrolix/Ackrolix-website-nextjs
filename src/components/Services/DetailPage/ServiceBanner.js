@@ -4,7 +4,7 @@ const ServiceBanner = ({ bannertitle, bannersubtext, serviceimg, servicehead, se
   return (
     <div>
       <div className="container-ack md:px-0 px-5 ">
-        <div className="pt-24">
+        <div className="pt-24 md:w-[80%]  mx-auto">
           <div className="text-4xl text-center font-bold ">
             {bannertitle}
           </div>
@@ -15,7 +15,7 @@ const ServiceBanner = ({ bannertitle, bannersubtext, serviceimg, servicehead, se
                   <div className="line"></div>
                 </div>
               </div>
-          <p className="text-base text-textcolor text-center md:w-[80%] mx-auto pt-3">
+          <p className="text-base text-textcolor text-center pt-3">
             {bannersubtext}
           </p>
         </div>

@@ -131,12 +131,12 @@ const Tabs = () => {
       <div className="">
         {select === 1 ? (
           <>
-            <div className="grid md:grid-cols-3 gap-2">
+            <div className="grid md:grid-cols-3 gap-1">
               {productData.map((item, index) => (
-                <div key={index}>
+                <div className="service-card" key={index}>
                   <div>
                     <div className="group p-6" key="id">
-                      <div className="relative text-center  border-2 border-[#F6F8F9] duration duration-200 group-hover:-translate-y-2  hover:drop-shadow-sm hover:bg-[#F6F8F9]/40 hover:border-2 rounded-xl md:h-[26rem]">
+                      <div className="service-content relative text-center  border-2 border-[#F6F8F9] duration duration-200 group-hover:-translate-y-2  hover:drop-shadow-[0px_0px_20px#f7ce4680] hover:bg-[#F6F8F9]/40 hover:border-2 rounded-xl md:h-[26rem]">
                         <div className=" ">
                           <img
                             src={item.image}
@@ -149,13 +149,13 @@ const Tabs = () => {
                           {item.name}
                         </h2>
 
-                        <p className="text-black/50 group-hover:text-black py-2 pb-4  text-center px-3 text-sm ">
+                        <p className="text-black/50 group-hover:text-black  pb-4  text-center px-3 text-sm ">
                           {item.desc}
                         </p>
 
                         <div className="pb-5">
                           <Link href={item.link}>
-                            <button className="text-black py-2 text-sm border-b group-hover:border-primary group-hover:border-b-2">
+                            <button className="text-primary font-semibold py-2 text-sm border-b-2 group-hover:border-primary group-hover:border-b-2">
                               Know More
                             </button>
                           </Link>
@@ -169,12 +169,12 @@ const Tabs = () => {
           </>
         ) : (
           <>
-            <div className="grid md:grid-cols-3 gap-2">
+            <div className="grid md:grid-cols-3 gap-1">
               {serviceData.map((item, index) => (
-                <div key={index}>
+                <div className="service-card" key={index}>
                   <div>
                     <div className="group p-6" key="id">
-                      <div className="relative text-center  border-2 border-[#F6F8F9] duration duration-200 group-hover:-translate-y-2  hover:drop-shadow-sm hover:bg-[#F6F8F9]/40 hover:border-2 rounded-xl">
+                      <div className="service-content relative text-center border-2 border-[#F6F8F9] duration duration-200 group-hover:-translate-y-2 hover:drop-shadow-sm hover:bg-[#F6F8F9]/40 hover:border-2 rounded-xl">
                         <div className=" ">
                           <img
                             src={item.image}
@@ -187,13 +187,13 @@ const Tabs = () => {
                           {item.name}
                         </h2>
 
-                        <p className="text-black/50 group-hover:text-black py-2 pb-4  text-center px-3 text-sm ">
+                        <p className="text-black/50 group-hover:text-black pb-4  text-center px-3 text-sm ">
                           {item.desc}
                         </p>
 
                         <div className="pb-5">
                           <Link href={item.link}>
-                            <button className="text-black py-2 text-sm border-b group-hover:border-primary group-hover:border-b-2">
+                            <button className="text-primary font-semibold py-2 text-sm border-b-2 group-hover:border-primary group-hover:border-b-2">
                               Know More
                             </button>
                           </Link>

@@ -14,7 +14,7 @@ const ComponentHead = ({ title, sub, head }) => {
               <div className="line"></div>
             </div>
         </div>
-        <p className="text-base text-gray-400 relative bottom-[22px] md:w-[60%] mx-auto ">
+        <p className="text-base text-gray-400 relative bottom-[22px] md:w-[80%] mx-auto ">
         {head}
       </p>
       </div>

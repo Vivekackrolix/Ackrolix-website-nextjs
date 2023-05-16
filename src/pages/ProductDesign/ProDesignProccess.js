@@ -44,22 +44,22 @@ const AppModProccess = () => {
         <div className="container-ack md:px-0 px-5">
           <div className="grid md:grid-cols-2 gap-10 items-center container-ack">
             <div className="relative">
-              <div className="md:text-[5rem] text-[4rem] tracking-wider text-left texttransparent font-bold  md:pt-10 ">
+              <div className="tracking-wider text-left textorange font-bold md:pt-10 ">
                 Process
               </div>
-              <div className="absolute md:top-[4.7rem] top-[4rem] inset-x-0 flex justify-left">
+              <div className="absolute md:top-[5.7rem] top-[4rem] inset-x-0 flex justify-left">
                 <div className="text-[40px]  text-left font-bold max-w-xl">
                   Process We Follow
                 </div>
               </div>
-              <div className="load-wrapp relative bottom-[15px] top-0">
+              <div className="load-wrapp relative bottom-[20px]">
                 <div className="load">
                   <div className="line"></div>
                   <div className="line"></div>
                   <div className="line"></div>
                 </div>
               </div>
-              <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  py-4">
+              <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text pb-4">
                 The web development process typically involves several steps, from planning and designing to coding, testing, and deployment. While the specific process can vary depending on the project and the development methodology being followed.
               </div>
             </div>

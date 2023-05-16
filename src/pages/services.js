@@ -10,7 +10,7 @@ const Services = () => {
     <div>
       <Header />
       <Head>
-        <title>Service</title>
+        <title>Our Service</title>
       </Head>
 
       <div
@@ -20,8 +20,8 @@ const Services = () => {
       }}
     >
     <ComponentHead
-        title="Services"
-        sub="Our Services"
+        title="Our Services"
+        sub="Unlocking The Potential"
         head="Our greatest strength is the ability to adapt to our customer’s changing business requirements and deliver optimum quality."
       />
       </div>
