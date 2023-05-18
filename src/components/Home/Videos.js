@@ -12,7 +12,7 @@ const Videos = () => {
 
   return (
     <>
-      <div className="pt-16 relative video-main w-full cursor-pointer rounded-xl md:px-0 px-5">
+      <div className="mt-16 relative video-main w-full cursor-pointer rounded-xl md:px-0 px-5">
         {play ?
           <div className=" absolute top-[50%] right-[46%]">
             <div className="relative inline-flex">
@@ -29,7 +29,7 @@ const Videos = () => {
           onPlay={handleClick} onPause={handlePause}
           className="object-cover max-h-[500px] w-full"
           autoPlay muted controls loop
-          src={"/assets/images/AckrolixVideoNew.mp4"}>
+          src={"/assets/images/ackrolix.mp4"}>
           {/* <source src={"/assets/images/AckrolixVideoNew.mp4"} /> */}
         </video>
       </div>

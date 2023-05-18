@@ -33,7 +33,6 @@ const clientsData = [
   },
   {
     id: 4,
-
     image: "/assets/images/testimonialone.png",
     text: "Mr. Sunil",
     designation: "(Founder Nestohub)",
@@ -65,8 +64,8 @@ const Testimonial = () => {
     arrows: true,
     loop: true,
     autoplay: true,
-    speed: 600,
-    autoplaySpeed: 1000,
+    speed: 1000,
+    autoplaySpeed: 3000,
     lazyLoad: true,
     accessibility: true,
     cssEase: "ease-out",

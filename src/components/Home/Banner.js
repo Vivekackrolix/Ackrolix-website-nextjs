@@ -23,7 +23,7 @@ const Banner = () => {
     lazyLoad: true,
     accessibility: true,
     cssEase: "ease-out",
-    swipeToSlide: true,
+    swipeToSlide: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -111,7 +111,7 @@ const Banner = () => {
                     <img
                       src={item.image}
                       alt=" "
-                      className="  rounded-lg  mx-auto md:h-full  h-[450px] object-cover"
+                      className="rounded-lg mx-auto md:h-full h-[450px] object-cover"
                     />
                   </div>
                 </div>
@@ -124,7 +124,7 @@ const Banner = () => {
             <ul id="text-slider" class="container">
               <li class="active">
                 <div className="flex justify-start items-center space-x-1">
-                  <span className="text-primary md:text-lg text-base font-semibold">
+                  <span className="text-primary md:text-sm text-base uppercase font-semibold">
                     {" "}
                     Innovation at its finest{" "}
                   </span>{" "}
@@ -134,7 +134,7 @@ const Banner = () => {
                   Product Conceptualization & Development
                 </h2>
                 <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
-                  From concept to reality Ackrolix Innovations delivers game changing products for startups & fortune companies.
+                  From concept to reality Ackrolix Innovations delivers game changing products for startups and fortune companies.
                 </p>
                 <div className="pt-10 w-full">
                   <Link href="/contact">
@@ -151,17 +151,17 @@ const Banner = () => {
               </li>
               <li>
                 <div className="flex justify-start items-center space-x-1">
-                  <span className="text-primary md:text-lg text-base font-semibold">
+                  <span className="text-primary md:text-sm text-base uppercase font-semibold">
                     {" "}
-                    Innovation at its finest{" "}
+                    Where Ideas Come to Life{" "}
                   </span>{" "}
                   <img src="/assets/icons/icon.png" className="w-9 bulb" />
                 </div>
                 <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-                  Product Conceptualization & Development
+                Empowering The Web With Innovative Development
                 </h2>
-                <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
-                  From concept to reality Ackrolix Innovations delivers game changing products for startups & fortune companies.
+                <p className="text-textcolor pt-4 text-justify text-[15px] font-medium">
+                From creativity to technology Ackrolix Innovations crafts designs with seamless functionality that leave a lasting impression.
                 </p>
                 <div className="pt-10 w-full">
                   <Link href="/contact">
@@ -178,17 +178,17 @@ const Banner = () => {
               </li>
               <li>
                 <div className="flex justify-start items-center space-x-1">
-                  <span className="text-primary md:text-lg text-base font-semibold">
+                  <span className="text-primary md:text-sm text-base uppercase font-semibold">
                     {" "}
-                    Innovation at its finest{" "}
+                    Crafting Cutting-Edge Apps{" "}
                   </span>{" "}
                   <img src="/assets/icons/icon.png" className="w-9 bulb" />
                 </div>
                 <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-                  Product Conceptualization & Development
+                Transforming Your Brand With Mobile App Development
                 </h2>
                 <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
-                  From concept to reality Ackrolix Innovations delivers game changing products for startups & fortune companies.
+                From idea to app store, Ackrolix Innovations guides you through the Mobile App Development journey.
                 </p>
                 <div className="pt-10 w-full">
                   <Link href="/contact">
