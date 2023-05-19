@@ -42,34 +42,20 @@ const Memories = () => {
   const [imgslide, setImgslide] = useState(0);
 
   const settings = {
-  speed: 1000,
-  className: "center",
-  autoplay: true,
-  arrows: true,
-  dots: false,
-  lazyLoad: true,
-  centerMode: true,
-  centerPadding: "0px",
-  focusOnSelect: true,
-  infinite: true,
-  centerMode: true,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  centerPadding: '0',
-  swipe: true,
-
-
-    // dots: false,
-    // autoplay: true,
-    // className: "center",
-    // infinite: true,
-    // lazyLoad: true,
-    // centerMode: true,
-    // centerPadding: "0px",
-    // speed: 500,
-    // autoplaySpeed: 3000,
-    // slidesToShow: 3,
-    // slidesToScroll: 1,
+    dots: false,
+    autoplay: true,
+    className: "center",
+    loop: true,
+    infinite: true,
+    lazyLoad: true,
+    centerMode: true,
+    centerPadding: "0px",
+    speed: 100,
+    autoplaySpeed: 2500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    accessibility: true,
+    cssEase: "ease-out",
     // prevArrow: <PrevArrow />,
     // nextArrow: <NextArrow />,
     responsive: [
@@ -119,7 +105,7 @@ const Memories = () => {
         sub="Life At Ackrolix"
         head="Creating Memories that reminds: Ackrolix Innovations "
       />
-      <div className="mt-5">
+      <div className="mt-2">
         <div className="text-white mx-auto">
           <div className="absolute md:right-20 right-[5%] cursor-pointer top-10 z-20 md:top-10"></div>
           <div className="pt-15 MemoriesSlider">
@@ -129,13 +115,13 @@ const Memories = () => {
                   <div
                     key={indx}
                     className={
-                      "scale-100 SldrMemories rounded-[20px] opacity-100"
+                      "scale-185 SldrMemories rounded-[20px]"
                     }
                   >
                     <img
                       alt="Slider"
                       src={item.sliderImg}
-                      className={"rounded-sm md:w-full mx-auto"}
+                      className={"rounded-[20px] md:w-full mx-auto"}
                     />
                   </div>
                 );
