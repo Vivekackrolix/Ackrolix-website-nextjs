@@ -19,7 +19,7 @@ const Banner = () => {
     loop: true,
     autoplay: true,
     autoplaySpeed: 3000,
-    speed: 1000,
+    speed: 1200,
     lazyLoad: true,
     accessibility: true,
     cssEase: "ease-out",
@@ -55,15 +55,15 @@ const Banner = () => {
   const clientsData = [
     {
       id: 1,
-      image: "/assets/images/banner/banner-one.jpg",
+      image: "/assets/images/banner/2.webp",
     },
     {
       id: 2,
-      image: "/assets/images/banner/banner-three.jpg",
+      image: "/assets/images/banner/1.webp",
     },
     {
       id: 3,
-      image: "/assets/images/banner/banner-two.jpg",
+      image: "/assets/images/banner/3.webp",
     },
   ];
 
