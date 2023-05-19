@@ -7,13 +7,14 @@ import { BiChevronLeft } from "react-icons/bi";
 import { BiChevronRight } from "react-icons/bi";
 import Link from "next/link";
 import ComponentHead from "../Common/ComponentHead";
+
 const Memories = () => {
   const resumeData = [
-    { id: 1, sliderImg: "assets/images/memoriesone.png" },
-    { id: 2, sliderImg: "assets/images/memoriesone.png" },
-    { id: 3, sliderImg: "assets/images/memoriesone.png" },
-    { id: 4, sliderImg: "assets/images/memoriesone.png" },
-    { id: 5, sliderImg: "assets/images/memoriesone.png" },
+    { id: 1, sliderImg: "assets/images/memories/home-gallery/1.webp" },
+    { id: 2, sliderImg: "assets/images/memories/home-gallery/2.webp" },
+    { id: 3, sliderImg: "assets/images/memories/home-gallery/3.webp" },
+    { id: 4, sliderImg: "assets/images/memories/home-gallery/1.webp" },
+    { id: 5, sliderImg: "assets/images/memories/home-gallery/2.webp" },
   ];
 
   const PrevArrow = ({ onClick }) => {
@@ -41,17 +42,34 @@ const Memories = () => {
   const [imgslide, setImgslide] = useState(0);
 
   const settings = {
-    dots: false,
-    autoplay: false,
-    className: "center",
-    infinite: true,
-    lazyLoad: true,
-    centerMode: true,
-    centerPadding: "0px",
-    speed: 400,
-    autoplaySpeed: 3000,
-    slidesToShow: 3,
-    slidesToScroll: 1,
+  speed: 1000,
+  className: "center",
+  autoplay: true,
+  arrows: true,
+  dots: false,
+  lazyLoad: true,
+  centerMode: true,
+  centerPadding: "0px",
+  focusOnSelect: true,
+  infinite: true,
+  centerMode: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  centerPadding: '0',
+  swipe: true,
+
+
+    // dots: false,
+    // autoplay: true,
+    // className: "center",
+    // infinite: true,
+    // lazyLoad: true,
+    // centerMode: true,
+    // centerPadding: "0px",
+    // speed: 500,
+    // autoplaySpeed: 3000,
+    // slidesToShow: 3,
+    // slidesToScroll: 1,
     // prevArrow: <PrevArrow />,
     // nextArrow: <NextArrow />,
     responsive: [
@@ -101,7 +119,7 @@ const Memories = () => {
         sub="Life At Ackrolix"
         head="Creating Memories that reminds: Ackrolix Innovations "
       />
-      <div className="mt-10">
+      <div className="mt-5">
         <div className="text-white mx-auto">
           <div className="absolute md:right-20 right-[5%] cursor-pointer top-10 z-20 md:top-10"></div>
           <div className="pt-15 MemoriesSlider">
@@ -111,13 +129,13 @@ const Memories = () => {
                   <div
                     key={indx}
                     className={
-                      "scale-100 SldrMemories rounded-sm md:shadow-md md:shadow-[#fff] opacity-100"
+                      "scale-100 SldrMemories rounded-[20px] opacity-100"
                     }
                   >
                     <img
                       alt="Slider"
                       src={item.sliderImg}
-                      className={"rounded-sm md:w-[full] mx-auto"}
+                      className={"rounded-sm md:w-full mx-auto"}
                     />
                   </div>
                 );
@@ -126,6 +144,7 @@ const Memories = () => {
           </div>
         </div>
       </div>
+
       <div className="flex justify-center pt-6 ">
         <Link href="/moments">
           <button className=" button-2  px-12 py-2 rounded-md">

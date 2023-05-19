@@ -1448,6 +1448,13 @@ body:not(.device-touch) .clients-grid li a {
   border-radius: 20px !important;
 }
 
+.MemoriesSlider .slick-slide.slick-center img {
+  display: block !important;
+  object-fit: contain !important;
+  height: 400px !important;
+  border-radius: 20px !important;
+}
+
 .bulb {
   animation: glow 2s infinite;
   width: 30px !important;
@@ -1597,3 +1604,4 @@ body:not(.device-touch) .clients-grid li a {
   position: relative;
   top: 10px;
 }
+
