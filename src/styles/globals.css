@@ -1401,7 +1401,7 @@ body:not(.device-touch) .clients-grid li a {
   object-fit: cover;
 }
 
-.MemoriesSlider .slick-slide .SldrMemories {
+/* .MemoriesSlider .slick-slide .SldrMemories {
   transform: scale(0.8);
   transition: all 1s ease;
 }
@@ -1411,6 +1411,26 @@ body:not(.device-touch) .clients-grid li a {
   position: relative;
   z-index: 10;
   border-radius: 20px;
+} */
+
+.MemoriesSlider::after {
+  background: linear-gradient(to left, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 410px;
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  width: 200px;
+  z-index: 2;
+}
+
+.MemoriesSlider::before {
+  background: linear-gradient(to right, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 410px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
 }
 
 .PsAbluteData {

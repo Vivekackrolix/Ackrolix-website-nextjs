@@ -2,19 +2,181 @@ import React from "react";
 import Head from "next/head";
 import Footer from "../components/Common/Footer";
 import Header from "../components/Common/Header";
-import ServiceBanner from "../components/Services/DetailPage/ServiceBanner";
-import SoftDevTech from "./SoftwareDevelopment/SoftDevTech";
-import SoftDevProccess from "./SoftwareDevelopment/SoftDevProccess";
-import SoftDevWork from "./SoftwareDevelopment/SoftDevWork";
+import Banner from "../components/Services/DetailPage/Banner";
+import Cards from "../components/Services/DetailPage/Cards";
+import Technology from "../components/Services/DetailPage/Technology";
+import ComponentHead from "../components/Common/ComponentHead";
+import Process from "../components/Services/DetailPage/Process";
+import ProcessHead from "../components/Services/DetailPage/ProcessHead";
+import Work from "../components/Services/DetailPage/Work";
 import SoftDevEnquiry from "./SoftwareDevelopment/SoftDevEnquiry";
-import SoftDevCards from "./SoftwareDevelopment/SoftDevCards";
 import Clients from "../components/Home/Clients";
 
 const SoftwareDevelopmentCompany = () => {
+  const processes = [
+    {
+      id: "1",
+      name: "Planning and Requirements Gathering",
+      desc: "This initial phase involves understanding the project requirements, identifying goals and objectives, defining the target audience, and planning the overall scope of the project.",
+    },
+    {
+      id: "2",
+      name: "UI/UX Design",
+      desc: "In this phase, the website's structure and visual elements are defined. It includes creating wireframes, mockups, and prototypes to outline the layout, navigation, and overall user experience",
+    },
+    {
+      id: "3",
+      name: "Content Creation",
+      desc: "Once the design is finalized, content creation begins. This includes writing and organizing the textual content, creating or selecting visual assets such as images and videos, and ensuring the content is optimized for search engines (SEO).",
+    },
+    {
+      id: "4",
+      name: "Development",
+      desc: "The development phase involves translating the design and content into functional code. It includes front-end development, which focuses on building the client-side elements of the website using HTML, CSS, and JavaScript.",
+    },
+    {
+      id: "5",
+      name: "Testing and Quality Assurance",
+      desc: " Once the development is complete, thorough testing is conducted to ensure the website functions as expected and is free of bugs and errors.",
+    },
+    {
+      id: "6",
+      name: "Deployment and Launch",
+      desc: " After successful testing, the website is deployed to a production environment, making it publicly accessible. This involves setting up hosting, configuring servers, and transferring the website files. ",
+    },
+  ];
+  const techs = [
+    {
+        id: "1",
+        img: "/assets/images/service/node.svg",
+        name: "Node.js",
+        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    },
+    {
+        id: "2",
+        img: "/assets/images/service/react.svg",
+        name: "React.js",
+        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    },
+    {
+        id: "3",
+        img: "/assets/images/service/angularjs.svg",
+        name: "Angular",
+        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    },
+    {
+        id: "4",
+        img: "/assets/images/service/laravel.svg",
+        name: "Laravel",
+        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    },
+    {
+        id: "5",
+        img: "/assets/images/service/typescript.svg",
+        name: "Typescript",
+        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    },
+    {
+        id: "6",
+        img: "/assets/images/service/nextjs.svg",
+        name: "Next.js",
+        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    },
+];
+  const cards = [
+    {
+      id: 1,
+      para: "Software architecture provides a visual representation and documentation of the system's structure, components, and interactions. It serves as a communication tool for stakeholders, developers, and other project members, fostering better understanding and collaboration.",
+      bgcolor: "bg-[#fff]",
+      cols: "md:col-span-2",
+      textcolor: "text-secondary",
+      display: "hidden",
+      maintitle: "Solutions",
+      subtitle: "Designing Scalable & Robust Software Architecture",
+    },
+    {
+      id: 2,
+      icon: "01",
+      title: "Maintainability",
+      para: "A well-designed architecture promotes ease of maintenance by organizing components and dependencies in a structured manner.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
+    },
+    {
+      id: 3,
+      icon: "02",
+      title: "Cost Optimization",
+      para: "Expand without overspending with pay-for-use technology that minimizes infrastructure operation costs.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
+    },
+    {
+      id: 4,
+      icon: "03",
+      title: "Modularity",
+      para: "Software architecture promotes the decomposition of a system into modular components, allowing for independent development, testing, and maintenance of individual parts.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
+    },
+    {
+      id: 5,
+      icon: "04",
+      title: "Security",
+      para: "Architecture plays a crucial role in ensuring the security of a software system. It includes mechanisms for data protection, access control, encryption, and other security measures.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
+    },
+    {
+      id: 6,
+      icon: "05",
+      title: "Reliability",
+      para: "Software architecture incorporates fault tolerance mechanisms to ensure system reliability and resilience. It includes strategies such as redundancy, error handling, and recovery mechanisms.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
+    },
+    {
+      id: 7,
+      icon: "06",
+      title: "Performance",
+      para: "Effective software architecture considers performance requirements and incorporates design decisions that optimize resource utilization, minimize bottlenecks, and enhance overall system efficiency.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
+    },
+  ];  
   return (
     <div>
       <Head>
-        Software Architect Company
+        <title>Software Architect Company</title>        
       </Head>
       <Header />
       <div
@@ -23,20 +185,49 @@ const SoftwareDevelopmentCompany = () => {
           backgroundImage: 'url("/assets/images/mainbackground.png ")',
         }}
       >
-         <ServiceBanner 
+       <Banner 
           bannertitle="Unlocking Innovation Through Expert Software Architect Solutions"
-          bannersubtext="Technology moves faster than ever, and you need to catch up. Reach measurably higher scalability, performance, and cost optimization thanks to resilient software architecture development."
+          bannersubtext="Unlock Innovation and Drive Success with Expert Software Architect Solutions. Leverage cutting-edge technologies and strategic expertise to design and implement transformative software architectures that propel your organization forward."
           serviceimg="/assets/images/aboutusimg3.png"
-          servicehead="A well-designed software architecture saves thousands of development hours"
+          servicehead="A well designed software architecture saves thousands of development hours"
           servicedesc1="We’ve seen it happen many times in our software engineering work for 200+ projects. Last client dropped server maintenance and operation costs by 300 times. Time to see what performance you can achieve."
           servicedesc2="Our software architects will help you establish a secure, flexible, and efficient software development process that meets your needs. Aa a well-structured software architecture yields substantial benefits by drastically reducing development time, resulting in significant cost savings equivalent to thousands of hours that would otherwise be expended during the development process."
         />
       </div>
-      <SoftDevCards />
-      <SoftDevTech />
-      <SoftDevProccess />
-      <SoftDevWork />
-      {/* <Section /> */}
+      <Cards card={cards} />
+      <div className="container-ack md:px-0 px-5">
+       <ComponentHead
+        title="Technologies"
+        sub="Tech Powered Software Architecture"
+        head="Technology moves faster than ever, and you need to catch up. Reach measurably higher scalability, performance, and cost optimization thanks to resilient software architecture development."
+      />
+      <Technology tech={techs} />
+      </div>
+
+      <div>
+        <div
+          style={{
+            backgroundImage:
+              'url("/assets/images/service/servicebackground.png")',
+          }}
+        >
+          <div className="container-ack md:px-0 px-5">
+            <ProcessHead
+              processhead="Process"
+              processsub="A Structured Process For Success"
+              processdesc="Our structured approach that organizations & design teams follow to create new products or improve existing ones. It encompasses the various stages & activities involved in transforming an idea or concept into a tangible & market ready product."
+              processimg="/assets/images/service/videoservice.png"
+            />
+            <Process process={processes} />
+          </div>
+        </div>
+        <div className="h-[7.5rem]"
+          style={{
+            backgroundImage: 'url("/assets/images/service/wave.png")',
+          }}></div>
+      </div>
+
+      <Work />
       <SoftDevEnquiry />
       <Clients />
       <Footer />

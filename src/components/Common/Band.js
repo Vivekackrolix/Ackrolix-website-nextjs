@@ -2,20 +2,21 @@ import React from "react";
 
 const Band = () => {
   return (
-    <div className="bg-[#282828] mt-16 relative">
+    <div className="mt-16 relative">
       <div className="container-ack md:py-16  py-24 md:px-0 px-4 ">
-        <div className="md:text-3xl text-2xl  font-bold text-white text-center">
+        <div className="md:text-3xl text-2xl w-[85%] mx-auto capitalize font-bold text-center">
           {" "}
-          The fastest way from idea to live site. Period.{" "}
+          Supercharge your website creation process for rapid deployment from idea to a live site{" "}
         </div>
-        <p className="text-white text-center py-2 w-[85%] mx-auto md:text-base text-sm">
-          Flex is a Small SaaS Business. Flex isn’t a traditional company. We
-          believe a diverse team, approaches to work and transparency are key to
-          our success.
+        <p className="text-center py-2 w-[85%] mx-auto md:text-base text-sm">
+        Accelerate your website creation process like never before with our revolutionary solution. Say goodbye to long development cycles and hello to a lightning-fast journey from idea to live site. Our cutting-edge platform combines simplicity and power, allowing you to effortlessly bring your vision to life in record time.
         </p>
         <div className="pt-4 flex justify-center items-center">
-          <button className="bg-white text-secondary px-12 py-3 rounded-md">
-            Contact Us
+        <button className="button-2 px-12 py-2 rounded-md">
+            <div className="eff-2"></div>
+            <span className="text-base flex items-center ">
+              Connect Now
+            </span>
           </button>
         </div>
       </div>
