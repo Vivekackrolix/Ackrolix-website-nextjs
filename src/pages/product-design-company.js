@@ -7,7 +7,7 @@ import ComponentHead from "../components/Common/ComponentHead";
 import Process from "../components/Services/DetailPage/Process";
 import ProcessHead from "../components/Services/DetailPage/ProcessHead";
 import Work from "../components/Services/DetailPage/Work";
-import ProDesignEnquiry from "./ProductDesign/ProDesignEnquiry";
+import Enquiry from "../components/Services/DetailPage/Enquiry";
 import Cards from "../components/Services/DetailPage/Cards";
 import Clients from "../components/Home/Clients";
 import Banner from "../components/Services/DetailPage/Banner";
@@ -228,7 +228,7 @@ const ProductDdesignCompany = () => {
       </div>
 
       <Work />
-      <ProDesignEnquiry />
+      <Enquiry />
       <Clients />
       <Footer />
     </div>

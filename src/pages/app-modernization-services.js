@@ -9,7 +9,7 @@ import ComponentHead from "../components/Common/ComponentHead";
 import Process from "../components/Services/DetailPage/Process";
 import ProcessHead from "../components/Services/DetailPage/ProcessHead";
 import Work from "../components/Services/DetailPage/Work";
-import AppModEnquiry from "./AppModernization/AppModEnquiry";
+import Enquiry from "../components/Services/DetailPage/Enquiry";
 import Clients from "../components/Home/Clients";
 
 const AppModernizationDetails = () => {
@@ -229,7 +229,7 @@ const cards = [
 
       <Work />
       {/* <Section /> */}
-      <AppModEnquiry />
+      <Enquiry />
       <Clients />
       <Footer />
     </div>

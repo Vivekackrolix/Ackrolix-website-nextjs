@@ -9,40 +9,40 @@ import ComponentHead from "../components/Common/ComponentHead";
 import Process from "../components/Services/DetailPage/Process";
 import ProcessHead from "../components/Services/DetailPage/ProcessHead";
 import Work from "../components/Services/DetailPage/Work";
-import SoftDevEnquiry from "./SoftwareDevelopment/SoftDevEnquiry";
+import Enquiry from "../components/Services/DetailPage/Enquiry";
 import Clients from "../components/Home/Clients";
 
 const SoftwareDevelopmentCompany = () => {
   const processes = [
     {
       id: "1",
-      name: "Planning and Requirements Gathering",
-      desc: "This initial phase involves understanding the project requirements, identifying goals and objectives, defining the target audience, and planning the overall scope of the project.",
+      name: "Requirements Gathering",
+      desc: "The first step in the software architecture process is to gather the requirements for the software system. This includes understanding the functional & non-functional requirements of the system.",
     },
     {
       id: "2",
-      name: "UI/UX Design",
-      desc: "In this phase, the website's structure and visual elements are defined. It includes creating wireframes, mockups, and prototypes to outline the layout, navigation, and overall user experience",
+      name: "Architectural Design",
+      desc: "The next step is to create an architectural design for the software system. This includes defining the components of the system, their interactions, and the system's overall structure.",
     },
     {
       id: "3",
-      name: "Content Creation",
-      desc: "Once the design is finalized, content creation begins. This includes writing and organizing the textual content, creating or selecting visual assets such as images and videos, and ensuring the content is optimized for search engines (SEO).",
+      name: "Implementation",
+      desc: "The implementation phase is where the architectural design is turned into working software. This includes coding, testing, and deploying the software system.",
     },
     {
       id: "4",
-      name: "Development",
-      desc: "The development phase involves translating the design and content into functional code. It includes front-end development, which focuses on building the client-side elements of the website using HTML, CSS, and JavaScript.",
+      name: "Evolution",
+      desc: "The software architecture process is an important part of the software development process. A well-designed software architecture can help to ensure that the software system is reliable, efficient, & maintainable.",
     },
     {
       id: "5",
-      name: "Testing and Quality Assurance",
-      desc: " Once the development is complete, thorough testing is conducted to ensure the website functions as expected and is free of bugs and errors.",
+      name: "Testing & Quality Assurance",
+      desc: "Perform various testing activities, including unit testing, integration testing, system testing, and acceptance testing, to verify the correctness, reliability, and performance of the software system.",
     },
     {
       id: "6",
-      name: "Deployment and Launch",
-      desc: " After successful testing, the website is deployed to a production environment, making it publicly accessible. This involves setting up hosting, configuring servers, and transferring the website files. ",
+      name: "Deployment & Integration",
+      desc: "Deploy the software system in the target environment, ensuring smooth integration with other systems and components. Consider aspects like deployment models, configuration management, and version control.",
     },
   ];
   const techs = [
@@ -228,7 +228,7 @@ const SoftwareDevelopmentCompany = () => {
       </div>
 
       <Work />
-      <SoftDevEnquiry />
+      <Enquiry />
       <Clients />
       <Footer />
     </div>

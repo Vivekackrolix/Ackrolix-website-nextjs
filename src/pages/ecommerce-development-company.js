@@ -16,51 +16,51 @@ const EcommerceDevelopmentCompany = () => {
   const processes = [
     {
       id: "1",
-      name: "Planning and Requirements Gathering",
-      desc: "This initial phase involves understanding the project requirements, identifying goals and objectives, defining the target audience, and planning the overall scope of the project.",
+      name: "Planning & Requirement Gathering",
+      desc: "Understanding the client's business objectives, target audience, product catalog, and specific requirements for the e-commerce platform.",
     },
     {
       id: "2",
-      name: "UI/UX Design",
-      desc: "In this phase, the website's structure and visual elements are defined. It includes creating wireframes, mockups, and prototypes to outline the layout, navigation, and overall user experience",
+      name: "Designing & Development",
+      desc: "Building the front-end & back-end components of the e-commerce platform, including the product catalog, shopping cart, payment gateway integration & other functionalities.",
     },
     {
       id: "3",
-      name: "Content Creation",
-      desc: "Once the design is finalized, content creation begins. This includes writing and organizing the textual content, creating or selecting visual assets such as images and videos, and ensuring the content is optimized for search engines (SEO).",
+      name: "Testing",
+      desc: "Conducting thorough testing to ensure the e-commerce platform functions as intended, including functional testing, usability testing, performance testing, and security testing.",
     },
     {
       id: "4",
-      name: "Development",
-      desc: "The development phase involves translating the design and content into functional code. It includes front-end development, which focuses on building the client-side elements of the website using HTML, CSS, and JavaScript.",
+      name: "Content Management System",
+      desc: "Implementing a content management system (CMS) to facilitate easy management and updating of product information, descriptions, images, and other content.",
     },
     {
       id: "5",
-      name: "Testing and Quality Assurance",
-      desc: " Once the development is complete, thorough testing is conducted to ensure the website functions as expected and is free of bugs and errors.",
+      name: "Payment Integration",
+      desc: "Integrating secure payment gateways to enable smooth and secure online transactions for customers.",
     },
     {
       id: "6",
-      name: "Deployment and Launch",
-      desc: " After successful testing, the website is deployed to a production environment, making it publicly accessible. This involves setting up hosting, configuring servers, and transferring the website files. ",
+      name: "Marketing & SEO",
+      desc: "Optimizing the e-commerce platform for search engines, implementing marketing strategies, and promoting the online store to attract and engage customers.",
     },
   ];
   const cards = [
     {
       id: 1,
-      para: "At our core, we understand that every business has unique goals, requirements, and target audiences. With this understanding, we take pride in our ability to shape web solutions that perfectly align with our clients' needs and aspirations.",
+      para: "From the initial conceptualization to the final launch, we guide you through every step of the e-commerce development process. Our solutions are built with a focus on delivering a seamless shopping experience, optimized performance, and enhanced security.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
       maintitle: "Solutions",
-      subtitle: "We Shape The Perfect Web Solutions",
+      subtitle: "Comprehensive E-commerce Development Solutions",
     },
     {
       id: 2,
       icon: "01",
-      title: "Complete Product Teams",
-      para: "Access Business Analysts, Product Designers, Project Managers, QA Engineers, DevOps, or Full-stack developers.",
+      title: "Custom E-commerce Development",
+      para: "Our team excels in crafting customized e-commerce solutions that align with your brand identity, target audience, & specific goals.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -72,8 +72,8 @@ const EcommerceDevelopmentCompany = () => {
     {
       id: 3,
       icon: "02",
-      title: "Fast Iterations & Frequent Releases",
-      para: "Pre-build components and our own templates let our team deliver more in each sprint – this is the perk of having such experienced web developers on board.",
+      title: "User Experience (UX) Design",
+      para: "Our UX experts create intuitive interfaces, streamlined navigation & visually appealing designs that captivate users & drive engagement.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -85,8 +85,8 @@ const EcommerceDevelopmentCompany = () => {
     {
       id: 4,
       icon: "03",
-      title: "Business Tailored Architecture",
-      para: "Designing & implementing a web application architecture that specifically caters to the unique needs and goals of a business requirements.",
+      title: "M-commerce Development",
+      para: "Our developers are proficient in building responsive & adaptive e-commerce platforms that provide a seamless UX across all devices.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -98,8 +98,8 @@ const EcommerceDevelopmentCompany = () => {
     {
       id: 5,
       icon: "04",
-      title: "Thorough Quality Assurance",
-      para: "We do Q & A before each deploy through manual and automated tests that catch bugs, performance issues, and conversion blockers.",
+      title: "Integration & Third-Party Services",
+      para: "We seamlessly integrate your payment gateways, shipping providers, CRM tools, inventory management & other third-party services.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -111,8 +111,8 @@ const EcommerceDevelopmentCompany = () => {
     {
       id: 6,
       icon: "05",
-      title: "Scalable & Secure Infrastructure",
-      para: "We build an architecture that can handle increasing user traffic, data volume, & future growth.",
+      title: "E-commerce Analytics & Reports",
+      para: "By tracking key metrics, analyzing customer behavior & measuring sales performance, you gain business decisions & optimize your marketing strategies.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -124,8 +124,8 @@ const EcommerceDevelopmentCompany = () => {
     {
       id: 7,
       icon: "06",
-      title: "World Class UI/UX",
-      para: "We prioritize the needs, behaviors, & preferences of the target audience. Conduct user research, create user personas, & gather feedback to inform the design decisions.",
+      title: "Support & Maintenance",
+      para: "We provide ongoing support & maintenance services to address any technical issues, perform updates, & implement enhancements as your business evolves.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -186,20 +186,20 @@ const EcommerceDevelopmentCompany = () => {
         }}
       >
         <Banner 
-          bannertitle="Work with a development team with skills CTOs praise."
-          bannersubtext="Software supports your business growth, and you need more from it. We&apos;ve helped over 160+ companies build scalable products with confidence. Technology executives chose our development teams because of their skills tested in 7+ markets."
+          bannertitle="Elevating E-Commerce Experiences for Unmatched Online Success"
+          bannersubtext="At Ackrolix Innovations, we are dedicated to elevate e-commerce experience to new heights. We understand that in today's digital landscape, a seamless &amp; captivating online presence is essential for your business's success. Our expert team of developers is committed to empowering your online journey."
           serviceimg="/assets/images/aboutusimg3.png"
-          servicehead="One scalable team for start-to-finish development"
-          servicedesc1="What does it mean to be reliable? It means your outsourced team works as well as your web developers do. Access web development services trusted by 98% of CTOs that you’ll find understanding with. They made APIs, custom web applications, hybrid mobile app development, provided web design services, updated stacks, and build cloud-native systems."
-          servicedesc2="One place — everyone you need: Business Analysts, Product Designers, Project Managers, QA Engineers, DevOps, and Full-stack developers. Expect our web development team to be proactive throughout the project with an abundance of improvement suggestions that will get business moving even in areas such as search engine optimization."
+          servicehead="Creating Seamless Connections &amp; Conversion in E-commerce Experiences"
+          servicedesc1="Our team of skilled developers implements robust e-commerce platforms with secure payment gateways, streamlined checkout processes, and personalized product recommendations. By leveraging data-driven insights and industry best practices, we optimize conversion rates, transforming browsing visitors into loyal customers."
+          servicedesc2="We also understand that ongoing optimization is crucial for sustained success. That's why we continuously monitor user behavior, conduct A/B testing, and leverage analytics tools to identify opportunities for improvement. Our iterative approach ensures that your e-commerce experiences are constantly refined, ensuring maximum engagement and conversion rates."
         />
       </div>
       <Cards card={cards}/>
       <div className="container-ack md:px-0 px-5">
        <ComponentHead
-        title="Technology"
-        sub="Ecommerce Technology"
-        head="Whatever web applications you&apos;re building, we got your back at every stage of web development, including web design. We’ve built a core system for a bank, an MVP marketplace sold for millions, and other 5☆ custom projects for 140+ companies worldwide."
+        title="Technologies"
+        sub="Unleashing The Potential Of Innovation"
+        head="At Ackrolix Innovations, we are at the forefront of revolutionizing e-commerce technology. We understand that staying ahead in the competitive online marketplace requires harnessing the power of innovative technologies to enhance user experiences, drive conversions &amp; optimize business operations."
       />
       <Technology tech={techs} />
       </div>
@@ -213,8 +213,8 @@ const EcommerceDevelopmentCompany = () => {
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
               processhead="Process"
-              processsub="Process We Follow"
-              processdesc="The web development process typically involves several steps, from planning and designing to coding, testing, and deployment. While the specific process can vary depending on the project and the development methodology being followed."
+              processsub="Ecommerce Development Process"
+              processdesc="This process involves gathering requirements, planning, designing, developing, testing, launching, and maintaining the e-commerce platform to ensure its functionality, usability, and success."
               processimg="/assets/images/service/videoservice.png"
             />
             <Process process={processes} />
