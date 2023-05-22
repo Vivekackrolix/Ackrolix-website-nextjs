@@ -16,51 +16,51 @@ const CloudEngineeringAndDevOps = () => {
   const processes = [
     {
       id: "1",
-      name: "Planning and Requirements Gathering",
-      desc: "This initial phase involves understanding the project requirements, identifying goals and objectives, defining the target audience, and planning the overall scope of the project.",
+      name: "Planning & Requirement Gatthering",
+      desc: "Understand the business requirements and objectives for the cloud-based system. Identify the desired functionalities, scalability, security, and performance needs.",
     },
     {
       id: "2",
-      name: "UI/UX Design",
-      desc: "In this phase, the website's structure and visual elements are defined. It includes creating wireframes, mockups, and prototypes to outline the layout, navigation, and overall user experience",
+      name: "Architecture Design",
+      desc: "Design the overall cloud architecture, including infrastructure components, network configuration, security measures, and scalability options.",
     },
     {
       id: "3",
-      name: "Content Creation",
-      desc: "Once the design is finalized, content creation begins. This includes writing and organizing the textual content, creating or selecting visual assets such as images and videos, and ensuring the content is optimized for search engines (SEO).",
+      name: "Infrastructure Provisioning",
+      desc: "IaC tools like Terraform or CloudFormation to automate the provisioning and management of cloud resources. Define infrastructure configurations in code, enabling repeatable and consistent deployments.",
     },
     {
       id: "4",
-      name: "Development",
-      desc: "The development phase involves translating the design and content into functional code. It includes front-end development, which focuses on building the client-side elements of the website using HTML, CSS, and JavaScript.",
+      name: "Continuous Integration & Deployment",
+      desc: "Implementing a CI/CD pipeline to automate the build, test, and deployment processes. Use tools like Jenkins, GitLab CI/CD, or CircleCI to automate code integration, testing, and release management.",
     },
     {
       id: "5",
-      name: "Testing and Quality Assurance",
-      desc: " Once the development is complete, thorough testing is conducted to ensure the website functions as expected and is free of bugs and errors.",
+      name: "Configuration Management",
+      desc: "This includes managing server configurations, installing software dependencies, and ensuring consistency across environments.",
     },
     {
       id: "6",
-      name: "Deployment and Launch",
-      desc: " After successful testing, the website is deployed to a production environment, making it publicly accessible. This involves setting up hosting, configuring servers, and transferring the website files. ",
+      name: "Monitoring And Logging",
+      desc: "Implement monitoring & logging solutions to gain insights into the performance, availability & health of cloud-based systems. Use tools like Prometheus, Grafana, ELK Stack, or CloudWatch to monitor metrics, log data & so on.",
     },
   ];
   const cards = [
     {
       id: 1,
-      para: "At our core, we understand that every business has unique goals, requirements, and target audiences. With this understanding, we take pride in our ability to shape web solutions that perfectly align with our clients' needs and aspirations.",
+      para: "As a game-changer for businesses across industries. It offers numerous benefits, including increased agility, scalability, and cost-efficiency. By leveraging cloud solutions, businesses can optimize their operations, drive innovation, & stay ahead in the competitive market.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
       maintitle: "Solutions",
-      subtitle: "We Shape The Perfect Web Solutions",
+      subtitle: "Transforming Businesses With Cloud Solutions",
     },
     {
       id: 2,
       icon: "01",
-      title: "Complete Product Teams",
-      para: "Access Business Analysts, Product Designers, Project Managers, QA Engineers, DevOps, or Full-stack developers.",
+      title: "Fully Scalable",
+      para: "Your application will automatically increase or decrease cloud computing resources in response to usage.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -72,8 +72,8 @@ const CloudEngineeringAndDevOps = () => {
     {
       id: 3,
       icon: "02",
-      title: "Fast Iterations & Frequent Releases",
-      para: "Pre-build components and our own templates let our team deliver more in each sprint – this is the perk of having such experienced web developers on board.",
+      title: "New Business Speed",
+      para: "Reducing time-to-market under a perfected continuous deployment model",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -85,8 +85,8 @@ const CloudEngineeringAndDevOps = () => {
     {
       id: 4,
       icon: "03",
-      title: "Business Tailored Architecture",
-      para: "Designing & implementing a web application architecture that specifically caters to the unique needs and goals of a business requirements.",
+      title: "Fast Delivery",
+      para: "Cut cloud development time with hundreds of services from cloud providers.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -98,8 +98,8 @@ const CloudEngineeringAndDevOps = () => {
     {
       id: 5,
       icon: "04",
-      title: "Thorough Quality Assurance",
-      para: "We do Q & A before each deploy through manual and automated tests that catch bugs, performance issues, and conversion blockers.",
+      title: "Never Overspend",
+      para: "Under the pay-per-use model, you avoid idle server time charges.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -111,8 +111,8 @@ const CloudEngineeringAndDevOps = () => {
     {
       id: 6,
       icon: "05",
-      title: "Scalable & Secure Infrastructure",
-      para: "We build an architecture that can handle increasing user traffic, data volume, & future growth.",
+      title: "Flexible Development",
+      para: "Swap, modify, or replace components on the go without refactoring.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -124,8 +124,8 @@ const CloudEngineeringAndDevOps = () => {
     {
       id: 7,
       icon: "06",
-      title: "World Class UI/UX",
-      para: "We prioritize the needs, behaviors, & preferences of the target audience. Conduct user research, create user personas, & gather feedback to inform the design decisions.",
+      title: "Outstanding Security",
+      para: "The cloud offers first-class security services, so you won't have to build from scratch.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -186,20 +186,20 @@ const CloudEngineeringAndDevOps = () => {
         }}
       >
         <Banner 
-          bannertitle="Work with a development team with skills CTOs praise."
-          bannersubtext="Software supports your business growth, and you need more from it. We&apos;ve helped over 160+ companies build scalable products with confidence. Technology executives chose our development teams because of their skills tested in 7+ markets."
+          bannertitle="Lead your cloud development like the best in business do"
+          bannersubtext="Together, we will establish an optimal cloud computing workflow that helps you cut down cloud spending, automate infrastructure monitoring, and increase architectural flexibility."
           serviceimg="/assets/images/aboutusimg3.png"
-          servicehead="One scalable team for start-to-finish development"
-          servicedesc1="What does it mean to be reliable? It means your outsourced team works as well as your web developers do. Access web development services trusted by 98% of CTOs that you’ll find understanding with. They made APIs, custom web applications, hybrid mobile app development, provided web design services, updated stacks, and build cloud-native systems."
-          servicedesc2="One place — everyone you need: Business Analysts, Product Designers, Project Managers, QA Engineers, DevOps, and Full-stack developers. Expect our web development team to be proactive throughout the project with an abundance of improvement suggestions that will get business moving even in areas such as search engine optimization."
+          servicehead="Cloud development done right expands your software &amp; team capabilities"
+          servicedesc1="Using cloud based development resources to build and scale your app requires a rare skill set and an even more rare mentality.You need the sharpest knowledge from the worlds of cloud software development and infrastructure. That&apos;s a lot to handle."
+          servicedesc2="Your DevOps and other cloud developers can learn by experimenting with cloud environment if there&apos;s time and money. Or you can jump-start your cloud development in weeks (not months) with our team rich in cross-industry cloud development experience."
         />
       </div>
       <Cards card={cards}/>
       <div className="container-ack md:px-0 px-5">
        <ComponentHead
         title="Technology"
-        sub="Cloud & Devops Engineering"
-        head="Whatever web applications you&apos;re building, we got your back at every stage of web development, including web design. We’ve built a core system for a bank, an MVP marketplace sold for millions, and other 5☆ custom projects for 140+ companies worldwide."
+        sub="Empowering Cloud &amp; DevOps Engineering"
+        head="By harnessing a cutting-edge technology stack, businesses can empower their cloud and DevOps initiatives to drive transformation and achieve their strategic goals."
       />
       <Technology tech={techs} />
       </div>
@@ -214,7 +214,7 @@ const CloudEngineeringAndDevOps = () => {
             <ProcessHead
               processhead="Process"
               processsub="Process We Follow"
-              processdesc="The web development process typically involves several steps, from planning and designing to coding, testing, and deployment. While the specific process can vary depending on the project and the development methodology being followed."
+              processdesc="The cloud and DevOps engineering process involves a series of steps and practices aimed at building, deploying, and managing cloud-based systems while fostering collaboration and automation."
               processimg="/assets/images/service/videoservice.png"
             />
             <Process process={processes} />

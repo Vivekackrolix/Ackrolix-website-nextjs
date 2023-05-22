@@ -197,7 +197,7 @@ const EcommerceDevelopmentCompany = () => {
       <Cards card={cards}/>
       <div className="container-ack md:px-0 px-5">
        <ComponentHead
-        title="Technologies"
+        title="Technology"
         sub="Unleashing The Potential Of Innovation"
         head="At Ackrolix Innovations, we are at the forefront of revolutionizing e-commerce technology. We understand that staying ahead in the competitive online marketplace requires harnessing the power of innovative technologies to enhance user experiences, drive conversions &amp; optimize business operations."
       />

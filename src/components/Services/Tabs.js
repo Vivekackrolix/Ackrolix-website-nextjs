@@ -99,7 +99,7 @@ const serviceData = [
     image: "/assets/images/service/serviceimg.png",
     name: "Cloud Engineering & DevOps",
     desc: "Together, we will establish an optimal cloud computing workflow that helps you cut down cloud spending, automate infrastructure monitoring, and increase architectural flexibility.",
-    link: "/cloud-engineering-and-devOps",
+    link: "/cloud-engineering-and-devops",
   },
 ];
 
