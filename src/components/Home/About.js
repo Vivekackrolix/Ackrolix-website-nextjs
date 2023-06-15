@@ -89,7 +89,7 @@ const About = () => {
     <div className="bg-[#F6F8F9] py-10">
       <div className="md:grid grid-cols-5 gap-4 items-center mobile-hide">
         <div className="col-span-2 md:px-0 px-5 pb-10 md:pb-0 ">
-          
+
           <div className="">
             <div className="md:w-[95%] pl-16 w-full md:text-base text-xs text-textcolor text-justify font-text pb-4">
               <div className="line-heading">
@@ -106,18 +106,16 @@ const About = () => {
               </div>
               <p className="mb-2">
                 {" "}
-                Ackrolix Innovations Pvt Ltd is an award winning product
-                conceptualization & development company that partners with
-                businesses to create digital experiences to their customer&apos;s
-                love, across strategy, design, mobile applications and web
-                technologies.
+                Ackrolix Innovations Pvt. Ltd. is a product conceptualization
+                and development company that partners with businesses to create
+                digital experiences across design, mobile applications and web technologies.
               </p>
               <p className="mb-2">
                 {" "}
-                Over the last Eight years, we have employed technology as a
-                force-multiplier and built disruptive, business-driven and
-                measurable design and technology interventions to make this
-                complex world of ours, exceedingly obvious.
+                What we love and do every day is turn product ideas into reality
+                and bring them to market. We are constantly motivated by our love
+                for entrepreneurship and product development. We strive to assist
+                our clients in starting or expanding their businesses by making their ideas a reality.
               </p>
               <div className="flex justify-start pb-10 pt-5">
                 <Link href="/about">

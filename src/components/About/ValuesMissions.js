@@ -15,17 +15,14 @@ const ValuesMissions = () => {
               </div>
             </div>
             <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4">
-              Ackrolix is known for its innovative approach, collaborative
-              spirit, and commitment to excellence. Our clients trust us to
-              deliver high-quality solutions that meet their needs and help them
-              to achieve their goals.
+              Our objective is to create new, unique products or enhance existing ones to satisfy client
+              needs, outperform rivals, and promote business growth.
             </div>
             <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  py-4">
-              Our aim is to make a meaningful impact on the world through the
-              power of technology, creating a brighter and more prosperous
-              future for all. We are always looking for new ways to enhance the
-              user experience and create products that are both intuitive and
-              effective.
+              Our aim is to make a meaningful impact on the world through the power of technology,
+              creating a brighter and more prosperous future for all. We are constantly exploring
+              for fresh approaches to improve user experience and develop solutions that are both
+              simple to use and powerful.
             </div>
           </div>
         </div>
@@ -45,9 +42,8 @@ const ValuesMissions = () => {
                 </h2>
 
                 <p className="text-black/50 group-hover:text-black py-2 pb-4  text-justify tracking-tighter  text-sm ">
-                  Our mission is to provide innovative technology solutions that
-                  help businesses and organizations achieve their goals and
-                  streamline their operations.
+                  To be a pioneer in offering technological services and products. Our goal is to create long-lasting
+                  relationships with our clients, founded on trust, transparency, and a deep understanding of their business needs.
                 </p>
               </div>
             </div>
@@ -65,10 +61,10 @@ const ValuesMissions = () => {
                 </h2>
 
                 <p className="text-black/50 group-hover:text-black py-2 pb-4  text-justify tracking-tighter  text-sm ">
-                  The values of Ackrolix Innovations are the guiding principles
-                  that shape its culture, decision-making, and interactions with
-                  clients, partners, and employees.{" "}
+                  We hold ethical and environmentally friendly practises in high respect. We are conscious of the significance of
+                  environmental stewardship and work to create products that benefit society.{" "}
                 </p>
+               
               </div>
             </div>
           </div>
@@ -87,11 +83,9 @@ const ValuesMissions = () => {
                 </h2>
 
                 <p className="text-black/50 group-hover:text-black py-2 pb-4  text-justify tracking-tighter text-sm ">
-                  Our vision is to be the leading provider of innovative and
-                  sustainable technology solutions that transform businesses and
-                  organizations across the globe. We envision a future where
-                  technology is not only a tool for efficiency, but a driving
-                  force for positive change, innovation, and progress.
+                  Our vision is to be the leading innovator in product development,
+                  driving transformative solutions that shape the future. In the future,
+                  we see technology as a force for good change, creativity, and advancement as well as a tool for efficiency.
                 </p>
               </div>
             </div>

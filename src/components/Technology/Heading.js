@@ -8,7 +8,7 @@ const Heading = () => {
           Technologies
         </div>
         <div className="absolute md:top-[10rem] top-[2rem] md:left-[31rem] left-[7rem]">
-          <div className="text-3xl  text-center font-bold ">Technologies</div>
+          <div className="text-3xl  text-center font-bold ">Technologies...</div>
         </div>
       </div>
       <p className="text-base text-center w-[80%] mx-auto ">

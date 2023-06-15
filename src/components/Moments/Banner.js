@@ -15,9 +15,8 @@ const Banner = () => {
               </div>
             </div>
             <div className="w-96 text-base text-textcolor font-text pb-4">
-              Nunc convallis semper justo quis tempor. Praesent molestie, lorem
-              sed imperdiet tempor, libero urna semper urna, facilisis vulputate
-              velit arcu vitae mi. Donec ac nisi ex.
+            Our life experiences are fundamentally shaped by our memories. Understanding why some memories are better recalled than others and embracing that fluidity can reduce conflict and help us better understand how our memories affect
+             our lives. We value our memories highly. Our thoughts are dominated by memories that make a significant contribution to our autobiography.
             </div>
           </div>
         </div>

@@ -51,7 +51,7 @@ const Card = () => {
                   {item.id}
                 </span>
                 <h2 className="font-semibold text-black w-32">
-                  Measure your performance
+                  Measure your performance...
                 </h2>{" "}
                 <p className="text-gray-500 text-sm">
                   Stay connected with your team and make quick decisions

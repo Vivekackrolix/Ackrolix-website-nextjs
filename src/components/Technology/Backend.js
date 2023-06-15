@@ -7,25 +7,25 @@ const Backend = () => {
   const data = [
     {
       id: 1,
-      icon: <BiMessageAltDetail className="text-white" size={24} />,
-      name: "Measure your performance",
-      desc: "Stay connected with your team and make quick decisions wherever you are. ",
+      icon: <img src="/assets/images/react-js.png" alt="react-js" width="50" height="50"/>,
+      name: "React.js",
+      desc: "React is a free and open-source front-end JavaScript library for building user interfaces based on components. ",
       link: "/technologyDetailPage",
       cols: "md:row-span-1",
     },
     {
       id: 2,
-      icon: <BiMessageAltDetail className="text-white" size={24} />,
-      name: "Measure your performance",
-      desc: "Stay connected with your team and make quick decisions wherever you are. ",
+      icon: <img src="/assets/images/node.webp" alt="node.js" width="50" height="50"/>,
+      name: "Node.js",
+      desc: "Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. ",
       link: "/technologyDetailPage",
       cols: "md:row-span-1",
     },
     {
       id: 3,
-      icon: <BiMessageAltDetail className="text-white" size={24} />,
-      name: "Measure your performance",
-      desc: "Stay connected with your team and make quick decisions wherever you are. ",
+      icon: <img src="/assets/images/python.png" alt="python" width="50" height="50"/>,
+      name: "Python",
+      desc: "Python is a popular programming language. Python can be used on a server to create web applications.",
       link: "/technologyDetailPage",
       cols: "md:row-span-1",
     },
@@ -87,7 +87,7 @@ const Backend = () => {
                 </div>:
                 <div className="relative text-center py-6 border-2 border-[#F6F8F9] duration duration-200 group-hover:-translate-y-2  hover:drop-shadow-sm hover:bg-[#F6F8F9]/40 hover:border-2 rounded-xl md:h-[17rem]">
                   <div className="flex justify-center items-center ">
-                    <div className="bg-black rounded-md p-2 ">{item.icon}</div>
+                    <div className="p-2 ">{item.icon}</div>
                   </div>
 
                   <h2 className="font-semibold text-lg py-3 text-black text-center">
