@@ -24,19 +24,14 @@ const Banner = () => {
               power of technology
             </div>
             <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4">
-              As a product development company, our focus is on creating
-              innovative solutions that meet the needs and desires of our
-              clients. Ackrolix a team of experts has the skills and experience
-              to turn an idea into a successful product that exceeds
-              expectations. One of our strengths as a company is our ability to
-              stay up-to-date with the latest technologies and trends in product
-              development.
+              We are all about changing lives and solving problems. With our team of experts,
+              we are here to turn an idea into a successful product that exceeds expectations.
+
+
             </div>
             <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  py-4">
-              Ackrolix is known for its innovative approach, collaborative
-              spirit, and commitment to excellence. Our clients trust us to
-              deliver high-quality solutions that meet their needs and help them
-              to achieve their goals.
+              Ackrolix is known for its innovative approach, teamwork, and commitment to excellence.
+              Our only goal is to deliver the best solutions and meet the clients needs, and help them achieve their goals.
             </div>
           </div>
         </div>

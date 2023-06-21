@@ -16,7 +16,7 @@ const Career = () => {
       <Heading
         titletext="Career"
         title="Career "
-        subtext="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+        subtext="Get ready to solve challenging problems and turn your ideas into reality with Ackrolix Innovations. At Ackrolix, we’re empowered, supported, and inspired to make a difference every day."
       />
       <TopHeaderCareer />
       <WhyJoinUsCareer />

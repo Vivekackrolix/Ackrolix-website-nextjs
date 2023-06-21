@@ -8,13 +8,16 @@ const Section = () => {
       <div className="container-ack md:px-0 px-5 ">
         <div>
         <div className="md:grid grid-cols-2 gap-6 items-center container-ack  ">
-        <div className="pb-5 pt-10 ">
-          <img src="/assets/images/aboutusimg3.png" alt="" />
+        <div className="pb-5 pt-10">
+          <img src="/assets/images/aboutusimg3.png" alt="" width={500} height={500}/>
         </div>
 
         <div className=" md:px-0 px-5 pb-10 md:pb-0  relative">
           
-          <div className="">
+          <div>
+          Creating a competitive advantage is essential for success in the increasingly cutthroat corporate climate. Ackrolix takes advantage of this circumstance by utilising the top technology on the market. We constantly make an effort to stay on top of trends and be a top IT firm.
+          </div>
+          {/* <div className="">
             <div className="text-3xl  font-bold ">
              Lorem Ipsum dolor sit amet
               Eget at auctor purus
@@ -40,7 +43,7 @@ const Section = () => {
               </button>
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
         </div>

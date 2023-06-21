@@ -13,9 +13,10 @@ const Location = () => {
               Global <span className="text-primary">Spread</span>
             </div>
             <div className=" w-[90%] text-base text-textcolor font-text  pb-4">
-              Nunc convallis semper justo quis tempor. Praesent molestie, lorem
-              sed imperdiet tempor, libero urna semper urna, facilisis vulputate
-              velit arcu vitae mi. Donec ac nisi ex.
+              We are delivering our world class services in three countries in the world.
+              We’re passionate about supporting your objectives and committed to partnering
+              with you to provide the best solutions.
+
             </div>
           </div>
         </div>
