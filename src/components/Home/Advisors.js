@@ -32,7 +32,7 @@ const Advisors = () => {
     {
       id: 4,
 
-      image: "/assets/images/advisor/geeta.jpg",
+      image: "/assets/images/geetapatel.jpg" ,alt:"geeta patel",
       name: "Geeta Patel.",
       desc: "Good innovation is about finding creative and effective solutions to problems. It involves thinking outside the box, taking risks, and being open to new ideas. Good innovation can lead to significant advancements in technology.",
       link: "/advisorDetailPage",
@@ -40,7 +40,7 @@ const Advisors = () => {
     {
       id: 5,
 
-      image: "/assets/images/advisor/mahesh.jpg",
+      image: "/assets/images/leaders/leaderfive.jpeg",
       name: "Mahesh Kumar",
       desc: "Company motivation is crucial for ensuring that employees remain engaged and productive. A motivated workforce is more likely to go the extra mile to achieve company goals, and this can lead to increased productivity, better customer satisfaction, and higher profits.",
       link: "/advisorDetailPage",
@@ -48,7 +48,7 @@ const Advisors = () => {
     {
       id: 6,
 
-      image: "/assets/images/advisor/aditi.jpg",
+      image: "/assets/images/AditiAhuja.jpg",
       name: "Aditi Ahuja",
       desc: "Company quality refers to the level of excellence that a company strives to achieve in all aspects of its operations. This includes the quality of its products or services, customer service, employee satisfaction, and overall reputation.",
       link: "/advisorDetailPage",
