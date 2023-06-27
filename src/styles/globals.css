@@ -806,6 +806,14 @@ h6 {
 
 }
 
+.concept-close{
+  box-shadow: 5px 5px 10px #ffaa1795;
+  transition: all 0.5s;
+}
+.concept-close:hover{
+  box-shadow: none;
+}
+
 .svgimg {
   fill: #1c1e22;
 }
