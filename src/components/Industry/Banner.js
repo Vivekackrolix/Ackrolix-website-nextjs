@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div>
       <div className="md:px-0 px-5 pb-10">
-      
+
         <div className="">
           <div className="md:grid grid-cols-2 gap-6 items-center container-ack">
             <div className="pb-5 pt-10 relative ">
@@ -27,7 +27,18 @@ const Banner = () => {
 
             <div className=" md:px-0 px-2 pb-10 md:pb-0  relative">
               <div className="">
-                <div className="text-3xl   font-bold ">
+                <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4 md:pt-8 pt-4 mb-7">
+                  Ackrolix collaborates with a diverse range of industries to provide technological
+                  solutions and support. By leveraging their expertise in information technology,
+                  Ackrolix assists businesses in optimizing their operations, enhancing productivity,
+                  and achieving their goals. Their services encompass a broad spectrum of industries.
+                  Some of the companies we serve are healthcare, educational, financial and tour and
+                  travel industry etc. These are just a few examples of the industries that Ackrolix
+                  works with. Their expertise and adaptability enable them to cater to the unique
+                  technological needs of various sectors, enabling businesses to thrive in an increasingly
+                  digital world.
+                </div>
+                {/* <div className="text-3xl   font-bold ">
                   Lorem Ipsum dolor sit amet Eget at auctor purus
                 </div>
                 <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4 md:pt-8 pt-4">
@@ -41,16 +52,16 @@ const Banner = () => {
                   Lorem ipsum dolor sit amet consectetur. Fermentum tortor et
                   arcu pellentesque tempor cursus cursus amet odio. Orci eu
                   sagittis leo duis enim mi massa etiam.
-                </div>
+                </div> */}
 
                 <div className="pt-4">
                   <Link href="industryDetailsPage">
-              <button className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md flex items-center">
-                <span className="text-base"> Know More </span>
-                <MdKeyboardArrowRight className=" text-base text-white hover:text-" />
-              </button>
-              </Link>
-            </div>
+                    <button className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md flex items-center">
+                      <span className="text-base"> Know More </span>
+                      <MdKeyboardArrowRight className=" text-base text-white hover:text-" />
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

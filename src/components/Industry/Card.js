@@ -26,7 +26,7 @@ const Card = () => {
       text: "lorem",
       designation: "lorem",
       title: 'Financial',
-      subtitle: 'The companies and institutions that manage money and offer middleman services to transfer and distribute financial capital in an economy are referred to as the financial sector.'
+      subtitle: 'Businesses, corporations, banks, and other financial institutions make up the financial sector. By offering financial intermediary services, managing, allocating, and moving financial capital, the financial industry contributes considerably to the economy.'
     },
     {
       id: 4,
@@ -64,11 +64,11 @@ const Card = () => {
                   {item.id}
                 </span>
                 
-                <h2 className="font-semibold text-black w-32">
+                <h2 className="font-semibold text-black w-32 mb-3">
                  {item.title}
 
                 </h2>{" "}
-                <p className="text-gray-500 text-sm">
+                <p className="text-gray-500 text-sm mb-3">
                  {item.subtitle}
                 </p>
                 <Link

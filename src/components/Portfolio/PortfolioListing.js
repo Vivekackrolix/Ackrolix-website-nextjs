@@ -132,7 +132,7 @@ function PortfolioListing() {
                       <h2 className="text-xl font-semibold ">
                      {item.companyName}
                       </h2>
-                      <p className="">
+                      <p style={{width:610}}>
                      {item.companyDesc}
                       </p>
                     </div>
