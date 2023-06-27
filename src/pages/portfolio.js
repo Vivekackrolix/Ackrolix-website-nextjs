@@ -14,7 +14,7 @@ function portfolio() {
       <Heading
         titletext="Portfolio"
         title="Portfolio"
-        subtext="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+        subtext="Take a look at some of our work"
       />
     
       <PortfolioListing />

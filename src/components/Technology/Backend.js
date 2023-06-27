@@ -9,7 +9,7 @@ const Backend = () => {
       id: 1,
       icon: <img src="/assets/images/react-js.png" alt="react-js" width="50" height="50"/>,
       name: "React.js",
-      desc: "React is a free and open-source front-end JavaScript library for building user interfaces based on components. ",
+      desc: "React is a free and open-source front-end JavaScript library for building user interfaces. ",
       link: "/technologyDetailPage",
       cols: "md:row-span-1",
     },
@@ -17,7 +17,7 @@ const Backend = () => {
       id: 2,
       icon: <img src="/assets/images/node.webp" alt="node.js" width="50" height="50"/>,
       name: "Node.js",
-      desc: "Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. ",
+      desc: "Node.js is a cross-platform, open-source server environment.",
       link: "/technologyDetailPage",
       cols: "md:row-span-1",
     },
@@ -25,44 +25,46 @@ const Backend = () => {
       id: 3,
       icon: <img src="/assets/images/python.png" alt="python" width="50" height="50"/>,
       name: "Python",
-      desc: "Python is a popular programming language. Python can be used on a server to create web applications.",
+      desc: "Python can be used on a server to create web applications.",
       link: "/technologyDetailPage",
       cols: "md:row-span-1",
     },
     {
       id: 4,
-      icon: <BiMessageAltDetail className="text-white" size={24} />,
-      name: "Measure your performance",
-      desc: "Stay connected with your team and make quick decisions wherever you are. ",
+      icon: <img src="/assets/images/nextjs.png" alt="Nextjs" width="50" height="50"/>,
+      name: "Next.js",
+      desc: "Next.js is a React framework that enables several extra features.",
       link: "/technologyDetailPage",
       cols: "md:row-span-1",
     },
     {
       id: 5,
+      icon: <img src="/assets/images/angular.png" alt="python" width="50" height="50"/>,
+      name: "Angular",
       src: "/assets/images/techimg.png",
       cols: "md:row-span-2",
     },
     {
       id: 6,
-      icon: <BiMessageAltDetail className="text-white" size={24} />,
-      name: "Measure your performance",
+      icon: <img src="/assets/images/angular.png" alt="angular" width="50" height="50"/>,
+      name: "Angular.js",
       desc: "Stay connected with your team and make quick decisions wherever you are. ",
       link: "/technologyDetailPage",
       cols: "md:row-span-1",
     },
     {
       id: 7,
-      icon: <BiMessageAltDetail className="text-white" size={24} />,
-      name: "Measure your performance",
-      desc: "Stay connected with your team and make quick decisions wherever you are. ",
+      icon: <img src="/assets/images/java.png" alt="java" width="50" height="50"/>,
+      name: "Java",
+      desc: "Java is a high-level, class-based, object-oriented programming language.",
       link: "/technologyDetailPage",
       cols: "md:row-span-1",
     },
     {
       id: 8,
-      icon: <BiMessageAltDetail className="text-white" size={24} />,
-      name: "Measure your performance",
-      desc: "Stay connected with your team and make quick decisions wherever you are. ",
+      icon: <img src="/assets/images/laravel.png" alt="laravel" width="50" height="50"/>,
+      name: "Laravel",
+      desc: "Laravel is a web application framework with expressive, elegant syntax.",
       link: "/technologyDetailPage",
       cols: "md:row-span-1",
     },
@@ -73,7 +75,7 @@ const Backend = () => {
       <ComponentHead
         title="Backend"
         sub=" Gain more insight"
-        head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+        head="Here is a list of some of the technologies we use in our firm"
       />
       
 

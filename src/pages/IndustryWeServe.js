@@ -19,13 +19,13 @@ const IndustryWeServe = () => {
         <Heading
           titletext="Industry"
           title="Industry We Serve"
-          subtext="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex. "
+          subtext="Ackrolix is a company that caters to a diverse array of industries. They provide technological solutions and support that are applicable across various sectors. "
         />
         <Banner />
         <ComponentHead
           title="We Serve"
           sub="Lorem Ipsum"
-          head ="Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas tincidunt urna vulputate. Elit amet nam nulla "
+          head ="Here is a list of all the industries that we serve"
         />
         <Card />
         <Band />
