@@ -10,31 +10,31 @@ const JobListData = [
     id: 1,
     name: "Front-end Developer ",
     discription:
-      "We’re looking for a mid-level Front-end Developer to join our team.",
-    experice: "5-7 Years",
+    "We’re looking for a mid-level Front-end Developer to join our team.",
+    experice: "4-5 Years",
     Salary: "10-20 LPA",
     Skills:
-      "Sling Servlerts and JSP Development, Sling Models Services, OSGI/FELIX, Web services creation and Consumption",
+      "Java Script, React.js, HTML, CSS, Bootstrap",
   },
   {
     id: 2,
     name: "Back-end Developer ",
     discription:
-      "We’re looking for a mid-level Front-end Developer to join our team.",
+      "We’re looking for a mid-level Back-end Developer to join our team.",
     experice: "5-7 Years",
     Salary: "10-20 LPA",
     Skills:
-      "Sling Servlerts and JSP Development, Sling Models Services, OSGI/FELIX, Web services creation and Consumption",
+      "Python, PHP, Java, C#",
   },
   {
     id: 3,
     name: "Senior Back-end Developer ",
     discription:
-      "We’re looking for a mid-level Front-end Developer to join our team.",
+      "We’re looking for a mid-level Back-end Developer to join our team.",
     experice: "5-7 Years",
     Salary: "10-20 LPA",
     Skills:
-      "Sling Servlerts and JSP Development, Sling Models Services, OSGI/FELIX, Web services creation and Consumption",
+      "Java, Ruby, PHP or Python",
   },
 ];
 const JobListingCareers = () => {

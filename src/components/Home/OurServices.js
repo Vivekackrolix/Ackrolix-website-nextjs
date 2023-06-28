@@ -18,12 +18,12 @@ const OurServices = () => {
           </div> */}
           <div className=" bg-[#09090973] backdrop-blur-[1px] h-full z-10 opacity-1 absolute  inset-x-0 text-white flex items-center">
             <div>
-              <div className="p-4 space-y-3 text-3xl max-[480px]:text-xl">
+              <div className="p-4 space-y-3 text-2xl max-[480px]:text-xl">
                 <div className="font-bold text-center">
                   Product Conceptualization
                 </div>
                 <div className="flex justify-center">
-                  <div className="text-base text-white text-center w-[70%] max-[480px]:w-[100%]">
+                  <div className="text-sm text-white text-center w-[70%] max-[480px]:w-[100%]">
                     We transform your complex product simple, meaningful,
                     memorable, less clicks, intuitive & functional with UI/UX.
                   </div>
@@ -51,17 +51,17 @@ const OurServices = () => {
           />
         </div>
 
-        <div className="overflow-hidden rounded-3xl relative group concept">
-          <div className="w-full absolute grid top-[-16px] items-center cursor-pointer font-bold text-center drop-shadow-2xl z-10 group-hover:z-0 px-6 py-2 group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-150 ease-in-out text-white text-3xl bg-[#09090933] h-full max-[480px]:text-xl">
+        <div className="overflow-hidden rounded-2xl relative group concept concept-close">
+          <div className="w-full absolute grid top-[-16px] items-center cursor-pointer font-bold text-center drop-shadow-2xl z-10 group-hover:z-0 px-6 py-2 group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-150 ease-in-out text-white text-3xl bg-[#09090933] h-full max-[480px]:text-xl border-2 border-yellow-500 rounded-lg">
             Product Development
           </div>
           
           <div className=" bg-[#09090973] h-80 z-10 opacity-0 group-hover:opacity-100 transition duration-150 ease-in-out absolute  inset-x-0  pt-30 text-white flex items-center">
             <div>
-              <div className="p-4 space-y-3 text-3xl group-hover:opacity-100 group-hover:translate-y-0  translate-y-4 pb-10 transform transition duration-200 ease-in-out max-[480px]:text-xl">
-                <div className="font-bold text-center">Product Development</div>
+              <div className="p-4 space-y-3 text-2xl group-hover:opacity-100 group-hover:translate-y-0  translate-y-4 pb-10 transform transition duration-200 ease-in-out max-[480px]:text-xl">
+                <div className="font-bold text-center">Product <br/>Development</div>
                 <div className="flex justify-center">
-                  <div className="text-base text-white text-center w-[70%] max-[480px]:w-[100%]">
+                  <div className="text-sm text-white text-center w-[70%] max-[480px]:w-[100%]">
                     It&apos;s a Journey to transform the concept into web & app to
                     market release by using different technologies & strategies.
                   </div>
@@ -70,7 +70,7 @@ const OurServices = () => {
                   <Link href="/services">
                     <button className=" button-1  px-8 py-2 rounded-md">
                       <div className="eff-1"></div>
-                      <span className="text-base flex items-center ">
+                      <span className="text-base flex items-center font-medium">
                         {" "}
                         Know More
                         <MdKeyboardArrowRight className=" text-base" />
@@ -87,17 +87,17 @@ const OurServices = () => {
             src="/assets/images/product-develop.jpg"
           />
         </div>
-        <div className="overflow-hidden rounded-3xl relative group concept">
-          <div className="w-full absolute grid top-[-16px] items-center cursor-pointer font-bold text-center drop-shadow-2xl z-10 group-hover:z-0 px-6 py-2 group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-150 ease-in-out text-white text-3xl bg-[#09090933] h-full max-[480px]:text-xl">
+        <div className="overflow-hidden rounded-2xl relative group concept concept-close">
+          <div className="w-full absolute grid top-[-16px] items-center cursor-pointer font-bold text-center drop-shadow-2xl z-10 group-hover:z-0 px-6 py-2 group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-150 ease-in-out text-white text-3xl bg-[#09090933] h-full max-[480px]:text-xl border-2 border-yellow-500 rounded-lg ">
             Product Development
           </div>
           
           <div className=" bg-[#09090973] h-80 z-10 opacity-0 group-hover:opacity-100 transition duration-150 ease-in-out absolute  inset-x-0  pt-30 text-white flex items-center">
             <div>
-              <div className="p-4 space-y-3 text-3xl group-hover:opacity-100 group-hover:translate-y-0  translate-y-4 pb-10 transform transition duration-200 ease-in-out max-[480px]:text-xl">
-                <div className="font-bold text-center">Product Development</div>
+              <div className="p-4 space-y-3 text-2xl group-hover:opacity-100 group-hover:translate-y-0  translate-y-4 pb-10 transform transition duration-200 ease-in-out max-[480px]:text-xl">
+                <div className="font-bold text-center">Product <br/>Development</div>
                 <div className="flex justify-center">
-                  <div className="text-base text-white text-center w-[70%] max-[480px]:w-[100%]">
+                  <div className="text-sm text-white text-center w-[70%] max-[480px]:w-[100%]">
                     It&apos;s a Journey to transform the concept into web & app to
                     market release by using different technologies & strategies.
                   </div>
@@ -106,7 +106,7 @@ const OurServices = () => {
                   <Link href="/services">
                     <button className=" button-1  px-8 py-2 rounded-md">
                       <div className="eff-1"></div>
-                      <span className="text-base flex items-center ">
+                      <span className="text-base flex items-center font-medium">
                         {" "}
                         Know More
                         <MdKeyboardArrowRight className=" text-base" />

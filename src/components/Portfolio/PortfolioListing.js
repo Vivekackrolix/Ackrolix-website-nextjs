@@ -89,16 +89,16 @@ function PortfolioListing() {
   return (
     <>
       <div className="container-ack md:px-0 px-5">
-        <div className="grid md:grid-cols-4 md:gap-7 cursor-pointer w-[60%] mx-auto border-2 border-secondary/10 p-2 rounded-md md:mt-10 mt-12">
+        <div className="grid md:grid-cols-5 md:gap-5 cursor-pointer w-[80%] mx-auto border-2 border-secondary/10 p-2 rounded-md md:mt-10 mt-12">
           <div>
-            <div className="text-center py-2 rounded-md bg-secondary text-white border-2"
+            <div className="text-center py-2 rounded-md bg-secondary text-white border-2 text-sm "
               onClick={() => setItems(filterData)}
             >
               All
             </div>
           </div>
           <div>
-            <div className={`text-center py-2 rounded-md bg-secondary text-white border-2 
+            <div className={`text-center py-2 rounded-md bg-secondary text-white border-2 text-sm
             ${filterItem === 'web' ? 'bg-slate-400' : ''}`
             }
               onClick={() => filterItem('web')}
@@ -107,17 +107,24 @@ function PortfolioListing() {
             </div>
           </div>
           <div>
-            <div className="text-center py-2 rounded-md bg-secondary text-white border-2"
+            <div className="text-center py-2 rounded-md bg-secondary text-white border-2 text-sm"
               onClick={() => filterItem('eco')}
             >
               Ecomerce
             </div>
           </div>
           <div>
-            <div className="text-center py-2 rounded-md bg-secondary text-white border-2"
+            <div className="text-center py-2 rounded-md bg-secondary text-white border-2 text-sm"
               onClick={() => filterItem('soft')}
             >
-              Software
+              Mobile App
+            </div>
+          </div>
+          <div>
+            <div className="text-center py-2 rounded-md bg-secondary text-white border-2 text-sm"
+              onClick={() => filterItem('soft')}
+            >
+              Digital Marketing
             </div>
           </div>
         </div>

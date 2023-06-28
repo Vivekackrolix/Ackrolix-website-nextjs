@@ -1,4 +1,8 @@
-import React from "react";
+import Link from "next/link";
+import React from "react"
+import { BiPhoneCall } from "react-icons/bi";
+import { FaLocationArrow } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
 
 const Location = () => {
   return (
@@ -26,46 +30,6 @@ const Location = () => {
               <div className="relative text-left px-6  py-3  duration duration-200 group-hover:-translate-y-2 bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl ">
                 <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
                   <img
-                    src="/assets/images/uae.png"
-                    alt=""
-                    className="  rounded-lg w-12 h-12 mx-auto "
-                  />
-                </div>
-                <h2 className="font-semibold text-lg py-2 text-black text-left">
-                  Our Vision
-                </h2>
-
-                <p className="text-black/50 group-hover:text-black py-2 pb-4  text-left  text-sm ">
-                  Donec mi lorem, consequat a quam nec, pellentesque pulvinar
-                  sem. Morbi lacus magna.
-                </p>
-              </div>
-            </div>
-            <div className="group" key="id">
-              <div className="relative text-left px-6  py-3  duration duration-200 group-hover:-translate-y-2 bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl ">
-                <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
-                  <img
-                    src="/assets/images/aus.png"
-                    alt=""
-                    className="  rounded-lg w-12 h-12 mx-auto "
-                  />
-                </div>
-                <h2 className="font-semibold text-lg py-2 text-black text-left">
-                  AUSTRALIA
-                </h2>
-
-                <p className="text-black/50 group-hover:text-black py-2 pb-4  text-left  text-sm ">
-                  Donec mi lorem, consequat a quam nec, pellentesque pulvinar
-                  sem. Morbi lacus magna.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="pt-12">
-            <div className="group" key="id">
-              <div className="relative text-left px-6  py-3 duration duration-200 group-hover:-translate-y-2 bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl ">
-                <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
-                  <img
                     src="/assets/images/india.png"
                     alt=""
                     className="  rounded-lg w-12 h-12 mx-auto "
@@ -74,30 +38,167 @@ const Location = () => {
                 <h2 className="font-semibold text-lg py-2 text-black text-left">
                   India
                 </h2>
+                <div className="grid  pb-4">
+                  <Link href="tel:+918178567042">
+                    <div className="flex space-x-2">
+                      <BiPhoneCall size={20} />
+                      <div className="text-xs">
+                        <h2 className="font-semibold">PHONE</h2>
+                        <p className="text-primary">+91-8178567042</p>
+                      </div>
+                    </div>
+                  </Link>
+                  <div className="flex space-x-2 cursor-pointer">
+                    <FaLocationArrow size={20} />
+                    <div className="text-xs">
+                      <h2 className="font-semibold">ADDRESS</h2>
+                      <p className="text-primary">
+                        139 Rider House Sec 44, Gurugram 122108
+                      </p>
+                    </div>
+                  </div>
+                  <Link href="mailto:info@ackrolix.com">
+                    <div className="flex space-x-2">
+                      <MdOutlineMail size={20} />
+                      <div className="text-xs">
+                        <h2 className="font-semibold">EMAIL</h2>
+                        <p className="text-primary">info@ackrolix.com</p>
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="group" key="id">
+              <div className="relative text-left px-6  py-3  duration duration-200 group-hover:-translate-y-2 bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl ">
+                <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
+                  <img
+                    src="/assets/images/UAEflag.jpg"
+                    alt=""
+                    className="  rounded-lg w-12 h-12 mx-auto "
+                  />
+                </div>
+                <h2 className="font-semibold text-lg py-2 text-black text-left">
+                  UAE
+                </h2>
+                <div className="grid  gap-4  pb-4">
+                  <Link href="tel:+918178567042">
+                    <div className="flex space-x-2">
+                      <BiPhoneCall size={20} />
+                      <div className="text-xs">
+                        <h2 className="font-semibold">PHONE</h2>
+                        <p className="text-primary">+91-8178567042</p>
+                      </div>
+                    </div>
+                  </Link>
+                  <div className="flex space-x-2 cursor-pointer">
+                    <FaLocationArrow size={20} />
+                    <div className="text-xs">
+                      <h2 className="font-semibold">ADDRESS</h2>
+                      <p className="text-primary">
+                        139 Rider House Sec 44, Gurugram 122108
+                      </p>
+                    </div>
+                  </div>
+                  <Link href="mailto:info@ackrolix.com">
+                    <div className="flex space-x-2">
+                      <MdOutlineMail size={20} />
+                      <div className="text-xs">
+                        <h2 className="font-semibold">EMAIL</h2>
+                        <p className="text-primary">info@ackrolix.com</p>
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="pt-12">
+            <div className="group" key="id">
+              <div className="relative text-left px-6  py-3 duration duration-200 group-hover:-translate-y-2 bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl ">
+                <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
 
-                <p className="text-black/50 group-hover:text-black py-2 pb-4  text-left  text-sm ">
-                  Donec mi lorem, consequat a quam nec, pellentesque pulvinar
-                  sem. Morbi lacus magna.
-                </p>
+                  <img
+                    src="/assets/images/USAflag.jpg"
+                    alt=""
+                    className="  rounded-lg w-12 h-12 mx-auto "
+                  />
+                </div>
+                <h2 className="font-semibold text-lg py-2 text-black text-left">
+                  USA
+                </h2>
+                <div className="grid  gap-4  pb-4">
+                  <Link href="tel:+918178567042">
+                    <div className="flex space-x-2">
+                      <BiPhoneCall size={20} />
+                      <div className="text-xs">
+                        <h2 className="font-semibold">PHONE</h2>
+                        <p className="text-primary">+91-8178567042</p>
+                      </div>
+                    </div>
+                  </Link>
+                  <div className="flex space-x-2 cursor-pointer">
+                    <FaLocationArrow size={20} />
+                    <div className="text-xs">
+                      <h2 className="font-semibold">ADDRESS</h2>
+                      <p className="text-primary">
+                        139 Rider House Sec 44, Gurugram 122108
+                      </p>
+                    </div>
+                  </div>
+                  <Link href="mailto:info@ackrolix.com">
+                    <div className="flex space-x-2">
+                      <MdOutlineMail size={20} />
+                      <div className="text-xs">
+                        <h2 className="font-semibold">EMAIL</h2>
+                        <p className="text-primary">info@ackrolix.com</p>
+                      </div>
+                    </div>
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="group" key="id">
               <div className="relative text-left px-6  py-3 duration duration-200 group-hover:-translate-y-2  bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl  ">
                 <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
                   <img
-                    src="/assets/images/canada.png"
+                    src="/assets/images/aus.png"
                     alt=""
                     className="  rounded-lg w-12 h-12 mx-auto "
                   />
                 </div>
                 <h2 className="font-semibold text-lg py-2 text-black text-left">
-                  Canada
+                  UK
                 </h2>
-
-                <p className="text-black/50 group-hover:text-black py-2 pb-4 text-left text-sm">
-                  Donec mi lorem, consequat a quam nec, pellentesque pulvinar
-                  sem. Morbi lacus magna.
-                </p>
+                <div className="grid  gap-4  pb-4">
+                  <Link href="tel:+918178567042">
+                    <div className="flex space-x-2">
+                      <BiPhoneCall size={20} />
+                      <div className="text-xs">
+                        <h2 className="font-semibold">PHONE</h2>
+                        <p className="text-primary">+91-8178567042</p>
+                      </div>
+                    </div>
+                  </Link>
+                  <div className="flex space-x-2 cursor-pointer">
+                    <FaLocationArrow size={20} />
+                    <div className="text-xs">
+                      <h2 className="font-semibold">ADDRESS</h2>
+                      <p className="text-primary">
+                        139 Rider House Sec 44, Gurugram 122108
+                      </p>
+                    </div>
+                  </div>
+                  <Link href="mailto:info@ackrolix.com">
+                    <div className="flex space-x-2">
+                      <MdOutlineMail size={20} />
+                      <div className="text-xs">
+                        <h2 className="font-semibold">EMAIL</h2>
+                        <p className="text-primary">info@ackrolix.com</p>
+                      </div>
+                    </div>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

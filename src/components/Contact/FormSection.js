@@ -9,7 +9,7 @@ const FormSection = () => {
     <>
       <div
         className="bg-cover"
-        style={{ backgroundImage: `url("/assets/images/careerBg.png")` }}
+        // style={{ backgroundImage: `url("/assets/images/careerBg.png")` }}
       >
         <div className="container-ack md:grid grid-cols-2 md:px-0 px-5 md:pt-0 pt-12">
           <div className="col-span-1">
