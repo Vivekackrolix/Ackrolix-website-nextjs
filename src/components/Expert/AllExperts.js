@@ -5,17 +5,17 @@ const All = () => {
   const advisors = [
     {
       id: 1,
+      image: "/assets/images/leaders/leadersix.png",
+      name: "Mr. Saleem Nawaz",
+      designation: "Managing Partner - Dubai",
+      desc: "Everything you’ve ever wanted is on the other side of fear."
+    },
+    {
+      id: 2,
       image: "/assets/images/leaders/leaderone.png",
       name: "Mr. Viveka Mandal",
       designation: "CEO & Founder",
       desc: "Dance is the hidden language of the soul.",
-    },
-    {
-      id: 2,
-      image: "/assets/images/leaders/leadertwo.png",
-      name: "Mr. Subrata Sarkar",
-      designation: "CMO & Co-Founder",
-      desc: "Everything you’ve ever wanted is on the other side of fear.",
     },
     {
       id: 3,
@@ -33,17 +33,17 @@ const All = () => {
     },
     {
       id: 5,
+      image: "/assets/images/leaders/leadertwo.png",
+      name: "Mr. Subrata Sarkar",
+      designation: "CMO & Co-Founder",
+      desc: "Everything you’ve ever wanted is on the other side of fear.",
+    },
+    {
+      id: 6,
       image: "/assets/images/leaders/leaderfive.jpeg",
       name: "Arvind Franchis",
       designation: "Chief People Officer",
       desc: "The only way to do great work is to love what you do.",
-    },
-    {
-      id: 6,
-      image: "/assets/images/leaders/leadersix.png",
-      name: "Mr. Saleem Nawaz",
-      designation: "Managing Partner - Dubai",
-      desc: "Everything you’ve ever wanted is on the other side of fear.",
     },
     {
       id: 7,

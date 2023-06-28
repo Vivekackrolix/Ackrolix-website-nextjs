@@ -8,7 +8,7 @@ const Card = () => {
         <div className='container-ack bg-white drop-shadow-md rounded-lg '>
         <div className="grid md:grid-cols-2 gap-6 items-center container-ack ">
         <div className=" ">
-          <img src="/assets/images/aboutusimg2.png" alt="" />
+          <img src="/assets/images/aboutImg.png" alt="" />
         </div>
 
         <div className=" md:px-16 px-5 pb-10 md:pb-0">

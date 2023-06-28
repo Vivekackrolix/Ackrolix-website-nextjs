@@ -7,11 +7,11 @@ const Advisors = () => {
   const advisor = [
     {
       id: 1,
-
-      image: "/assets/images/advisor/ashwani.png",
-      name: "Ashwani Kumar",
-      desc: "Technology and business visionary with over 22+ years of successful & fruitful career in IT Management, who provided strategic direction on technology initiatives such as implementing Multiple ERP Modules in line with the core organizational goals and business & profit objectives of the company.",
+      image: "/assets/images/advisor/saleem.png",
+      name: "Saleem Nawaz",
+      desc: "Saleem Nawaz Mandi Shaikh, a digipreneur and Web3 specialist has initiated D369 & is raising $1 bn for 250+ start-ups under the patronage of the Royal Family of UAE & multiple renowned Venture Capitalists and will be entirely based on Web3 and Metaverse..",
       link: "/advisorDetailPage",
+      
     },
     {
       id: 2,
@@ -23,10 +23,9 @@ const Advisors = () => {
     },
     {
       id: 3,
-
-      image: "/assets/images/advisor/saleem.png",
-      name: "Saleem Nawaz",
-      desc: "Saleem Nawaz Mandi Shaikh, a digipreneur and Web3 specialist has initiated D369 & is raising $1 bn for 250+ start-ups under the patronage of the Royal Family of UAE & multiple renowned Venture Capitalists and will be entirely based on Web3 and Metaverse..",
+      image: "/assets/images/advisor/ashwani.png",
+      name: "Ashwani Kumar",
+      desc: "Technology and business visionary with over 22+ years of successful & fruitful career in IT Management, who provided strategic direction on technology initiatives such as implementing Multiple ERP Modules in line with the core organizational goals and business & profit objectives of the company.",
       link: "/advisorDetailPage",
     },
     {
@@ -48,7 +47,7 @@ const Advisors = () => {
     {
       id: 6,
 
-      image: "/assets/images/AditiAhuja.jpg",
+      image: "/assets/images/AditiAhuja.png",
       name: "Aditi Ahuja",
       desc: "Company quality refers to the level of excellence that a company strives to achieve in all aspects of its operations. This includes the quality of its products or services, customer service, employee satisfaction, and overall reputation.",
       link: "/advisorDetailPage",

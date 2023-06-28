@@ -26,9 +26,9 @@ function WhyJoinUsCareer() {
               <img src="/assets/images/career-img/3square.png" />
             </div>
             <div className="CntWhyJoinUs">
-              <h5>Collaborative and dynamic work environment </h5>
+              <h5>Collaborative environment </h5>
               <p>
-                Our company values teamwork and encourages collaboration among employees.
+              A collaborative and dynamic work environment is characterized by teamwork, open communication, flexibility, and a constant flow of ideas and innovation. Collaboration is at the heart of a dynamic work environment. Employees work together in cross-functional teams, pooling their skills and knowledge to accomplish tasks and projects. Team members support each other, share responsibilities, and value diverse perspectives.
                 {" "}
               </p>
             </div>
@@ -54,7 +54,7 @@ function WhyJoinUsCareer() {
             <div className="CntWhyJoinUs">
               <h5> Company Culture and Values </h5>
               <p>
-                Our company prioritizes a supportive, inclusive, and diverse work environment. It also values integrity, innovation, and customer-centricity.{" "}
+              Our company prioritizes a supportive, inclusive, and diverse work environment. The company promotes diversity and actively works to create equal opportunities for all. Our company also recognizes the importance of employee well-being and supports initiatives that promote work-life integration. Flexible work arrangements, wellness programs, and supportive policies contribute to a balanced and fulfilling work environment.{" "}
               </p>
             </div>
           </div>
