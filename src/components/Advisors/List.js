@@ -13,7 +13,6 @@ const List = () => {
     },
     {
       id: 2,
-
       image: "/assets/images/advisor/nishant.png",
       name: "Nishant Joon",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting Industry. Lorem Ipsum has been the Industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -22,7 +21,6 @@ const List = () => {
     },
     {
       id: 3,
-
       image: "/assets/images/advisor/saleem.png",
       name: "Saleem Nawaz",
       desc: "Saleem Nawaz Mandi Shaikh, a digipreneur and Web3 specialist has initiated D369 & is raising $1 bn for 250+ start-ups under the patronage of the Royal Family of UAE & multiple renowned Venture Capitalists and will be entirely based on Web3 and Metaverse..",

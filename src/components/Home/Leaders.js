@@ -18,6 +18,11 @@ const Leaders = () => {
       name: 'Jay Gulati',
       img: '/assets/images/leaders/leaderthree.png',
       role: 'Co-Founder & CFO',
+    },
+    {
+      name: 'SaleemNawaz',
+      img: '/assets/images/leaders/saleemNawaz.png',
+      role: 'Director',
     }
   ]
   return (
@@ -28,7 +33,7 @@ const Leaders = () => {
         head="Revolutionizing industries through innovation: Empowering your business with our Leaders"
       />
 
-      <div className="grid md:grid-cols-3 gap-2">
+      <div className="grid md:grid-cols-4 gap-3">
         {cardData.map((item, key) => {
           return (
             <div className="cardBox" key={key}>

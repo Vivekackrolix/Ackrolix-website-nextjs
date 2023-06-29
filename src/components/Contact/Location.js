@@ -9,7 +9,7 @@ const Location = () => {
     <div className="container-sck">
       <div className="grid md:grid-cols-4 items-center  container-ack px-5 ">
         <div className=" md:col-span-2 md:px-0 pb-5 md:pb-0  relative">
-          <div className="md:text-8xl text-center md:text-left text-[3rem] text-white tracking-[0.5rem] texttransparent font-bold  md:pt-10 ">
+          <div className="md:text-8xl text-center md:text-left text-[2rem] text-white tracking-[0.5rem] texttransparent font-bold  md:pt-10 ">
             Locations
           </div>
           <div className="">
@@ -27,7 +27,7 @@ const Location = () => {
         <div className=" md:col-span-2 grid md:grid-cols-2 items-center md:py-8 py-2">
           <div>
             <div className="group" key="id">
-              <div className="relative text-left px-6  py-3  duration duration-200 group-hover:-translate-y-2 bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl ">
+              <div className="relative text-left px-6  py-3  duration duration-200 group-hover:-translate-y-2 bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl border">
                 <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
                   <img
                     src="/assets/images/india.png"
@@ -70,7 +70,7 @@ const Location = () => {
               </div>
             </div>
             <div className="group" key="id">
-              <div className="relative text-left px-6  py-3  duration duration-200 group-hover:-translate-y-2 bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl ">
+              <div className="relative text-left px-6  py-3  duration duration-200 group-hover:-translate-y-2 bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl border ">
                 <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
                   <img
                     src="/assets/images/UAEflag.jpg"
@@ -115,7 +115,7 @@ const Location = () => {
           </div>
           <div className="pt-12">
             <div className="group" key="id">
-              <div className="relative text-left px-6  py-3 duration duration-200 group-hover:-translate-y-2 bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl ">
+              <div className="relative text-left px-6  py-3 duration duration-200 group-hover:-translate-y-2 bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl border">
                 <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
 
                   <img
@@ -159,7 +159,7 @@ const Location = () => {
               </div>
             </div>
             <div className="group" key="id">
-              <div className="relative text-left px-6  py-3 duration duration-200 group-hover:-translate-y-2  bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl  ">
+              <div className="relative text-left px-6  py-3 duration duration-200 group-hover:-translate-y-2  bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl border ">
                 <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
                   <img
                     src="/assets/images/aus.png"
