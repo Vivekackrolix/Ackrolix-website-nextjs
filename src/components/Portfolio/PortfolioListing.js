@@ -77,10 +77,39 @@ function PortfolioListing() {
       companyName:'Glide',
       companyDesc:'Glide is a no-code app development tool that lets you build custom apps for workplace use with simple drag-and-drop. There’s no need to learn complex development languages or go to an expensive design school — Glide offers everything you need to create powerful apps for work in a matter of minutes.'
     },
+    {
+      heading: 'The standard Lorem Ipsum passage, used since the 1500s',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      category: 'mobileApp',
+      img: '/assets/images/portfolio/Nesto1.png',
+      img2: '/assets/images/portfolio/Nesto2.png',
+      companyName:'Glide',
+      companyDesc:'Glide is a no-code app development tool that lets you build custom apps for workplace use with simple drag-and-drop. There’s no need to learn complex development languages or go to an expensive design school — Glide offers everything you need to create powerful apps for work in a matter of minutes.'
+    },
+    {
+      heading: 'The standard Lorem Ipsum passage, used since the 1500s',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      category: 'mobileApp',
+      img: '/assets/images/portfolio/PG1.png',
+      img2: '/assets/images/portfolio/PG2.png',
+      companyName:'Glide',
+      companyDesc:'Glide is a no-code app development tool that lets you build custom apps for workplace use with simple drag-and-drop. There’s no need to learn complex development languages or go to an expensive design school — Glide offers everything you need to create powerful apps for work in a matter of minutes.'
+    },
+    {
+      heading: 'The standard Lorem Ipsum passage, used since the 1500s',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      category: 'mobileApp',
+      img: '/assets/images/portfolio/Konnect1.png',
+      img2: '/assets/images/portfolio/Konnect2.png',
+      companyName:'Glide',
+      companyDesc:'Glide is a no-code app development tool that lets you build custom apps for workplace use with simple drag-and-drop. There’s no need to learn complex development languages or go to an expensive design school — Glide offers everything you need to create powerful apps for work in a matter of minutes.'
+    },
   ]
 
   const [items, setItems] = useState(filterData)
+  
   const filterItem = (categItem) => {
+
     const updatedItems = filterData.filter((curElem) => {
       return curElem.category === categItem
     })
@@ -115,7 +144,7 @@ function PortfolioListing() {
           </div>
           <div>
             <div className="text-center py-2 rounded-md bg-secondary text-white border-2 text-sm"
-              onClick={() => filterItem('soft')}
+              onClick={() => filterItem('mobileApp')}
             >
               Mobile App
             </div>
