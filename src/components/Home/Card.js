@@ -11,7 +11,7 @@ const Card = () => {
       item.append(clone);
     });
   }, [])
-
+  
   return (
     <div className="container-ack pt-16 px-5">
       <div className="bg-[#F6F8F9] rounded-xl ">
@@ -43,7 +43,7 @@ const Card = () => {
 
           <div className="card-cta relative">
             <div className="card-slide">
-              {/* <div className="card-slider sliderOne">
+              <div className="card-slider sliderOne">
                 <div className="card-slider-items">
                   <div className="item">
                     <img
@@ -78,46 +78,82 @@ const Card = () => {
                     />
                   </div>
                 </div>
-              </div> */}
+              </div>
               <div className="card-slider">
                 <div className="card-slider-items">
-                  {
-                    [1, 1, 1, 1, 1]?.map(item => {
-                      return (
-                        <div className="item">
-                          <img
-                            src="https://source.unsplash.com/random/300x450/?fire,1"
-                            alt=""
-                            width="300"
-                            height="450"
-                          />
-                        </div>
-                      )
-                    })
-                  }
+                  <div className="item">
+                    <img
+                      src="https://source.unsplash.com/random/300x450/?fire,1"
+                      alt=""
+                      width="300"
+                      height="450"
+                    />
+                  </div>
+                  <div className="item">
+                    <img
+                      src="https://source.unsplash.com/random/300x450/?fire,2"
+                      alt=""
+                      width="300"
+                      height="450"
+                    />
+                  </div>
+                  <div className="item">
+                    <img
+                      src="https://source.unsplash.com/random/300x450/?fire,3"
+                      alt=""
+                      width="300"
+                      height="450"
+                    />
+                  </div>
+                  <div className="item">
+                    <img
+                      src="https://source.unsplash.com/random/300x450/?fire,4"
+                      alt=""
+                      width="300"
+                      height="450"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="card-slider hidden-m">
                 <div className="card-slider-items">
-                  {
-                    [1, 1, 1, 1, 1]?.map(item => {
-                      return (
-                        <div className="item">
-                          <img
-                            src="https://source.unsplash.com/random/300x450/?fire,1"
-                            alt=""
-                            width="300"
-                            height="650"
-                          />
-                        </div>
-                      )
-                    })
-                  }
+                  <div className="item">
+                    <img
+                      src="https://source.unsplash.com/random/300x450/?water,1"
+                      alt=""
+                      width="300"
+                      height="450"
+                    />
+                  </div>
+                  <div className="item">
+                    <img
+                      src="https://source.unsplash.com/random/300x450/?water,2"
+                      alt=""
+                      width="300"
+                      height="450"
+                    />
+                  </div>
+                  <div className="item">
+                    <img
+                      src="https://source.unsplash.com/random/300x450/?water,3"
+                      alt=""
+                      width="300"
+                      height="450"
+                    />
+                  </div>
+                  <div className="item">
+                    <img
+                      src="https://source.unsplash.com/random/300x450/?water,4"
+                      alt=""
+                      width="300"
+                      height="450"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
+          
         </div>
       </div>
     </div>
