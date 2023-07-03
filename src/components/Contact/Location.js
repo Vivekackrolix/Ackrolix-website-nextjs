@@ -6,28 +6,26 @@ import { MdOutlineMail } from "react-icons/md";
 
 const Location = () => {
   return (
-    <div className="container-sck">
-      <div className="grid md:grid-cols-4 items-center  container-ack px-5 ">
-        <div className=" md:col-span-2 md:px-0 pb-5 md:pb-0  relative">
-          <div className="md:text-8xl text-center md:text-left text-[3rem] text-white tracking-[0.5rem] texttransparent font-bold  md:pt-10 ">
-            Locations
+    <div className="container-sck bg-[url('../../public/assets/images/locationbackground.png')] background-size:cover background-position:center background-repeat:no-repeat bg-fixed">
+       <div className="relative mb-50 my-10"
+       
+       // style={{ backgroundImage: `url("../../assets/images/locationbackground.png")` }}
+       >
+          <div className="md:text-[7rem] text-[5rem] tracking-wider text-center textdark font-bold  md:pt-10 ">
+          Locations
           </div>
-          <div className="">
-            <div className="text-[46px] text-secondary font-bold absolute md:top-[4.6rem] top-[2rem] md:left-2  text-center md:text-left">
-              Global <span className="text-primary">Spread</span>
-            </div>
-            <div className=" w-[90%] text-base text-textcolor font-text  pb-4">
-              We are delivering our world class services in three countries in the world.
-              We’re passionate about supporting your objectives and committed to partnering
-              with you to provide the best solutions.
-
-            </div>
+          <div className=" md:top-[5.8rem] font-bold  text-white left-16 text-[46px]  text-center flex flex-col md:space-y-6 absolute left-[39%] bottom-[15px]">
+            <h2>
+            Global <span className="text-primary">Spread</span>
+            </h2>
           </div>
         </div>
-        <div className=" md:col-span-2 grid md:grid-cols-2 items-center md:py-8 py-2">
-          <div>
-            <div className="group" key="id">
-              <div className="relative text-left px-6  py-3  duration duration-200 group-hover:-translate-y-2 bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl ">
+      <div className="grid md:grid-cols-4 items-center  container-ack px-5 ">
+        
+        <div className=" md:col-span-4 grid md:grid-cols-4 items-center md:py-8 py-2  ">
+          <div style={{margin:7}}>
+            
+              <div className="relative text-left px-6  py-3 bg-gray-50 rounded-xl border mb-5">
                 <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
                   <img
                     src="/assets/images/india.png"
@@ -38,7 +36,7 @@ const Location = () => {
                 <h2 className="font-semibold text-lg py-2 text-black text-left">
                   India
                 </h2>
-                <div className="grid  pb-4">
+                <div className="grid gap-4 pb-4">
                   <Link href="tel:+918178567042">
                     <div className="flex space-x-2">
                       <BiPhoneCall size={20} />
@@ -67,10 +65,12 @@ const Location = () => {
                     </div>
                   </Link>
                 </div>
-              </div>
+              </div>            
+           
             </div>
-            <div className="group" key="id">
-              <div className="relative text-left px-6  py-3  duration duration-200 group-hover:-translate-y-2 bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl ">
+            <div style={{margin:7}}>
+            
+              <div className="relative text-left px-6  py-3 bg-gray-50 rounded-xl border mb-5">
                 <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
                   <img
                     src="/assets/images/UAEflag.jpg"
@@ -81,7 +81,7 @@ const Location = () => {
                 <h2 className="font-semibold text-lg py-2 text-black text-left">
                   UAE
                 </h2>
-                <div className="grid  gap-4  pb-4">
+                <div className="grid gap-4 pb-4">
                   <Link href="tel:+918178567042">
                     <div className="flex space-x-2">
                       <BiPhoneCall size={20} />
@@ -110,14 +110,13 @@ const Location = () => {
                     </div>
                   </Link>
                 </div>
-              </div>
+              </div>            
+           
             </div>
-          </div>
-          <div className="pt-12">
-            <div className="group" key="id">
-              <div className="relative text-left px-6  py-3 duration duration-200 group-hover:-translate-y-2 bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl ">
+            <div style={{margin:7}}>
+            
+              <div className="relative text-left px-6  py-3 bg-gray-50 rounded-xl border mb-5">
                 <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
-
                   <img
                     src="/assets/images/USAflag.jpg"
                     alt=""
@@ -127,7 +126,7 @@ const Location = () => {
                 <h2 className="font-semibold text-lg py-2 text-black text-left">
                   USA
                 </h2>
-                <div className="grid  gap-4  pb-4">
+                <div className="grid gap-4 pb-4">
                   <Link href="tel:+918178567042">
                     <div className="flex space-x-2">
                       <BiPhoneCall size={20} />
@@ -156,13 +155,15 @@ const Location = () => {
                     </div>
                   </Link>
                 </div>
-              </div>
+              </div>            
+           
             </div>
-            <div className="group" key="id">
-              <div className="relative text-left px-6  py-3 duration duration-200 group-hover:-translate-y-2  bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl  ">
+            <div style={{margin:7}}>
+            
+              <div className="relative text-left px-6  py-3 bg-gray-50 rounded-xl border mb-5">
                 <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
                   <img
-                    src="/assets/images/aus.png"
+                    src="/assets/images/uk.png"
                     alt=""
                     className="  rounded-lg w-12 h-12 mx-auto "
                   />
@@ -170,7 +171,7 @@ const Location = () => {
                 <h2 className="font-semibold text-lg py-2 text-black text-left">
                   UK
                 </h2>
-                <div className="grid  gap-4  pb-4">
+                <div className="grid gap-4 pb-4">
                   <Link href="tel:+918178567042">
                     <div className="flex space-x-2">
                       <BiPhoneCall size={20} />
@@ -201,9 +202,22 @@ const Location = () => {
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
+       <div className="grid ">
+          <div className="h-full ">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.9262399201243!2d77.07328361427676!3d28.451639798997576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19e83941db41%3A0x7885f10d8a89ac20!2sAckrolix%20Innovations!5e0!3m2!1sen!2sin!4v1679741201844!5m2!1sen!2sin"
+              width="100%"
+              height={500}
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className=""
+            />
+          </div>
+        </div>
     </div>
   );
 };

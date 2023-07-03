@@ -55,7 +55,7 @@ const All = () => {
     {
       id: 8,
       image: "/assets/images/leaders/leaderseven.jpeg",
-      name: "Ms. Vikash Sharma",
+      name: "Mr. Vikas Sharma",
       designation: "Country Manager",
       desc: "The only way to do great work is to love what you do.",
     },
