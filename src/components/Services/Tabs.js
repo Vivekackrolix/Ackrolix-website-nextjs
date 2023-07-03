@@ -253,7 +253,7 @@ const Tabs = () => {
         ):(
           <>
             <div className="grid md:grid-cols-3 gap-1">
-              {DigitalModernization.map((item, index) => (
+              {serviceData.map((item, index) => (
                 <div className="service-card" key={index}>
                   <div>
                     <div className="group p-6" key="id">

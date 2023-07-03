@@ -53,8 +53,8 @@ const JobListingCareers = () => {
       <div className="container-ack  md:px-0 px-5">
         <ComponentHead
           title="Career"
-          sub="Latest Jobs"
-          head="Find below latest jobs you can also share your resume to hr@ackrolix.in."
+          sub="Lorem Ipsum"
+          head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
         />
 
         <div className="md:flex  justify-between items-center  flex-wrap pt-10 ">
