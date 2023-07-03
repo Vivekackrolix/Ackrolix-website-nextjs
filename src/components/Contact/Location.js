@@ -6,12 +6,15 @@ import { MdOutlineMail } from "react-icons/md";
 
 const Location = () => {
   return (
-    <div className="container-sck">
-       <div className="relative mb-50 ">
-          <div className="md:text-[7rem] text-[5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
+    <div className="container-sck bg-[url('../../public/assets/images/locationbackground.png')] background-size:cover background-position:center background-repeat:no-repeat bg-fixed">
+       <div className="relative mb-50 my-10"
+       
+       // style={{ backgroundImage: `url("../../assets/images/locationbackground.png")` }}
+       >
+          <div className="md:text-[7rem] text-[5rem] tracking-wider text-center textdark font-bold  md:pt-10 ">
           Locations
           </div>
-          <div className=" md:top-[5.8rem] font-bold  left-16 text-[46px]  text-center flex flex-col md:space-y-6 absolute left-[39%] bottom-[15px]">
+          <div className=" md:top-[5.8rem] font-bold  text-white left-16 text-[46px]  text-center flex flex-col md:space-y-6 absolute left-[39%] bottom-[15px]">
             <h2>
             Global <span className="text-primary">Spread</span>
             </h2>
@@ -201,6 +204,20 @@ const Location = () => {
             </div>
         </div>
       </div>
+       <div className="grid ">
+          <div className="h-full ">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.9262399201243!2d77.07328361427676!3d28.451639798997576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19e83941db41%3A0x7885f10d8a89ac20!2sAckrolix%20Innovations!5e0!3m2!1sen!2sin!4v1679741201844!5m2!1sen!2sin"
+              width="100%"
+              height={500}
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className=""
+            />
+          </div>
+        </div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { BiPhoneCall } from "react-icons/bi";
-import { FaLocationArrow } from "react-icons/fa";
+import { GrMapLocation } from "react-icons/gr";
 import { MdOutlineMail } from "react-icons/md";
 
 const FormSection = () => {
@@ -9,7 +9,7 @@ const FormSection = () => {
     <>
       <div
         className="bg-cover"
-      // style={{ backgroundImage: `url("/assets/images/careerBg.png")` }}
+      // style={{ backgroundImage: `url("/assets/images/banner/3.webp")` }}
       >
         <div className="relative mb-50 ">
           <div className="md:text-[7rem] text-[5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
@@ -22,7 +22,7 @@ const FormSection = () => {
           </div>
         </div>
         <div className="container-ack md:grid grid-cols-2 md:px-0 md:pt-0 ">
-          <div className="col-span-1 border mt-10 pt-10 px-8 bg-slate-300 rounded-xl">
+          <div className="col-span-1 border mt-10 pt-10 px-8  rounded-xl hover:border-[#FDDA0D] border-gray-300 ">
             <p style={{ width: '113%' }} className=" md:text-start text-center text-sm md:pr-12 md:top-[5.8rem] font-bold top-10 left-16 text-[46px]  flex flex-col md:space-y-6 ">
               {"We appreciate your interest in Ackrolix. We're available to respond to any queries you may have."}
             </p>
@@ -71,7 +71,7 @@ const FormSection = () => {
                   placeholder="Write your message"
                   className="rounded-md border border-[#e0e0e0] bg-white py-2 px-6  text-[#6B7280] outline-none focus:border-primary focus:shadow-md"
                 />
-                <button style={{ width: '113%' }} className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md w-full flex justify-center items-center">
+                <button style={{ width: '113%' }} className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md w-full flex justify-center items-center  ">
                   <span className="text-base"> SEND </span>
                 </button>
               </div>
@@ -81,11 +81,11 @@ const FormSection = () => {
           </div>
           <div className="grid pl-16 justify-items items-center ">
             <div className="">
-              <h1 className="font-extrabold text-3xl mb-10">Connect with Our Experts for Expert Advice and Supports</h1>
-              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+              <h1 className="font-extrabold text-3xl mb-5">Connect with Our Experts for Expert Advice and Supports</h1>
+              <p>When you choose to connect with our experts, you gain access to a wealth of knowledge and experience. Our team comprises professionals who have excelled in their respective fields and possess a deep understanding of the challenges and complexities you may face.</p>
               
               <Link href="mailto:info@ackrolix.com">
-                <div className="flex space-x-2 mb-3 mt-10">
+                <div className="flex space-x-2 mb-3 mt-5">
                   <MdOutlineMail size={25} />
                     <p className="text-primary ">info@ackrolix.com</p>
                 </div>
@@ -97,26 +97,12 @@ const FormSection = () => {
                 </div>
               </Link>
               <div className="flex space-x-2 cursor-pointer ">
-                <FaLocationArrow size={25} />
+                <GrMapLocation size={25} className="fill-orange"/>
                   <p className="text-primary ">139 Rider House Sec 44, Gurugram 122108 </p>
               </div>
             </div>
           </div>
         </div>
-        {/* <div className="grid">
-          <div className="h-full ">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.9262399201243!2d77.07328361427676!3d28.451639798997576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19e83941db41%3A0x7885f10d8a89ac20!2sAckrolix%20Innovations!5e0!3m2!1sen!2sin!4v1679741201844!5m2!1sen!2sin"
-              width="100%"
-              height={300}
-              style={{ border: 0 }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              className=""
-            />
-          </div>
-        </div> */}
       </div>
     </>
   );

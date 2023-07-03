@@ -421,6 +421,12 @@ h6 {
   line-height: 1.1;
 }
 
+.textdark {
+  color: transparent;
+  -webkit-text-stroke: 1px #595959;
+  line-height: 1.1;
+}
+
 .texttransparent1 {
   color: white;
   opacity: 0.1;

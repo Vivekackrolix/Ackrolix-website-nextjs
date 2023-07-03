@@ -82,9 +82,9 @@ const Card = () => {
               <div className="card-slider">
                 <div className="card-slider-items">
                   {
-                    [1, 1, 1, 1, 1]?.map(item => {
+                    [1, 1, 1, 1, 1]?.map((item,index) => {
                       return (
-                        <div className="item">
+                        <div key={index} className="item">
                           <img
                             src="https://source.unsplash.com/random/300x450/?fire,1"
                             alt=""
@@ -100,9 +100,9 @@ const Card = () => {
               <div className="card-slider hidden-m">
                 <div className="card-slider-items">
                   {
-                    [1, 1, 1, 1, 1]?.map(item => {
+                    [1, 1, 1, 1, 1]?.map((item,index) => {
                       return (
-                        <div className="item">
+                        <div key={index} className="item">
                           <img
                             src="https://source.unsplash.com/random/300x450/?fire,1"
                             alt=""
