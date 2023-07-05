@@ -35,6 +35,42 @@ function PortfolioListing() {
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      category: 'web',
+      img: '/assets/images/portfolio/nestoweb1.png',
+      img2: '/assets/images/portfolio/nestoweb2.png',
+      companyName:'MSi',
+      companyDesc:'MSI is a world leader in gaming, content creation, business & productivity and AIoT solutions. Bolstered by its cutting-edge R&D capabilities and customer-driven innovation, MSI has a wide-ranging global presence spanning over 120 countries. Its comprehensive lineup of laptops, graphics cards, monitors, motherboards, desktops, peripherals, servers, IPCs, robotic appliances, and vehicle infotainment and telematics systems are globally acclaimed.'
+    },
+    {
+      heading: 'The standard Lorem Ipsum passage, used since the 1500s',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      category: 'web',
+      img: '/assets/images/portfolio/RG_web1.png',
+      img2: '/assets/images/portfolio/RG_web2.png',
+      companyName:'MSi',
+      companyDesc:'MSI is a world leader in gaming, content creation, business & productivity and AIoT solutions. Bolstered by its cutting-edge R&D capabilities and customer-driven innovation, MSI has a wide-ranging global presence spanning over 120 countries. Its comprehensive lineup of laptops, graphics cards, monitors, motherboards, desktops, peripherals, servers, IPCs, robotic appliances, and vehicle infotainment and telematics systems are globally acclaimed.'
+    },
+    {
+      heading: 'The standard Lorem Ipsum passage, used since the 1500s',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      category: 'web',
+      img: '/assets/images/portfolio/xposure_web1.png',
+      img2: '/assets/images/portfolio/xposure_web2.png',
+      companyName:'MSi',
+      companyDesc:'MSI is a world leader in gaming, content creation, business & productivity and AIoT solutions. Bolstered by its cutting-edge R&D capabilities and customer-driven innovation, MSI has a wide-ranging global presence spanning over 120 countries. Its comprehensive lineup of laptops, graphics cards, monitors, motherboards, desktops, peripherals, servers, IPCs, robotic appliances, and vehicle infotainment and telematics systems are globally acclaimed.'
+    },
+    {
+      heading: 'The standard Lorem Ipsum passage, used since the 1500s',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      category: 'web',
+      img: '/assets/images/portfolio/paycircle_web1.png',
+      img2: '/assets/images/portfolio/paycircle_web2.png',
+      companyName:'MSi',
+      companyDesc:'MSI is a world leader in gaming, content creation, business & productivity and AIoT solutions. Bolstered by its cutting-edge R&D capabilities and customer-driven innovation, MSI has a wide-ranging global presence spanning over 120 countries. Its comprehensive lineup of laptops, graphics cards, monitors, motherboards, desktops, peripherals, servers, IPCs, robotic appliances, and vehicle infotainment and telematics systems are globally acclaimed.'
+    },
+    {
+      heading: 'The standard Lorem Ipsum passage, used since the 1500s',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       category: 'eco',
       img: '/assets/images/portfolio/pro-4.1.png',
       img2: '/assets/images/portfolio/pro-4.2.png',
@@ -101,6 +137,15 @@ function PortfolioListing() {
       category: 'mobileApp',
       img: '/assets/images/portfolio/Konnect1.png',
       img2: '/assets/images/portfolio/Konnect2.png',
+      companyName:'Glide',
+      companyDesc:'Glide is a no-code app development tool that lets you build custom apps for workplace use with simple drag-and-drop. There’s no need to learn complex development languages or go to an expensive design school — Glide offers everything you need to create powerful apps for work in a matter of minutes.'
+    },
+    {
+      heading: 'The standard Lorem Ipsum passage, used since the 1500s',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      category: 'mobileApp',
+      img: '/assets/images/portfolio/Paycircle1.png',
+      img2: '/assets/images/portfolio/Paycircle2.png',
       companyName:'Glide',
       companyDesc:'Glide is a no-code app development tool that lets you build custom apps for workplace use with simple drag-and-drop. There’s no need to learn complex development languages or go to an expensive design school — Glide offers everything you need to create powerful apps for work in a matter of minutes.'
     },
