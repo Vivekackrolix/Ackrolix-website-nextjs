@@ -14,6 +14,7 @@ import Clients from "../components/Home/Clients";
 import Card from "../components/Home/Card";
 import OurServices from "../components/Home/OurServices";
 import Portfolio from "../components/Home/Portfolio";
+import OurGroups from "../components/Home/OurGroups";
 const index = () => {
   return (
     <>
@@ -24,10 +25,11 @@ const index = () => {
       <Banner />
       <About />
       <OurServices />
-      <Portfolio />
+      <OurGroups/>
       <Advisors />
       <Memories />
       <Card />
+      <Portfolio />
       <Leaders />
       <Videos />
       <Clients />
