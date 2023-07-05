@@ -89,13 +89,13 @@ const OurServices = () => {
         </div>
         <div className="overflow-hidden rounded-2xl relative group concept concept-close">
           <div className="w-full absolute grid top-[-16px] items-center cursor-pointer font-bold text-center drop-shadow-2xl z-10 group-hover:z-0 px-6 py-2 group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-150 ease-in-out text-white text-3xl bg-[#09090933] h-full max-[480px]:text-xl border-2 border-yellow-500 rounded-lg ">
-            Product Development
+            Digital Modernization
           </div>
           
           <div className=" bg-[#09090973] h-80 z-10 opacity-0 group-hover:opacity-100 transition duration-150 ease-in-out absolute  inset-x-0  pt-30 text-white flex items-center">
             <div>
               <div className="p-4 space-y-3 text-2xl group-hover:opacity-100 group-hover:translate-y-0  translate-y-4 pb-10 transform transition duration-200 ease-in-out max-[480px]:text-xl">
-                <div className="font-bold text-center">Product <br/>Development</div>
+                <div className="font-bold text-center">Digital <br/>Modernization</div>
                 <div className="flex justify-center">
                   <div className="text-sm text-white text-center w-[70%] max-[480px]:w-[100%]">
                     It&apos;s a Journey to transform the concept into web & app to
