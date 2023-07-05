@@ -5,7 +5,7 @@ import { GoLocation } from "react-icons/go";
 import Subscription from "../Home/Subscription";
 const Footer = () => {
   return (
-    <div className="mt-0 relative"
+    <div className="mt-0 relative  md:mt-12"
       style={{
         backgroundImage: 'url("/assets/images/backgroundfooter.png")',
       }}

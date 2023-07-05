@@ -1,18 +1,18 @@
 import React from "react";
 import Head from "next/head";
-import Footer from '../components/Common/Footer'
-import Header from "../components/Common/Header";
-import Banner from "../components/Services/DetailPage/Banner";
-import Cards from "../components/Services/DetailPage/Cards";
-import Technology from "../components/Services/DetailPage/Technology";
-import ComponentHead from "../components/Common/ComponentHead";
-import Process from "../components/Services/DetailPage/Process";
-import ProcessHead from "../components/Services/DetailPage/ProcessHead";
-import Work from "../components/Services/DetailPage/Work";
-import Enquiry from "../components/Services/DetailPage/Enquiry";
-import Clients from "../components/Home/Clients";
+import Footer from '../../components/Common/Footer';
+import Header from "../../components/Common/Header";
+import Banner from "../../components/Services/DetailPage/Banner";
+import Cards from "../../components/Services/DetailPage/Cards";
+import Technology from "../../components/Services/DetailPage/Technology";
+import ComponentHead from "../../components/Common/ComponentHead";
+import Process from "../../components/Services/DetailPage/Process";
+import ProcessHead from "../../components/Services/DetailPage/ProcessHead";
+import Work from "../../components/Services/DetailPage/Work";
+import Enquiry from "../../components/Services/DetailPage/Enquiry";
+import Clients from "../../components/Home/Clients";
 
-const AppModernizationDetails = () => {
+const Research = () => {
   const processes = [
     {
       id: "1",
@@ -176,7 +176,7 @@ const cards = [
   return (
     <div>
       <Head>
-        <title>App Modernization</title>        
+        <title>UI-UX Research</title>        
       </Head>
       <Header />
       <div
@@ -198,8 +198,8 @@ const cards = [
       <div className="container-ack md:px-0 px-5">
        <ComponentHead
         title="Technology"
-        sub="App Modernization"
-        head="The technology stack for app modernization can vary depending on the specific requirements of the application and the chosen modernization approach."
+        sub="UI-UX Research"
+        head="The technology stack for UI-UX Research can vary depending on the specific requirements of the application and the chosen modernization approach."
       />
       <Technology tech={techs} />
       </div>
@@ -236,4 +236,4 @@ const cards = [
   );
 };
 
-export default AppModernizationDetails;
+export default Research;
