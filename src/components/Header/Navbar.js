@@ -410,7 +410,7 @@ const Navbar = () => {
               </Link>
             </li>
             {/* for mobile end */}
-            <Link href="/industryWeServe">
+            <Link href="/IndustryWeServe">
               <li
                 className={
                   router.pathname == "/industryWeServe"
@@ -423,7 +423,7 @@ const Navbar = () => {
             </Link>
             {/* for mobile start */}
             <li className="md:hidden block ">
-              <Link href="/industryWeServe">
+              <Link href="/IndustryWeServe">
                 <p className="text-white px-10">Industry We Serve</p>
               </Link>
             </li>
