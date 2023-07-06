@@ -88,7 +88,7 @@ const OurGroups = () => {
      },
      {
         id:20,
-        image:"/assets/images/associates/asso9.png",
+        image:"/assets/images/associates/asso20.png",
      },
      {
         id:21,

@@ -110,7 +110,7 @@ const serviceData = [
 const DigitalModernization = [
   {
     id: 1,
-    image: "/assets/images/service/Digitalmarketingstrategy.png",
+    image: "/assets/images/service/DigitalMarketingStrategy.png",
     name: "Digital Marketing Strategy",
     desc: "Our approach to digital marketing strategy involves a deep dive into your business goals, your market landscape, and your customer profiles. We create a comprehensive roadmap that integrates various digital channels - SEO, content marketing, social media, PPC, email marketing, and more-to meet your business objectives effectively. With our data-driven strategies, we ensure your brand message resonates with your target audience and drives profitable growth.",
     link: "/services/digital-marketing-company",
@@ -141,7 +141,7 @@ const DigitalModernization = [
     link: "/services/pr-agency",
   }, {
     id: 6,
-    image: "/assets/images/service/MediaBuyingandplanning.png",
+    image: "/assets/images/service/MediaBuyingandPlanning.png",
     name: "Media Buying and Planning",
     desc: "Our media buying and planning services ensure that your ads reach the right audience at the right time and place. We devise a strategic media plan, negotiate ad placements, manage your media budget, and track the performance of your ads to provide maximum ROI.",
     link: "/services/media-buying-agency",
