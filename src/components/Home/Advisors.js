@@ -31,7 +31,7 @@ const Advisors = () => {
     {
       id: 4,
 
-      image: "/assets/images/geetapatel.jpg" ,alt:"geeta patel",
+      image: "/assets/images/GeetaPatel.jpg" ,alt:"geeta patel",
       name: "Geeta Patel.",
       desc: "Good innovation is about finding creative and effective solutions to problems. It involves thinking outside the box, taking risks, and being open to new ideas. Good innovation can lead to significant advancements in technology.",
       link: "/advisorDetailPage",
