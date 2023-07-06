@@ -120,7 +120,7 @@ const Banner = () => {
           ))}
         </Slider>
         <div className="">
-          <div className="bg-white boxshadowbanner md:px-10 py-12 md:w-[33%] w-[85%] absolute md:top-0 top-6 md:left-[3.6rem] left-7 rounded-lg  mt-2  px-5 ">
+          <div className="bg-zinc-100/80	 boxshadowbanner  md:px-10 py-12 md:w-[32%] w-[85%] absolute md:top-0 top-6 md:left-[3.6rem] left-7 rounded-lg  mt-2  px-5 ">
             <ul id="text-slider" class="container">
               <li class="active">
                 <div className="flex justify-start items-center space-x-1">

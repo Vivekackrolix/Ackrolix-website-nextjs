@@ -1,16 +1,16 @@
 import React from "react";
 import Head from "next/head";
-import Footer from '../components/Common/Footer'
-import Header from "../components/Common/Header";
-import Technology from "../components/Services/DetailPage/Technology";
-import ComponentHead from "../components/Common/ComponentHead";
-import Process from "../components/Services/DetailPage/Process";
-import ProcessHead from "../components/Services/DetailPage/ProcessHead";
-import Work from "../components/Services/DetailPage/Work";
-import Enquiry from "../components/Services/DetailPage/Enquiry";
-import Cards from "../components/Services/DetailPage/Cards";
-import Clients from "../components/Home/Clients";
-import Banner from "../components/Services/DetailPage/Banner";
+import Footer from "../../components/Common/Footer";
+import Header from "../../components/Common/Header";
+import Technology from "../../components/Services/DetailPage/Technology";
+import ComponentHead from "../../components/Common/ComponentHead";
+import Cards from "../../components/Services/DetailPage/Cards";
+import Banner from "../../components/Home/Banner";
+import ProccessHead from "../../components/Services/DetailPage/ProcessHead";
+import Process from "../../components/Services/DetailPage/Process";
+import Work from "../../components/Services/DetailPage/Work";
+import Enquiry from "../../components/Services/DetailPage/Enquiry";
+import Clients from "../../components/Home/Clients";
 
 const ProductDdesignCompany = () => {
   const processes = [
@@ -185,7 +185,7 @@ const ProductDdesignCompany = () => {
           backgroundImage: 'url("/assets/images/mainbackground.png ")',
         }}
       >
-      <Banner 
+      <Banner
           bannertitle="Craft delightful UX for your digital products"
           bannersubtext="Software supports your business growth, and you need more from it. We’ve helped over 160+ companies build scalable products with confidence. Technology executives chose our development teams because of their skills tested in 7+ markets."
           serviceimg="/assets/images/aboutusimg3.png"
@@ -212,7 +212,7 @@ const ProductDdesignCompany = () => {
           }}
         >
           <div className="container-ack md:px-0 px-5">
-            <ProcessHead
+            <ProccessHead
               processhead="Process"
               processsub="The Evolution Of Product Design"
               processdesc="Our structured approach that organizations & design teams follow to create new products or improve existing ones. It encompasses the various stages & activities involved in transforming an idea or concept into a tangible & market-ready product."

@@ -55,7 +55,8 @@ const Advisors = () => {
   ];
 
   return (
-    <div className="container-ack md:px-0 px-5 md:pt-0 pt-16">
+    <div className="">
+    <div className="container-ack md:px-0 px-5 md:pt-0 pt-16 ">
       <ComponentHead
         title="Advisors"
         sub="Our Industry Experts"
@@ -100,6 +101,7 @@ const Advisors = () => {
           </button>
         </Link>
       </div>
+    </div>
     </div>
   );
 };

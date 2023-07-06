@@ -1,16 +1,16 @@
 import React from "react";
 import Head from "next/head";
-import Footer from '../components/Common/Footer'
-import Header from "../components/Common/Header";
-import ComponentHead from "../components/Common/ComponentHead";
-import Banner from "../components/Services/DetailPage/Banner";
-import Process from "../components/Services/DetailPage/Process";
-import ProcessHead from "../components/Services/DetailPage/ProcessHead";
-import Cards from "../components/Services/DetailPage/Cards";
-import Enquiry from "../components/Services/DetailPage/Enquiry";
-import Technology from "../components/Services/DetailPage/Technology";
-import Work from "../components/Services/DetailPage/Work";
-import Clients from "../components/Home/Clients";
+import Footer from "../../components/Common/Footer";
+import Header from "../../components/Common/Header";
+import ComponentHead from "../../components/Common/ComponentHead";
+import Banner from "../../components/Services/DetailPage/Banner";
+import Process from "../../components/Services/DetailPage/Process";
+import ProcessHead from "../../components/Services/DetailPage/ProcessHead";
+import Cards from "../../components/Services/DetailPage/Cards";
+import Enquiry from "../../components/Services/DetailPage/Enquiry";
+import Technology from "../../components/Services/DetailPage/Technology";
+import Work from "../../components/Services/DetailPage/Work";
+import Clients from "../../components/Home/Clients";
 
 const EcommerceDevelopmentCompany = () => {
   const processes = [
