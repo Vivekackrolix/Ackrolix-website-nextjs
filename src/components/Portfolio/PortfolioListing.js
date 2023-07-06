@@ -10,9 +10,9 @@ function PortfolioListing() {
       category: 'eco',
       img: '/assets/images/portfolio/pro-1.1.png',
       img2: '/assets/images/portfolio/pro-1.2.png',
-      companyName:'Nishba',
-      companyDesc:'At Nishba, we aim to create a modern Indian lifestyle among women. Our collections are influenced by modesty which allows women to feel fashionably feminine and unique in their own way.'
-      
+      companyName: 'Nishba',
+      companyDesc: 'At Nishba, we aim to create a modern Indian lifestyle among women. Our collections are influenced by modesty which allows women to feel fashionably feminine and unique in their own way.'
+
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
@@ -20,8 +20,8 @@ function PortfolioListing() {
       category: 'web',
       img: '/assets/images/portfolio/pro-2.1.png',
       img2: '/assets/images/portfolio/pro-2.2.png',
-      companyName:'Noosh',
-      companyDesc:'NOOSH is a Persian word that rightly expresses what we stand for - Beauty and being part of something bigger. We as a brand, hope to create an ever growing and evolving family of Noosh women who prioritise style with comfort.'
+      companyName: 'Noosh',
+      companyDesc: 'NOOSH is a Persian word that rightly expresses what we stand for - Beauty and being part of something bigger. We as a brand, hope to create an ever growing and evolving family of Noosh women who prioritise style with comfort.'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
@@ -29,8 +29,8 @@ function PortfolioListing() {
       category: 'web',
       img: '/assets/images/portfolio/pro-3.1.png',
       img2: '/assets/images/portfolio/pro-3.2.png',
-      companyName:'MSi',
-      companyDesc:'MSI is a world leader in gaming, content creation, business & productivity and AIoT solutions. Bolstered by its cutting-edge R&D capabilities and customer-driven innovation, MSI has a wide-ranging global presence spanning over 120 countries. Its comprehensive lineup of laptops, graphics cards, monitors, motherboards, desktops, peripherals, servers, IPCs, robotic appliances, and vehicle infotainment and telematics systems are globally acclaimed.'
+      companyName: 'MSi',
+      companyDesc: 'MSI is a world leader in gaming, content creation, business & productivity and AIoT solutions. Bolstered by its cutting-edge R&D capabilities and customer-driven innovation, MSI has a wide-ranging global presence spanning over 120 countries. Its comprehensive lineup of laptops, graphics cards, monitors, motherboards, desktops, peripherals, servers, IPCs, robotic appliances, and vehicle infotainment and telematics systems are globally acclaimed.'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
@@ -38,8 +38,8 @@ function PortfolioListing() {
       category: 'web',
       img: '/assets/images/portfolio/nestoweb1.png',
       img2: '/assets/images/portfolio/nestoweb2.png',
-      companyName:'MSi',
-      companyDesc:'MSI is a world leader in gaming, content creation, business & productivity and AIoT solutions. Bolstered by its cutting-edge R&D capabilities and customer-driven innovation, MSI has a wide-ranging global presence spanning over 120 countries. Its comprehensive lineup of laptops, graphics cards, monitors, motherboards, desktops, peripherals, servers, IPCs, robotic appliances, and vehicle infotainment and telematics systems are globally acclaimed.'
+      companyName: 'MSi',
+      companyDesc: 'MSI is a world leader in gaming, content creation, business & productivity and AIoT solutions. Bolstered by its cutting-edge R&D capabilities and customer-driven innovation, MSI has a wide-ranging global presence spanning over 120 countries. Its comprehensive lineup of laptops, graphics cards, monitors, motherboards, desktops, peripherals, servers, IPCs, robotic appliances, and vehicle infotainment and telematics systems are globally acclaimed.'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
@@ -47,8 +47,8 @@ function PortfolioListing() {
       category: 'web',
       img: '/assets/images/portfolio/RG_web1.png',
       img2: '/assets/images/portfolio/RG_web2.png',
-      companyName:'MSi',
-      companyDesc:'MSI is a world leader in gaming, content creation, business & productivity and AIoT solutions. Bolstered by its cutting-edge R&D capabilities and customer-driven innovation, MSI has a wide-ranging global presence spanning over 120 countries. Its comprehensive lineup of laptops, graphics cards, monitors, motherboards, desktops, peripherals, servers, IPCs, robotic appliances, and vehicle infotainment and telematics systems are globally acclaimed.'
+      companyName: 'MSi',
+      companyDesc: 'MSI is a world leader in gaming, content creation, business & productivity and AIoT solutions. Bolstered by its cutting-edge R&D capabilities and customer-driven innovation, MSI has a wide-ranging global presence spanning over 120 countries. Its comprehensive lineup of laptops, graphics cards, monitors, motherboards, desktops, peripherals, servers, IPCs, robotic appliances, and vehicle infotainment and telematics systems are globally acclaimed.'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
@@ -56,8 +56,8 @@ function PortfolioListing() {
       category: 'web',
       img: '/assets/images/portfolio/xposure_web1.png',
       img2: '/assets/images/portfolio/xposure_web2.png',
-      companyName:'MSi',
-      companyDesc:'MSI is a world leader in gaming, content creation, business & productivity and AIoT solutions. Bolstered by its cutting-edge R&D capabilities and customer-driven innovation, MSI has a wide-ranging global presence spanning over 120 countries. Its comprehensive lineup of laptops, graphics cards, monitors, motherboards, desktops, peripherals, servers, IPCs, robotic appliances, and vehicle infotainment and telematics systems are globally acclaimed.'
+      companyName: 'MSi',
+      companyDesc: 'MSI is a world leader in gaming, content creation, business & productivity and AIoT solutions. Bolstered by its cutting-edge R&D capabilities and customer-driven innovation, MSI has a wide-ranging global presence spanning over 120 countries. Its comprehensive lineup of laptops, graphics cards, monitors, motherboards, desktops, peripherals, servers, IPCs, robotic appliances, and vehicle infotainment and telematics systems are globally acclaimed.'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
@@ -65,8 +65,8 @@ function PortfolioListing() {
       category: 'web',
       img: '/assets/images/portfolio/paycircle_web1.png',
       img2: '/assets/images/portfolio/paycircle_web2.png',
-      companyName:'MSi',
-      companyDesc:'MSI is a world leader in gaming, content creation, business & productivity and AIoT solutions. Bolstered by its cutting-edge R&D capabilities and customer-driven innovation, MSI has a wide-ranging global presence spanning over 120 countries. Its comprehensive lineup of laptops, graphics cards, monitors, motherboards, desktops, peripherals, servers, IPCs, robotic appliances, and vehicle infotainment and telematics systems are globally acclaimed.'
+      companyName: 'MSi',
+      companyDesc: 'MSI is a world leader in gaming, content creation, business & productivity and AIoT solutions. Bolstered by its cutting-edge R&D capabilities and customer-driven innovation, MSI has a wide-ranging global presence spanning over 120 countries. Its comprehensive lineup of laptops, graphics cards, monitors, motherboards, desktops, peripherals, servers, IPCs, robotic appliances, and vehicle infotainment and telematics systems are globally acclaimed.'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
@@ -74,8 +74,8 @@ function PortfolioListing() {
       category: 'eco',
       img: '/assets/images/portfolio/pro-4.1.png',
       img2: '/assets/images/portfolio/pro-4.2.png',
-      companyName:'Nature Nushkha',
-      companyDesc:'At Nature Nuskha, nature is the only truth and the key to solving all hair problems. Through our research, we have arrived at exceptional and effective formulas that nurture your hair back to health.'
+      companyName: 'Nature Nushkha',
+      companyDesc: 'At Nature Nuskha, nature is the only truth and the key to solving all hair problems. Through our research, we have arrived at exceptional and effective formulas that nurture your hair back to health.'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
@@ -83,8 +83,8 @@ function PortfolioListing() {
       category: 'eco',
       img: '/assets/images/portfolio/pro-5.1.png',
       img2: '/assets/images/portfolio/pro-5.2.png',
-      companyName:'Joveo',
-      companyDesc:'Our goal was to build a platform that would use data to deliver the right job to the right person anywhere in the world. That’s when we found our MOJO (Machine Optimized Jobs), a platform that leverages data science and machine learning to shatter the limitations of traditional job advertising.'
+      companyName: 'Joveo',
+      companyDesc: 'Our goal was to build a platform that would use data to deliver the right job to the right person anywhere in the world. That’s when we found our MOJO (Machine Optimized Jobs), a platform that leverages data science and machine learning to shatter the limitations of traditional job advertising.'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
@@ -92,8 +92,8 @@ function PortfolioListing() {
       category: 'soft',
       img: '/assets/images/portfolio/pro-6.1.png',
       img2: '/assets/images/portfolio/pro-6.2.png',
-      companyName:'Yellow Verandah',
-      companyDesc:'Yellow Verandah is a bespoke luxury homeware boutique, creating and curating Handmade, Environment Conscious, Natural, Sustainable, Cruelty Free, Zero Carbon Footprint Home Decor & Lifestyle products.We work with a bunch of talented local Artisans, Craftsmen, Self Help Groups, Craft Communities and Design Partners across India.'
+      companyName: 'Yellow Verandah',
+      companyDesc: 'Yellow Verandah is a bespoke luxury homeware boutique, creating and curating Handmade, Environment Conscious, Natural, Sustainable, Cruelty Free, Zero Carbon Footprint Home Decor & Lifestyle products.We work with a bunch of talented local Artisans, Craftsmen, Self Help Groups, Craft Communities and Design Partners across India.'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
@@ -101,8 +101,8 @@ function PortfolioListing() {
       category: 'soft',
       img: '/assets/images/portfolio/pro-7.1.png',
       img2: '/assets/images/portfolio/pro-7.2.png',
-      companyName:'The Citizenry',
-      companyDesc:"Our personal spaces deserve designs with a soul, a story, and a purpose. It's why we travel the world to develop our exclusive collections of home goods. By personally traveling to each country and using only local materials, we establish sustainable relationships with our artisans. From there, we sell directly to you online. This is how we’re able to offer handmade goods, crafted with the highest quality materials, at more reasonable prices than traditional luxury boutiques."
+      companyName: 'The Citizenry',
+      companyDesc: "Our personal spaces deserve designs with a soul, a story, and a purpose. It's why we travel the world to develop our exclusive collections of home goods. By personally traveling to each country and using only local materials, we establish sustainable relationships with our artisans. From there, we sell directly to you online. This is how we’re able to offer handmade goods, crafted with the highest quality materials, at more reasonable prices than traditional luxury boutiques."
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
@@ -110,8 +110,8 @@ function PortfolioListing() {
       category: 'soft',
       img: '/assets/images/portfolio/pro-8.1.png',
       img2: '/assets/images/portfolio/pro-8.2.png',
-      companyName:'Glide',
-      companyDesc:'Glide is a no-code app development tool that lets you build custom apps for workplace use with simple drag-and-drop. There’s no need to learn complex development languages or go to an expensive design school — Glide offers everything you need to create powerful apps for work in a matter of minutes.'
+      companyName: 'Glide',
+      companyDesc: 'Glide is a no-code app development tool that lets you build custom apps for workplace use with simple drag-and-drop. There’s no need to learn complex development languages or go to an expensive design school — Glide offers everything you need to create powerful apps for work in a matter of minutes.'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
@@ -119,8 +119,8 @@ function PortfolioListing() {
       category: 'mobileApp',
       img: '/assets/images/portfolio/Nesto1.png',
       img2: '/assets/images/portfolio/Nesto2.png',
-      companyName:'Glide',
-      companyDesc:'Glide is a no-code app development tool that lets you build custom apps for workplace use with simple drag-and-drop. There’s no need to learn complex development languages or go to an expensive design school — Glide offers everything you need to create powerful apps for work in a matter of minutes.'
+      companyName: 'Glide',
+      companyDesc: 'Glide is a no-code app development tool that lets you build custom apps for workplace use with simple drag-and-drop. There’s no need to learn complex development languages or go to an expensive design school — Glide offers everything you need to create powerful apps for work in a matter of minutes.'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
@@ -128,8 +128,8 @@ function PortfolioListing() {
       category: 'mobileApp',
       img: '/assets/images/portfolio/PG1.png',
       img2: '/assets/images/portfolio/PG2.png',
-      companyName:'Glide',
-      companyDesc:'Glide is a no-code app development tool that lets you build custom apps for workplace use with simple drag-and-drop. There’s no need to learn complex development languages or go to an expensive design school — Glide offers everything you need to create powerful apps for work in a matter of minutes.'
+      companyName: 'Glide',
+      companyDesc: 'Glide is a no-code app development tool that lets you build custom apps for workplace use with simple drag-and-drop. There’s no need to learn complex development languages or go to an expensive design school — Glide offers everything you need to create powerful apps for work in a matter of minutes.'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
@@ -137,8 +137,8 @@ function PortfolioListing() {
       category: 'mobileApp',
       img: '/assets/images/portfolio/Konnect1.png',
       img2: '/assets/images/portfolio/Konnect2.png',
-      companyName:'Glide',
-      companyDesc:'Glide is a no-code app development tool that lets you build custom apps for workplace use with simple drag-and-drop. There’s no need to learn complex development languages or go to an expensive design school — Glide offers everything you need to create powerful apps for work in a matter of minutes.'
+      companyName: 'Glide',
+      companyDesc: 'Glide is a no-code app development tool that lets you build custom apps for workplace use with simple drag-and-drop. There’s no need to learn complex development languages or go to an expensive design school — Glide offers everything you need to create powerful apps for work in a matter of minutes.'
     },
     {
       heading: 'The standard Lorem Ipsum passage, used since the 1500s',
@@ -146,15 +146,13 @@ function PortfolioListing() {
       category: 'mobileApp',
       img: '/assets/images/portfolio/Paycircle1.png',
       img2: '/assets/images/portfolio/Paycircle2.png',
-      companyName:'Glide',
-      companyDesc:'Glide is a no-code app development tool that lets you build custom apps for workplace use with simple drag-and-drop. There’s no need to learn complex development languages or go to an expensive design school — Glide offers everything you need to create powerful apps for work in a matter of minutes.'
+      companyName: 'Glide',
+      companyDesc: 'Glide is a no-code app development tool that lets you build custom apps for workplace use with simple drag-and-drop. There’s no need to learn complex development languages or go to an expensive design school — Glide offers everything you need to create powerful apps for work in a matter of minutes.'
     },
   ]
 
   const [items, setItems] = useState(filterData)
-  
   const filterItem = (categItem) => {
-
     const updatedItems = filterData.filter((curElem) => {
       return curElem.category === categItem
     })
@@ -189,7 +187,7 @@ function PortfolioListing() {
           </div>
           <div>
             <div className="text-center py-2 rounded-md bg-secondary text-white border-2 text-sm"
-              onClick={() => filterItem('mobileApp')}
+              onClick={() => filterItem('soft')}
             >
               Mobile App
             </div>
@@ -211,10 +209,10 @@ function PortfolioListing() {
                   <div className="grid grid-cols-3 justify-between ">
                     <div className="col-span-2">
                       <h2 className="text-xl font-semibold ">
-                     {item.companyName}
+                        {item.companyName}
                       </h2>
-                      <p style={{width:610}}>
-                     {item.companyDesc}
+                      <p style={{ width: 610 }}>
+                        {item.companyDesc}
                       </p>
                     </div>
                     <div>

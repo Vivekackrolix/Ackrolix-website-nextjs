@@ -43,7 +43,7 @@ const Card = () => {
 
           <div className="card-cta relative">
             <div className="card-slide">
-              {/* <div className="card-slider sliderOne">
+              <div className="card-slider sliderOne">
                 <div className="card-slider-items">
                   <div className="item">
                     <img
@@ -78,11 +78,11 @@ const Card = () => {
                     />
                   </div>
                 </div>
-              </div> */}
+              </div>
               <div className="card-slider">
                 <div className="card-slider-items">
                   {
-                    [1, 1, 1, 1, 1]?.map((item,index) => {
+                    [1, 1, 1, 1, 1]?.map((item, index) => {
                       return (
                         <div key={index} className="item">
                           <img
@@ -100,7 +100,7 @@ const Card = () => {
               <div className="card-slider hidden-m">
                 <div className="card-slider-items">
                   {
-                    [1, 1, 1, 1, 1]?.map((item,index) => {
+                    [1, 1, 1, 1, 1]?.map((item, index) => {
                       return (
                         <div key={index} className="item">
                           <img

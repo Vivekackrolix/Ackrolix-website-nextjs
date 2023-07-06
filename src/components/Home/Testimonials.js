@@ -47,7 +47,7 @@ const clientsData = [
   },
   {
     id: 6,
-    image: "/assets/images/akhilesh.jpg" ,
+    image: "/assets/images/akhilesh.png",
     text: "Mr Akhilesh",
     designation: "(DGM Web)",
     para: "We regard the Ackrolix team as co-founders in our business . In 12 months alone, we grew from 6 to 49 people, while our revenues and profits grew multiple times.",
@@ -127,10 +127,9 @@ const Testimonial = () => {
                     <div className="hover:bg-[#F6F8F9] border-2 border-[#F6F8F9] text-left mx-3 py-8 rounded-md  hovertestimonial">
                       <div className="flex flex-col items-center justify-left">
                         <img
-                        style={{borderRadius:100}}
                           src={item.image}
                           alt=" "
-                          className=" rounded-lg w-[25%] absolute top-0  left-[9rem] w-[88px] h-[88px] "
+                          className="  rounded-lg w-[25%] absolute top-0  left-[9rem]"
                         />
                         <div className="px-4 pt-6">
                           <div className="text-textcolor text-sm font-text pt-4 text-center">

@@ -107,7 +107,7 @@ const serviceData = [
   },
 ];
 
-const DigitalModernization =[
+const DigitalModernization = [
   {
     id: 1,
     image: "/assets/images/service/DigitalMarketingStrategy.png",
@@ -121,32 +121,32 @@ const DigitalModernization =[
     name: "Search Engine Optimization (SEO)",
     desc: "Our SEO service ensures your website gains maximum visibility in search engine results, driving organic traffic. By employing advanced keyword research, technical SEO, on-page and off-page optimization, and content creation strategies, we aim to improve your site's ranking and maximize its visibility. Our holistic SEO approach leads to sustainable growth in traffic and enhances your online presence.",
     link: "/services/seo-services-company",
-  },{
+  }, {
     id: 3,
     image: "/assets/images/service/SearchEngineMarketing.png",
     name: "Search Engine Marketing (SEM)",
     desc: "SEM is a potent tool in our arsenal that boosts your website's visibility through paid advertisements on search engines. We manage every aspect of your SEM campaigns - from keyword selection, ad creation, bid management to landing page optimization - ensuring you achieve the highest return on your ad spend.",
     link: "/services/sem-services-company",
-  },{
+  }, {
     id: 4,
     image: "/assets/images/service/SocialMediaMarketing.png",
     name: "Social Media Marketing (SMM)",
     desc: "Our SMM services are designed to propel your brand's online presence, stimulate engagement, and drive conversions. We harness the power of various social media platforms to connect with your audience, create sharable content, and build a loyal community. Our SMM strategies are backed by analytics, ensuring continuous optimization.",
     link: "/services/social-media-marketing-agency",
-  },{
+  }, {
     id: 5,
     image: "/assets/images/service/PublicRelation.png",
     name: "Public Relations (PR)",
     desc: "We shape and manage your public image and relationships with key stakeholders. Our PR services include media relations, crisis management, corporate communication, and event management. We help build a positive reputation, gain media exposure, and foster relationships that help achieve your business goals.",
     link: "/services/pr-agency",
-  },{
+  }, {
     id: 6,
     image: "/assets/images/service/MediaBuyingandPlanning.png",
     name: "Media Buying and Planning",
     desc: "Our media buying and planning services ensure that your ads reach the right audience at the right time and place. We devise a strategic media plan, negotiate ad placements, manage your media budget, and track the performance of your ads to provide maximum ROI.",
     link: "/services/media-buying-agency",
   },
-  
+
 ]
 const Tabs = () => {
   const [select, setSelect] = React.useState(2);
@@ -250,7 +250,7 @@ const Tabs = () => {
               ))}
             </div>
           </>
-        ):(
+        ) : (
           <>
             <div className="grid md:grid-cols-3 gap-1 ">
               {DigitalModernization.map((item, index) => (
