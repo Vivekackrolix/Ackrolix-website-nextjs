@@ -98,7 +98,7 @@ const FormSection = () => {
               </Link>
               <div className="flex space-x-2 cursor-pointer ">
                 <GrMapLocation size={25} className="fill-orange"/>
-                  <p className="text-primary ">139 Rider House Sec 44, Gurugram 122108 </p>
+                  <p className="text-primary ">136 Rider House Sec 44, Gurugram 122108 </p>
               </div>
             </div>
           </div>
