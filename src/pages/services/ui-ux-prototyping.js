@@ -37,42 +37,42 @@ desc:"Through digital prototypes, we create the most realistic version of the ac
    
   ];
 const techs = [
-    {
-        id: "1",
-        img: "/assets/images/service/node.svg",
-        name: "Node.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "2",
-        img: "/assets/images/service/react.svg",
-        name: "React.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "3",
-        img: "/assets/images/service/angularjs.svg",
-        name: "Angular",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "4",
-        img: "/assets/images/service/laravel.svg",
-        name: "Laravel",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "5",
-        img: "/assets/images/service/typescript.svg",
-        name: "Typescript",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "6",
-        img: "/assets/images/service/nextjs.svg",
-        name: "Next.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
+    // {
+    //     id: "1",
+    //     img: "/assets/images/service/node.svg",
+    //     name: "Node.js",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "2",
+    //     img: "/assets/images/service/react.svg",
+    //     name: "React.js",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "3",
+    //     img: "/assets/images/service/angularjs.svg",
+    //     name: "Angular",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "4",
+    //     img: "/assets/images/service/laravel.svg",
+    //     name: "Laravel",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "5",
+    //     img: "/assets/images/service/typescript.svg",
+    //     name: "Typescript",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "6",
+    //     img: "/assets/images/service/nextjs.svg",
+    //     name: "Next.js",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
 ];
 const cards = [
     {
