@@ -86,19 +86,19 @@ const techs = [
 const cards = [
     {
       id: 1,
-      para: "Our modernization solutions revolutionize your applications' performance, scalability, agility, & maintainability. We enable seamless integration with emerging technologies, optimize infrastructure, & streamline workflows to ensure your applications are future-proof.",
+      para: "UI/UX Design Services we Offer",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Revitalize",
-      subtitle: "Revolutionize Your Applications With Modernization Solutions",
+      maintitle: "Expertise",
+      subtitle: "OUR EXPERTISE",
     },
     {
       id: 2,
       icon: "01",
-      title: "Improved Productivity",
-      para: "We aim to enhance productivity by addressing the limitations, inefficiencies, & outdated aspects of existing applications.",
+      title: "Lean MVP Prototyping",
+para:"We adopt a lean approach while developing the prototype of the MVP to gather feedback quickly and improvise.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -186,12 +186,12 @@ const cards = [
         }}
       >
         <Banner 
-          bannertitle="Make your systems efficient & scalable with our app modernization expertise"
-          bannersubtext="Get your app back on track for growth with our practice-driven app modernization skills. We provide full-scope app modernization services you can start using quickly to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+          bannertitle="We strategize and simplify complex apps"
+          bannersubtext="We have both - motivation and mindset to solve complex challenges through a design-first approach."
           serviceimg="/assets/images/aboutusimg3.png"
-          servicehead="Put your present in order so you can focus on scaling up for new users"
-          servicedesc1="Popular apps often fall victim to their own success. They grow fast to satisfy business requirements, patched up ad-hoc by different teams. Eventually, they become sluggish and difficult to maintain, let alone extend and improve. App modernization can turn it all around."
-          servicedesc2="The Ackrolix Innovations development teams have been called to the rescue of many legacy projects. In their course, our developers carried out tech stack migrations and consolidations, refactored codebases, designed and redesigned architectures, moved from a monolith to microservices, and performed architecture audits."
+          servicehead="An Optimized UI/UX Can Change The Dynamics Of A Business"
+          servicedesc1="User Experience is one of the key pillars of your business as it enhances customer satisfaction and promotes growth. UI/UX design has the potential to make or break your brand & business."
+          servicedesc2="We don’t just think creatively but strategically too and help you achieve your business goals while devising a product that solves your users’ needs."
         />
       </div>
       <Cards card={cards} />

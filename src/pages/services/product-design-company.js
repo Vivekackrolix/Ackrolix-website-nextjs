@@ -1,13 +1,13 @@
 import React from "react";
 import Head from "next/head";
-import Footer from "../../components/Common/Footer";
+import Footer from '../../components/Common/Footer';
 import Header from "../../components/Common/Header";
+import Banner from "../../components/Services/DetailPage/Banner";
+import Cards from "../../components/Services/DetailPage/Cards";
 import Technology from "../../components/Services/DetailPage/Technology";
 import ComponentHead from "../../components/Common/ComponentHead";
-import Cards from "../../components/Services/DetailPage/Cards";
-import Banner from "../../components/Home/Banner";
-import ProccessHead from "../../components/Services/DetailPage/ProcessHead";
 import Process from "../../components/Services/DetailPage/Process";
+import ProcessHead from "../../components/Services/DetailPage/ProcessHead";
 import Work from "../../components/Services/DetailPage/Work";
 import Enquiry from "../../components/Services/DetailPage/Enquiry";
 import Clients from "../../components/Home/Clients";
@@ -16,36 +16,32 @@ const ProductDdesignCompany = () => {
   const processes = [
     {
       id: "1",
-      name: "Identify The Problem",
-      desc: "Begin by understanding the problem or opportunity that the product aims to address. Conduct market research, analyze user needs, & identify gaps or pain points in the current market.",
+      name: "Empathise",
+      desc:"The first stage of the process is spent getting to know the user and understanding their wants, needs and objectives. This means observing and engaging with people in order to understand them on a psychological and emotional level. During this phase, the designer seeks to set aside their assumptions and gather real insights about the user. Learn all about key empathy-building methods here."
     },
     {
       id: "2",
-      name: "Research & Concept Development",
-      desc: "Gather information about the target market, user preferences, & competitors. Generate ideas & concepts that could potentially solve the identified problem or fulfill the opportunity.",
+      name: "Define",
+desc:"The second stage in the Design Thinking process is dedicated to defining the problem. You’ll gather all of your findings from the empathise phase and start to make sense of them: what difficulties and barriers are your users coming up against? What patterns do you observe? What is the big user problem that your team needs to solve? By the end of the define phase, you will have a clear problem statement. The key here is to frame the problem in a user-centered way; rather than saying We need to…, frame it in terms of your user:Retirees in the Bay area need…",
     },
     {
       id: "3",
-      name: "Initial Design & Prototyping",
-      desc: "Create initial design concepts based on the selected ideas. These designs can be in the form of sketches, digital renderings, or low-fidelity prototypes. The goal is to quickly visualize & evaluate different design options.",
+      name: "Ideate",
+desc:"it’s time to start working on potential solutions. The third phase in the Design Thinking process is where the creativity happens, and it’s crucial to point out that the ideation stage is a judgement-free zone! Designers will hold ideation sessions in order to come up with as many new angles and ideas as possible. There are many different types of ideation technique that designers might use, from brainstorming and mindmapping to bodystorming (roleplay scenarios) and provocation — an extreme lateral-thinking technique that gets the designer to challenge established beliefs and explore new options and alternatives.",
     },
     {
       id: "4",
-      name: "Evaluation & Iteration",
-      desc: "Test and evaluate the initial designs and prototypes. Seek feedback from potential users, stakeholders, and experts. Identify strengths and weaknesses, make improvements, and iterate on the designs.",
+      name: "Prototype",
+desc:"A prototype is basically a scaled-down version of the product which incorporates the potential solutions identified in the previous stages. This step is key in putting each solution to the test and highlighting any constraints and flaws. Throughout the prototype stage, the proposed solutions may be accepted, improved, redesigned or rejected depending on how they fare in prototype form. You can read all about the prototyping stage of Design Thinking in this in-depth guide.",
     },
     {
       id: "5",
-      name: "Detailed Design Development",
-      desc: "Once a promising design concept has been identified, focus on developing detailed design specifications. Consider factors such as materials, manufacturing processes, ergonomics, aesthetics, & functionality.",
+      name: "Test",
+desc:"After prototyping comes user testing, but it’s important to note that this is rarely the end of the Design Thinking process. In reality, the results of the testing phase will often lead you back to a previous step, providing the insights you need to redefine the original problem statement or to come up with new ideas you hadn’t thought of before. Learn all about user testing in this guide."
     },
-    {
-      id: "6",
-      name: "Testing & Quality Assurance",
-      desc: "Conduct rigorous testing to ensure the product meets quality standards and functional requirements. This may include performance testing, durability testing, safety testing, and usability testing.",
-    },
+
   ];
-  const techs = [
+const techs = [
     {
         id: "1",
         img: "/assets/images/service/node.svg",
@@ -83,25 +79,25 @@ const ProductDdesignCompany = () => {
         desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
     },
 ];
-  const cards = [
+const cards = [
     {
       id: 1,
-      para: "We aim to create innovative, user-centered, and commercially viable products. These solutions can be provided by in-house design teams, product design agencies, or individual design consultants who specialize in the field.",
+      para: "Our modernization solutions revolutionize your applications' performance, scalability, agility, & maintainability. We enable seamless integration with emerging technologies, optimize infrastructure, & streamline workflows to ensure your applications are future-proof.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Solutions",
-      subtitle: "We Shape the Perfect Solutions",
+      maintitle: "Revitalize",
+      subtitle: "Revolutionize Your Applications With Modernization Solutions",
     },
     {
       id: 2,
       icon: "01",
-      display: "icon",
-      title: "Complete product teams",
-      para: "Access Business Analysts, Product Designers, Project Managers, QA Engineers, DevOps, or Full-stack developers",
+      title: "Improved Productivity",
+      para: "We aim to enhance productivity by addressing the limitations, inefficiencies, & outdated aspects of existing applications.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
+      display: "icon",
       textsize: "text-xl",
       fontbold: "font-bold",
       textcolor: "text-secondary",
@@ -110,11 +106,11 @@ const ProductDdesignCompany = () => {
     {
       id: 3,
       icon: "02",
-      display: "icon",
-      title: "Fast iterations & frequent releases",
-      para: "Pre-build components and our own templates let our team deliver more in each sprint – this is the perk of having such experienced web developers on board.",
+      title: "Cost Optimization",
+      para: "The strategic efforts to reduce expenses associated with application development, maintenance, & operations while maximizing value & efficiency.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
+      display: "icon",
       textsize: "text-xl",
       fontbold: "font-bold",
       textcolor: "text-secondary",
@@ -123,11 +119,11 @@ const ProductDdesignCompany = () => {
     {
       id: 4,
       icon: "03",
-      display: "icon",
-      title: "Business-tailored architecture",
-      para: "Always designed and develop with your company's growth and the product's scalability in mind",
+      title: "Better Security",
+      para: "Fewer vulnerabilities generated by old and disorderly legacy code (threat identified by OWASP).",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
+      display: "icon",
       textsize: "text-xl",
       fontbold: "font-bold",
       textcolor: "text-secondary",
@@ -136,11 +132,11 @@ const ProductDdesignCompany = () => {
     {
       id: 5,
       icon: "04",
-      display: "icon",
-      title: "Thorough quality assurance",
-      para: "We do QA before each deploy through manual and automated tests that catch bugs, performance issues, and conversion blockers.",
+      title: "Improved CX",
+      para: "Enhanced performance and easier 3rd party integrations lead to improved customer experience (CX).",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
+      display: "icon",
       textsize: "text-xl",
       fontbold: "font-bold",
       textcolor: "text-secondary",
@@ -149,11 +145,11 @@ const ProductDdesignCompany = () => {
     {
       id: 6,
       icon: "05",
-      display: "icon",
-      title: "Scalable & secure infrastructure",
-      para: "Web development services full of custom solutions optimized for efficiency, flexibility and deployment speed.",
+      title: "Better Business Performance",
+      para: "Higher sales through improved CX (IBM reports that app modernization leads to a 14% revenue increase).",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
+      display: "icon",
       textsize: "text-xl",
       fontbold: "font-bold",
       textcolor: "text-secondary",
@@ -162,21 +158,21 @@ const ProductDdesignCompany = () => {
     {
       id: 7,
       icon: "06",
-      display: "icon",
-      title: "World-class UX/UI",
-      para: "Designed to help your business with user adoption",
+      title: "New Growth Possibilities",
+      para: "New business possibilities for a modernized app, including AI, machine learning, big data, and the public cloud.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
+      display: "icon",
       textsize: "text-xl",
       fontbold: "font-bold",
       textcolor: "text-secondary",
       main: "hidden",
     },
-  ];
+  ];  
   return (
     <div>
       <Head>
-        <title>Product Design Company</title>
+        <title>Product Design Company</title>        
       </Head>
       <Header />
       <div
@@ -185,24 +181,24 @@ const ProductDdesignCompany = () => {
           backgroundImage: 'url("/assets/images/mainbackground.png ")',
         }}
       >
-      <Banner
-          bannertitle="Craft delightful UX for your digital products"
-          bannersubtext="Software supports your business growth, and you need more from it. We’ve helped over 160+ companies build scalable products with confidence. Technology executives chose our development teams because of their skills tested in 7+ markets."
+        <Banner 
+          bannertitle="Make your systems efficient & scalable with our Porduct Designing expertise"
+          bannersubtext="Product design plays a crucial role in creating exceptional user experiences and driving the success of a product. It encompasses the process of understanding user needs, ideating, prototyping, and iterating to develop a functional and visually appealing product."
           serviceimg="/assets/images/aboutusimg3.png"
-          servicehead="One scalable team for start-to-finish development"
-          servicedesc1="What does it mean to be reliable? <strong> It means your outsourced team works as well as your web developers </strong> do. Access web development services trusted by 98% of CTOs that you’ll find understanding with. They made APIs, custom web applications, hybrid mobile app development, provided web design services, updated stacks, and build cloud-native systems."
-          servicedesc2="One place — everyone you need: Business Analysts, Product Designers, Project Managers, QA Engineers, DevOps, and Full-stack developers. Expect our web development team to be proactive throughout the project with an abundance of improvement suggestions that will get business moving even in areas such as search engine optimization."
+          servicehead="Designing the Future: Crafting Innovative Solutions for a Connected World"
+          servicedesc1="Digital product design is a process that professionals use to create innovative technical solutions that address consumer requirements, desires or priorities. This involves an in-depth perception of their consumers and understanding how they move through a digital experience by learning to use and operate it to receive the desired outcome. This design process is important because it can help you attract and interest new customers while adding value to the company."
+          servicedesc2="Digital product design is the ultimate tool for unleashing your creativity and designing innovative products. With this cutting-edge technology, you can bring your ideas to life and create stunning designs that will captivate your audience. Whether you're a professional designer or just starting out, digital product design offers endless possibilities for crafting unique and visually appealing products."
         />
       </div>
-      <Cards card={cards} />
-      <div className="container-ack md:px-0 px-5">
-      <ComponentHead
-        title="Technologies"
-        sub="Key Technologies For Successful Initiatives"
-        head="Whatever web applications you’re building, we got your back at every stage of web development, including web design. We’ve built a core system for a bank, an MVP marketplace sold for millions, and other 5☆ custom projects for 140+ companies worldwide."
+      {/* <Cards card={cards} /> */}
+      {/* <div className="container-ack md:px-0 px-5">
+       <ComponentHead
+        title="Technology"
+        sub="Product Design Company"
+        head="The technology stack for Product Design Company can vary depending on the specific requirements of the application and the chosen modernization approach."
       />
       <Technology tech={techs} />
-      </div>
+      </div> */}
 
       <div>
         <div
@@ -212,10 +208,10 @@ const ProductDdesignCompany = () => {
           }}
         >
           <div className="container-ack md:px-0 px-5">
-            <ProccessHead
-              processhead="Process"
-              processsub="The Evolution Of Product Design"
-              processdesc="Our structured approach that organizations & design teams follow to create new products or improve existing ones. It encompasses the various stages & activities involved in transforming an idea or concept into a tangible & market-ready product."
+            <ProcessHead
+              processhead="Stages"
+              processsub="There are following steps"
+              processdesc="A 5 Stage Process to Better Product Design. At its core, design thinking is a problem-solving methodology that, first and foremost, focuses on the user’s needs rather than the product’s specifications. Teams that fuse design thinking into their design process can develop better, user-centered products."
               processimg="/assets/images/service/videoservice.png"
             />
             <Process process={processes} />
@@ -228,6 +224,7 @@ const ProductDdesignCompany = () => {
       </div>
 
       <Work />
+      {/* <Section /> */}
       <Enquiry />
       <Clients />
       <Footer />
