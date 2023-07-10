@@ -201,7 +201,7 @@ para:"We adopt a lean approach while developing the prototype of the MVP to gath
         sub="UI Design"
         head="The technology stack for UI Design can vary depending on the specific requirements of the application and the chosen modernization approach."
       />
-      <Technology  />
+      <Technology tech={techs}  />
       </div>
 
       <div>
