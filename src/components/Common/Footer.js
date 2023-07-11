@@ -138,7 +138,7 @@ const Footer = () => {
                     />
 
                     <h2 className="text-sm md:w-[90%]">
-                      139 Rider House Sec 44, Gurugram 122108
+                      136 Rider House Sec 44, Gurugram 122108
                     </h2>
                   </li>
                   <Link href="tel:+918178567042">

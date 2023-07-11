@@ -190,7 +190,7 @@ const cards = [
         <Banner 
           bannertitle=" Search Engine Optimization is a Great Investment"
           bannersubtext="Search engine optimization is more commonly known as its acronym SEO. Optimization is the basis of all SEO practices. Once your brand's presence (website, content and social media platforms) is optimized across the internet, you increase its online visibility. Your website will find its way to the first page of the search engine results pages (SERPs). Your online customers will find your business much quicker too."
-          serviceimg="/assets/images/aboutusimg3.png"
+          serviceimg="/assets/images/service/svg/sea.png"
           servicehead="An SEO Marketing Company That Gets It"
           servicedesc1="Let’s face it. You know what you need but you just don’t know how to get it. Our SEO specialists hear that over and over from SEO clients who contact Ackrolix Internet Marketing Agency.
 
@@ -209,9 +209,9 @@ const cards = [
       <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
        <ComponentHead
-        title="Technology"
+        title="Platforms"
         sub="Search Engine Optimization"
-        head="The technology stack for Search Engine Optimization can vary depending on the specific requirements of the application and the chosen modernization approach."
+        head="The Platforms stack for Search Engine Optimization can vary depending on the specific requirements of the application and the chosen modernization approach."
       />
       <Technology tech={techs} />
       </div>
@@ -228,7 +228,7 @@ const cards = [
               processhead="Methaodology"
               processsub="Ackrolix Agile SEO Methodology"
               processdesc="Our SEO company utilizes a methodology called “Agile SEO,” which allows us to build a robust campaign framework that provides value for your business. Ackrolix's Agile SEO approach is built around the following processes:"
-              processimg="/assets/images/service/videoservice.png"
+              processimg="/assets/images/service/svg/sea1.png"
             />
             <Process process={processes} />
           </div>

@@ -41,44 +41,158 @@ desc:"After prototyping comes user testing, but it’s important to note that th
     },
 
   ];
-const techs = [
+  const techs = [
     {
-        id: "1",
-        img: "/assets/images/service/node.svg",
-        name: "Node.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "1",
+      img: "/assets/images/service/svg/react.svg",
+      name: "React.js",
+
     },
     {
-        id: "2",
-        img: "/assets/images/service/react.svg",
-        name: "React.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "2",
+      img: "/assets/images/service/svg/flutter.svg",
+      name: "Flutter",
+
     },
     {
-        id: "3",
-        img: "/assets/images/service/angularjs.svg",
-        name: "Angular",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "3",
+      img: "/assets/images/service/svg/ionic.svg",
+      name: "Ionic",
+
     },
     {
-        id: "4",
-        img: "/assets/images/service/laravel.svg",
-        name: "Laravel",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "4",
+      img: "/assets/images/service/svg/react.svg",
+      name: "ReactNative",
+
     },
     {
-        id: "5",
-        img: "/assets/images/service/typescript.svg",
-        name: "Typescript",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "5",
+      img: "/assets/images/service/svg/saas.png",
+      name: "SAAS",
+
     },
     {
-        id: "6",
-        img: "/assets/images/service/nextjs.svg",
-        name: "Next.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "6",
+      img: "/assets/images/service/svg/andriod.png",
+      name: "Android",
+
     },
-];
+    {
+      id: "7",
+      img: "/assets/images/service/svg/bootstrap.png",
+      name: "Bootstrap",
+
+    },
+    {
+      id: "8",
+      img: "/assets/images/service/svg/css.svg",
+      name: "CSS",
+
+    },
+    {
+      id: "10",
+      img: "/assets/images/service/svg/net.png",
+      name: "Microsoft .net",
+
+    },
+    {
+      id: "11",
+      img: "/assets/images/service/svg/javascript.svg",
+      name: "Javascript",
+
+    },
+    {
+      id: "12",
+      img: "/assets/images/service/svg/drupal.svg",
+      name: "Drupal",
+
+    },
+    {
+      id: "13",
+      img: "/assets/images/service/svg/joomla.svg",
+      name: "Joomla",
+
+    },
+    {
+      id: "14",
+      img: "/assets/images/service/svg/matlab.png",
+      name: "Matlab",
+
+    },
+    {
+      id: "15",
+      img: "/assets/images/service/svg/html.png",
+      name: "HTML",
+
+    },
+    {
+      id: "16",
+      img: "/assets/images/service/svg/java.svg",
+      name: "JAVA",
+
+    },
+    {
+      id: "17",
+      img: "/assets/images/service/svg/sql.png",
+      name: "SQL",
+
+    },
+    {
+      id: "18",
+      img: "/assets/images/service/svg/firebase.svg",
+      name: "Firebase",
+
+    },
+    {
+      id: "19",
+      img: "/assets/images/service/svg/nodejs.svg",
+      name: "Node.js",
+
+    },
+    {
+      id: "20",
+      img: "/assets/images/service/svg/php.png",
+      name: "php",
+
+    },
+    {
+      id: "21",
+      img: "/assets/images/service/svg/phython.png",
+      name: "phython",
+
+    },
+    {
+      id: "22",
+      img: "/assets/images/service/svg/rlogo.png",
+      name: "R Programming",
+
+    },
+    {
+      id: "23",
+      img: "/assets/images/service/svg/ai.png",
+      name: "AI",
+
+    },
+    {
+      id: "24",
+      img: "/assets/images/service/svg/tableau.svg",
+      name: "Tableau",
+
+    },
+    {
+      id: "25",
+      img: "/assets/images/service/svg/jquery.svg",
+      name: "JQuery",
+
+    },
+    {
+      id: "26",
+      img: "/assets/images/service/svg/wordpress.png",
+      name: "Wordpress",
+
+    }, 
+  ];
 const cards = [
     {
       id: 1,
@@ -184,21 +298,21 @@ const cards = [
         <Banner 
           bannertitle="Make your systems efficient & scalable with our Porduct Designing expertise"
           bannersubtext="Product design plays a crucial role in creating exceptional user experiences and driving the success of a product. It encompasses the process of understanding user needs, ideating, prototyping, and iterating to develop a functional and visually appealing product."
-          serviceimg="/assets/images/aboutusimg3.png"
+          serviceimg="/assets/images/service/svg/pro.png"
           servicehead="Designing the Future: Crafting Innovative Solutions for a Connected World"
           servicedesc1="Digital product design is a process that professionals use to create innovative technical solutions that address consumer requirements, desires or priorities. This involves an in-depth perception of their consumers and understanding how they move through a digital experience by learning to use and operate it to receive the desired outcome. This design process is important because it can help you attract and interest new customers while adding value to the company."
           servicedesc2="Digital product design is the ultimate tool for unleashing your creativity and designing innovative products. With this cutting-edge technology, you can bring your ideas to life and create stunning designs that will captivate your audience. Whether you're a professional designer or just starting out, digital product design offers endless possibilities for crafting unique and visually appealing products."
         />
       </div>
       {/* <Cards card={cards} /> */}
-      {/* <div className="container-ack md:px-0 px-5">
+      <div className="container-ack md:px-0 px-5">
        <ComponentHead
         title="Technology"
         sub="Product Design Company"
         head="The technology stack for Product Design Company can vary depending on the specific requirements of the application and the chosen modernization approach."
       />
       <Technology tech={techs} />
-      </div> */}
+      </div>
 
       <div>
         <div
@@ -212,7 +326,7 @@ const cards = [
               processhead="Stages"
               processsub="There are following steps"
               processdesc="A 5 Stage Process to Better Product Design. At its core, design thinking is a problem-solving methodology that, first and foremost, focuses on the user’s needs rather than the product’s specifications. Teams that fuse design thinking into their design process can develop better, user-centered products."
-              processimg="/assets/images/service/videoservice.png"
+              processimg="/assets/images/service/svg/pro1.png"
             />
             <Process process={processes} />
           </div>

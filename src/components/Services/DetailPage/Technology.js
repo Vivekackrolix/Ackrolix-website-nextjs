@@ -4,7 +4,7 @@ const Technology = ({tech}) => {
 
   return (
 
-    <div className="grid md:grid-cols-3 pb-20 gap-8">
+    <div className="grid md:grid-cols-4 pb-20 gap-6">
     {tech.map((item, e) => (
         <>
             <div key={e} className="group tech flex justify-start items-center border rounded-md p-3 gap-3">
@@ -14,7 +14,9 @@ const Technology = ({tech}) => {
                         {item.name}
                     </span>
                 </div>
+               
             </div>
+     
         </>
     ))}
 </div>

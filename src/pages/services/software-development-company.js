@@ -47,42 +47,156 @@ const SoftwareDevelopmentCompany = () => {
   ];
   const techs = [
     {
-        id: "1",
-        img: "/assets/images/service/node.svg",
-        name: "Node.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "1",
+      img: "/assets/images/service/svg/react.svg",
+      name: "React.js",
+
     },
     {
-        id: "2",
-        img: "/assets/images/service/react.svg",
-        name: "React.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "2",
+      img: "/assets/images/service/svg/flutter.svg",
+      name: "Flutter",
+
     },
     {
-        id: "3",
-        img: "/assets/images/service/angularjs.svg",
-        name: "Angular",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "3",
+      img: "/assets/images/service/svg/ionic.svg",
+      name: "Ionic",
+
     },
     {
-        id: "4",
-        img: "/assets/images/service/laravel.svg",
-        name: "Laravel",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "4",
+      img: "/assets/images/service/svg/react.svg",
+      name: "ReactNative",
+
     },
     {
-        id: "5",
-        img: "/assets/images/service/typescript.svg",
-        name: "Typescript",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "5",
+      img: "/assets/images/service/svg/saas.png",
+      name: "SAAS",
+
     },
     {
-        id: "6",
-        img: "/assets/images/service/nextjs.svg",
-        name: "Next.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "6",
+      img: "/assets/images/service/svg/andriod.png",
+      name: "Android",
+
     },
-];
+    {
+      id: "7",
+      img: "/assets/images/service/svg/bootstrap.png",
+      name: "Bootstrap",
+
+    },
+    {
+      id: "8",
+      img: "/assets/images/service/svg/css.svg",
+      name: "CSS",
+
+    },
+    {
+      id: "10",
+      img: "/assets/images/service/svg/net.png",
+      name: "Microsoft .net",
+
+    },
+    {
+      id: "11",
+      img: "/assets/images/service/svg/javascript.svg",
+      name: "Javascript",
+
+    },
+    {
+      id: "12",
+      img: "/assets/images/service/svg/drupal.svg",
+      name: "Drupal",
+
+    },
+    {
+      id: "13",
+      img: "/assets/images/service/svg/joomla.svg",
+      name: "Joomla",
+
+    },
+    {
+      id: "14",
+      img: "/assets/images/service/svg/matlab.png",
+      name: "Matlab",
+
+    },
+    {
+      id: "15",
+      img: "/assets/images/service/svg/html.png",
+      name: "HTML",
+
+    },
+    {
+      id: "16",
+      img: "/assets/images/service/svg/java.svg",
+      name: "JAVA",
+
+    },
+    {
+      id: "17",
+      img: "/assets/images/service/svg/sql.png",
+      name: "SQL",
+
+    },
+    {
+      id: "18",
+      img: "/assets/images/service/svg/firebase.svg",
+      name: "Firebase",
+
+    },
+    {
+      id: "19",
+      img: "/assets/images/service/svg/nodejs.svg",
+      name: "Node.js",
+
+    },
+    {
+      id: "20",
+      img: "/assets/images/service/svg/php.png",
+      name: "php",
+
+    },
+    {
+      id: "21",
+      img: "/assets/images/service/svg/phython.png",
+      name: "phython",
+
+    },
+    {
+      id: "22",
+      img: "/assets/images/service/svg/rlogo.png",
+      name: "R Programming",
+
+    },
+    {
+      id: "23",
+      img: "/assets/images/service/svg/ai.png",
+      name: "AI",
+
+    },
+    {
+      id: "24",
+      img: "/assets/images/service/svg/tableau.svg",
+      name: "Tableau",
+
+    },
+    {
+      id: "25",
+      img: "/assets/images/service/svg/jquery.svg",
+      name: "JQuery",
+
+    },
+    {
+      id: "26",
+      img: "/assets/images/service/svg/wordpress.png",
+      name: "Wordpress",
+
+    }, 
+  ];
   const cards = [
     {
       id: 1,
@@ -188,7 +302,7 @@ const SoftwareDevelopmentCompany = () => {
        <Banner 
           bannertitle="Unlocking Innovation Through Expert Software Architect Solutions"
           bannersubtext="Unlock Innovation and Drive Success with Expert Software Architect Solutions. Leverage cutting-edge technologies and strategic expertise to design and implement transformative software architectures that propel your organization forward."
-          serviceimg="/assets/images/aboutusimg3.png"
+          serviceimg="/assets/images/service/svg/soft.png"
           servicehead="A well designed software architecture saves thousands of development hours"
           servicedesc1="We’ve seen it happen many times in our software engineering work for 200+ projects. Last client dropped server maintenance and operation costs by 300 times. Time to see what performance you can achieve."
           servicedesc2="Our software architects will help you establish a secure, flexible, and efficient software development process that meets your needs. Aa a well-structured software architecture yields substantial benefits by drastically reducing development time, resulting in significant cost savings equivalent to thousands of hours that would otherwise be expended during the development process."
@@ -216,7 +330,7 @@ const SoftwareDevelopmentCompany = () => {
               processhead="Process"
               processsub="A Structured Process For Success"
               processdesc="Our structured approach that organizations & design teams follow to create new products or improve existing ones. It encompasses the various stages & activities involved in transforming an idea or concept into a tangible & market ready product."
-              processimg="/assets/images/service/videoservice.png"
+              processimg="/assets/images/service/svg/soft1.png"
             />
             <Process process={processes} />
           </div>
