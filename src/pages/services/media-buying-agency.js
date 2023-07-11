@@ -188,7 +188,7 @@ const cards = [
         <Banner 
           bannertitle="Make your systems efficient & scalable with our app modernization expertise"
           bannersubtext="Get your app back on track for growth with our practice-driven app modernization skills. We provide full-scope app modernization services you can start using quickly to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
-          serviceimg="/assets/images/aboutusimg3.png"
+          serviceimg="/assets/images/service/svg/buy.png"
           servicehead="Put your present in order so you can focus on scaling up for new users"
           servicedesc1="Popular apps often fall victim to their own success. They grow fast to satisfy business requirements, patched up ad-hoc by different teams. Eventually, they become sluggish and difficult to maintain, let alone extend and improve. App modernization can turn it all around."
           servicedesc2="The Ackrolix Innovations development teams have been called to the rescue of many legacy projects. In their course, our developers carried out tech stack migrations and consolidations, refactored codebases, designed and redesigned architectures, moved from a monolith to microservices, and performed architecture audits."
@@ -197,9 +197,9 @@ const cards = [
       <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
        <ComponentHead
-        title="Technology"
+        title="Platforms"
         sub="Media Buying and Plannig"
-        head="The technology stack for Media Buying and Plannig can vary depending on the specific requirements of the application and the chosen modernization approach."
+        head="The Platforms stack for Media Buying and Plannig can vary depending on the specific requirements of the application and the chosen modernization approach."
       />
       <Technology tech={techs} />
       </div>
@@ -216,7 +216,7 @@ const cards = [
               processhead="Services"
               processsub="App Modernization On Peek"
               processdesc="Full-scope app modernization services you can start using quickly (even in weeks!) to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
-              processimg="/assets/images/service/videoservice.png"
+              processimg="/assets/images/service/svg/buy1.png"
             />
             <Process process={processes} />
           </div>

@@ -184,7 +184,7 @@ const cards = [
           bannertitle="You Know What You Want,
           But You’re Not Sure How to Get There"
           bannersubtext="We Ensure You Don’t Take the Wrong Turn En Route to Success."
-          serviceimg="/assets/images/aboutusimg3.png"
+          serviceimg="/assets/images/service/svg/dig.png"
           servicehead="Why You Need to Start With Strategy"
           servicedesc1="Marketing your brand without an internet marketing strategy or using an inappropriate online marketing plan is a surefire way to lose money, waste time and get nowhere."
           servicedesc2=" In today’s digital world, growing a business comes with many challenges and opportunities that demand different web marketing strategies and solutions. A digital marketing strategy that has worked for a specific audience segment may not be the best approach for another. Likewise, internet marketing strategies that yielded positive results a year ago may not generate the same results today." 
@@ -193,9 +193,9 @@ const cards = [
       <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
        <ComponentHead
-        title="Technology"
+        title="Platforms"
         sub="Digital Marketing"
-        head="The technology stack for Digital Marketing can vary depending on the specific requirements of the application and the chosen modernization approach."
+        head="The Platforms stack for Digital Marketing can vary depending on the specific requirements of the application and the chosen modernization approach."
       />
       <Technology tech={techs} />
       </div>
@@ -212,7 +212,7 @@ const cards = [
               processhead="Areas"
               processsub="6 Key Areas of Focus "
               processdesc="To ensure we outline a digital marketing plan tailored to your brand, we ask you to accomplish a self-assessment questionnaire based on six core areas:"
-              processimg="/assets/images/service/videoservice.png"
+              processimg="/assets/images/service/svg/dig1.png"
             />
             <Process process={processes} />
           </div>

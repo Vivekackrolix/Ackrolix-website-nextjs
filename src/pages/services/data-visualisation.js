@@ -34,47 +34,83 @@ const Visualisation = () => {
       name: "Visualizing Data",
       desc: "We finalize the first view of the dashboard and create designs of charts and graphs based on various data types.",
     },
-   
+
   ];
-const techs = [
-    // {
-    //     id: "1",
-    //     img: "/assets/images/service/node.svg",
-    //     name: "Node.js",
-    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    // },
-    // {
-    //     id: "2",
-    //     img: "/assets/images/service/react.svg",
-    //     name: "React.js",
-    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    // },
-    // {
-    //     id: "3",
-    //     img: "/assets/images/service/angularjs.svg",
-    //     name: "Angular",
-    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    // },
-    // {
-    //     id: "4",
-    //     img: "/assets/images/service/laravel.svg",
-    //     name: "Laravel",
-    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    // },
-    // {
-    //     id: "5",
-    //     img: "/assets/images/service/typescript.svg",
-    //     name: "Typescript",
-    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    // },
-    // {
-    //     id: "6",
-    //     img: "/assets/images/service/nextjs.svg",
-    //     name: "Next.js",
-    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    // },
-];
-const cards = [
+  const techs = [
+    {
+      id: "1",
+      img: "/assets/images/service/svg/figma.svg",
+      name: "Figma",
+      desc: " Figma is browser-based, allowing teams to work together seamlessly, regardless of their operating systems. ",
+    },
+    {
+      id: "2",
+      img: "/assets/images/service/svg/sketch.svg",
+      name: "Sketch",
+      desc: "A popular vector-based design tool for creating user interfaces and wireframes. ",
+    },
+    {
+      id: "3",
+      img: "/assets/images/service/svg/photoshop.svg",
+      name: "Adobe Photoshop",
+      desc: "A versatile design tool used for image editing, graphic design, and UI design.  ",
+    },
+    {
+      id: "4",
+      img: "/assets/images/service/svg/adobe-xd.svg",
+      name: " Adobe XD",
+      desc: "A comprehensive design and prototyping tool that allows designers to create interactive prototypes, wireframes, and user interfaces. ",
+    },
+    {
+      id: "5",
+      img: "/assets/images/service/svg/illustrator.svg",
+      name: " Adobe Illustrator",
+      desc: "A vector-based design tool used for creating scalable and resolution-independent graphics. ",
+    },
+    {
+      id: "6",
+      img: "/assets/images/service/svg/invision.svg",
+      name: "InVision",
+      desc: " A prototyping and collaboration tool that allows designers to create interactive and animated prototypes.",
+    },
+    {
+      id: "7",
+      img: "/assets/images/service/svg/axure.png",
+      name: "Axure RP",
+      desc: " Axure RP is often used for complex interactions and user flows."
+    },
+    {
+      id: "8",
+      img: "/assets/images/service/svg/marvel.png",
+      name: "Marvel",
+      desc: " A user-friendly prototyping tool that enables designers to create interactive prototypes with ease. "
+    },
+    {
+      id: "9",
+      img: "/assets/images/service/svg/zepline.png",
+      name: "Zeplin",
+      desc: "  Zeplin generates style guides, assets, and CSS code snippets to ensure smooth collaboration between designers and developers."
+    },
+    {
+      id: "10",
+      img: "/assets/images/service/svg/principle.png",
+      name: "Principle",
+      desc: " Principle integrates well with Sketch and enables designers to add motion to their designs."
+    },
+    {
+      id: "11",
+      img: "/assets/images/service/svg/procreate.png",
+      name:"Procreate",
+      desc: "A digital illustration app designed specifically for iPad."
+    },
+    {
+      id: "12",
+      img: "/assets/images/service/svg/logobal.png",
+      name: "Balsamiq",
+      desc: " Balsamiq enables designers to quickly sketch out interface ideas and concepts."
+    },
+  ];
+  const cards = [
     {
       id: 1,
       para: "Data Visualisation Services We Offer",
@@ -137,12 +173,12 @@ const cards = [
       textcolor: "text-secondary",
       main: "hidden",
     },
-   
-  ];  
+
+  ];
   return (
     <div>
       <Head>
-        <title>Data Visualisation</title>        
+        <title>Data Visualisation</title>
       </Head>
       <Header />
       <div
@@ -151,10 +187,10 @@ const cards = [
           backgroundImage: 'url("/assets/images/mainbackground.png ")',
         }}
       >
-        <Banner 
+        <Banner
           bannertitle="We make data sensible and actionable"
           bannersubtext="We present the data in visual form and help decision-makers to identify key opportunities and impending issues."
-          serviceimg="/assets/images/aboutusimg3.png"
+          serviceimg="/assets/images/service/svg/vis.png"
           servicehead="Insightful data leads to better products & growth"
           servicedesc1="Pictures are more clearer to understand than numbers. With data visualisation, it is possible to present data in a more digestible & attractive manner through charts & graphs."
           servicedesc2="We simplify data presentation through appropriate diagrams so that it becomes easier to identify trends, patterns, and outliers within large data sets."
@@ -162,12 +198,12 @@ const cards = [
       </div>
       <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
-       <ComponentHead
-        title="Technology"
-        sub="Data Visualisation"
-        head="The technology stack for Data Visualisation can vary depending on the specific requirements of the application and the chosen modernization approach."
-      />
-      <Technology tech={techs} />
+        <ComponentHead
+          title="Technology"
+          sub="Tools we are using In UI/UX Designing & Strategy"
+          head="The technology stack for Data Visualisation can vary depending on the specific requirements of the application and the chosen modernization approach."
+        />
+        <Technology tech={techs} />
       </div>
 
       <div>
@@ -183,7 +219,7 @@ const cards = [
               processsub="OUR APPROACH"
               processdesc="Steps we follow for
               data visualisation"
-              processimg="/assets/images/service/videoservice.png"
+              processimg="/assets/images/service/svg/vis1.png"
             />
             <Process process={processes} />
           </div>

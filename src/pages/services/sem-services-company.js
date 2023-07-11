@@ -175,7 +175,7 @@ const SemAgency = () => {
         <Banner
           bannertitle="What is SEM and Why It’s a Great Investment"
           bannersubtext="In today’s increasingly competitive digital world, search engines have become an indispensable utility across industries and institutions, including digital marketing, healthcare, education and eCommerce. Search engines are customer service tools that allow online users to locate diverse information on the internet, including news, blog posts and brand offerings, and make informed decisions."
-          serviceimg="/assets/images/aboutusimg3.png"
+          serviceimg="/assets/images/service/svg/eng.png"
           servicehead="What Are Search Engines?"
           servicedesc1=" Search engines have three significant functions:"
           servicedesc2="1. Crawl
@@ -189,9 +189,9 @@ Search engines categorize web pages and rank them based on relevance to provide 
       <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
         <ComponentHead
-          title="Technology"
+          title="Platforms"
           sub="Social Engine Marketing"
-          head="The technology stack for Social Engine Marketing can vary depending on the specific requirements of the application and the chosen modernization approach."
+          head="The Platforms stack for Social Engine Marketing can vary depending on the specific requirements of the application and the chosen modernization approach."
         />
         <Technology tech={techs} />
       </div>
@@ -208,7 +208,7 @@ Search engines categorize web pages and rank them based on relevance to provide 
               processhead="Essential"
               processsub="Search Engine Marketing Essential"
               processdesc="SEM digital marketing makes your business more visible in search engines. And unlike traditional advertising tactics, internet search engine marketing connects your company with an extremely targeted audience segment."
-              processimg="/assets/images/service/videoservice.png"
+              processimg="/assets/images/service/svg/eng1.png"
             />
             <Process process={processes} />
           </div>

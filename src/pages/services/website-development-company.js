@@ -45,44 +45,158 @@ const WebsiteDevelopment = () => {
       desc: "In some cases, it may be more feasible to replace an existing application with a new solution rather than attempting to modernize it. This approach involves rebuilding the application from scratch, leveraging modern technologies and design principles.",
     },
   ];
-const techs = [
+  const techs = [
     {
-        id: "1",
-        img: "/assets/images/service/node.svg",
-        name: "Node.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "1",
+      img: "/assets/images/service/svg/react.svg",
+      name: "React.js",
+
     },
     {
-        id: "2",
-        img: "/assets/images/service/react.svg",
-        name: "React.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "2",
+      img: "/assets/images/service/svg/flutter.svg",
+      name: "Flutter",
+
     },
     {
-        id: "3",
-        img: "/assets/images/service/angularjs.svg",
-        name: "Angular",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "3",
+      img: "/assets/images/service/svg/ionic.svg",
+      name: "Ionic",
+
     },
     {
-        id: "4",
-        img: "/assets/images/service/laravel.svg",
-        name: "Laravel",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "4",
+      img: "/assets/images/service/svg/react.svg",
+      name: "ReactNative",
+
     },
     {
-        id: "5",
-        img: "/assets/images/service/typescript.svg",
-        name: "Typescript",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "5",
+      img: "/assets/images/service/svg/saas.png",
+      name: "SAAS",
+
     },
     {
-        id: "6",
-        img: "/assets/images/service/nextjs.svg",
-        name: "Next.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+      id: "6",
+      img: "/assets/images/service/svg/andriod.png",
+      name: "Android",
+
     },
-];
+    {
+      id: "7",
+      img: "/assets/images/service/svg/bootstrap.png",
+      name: "Bootstrap",
+
+    },
+    {
+      id: "8",
+      img: "/assets/images/service/svg/css.svg",
+      name: "CSS",
+
+    },
+    {
+      id: "10",
+      img: "/assets/images/service/svg/net.png",
+      name: "Microsoft .net",
+
+    },
+    {
+      id: "11",
+      img: "/assets/images/service/svg/javascript.svg",
+      name: "Javascript",
+
+    },
+    {
+      id: "12",
+      img: "/assets/images/service/svg/drupal.svg",
+      name: "Drupal",
+
+    },
+    {
+      id: "13",
+      img: "/assets/images/service/svg/joomla.svg",
+      name: "Joomla",
+
+    },
+    {
+      id: "14",
+      img: "/assets/images/service/svg/matlab.png",
+      name: "Matlab",
+
+    },
+    {
+      id: "15",
+      img: "/assets/images/service/svg/html.png",
+      name: "HTML",
+
+    },
+    {
+      id: "16",
+      img: "/assets/images/service/svg/java.svg",
+      name: "JAVA",
+
+    },
+    {
+      id: "17",
+      img: "/assets/images/service/svg/sql.png",
+      name: "SQL",
+
+    },
+    {
+      id: "18",
+      img: "/assets/images/service/svg/firebase.svg",
+      name: "Firebase",
+
+    },
+    {
+      id: "19",
+      img: "/assets/images/service/svg/nodejs.svg",
+      name: "Node.js",
+
+    },
+    {
+      id: "20",
+      img: "/assets/images/service/svg/php.png",
+      name: "php",
+
+    },
+    {
+      id: "21",
+      img: "/assets/images/service/svg/phython.png",
+      name: "phython",
+
+    },
+    {
+      id: "22",
+      img: "/assets/images/service/svg/rlogo.png",
+      name: "R Programming",
+
+    },
+    {
+      id: "23",
+      img: "/assets/images/service/svg/ai.png",
+      name: "AI",
+
+    },
+    {
+      id: "24",
+      img: "/assets/images/service/svg/tableau.svg",
+      name: "Tableau",
+
+    },
+    {
+      id: "25",
+      img: "/assets/images/service/svg/jquery.svg",
+      name: "JQuery",
+
+    },
+    {
+      id: "26",
+      img: "/assets/images/service/svg/wordpress.png",
+      name: "Wordpress",
+
+    }, 
+  ];
 const cards = [
     {
       id: 1,
@@ -188,7 +302,7 @@ const cards = [
         <Banner 
           bannertitle="Work with a development team with skills CTOs praise"
           bannersubtext="Software supports your business growth, and you need more from it. We’ve helped over 160+ companies build scalable products with confidence. Technology executives chose our development teams because of their skills tested in 7+ markets."
-          serviceimg="/assets/images/aboutusimg3.png"
+          serviceimg="/assets/images/service/svg/web.png"
           servicehead="One scalable team for start-to-finish development"
           servicedesc1="What does it mean to be reliable? It means your outsourced team works as well as your web developers do. Access web development services trusted by 98% of CTOs that you’ll find understanding with. They made APIs, custom web applications, hybrid mobile app development, provided web design services, updated stacks, and build cloud-native systems."
           servicedesc2="One place — everyone you need: Business Analysts, Product Designers, Project Managers, QA Engineers, DevOps, and Full-stack developers. Expect our web development team to be proactive throughout the project with an abundance of improvement suggestions that will get business moving even in areas such as search engine optimization."

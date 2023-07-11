@@ -183,7 +183,7 @@ para:"No matter how valuable and engaging your content, it won’t generate conv
         <Banner 
           bannertitle="Build your brand awareness across the web and create meaningful connections with your customers and followers through social media marketing (SMM)."
           bannersubtext="Ackrolix provides social media marketing for small businesses, enterprises and multiple-location companies. No matter if you own a startup or a Fortune 500 company, our social media marketing experts can assist you with your campaign. Partner with us and let our social media marketing agency boost your brand visibility and integrity!"
-          serviceimg="/assets/images/aboutusimg3.png"
+          serviceimg="/assets/images/service/svg/med.png"
           servicehead="Social Media Marketing Basics"
           servicedesc1="Social media channels have become a major source of news and information in today’s internet-driven world. But that’s not all. Social media presence is also a vital factor in search rankings and digital marketing."
           servicedesc2="As social media usage continues to grow exponentially, knowing how to market on social media is becoming more crucial in reaching your target demographics and creating brand awareness. Many marketers, however, enter the digital and social media marketing realm without fully understanding what is social media marketing and its demands. Don’t make the same mistake.
@@ -196,9 +196,9 @@ para:"No matter how valuable and engaging your content, it won’t generate conv
       <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
        <ComponentHead
-        title="Technology"
+        title="Platforms"
         sub="Social Media Marketing"
-        head="The technology stack for Social Media Marketing can vary depending on the specific requirements of the application and the chosen modernization approach."
+        head="The Platforms stack for Social Media Marketing can vary depending on the specific requirements of the application and the chosen modernization approach."
       />
       <Technology tech={techs} />
       </div>
@@ -215,7 +215,7 @@ para:"No matter how valuable and engaging your content, it won’t generate conv
               processhead="Ackrolix"
               processsub="Ackrolix for Your SMM"
               processdesc="As an award-winning social media management company, Ackrolix Internet Marketing Agency maintains full transparency so you can see first-hand how our efforts are increasing your online revenue. Our commitment to effective social media management and marketing strategies creates a valuable network resource for your online marketing needs."
-              processimg="/assets/images/service/videoservice.png"
+              processimg="/assets/images/service/svg/med1.png"
             />
             <Process process={processes} />
           </div>
