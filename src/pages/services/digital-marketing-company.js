@@ -16,89 +16,84 @@ const Marketing = () => {
   const processes = [
     {
       id: "1",
-      name: "Rehosting or Lift-and-Shift",
-      desc: "This approach involves moving an existing application to a new infrastructure without making significant changes to the application's architecture or functionality.",
+      name: "Brand and Business",
+desc:"Evaluates the level of your digital presence, including competitive position, online reputation and customer relationship management (CRM)"
     },
     {
       id: "2",
-      name: "Refactoring or Re-architecting",
-      desc: "Refactoring involves making structural changes to the application's codebase and architecture while preserving its core functionality. It aims to improve the application's performance, scalability, and maintainability.",
-    },
+      name: "Content and Engagement",
+desc:"Assesses your brand engagement, social media marketing strategy, email marketing strategy and content strategy SEO performance, etc."    },
     {
       id: "3",
-      name: "Replatforming",
-      desc: "Replatforming entails moving an application to a different platform or technology stack while retaining its core features & functionality. For example, migrating an on-premises application to a cloud platform.",
-    },
+      name: "Internal Team or Partners",
+desc: "Determines your capacity to generate online marketing ideas and perform necessary web optimization processes."   },
     {
       id: "4",
-      name: "Rearchitecting or Redesigning",
-      desc: "Rearchitecting involves a significant overhaul of the application's architecture and design to meet current business needs and technological advancements.",
-    },
+      name: "  Technology and Software Integration",
+desc:"Identifies your organization’s major challenges in tracking campaign performance metrics."    },
     {
       id: "5",
-      name: "Containerization",
-      desc: "Containerization involves encapsulating an application and its dependencies into containers, using technologies like Docker. This approach allows applications to run consistently across different environments and simplifies deployment and scalability.",
-    },
+      name: "Lead Sources",
+desc:"Determines your key traffic sources and the availability of essential marketing channels"    },
     {
       id: "6",
-      name: "Replacement or Rebuilding",
-      desc: "In some cases, it may be more feasible to replace an existing application with a new solution rather than attempting to modernize it. This approach involves rebuilding the application from scratch, leveraging modern technologies and design principles.",
-    },
+      name: "Success Measurement",
+desc:"Evaluates your campaign performance based on factors such as customer lifetime value (CLV), lead volume and website traffic"    },
   ];
 const techs = [
-    {
-        id: "1",
-        img: "/assets/images/service/node.svg",
-        name: "Node.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "2",
-        img: "/assets/images/service/react.svg",
-        name: "React.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "3",
-        img: "/assets/images/service/angularjs.svg",
-        name: "Angular",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "4",
-        img: "/assets/images/service/laravel.svg",
-        name: "Laravel",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "5",
-        img: "/assets/images/service/typescript.svg",
-        name: "Typescript",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "6",
-        img: "/assets/images/service/nextjs.svg",
-        name: "Next.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
+    // {
+    //     id: "1",
+    //     img: "/assets/images/service/node.svg",
+    //     name: "Node.js",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "2",
+    //     img: "/assets/images/service/react.svg",
+    //     name: "React.js",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "3",
+    //     img: "/assets/images/service/angularjs.svg",
+    //     name: "Angular",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "4",
+    //     img: "/assets/images/service/laravel.svg",
+    //     name: "Laravel",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "5",
+    //     img: "/assets/images/service/typescript.svg",
+    //     name: "Typescript",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "6",
+    //     img: "/assets/images/service/nextjs.svg",
+    //     name: "Next.js",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
 ];
 const cards = [
     {
       id: 1,
-      para: "Our modernization solutions revolutionize your applications' performance, scalability, agility, & maintainability. We enable seamless integration with emerging technologies, optimize infrastructure, & streamline workflows to ensure your applications are future-proof.",
+      para: "Given the plethora of marketing strategy agencies that offer website audit services, online marketing and social media strategy solutions, it can be challenging to find the right agency that fits your business. In some cases, you might fall into the trap of an internet marketing and content strategy agency that over-promises but under-delivers.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Revitalize",
-      subtitle: "Revolutionize Your Applications With Modernization Solutions",
+      maintitle: "Strategy",
+      subtitle: "Our Marketing Strategy Agency Considers Your Unique Industry",
     },
     {
       id: 2,
       icon: "01",
-      title: "Improved Productivity",
-      para: "We aim to enhance productivity by addressing the limitations, inefficiencies, & outdated aspects of existing applications.",
+      title: "Web Audit Practices",
+      para: "A reputable marketing strategy company runs a complete digital marketing audit, provides transparent site audit results and clarifies website issues and technical processes. Additionally, a reliable digital strategy firm uses advanced SEO audit tools to ensure all campaign details and recommendations are accurate.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -110,8 +105,8 @@ const cards = [
     {
       id: 3,
       icon: "02",
-      title: "Cost Optimization",
-      para: "The strategic efforts to reduce expenses associated with application development, maintenance, & operations while maximizing value & efficiency.",
+      title: "eCommerce Marketing Strategy",
+      para: "Many marketers have entered the eCommerce marketplace, but only a few truly understand its demands, limitations and potential. If you’re building your eCommerce strategy or still solidifying your social media marketing plan for your online store, it’s imperative that you choose a digital marketing strategy agency with years of experience in eCommerce optimization.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -123,8 +118,8 @@ const cards = [
     {
       id: 4,
       icon: "03",
-      title: "Better Security",
-      para: "Fewer vulnerabilities generated by old and disorderly legacy code (threat identified by OWASP).",
+      title: "Online Marketplace Advertising Plan",
+      para: "Are you a third-party retailer on Amazon, Target Plus or Walmart Marketplace? To improve your profitability and ensure your Amazon marketing strategy adheres to the marketplace standards, be sure to consult with a digital strategy firm that is well-versed in the demands and restrictions of various online marketplace platforms.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -136,8 +131,8 @@ const cards = [
     {
       id: 5,
       icon: "04",
-      title: "Improved CX",
-      para: "Enhanced performance and easier 3rd party integrations lead to improved customer experience (CX).",
+      title: "Marketing Flexibility",
+      para: "A trustworthy digital strategy consultant formulates a social media marketing business plan and digital marketing techniques that adapt to client demands and changing market conditions. Whether you need help developing a B2B social media strategy, B2C social media strategy or other digital marketing strategies, our internet marketing strategy consultants can assist you.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -149,8 +144,8 @@ const cards = [
     {
       id: 6,
       icon: "05",
-      title: "Better Business Performance",
-      para: "Higher sales through improved CX (IBM reports that app modernization leads to a 14% revenue increase).",
+      title: "Advertising Strategy",
+      para: "Promoting your products and services online requires cutting-edge organic and paid search strategies to rise above the din and attract customer attention. However, only a few marketing strategy agencies can effectively produce and implement both Google AdWords strategy and organic digital marketing techniques.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -162,8 +157,8 @@ const cards = [
     {
       id: 7,
       icon: "06",
-      title: "New Growth Possibilities",
-      para: "New business possibilities for a modernized app, including AI, machine learning, big data, and the public cloud.",
+      title: "SEO Website Strategy",
+      para: "A dependable internet strategy consultant examines all aspects of your web design and SEO performance to determine all factors that affect your website accessibility and hinder your online growth. Beware of a digital strategy agency that delves right into search optimization without discussing your responsive web design issues.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -186,12 +181,13 @@ const cards = [
         }}
       >
         <Banner 
-          bannertitle="Make your systems efficient & scalable with our app modernization expertise"
-          bannersubtext="Get your app back on track for growth with our practice-driven app modernization skills. We provide full-scope app modernization services you can start using quickly to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+          bannertitle="You Know What You Want,
+          But You’re Not Sure How to Get There"
+          bannersubtext="We Ensure You Don’t Take the Wrong Turn En Route to Success."
           serviceimg="/assets/images/aboutusimg3.png"
-          servicehead="Put your present in order so you can focus on scaling up for new users"
-          servicedesc1="Popular apps often fall victim to their own success. They grow fast to satisfy business requirements, patched up ad-hoc by different teams. Eventually, they become sluggish and difficult to maintain, let alone extend and improve. App modernization can turn it all around."
-          servicedesc2="The Ackrolix Innovations development teams have been called to the rescue of many legacy projects. In their course, our developers carried out tech stack migrations and consolidations, refactored codebases, designed and redesigned architectures, moved from a monolith to microservices, and performed architecture audits."
+          servicehead="Why You Need to Start With Strategy"
+          servicedesc1="Marketing your brand without an internet marketing strategy or using an inappropriate online marketing plan is a surefire way to lose money, waste time and get nowhere."
+          servicedesc2=" In today’s digital world, growing a business comes with many challenges and opportunities that demand different web marketing strategies and solutions. A digital marketing strategy that has worked for a specific audience segment may not be the best approach for another. Likewise, internet marketing strategies that yielded positive results a year ago may not generate the same results today." 
         />
       </div>
       <Cards card={cards} />
@@ -213,9 +209,9 @@ const cards = [
         >
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
-              processhead="Services"
-              processsub="App Modernization On Peek"
-              processdesc="Full-scope app modernization services you can start using quickly (even in weeks!) to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+              processhead="Areas"
+              processsub="6 Key Areas of Focus "
+              processdesc="To ensure we outline a digital marketing plan tailored to your brand, we ask you to accomplish a self-assessment questionnaire based on six core areas:"
               processimg="/assets/images/service/videoservice.png"
             />
             <Process process={processes} />

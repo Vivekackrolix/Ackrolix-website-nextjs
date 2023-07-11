@@ -16,89 +16,84 @@ const SmmAgency = () => {
   const processes = [
     {
       id: "1",
-      name: "Rehosting or Lift-and-Shift",
-      desc: "This approach involves moving an existing application to a new infrastructure without making significant changes to the application's architecture or functionality.",
-    },
+      name: "Dedicated Account Managers",
+desc:"At Ackrolix, we assign specific strategists depending on your industry demands, social media marketing needs and goals. This means you could get multiple social media digital marketing experts working on your brand. Your dedicated account managers are available by email or phone to respond to any questions or engage in discussions."    },
     {
       id: "2",
-      name: "Refactoring or Re-architecting",
-      desc: "Refactoring involves making structural changes to the application's codebase and architecture while preserving its core functionality. It aims to improve the application's performance, scalability, and maintainability.",
-    },
+      name: "Extensive Onboarding Process",
+desc:"Our social media marketing consultants provide you with an in-depth social media marketing strategy breakdown during your campaign inception. This way, you know exactly what tactics we will implement to achieve your goals. Additionally, we establish your campaign metrics from the get-go to ensure we are on the same page."    },
     {
       id: "3",
-      name: "Replatforming",
-      desc: "Replatforming entails moving an application to a different platform or technology stack while retaining its core features & functionality. For example, migrating an on-premises application to a cloud platform.",
-    },
+      name: "Custom Social Media Marketing Strategy",
+desc:"Boost your social media engagement and marketing efforts with a social media marketing strategy designed to fit your needs and budget. Our social media marketing experts identify your target audience to create effective social media digital marketing plans that drive higher ROI. "    },
     {
       id: "4",
-      name: "Rearchitecting or Redesigning",
-      desc: "Rearchitecting involves a significant overhaul of the application's architecture and design to meet current business needs and technological advancements.",
+      name: "Social Media Campaign Reports",
+      desc: "Our custom, in-depth reporting measures include social media campaign reports that give a full overview of your social media performance. We also offer a monthly breakdown of the social media tasks we’ve performed and the hours we’ve spent to help you monitor your ROI.",
     },
     {
       id: "5",
-      name: "Containerization",
-      desc: "Containerization involves encapsulating an application and its dependencies into containers, using technologies like Docker. This approach allows applications to run consistently across different environments and simplifies deployment and scalability.",
-    },
+      name: "Paid and Organic Team",
+desc:"We ensure our clients are matched with a subject matter expert. Our team comprises organic and paid strategists with years of expertise and experience, so you can rest easy knowing your campaign is well taken care of. Although paid and organic are very different aspects of social media marketing, we implement a cohesive strategy to maximize your social media marketing conversions."    },
     {
       id: "6",
-      name: "Replacement or Rebuilding",
-      desc: "In some cases, it may be more feasible to replace an existing application with a new solution rather than attempting to modernize it. This approach involves rebuilding the application from scratch, leveraging modern technologies and design principles.",
-    },
+      name: "Diverse Marketing Experience",
+desc:"Ackrolix has experience in many different markets, including B2B and B2C at all sizes. Whether you own a startup, enterprise or a multi-location company, our social media marketing firm strives to go above and beyond your expectations. We give your brand a solid social media presence and online reputation through sustained research, tracking and adaptation to online trends and resources."    },
   ];
 const techs = [
-    {
-        id: "1",
-        img: "/assets/images/service/node.svg",
-        name: "Node.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "2",
-        img: "/assets/images/service/react.svg",
-        name: "React.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "3",
-        img: "/assets/images/service/angularjs.svg",
-        name: "Angular",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "4",
-        img: "/assets/images/service/laravel.svg",
-        name: "Laravel",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "5",
-        img: "/assets/images/service/typescript.svg",
-        name: "Typescript",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "6",
-        img: "/assets/images/service/nextjs.svg",
-        name: "Next.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
+    // {
+    //     id: "1",
+    //     img: "/assets/images/service/node.svg",
+    //     name: "Node.js",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "2",
+    //     img: "/assets/images/service/react.svg",
+    //     name: "React.js",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "3",
+    //     img: "/assets/images/service/angularjs.svg",
+    //     name: "Angular",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "4",
+    //     img: "/assets/images/service/laravel.svg",
+    //     name: "Laravel",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "5",
+    //     img: "/assets/images/service/typescript.svg",
+    //     name: "Typescript",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "6",
+    //     img: "/assets/images/service/nextjs.svg",
+    //     name: "Next.js",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
 ];
 const cards = [
     {
       id: 1,
-      para: "Our modernization solutions revolutionize your applications' performance, scalability, agility, & maintainability. We enable seamless integration with emerging technologies, optimize infrastructure, & streamline workflows to ensure your applications are future-proof.",
+      para: "Social media marketing services have numerous advantages for startups and established brands. With the right social media marketing plan and campaign monitoring system, social media content marketing can lead to increased search traffic, better SEO,  healthier customer engagement and improved brand loyalty.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Revitalize",
-      subtitle: "Revolutionize Your Applications With Modernization Solutions",
+      maintitle: "Benefits",
+      subtitle: "What Are the Benefits of Social Media Marketing Services",
     },
     {
       id: 2,
       icon: "01",
-      title: "Improved Productivity",
-      para: "We aim to enhance productivity by addressing the limitations, inefficiencies, & outdated aspects of existing applications.",
+      title: "Better Online Exposure",
+      para: "Social media marketing is continually progressing and adapting, becoming a powerful online marketing resource for companies and brands. Social media platforms like Facebook, Twitter, LinkedIn and Instagram can dynamically increase exposure and interest in your company.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -110,8 +105,8 @@ const cards = [
     {
       id: 3,
       icon: "02",
-      title: "Cost Optimization",
-      para: "The strategic efforts to reduce expenses associated with application development, maintenance, & operations while maximizing value & efficiency.",
+      title: "High Search Rankings",
+      para: "Search engines like Google and Bing now integrate updates, Tweets, profiles and comments into their results pages, recognizing the importance of social interaction. The more people share your content across social media channels, the more traffic they send to your website, and therefore, the better your search rankings.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -123,8 +118,8 @@ const cards = [
     {
       id: 4,
       icon: "03",
-      title: "Better Security",
-      para: "Fewer vulnerabilities generated by old and disorderly legacy code (threat identified by OWASP).",
+      title: "Specific Audience Targeting",
+para:"No matter how valuable and engaging your content, it won’t generate conversions if it doesn’t reach the right audience. Marketing through social media allows you to identify and categorize your ideal customers by age, location and online activities, among other metrics.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -136,8 +131,8 @@ const cards = [
     {
       id: 5,
       icon: "04",
-      title: "Improved CX",
-      para: "Enhanced performance and easier 3rd party integrations lead to improved customer experience (CX).",
+      title: "Improved Customer Reach",
+      para: "A Global Web Index study shows that approximately 54 percent of online users utilize social media platforms for product research. Furthermore, 49 percent of consumers depend on recommendations from social media influencers when looking for brands.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -149,8 +144,8 @@ const cards = [
     {
       id: 6,
       icon: "05",
-      title: "Better Business Performance",
-      para: "Higher sales through improved CX (IBM reports that app modernization leads to a 14% revenue increase).",
+      title: "Complete Brand Control",
+      para: "Social media marketing packages are tailored to your specific needs and financial capacity. This means you have complete control over your branding, budget and social media content marketing strategy. Learning how to use social media for marketing enables you to create and maintain an image that appeals to your target audience and ensure your B2B social media marketing game is always on point.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -162,8 +157,8 @@ const cards = [
     {
       id: 7,
       icon: "06",
-      title: "New Growth Possibilities",
-      para: "New business possibilities for a modernized app, including AI, machine learning, big data, and the public cloud.",
+      title: "Enhanced Customer Trust",
+      para: "Understanding how to use social media for marketing allows you to build a thought leadership brand and create deep, meaningful connections with your followers. Our social media marketing agency shares valuable content and engages in online conversations about your company to keep a pulse on your target market.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -186,12 +181,16 @@ const cards = [
         }}
       >
         <Banner 
-          bannertitle="Make your systems efficient & scalable with our app modernization expertise"
-          bannersubtext="Get your app back on track for growth with our practice-driven app modernization skills. We provide full-scope app modernization services you can start using quickly to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+          bannertitle="Build your brand awareness across the web and create meaningful connections with your customers and followers through social media marketing (SMM)."
+          bannersubtext="Ackrolix provides social media marketing for small businesses, enterprises and multiple-location companies. No matter if you own a startup or a Fortune 500 company, our social media marketing experts can assist you with your campaign. Partner with us and let our social media marketing agency boost your brand visibility and integrity!"
           serviceimg="/assets/images/aboutusimg3.png"
-          servicehead="Put your present in order so you can focus on scaling up for new users"
-          servicedesc1="Popular apps often fall victim to their own success. They grow fast to satisfy business requirements, patched up ad-hoc by different teams. Eventually, they become sluggish and difficult to maintain, let alone extend and improve. App modernization can turn it all around."
-          servicedesc2="The Ackrolix Innovations development teams have been called to the rescue of many legacy projects. In their course, our developers carried out tech stack migrations and consolidations, refactored codebases, designed and redesigned architectures, moved from a monolith to microservices, and performed architecture audits."
+          servicehead="Social Media Marketing Basics"
+          servicedesc1="Social media channels have become a major source of news and information in today’s internet-driven world. But that’s not all. Social media presence is also a vital factor in search rankings and digital marketing."
+          servicedesc2="As social media usage continues to grow exponentially, knowing how to market on social media is becoming more crucial in reaching your target demographics and creating brand awareness. Many marketers, however, enter the digital and social media marketing realm without fully understanding what is social media marketing and its demands. Don’t make the same mistake.
+
+          Our social media marketing specialists explain the different aspects of business-to-consumer (B2C) and business-to-business (B2B) social media marketing to help you get started with your campaign. Read on and learn what is social media marketing and how to market on social media straight from Ackrolix’s social media marketing experts.
+          
+          "
         />
       </div>
       <Cards card={cards} />
@@ -213,9 +212,9 @@ const cards = [
         >
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
-              processhead="Services"
-              processsub="App Modernization On Peek"
-              processdesc="Full-scope app modernization services you can start using quickly (even in weeks!) to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+              processhead="Ackrolix"
+              processsub="Ackrolix for Your SMM"
+              processdesc="As an award-winning social media management company, Ackrolix Internet Marketing Agency maintains full transparency so you can see first-hand how our efforts are increasing your online revenue. Our commitment to effective social media management and marketing strategies creates a valuable network resource for your online marketing needs."
               processimg="/assets/images/service/videoservice.png"
             />
             <Process process={processes} />

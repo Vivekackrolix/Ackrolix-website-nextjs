@@ -16,89 +16,89 @@ const SemAgency = () => {
   const processes = [
     {
       id: "1",
-      name: "Rehosting or Lift-and-Shift",
-      desc: "This approach involves moving an existing application to a new infrastructure without making significant changes to the application's architecture or functionality.",
+      name: "Better Brand Recognition",
+      desc: "Internet search engine marketing allows you to choose and bid on the most accurate keywords that match your customers’ search intent. Additionally, Google SEM enables you to place your brand name in the ad’s headline, display URL, description and extension link.",
     },
     {
       id: "2",
-      name: "Refactoring or Re-architecting",
-      desc: "Refactoring involves making structural changes to the application's codebase and architecture while preserving its core functionality. It aims to improve the application's performance, scalability, and maintainability.",
+      name: "Increased Conversion",
+      desc: "One of the key benefits of Google SEM ads is its ability to provide near-immediate results with a fast return on investment (ROI). With the right search engine marketing solutions, you can generate new sales and conversions on the same day.",
     },
     {
       id: "3",
-      name: "Replatforming",
-      desc: "Replatforming entails moving an application to a different platform or technology stack while retaining its core features & functionality. For example, migrating an on-premises application to a cloud platform.",
+      name: "Specific Targeting",
+      desc: "Statistics show that more than 30 billion Google searches are conducted every month and 99.9 percent of these global searches do not apply to your audience targeting approach.",
     },
     {
       id: "4",
-      name: "Rearchitecting or Redesigning",
-      desc: "Rearchitecting involves a significant overhaul of the application's architecture and design to meet current business needs and technological advancements.",
+      name: "Greater Campaign Control",
+      desc: "SEM digital marketing makes it easy to manage your advertising budget, campaign scope and brand messaging. Unlike in SEO, where search engines decide how organic search results are displayed, Google search advertising gives you control over your calls-to-action (CTAs), ad schedule, audience targeting and other aspects of your Google SEM ads.",
     },
     {
       id: "5",
-      name: "Containerization",
-      desc: "Containerization involves encapsulating an application and its dependencies into containers, using technologies like Docker. This approach allows applications to run consistently across different environments and simplifies deployment and scalability.",
+      name: "Measurable Growth",
+      desc: "Internet search engine marketing enables you to test your ad performance and measure the results for each campaign. With access to in-depth analytics and campaign data, you can determine which ads generate the highest conversion rate for your company in terms of CTR, clicks, impressions and other metrics."
     },
     {
       id: "6",
-      name: "Replacement or Rebuilding",
-      desc: "In some cases, it may be more feasible to replace an existing application with a new solution rather than attempting to modernize it. This approach involves rebuilding the application from scratch, leveraging modern technologies and design principles.",
+      name: "Improved Organic Traffic",
+      desc: "Research shows that more than 93 percent of online experiences begin with a search engine. This means gaining higher search visibility positions your brand where the majority of your customers are. By knowing what is SEM and how you can leverage it to your advantage, you can drive high-quality traffic to your website from search engines."
     },
   ];
-const techs = [
-    {
-        id: "1",
-        img: "/assets/images/service/node.svg",
-        name: "Node.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "2",
-        img: "/assets/images/service/react.svg",
-        name: "React.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "3",
-        img: "/assets/images/service/angularjs.svg",
-        name: "Angular",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "4",
-        img: "/assets/images/service/laravel.svg",
-        name: "Laravel",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "5",
-        img: "/assets/images/service/typescript.svg",
-        name: "Typescript",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "6",
-        img: "/assets/images/service/nextjs.svg",
-        name: "Next.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-];
-const cards = [
+  const techs = [
+    // {
+    //   id: "1",
+    //   img: "/assets/images/service/node.svg",
+    //   name: "Node.js",
+    //   desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //   id: "2",
+    //   img: "/assets/images/service/react.svg",
+    //   name: "React.js",
+    //   desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //   id: "3",
+    //   img: "/assets/images/service/angularjs.svg",
+    //   name: "Angular",
+    //   desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //   id: "4",
+    //   img: "/assets/images/service/laravel.svg",
+    //   name: "Laravel",
+    //   desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //   id: "5",
+    //   img: "/assets/images/service/typescript.svg",
+    //   name: "Typescript",
+    //   desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //   id: "6",
+    //   img: "/assets/images/service/nextjs.svg",
+    //   name: "Next.js",
+    //   desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+  ];
+  const cards = [
     {
       id: 1,
-      para: "Our modernization solutions revolutionize your applications' performance, scalability, agility, & maintainability. We enable seamless integration with emerging technologies, optimize infrastructure, & streamline workflows to ensure your applications are future-proof.",
+      para: "Search engines use algorithms to rank SEM ads and determine their search relevance. Paid search engine marketing is all about creating the right search engine marketing strategy, bidding on high-value keywords and continuously improving your search advertising tactics based on analytics results to lower your ad spending and improve profitability.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Revitalize",
-      subtitle: "Revolutionize Your Applications With Modernization Solutions",
+      maintitle: "Work",
+      subtitle: "How Does SEM Work?",
     },
     {
       id: 2,
       icon: "01",
-      title: "Improved Productivity",
-      para: "We aim to enhance productivity by addressing the limitations, inefficiencies, & outdated aspects of existing applications.",
+      title: "Keyword Research and Analysis",
+      para: "Our SEM company utilizes advanced keyword research tools, such as Google Search Console, to identify high-performing search terms and eliminate negative keywords from your list that are not an effective use of your search advertising budget.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -110,8 +110,8 @@ const cards = [
     {
       id: 3,
       icon: "02",
-      title: "Cost Optimization",
-      para: "The strategic efforts to reduce expenses associated with application development, maintenance, & operations while maximizing value & efficiency.",
+      title: "Ads Creation and Landing Page Development",
+      para: "Once we’ve identified your target keywords, our search engine marketing experts craft text-based ads to display in search results and link them to unique, optimized landing pages. The goal is to capture your target audience’s initial search intent and move them to the bottom of your sales funnel.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -123,8 +123,8 @@ const cards = [
     {
       id: 4,
       icon: "03",
-      title: "Better Security",
-      para: "Fewer vulnerabilities generated by old and disorderly legacy code (threat identified by OWASP).",
+      title: " Account Setup and Tracking",
+      para: "This phase is crucial in understanding the effectiveness of your search engine marketing strategy. Our SEM firm runs a lead-tracking report to see if the search engine in use supports conversion tracking. If it does, we double-check the codes to ensure they are properly installed on your landing pages.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -136,8 +136,8 @@ const cards = [
     {
       id: 5,
       icon: "04",
-      title: "Improved CX",
-      para: "Enhanced performance and easier 3rd party integrations lead to improved customer experience (CX).",
+      title: "Campaign Launch and Monitoring",
+      para: "Now that you have optimized paid search marketing ads, well-designed landing pages and a robust search engine marketing strategy, you are almost ready to launch your PPC search engine marketing campaign. Our SEM agency manages your campaign settings, such as locations, languages, networks and devices, to determine how your ads will run. Upon the campaign launch, we closely monitor your ad performance.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -149,8 +149,8 @@ const cards = [
     {
       id: 6,
       icon: "05",
-      title: "Better Business Performance",
-      para: "Higher sales through improved CX (IBM reports that app modernization leads to a 14% revenue increase).",
+      title: "Evaluation and Analysis",
+      para: "Benchmarking campaign results against your paid search marketing goals is key to measuring your SEM success. We track and evaluate your key performance indicators (KPIs), including click-through rate (CTR), Quality Score, search impression share and cost per conversion. The analytics results allow us to optimize your next paid search engine marketing campaigns for higher conversions.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -159,24 +159,11 @@ const cards = [
       textcolor: "text-secondary",
       main: "hidden",
     },
-    {
-      id: 7,
-      icon: "06",
-      title: "New Growth Possibilities",
-      para: "New business possibilities for a modernized app, including AI, machine learning, big data, and the public cloud.",
-      bgcolor: "bg-[#F6F8F9]",
-      cols: "md:col-span-1",
-      display: "icon",
-      textsize: "text-xl",
-      fontbold: "font-bold",
-      textcolor: "text-secondary",
-      main: "hidden",
-    },
-  ];  
+  ];
   return (
     <div>
       <Head>
-        <title>Social Engine Marketing</title>        
+        <title>Social Engine Marketing</title>
       </Head>
       <Header />
       <div
@@ -185,23 +172,28 @@ const cards = [
           backgroundImage: 'url("/assets/images/mainbackground.png ")',
         }}
       >
-        <Banner 
-          bannertitle="Make your systems efficient & scalable with our app modernization expertise"
-          bannersubtext="Get your app back on track for growth with our practice-driven app modernization skills. We provide full-scope app modernization services you can start using quickly to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+        <Banner
+          bannertitle="What is SEM and Why It’s a Great Investment"
+          bannersubtext="In today’s increasingly competitive digital world, search engines have become an indispensable utility across industries and institutions, including digital marketing, healthcare, education and eCommerce. Search engines are customer service tools that allow online users to locate diverse information on the internet, including news, blog posts and brand offerings, and make informed decisions."
           serviceimg="/assets/images/aboutusimg3.png"
-          servicehead="Put your present in order so you can focus on scaling up for new users"
-          servicedesc1="Popular apps often fall victim to their own success. They grow fast to satisfy business requirements, patched up ad-hoc by different teams. Eventually, they become sluggish and difficult to maintain, let alone extend and improve. App modernization can turn it all around."
-          servicedesc2="The Ackrolix Innovations development teams have been called to the rescue of many legacy projects. In their course, our developers carried out tech stack migrations and consolidations, refactored codebases, designed and redesigned architectures, moved from a monolith to microservices, and performed architecture audits."
+          servicehead="What Are Search Engines?"
+          servicedesc1=" Search engines have three significant functions:"
+          servicedesc2="1. Crawl
+          Search engines use their own web crawlers or search engine spiders to scour billions of pages on the internet and find new and updated content, such as web pages, videos, PDF files and images. Search engine spiders fetch a few websites and follow the links on these pages to find new URLs.
+        "servicedesc3="  2. Index
+In this phase, search engines store and organize the content based on the keywords, data, recency and user engagement.The new URLs found in the crawling process are indexed in a massive database called Caffeine to be retrieved when the content on the URL matches an online user’s search query.
+"servicedesc4="3. Rank
+Search engines categorize web pages and rank them based on relevance to provide the most useful search results to online users. The higher your website ranks on SERPs, the greater your search visibility and significance to the query."
         />
       </div>
       <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
-       <ComponentHead
-        title="Technology"
-        sub="Social Engine Marketing"
-        head="The technology stack for Social Engine Marketing can vary depending on the specific requirements of the application and the chosen modernization approach."
-      />
-      <Technology tech={techs} />
+        <ComponentHead
+          title="Technology"
+          sub="Social Engine Marketing"
+          head="The technology stack for Social Engine Marketing can vary depending on the specific requirements of the application and the chosen modernization approach."
+        />
+        <Technology tech={techs} />
       </div>
 
       <div>
@@ -213,9 +205,9 @@ const cards = [
         >
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
-              processhead="Services"
-              processsub="App Modernization On Peek"
-              processdesc="Full-scope app modernization services you can start using quickly (even in weeks!) to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+              processhead="Essential"
+              processsub="Search Engine Marketing Essential"
+              processdesc="SEM digital marketing makes your business more visible in search engines. And unlike traditional advertising tactics, internet search engine marketing connects your company with an extremely targeted audience segment."
               processimg="/assets/images/service/videoservice.png"
             />
             <Process process={processes} />

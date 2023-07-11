@@ -1,6 +1,6 @@
 import React from "react";
 
-const Banner = ({ bannertitle, bannersubtext, serviceimg, servicehead, servicedesc1, servicedesc2 }) => {
+const Banner = ({ bannertitle, bannersubtext, serviceimg, servicehead, servicedesc1, servicedesc2,servicedesc3,servicedesc4 }) => {
   return (
     <div>
       <div className="container-ack md:px-0 px-5 ">
@@ -37,6 +37,12 @@ const Banner = ({ bannertitle, bannersubtext, serviceimg, servicehead, servicede
                 </div>
                 <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4 md:pt-3 pt-2">
                   {servicedesc2}
+                </div>
+                <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4 md:pt-3 pt-2">
+                  {servicedesc3}
+                </div>
+                <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4 md:pt-3 pt-2">
+                  {servicedesc4}
                 </div>
               </div>
             </div>

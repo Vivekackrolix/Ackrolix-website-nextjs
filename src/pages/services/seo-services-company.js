@@ -16,89 +16,91 @@ const SeoAgency = () => {
   const processes = [
     {
       id: "1",
-      name: "Rehosting or Lift-and-Shift",
-      desc: "This approach involves moving an existing application to a new infrastructure without making significant changes to the application's architecture or functionality.",
-    },
+      name: "Discover",
+desc:"As your search engine optimization company, we take the time to understand your business needs, demands and expectations. During the discovery phase, we set up a meeting with your key company stakeholders and conduct an initial site review. Afterwards, we identify your key performance indicators (KPIs), determine your conversion path and perform extensive keyword research. Doing so allows us to gain in-depth knowledge of your company’s processes, site purpose and goals."    },
     {
       id: "2",
-      name: "Refactoring or Re-architecting",
-      desc: "Refactoring involves making structural changes to the application's codebase and architecture while preserving its core functionality. It aims to improve the application's performance, scalability, and maintainability.",
-    },
+      name: "Analyze",
+desc:"The next step is analysis, which covers competitive benchmarking, in-depth site audit, site analytics review and link risk assessment. In this stage, we collect and analyze all your business data to determine the factors that affect your digital presence. We look at your historical traffic patterns, on-site technical issues, competitor’s backlink strategies and link building tactics. We utilize the analytics results in formulating the best approach for your SEO."    },
     {
       id: "3",
-      name: "Replatforming",
-      desc: "Replatforming entails moving an application to a different platform or technology stack while retaining its core features & functionality. For example, migrating an on-premises application to a cloud platform.",
-    },
+      name: "Strategize",
+desc:"Once we’ve identified your marketing gaps and opportunities, our SEO experts will create a 60-day strategic online marketing plan (SOMP). This includes your campaign goals, expected outcomes for each marketing channel and estimated completion time. During the first month of your campaign, our SEO company prioritizes the most critical aspects of your SEO. This is to ensure all our SEO efforts deliver immediate, targeted results."    },
     {
       id: "4",
-      name: "Rearchitecting or Redesigning",
-      desc: "Rearchitecting involves a significant overhaul of the application's architecture and design to meet current business needs and technological advancements.",
+      name: "Execute",
+      desc: "In this phase, we start executing the SOMP. We optimize your web pages and blog posts with high-performing keywords, improve your site structure and manage your business listings. Our SEO company also leverages a multiple channel strategy to improve your overall SEO results. We implement social media management campaigns and reach out to third-party websites to increase your online reach.",
     },
     {
       id: "5",
-      name: "Containerization",
-      desc: "Containerization involves encapsulating an application and its dependencies into containers, using technologies like Docker. This approach allows applications to run consistently across different environments and simplifies deployment and scalability.",
+      name: "Report",
+      desc: "Our SEO team schedules regular consultations and monthly reports with your project managers to keep you up-to-date with your campaign progress. During our consultation, we present a comprehensive report that provides an overview of your site performance. This includes your KPI trends, overall traffic and ranking. Every month, we create a new 90-day roadmap, so you know exactly how your campaign is doing and what to expect.",
     },
     {
       id: "6",
-      name: "Replacement or Rebuilding",
-      desc: "In some cases, it may be more feasible to replace an existing application with a new solution rather than attempting to modernize it. This approach involves rebuilding the application from scratch, leveraging modern technologies and design principles.",
+      name: "Measure",
+      desc: "From the moment you sign up with our SEO company, we set up a tracking system that allows us to monitor your online progress and understand the impact of your SEO campaign. We monitor and analyze your analytics, keyword rankings and KPI. Our SEO experts also look at your organic traffic, bounce rate, conversion rate, local visibility and click-through rates (CTRs). By monitoring your SEO efforts, we gain actionable insights and improve your optimization strategies.",
+    },
+    {
+      id: "6",
+      name: "Adjust",
+      desc: "As part of our ongoing SEO efforts, we continuously adjust our optimization strategies based on the latest algorithm updates and market trends. Search engines are dynamically changing and industry demands are continuously evolving. As such, we take a proactive approach to ensure your website ranks high on search results. Trust our SEO team to make the necessary adjustments and keep you informed of your campaign progress at all times.",
     },
   ];
 const techs = [
-    {
-        id: "1",
-        img: "/assets/images/service/node.svg",
-        name: "Node.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "2",
-        img: "/assets/images/service/react.svg",
-        name: "React.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "3",
-        img: "/assets/images/service/angularjs.svg",
-        name: "Angular",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "4",
-        img: "/assets/images/service/laravel.svg",
-        name: "Laravel",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "5",
-        img: "/assets/images/service/typescript.svg",
-        name: "Typescript",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "6",
-        img: "/assets/images/service/nextjs.svg",
-        name: "Next.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
+    // {
+    //     id: "1",
+    //     img: "/assets/images/service/node.svg",
+    //     name: "Node.js",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "2",
+    //     img: "/assets/images/service/react.svg",
+    //     name: "React.js",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "3",
+    //     img: "/assets/images/service/angularjs.svg",
+    //     name: "Angular",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "4",
+    //     img: "/assets/images/service/laravel.svg",
+    //     name: "Laravel",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "5",
+    //     img: "/assets/images/service/typescript.svg",
+    //     name: "Typescript",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
+    // {
+    //     id: "6",
+    //     img: "/assets/images/service/nextjs.svg",
+    //     name: "Next.js",
+    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
+    // },
 ];
 const cards = [
     {
       id: 1,
-      para: "Our modernization solutions revolutionize your applications' performance, scalability, agility, & maintainability. We enable seamless integration with emerging technologies, optimize infrastructure, & streamline workflows to ensure your applications are future-proof.",
+      para: "Our SEO Solutions Work: We’ve Proven it Over and Over Again",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Revitalize",
-      subtitle: "Revolutionize Your Applications With Modernization Solutions",
+      maintitle: "Better",
+      subtitle: " Ackrolix SEO Services Are Better",
     },
     {
       id: 2,
       icon: "01",
-      title: "Improved Productivity",
-      para: "We aim to enhance productivity by addressing the limitations, inefficiencies, & outdated aspects of existing applications.",
+      title: "Experience Matters",
+      para: "For more than 15 years, Ackrolix has helped businesses in all industries grow their online presence to drive more revenue. We have the experience and client success stories to support any size business wanting to increase online traffic and grow its leads.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -110,8 +112,8 @@ const cards = [
     {
       id: 3,
       icon: "02",
-      title: "Cost Optimization",
-      para: "The strategic efforts to reduce expenses associated with application development, maintenance, & operations while maximizing value & efficiency.",
+      title: "Dedicated SEO Professionals",
+      para: "We believe our job is to make a technical, complicated and sometimes overwhelming search engine optimization process as simple as possible for our clients. One of the many ways we accomplish this is by providing each client with a single point of contact to manage your project.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -123,8 +125,8 @@ const cards = [
     {
       id: 4,
       icon: "03",
-      title: "Better Security",
-      para: "Fewer vulnerabilities generated by old and disorderly legacy code (threat identified by OWASP).",
+      title: "Relationships & Results",
+      para: "We live by our two primary core values: Relationships and Results. We’re here for every client, that’s our pillar. We have SEO experts who specialize in helping businesses of all sizes -- from small businesses to large, national franchises -- achieve exponential growth.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -136,8 +138,8 @@ const cards = [
     {
       id: 5,
       icon: "04",
-      title: "Improved CX",
-      para: "Enhanced performance and easier 3rd party integrations lead to improved customer experience (CX).",
+      title: "We’re Always Getting Better",
+      para: "SEO is never stagnant and neither are we. SEO is always changing because of multiple Google algorithm updates each year that impact ranking factors and we are always on top of the latest news and trends. Our search engine optimization company is constantly learning new techniques and staying up-to-date to remain ahead of the curve.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -149,8 +151,8 @@ const cards = [
     {
       id: 6,
       icon: "05",
-      title: "Better Business Performance",
-      para: "Higher sales through improved CX (IBM reports that app modernization leads to a 14% revenue increase).",
+      title: "We Play Fair",
+      para: "We value honesty and integrity in everything we do. We always play fair, using white hat SEO to drive results without spamming or gaming the system that can lead to possible Google penalties. Simply put: We don’t have to cheat to win in SEO. As a Google Partner, we play by the rules and never jeopardize your business in any way. We never compromise our integrity.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -162,8 +164,8 @@ const cards = [
     {
       id: 7,
       icon: "06",
-      title: "New Growth Possibilities",
-      para: "New business possibilities for a modernized app, including AI, machine learning, big data, and the public cloud.",
+      title: "Transparent Reporting",
+      para: "While our competitors use smoke and mirrors, we maintain full transparency so you can see first-hand how our efforts are increasing your online revenue. Our custom, in-depth reporting includes Google Analytics reports to give you a full overview of your site’s SEO performance, regularly updated keyword rankings and a monthly breakdown of the SEO tasks we’ve performed. ",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -186,12 +188,22 @@ const cards = [
         }}
       >
         <Banner 
-          bannertitle="Make your systems efficient & scalable with our app modernization expertise"
-          bannersubtext="Get your app back on track for growth with our practice-driven app modernization skills. We provide full-scope app modernization services you can start using quickly to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+          bannertitle=" Search Engine Optimization is a Great Investment"
+          bannersubtext="Search engine optimization is more commonly known as its acronym SEO. Optimization is the basis of all SEO practices. Once your brand's presence (website, content and social media platforms) is optimized across the internet, you increase its online visibility. Your website will find its way to the first page of the search engine results pages (SERPs). Your online customers will find your business much quicker too."
           serviceimg="/assets/images/aboutusimg3.png"
-          servicehead="Put your present in order so you can focus on scaling up for new users"
-          servicedesc1="Popular apps often fall victim to their own success. They grow fast to satisfy business requirements, patched up ad-hoc by different teams. Eventually, they become sluggish and difficult to maintain, let alone extend and improve. App modernization can turn it all around."
-          servicedesc2="The Ackrolix Innovations development teams have been called to the rescue of many legacy projects. In their course, our developers carried out tech stack migrations and consolidations, refactored codebases, designed and redesigned architectures, moved from a monolith to microservices, and performed architecture audits."
+          servicehead="An SEO Marketing Company That Gets It"
+          servicedesc1="Let’s face it. You know what you need but you just don’t know how to get it. Our SEO specialists hear that over and over from SEO clients who contact Ackrolix Internet Marketing Agency.
+
+          You’re likely here because of one or more of the following reasons:
+          
+          •  Your website isn’t being found online.
+          
+          •  Your website traffic has diminished recently and you don’t know why.
+          
+          •  Suddenly, your volume of incoming calls and leads has declined.
+          
+          •  You’re starting a new website and want to ramp up new business quickly."
+          servicedesc2="Ackrolix is a customer-focused SEO company. Our SEO experts work closely with our clients to develop personalized SEO strategies that drive long-term profitability. By using a proven, efficient and effective methodology, we are able to create high-quality, measurable results."
         />
       </div>
       <Cards card={cards} />
@@ -213,9 +225,9 @@ const cards = [
         >
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
-              processhead="Services"
-              processsub="App Modernization On Peek"
-              processdesc="Full-scope app modernization services you can start using quickly (even in weeks!) to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+              processhead="Methaodology"
+              processsub="Ackrolix Agile SEO Methodology"
+              processdesc="Our SEO company utilizes a methodology called “Agile SEO,” which allows us to build a robust campaign framework that provides value for your business. Ackrolix's Agile SEO approach is built around the following processes:"
               processimg="/assets/images/service/videoservice.png"
             />
             <Process process={processes} />
