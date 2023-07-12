@@ -4,17 +4,17 @@ import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import ComponentHead from "../Common/ComponentHead";
+import ThankYouModal from "../modal/ThankYouModal";
 
 const JobListData = [
   {
     id: 1,
     name: "Front-end Developer ",
     discription:
-    "We’re looking for a mid-level Front-end Developer to join our team.",
+      "We’re looking for a mid-level Front-end Developer to join our team.",
     experice: "4-5 Years",
     Salary: "10-20 LPA",
-    Skills:
-      "Java Script, React.js, HTML, CSS, Bootstrap",
+    Skills: "Java Script, React.js, HTML, CSS, Bootstrap",
   },
   {
     id: 2,
@@ -23,8 +23,7 @@ const JobListData = [
       "We’re looking for a mid-level Back-end Developer to join our team.",
     experice: "5-7 Years",
     Salary: "10-20 LPA",
-    Skills:
-      "Python, PHP, Java, C#",
+    Skills: "Python, PHP, Java, C#",
   },
   {
     id: 3,
@@ -33,11 +32,11 @@ const JobListData = [
       "We’re looking for a mid-level Back-end Developer to join our team.",
     experice: "5-7 Years",
     Salary: "10-20 LPA",
-    Skills:
-      "Java, Ruby, PHP or Python",
+    Skills: "Java, Ruby, PHP or Python",
   },
 ];
 const JobListingCareers = () => {
+  //modal state
   let [isOpen, setIsOpen] = useState(false);
 
   function closeModal() {
@@ -47,6 +46,98 @@ const JobListingCareers = () => {
   function openModal() {
     setIsOpen(true);
   }
+
+  //form feild
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+
+  const [phone, setPhone] = useState("");
+  const [position, setPosition] = useState("");
+
+  const [experience, setExperience] = useState("");
+  const [currentCompany, setCurrentcompany] = useState("");
+  const [skills, setSkills] = useState("");
+  const [currentSalary, setCurrentsalary] = useState("");
+  const [expectedSalary, setExpectedSalary] = useState("");
+  const [relocate, setRelocate] = useState("");
+  const [message, setMessage] = useState("");
+
+  const [submitText, setSubmitText] = useState("Send");
+
+  const [errorMessage, setErrorMessage] = useState("");
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  //send data using api
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log("data after submit:", e);
+
+    if (!name) {
+      setErrorMessage("Please enter name");
+    } else if (!email) {
+      setErrorMessage("Please enter email");
+    } else if (!emailRegex.test(email)) {
+      setErrorMessage("Please enter valid email");
+    } else if (!phone) {
+      setErrorMessage("Please enter phone number");
+    } else if (!position) {
+      setErrorMessage("Please enter position");
+    } else if (!experience) {
+      setErrorMessage("Please enter experience");
+    } else if (!currentCompany) {
+      setErrorMessage("Please enter current Company");
+    } else if (!skills) {
+      setErrorMessage("Please enter skills");
+    } else if (!currentSalary) {
+      setErrorMessage("Please enter current Salary");
+    } else if (!expectedSalary) {
+      setErrorMessage("Please enter expected Salary");
+    } else if (!relocate) {
+      setErrorMessage("Please enter relocate");
+    } else {
+      setSubmitText("...");
+
+      let data = {
+        name,
+        email,
+        phone,
+        position,
+        experience,
+        currentCompany,
+        skills,
+        currentSalary,
+        expectedSalary,
+        relocate,
+        message,
+      };
+
+      fetch("/api/career", {
+        method: "POST",
+        headers: {
+          Accept: "application/json, */*",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      }).then((res) => {
+        // console.log("Response received:", res);
+        // console.log("data:", data);
+
+        if (res.status === 200) {
+          console.log("Response succeeded!");
+          setName("");
+          setEmail("");
+          setPhone("");
+          setPosition("");
+          setMessage("");
+          setSubmitText("Submitted");
+          closeModal();
+          setIsModalOpen(true);
+        }
+      });
+    }
+  };
 
   return (
     <>
@@ -173,7 +264,7 @@ const JobListingCareers = () => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-[800px] transform overflow-hidden rounded-md bg-white p-6 text-left align-middle shadow-xl transition-all">
+                <Dialog.Panel className="w-full max-w-6xl transform overflow-hidden rounded-md bg-white p-6 text-left align-middle shadow-xl transition-all">
                   <div className="w-full ">
                     <div className="flex justify-end">
                       <AiOutlineClose
@@ -182,11 +273,11 @@ const JobListingCareers = () => {
                         onClick={closeModal}
                       />
                     </div>
-                    <div className="grid grid-cols-2">
+                    <div className="md:grid grid-cols-12">
                       <h2 className="absolute text-8xl font-bold text-gray-200 left-0 top-20 -z-10">
                         Join
                       </h2>
-                      <div className="px-8 flex flex-col justify-center h-96 pt-20 space-y-6">
+                      <div className="col-span-5 px-8 flex flex-col justify-center h-96 pt-20 space-y-6">
                         <div className="">
                           <h2 className="text-4xl">Lorem ipsum</h2>
                         </div>
@@ -202,17 +293,17 @@ const JobListingCareers = () => {
                         </p>
                       </div>
 
-                      <div className="p-8 shadow-xl rounded-md">
+                      <div className="col-span-7 p-8 shadow-xl rounded-md">
                         <h1 className="text-xl font-semibold">
                           Join Our Team!
                         </h1>
                         <p className="font-normal text-sm">
                           Lorem ipsum dolor sit amet consectetur.
                         </p>
-                        <form className="mt-6 space-y-3 text-sm">
+                        <form className="md:grid grid-cols-2 gap-4 mt-6 text-sm">
                           <div className="">
                             <label
-                              for="email"
+                              for="name"
                               className="block text-xs font-semibold text-gray-600 uppercase"
                             >
                               Name
@@ -221,8 +312,9 @@ const JobListingCareers = () => {
                               id="name"
                               type="name"
                               name="name"
+                              onChange={(e) => setName(e.target.value)}
                               placeholder="Enter Your Name"
-                              autocomplete="email"
+                              autocomplete="name"
                               className="block rounded w-full px-4 py-2 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner"
                               required
                             />
@@ -236,9 +328,10 @@ const JobListingCareers = () => {
                             </label>
                             <input
                               id="email"
-                              type="email"
+                              type="text"
                               name="email"
-                              placeholder="Enter Email"
+                              onChange={(e) => setEmail(e.target.value)}
+                              placeholder="Enter Your Email"
                               className="block rounded w-full px-4 py-2 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner"
                               required
                             />
@@ -254,12 +347,185 @@ const JobListingCareers = () => {
                               id="phone"
                               type="text"
                               name="phone"
-                              placeholder="Enter Phone"
+                              onChange={(e) => setPhone(e.target.value)}
+                              placeholder="Enter Your Phone"
                               className="block rounded w-full px-4 py-2 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner"
                               required
                             />
                           </div>
                           <div>
+                            <label
+                              for="position"
+                              className="block text-xs font-semibold text-gray-600 uppercase"
+                            >
+                              Position
+                            </label>
+                            <input
+                              id="position"
+                              type="text"
+                              name="position"
+                              onChange={(e) => setPosition(e.target.value)}
+                              placeholder="Enter Your Position"
+                              className="block rounded w-full px-4 py-2 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner"
+                              required
+                            />
+                          </div>
+                          <div>
+                            <label
+                              for="experience"
+                              className="block text-xs font-semibold text-gray-600 uppercase"
+                            >
+                              Year Of Experience
+                            </label>
+                            <input
+                              id="experience"
+                              type="text"
+                              name="experience"
+                              onChange={(e) => setExperience(e.target.value)}
+                              placeholder="Enter Your Year Of Experience"
+                              className="block rounded w-full px-4 py-2 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner"
+                              required
+                            />
+                          </div>
+                          <div>
+                            <label
+                              for="currentcompany"
+                              className="block text-xs font-semibold text-gray-600 uppercase"
+                            >
+                              Current Company
+                            </label>
+                            <input
+                              id="currentcompany"
+                              type="text"
+                              name="currentcompany"
+                              onChange={(e) =>
+                                setCurrentcompany(e.target.value)
+                              }
+                              placeholder="Enter Your Current Company"
+                              className="block rounded w-full px-4 py-2 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner"
+                              required
+                            />
+                          </div>
+                          <div className="col-span-2">
+                            <label
+                              for="skills"
+                              className="block text-xs font-semibold text-gray-600 uppercase"
+                            >
+                              Skills
+                            </label>
+                            <input
+                              id="skills"
+                              type="text"
+                              name="skills"
+                              onChange={(e) => setSkills(e.target.value)}
+                              placeholder="Enter Your Skills"
+                              className="block rounded w-full px-4 py-2 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner"
+                              required
+                            />
+                          </div>
+                          <div>
+                            <label
+                              for="currentsalary"
+                              className="block text-xs font-semibold text-gray-600 uppercase"
+                            >
+                              Current Salary
+                            </label>
+                            <input
+                              id="currentsalary"
+                              type="text"
+                              name="currentsalary"
+                              onChange={(e) => setCurrentsalary(e.target.value)}
+                              placeholder="Enter Your Current Salary"
+                              className="block rounded w-full px-4 py-2 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner"
+                              required
+                            />
+                          </div>
+                          <div>
+                            <label
+                              for="expectedsalary"
+                              className="block text-xs font-semibold text-gray-600 uppercase"
+                            >
+                              Expected Salary
+                            </label>
+                            <input
+                              id="expectedsalary"
+                              type="text"
+                              name="expectedsalary"
+                              onChange={(e) =>
+                                setExpectedSalary(e.target.value)
+                              }
+                              placeholder="Enter Your Expected Salary"
+                              className="block rounded w-full px-4 py-2 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner"
+                              required
+                            />
+                          </div>
+                          <div className="col-span-2">
+                            <label
+                              for="relocate"
+                              className="block text-xs font-semibold text-gray-600 uppercase"
+                            >
+                              Are You Willing To Relocate To Gurgaon (Yes/No) ?
+                            </label>
+
+                            <div className="flex gap-6 items-center py-2">
+                              <div class="flex items-center">
+                                <input
+                                  id="relocateYes"
+                                  type="radio"
+                                  value="Yes"
+                                  class="h-4 w-4 border-gray-300 focus:ring-2 focus:ring-blue-300"
+                                  aria-labelledby="relocateYes"
+                                  aria-describedby="relocateYes"
+                                  name="relocate"
+                                  onChange={(e) => setRelocate(e.target.value)}
+                                />
+                                <label
+                                  for="relocateYes"
+                                  class="text-sm font-medium text-gray-900 ml-2 block"
+                                >
+                                  Yes
+                                </label>
+                              </div>
+
+                              <div class="flex items-center">
+                                <input
+                                  id="relocateNo"
+                                  type="radio"
+                                  name="relocate"
+                                  onChange={(e) => setRelocate(e.target.value)}
+                                  value="No"
+                                  class="h-4 w-4 border-gray-300 focus:ring-2 focus:ring-blue-300"
+                                  aria-labelledby="relocateNo"
+                                  aria-describedby="relocateNo"
+                                />
+                                <label
+                                  for="relocateNo"
+                                  class="text-sm font-medium text-gray-900 ml-2 block"
+                                >
+                                  No
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-span-2">
+                            <label
+                              for="message"
+                              className="block text-xs font-semibold text-gray-600 uppercase"
+                            >
+                              Additional Information
+                            </label>
+                            <textarea
+                              id="message"
+                              rows={5}
+                              type="text"
+                              name="message"
+                              onChange={(e) => setMessage(e.target.value)}
+                              placeholder="Enter Your Additional Information"
+                              className="block rounded w-full px-4 py-2 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner"
+                              required
+                            />
+                          </div>
+                          {/* <div>
                             <label
                               for="uploadFile"
                               className="block text-xs font-semibold text-gray-600 uppercase"
@@ -274,16 +540,26 @@ const JobListingCareers = () => {
                               className="block rounded w-full px-4 py-2 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner"
                               required
                             />
-                          </div>
-                          <p className="text-sm py-4">
+                          </div> */}
+                          {errorMessage ? (
+                            <p className="text-sm text-red-500">
+                              {errorMessage}
+                            </p>
+                          ) : (
+                            ""
+                          )}
+                          <p className="col-span-2 text-sm py-4">
                             Lorem ipsum dolor sit amet consectetur. Accumsan ut
                             ultricies lectus sem nunc.
                           </p>
                           <button
                             type="submit"
-                            className="w-full py-3 rounded-xl font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none"
+                            onClick={(e) => {
+                              handleSubmit(e);
+                            }}
+                            className="col-span-2 w-full py-3 rounded-xl font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none"
                           >
-                            Send
+                            <span className="text-base"> {submitText} </span>
                           </button>
                         </form>
                       </div>
@@ -295,6 +571,7 @@ const JobListingCareers = () => {
           </div>
         </Dialog>
       </Transition>
+      {isModalOpen ? <ThankYouModal /> : ""}
     </>
   );
 };
