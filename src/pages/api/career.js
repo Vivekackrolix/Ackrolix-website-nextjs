@@ -10,14 +10,14 @@ export default async function handler(req, res) {
         port: 465,
         secure: true,
         auth: {
-          user: "gagan@ackrolixinnovations.com",
-          pass: "cnhaxiypgkupswoa",
+          user: "info@ackrolix.com",
+          pass: "htckmgwqfmopszay",
         },
       });
 
       await transporter.sendMail({
-        from: "gagan@ackrolixinnovations.com",
-        to: "gagan@ackrolixinnovations.com",
+        from: "info@ackrolix.com",
+        to: "info@ackrolix.com",
         subject: `Career : ${req.body.position}`,
         text: "message" + message + " | Sent from: " + email,
         html: `
