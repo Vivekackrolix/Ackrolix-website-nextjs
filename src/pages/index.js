@@ -15,6 +15,7 @@ import Card from "../components/Home/Card";
 import OurServices from "../components/Home/OurServices";
 import Portfolio from "../components/Home/Portfolio";
 import OurGroups from "../components/Home/OurGroups";
+import BannerResponsive from "../components/Home/BannerResponsive";
 const index = () => {
   return (
     <>
@@ -23,6 +24,7 @@ const index = () => {
       </Head>
       <Header />
       <Banner />
+      <BannerResponsive/>
       <About />
       <OurServices />
       <OurGroups/>

@@ -56,7 +56,7 @@ const Advisors = () => {
 
   return (
     <div className="">
-    <div className="container-ack md:px-0 px-5 md:pt-0 pt-16 ">
+    <div className="container-ack md:px-0 px-5  ">
       <ComponentHead
         title="Advisors"
         sub="Our Industry Experts"
@@ -72,7 +72,7 @@ const Advisors = () => {
                   <img
                     src={item.image}
                     alt="advisor"
-                    className="rounded-[100%] w-20 h-20 mx-auto rounded-[100%]"
+                    className="w-20 h-20 mx-auto rounded-[100%]"
                   />
                 </div>
 

@@ -12,7 +12,7 @@ const Videos = () => {
 
   return (
     <>
-      <div className="mt-16 relative video-main w-full cursor-pointer rounded-xl md:px-0 px-5">
+      <div className="mt-16 relative video-main w-full cursor-pointer rounded-xl">
         {play ?
           <div className=" absolute top-[50%] right-[46%]">
             <div className="relative inline-flex">

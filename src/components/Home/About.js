@@ -9,19 +9,19 @@ import Link from "next/link";
 const aboutdata = [
   {
     id: 1,
-    image: "/assets/images/about/about-slide-1.png",
+    image: "/assets/images/about/aboutone.png",
   },
   {
     id: 2,
-    image: "/assets/images/about/about-slide-2.png",
+    image: "/assets/images/about/aboutwo.png",
   },
   {
     id: 3,
-    image: "/assets/images/about/about-slide-3.png",
+    image: "/assets/images/about/abouthree.png",
   },
   {
     id: 4,
-    image: "/assets/images/about/about-slide-4.png",
+    image: "/assets/images/about/aboutfour.png",
   },
 ];
 
@@ -86,7 +86,7 @@ const About = () => {
   };
 
   return (
-    <div className="bg-[#F6F8F9] py-10">
+    <div className="bg-[#F6F8F9] md:py-10">
       <div className="md:grid grid-cols-5 gap-4 items-center mobile-hide">
         <div className="col-span-2 md:px-0 px-5 pb-10 md:pb-0 ">
 

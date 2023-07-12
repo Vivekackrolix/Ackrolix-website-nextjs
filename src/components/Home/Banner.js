@@ -96,7 +96,7 @@ const Banner = () => {
   }, []);
   return (
     <div
-      className="bg-right"
+      className="bg-right md:block hidden"
       style={{
         backgroundImage: 'url("/assets/images/mainbackground.png ")',
       }}
