@@ -180,6 +180,12 @@ const MediaBuying = () => {
       name: "Marketo",
 
     },
+    {
+      id: "25",
+      img: "/assets/images/service/svg/tumblr.svg",
+      name: "Tumblr",
+
+    },
    
   ];
   const cards = [

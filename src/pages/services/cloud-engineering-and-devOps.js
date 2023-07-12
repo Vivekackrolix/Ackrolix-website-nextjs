@@ -145,31 +145,31 @@ const CloudEngineeringAndDevOps = () => {
     {
       id: "2",
       img: "/assets/images/service/svg/flutter.svg",
-      name: "Flutter",
+      name: "Angular",
 
     },
     {
       id: "3",
-      img: "/assets/images/service/svg/ionic.svg",
-      name: "Ionic",
+      img: "/assets/images/service/svg/next.png",
+      name: "Next.js",
 
     },
     {
       id: "4",
-      img: "/assets/images/service/svg/react.svg",
-      name: "ReactNative",
+      img: "/assets/images/service/svg/nodejs.svg",
+      name: "Node.js",
 
     },
     {
       id: "5",
-      img: "/assets/images/service/svg/saas.png",
-      name: "SAAS",
+      img: "/assets/images/service/svg/express.png",
+      name: "Express",
 
     },
     {
       id: "6",
-      img: "/assets/images/service/svg/andriod.png",
-      name: "Android",
+      img: "/assets/images/service/svg/html.png",
+      name: "HTML",
 
     },
     {
@@ -180,112 +180,130 @@ const CloudEngineeringAndDevOps = () => {
     },
     {
       id: "8",
-      img: "/assets/images/service/svg/css.svg",
-      name: "CSS",
-
-    },
-    {
-      id: "10",
-      img: "/assets/images/service/svg/net.png",
-      name: "Microsoft .net",
-
-    },
-    {
-      id: "11",
-      img: "/assets/images/service/svg/javascript.svg",
-      name: "Javascript",
-
-    },
-    {
-      id: "12",
-      img: "/assets/images/service/svg/drupal.svg",
-      name: "Drupal",
-
-    },
-    {
-      id: "13",
-      img: "/assets/images/service/svg/joomla.svg",
-      name: "Joomla",
-
-    },
-    {
-      id: "14",
-      img: "/assets/images/service/svg/matlab.png",
-      name: "Matlab",
-
-    },
-    {
-      id: "15",
-      img: "/assets/images/service/svg/html.png",
-      name: "HTML",
-
-    },
-    {
-      id: "16",
-      img: "/assets/images/service/svg/java.svg",
-      name: "JAVA",
-
-    },
-    {
-      id: "17",
-      img: "/assets/images/service/svg/sql.png",
-      name: "SQL",
-
-    },
-    {
-      id: "18",
-      img: "/assets/images/service/svg/firebase.svg",
-      name: "Firebase",
-
-    },
-    {
-      id: "19",
-      img: "/assets/images/service/svg/nodejs.svg",
-      name: "Node.js",
-
-    },
-    {
-      id: "20",
       img: "/assets/images/service/svg/php.png",
       name: "php",
 
     },
     {
-      id: "21",
+      id: "9",
+      img: "/assets/images/service/svg/laravel.png",
+      name: "Laravel",
+
+    },
+    {
+      id: "10",
+      img: "/assets/images/service/svg/codeigniter.png",
+      name: "Codeigniter",
+
+    },
+    {
+      id: "11",
+      img: "/assets/images/service/svg/net.png",
+      name: "Asp.net",
+
+    },
+    {
+      id: "12",
       img: "/assets/images/service/svg/phython.png",
       name: "phython",
 
     },
     {
+      id: "13",
+      img: "/assets/images/service/svg/java.svg",
+      name: "JAVA",
+
+    },
+    {
+      id: "14",
+      img: "/assets/images/service/svg/andriod.png",
+      name: "Android",
+
+    },
+    {
+      id: "15",
+      img: "/assets/images/service/svg/flutter.svg",
+      name: "Flutter",
+
+    },
+    {
+      id: "16",
+      img: "/assets/images/service/svg/ios.svg",
+      name: "iOS",
+
+    },
+    {
+      id: "17",
+      img: "/assets/images/service/svg/react.svg",
+      name: "ReactNative",
+
+    },
+    {
+      id: "18",
+      img: "/assets/images/service/svg/sql.png",
+      name: "MySQL",
+
+    },
+    {
+      id: "19",
+      img: "/assets/images/service/svg/mongodb.png",
+      name: "MonogoDb",
+
+    },
+    {
+      id: "20",
+      img: "/assets/images/service/svg/postgresql.svg",
+      name: "PostgreSQL",
+
+    },
+    {
+      id: "21",
+      img: "/assets/images/service/svg/amazon-web-services.svg",
+      name: "AWS",
+
+    },
+    {
       id: "22",
-      img: "/assets/images/service/svg/rlogo.png",
-      name: "R Programming",
+      img: "/assets/images/service/svg/wordpress.png",
+      name: "Wordpress",
 
     },
     {
       id: "23",
-      img: "/assets/images/service/svg/ai.png",
-      name: "AI",
+      img: "/assets/images/service/svg/shopify.svg",
+      name: "Shopify",
 
     },
     {
       id: "24",
-      img: "/assets/images/service/svg/tableau.svg",
-      name: "Tableau",
+      img: "/assets/images/service/svg/joomla.svg",
+      name: "Joomla",
 
     },
     {
       id: "25",
-      img: "/assets/images/service/svg/jquery.svg",
-      name: "JQuery",
+      img: "/assets/images/service/svg/magento.svg",
+      name: "Magento",
 
     },
     {
       id: "26",
-      img: "/assets/images/service/svg/wordpress.png",
-      name: "Wordpress",
+      img: "/assets/images/service/svg/webflow.svg",
+      name: "Webflow",
 
-    }, 
+    },
+    {
+      id: "27",
+      img: "/assets/images/service/svg/firebase.svg",
+      name: "Firebase",
+
+    },
+    {
+      id: "28",
+      img: "/assets/images/service/svg/jquery.svg",
+      name: "JQuery",
+
+    },
   ];
   return (
     <div>

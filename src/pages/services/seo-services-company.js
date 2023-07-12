@@ -186,6 +186,12 @@ desc:"Once we’ve identified your marketing gaps and opportunities, our SEO exp
       name: "Marketo",
 
     },
+    {
+      id: "25",
+      img: "/assets/images/service/svg/tumblr.svg",
+      name: "Tumblr",
+
+    },
    
   ];
 const cards = [

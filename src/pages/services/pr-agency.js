@@ -177,6 +177,12 @@ desc:"Effects of unforeseen events can take a hit on the brand’s reputation an
       name: "Marketo",
 
     },
+    {
+      id: "25",
+      img: "/assets/images/service/svg/tumblr.svg",
+      name: "Tumblr",
+
+    },
    
   ];
   const cards = [
