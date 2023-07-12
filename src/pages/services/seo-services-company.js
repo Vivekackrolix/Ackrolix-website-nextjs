@@ -11,21 +11,24 @@ import ProcessHead from "../../components/Services/DetailPage/ProcessHead";
 import Work from "../../components/Services/DetailPage/Work";
 import Enquiry from "../../components/Services/DetailPage/Enquiry";
 import Clients from "../../components/Home/Clients";
-
+import CaseStudies from "../../components/Services/DetailPage/CaseStudies";
 const SeoAgency = () => {
   const processes = [
     {
       id: "1",
       name: "Discover",
-desc:"As your search engine optimization company, we take the time to understand your business needs, demands and expectations. During the discovery phase, we set up a meeting with your key company stakeholders and conduct an initial site review. Afterwards, we identify your key performance indicators (KPIs), determine your conversion path and perform extensive keyword research. Doing so allows us to gain in-depth knowledge of your company’s processes, site purpose and goals."    },
+      desc: "As your search engine optimization company, we take the time to understand your business needs, demands and expectations. During the discovery phase, we set up a meeting with your key company stakeholders and conduct an initial site review. Afterwards, we identify your key performance indicators (KPIs), determine your conversion path and perform extensive keyword research. Doing so allows us to gain in-depth knowledge of your company’s processes, site purpose and goals."
+    },
     {
       id: "2",
       name: "Analyze",
-desc:"The next step is analysis, which covers competitive benchmarking, in-depth site audit, site analytics review and link risk assessment. In this stage, we collect and analyze all your business data to determine the factors that affect your digital presence. We look at your historical traffic patterns, on-site technical issues, competitor’s backlink strategies and link building tactics. We utilize the analytics results in formulating the best approach for your SEO."    },
+      desc: "The next step is analysis, which covers competitive benchmarking, in-depth site audit, site analytics review and link risk assessment. In this stage, we collect and analyze all your business data to determine the factors that affect your digital presence. We look at your historical traffic patterns, on-site technical issues, competitor’s backlink strategies and link building tactics. We utilize the analytics results in formulating the best approach for your SEO."
+    },
     {
       id: "3",
       name: "Strategize",
-desc:"Once we’ve identified your marketing gaps and opportunities, our SEO experts will create a 60-day strategic online marketing plan (SOMP). This includes your campaign goals, expected outcomes for each marketing channel and estimated completion time. During the first month of your campaign, our SEO company prioritizes the most critical aspects of your SEO. This is to ensure all our SEO efforts deliver immediate, targeted results."    },
+      desc: "Once we’ve identified your marketing gaps and opportunities, our SEO experts will create a 60-day strategic online marketing plan (SOMP). This includes your campaign goals, expected outcomes for each marketing channel and estimated completion time. During the first month of your campaign, our SEO company prioritizes the most critical aspects of your SEO. This is to ensure all our SEO efforts deliver immediate, targeted results."
+    },
     {
       id: "4",
       name: "Execute",
@@ -192,9 +195,9 @@ desc:"Once we’ve identified your marketing gaps and opportunities, our SEO exp
       name: "Tumblr",
 
     },
-   
+
   ];
-const cards = [
+  const cards = [
     {
       id: 1,
       para: "Our SEO Solutions Work: We’ve Proven it Over and Over Again",
@@ -283,11 +286,49 @@ const cards = [
       textcolor: "text-secondary",
       main: "hidden",
     },
-  ];  
+  ];
+  const casestudies = [
+    {
+      id: 1,
+      image: "/assets/images/service/caseone.png",
+      name: "Logical Fallacies",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id: 2,
+      image: "/assets/images/service/casetwo.png",
+      name: "Long term risk",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id: 3,
+      image: "/assets/images/service/casethree.png",
+      name: "growth hackers",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id: 4,
+      image: "/assets/images/service/casetwo.png",
+      name: " whole lot of factors",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id: 5,
+      image: "/assets/images/service/casethree.png",
+      name: "Outliers’ success",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id: 6,
+      image: "/assets/images/service/caseone.png",
+      name: "North Star Metric",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+  ]
   return (
     <div>
       <Head>
-        <title>Search Engine Optimization</title>        
+        <title>Search Engine Optimization</title>
       </Head>
       <Header />
       <div
@@ -296,7 +337,7 @@ const cards = [
           backgroundImage: 'url("/assets/images/mainbackground.png ")',
         }}
       >
-        <Banner 
+        <Banner
           bannertitle=" Search Engine Optimization is a Great Investment"
           bannersubtext="Search engine optimization is more commonly known as its acronym SEO. Optimization is the basis of all SEO practices. Once your brand's presence (website, content and social media platforms) is optimized across the internet, you increase its online visibility. Your website will find its way to the first page of the search engine results pages (SERPs). Your online customers will find your business much quicker too."
           serviceimg="/assets/images/service/svg/sea.png"
@@ -317,12 +358,12 @@ const cards = [
       </div>
       <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
-       <ComponentHead
-        title="Platforms"
-        sub="Search Engine Optimization"
-        head="The Platforms stack for Search Engine Optimization can vary depending on the specific requirements of the application and the chosen modernization approach."
-      />
-      <Technology tech={techs} />
+        <ComponentHead
+          title="Platforms"
+          sub="Search Engine Optimization"
+          head="The Platforms stack for Search Engine Optimization can vary depending on the specific requirements of the application and the chosen modernization approach."
+        />
+        <Technology tech={techs} />
       </div>
 
       <div>
@@ -347,7 +388,11 @@ const cards = [
             backgroundImage: 'url("/assets/images/service/wave.png")',
           }}></div>
       </div>
-
+      <ComponentHead
+        title="Studies"
+        sub="Case Studies"
+      />
+      <CaseStudies casestudies={casestudies} />
       <Work />
       {/* <Section /> */}
       <Enquiry />
