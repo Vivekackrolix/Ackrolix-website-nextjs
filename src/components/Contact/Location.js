@@ -121,7 +121,7 @@ const Location = () => {
                       <FaLocationArrow size={20} />
                       <div className="text-xs">
                         <h2 className="font-semibold">ADDRESS</h2>
-                        <p className="text-primary">
+                        <p className="text-primary p-0">
                           {item.address}
                         </p>
                       </div>
