@@ -40,44 +40,147 @@ desc:"We ensure our clients are matched with a subject matter expert. Our team c
       name: "Diverse Marketing Experience",
 desc:"Ackrolix has experience in many different markets, including B2B and B2C at all sizes. Whether you own a startup, enterprise or a multi-location company, our social media marketing firm strives to go above and beyond your expectations. We give your brand a solid social media presence and online reputation through sustained research, tracking and adaptation to online trends and resources."    },
   ];
-const techs = [
-    // {
-    //     id: "1",
-    //     img: "/assets/images/service/node.svg",
-    //     name: "Node.js",
-    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    // },
-    // {
-    //     id: "2",
-    //     img: "/assets/images/service/react.svg",
-    //     name: "React.js",
-    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    // },
-    // {
-    //     id: "3",
-    //     img: "/assets/images/service/angularjs.svg",
-    //     name: "Angular",
-    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    // },
-    // {
-    //     id: "4",
-    //     img: "/assets/images/service/laravel.svg",
-    //     name: "Laravel",
-    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    // },
-    // {
-    //     id: "5",
-    //     img: "/assets/images/service/typescript.svg",
-    //     name: "Typescript",
-    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    // },
-    // {
-    //     id: "6",
-    //     img: "/assets/images/service/nextjs.svg",
-    //     name: "Next.js",
-    //     desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    // },
-];
+  const techs = [
+    {
+      id: "1",
+      img: "/assets/images/service/svg/google.svg",
+      name: "Google",
+
+    },
+    {
+      id: "2",
+      img: "/assets/images/service/svg/google-ads.svg",
+      name: "Google Ads",
+
+    },
+    {
+      id: "3",
+      img: "/assets/images/service/svg/google-analytics.svg",
+      name: "google Analytics",
+
+    },
+    {
+      id: "4",
+      img: "/assets/images/service/svg/facebook.svg",
+      name: "Facebook",
+
+    },
+    {
+      id: "5",
+      img: "/assets/images/service/svg/instagram.svg",
+      name: "Instagram",
+
+    },
+    {
+      id: "6",
+      img: "/assets/images/service/svg/twitter.svg",
+      name: "Twitter",
+
+    },
+    {
+      id: "7",
+      img: "/assets/images/service/svg/linkedin.svg",
+      name: "LinkedIn",
+
+    },
+    {
+      id: "8",
+      img: "/assets/images/service/svg/youtube.svg",
+      name: "YouTube",
+
+    },
+    {
+      id: "10",
+      img: "/assets/images/service/svg/pinterest.svg",
+      name: "Pinterest",
+
+    },
+    {
+      id: "11",
+      img: "/assets/images/service/svg/snapchat.svg",
+      name: "Snapchat",
+
+    },
+    {
+      id: "12",
+      img: "/assets/images/service/svg/tiktok.svg",
+      name: "TikTok",
+
+    },
+    {
+      id: "13",
+      img: "/assets/images/service/svg/quora.svg",
+      name: "Quora",
+
+    },
+    {
+      id: "14",
+      img: "/assets/images/service/svg/reddit.svg",
+      name: "Reddit",
+
+    },
+    {
+      id: "15",
+      img: "/assets/images/service/svg/mailchimp.png",
+      name: "Mailchimp",
+
+    },
+    {
+      id: "16",
+      img: "/assets/images/service/svg/semr.png",
+      name: "SEMrush",
+
+    },
+    {
+      id: "17",
+      img: "/assets/images/service/svg/ahref.png",
+      name: "Ahrefs",
+
+    },
+    {
+      id: "18",
+      img: "/assets/images/service/svg/moz.png",
+      name: "Moz",
+
+    },
+    {
+      id: "19",
+      img: "/assets/images/service/svg/analytics.webp",
+      name: "Adobe Analytics",
+
+    },
+    {
+      id: "20",
+      img: "/assets/images/service/svg/cj.png",
+      name: "Commission Junction",
+
+    },
+    {
+      id: "21",
+      img: "/assets/images/service/svg/shareasale.png",
+      name: "ShareASale",
+
+    },
+    {
+      id: "22",
+      img: "/assets/images/service/svg/hubspot.png",
+      name: "HubSpot",
+
+    },
+    {
+      id: "23",
+      img: "/assets/images/service/svg/pardot.png",
+      name: "Pardot",
+
+    },
+    {
+      id: "24",
+      img: "/assets/images/service/svg/marketo.png",
+      name: "Marketo",
+
+    },
+   
+  ];
 const cards = [
     {
       id: 1,

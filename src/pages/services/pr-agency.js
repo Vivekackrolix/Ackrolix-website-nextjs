@@ -16,89 +16,185 @@ const PrAgency = () => {
   const processes = [
     {
       id: "1",
-      name: "Rehosting or Lift-and-Shift",
-      desc: "This approach involves moving an existing application to a new infrastructure without making significant changes to the application's architecture or functionality.",
-    },
+      name: "Executive Positioning",
+desc:"Strategize your personal and public brand to influence the stakeholders. Working on the collective goal of the leader and organizational repositioning, by relaying the valued message to the stakeholders."    },
     {
       id: "2",
-      name: "Refactoring or Re-architecting",
-      desc: "Refactoring involves making structural changes to the application's codebase and architecture while preserving its core functionality. It aims to improve the application's performance, scalability, and maintainability.",
+      name: "Influencer Engagements",
+      desc: "Creating a brand-influencer partnership for a long-term relationship with the audience. Data-driven, well-researched and result-oriented approach to equip your brand with credibility and trust from the audience.",
     },
     {
       id: "3",
-      name: "Replatforming",
-      desc: "Replatforming entails moving an application to a different platform or technology stack while retaining its core features & functionality. For example, migrating an on-premises application to a cloud platform.",
-    },
+      name: "Crisis Communications",
+desc:"Effects of unforeseen events can take a hit on the brand’s reputation and hamper relationships on various dimensions. Helping your brand cruise the crisis with a multilayered and holistic approach."    },
     {
       id: "4",
-      name: "Rearchitecting or Redesigning",
-      desc: "Rearchitecting involves a significant overhaul of the application's architecture and design to meet current business needs and technological advancements.",
+      name: "Reputation Management",
+      desc: "Managing public perception across the channels with a crucially crafted and controlled narrative, and enhancing the stakeholder perception with customized strategies.",
     },
     {
       id: "5",
-      name: "Containerization",
-      desc: "Containerization involves encapsulating an application and its dependencies into containers, using technologies like Docker. This approach allows applications to run consistently across different environments and simplifies deployment and scalability.",
+      name: "Purpose & ESG",
+      desc: "Bridging the gap between a social impact and your business message by carving out the purpose behind your project. Communicating the social goals to the public for positive perception.",
+    },
+  ];
+  const techs = [
+    {
+      id: "1",
+      img: "/assets/images/service/svg/google.svg",
+      name: "Google",
+
+    },
+    {
+      id: "2",
+      img: "/assets/images/service/svg/google-ads.svg",
+      name: "Google Ads",
+
+    },
+    {
+      id: "3",
+      img: "/assets/images/service/svg/google-analytics.svg",
+      name: "google Analytics",
+
+    },
+    {
+      id: "4",
+      img: "/assets/images/service/svg/facebook.svg",
+      name: "Facebook",
+
+    },
+    {
+      id: "5",
+      img: "/assets/images/service/svg/instagram.svg",
+      name: "Instagram",
+
     },
     {
       id: "6",
-      name: "Replacement or Rebuilding",
-      desc: "In some cases, it may be more feasible to replace an existing application with a new solution rather than attempting to modernize it. This approach involves rebuilding the application from scratch, leveraging modern technologies and design principles.",
+      img: "/assets/images/service/svg/twitter.svg",
+      name: "Twitter",
+
     },
+    {
+      id: "7",
+      img: "/assets/images/service/svg/linkedin.svg",
+      name: "LinkedIn",
+
+    },
+    {
+      id: "8",
+      img: "/assets/images/service/svg/youtube.svg",
+      name: "YouTube",
+
+    },
+    {
+      id: "10",
+      img: "/assets/images/service/svg/pinterest.svg",
+      name: "Pinterest",
+
+    },
+    {
+      id: "11",
+      img: "/assets/images/service/svg/snapchat.svg",
+      name: "Snapchat",
+
+    },
+    {
+      id: "12",
+      img: "/assets/images/service/svg/tiktok.svg",
+      name: "TikTok",
+
+    },
+    {
+      id: "13",
+      img: "/assets/images/service/svg/quora.svg",
+      name: "Quora",
+
+    },
+    {
+      id: "14",
+      img: "/assets/images/service/svg/reddit.svg",
+      name: "Reddit",
+
+    },
+    {
+      id: "15",
+      img: "/assets/images/service/svg/mailchimp.png",
+      name: "Mailchimp",
+
+    },
+    {
+      id: "16",
+      img: "/assets/images/service/svg/semr.png",
+      name: "SEMrush",
+
+    },
+    {
+      id: "17",
+      img: "/assets/images/service/svg/ahref.png",
+      name: "Ahrefs",
+
+    },
+    {
+      id: "18",
+      img: "/assets/images/service/svg/moz.png",
+      name: "Moz",
+
+    },
+    {
+      id: "19",
+      img: "/assets/images/service/svg/analytics.webp",
+      name: "Adobe Analytics",
+
+    },
+    {
+      id: "20",
+      img: "/assets/images/service/svg/cj.png",
+      name: "Commission Junction",
+
+    },
+    {
+      id: "21",
+      img: "/assets/images/service/svg/shareasale.png",
+      name: "ShareASale",
+
+    },
+    {
+      id: "22",
+      img: "/assets/images/service/svg/hubspot.png",
+      name: "HubSpot",
+
+    },
+    {
+      id: "23",
+      img: "/assets/images/service/svg/pardot.png",
+      name: "Pardot",
+
+    },
+    {
+      id: "24",
+      img: "/assets/images/service/svg/marketo.png",
+      name: "Marketo",
+
+    },
+   
   ];
-const techs = [
-    {
-        id: "1",
-        img: "/assets/images/service/node.svg",
-        name: "Node.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "2",
-        img: "/assets/images/service/react.svg",
-        name: "React.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "3",
-        img: "/assets/images/service/angularjs.svg",
-        name: "Angular",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "4",
-        img: "/assets/images/service/laravel.svg",
-        name: "Laravel",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "5",
-        img: "/assets/images/service/typescript.svg",
-        name: "Typescript",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-    {
-        id: "6",
-        img: "/assets/images/service/nextjs.svg",
-        name: "Next.js",
-        desc: "Lorem ipsum dolor sit amet consect Sapien porttitor. ",
-    },
-];
-const cards = [
+  const cards = [
     {
       id: 1,
-      para: "Our modernization solutions revolutionize your applications' performance, scalability, agility, & maintainability. We enable seamless integration with emerging technologies, optimize infrastructure, & streamline workflows to ensure your applications are future-proof.",
+      // para: "Our modernization solutions revolutionize your applications' performance, scalability, agility, & maintainability. We enable seamless integration with emerging technologies, optimize infrastructure, & streamline workflows to ensure your applications are future-proof.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Revitalize",
-      subtitle: "Revolutionize Your Applications With Modernization Solutions",
+      maintitle: "Approach",
+      subtitle: "OUR APPROACH",
     },
     {
       id: 2,
       icon: "01",
-      title: "Improved Productivity",
-      para: "We aim to enhance productivity by addressing the limitations, inefficiencies, & outdated aspects of existing applications.",
+      title: "Corporate Communications",
+      para: "Strategically crafted internal and external communication to secure your business and brand from reputation disruption. Easing the process of organizational management with an engaging dialog.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -110,8 +206,8 @@ const cards = [
     {
       id: 3,
       icon: "02",
-      title: "Cost Optimization",
-      para: "The strategic efforts to reduce expenses associated with application development, maintenance, & operations while maximizing value & efficiency.",
+      title: "Brand Awareness",
+      para: "The right stories about your brand develop a positive sentiment among the public. Interest-centric creative storytelling to bring out the emotional connection and catch their attention.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -123,8 +219,8 @@ const cards = [
     {
       id: 4,
       icon: "03",
-      title: "Better Security",
-      para: "Fewer vulnerabilities generated by old and disorderly legacy code (threat identified by OWASP).",
+      title: "Event & Launch PR",
+      para: "Communication that helps your project enter the public domain with a strong influence. Capturing the attention of your audience with precise PR techniques and media reach to deliver remarkable results.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -136,8 +232,8 @@ const cards = [
     {
       id: 5,
       icon: "04",
-      title: "Improved CX",
-      para: "Enhanced performance and easier 3rd party integrations lead to improved customer experience (CX).",
+      title: "Media Relation Management",
+      para: "A flawless campaign with a strong message is the result of a crucial mix of media channels. Guided and calculated approach to establish your brand’s relationship with the media and related stakeholders.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -149,8 +245,8 @@ const cards = [
     {
       id: 6,
       icon: "05",
-      title: "Better Business Performance",
-      para: "Higher sales through improved CX (IBM reports that app modernization leads to a 14% revenue increase).",
+      title: "Earned, Owned & Paid Media",
+      para: "Researched insights to plan the content that goes out to different platforms. A result-driven approach that gets the best out of campaigns across various channels.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -159,24 +255,12 @@ const cards = [
       textcolor: "text-secondary",
       main: "hidden",
     },
-    {
-      id: 7,
-      icon: "06",
-      title: "New Growth Possibilities",
-      para: "New business possibilities for a modernized app, including AI, machine learning, big data, and the public cloud.",
-      bgcolor: "bg-[#F6F8F9]",
-      cols: "md:col-span-1",
-      display: "icon",
-      textsize: "text-xl",
-      fontbold: "font-bold",
-      textcolor: "text-secondary",
-      main: "hidden",
-    },
-  ];  
+ 
+  ];
   return (
     <div>
       <Head>
-        <title>PR Agency</title>        
+        <title>PR Agency</title>
       </Head>
       <Header />
       <div
@@ -185,23 +269,26 @@ const cards = [
           backgroundImage: 'url("/assets/images/mainbackground.png ")',
         }}
       >
-        <Banner 
-          bannertitle="Make your systems efficient & scalable with our app modernization expertise"
-          bannersubtext="Get your app back on track for growth with our practice-driven app modernization skills. We provide full-scope app modernization services you can start using quickly to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+        <Banner
+          bannertitle="Publicity is absolutely critical.
+          A good PR story is infinitely
+          more effective than a front
+          page ad."
+          // bannersubtext="Get your app back on track for growth with our practice-driven app modernization skills. We provide full-scope app modernization services you can start using quickly to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
           serviceimg="/assets/images/service/svg/pr.png"
-          servicehead="Put your present in order so you can focus on scaling up for new users"
-          servicedesc1="Popular apps often fall victim to their own success. They grow fast to satisfy business requirements, patched up ad-hoc by different teams. Eventually, they become sluggish and difficult to maintain, let alone extend and improve. App modernization can turn it all around."
-          servicedesc2="The Ackrolix Innovations development teams have been called to the rescue of many legacy projects. In their course, our developers carried out tech stack migrations and consolidations, refactored codebases, designed and redesigned architectures, moved from a monolith to microservices, and performed architecture audits."
+          servicehead="PUBLIC RELATIONS"
+          servicedesc1="Marketing plants a brand in the audience’s mind but PR establishes it in their heart. Contemporary digital presence has become more complex than ever with evolving consumer preferences. Flawless and appealing communication is the key to gaining consumer trust, which is the currency of an eternal relationship."
+          servicedesc2="We give wings to your story by offering a wide mix of digital and offline channels that will carry it across public platforms. With our research and comprehensive knowledge, we craft a committed media aggregation strategy. We make your story heard to ensure that your endeavors reach and leave a mark in people’s mind."
         />
       </div>
       <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
-       <ComponentHead
-        title="Platforms"
-        sub="PR Agency"
-        head="The Platforms stack for PR Agency can vary depending on the specific requirements of the application and the chosen modernization approach."
-      />
-      <Technology tech={techs} />
+        <ComponentHead
+          title="Platforms"
+          sub="PR Agency"
+          head="The Platforms stack for PR Agency can vary depending on the specific requirements of the application and the chosen modernization approach."
+        />
+        <Technology tech={techs} />
       </div>
 
       <div>
@@ -213,9 +300,9 @@ const cards = [
         >
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
-              processhead="Services"
-              processsub="App Modernization On Peek"
-              processdesc="Full-scope app modernization services you can start using quickly (even in weeks!) to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+              processhead="Solutions"
+              processsub="IMAGE SOLUTIONS"
+              processdesc="We are here to balance and enhance public perception with a fresh narrative. Warren Buffett once said that it takes twenty years to build a reputation and five minutes to ruin it. With our swift and strategic crisis solutions, we make sure nothing harms your relationship with the audience. When life gives your public image a hit, we come up with a strategy and quick solution (and also a lemonade!)."
               processimg="/assets/images/service/svg/pr1.png"
             />
             <Process process={processes} />
