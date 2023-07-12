@@ -30,8 +30,6 @@ const Enquiry = () => {
       setErrorMessage("Please enter phone number");
     } else if (!subject) {
       setErrorMessage("Please enter subject");
-    } else if (!message) {
-      setErrorMessage("Please enter message");
     } else {
       setSubmitText("...");
 
