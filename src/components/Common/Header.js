@@ -1,9 +1,14 @@
 import React from "react";
 import HeaderLogo from "../Header/HeaderLogo";
 import Navbar from "../Header/Navbar";
+import Head from "next/head";
 const Header = () => {
   return (
     <>
+    <Head>
+   
+
+    </Head>
       <div
         className="bg-right px-4"
         style={{

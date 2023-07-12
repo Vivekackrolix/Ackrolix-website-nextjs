@@ -83,7 +83,7 @@ const Navbar = () => {
               <div className="group-hover:block z-[999] shadow-lg shadow-black/30 dropdown-menu absolute hidden transition-all  duration-300 translate-y-2 h-auto top-[2.1rem] md:-left-10 ">
                 <div className="top-0 bg-white flex py-5">
                 <div className="p-1 text-black text-xs  w-80 text-left flex flex-col rounded-l-md  border-r-2 border-primary">
-                 <p className=" text-black text-base font-bold px-4 py-5 "> Product Conceptualization </p>
+                 <p className=" text-black text-base font-bold px-4 py-5 "><Link href="/services">Product Conceptualization </Link></p>
                
                   <Link
                     href="/services/ui-ux-prototyping"
@@ -125,7 +125,7 @@ const Navbar = () => {
                  </div>
 
                  <div className="p-1 text-black text-xs  w-80 text-left flex flex-col  border-r-2 border-primary">
-                 <p className=" text-black text-base font-bold px-4 py-5 "> Product Development </p>
+                 <p className=" text-black text-base font-bold px-4 py-5 "><Link href="/services"> Product Development</Link> </p>
                 
                   <Link
                     href="/services/website-development-company"
@@ -170,26 +170,15 @@ const Navbar = () => {
 
                  
                  <div className="p-1 text-black text-xs  w-80 text-left flex flex-col rounded-r-md">
-                 <p className=" text-black text-base font-bold px-4 py-5 "> Digital Modernization </p>
-                 <Link
-                    href="/services/pr-agency"
-                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
-                  >
-                    Public Relations (PR)
-                  </Link>
+                 <p className=" text-black text-base font-bold px-4 py-5 "><Link href="/services">  Digital Modernization </Link></p>
+                
                  <Link
                     href="/services/digital-marketing-company"
                     className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink   rounded-md px-4 py-2 text-sm"
                   >
                     Digital Marketing Strategy
                   </Link>
-                  <Link
-                    href="/services/media-buying-agency"
-                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
-                  >
-                    Media Buying and Planning
-                  </Link>
-                
+                 
                   <Link
                     href="/services/social-media-marketing-agency"
                     className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
@@ -208,6 +197,18 @@ const Navbar = () => {
                     className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
                   >
                     Search Engine Optimization (SEO)
+                  </Link>
+                  <Link
+                    href="/services/pr-agency"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                    Public Relations (PR)
+                  </Link>
+                  <Link
+                    href="/services/media-buying-agency"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                    Media Buying and Planning
                   </Link>
                 
                  </div>
@@ -229,72 +230,139 @@ const Navbar = () => {
                       />
                     </Disclosure.Button>
                     <Disclosure.Panel className="text-gray-500 px-10 ">
-                      <div className=" text-black space-y-4  rounded">
-                        <li className="">
-                          <Link
-                            href="/custom-brokerage"
-                            className=" text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
-                          >
-                            Customs Brokerage
-                          </Link>
-                        </li>
-                        <li className="">
-                          <Link
-                            href="/air-freight"
-                            className=" text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
-                          >
-                            Air Freight
-                          </Link>
-                        </li>
-                        <li className="">
-                          <Link
-                            href="/sea-freight"
-                            className=" text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
-                          >
-                            Sea Freight
-                          </Link>
-                        </li>
-                        <li className="">
-                          <Link
-                            href="/consolidation"
-                            className=" text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
-                          >
-                            LCL Consolidation
-                          </Link>
-                        </li>
-                        <li className="">
-                          <Link
-                            href="/warehouse-distribution"
-                            className=" text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
-                          >
-                            Warehouse & Distribution
-                          </Link>
-                        </li>
-                        <li className="">
-                          <Link
-                            href="/courier-services"
-                            className=" text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
-                          >
-                            Courier Services
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/project-management"
-                            className=" text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
-                          >
-                            Project Management
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/road-transportation"
-                            className=" text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
-                          >
-                            Road Transportation
-                          </Link>
-                        </li>
-                      </div>
+                    <div className="top-0 bg-white flex flex-col py-5">
+                <div className="p-1 text-black text-xs  w-80 text-left flex flex-col rounded-l-md  border-r-2 border-primary">
+                 <p className=" text-black text-base font-bold px-4 py-5 "> <Link href="/services">Product Conceptualization</Link>  </p>
+               
+                  <Link
+                    href="/services/ui-ux-prototyping"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                    Prototyping
+                  </Link>
+                  <Link
+                    href="/services/ui-ux-strategy"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                    UX Strategy
+                  </Link>
+                  <Link
+                    href="/services/ui-designing"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                   UI Designing
+                  </Link>
+                  <Link
+                    href="/services/ui-ux-research"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink   rounded-md px-4 py-2 text-sm"
+                  >
+                    User Research
+                  </Link>
+                  <Link
+                    href="/services/product-usability-testing"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                    Usability Testing
+                  </Link>
+                  <Link
+                    href="/services/data-visualisation"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                    Data Visualisation
+                  </Link>
+                
+                 </div>
+
+                 <div className="p-1 text-black text-xs  w-80 text-left flex flex-col  border-r-2 border-primary">
+                 <p className=" text-black text-base font-bold px-4 py-5 "> <Link href="/services">Product Development</Link> </p>
+                
+                  <Link
+                    href="/services/website-development-company"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                    Web Development
+                  </Link>
+                  <Link
+                    href="/services/app-modernization-services"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                   App Modernization
+                  </Link>
+                  <Link
+                    href="/services/software-development-company"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                  Software Development
+                  </Link>
+                  <Link
+                    href="/services/product-design-company"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink   rounded-md px-4 py-2 text-sm"
+                  >
+                   Digital Product Design
+                  </Link>
+                 
+                  <Link
+                    href="/services/ecommerce-developement-company"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                   Ecommerce Development
+                  </Link>
+                  
+                  <Link
+                    href="/services/cloud-engineering-and-devOps"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                  Cloud Engineering & DevOps
+                  </Link>
+                
+                 </div>
+
+                 
+                 <div className="p-1 text-black text-xs  w-80 text-left flex flex-col rounded-r-md">
+                 <p className=" text-black text-base font-bold px-4 py-5 "> <Link href="/services">Digital Modernization </Link></p>
+              
+                 <Link
+                    href="/services/digital-marketing-company"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink   rounded-md px-4 py-2 text-sm"
+                  >
+                    Digital Marketing Strategy
+                  </Link>
+                
+
+                  <Link
+                    href="/services/social-media-marketing-agency"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                    Social Media Marketing (SMM)
+                  </Link>
+                  
+                  <Link
+                    href="/services/sem-services-company"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                   Search Engine Marketing (SEM)
+                  </Link>
+                  <Link
+                    href="/services/seo-services-company"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                    Search Engine Optimization (SEO)
+                  </Link>
+                  <Link
+                    href="/services/pr-agency"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                    Public Relations (PR)
+                  </Link>
+                  <Link
+                    href="/services/media-buying-agency"
+                    className=" hover:text-white hover:bg-gradient-to-r from-primary to-pink py-2  rounded-md  px-4 text-sm"
+                  >
+                    Media Buying and Planning
+                  </Link>
+                 </div>
+                
+                </div>
                     </Disclosure.Panel>
                   </>
                 )}
