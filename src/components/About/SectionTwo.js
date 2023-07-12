@@ -4,26 +4,26 @@ import { FaBalanceScaleRight, FaRegHandshake } from "react-icons/fa";
 const SectionTwo = () => {
   return (
     <div
-      className="h-full relative pb-24 mb-16 mt-12"
+      className="h-full relative md:pb-24 md:mb-16 mt-12"
       style={{
         backgroundImage: 'url("/assets/images/backgroundimg.png ")',
       }}
     >
       <div className="container-ack">
         <div className="grid md:grid-cols-2 gap-6 items-center container-ack  ">
-          <div className="pb-5 pt-10 ">
-            <img src="/assets/images/aboutusimg3.png" alt="" />
+          <div className="pb-5  ">
+            <img src="/assets/images/aboutpage/key.png" alt="" />
           </div>
 
           <div className=" md:px-0 px-5 pb-10 md:pb-0  relative">
-            <div className="md:text-[7rem] text-[5rem] tracking-wider text-left texttransparent font-bold  ">
-              Features
+            <div className="dynamic-text  " data-content="Features">
+              
             </div>
             <div className="">
-              <div className="absolute md:top-[4.3rem] top-[4rem]  inset-x-0 flex justify-left">
-                <div className="text-4xl  text-left font-bold ">
+              <div className="text-[46px] max-[480px]:text-[30px] text-secondary relative bottom-[18px] z-10 font-bold">
+              
                   Key Features
-                </div>
+             
               </div>
               <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4">
                 We believe in building long-term partnerships for your success!

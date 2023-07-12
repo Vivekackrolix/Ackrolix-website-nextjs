@@ -11,6 +11,7 @@ import ProcessHead from "../../components/Services/DetailPage/ProcessHead";
 import Work from "../../components/Services/DetailPage/Work";
 import Enquiry from "../../components/Services/DetailPage/Enquiry";
 import Clients from "../../components/Home/Clients";
+import CaseStudies from "../../components/Services/DetailPage/CaseStudies";
 
 const Marketing = () => {
   const processes = [
@@ -277,6 +278,10 @@ const cards = [
       main: "hidden",
     },
   ];  
+
+  const casestudies=[
+    
+  ]
   return (
     <div>
       <Head>
@@ -331,7 +336,7 @@ const cards = [
             backgroundImage: 'url("/assets/images/service/wave.png")',
           }}></div>
       </div>
-
+<CaseStudies casestudies={casestudies}/>
       <Work />
       {/* <Section /> */}
       <Enquiry />

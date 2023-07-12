@@ -133,7 +133,7 @@ const OurGroups = () => {
       ];
 
   return (
-    <div className='container-ack md:px-0 px-5 md:pt-0 pt-9'>
+    <div className='container-ack md:px-0 px-5 md:pt-0 pt-12'>
         <ComponentHead
         title="Our Associates"
         sub="Our Group of Companies, Associations, Members, Affiliations & Partnerships"

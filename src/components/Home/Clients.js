@@ -245,7 +245,7 @@ const Clients = () => {
   };
 
   return (
-    <div className="container-ack md:px-0 px-5 md:pt-0 pt-16">
+    <div className="container-ack md:px-0 px-5 md:pt-0 pt-12">
       <div className="md:grid grid-cols-2 items-center  md:pt-12 ">
         <div className="">
           <div className="client-line-heading">

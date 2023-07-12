@@ -5,7 +5,7 @@ import ComponentHead from "../Common/ComponentHead";
 
 const OurServices = () => {
   return (
-    <div className="container-ack md:pt-0 pt-16 pb-16 md:px-0 px-5">
+    <div className="container-ack  md:px-0 px-5 md:pt-0 pt-12">
       <ComponentHead
         title="Our Expertise"
         sub="What We Serve"
@@ -120,7 +120,7 @@ const OurServices = () => {
           <img
             alt=""
             className="grayscale-0 group-hover:grayscale object-cover h-80 w-full object-left-top"
-            src="/assets/images/product-develop.jpg"
+            src="/assets/images/digitalModernization.png"
           />
         </div>
       </div>
