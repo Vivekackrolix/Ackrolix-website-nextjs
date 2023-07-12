@@ -179,6 +179,12 @@ desc:"Ackrolix has experience in many different markets, including B2B and B2C a
       name: "Marketo",
 
     },
+    {
+      id: "25",
+      img: "/assets/images/service/svg/tumblr.svg",
+      name: "Tumblr",
+
+    },
    
   ];
 const cards = [
