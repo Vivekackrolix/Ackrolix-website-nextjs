@@ -179,6 +179,12 @@ desc:"Evaluates your campaign performance based on factors such as customer life
       name: "Marketo",
 
     },
+    {
+      id: "25",
+      img: "/assets/images/service/svg/tumblr.svg",
+      name: "Tumblr",
+
+    },
    
   ];
 const cards = [
