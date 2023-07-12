@@ -27,7 +27,7 @@ const UiStrategy = () => {
     {
       id: "3",
       name: "Add Personality Elements",
-      desec: "We blend brand personality elements into UX design, such that it ensures consistency in your digital product."
+      desc: "We blend brand personality elements into UX design, such that it ensures consistency in your digital product."
     },
     {
       id: "4",
