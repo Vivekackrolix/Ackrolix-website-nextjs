@@ -85,7 +85,7 @@ function Memories() {
   };
 
   return (
-    <div className="container-ack px-5 md:pt-0 pt-10 w-full relative">
+    <div className="container-ack px-5  w-full relative md:pt-0 pt-12">
       <ComponentHead
         title="Moments"
         sub="Life At Ackrolix"
