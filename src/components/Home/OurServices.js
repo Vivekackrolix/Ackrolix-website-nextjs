@@ -5,7 +5,7 @@ import ComponentHead from "../Common/ComponentHead";
 
 const OurServices = () => {
   return (
-    <div className="container-ack pb-16 md:px-0 px-5">
+    <div className="container-ack md:pt-0 pt-16 pb-16 md:px-0 px-5">
       <ComponentHead
         title="Our Expertise"
         sub="What We Serve"

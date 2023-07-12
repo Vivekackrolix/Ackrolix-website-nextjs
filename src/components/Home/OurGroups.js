@@ -133,14 +133,14 @@ const OurGroups = () => {
       ];
 
   return (
-    <div className='container-ack md:px-0 px-5 md:pt-0 pt-16'>
+    <div className='container-ack md:px-0 px-5 md:pt-0 pt-9'>
         <ComponentHead
         title="Our Associates"
-        sub="Our Group of Companies, Associations,Members, Affiliations & Partnerships"
+        sub="Our Group of Companies, Associations, Members, Affiliations & Partnerships"
       />
 
 <div className="pb-16">
-        <ul className=" grid grid-cols-6  itmes-center nobottommargin clearfix">
+        <ul className=" grid md:grid-cols-6 grid-cols-2  itmes-center nobottommargin clearfix">
           {clientsData.map((item, index) => (
             <>
               <li key={index} className="clientzoom  p-4 border border-gray-200 border-dashed">

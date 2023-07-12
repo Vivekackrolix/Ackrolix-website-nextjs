@@ -246,14 +246,14 @@ const Clients = () => {
 
   return (
     <div className="container-ack md:px-0 px-5 md:pt-0 pt-16">
-      <div className="md:grid grid-cols-2 items-center hidden pt-12 ">
+      <div className="md:grid grid-cols-2 items-center  md:pt-12 ">
         <div className="">
           <div className="client-line-heading">
-            <div className="text-[46px] text-secondary relative z-10 bottom-[34px] text-left font-bold max-w-xl">
+            <div className="text-[46px] max-[480px]:text-[30px]  text-secondary relative z-10 bottom-[34px] md:text-left text-center font-bold max-w-xl">
               Our Satisfied Clients
             </div>
           </div>
-          <div className="load-wrapp relative bottom-[44px]">
+          <div className="load-wrapp relative bottom-[44px] ml-32 md:ml-0">
             <div className="load">
               <div className="line"></div>
               <div className="line"></div>
