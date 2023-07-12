@@ -24,16 +24,16 @@ export default function Document() {
  {/* End Google Tag Manager  */}
     </Head>
       <body>
-
-        <Main />
-        <NextScript />
-
-        <noscript
+      <noscript
             dangerouslySetInnerHTML={{
               __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BK8DQ9"
               height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
             }}
           />
+        <Main />
+        <NextScript />
+
+       
 
       </body>
     </Html>
