@@ -11,21 +11,24 @@ import ProcessHead from "../../components/Services/DetailPage/ProcessHead";
 import Work from "../../components/Services/DetailPage/Work";
 import Enquiry from "../../components/Services/DetailPage/Enquiry";
 import Clients from "../../components/Home/Clients";
-
+import CaseStudies from "../../components/Services/DetailPage/CaseStudies";
 const SmmAgency = () => {
   const processes = [
     {
       id: "1",
       name: "Dedicated Account Managers",
-desc:"At Ackrolix, we assign specific strategists depending on your industry demands, social media marketing needs and goals. This means you could get multiple social media digital marketing experts working on your brand. Your dedicated account managers are available by email or phone to respond to any questions or engage in discussions."    },
+      desc: "At Ackrolix, we assign specific strategists depending on your industry demands, social media marketing needs and goals. This means you could get multiple social media digital marketing experts working on your brand. Your dedicated account managers are available by email or phone to respond to any questions or engage in discussions."
+    },
     {
       id: "2",
       name: "Extensive Onboarding Process",
-desc:"Our social media marketing consultants provide you with an in-depth social media marketing strategy breakdown during your campaign inception. This way, you know exactly what tactics we will implement to achieve your goals. Additionally, we establish your campaign metrics from the get-go to ensure we are on the same page."    },
+      desc: "Our social media marketing consultants provide you with an in-depth social media marketing strategy breakdown during your campaign inception. This way, you know exactly what tactics we will implement to achieve your goals. Additionally, we establish your campaign metrics from the get-go to ensure we are on the same page."
+    },
     {
       id: "3",
       name: "Custom Social Media Marketing Strategy",
-desc:"Boost your social media engagement and marketing efforts with a social media marketing strategy designed to fit your needs and budget. Our social media marketing experts identify your target audience to create effective social media digital marketing plans that drive higher ROI. "    },
+      desc: "Boost your social media engagement and marketing efforts with a social media marketing strategy designed to fit your needs and budget. Our social media marketing experts identify your target audience to create effective social media digital marketing plans that drive higher ROI. "
+    },
     {
       id: "4",
       name: "Social Media Campaign Reports",
@@ -34,11 +37,13 @@ desc:"Boost your social media engagement and marketing efforts with a social med
     {
       id: "5",
       name: "Paid and Organic Team",
-desc:"We ensure our clients are matched with a subject matter expert. Our team comprises organic and paid strategists with years of expertise and experience, so you can rest easy knowing your campaign is well taken care of. Although paid and organic are very different aspects of social media marketing, we implement a cohesive strategy to maximize your social media marketing conversions."    },
+      desc: "We ensure our clients are matched with a subject matter expert. Our team comprises organic and paid strategists with years of expertise and experience, so you can rest easy knowing your campaign is well taken care of. Although paid and organic are very different aspects of social media marketing, we implement a cohesive strategy to maximize your social media marketing conversions."
+    },
     {
       id: "6",
       name: "Diverse Marketing Experience",
-desc:"Ackrolix has experience in many different markets, including B2B and B2C at all sizes. Whether you own a startup, enterprise or a multi-location company, our social media marketing firm strives to go above and beyond your expectations. We give your brand a solid social media presence and online reputation through sustained research, tracking and adaptation to online trends and resources."    },
+      desc: "Ackrolix has experience in many different markets, including B2B and B2C at all sizes. Whether you own a startup, enterprise or a multi-location company, our social media marketing firm strives to go above and beyond your expectations. We give your brand a solid social media presence and online reputation through sustained research, tracking and adaptation to online trends and resources."
+    },
   ];
   const techs = [
     {
@@ -185,9 +190,9 @@ desc:"Ackrolix has experience in many different markets, including B2B and B2C a
       name: "Tumblr",
 
     },
-   
+
   ];
-const cards = [
+  const cards = [
     {
       id: 1,
       para: "Social media marketing services have numerous advantages for startups and established brands. With the right social media marketing plan and campaign monitoring system, social media content marketing can lead to increased search traffic, better SEO,  healthier customer engagement and improved brand loyalty.",
@@ -228,7 +233,7 @@ const cards = [
       id: 4,
       icon: "03",
       title: "Specific Audience Targeting",
-para:"No matter how valuable and engaging your content, it won’t generate conversions if it doesn’t reach the right audience. Marketing through social media allows you to identify and categorize your ideal customers by age, location and online activities, among other metrics.",
+      para: "No matter how valuable and engaging your content, it won’t generate conversions if it doesn’t reach the right audience. Marketing through social media allows you to identify and categorize your ideal customers by age, location and online activities, among other metrics.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -276,11 +281,49 @@ para:"No matter how valuable and engaging your content, it won’t generate conv
       textcolor: "text-secondary",
       main: "hidden",
     },
-  ];  
+  ];
+  const casestudies = [
+    {
+      id: 1,
+      image: "/assets/images/service/caseone.png",
+      name: "Logical Fallacies",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id: 2,
+      image: "/assets/images/service/casetwo.png",
+      name: "Long term risk",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id: 3,
+      image: "/assets/images/service/casethree.png",
+      name: "growth hackers",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id: 4,
+      image: "/assets/images/service/casetwo.png",
+      name: " whole lot of factors",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id: 5,
+      image: "/assets/images/service/casethree.png",
+      name: "Outliers’ success",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id: 6,
+      image: "/assets/images/service/caseone.png",
+      name: "North Star Metric",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+  ]
   return (
     <div>
       <Head>
-        <title>Social Media Marketing</title>        
+        <title>Social Media Marketing</title>
       </Head>
       <Header />
       <div
@@ -289,7 +332,7 @@ para:"No matter how valuable and engaging your content, it won’t generate conv
           backgroundImage: 'url("/assets/images/mainbackground.png ")',
         }}
       >
-        <Banner 
+        <Banner
           bannertitle="Build your brand awareness across the web and create meaningful connections with your customers and followers through social media marketing (SMM)."
           bannersubtext="Ackrolix provides social media marketing for small businesses, enterprises and multiple-location companies. No matter if you own a startup or a Fortune 500 company, our social media marketing experts can assist you with your campaign. Partner with us and let our social media marketing agency boost your brand visibility and integrity!"
           serviceimg="/assets/images/service/svg/med.png"
@@ -304,12 +347,12 @@ para:"No matter how valuable and engaging your content, it won’t generate conv
       </div>
       <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
-       <ComponentHead
-        title="Platforms"
-        sub="Social Media Marketing"
-        head="The Platforms stack for Social Media Marketing can vary depending on the specific requirements of the application and the chosen modernization approach."
-      />
-      <Technology tech={techs} />
+        <ComponentHead
+          title="Platforms"
+          sub="Social Media Marketing"
+          head="The Platforms stack for Social Media Marketing can vary depending on the specific requirements of the application and the chosen modernization approach."
+        />
+        <Technology tech={techs} />
       </div>
 
       <div>
@@ -334,6 +377,12 @@ para:"No matter how valuable and engaging your content, it won’t generate conv
             backgroundImage: 'url("/assets/images/service/wave.png")',
           }}></div>
       </div>
+
+      <ComponentHead
+        title="Studies"
+        sub="Case Studies"
+      />
+      <CaseStudies casestudies={casestudies} />
 
       <Work />
       {/* <Section /> */}

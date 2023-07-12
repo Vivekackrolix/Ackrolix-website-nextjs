@@ -3,16 +3,15 @@ import React from "react";
 const ValuesMissions = () => {
   return (
     <div className="bg-[]">
-      <div className="grid md:grid-cols-5 gap-6 items-center  container-ack">
-        <div className=" md:col-span-2 md:px-0 px-5 pb-5 md:pb-0  relative">
-          <div className="md:text-[7rem] text-[5rem] tracking-wider text-left texttransparent font-bold  ">
-            Goals
+      <div className="grid md:grid-cols-5 gap-6 items-center  container-ack md:pt-24 pt-72">
+        <div className=" md:col-span-2 md:px-0 px-5 pb-5 md:pb-0 ">
+          <div className="dynamic-text  " data-content="Goals">
           </div>
           <div className="">
-            <div className="absolute md:top-[3.8rem] top-[4rem]  inset-x-0 flex justify-left">
-              <div className="text-[38px]  text-left font-bold ">
+            <div className="text-[46px] max-[480px]:text-[30px] text-secondary relative bottom-[18px] z-10 font-bold">
+             
                 We Deliver Promises
-              </div>
+              
             </div>
             <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4">
               Our objective is to create new, unique products or enhance existing ones to satisfy client
@@ -32,7 +31,7 @@ const ValuesMissions = () => {
               <div className="relative text-left px-6  py-3 duration duration-200 group-hover:-translate-y-2 bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl ">
                 <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
                   <img
-                    src="/assets/images/mission.png"
+                    src="/assets/images/aboutpage/mission1.png"
                     alt=""
                     className="  rounded-lg w-20 h-20 mx-auto "
                   />
@@ -51,7 +50,7 @@ const ValuesMissions = () => {
               <div className="relative text-left px-6  py-3 duration duration-200 group-hover:-translate-y-2  bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl  ">
                 <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
                   <img
-                    src="/assets/images/value.png"
+                    src="/assets/images/aboutpage/value1.png"
                     alt=""
                     className="  rounded-lg w-20 h-20 mx-auto "
                   />
@@ -64,7 +63,7 @@ const ValuesMissions = () => {
                   We hold ethical and environmentally friendly practises in high respect. We are conscious of the significance of
                   environmental stewardship and work to create products that benefit society.{" "}
                 </p>
-               
+
               </div>
             </div>
           </div>
@@ -73,7 +72,7 @@ const ValuesMissions = () => {
               <div className="relative text-left px-6  py-3  duration duration-200 group-hover:-translate-y-2 bg-gray-50 hover:bg-white hover:drop-shadow-xl bg-transparent rounded-xl ">
                 <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
                   <img
-                    src="/assets/images/vision.png"
+                    src="/assets/images/aboutpage/vision1.png"
                     alt=""
                     className="  rounded-lg w-20 h-20 mx-auto "
                   />

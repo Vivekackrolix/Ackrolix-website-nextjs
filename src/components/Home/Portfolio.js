@@ -5,8 +5,8 @@ import ComponentHead from "../Common/ComponentHead";
 
 const Portfolio = () => {
   return (
-    <div className="bg-[#F6F8F9] md:mt-16">
-      <div className="container-ack md:px-0 px-5 pb-5 md:pt-0 pt-16">
+    <div className="bg-[#F6F8F9] ">
+      <div className="container-ack md:px-0 px-5  md:pt-0 pt-12 ">
         <ComponentHead
           title="Portfolio"
           sub="Portfolio"

@@ -11,15 +11,16 @@ const Banner = () => {
     >
       <div className="md:grid grid-cols-2 gap-6 items-center container-ack  ">
         <div className="pb-5 pt-10 ">
-          <img src="/assets/images/aboutusimg.png" alt="" />
+          <img src="/assets/images/aboutpage/aboutpage.png" alt="" />
         </div>
 
         <div className=" md:px-0 px-5 pb-10 md:pb-0  relative">
-          <div className="md:text-[8rem] text-[5rem] tracking-wider text-left texttransparent font-bold  md:pt-10">
-            <span className="text-[#fbfcfc]">Abo</span>ut
-          </div>
+        <div className="dynamic-text  " data-content="About">
+              
+              </div>
+          
           <div className="">
-            <div className="text-3xl  font-bold  absolute md:top-[5.7rem]  top-[4rem]">
+            <div className="text-[46px] max-[480px]:text-[30px] text-secondary relative bottom-[18px] z-10 font-bold">
               <span className="text-primary">Driving success </span> through the
               power of technology
             </div>

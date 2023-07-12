@@ -19,8 +19,17 @@ const About = () => {
       <Header />
       <Banner />
       <ValuesMissions />
+
+
+
       {/* <Section /> */}
+
+
+
       <Card />
+
+
+
       {/* <VideoSection /> */}
 
       <SectionTwo />

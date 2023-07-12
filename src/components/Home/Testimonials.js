@@ -111,7 +111,7 @@ const Testimonial = () => {
 
   return (
     <>
-      <div className="container-ack mmd:px-0 px-5 md:pt-0 pt-10">
+      <div className="container-ack mmd:px-0 px-5 md:pt-0 pt-12">
         <div>
           <ComponentHead
             title="Testimonials"

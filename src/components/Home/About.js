@@ -86,9 +86,9 @@ const About = () => {
   };
 
   return (
-    <div className="bg-[#F6F8F9] md:py-10">
-      <div className="md:grid grid-cols-5 gap-4 items-center mobile-hide">
-        <div className="col-span-2 md:px-0 px-5 pb-10 md:pb-0 ">
+    <div className="bg-[#F6F8F9] md:py-10 md:pt-0 pt-12">
+      <div className="md:grid grid-cols-5 gap-4 justfiy-center items-center mobile-hide ">
+        <div className="col-span-2 md:px-0 px-5  ">
 
           <div className="">
             <div className="md:w-[95%] pl-16 w-full md:text-base text-xs text-textcolor text-justify font-text pb-4">
@@ -152,7 +152,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className=" container-ack md:hidden px-5 pt-16">
+      <div className=" container-ack md:hidden px-5">
         <div className="md:pb-0 relative">
           <div className="w-full md:text-base text-xs text-textcolor text-justify font-text pb-4">
             <div className="line-heading">

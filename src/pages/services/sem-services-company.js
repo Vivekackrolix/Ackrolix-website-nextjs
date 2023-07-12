@@ -11,7 +11,7 @@ import ProcessHead from "../../components/Services/DetailPage/ProcessHead";
 import Work from "../../components/Services/DetailPage/Work";
 import Enquiry from "../../components/Services/DetailPage/Enquiry";
 import Clients from "../../components/Home/Clients";
-
+import CaseStudies from "../../components/Services/DetailPage/CaseStudies";
 const SemAgency = () => {
   const processes = [
     {
@@ -269,6 +269,44 @@ const SemAgency = () => {
       main: "hidden",
     },
   ];
+  const casestudies=[
+    {
+      id:1,
+      image:"/assets/images/service/caseone.png",
+      name:"Logical Fallacies",
+      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id:2,
+      image:"/assets/images/service/casetwo.png",
+      name:"Long term risk",
+      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id:3,
+      image:"/assets/images/service/casethree.png",
+      name:"growth hackers",
+      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id:4,
+      image:"/assets/images/service/casetwo.png",
+      name:" whole lot of factors",
+      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id:5,
+      image:"/assets/images/service/casethree.png",
+      name:"Outliers’ success",
+      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id:6,
+      image:"/assets/images/service/caseone.png",
+      name:"North Star Metric",
+      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+  ];
   return (
     <div>
       <Head>
@@ -327,6 +365,13 @@ Search engines categorize web pages and rank them based on relevance to provide 
             backgroundImage: 'url("/assets/images/service/wave.png")',
           }}></div>
       </div>
+
+
+      <ComponentHead
+        title="Studies"
+        sub="Case Studies"
+      />
+<CaseStudies casestudies={casestudies}/>
 
       <Work />
       {/* <Section /> */}
