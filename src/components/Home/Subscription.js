@@ -23,7 +23,7 @@ const Subscription = () => {
               />
             </div>
 
-            <div className="flex md:justify-end justify-start w-full md:mt-0 mt-4">
+            <div className=" md:justify-end justify-start w-full md:mt-0 mt-4">
               <button className=" button-1  px-12 py-2 rounded-md">
                 <div className="eff-1"></div>
                 <span className="text-base flex items-center font-semibold">Subscribe</span>
