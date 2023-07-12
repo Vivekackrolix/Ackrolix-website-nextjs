@@ -1,21 +1,87 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { BiPhoneCall } from "react-icons/bi";
 import { GrMapLocation } from "react-icons/gr";
 import { MdOutlineMail } from "react-icons/md";
+import ThankYouModal from "../modal/ThankYouModal";
 
 const FormSection = () => {
+  //form feild
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [phone, setPhone] = useState("");
+  const [subject, setSubject] = useState("");
+  const [submitText, setSubmitText] = useState("Send");
+
+  const [errorMessage, setErrorMessage] = useState("");
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  //send data using api
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log("data after submit:", e);
+
+    if (!name) {
+      setErrorMessage("Please enter name");
+    } else if (!email) {
+      setErrorMessage("Please enter email");
+    } else if (!emailRegex.test(email)) {
+      setErrorMessage("Please enter valid email");
+    } else if (!phone) {
+      setErrorMessage("Please enter phone number");
+    } else if (!subject) {
+      setErrorMessage("Please enter subject");
+    } else if (!message) {
+      setErrorMessage("Please enter message");
+    } else {
+      setSubmitText("...");
+
+      let data = {
+        name,
+        email,
+        phone,
+        subject,
+        message,
+      };
+
+      fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          Accept: "application/json, */*",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      }).then((res) => {
+        console.log("Response received:", res);
+        console.log("data:", data);
+
+        if (res.status === 200) {
+          console.log("Response succeeded!");
+          setName("");
+          setEmail("");
+          setPhone("");
+          setSubject("");
+          setMessage("");
+          setSubmitText("Submitted");
+          setIsModalOpen(true);
+        }
+      });
+    }
+  };
   return (
     <>
       <div
         className="bg-cover"
-      // style={{ backgroundImage: `url("/assets/images/banner/3.webp")` }}
+        // style={{ backgroundImage: `url("/assets/images/banner/3.webp")` }}
       >
         <div className="relative mb-50 ">
           <div className="md:text-[7rem] text-[5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
             Connect
           </div>
-          <div className=" md:top-[5.8rem] font-bold  left-16 text-[46px]  text-center flex flex-col md:space-y-6 absolute left-[39%] bottom-[15px]">
+          <div className=" md:top-[5.8rem] font-bold  text-[46px]  text-center flex flex-col md:space-y-6 absolute left-[39%] bottom-[15px]">
             <h2>
               Get in <span className="text-primary">Touch</span>
             </h2>
@@ -23,87 +89,119 @@ const FormSection = () => {
         </div>
         <div className="container-ack md:grid grid-cols-2 md:px-0 md:pt-0 ">
           <div className="col-span-1 border mt-10 pt-10 px-8  rounded-xl hover:border-[#FDDA0D] border-gray-300 ">
-            <p style={{ width: '113%' }} className=" md:text-start text-center text-sm md:pr-12 md:top-[5.8rem] font-bold top-10 left-16 text-[46px]  flex flex-col md:space-y-6 ">
-              {"We appreciate your interest in Ackrolix. We're available to respond to any queries you may have."}
+            <p
+              style={{ width: "113%" }}
+              className=" md:text-start text-center text-sm md:pr-12 md:top-[5.8rem] font-bold top-10 left-16 text-[46px]  flex flex-col md:space-y-6 "
+            >
+              {
+                "We appreciate your interest in Ackrolix. We're available to respond to any queries you may have."
+              }
             </p>
-            
+
             {/* form start */}
             <form className="md:pt-0 pt-7  ">
               <div className="space-y-4 md:pr-16 py-8 text-sm">
                 <input
-                  style={{ width: '113%' }}
+                  style={{ width: "113%" }}
                   type="text"
                   name="name"
+                  onChange={(e) => setName(e.target.value)}
                   id="name"
                   placeholder="Name"
                   className=" rounded-md border border-[#e0e0e0] bg-white py-2 px-6 text-[#6B7280] outline-none focus:border-primary focus:shadow-md"
                 />
                 <input
-                  style={{ width: '113%' }}
+                  style={{ width: "113%" }}
                   type="text"
                   name="email"
+                  onChange={(e) => setEmail(e.target.value)}
                   id="email"
                   placeholder="Email"
                   className="rounded-md border border-[#e0e0e0] bg-white py-2 px-6  text-[#6B7280] outline-none focus:border-primary focus:shadow-md"
                 />
                 <input
-                  style={{ width: '113%' }}
+                  style={{ width: "113%" }}
                   type="text"
                   name="phone"
+                  onChange={(e) => setPhone(e.target.value)}
                   id="phone"
                   placeholder="Phone Number"
                   className="rounded-md border border-[#e0e0e0] bg-white py-2 px-6  text-[#6B7280] outline-none focus:border-primary focus:shadow-md"
                 />
                 <input
-                  style={{ width: '113%' }}
+                  style={{ width: "113%" }}
                   type="text"
-                  name="service"
+                  name="subject"
+                  onChange={(e) => setSubject(e.target.value)}
                   id="service"
                   placeholder="Service you looking for?"
                   className="rounded-md border border-[#e0e0e0] bg-white py-2 px-6  text-[#6B7280] outline-none focus:border-primary focus:shadow-md"
                 />
                 <textarea
-                  style={{ width: '113%' }}
+                  style={{ width: "113%" }}
                   type="text"
                   rows={5}
                   name="message"
+                  onChange={(e) => setMessage(e.target.value)}
                   id="mesage"
                   placeholder="Write your message"
                   className="rounded-md border border-[#e0e0e0] bg-white py-2 px-6  text-[#6B7280] outline-none focus:border-primary focus:shadow-md"
                 />
-                <button style={{ width: '113%' }} className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md w-full flex justify-center items-center  ">
-                  <span className="text-base"> SEND </span>
+                {errorMessage ? (
+                  <p className="text-sm text-red-500">{errorMessage}</p>
+                ) : (
+                  ""
+                )}
+                <button
+                  style={{ width: "113%" }}
+                  className="bg-secondary hover:bg-primary text-white px-8 py-2 rounded-md w-full flex justify-center items-center  "
+                  type="submit"
+                  onClick={(e) => {
+                    handleSubmit(e);
+                  }}
+                >
+                  <span className="text-base"> {submitText} </span>
                 </button>
               </div>
             </form>
             {/* form end */}
-
           </div>
           <div className="grid pl-16 justify-items items-center ">
             <div className="">
-              <h1 className="font-extrabold text-3xl mb-5">Connect with Our Experts for Expert Advice and Supports</h1>
-              <p>When you choose to connect with our experts, you gain access to a wealth of knowledge and experience. Our team comprises professionals who have excelled in their respective fields and possess a deep understanding of the challenges and complexities you may face.</p>
-              
+              <h1 className="font-extrabold text-3xl mb-5">
+                Connect with Our Experts for Expert Advice and Supports
+              </h1>
+              <p>
+                When you choose to connect with our experts, you gain access to
+                a wealth of knowledge and experience. Our team comprises
+                professionals who have excelled in their respective fields and
+                possess a deep understanding of the challenges and complexities
+                you may face.
+              </p>
+
               <Link href="mailto:info@ackrolix.com">
                 <div className="flex space-x-2 mb-3 mt-5">
                   <MdOutlineMail size={25} />
-                    <p className="text-primary ">info@ackrolix.com</p>
+                  <p className="text-primary ">info@ackrolix.com</p>
                 </div>
               </Link>
-              <Link href="tel:+918178567042" >
-                <div className="flex space-x-2 mb-2 " >
+              <Link href="tel:+918178567042">
+                <div className="flex space-x-2 mb-2 ">
                   <BiPhoneCall size={25} />
-                    <p className="text-primary mb-2">+91-8178567042</p>
+                  <p className="text-primary mb-2">+91-8178567042</p>
                 </div>
               </Link>
               <div className="flex space-x-2 cursor-pointer ">
-                <GrMapLocation size={25} className="fill-orange"/>
-                  <p className="text-primary ">136 Rider House Sec 44, Gurugram 122108 </p>
+                <GrMapLocation size={25} className="fill-orange" />
+                <p className="text-primary ">
+                  136 Rider House Sec 44, Gurugram 122108{" "}
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
+      {isModalOpen ? <ThankYouModal /> : ""}
     </>
   );
 };
