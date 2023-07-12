@@ -280,8 +280,43 @@ const cards = [
   ];  
 
   const casestudies=[
-    
-  ]
+    {
+      id:1,
+      image:"/assets/images/service/caseone.png",
+      name:"Logical Fallacies",
+      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id:2,
+      image:"/assets/images/service/casetwo.png",
+      name:"Long term risk",
+      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id:3,
+      image:"/assets/images/service/casethree.png",
+      name:"growth hackers",
+      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id:4,
+      image:"/assets/images/service/casetwo.png",
+      name:" whole lot of factors",
+      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id:5,
+      image:"/assets/images/service/casethree.png",
+      name:"Outliers’ success",
+      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+    {
+      id:6,
+      image:"/assets/images/service/caseone.png",
+      name:"North Star Metric",
+      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+    },
+  ];
   return (
     <div>
       <Head>
@@ -336,6 +371,10 @@ const cards = [
             backgroundImage: 'url("/assets/images/service/wave.png")',
           }}></div>
       </div>
+      <ComponentHead
+        title="Studies"
+        sub="Case Studies"
+      />
 <CaseStudies casestudies={casestudies}/>
       <Work />
       {/* <Section /> */}
