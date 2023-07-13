@@ -39,9 +39,7 @@ const Backend = () => {
     },
     {
       id: 5,
-      icon: <img src="/assets/images/angular.png" alt="python" width="50" height="50"/>,
-      name: "Angular",
-      src: "/assets/images/techimg.png",
+      src: "/assets/images/tech/technologiesone.png",
       cols: "md:row-span-2",
     },
     {
@@ -84,8 +82,8 @@ const Backend = () => {
           {data.map((item,index) => (
             <>
               <div className={`${item.cols} group `} key={index}>
-                {index===4?<div>
-                  <img src={item.src} className=" " />
+                {index===4?<div className=" rounded-lg ">
+                  <img src={item.src} alt="" />
                 </div>:
                 <div className="relative text-center py-6 border-2 border-[#F6F8F9] duration duration-200 group-hover:-translate-y-2  hover:drop-shadow-sm hover:bg-[#F6F8F9]/40 hover:border-2 rounded-xl md:h-[17rem]">
                   <div className="flex justify-center items-center ">

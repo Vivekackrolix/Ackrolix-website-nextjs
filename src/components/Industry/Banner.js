@@ -15,7 +15,7 @@ const Banner = () => {
                 className="absolute top-4 -left-8 w-24"
               />
               <img
-                src="/assets/images/aboutusimg3.png"
+                src="/assets/images/industry/industrypage.png"
                 alt=""
                 className="rounded-md"
               />

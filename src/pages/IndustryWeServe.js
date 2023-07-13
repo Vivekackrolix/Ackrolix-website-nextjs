@@ -23,8 +23,8 @@ const IndustryWeServe = () => {
         />
         <Banner />
         <ComponentHead
-          title="We Serve"
-          sub="Lorem Ipsum"
+          title=" Serve"
+          sub="We Serve"
           head ="Here is a list of all the industries that we serve"
         />
         <Card />

@@ -9,30 +9,37 @@ import ThankYouModal from "../modal/ThankYouModal";
 const JobListData = [
   {
     id: 1,
-    name: "Front-end Developer ",
+    title:"Software Development",
+    name: "React.JS Developer ",
     discription:
-      "We’re looking for a mid-level Front-end Developer to join our team.",
-    experice: "4-5 Years",
-    Salary: "10-20 LPA",
-    Skills: "Java Script, React.js, HTML, CSS, Bootstrap",
-  },
+      "We’re looking for a Experienced React.JS Developer to join our team.",
+    experice: "5+ Years",
+    Salary: "5 - 7 LPA",
+    Skills: "React.Js, Flux, Flow, Redux, JavaScript, CSS, HTML, functional programming,REST APIs, Debugging, Backend API Integration etc.",
+ 
+ jobsch:"Gurgaon"
+ },
   {
     id: 2,
+    title:"Software Development",
     name: "Back-end Developer ",
     discription:
       "We’re looking for a mid-level Back-end Developer to join our team.",
     experice: "5-7 Years",
     Salary: "10-20 LPA",
-    Skills: "Python, PHP, Java, C#",
+    Skills: "Python, PHP, Java, C#, node.js",
+    jobsch:"Gurgaon"
   },
   {
     id: 3,
-    name: "Senior Back-end Developer ",
+    title:"Digital Marketing",
+    name: "SEO Executive ",
     discription:
-      "We’re looking for a mid-level Back-end Developer to join our team.",
-    experice: "5-7 Years",
-    Salary: "10-20 LPA",
-    Skills: "Java, Ruby, PHP or Python",
+      "We’re looking for a SEO Executive to join our team.",
+    experice: "4+ Years",
+    Salary: "3.5-5 LPA",
+    Skills: "Onpage, Offpage, Technical  ",
+    jobsch:"Gurgaon"
   },
 ];
 const JobListingCareers = () => {
@@ -144,8 +151,8 @@ const JobListingCareers = () => {
       <div className="container-ack  md:px-0 px-5">
         <ComponentHead
           title="Career"
-          sub="Lorem Ipsum"
-          head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+          sub="Thriving Opportunities"
+          head="Thriving in the Tech Era: Exploring Lucrative Career Paths in the IT Industry."
         />
 
         <div className="md:flex  justify-between items-center  flex-wrap pt-10 ">
@@ -156,7 +163,7 @@ const JobListingCareers = () => {
             >
               <small className="bg-[#090909] text-[#ABABAB] text-[12px] rounded-[20px] py-1 px-3">
                 {" "}
-                Software Development{" "}
+                {JobList.title}{" "}
               </small>
               <h4 className="py-2 text-[20px] font-bold">{JobList.name}</h4>
               <p className="text-textcolor text-[1em] mb-2 w-[80%]">
@@ -201,7 +208,7 @@ const JobListingCareers = () => {
                   </svg>
 
                   <span className="text-textcolor text-[14px]">
-                    Remote friendly
+                   {JobList.jobsch}
                   </span>
                 </div>
                 <div className="Rmte">
@@ -279,17 +286,13 @@ const JobListingCareers = () => {
                       </h2>
                       <div className="col-span-5 px-8 flex flex-col justify-center h-96 pt-20 space-y-6">
                         <div className="">
-                          <h2 className="text-4xl">Lorem ipsum</h2>
+                          <h2 className="text-4xl">Ackrolix Innovations</h2>
                         </div>
                         <p className="">
-                          Lorem ipsum dolor sit amet consectetur.
+                        Ackrolix innovations Website Design & Development Company.
                         </p>
                         <p className="text-gray-600">
-                          Lorem ipsum dolor sit amet consectetur. Ut molestie
-                          fermentum a eu sed iaculis feugiat quam. Curabitur
-                          turpis amet placerat neque consectetur. At nam velit
-                          ipsum sed senectus. Fermentum aliquet pretium volutpat
-                          lectus cursus aliquet.
+                        It's a Website Design & Development Company deal in website designing, website development and website promotion on various search engine building online reputation and marketing websites for a wide range of business professionals.
                         </p>
                       </div>
 
@@ -298,7 +301,7 @@ const JobListingCareers = () => {
                           Join Our Team!
                         </h1>
                         <p className="font-normal text-sm">
-                          Lorem ipsum dolor sit amet consectetur.
+                        Join our team and embark on an exciting journey of innovation and growth.
                         </p>
                         <form className="md:grid grid-cols-2 gap-4 mt-6 text-sm">
                           <div className="">
@@ -548,10 +551,10 @@ const JobListingCareers = () => {
                           ) : (
                             ""
                           )}
-                          <p className="col-span-2 text-sm py-4">
+                          {/* <p className="col-span-2 text-sm py-4">
                             Lorem ipsum dolor sit amet consectetur. Accumsan ut
                             ultricies lectus sem nunc.
-                          </p>
+                          </p> */}
                           <button
                             type="submit"
                             onClick={(e) => {
