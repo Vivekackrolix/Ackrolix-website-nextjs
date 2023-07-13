@@ -6,92 +6,16 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import Link from "next/link";
 const BannerResponsive = () => {
 
-    const settings = {
-        centerMode: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        focusOnSelect: true,
-        dots: false,
-        infinite: true,
-        arrows: true,
-        loop: true,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        speed: 1200,
-        lazyLoad: true,
-        accessibility: true,
-        cssEase: "ease-out",
-        swipeToSlide: false,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true,
-            },
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              initialSlide: 2,
-            },
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              centerPadding: "0px",
-            },
-          },
-        ],
-      };
+  
       const clientsData = [
         {
           id: 1,
           image: "/assets/images/banner/1.webp",
         },
-        {
-          id: 2,
-          image: "/assets/images/banner/2.webp",
-        },
-        {
-          id: 3,
-          image: "/assets/images/banner/3.webp",
-        },
+        
       ];
     
-      useEffect(() => {
-        let list = [].slice.call(document.querySelector(".container").children);
-    
-        function findActiveList() {
-          let activeList = list.findIndex((e) => {
-            return e.classList.contains("active");
-          });
-          list[activeList].classList.remove(
-            "active",
-            "fadeInRight",
-            "fadeInLext",
-            "animated"
-          );
-          return activeList;
-        }
-    
-        function slideShow() {
-          let activeList = findActiveList();
-    
-          activeList++;
-          activeList = activeList === list.length ? 0 : activeList;
-    
-          list[activeList].classList.add("active", "fadeInRight", "animated");
-        }
-    
-        setInterval(slideShow, 4500);
-      }, []);
+
 
 
   return (
@@ -102,7 +26,7 @@ const BannerResponsive = () => {
     }}
   >
     <div className=" HomePageSlider md:pb-20 pb-5 md:pt-0 pt-5">
-      <Slider {...settings} className="mx-auto relative">
+      <div className="mx-auto relative">
         {clientsData.map((item, index) => (
           <>
             <div className="group SldrImgDta" key={index}>
@@ -118,9 +42,9 @@ const BannerResponsive = () => {
             </div>
           </>
         ))}
-      </Slider>
+      </div>
       <div className="">
-        <div className="bg-zinc-100/80	 boxshadowbanner  md:px-10 py-12 md:w-[32%] w-[85%] absolute md:top-0 top-6 md:left-[3.6rem] left-7 rounded-lg  mt-2  px-5 ">
+        <div className="bg-zinc-100/80	 boxshadowbanner  md:px-10 py-12 md:w-[32%] w-[85%] absolute md:top-0 top-12 md:left-[3.6rem] left-7 rounded-lg  mt-2  px-5 ">
           <ul id="text-slider" class="container">
             <li class="active">
               <div className="flex justify-start items-center space-x-1">
