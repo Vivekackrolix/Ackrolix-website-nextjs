@@ -15,16 +15,15 @@ const TechnologyDetailPage = () => {
       <Heading
         titletext="Technologies"
         title="Technologies "
-        subtext="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi. Donec ac nisi ex."
+        subtext="The Evolution of IT: Unveiling the Latest Technologies Shaping the Industry"
       />
       <Banner />
       <Section />
       <Band />
       <ComponentHead
         title=" Advisors"
-        head="Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
-            tincidunt urna vulputate. Elit amet nam nulla"
-        sub="Our Advisors"
+        head="Transforming ideas into reality: Our Industry Experts understand the importance of being responsible stewards of the environment"
+        sub="Our Industry Experts"
       />
       <Advisors />
       <Footer />

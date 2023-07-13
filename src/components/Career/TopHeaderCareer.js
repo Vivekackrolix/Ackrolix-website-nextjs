@@ -8,7 +8,7 @@ export default function TopHeaderCareer() {
          
           <div className="TopCarerBnr">
             <img
-              src="/assets/images/career-img/bnnnrContactus-bnr.jpg"
+              src="/assets/images/career-img/careerimage.png"
               alt="Carimg"
             />
           </div>

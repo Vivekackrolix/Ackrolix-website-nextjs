@@ -13,15 +13,10 @@ const Banner = () => {
 
           <div className="">
             <div className="text-3xl  font-bold ">
-             Lorem Ipsum dolor sit amet
-              Eget at auctor purus
+            WE WORK WITH OUR CUSTOMERS FOR THEIR SUSTAINED SUCCESS
             </div>
             <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4 md:pt-8 pt-4">
-              Lorem ipsum dolor sit amet consectetur. Sapien porttitor non
-              ultrices id enim lectus sagittis viverra interdum. Nisi lobortis
-              tincidunt convallis viverra. Scelerisque sed orci amet proin cras
-              quam pellentesque. Sollicitudin sed velit nunc nunc morbi sed
-              aliquam.
+            Ackrolix Innovations is a premier eCommerce Service Provider Company with delivery centres in gurgaon India and a global footprint. We provide completee Commerce solutions like ecommerce website development, ecommerce mobile app development, ecommerce logistic solutions, ecommerce cart solutions increase ecommerce product sales and online reputation management. Being one of the best eCommerce Service Provider company in Gurgaon, Ackrolix Innovations is committed to giving innovative and quality ecommerce services to its clients pertinent to their business goals.
             </div>
             <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  py-4">
               Lorem ipsum dolor sit amet consectetur. Fermentum tortor et arcu
