@@ -9,8 +9,7 @@ const location = [
     id: 1,
     img: "/assets/images/india.png",
     place: "Gurgaon",
-    number: "+91-8178567042",
-    address: " 139 Rider House Sec 44, Gurugram 122108",
+    number: "+91-9599062435",
     mail: "info@ackrolix.com",
   },
   {
@@ -18,7 +17,6 @@ const location = [
     img: "/assets/images/india.png",
     place: "Banglore",
     number: "+91-8178567042",
-    address: " 139 Rider House Sec 44, Gurugram 122108",
     mail: "info@ackrolix.com",
   },
   {
@@ -26,7 +24,6 @@ const location = [
     img: "/assets/images/india.png",
     place: "Kolkata",
     number: "+91-8178567042",
-    address: " 139 Rider House Sec 44, Gurugram 122108",
     mail: "info@ackrolix.com",
   },
   {
@@ -34,39 +31,34 @@ const location = [
     img: "/assets/images/india.png",
     place: "Mumbai",
     number: "+91-8178567042",
-    address: " 139 Rider House Sec 44, Gurugram 122108",
     mail: "info@ackrolix.com",
   },
   {
     id: 5,
     img: "/assets/images/UAEflag.jpg",
     place: "Dubai",
-    number: "+91-8178567042",
-    address: " 139 Rider House Sec 44, Gurugram 122108",
+    number: "+971547097369",
     mail: "info@ackrolix.com",
   },
   {
     id:6,
     img: "/assets/images/UAEflag.jpg",
     place: "Sharjah",
-    number: "+91-8178567042",
-    address: " 139 Rider House Sec 44, Gurugram 122108",
+    number: "+971547097369",
     mail: "info@ackrolix.com",
   },
   {
     id: 7,
     img: "/assets/images/uk.png",
     place: "UK",
-    number: "+91-8178567042",
-    address: " 139 Rider House Sec 44, Gurugram 122108",
+    number: "+44-7534062063",
     mail: "info@ackrolix.com",
   },
   {
     id: 8,
     img: "/assets/images/USAflag.jpg",
     place: "USA",
-    number: "+91-8178567042",
-    address: " 139 Rider House Sec 44, Gurugram 122108",
+    number: "(210)879-3223",
     mail: "info@ackrolix.com",
   },
 
@@ -117,7 +109,7 @@ const Location = () => {
                         </div>
                       </div>
                     </Link>
-                    <div className="flex space-x-2 cursor-pointer">
+                    {/* <div className="flex space-x-2 cursor-pointer">
                       <FaLocationArrow size={20} />
                       <div className="text-xs">
                         <h2 className="font-semibold">ADDRESS</h2>
@@ -125,7 +117,7 @@ const Location = () => {
                           {item.address}
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                     <Link href="mailto:info@ackrolix.com">
                       <div className="flex space-x-2">
                         <MdOutlineMail size={20} />
@@ -146,16 +138,7 @@ const Location = () => {
       </div>
       <div className="grid ">
         <div className="h-full ">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.9262399201243!2d77.07328361427676!3d28.451639798997576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19e83941db41%3A0x7885f10d8a89ac20!2sAckrolix%20Innovations!5e0!3m2!1sen!2sin!4v1679741201844!5m2!1sen!2sin"
-            width="100%"
-            height={500}
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            className=""
-          />
+        <img src="/assets/images/maplocation.gif" alt="" />
         </div>
       </div>
     </div>

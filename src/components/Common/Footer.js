@@ -141,13 +141,13 @@ const Footer = () => {
                       136 Rider House Sec 44, Gurugram 122108
                     </h2>
                   </li>
-                  <Link href="tel:+918178567042">
+                  <Link href="tel:+919599062435">
                     <li className="flex space-x-2 items-center pt-6 group">
                       <IoMdCall
                         size={28}
                         className="text-black group-hover:text-primary mt-3"
                       />
-                      <span className="text-sm">+91-8178567042</span>
+                      <span className="text-sm">+91-9599062435</span>
                     </li>
                   </Link>
                   <Link href="mailto:info@ackrolix.com">
