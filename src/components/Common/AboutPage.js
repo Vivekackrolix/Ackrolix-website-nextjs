@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-const Banner = () => {
+const AboutPage = () => {
   return (
     <div
       className="h-screen bg-right"
@@ -20,13 +20,10 @@ const Banner = () => {
           
           <div className="">
             <div className="text-[46px] max-[480px]:text-[30px] text-secondary relative bottom-[18px] z-10 font-bold">
-              <span className="text-primary">Driving success </span> through the
-              power of technology
+            Why <span className="text-primary"> Ackrolix Innovations ? </span> 
             </div>
             <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4">
-              We are all about changing lives and solving problems. With our team of experts,
-              we are here to turn an idea into a successful product that exceeds expectations.
-
+            Ackrolix Innovations is a full-service digital marketing agency. We’ve been providing a wide range of services to clients of all industries since 2005. Our digital marketing services include consulting and management options for a variety of online marketing tactics including search engine optimization (SEO), pay-per-click (PPC) ads, Amazon store optimization, copywriting, conversion rate optimization (CRO), and more. We also offer expert web design and development services for both eCommerce and B2B companies. Don’t just partner with any digital marketing agency; work with a company you can trust.
 
             </div>
             <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  py-4">
@@ -52,7 +49,7 @@ const Banner = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Banner;
+export default AboutPage
