@@ -185,10 +185,10 @@ const FormSection = () => {
                   <p className="text-primary ">info@ackrolix.com</p>
                 </div>
               </Link>
-              <Link href="tel:+918178567042">
+              <Link href="tel:+919599062435">
                 <div className="flex space-x-2 mb-2 ">
                   <BiPhoneCall size={25} />
-                  <p className="text-primary mb-2">+91-8178567042</p>
+                  <p className="text-primary mb-2">+91-9599062435</p>
                 </div>
               </Link>
               <div className="flex space-x-2 cursor-pointer ">
