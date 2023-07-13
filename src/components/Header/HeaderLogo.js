@@ -27,13 +27,13 @@ const HeaderLogo = () => {
               <h2 className="text-[12px] group-hover:text-primary ">Info@ackrolix.com</h2>
             </div>
           </Link>
-          <Link href="tel:+918178567042">
+          <Link href="tel:+919599062435">
             <div className="flex space-x-2 items-center justify-end group">
               <IoMdCall
                 size={20}
                 className="text-black group-hover:text-primary"
               />
-              <h2 className="text-[12px] group-hover:text-primary">+91-8178567042</h2>
+              <h2 className="text-[12px] group-hover:text-primary">+91-9599062435</h2>
             </div>
           </Link>
         </div>
