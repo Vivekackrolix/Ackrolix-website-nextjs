@@ -72,61 +72,7 @@ const BannerResponsive = () => {
                   </button>
                 </Link>
               </div>
-            </li>
-            <li>
-              <div className="flex justify-start items-center space-x-1">
-                <span className="text-primary md:text-sm text-base uppercase font-semibold">
-                  {" "}
-                  Where Ideas Come to Life{" "}
-                </span>{" "}
-                <img src="/assets/icons/icon.png" className="w-9 bulb" />
-              </div>
-              <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-              Empowering The Web With Innovative Development
-              </h2>
-              <p className="text-textcolor pt-4 text-justify text-[15px] font-medium">
-              From creativity to technology Ackrolix Innovations crafts designs with seamless functionality that leave a lasting impression.
-              </p>
-              <div className="pt-10 w-full">
-                <Link href="/contact">
-                  <button className="button-3 bg-secondary hover:bg-primary text-white px-12 py-3 justify-center rounded-md flex items-center w-full text-center">
-                    <div className="eff-3"></div>
-                    <span className="text-base flex items-center ">
-                      {" "}
-                      Discover Now
-                      <MdKeyboardArrowRight className=" text-base" />
-                    </span>
-                  </button>
-                </Link>
-              </div>
-            </li>
-            <li>
-              <div className="flex justify-start items-center space-x-1">
-                <span className="text-primary md:text-sm text-base uppercase font-semibold">
-                  {" "}
-                  Crafting Cutting-Edge Apps{" "}
-                </span>{" "}
-                <img src="/assets/icons/icon.png" className="w-9 bulb" />
-              </div>
-              <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-              Transforming Your Brand With Mobile App Development
-              </h2>
-              <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
-              From idea to app store, Ackrolix Innovations guides you through the Mobile App Development journey.
-              </p>
-              <div className="pt-10 w-full">
-                <Link href="/contact">
-                  <button className="button-3 bg-secondary hover:bg-primary text-white px-12 py-3 justify-center rounded-md flex items-center w-full text-center">
-                    <div className="eff-3"></div>
-                    <span className="text-base flex items-center ">
-                      {" "}
-                      Discover Now
-                      <MdKeyboardArrowRight className=" text-base" />
-                    </span>
-                  </button>
-                </Link>
-              </div>
-            </li>
+            </li>   
           </ul>
         </div>
       </div>
