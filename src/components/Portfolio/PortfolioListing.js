@@ -217,7 +217,7 @@ function PortfolioListing() {
                     </div>
                     <div>
                       <div className="flex justify-end pb-10 col-span-1">
-                        <Link href="#">
+                        <Link href="/contact">
                           <button className=" button-2 px-7 py-2 rounded-md">
                             <div className="eff-2"></div>
                             <span className="text-base flex items-center ">

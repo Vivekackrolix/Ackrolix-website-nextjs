@@ -10,7 +10,7 @@ const Header = () => {
 
     </Head>
       <div
-        className="bg-right px-4"
+        className="bg-right bg-white fixed md:static z-20 w-full"
         style={{
           backgroundImage: 'url("/assets/images/mainbackground.png ")',
         }}>

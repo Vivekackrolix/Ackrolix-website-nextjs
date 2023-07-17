@@ -234,7 +234,7 @@ const JobListingCareers = () => {
                     Apply{" "}
                   </button>
                   <Link
-                    href={"/careerDetails"}
+                    href={"/contact"}
                     className="bg-white text-black border border-secondary px-5 py-1 text-[12px] rounded-md  hover:bg-black hover:text-white"
                   >
                     {" "}

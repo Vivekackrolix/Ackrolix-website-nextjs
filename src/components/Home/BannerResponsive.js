@@ -20,12 +20,12 @@ const BannerResponsive = () => {
 
   return (
     <div
-    className="bg-right block md:hidden"
+    className="bg-right block md:hidden "
     style={{
       backgroundImage: 'url("/assets/images/mainbackground.png ")',
     }}
   >
-    <div className=" HomePageSlider md:pb-20 pb-5 md:pt-0 pt-5">
+    <div className=" HomePageSlider md:pb-20 pb-5 md:pt-0 pt-12">
       <div className="mx-auto relative">
         {clientsData.map((item, index) => (
           <>
@@ -44,7 +44,7 @@ const BannerResponsive = () => {
         ))}
       </div>
       <div className="">
-        <div className="bg-zinc-100/80	 boxshadowbanner  md:px-10 py-12 md:w-[32%] w-[85%] absolute md:top-0 top-12 md:left-[3.6rem] left-7 rounded-lg  mt-2  px-5 ">
+        <div className="bg-zinc-100/80	 boxshadowbanner  md:px-10 py-12 md:w-[32%] w-[85%] absolute md:top-0 top-20 md:left-[3.6rem] left-7 rounded-lg  mt-2  px-5 ">
           <ul id="text-slider" class="container">
             <li class="active">
               <div className="flex justify-start items-center space-x-1">

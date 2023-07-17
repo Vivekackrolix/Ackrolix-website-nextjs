@@ -96,12 +96,12 @@ const Banner = () => {
   }, []);
   return (
     <div
-      className="bg-right md:block hidden"
+      className="bg-right md:block hidden "
       style={{
         backgroundImage: 'url("/assets/images/mainbackground.png ")',
       }}
     >
-      <div className=" md:px-0 px-5 HomePageSlider md:pb-20 pb-5 md:pt-0 pt-5">
+      <div className=" md:px-0 px-5 HomePageSlider md:pb-20 pb-5 md:pt-0 pt-5 ">
         <Slider {...settings} className="mx-auto relative">
           {clientsData.map((item, index) => (
             <>

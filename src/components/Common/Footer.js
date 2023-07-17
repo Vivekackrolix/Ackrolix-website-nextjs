@@ -67,9 +67,9 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className="md:col-span-5 p-2">
+            <div className="md:col-span-4 p-2">
               <h2 className="text-xl font-semibold text-black">EXPLORE</h2>
-              <div className="flex space-x-40 py-4">
+              <div className="flex space-x-20 py-4">
                 <ul className="explore">
                   <Link href="/">
                     <li className="text-sm hover:text-primary">
@@ -127,7 +127,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="md:col-span-3 p-2">
+            <div className="md:col-span-4 p-2">
               <h2 className="text-xl font-semibold text-black">CONTACT</h2>
               <div className="flex space-x-10 py-4">
                 <ul className="">
@@ -138,8 +138,20 @@ const Footer = () => {
                     />
 
                     <h2 className="text-sm md:w-[90%]">
-                      136 Rider House Sec 44, Gurugram 122108
+                      Gurgaon, Mumbai, Banglore, Kolkata
                     </h2>
+                  </li>
+                  <li className=" space-x-2  pt-4 group cursor-pointer">
+                    <p className="py-2"> International Locations : </p>
+                    <span className="flex items-center">
+                    <GoLocation
+                      size={24}
+                      className="text-black group-hover:text-primary mt-3"
+                    />
+                    <h2 className="text-sm md:w-[90%]">
+                     Dubia, Sarjah, UK, USA
+                    </h2>
+                    </span>
                   </li>
                   <Link href="tel:+919599062435">
                     <li className="flex space-x-2 items-center pt-6 group">

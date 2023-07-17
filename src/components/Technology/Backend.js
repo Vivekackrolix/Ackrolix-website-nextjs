@@ -10,7 +10,7 @@ const Backend = () => {
       icon: <img src="/assets/images/react-js.png" alt="react-js" width="50" height="50"/>,
       name: "React.js",
       desc: "React is a free and open-source front-end JavaScript library for building user interfaces. ",
-      link: "/technologyDetailPage",
+      link: "/contact",
       cols: "md:row-span-1",
     },
     {
@@ -18,7 +18,7 @@ const Backend = () => {
       icon: <img src="/assets/images/node.webp" alt="node.js" width="50" height="50"/>,
       name: "Node.js",
       desc: "Node.js is a cross-platform, open-source server environment.",
-      link: "/technologyDetailPage",
+      link: "/contact",
       cols: "md:row-span-1",
     },
     {
@@ -26,7 +26,7 @@ const Backend = () => {
       icon: <img src="/assets/images/python.png" alt="python" width="50" height="50"/>,
       name: "Python",
       desc: "Python can be used on a server to create web applications.",
-      link: "/technologyDetailPage",
+      link: "/contact",
       cols: "md:row-span-1",
     },
     {
@@ -34,7 +34,7 @@ const Backend = () => {
       icon: <img src="/assets/images/nextjs.png" alt="Nextjs" width="50" height="50"/>,
       name: "Next.js",
       desc: "Next.js is a React framework that enables several extra features.",
-      link: "/technologyDetailPage",
+      link: "/contact",
       cols: "md:row-span-1",
     },
     {
@@ -47,7 +47,7 @@ const Backend = () => {
       icon: <img src="/assets/images/angular.png" alt="angular" width="50" height="50"/>,
       name: "Angular.js",
       desc: "Stay connected with your team and make quick decisions wherever you are. ",
-      link: "/technologyDetailPage",
+      link: "/contact",
       cols: "md:row-span-1",
     },
     {
@@ -55,7 +55,7 @@ const Backend = () => {
       icon: <img src="/assets/images/java.png" alt="java" width="50" height="50"/>,
       name: "Java",
       desc: "Java is a high-level, class-based, object-oriented programming language.",
-      link: "/technologyDetailPage",
+      link: "/contact",
       cols: "md:row-span-1",
     },
     {
@@ -63,7 +63,7 @@ const Backend = () => {
       icon: <img src="/assets/images/laravel.png" alt="laravel" width="50" height="50"/>,
       name: "Laravel",
       desc: "Laravel is a web application framework with expressive, elegant syntax.",
-      link: "/technologyDetailPage",
+      link: "/contact",
       cols: "md:row-span-1",
     },
   ];
