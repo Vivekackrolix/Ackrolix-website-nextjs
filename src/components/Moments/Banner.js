@@ -31,14 +31,14 @@ const Banner = () => {
             <img src="/assets/images/memories/img2.png" />
           </div>
           <div className="rounded-lg">
-            <img src="/assets/images/memories/img3.png" />
+            <img src="/assets/images/memories/mom1.png" />
           </div>
           <div className="rounded-lg"></div>
           <div className="rounded-lg">
-            <img src="/assets/images/memories/img4.png" />
+            <img src="/assets/images/memories/mom11.png" />
           </div>
           <div className="rounded-lg">
-            <img src="/assets/images/memories/img5.png" />
+            <img src="/assets/images/memories/mom2.png" />
           </div>
         </div>
         {/* images section end */}
