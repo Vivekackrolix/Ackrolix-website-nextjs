@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Footer from '../../components/Common/Footer';
+import Footer from "../../components/Common/Footer";
 import Header from "../../components/Common/Header";
 import Banner from "../../components/Services/DetailPage/Banner";
 import Cards from "../../components/Services/DetailPage/Cards";
@@ -16,202 +16,178 @@ const ProductDdesignCompany = () => {
   const processes = [
     {
       id: "1",
-      name: "Empathise",
-      desc:"The first stage of the process is spent getting to know the user and understanding their wants, needs and objectives. This means observing and engaging with people in order to understand them on a psychological and emotional level. During this phase, the designer seeks to set aside their assumptions and gather real insights about the user. Learn all about key empathy-building methods here."
+      name: "UI/UX",
+      desc: "Dive into the endless possibilities of Ackrolix UI and UX expertise! See amazing user flows, wireframes, and designs to bring your dreams to life. Our team conquers cutting-edge mobile and web app design technologies to create experiences that amaze audiences. Work proficiently with developers or export easily to your in-house team - the choice is yours! Your vision, our image - together, we will create miracles!      ",
     },
     {
       id: "2",
-      name: "Define",
-desc:"The second stage in the Design Thinking process is dedicated to defining the problem. You’ll gather all of your findings from the empathise phase and start to make sense of them: what difficulties and barriers are your users coming up against? What patterns do you observe? What is the big user problem that your team needs to solve? By the end of the define phase, you will have a clear problem statement. The key here is to frame the problem in a user-centered way; rather than saying We need to…, frame it in terms of your user:Retirees in the Bay area need…",
+      name: "WEB",
+      desc: "Open the doors to endless possibilities with our many dynamic services! We have everything from design reviews to advanced UI/UX masterpieces to mind-blowing prototyping and seamless development! Whether you dream of building a new website from scratch or need a modern update, our full range of services ensures your digital presence is integrated and innovative. Let's redesign your website to impress your competitors!",
     },
     {
       id: "3",
-      name: "Ideate",
-desc:"it’s time to start working on potential solutions. The third phase in the Design Thinking process is where the creativity happens, and it’s crucial to point out that the ideation stage is a judgement-free zone! Designers will hold ideation sessions in order to come up with as many new angles and ideas as possible. There are many different types of ideation technique that designers might use, from brainstorming and mindmapping to bodystorming (roleplay scenarios) and provocation — an extreme lateral-thinking technique that gets the designer to challenge established beliefs and explore new options and alternatives.",
+      name: "MOBILE APPS",
+      desc: "Let your apps shine with unique designs in a sea of ​​2 million apps daily! iOS, Android, Web, or cross-platform, we help you. We will turn your ideas into masterpieces by creating lightning-fast, user-friendly, and exciting mobile applications that delight your target customers. Enjoy using our ideas to create something extraordinary!",
     },
     {
       id: "4",
-      name: "Prototype",
-desc:"A prototype is basically a scaled-down version of the product which incorporates the potential solutions identified in the previous stages. This step is key in putting each solution to the test and highlighting any constraints and flaws. Throughout the prototype stage, the proposed solutions may be accepted, improved, redesigned or rejected depending on how they fare in prototype form. You can read all about the prototyping stage of Design Thinking in this in-depth guide.",
+      name: "BRANDING",
+      desc: "Reveal the secrets of top customers with Ackrolix! Build trust and recognition with compelling images, text, and products that speak directly to your audience. From legendary global titans to the biggest business giants, we will create a magnetic link to keep them coming back! Experience the magic of effective communication and watch your brand rise to unprecedented heights.",
     },
     {
       id: "5",
-      name: "Test",
-desc:"After prototyping comes user testing, but it’s important to note that this is rarely the end of the Design Thinking process. In reality, the results of the testing phase will often lead you back to a previous step, providing the insights you need to redefine the original problem statement or to come up with new ideas you hadn’t thought of before. Learn all about user testing in this guide."
+      name: "ICON/ ILLUSTRATION",
+      desc: "These little things can convey your message quickly and intelligently so you can say more with less. Turn your own eyes into captivating creative music that words alone can't do. Get ready to prove the impact of this powerful design, impress your audience, and take your brand to new heights!",
     },
-
+    {
+      id: "6",
+      name: "TEAM EXTENSION",
+      desc: "Speed ​​up your product development process with the Ackrolix support team! Our product developers can integrate with your existing team, making it creative and experienced. Get ready to improve your digital product development and see innovation reach new heights! Increase your success with a successful partnership with Ackrolix.",
+    },
   ];
   const techs = [
     {
       id: "1",
       img: "/assets/images/service/svg/react.svg",
       name: "React.js",
-
     },
     {
       id: "2",
       img: "/assets/images/service/svg/flutter.svg",
       name: "Angular",
-
     },
     {
       id: "3",
       img: "/assets/images/service/svg/next.png",
       name: "Next.js",
-
     },
     {
       id: "4",
       img: "/assets/images/service/svg/nodejs.svg",
       name: "Node.js",
-
     },
     {
       id: "5",
       img: "/assets/images/service/svg/express.png",
       name: "Express",
-
     },
     {
       id: "6",
       img: "/assets/images/service/svg/html.png",
       name: "HTML",
-
     },
     {
       id: "7",
       img: "/assets/images/service/svg/bootstrap.png",
       name: "Bootstrap",
-
     },
     {
       id: "8",
       img: "/assets/images/service/svg/php.png",
       name: "php",
-
     },
     {
       id: "9",
       img: "/assets/images/service/svg/laravel.png",
       name: "Laravel",
-
     },
     {
       id: "10",
       img: "/assets/images/service/svg/codeigniter.png",
       name: "Codeigniter",
-
     },
     {
       id: "11",
       img: "/assets/images/service/svg/net.png",
       name: "Asp.net",
-
     },
     {
       id: "12",
       img: "/assets/images/service/svg/phython.png",
       name: "phython",
-
     },
     {
       id: "13",
       img: "/assets/images/service/svg/java.svg",
       name: "JAVA",
-
     },
     {
       id: "14",
       img: "/assets/images/service/svg/andriod.png",
       name: "Android",
-
     },
     {
       id: "15",
       img: "/assets/images/service/svg/flutter.svg",
       name: "Flutter",
-
     },
     {
       id: "16",
       img: "/assets/images/service/svg/ios.svg",
       name: "iOS",
-
     },
     {
       id: "17",
       img: "/assets/images/service/svg/react.svg",
       name: "ReactNative",
-
     },
     {
       id: "18",
       img: "/assets/images/service/svg/sql.png",
       name: "MySQL",
-
     },
     {
       id: "19",
       img: "/assets/images/service/svg/mongodb.png",
       name: "MonogoDb",
-
     },
     {
       id: "20",
       img: "/assets/images/service/svg/postgresql.svg",
       name: "PostgreSQL",
-
     },
     {
       id: "21",
       img: "/assets/images/service/svg/amazon-web-services.svg",
       name: "AWS",
-
     },
     {
       id: "22",
       img: "/assets/images/service/svg/wordpress.png",
       name: "Wordpress",
-
     },
     {
       id: "23",
       img: "/assets/images/service/svg/shopify.svg",
       name: "Shopify",
-
     },
     {
       id: "24",
       img: "/assets/images/service/svg/joomla.svg",
       name: "Joomla",
-
     },
     {
       id: "25",
       img: "/assets/images/service/svg/magento.svg",
       name: "Magento",
-
     },
     {
       id: "26",
       img: "/assets/images/service/svg/webflow.svg",
       name: "Webflow",
-
     },
     {
       id: "27",
       img: "/assets/images/service/svg/firebase.svg",
       name: "Firebase",
-
     },
     {
       id: "28",
       img: "/assets/images/service/svg/jquery.svg",
       name: "JQuery",
-
     },
   ];
-const cards = [
+  const cards = [
     {
       id: 1,
       para: "Our modernization solutions revolutionize your applications' performance, scalability, agility, & maintainability. We enable seamless integration with emerging technologies, optimize infrastructure, & streamline workflows to ensure your applications are future-proof.",
@@ -300,11 +276,21 @@ const cards = [
       textcolor: "text-secondary",
       main: "hidden",
     },
-  ];  
+  ];
   return (
     <div>
       <Head>
-        <title>Product Design Company</title>        
+        <title>Digital Product Design Company in Gurgaon - Ackrolix</title>
+        <meta name="description" content="Ackrolix is a leading Digital Product Design Company in Gurgaon, renowned for its exceptional services and innovative solutions." />
+        <meta property="og:title" content="Digital Product Design Company in Gurgaon - Ackrolix" />
+        <meta
+          property="og:description"
+          content="Ackrolix is a leading Digital Product Design Company in Gurgaon, renowned for its exceptional services and innovative solutions."
+        />
+        <meta
+          property="og:image"
+          content="https://www.ackrolix.com/assets/images/logoack.png"
+        />
       </Head>
       <Header />
       <div
@@ -313,23 +299,24 @@ const cards = [
           backgroundImage: 'url("/assets/images/mainbackground.png ")',
         }}
       >
-        <Banner 
-          bannertitle="Make your systems efficient & scalable with our Porduct Designing expertise"
-          bannersubtext="Product design plays a crucial role in creating exceptional user experiences and driving the success of a product. It encompasses the process of understanding user needs, ideating, prototyping, and iterating to develop a functional and visually appealing product."
+        <Banner
+          bannertitle="Manifest Creative Digital Product Design and Development with Ackrolix          "
+          bannersubtext="     
+          Ackrolix is Gurgaon's top Digital Product Design Company which assists your business to access endless creativity. Take advantage of Ackrolix's Digital Product Design Services in Gurgaon to set out on an exciting voyage of creation. As we create magnificent interfaces and amazing experiences that will astound your audience, let your boldest and most transformative ideas come to life. Our goal as a premier Digital Product Development Company is to make your ideas a reality. As a Digital Product Agency, we produce designs that are smooth and appealing that please your target market."
           serviceimg="/assets/images/service/svg/pro.png"
-          servicehead="Designing the Future: Crafting Innovative Solutions for a Connected World"
-          servicedesc1="Digital product design is a process that professionals use to create innovative technical solutions that address consumer requirements, desires or priorities. This involves an in-depth perception of their consumers and understanding how they move through a digital experience by learning to use and operate it to receive the desired outcome. This design process is important because it can help you attract and interest new customers while adding value to the company."
-          servicedesc2="Digital product design is the ultimate tool for unleashing your creativity and designing innovative products. With this cutting-edge technology, you can bring your ideas to life and create stunning designs that will captivate your audience. Whether you're a professional designer or just starting out, digital product design offers endless possibilities for crafting unique and visually appealing products."
+          servicehead="Ackrolix Innovation: Redefining Digital Product Design Excellence"
+          servicedesc1="We're glad you're here at Ackrolix Innovation, an advanced digital product design firm in Gurgaon. Our Digital Product Design is a masterpiece of imagination and in-depth knowledge of human behaviour. Our design team at Ackrolix is a formidable force, equipped with pioneering tools and concepts that push the frontiers of creativity and keep up with changing business trends."
+          servicedesc2="When you work with us, your products will sparkle on the online store and shine like illuminating beacons in the night. Because we fully believe in the value of cooperation and collaboration, we actively involve our clients in the design process. We listen, learn, and adjust throughout the process, making sure that the finished product exceeds your expectations."
         />
       </div>
       {/* <Cards card={cards} /> */}
       <div className="container-ack md:px-0 px-5">
-       <ComponentHead
-        title="Technology"
-        sub="Product Design Company"
-        head="The technology stack for Product Design Company can vary depending on the specific requirements of the application and the chosen modernization approach."
-      />
-      <Technology tech={techs} />
+        <ComponentHead
+          title="Technology"
+          sub="Product Design Company"
+          head="Ackrolix, a leading firm in Gurgaon for digital product design & development, is your devoted associate in reaching digital excellence. Put your faith in our digital product design services and watch your items shine and be distinguished. Witness the strength of Ackrolix, your acclaimed Gurgaon-based digital product agency, and work with us to build a digital environment that redefines greatness."
+        />
+        <Technology tech={techs} />
       </div>
 
       <div>
@@ -342,17 +329,19 @@ const cards = [
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
               processhead="Stages"
-              processsub="There are following steps"
-              processdesc="A 5 Stage Process to Better Product Design. At its core, design thinking is a problem-solving methodology that, first and foremost, focuses on the user’s needs rather than the product’s specifications. Teams that fuse design thinking into their design process can develop better, user-centered products."
+              processsub="Key to Success (Our services)"
+              processdesc="Leading Gurgaon-based digital product design firm Ackrolix has mastered the art of developing beautiful digital products that solve customer problems and boost revenue across a range of sectors. You are where the magic begins! To deliver the best possible user experience, our team of brilliant digital product designers and skilled business analysts intimately understands your requirements."
               processimg="/assets/images/service/svg/pro1.png"
             />
             <Process process={processes} />
           </div>
         </div>
-        <div className="h-[7.5rem]"
+        <div
+          className="h-[7.5rem]"
           style={{
             backgroundImage: 'url("/assets/images/service/wave.png")',
-          }}></div>
+          }}
+        ></div>
       </div>
 
       <Work />

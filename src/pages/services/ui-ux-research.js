@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Footer from '../../components/Common/Footer';
+import Footer from "../../components/Common/Footer";
 import Header from "../../components/Common/Header";
 import Banner from "../../components/Services/DetailPage/Banner";
 import Cards from "../../components/Services/DetailPage/Cards";
@@ -17,24 +17,23 @@ const Research = () => {
     {
       id: "1",
       name: "Make A Plan",
-desc:"We make a comprehensive plan of all the activities pertaining to user research and have a detailed walkthrough of each step.",
+      desc: "We make a comprehensive plan of all the activities pertaining to user research and have a detailed walkthrough of each step.",
     },
     {
       id: "2",
       name: "Recruit Participants & Conduct Research",
-desc:"We hire participants that represent target users and conduct research using qualitative and/or quantitative methods."
+      desc: "We hire participants that represent target users and conduct research using qualitative and/or quantitative methods.",
     },
     {
       id: "3",
       name: "Synthesize",
-desc:"We fill in the knowledge gaps, prove or disprove our hypotheses, and discover opportunities for our design efforts.",
+      desc: "We fill in the knowledge gaps, prove or disprove our hypotheses, and discover opportunities for our design efforts.",
     },
     {
       id: "4",
       name: "Reporting",
-desc:"We prepare and submit a comprehensive report on the findings of the research with actionable suggestions."
+      desc: "We prepare and submit a comprehensive report on the findings of the research with actionable suggestions.",
     },
-   
   ];
   const techs = [
     {
@@ -77,40 +76,40 @@ desc:"We prepare and submit a comprehensive report on the findings of the resear
       id: "7",
       img: "/assets/images/service/svg/axure.png",
       name: "Axure RP",
-      desc: " Axure RP is often used for complex interactions and user flows."
+      desc: " Axure RP is often used for complex interactions and user flows.",
     },
     {
       id: "8",
       img: "/assets/images/service/svg/marvel.png",
       name: "Marvel",
-      desc: " A user-friendly prototyping tool that enables designers to create interactive prototypes with ease. "
+      desc: " A user-friendly prototyping tool that enables designers to create interactive prototypes with ease. ",
     },
     {
       id: "9",
       img: "/assets/images/service/svg/zepline.png",
       name: "Zeplin",
-      desc: "  Zeplin generates style guides, assets, and CSS code snippets to ensure smooth collaboration between designers and developers."
+      desc: "  Zeplin generates style guides, assets, and CSS code snippets to ensure smooth collaboration between designers and developers.",
     },
     {
       id: "10",
       img: "/assets/images/service/svg/principle.png",
       name: "Principle",
-      desc: " Principle integrates well with Sketch and enables designers to add motion to their designs."
+      desc: " Principle integrates well with Sketch and enables designers to add motion to their designs.",
     },
     {
       id: "11",
       img: "/assets/images/service/svg/procreate.png",
-      name:"Procreate",
-      desc: "A digital illustration app designed specifically for iPad."
+      name: "Procreate",
+      desc: "A digital illustration app designed specifically for iPad.",
     },
     {
       id: "12",
       img: "/assets/images/service/svg/logobal.png",
       name: "Balsamiq",
-      desc: " Balsamiq enables designers to quickly sketch out interface ideas and concepts."
+      desc: " Balsamiq enables designers to quickly sketch out interface ideas and concepts.",
     },
   ];
-const cards = [
+  const cards = [
     {
       id: 1,
       para: "User research services we offer",
@@ -150,7 +149,7 @@ const cards = [
     {
       id: 4,
       icon: "03",
-      title:"User Interviews And Surveys",
+      title: "User Interviews And Surveys",
       para: "We investigate the participants to uncover their hidden needs and pain points to develop a more meaningful product.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
@@ -173,11 +172,15 @@ const cards = [
       textcolor: "text-secondary",
       main: "hidden",
     },
-  ];  
+  ];
   return (
     <div>
       <Head>
-        <title>UI-UX Research</title>        
+        <title>UI-UX Research</title>
+        <meta
+          name="description"
+          content="Check out iPhone 12 XR Pro and iPhone 12 Pro Max. Visit your local store and for expert advice."
+        />
       </Head>
       <Header />
       <div
@@ -186,7 +189,7 @@ const cards = [
           backgroundImage: 'url("/assets/images/mainbackground.png ")',
         }}
       >
-        <Banner 
+        <Banner
           bannertitle="We investigate users needs"
           bannersubtext="As a leading UX research company in Mumbai, dig deep into identifying users' motivations and pain points, investigate their root causes and extract valuable insights."
           serviceimg="/assets/images/service/svg/ur.png"
@@ -197,12 +200,12 @@ const cards = [
       </div>
       <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
-      <ComponentHead
+        <ComponentHead
           title="Technology"
           sub="Tools we are using In UI/UX Designing & Strategy"
           head="The technology stack for Data Visualisation can vary depending on the specific requirements of the application and the chosen modernization approach."
         />
-      <Technology tech={techs} />
+        <Technology tech={techs} />
       </div>
 
       <div>
@@ -224,10 +227,12 @@ we offer"
             <Process process={processes} />
           </div>
         </div>
-        <div className="h-[7.5rem]"
+        <div
+          className="h-[7.5rem]"
           style={{
             backgroundImage: 'url("/assets/images/service/wave.png")',
-          }}></div>
+          }}
+        ></div>
       </div>
 
       <Work />
