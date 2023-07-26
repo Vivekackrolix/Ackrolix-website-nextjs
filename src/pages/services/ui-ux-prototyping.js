@@ -201,7 +201,7 @@ const cards = [
         }}
       >
         <Banner 
-          bannertitle="We weave fluid prototypes"
+          bannertitle="This is new day"
           bannersubtext="We build rapid and fluid prototypes that emulate the real product."
           serviceimg="/assets/images/service/svg/res.png"
           servicehead="Replicating the actual product behaviour"
