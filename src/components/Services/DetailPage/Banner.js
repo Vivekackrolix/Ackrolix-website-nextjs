@@ -20,8 +20,8 @@ const Banner = ({ bannertitle, bannersubtext, serviceimg, servicehead, servicede
           </p>
         </div>
         <div>
-          <div className="md:grid grid-cols-2 gap-6 items-center container-ack  ">
-            <div className="pb-5 pt-10 ">
+          <div className="md:grid grid-cols-2 gap-6 pt-12 container-ack  ">
+            <div className="pb-5 ">
               {/* <img src="/assets/images/aboutusimg3.png" alt="" /> */}
               <img src={serviceimg}/>              
             </div>
