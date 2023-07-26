@@ -16,51 +16,51 @@ const EcommerceDevelopmentCompany = () => {
   const processes = [
     {
       id: "1",
-      name: "Planning & Requirement Gathering",
-      desc: "Understanding the client's business objectives, target audience, product catalog, and specific requirements for the e-commerce platform.",
+      name: "Custom Website Design for Ecommerce",
+      desc: "Add content to your online store with our e-commerce solutions. From impressive presentation to stunning design, we weave the fabric of integration, migration, app development, and more. As your trusted Shopify partner, we will be your compass for e-commerce success.",
     },
     {
       id: "2",
-      name: "Designing & Development",
-      desc: "Building the front-end & back-end components of the e-commerce platform, including the product catalog, shopping cart, payment gateway integration & other functionalities.",
+      name: "customized e-commerce store in Gurgaon",
+      desc: "Our e-commerce Development Solutions shine as a foundation for security and creativity. We weave digital ideas that exceed all expectations to meet your needs. Your dreams, our goals—together, we will conquer the online world with unique solutions and set new standards in web development.",
     },
     {
       id: "3",
-      name: "Testing",
-      desc: "Conducting thorough testing to ensure the e-commerce platform functions as intended, including functional testing, usability testing, performance testing, and security testing.",
+      name: "Shopping Cart Development in Gurgaon",
+      desc: "With Ackrolix's caliber, we create powerful and beautiful trucks. Like skilled artisans, we craft feature-rich insights that transform businesses and ignite the flames of revenue growth. Step into the spotlight of success; every click is a dance of joy, and every exchange is a harmony of satisfaction.",
     },
     {
       id: "4",
-      name: "Content Management System",
-      desc: "Implementing a content management system (CMS) to facilitate easy management and updating of product information, descriptions, images, and other content.",
+      name: "Ecommerce Marketplace Services in Gurgaon",
+      desc: "Gurgaon is the gateway to e-commerce quality, where we plan and develop services for the global market for multiplatform sales. From the best vision to the biggest dream, we develop digital ideas that cross borders and lead to success in the online world. Enter endless realms with our eCommerce skills and watch your business conquer the digital world.",
     },
     {
       id: "5",
-      name: "Payment Integration",
-      desc: "Integrating secure payment gateways to enable smooth and secure online transactions for customers.",
+      name: "Highly Responsive Ecommerce Development",
+      desc: "We make responsive websites with a great user experience that dance beautifully on all devices. Whether on a large desktop or a beautiful mobile phone, our design is easy and engages users with every click. Be captivated by cross-device enchantment as it unlocks a world of limitless user friendliness.",
     },
     {
       id: "6",
-      name: "Marketing & SEO",
-      desc: "Optimizing the e-commerce platform for search engines, implementing marketing strategies, and promoting the online store to attract and engage customers.",
+      name: "Secure Payment Gateways",
+      desc: "We use our expertise to smoothly integrate multiple payment gateways into your online store, ensuring every transaction is secure and easy. Trust our experts; we'll pave the way for a competitive, reliable, and engaging online shopping experience.",
     },
   ];
   const cards = [
     {
       id: 1,
-      para: "From the initial conceptualization to the final launch, we guide you through every step of the e-commerce development process. Our solutions are built with a focus on delivering a seamless shopping experience, optimized performance, and enhanced security.",
+      para: "Our comprehensive understanding of the top platforms enables us to develop specialized and reasonably priced solutions to address the specific problems faced by each firm in the complex world of e-commerce.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
       maintitle: "Solutions",
-      subtitle: "Comprehensive E-commerce Development Solutions",
+      subtitle: "Ecommerce Development Services",
     },
     {
       id: 2,
       icon: "01",
-      title: "Custom E-commerce Development",
-      para: "Our team excels in crafting customized e-commerce solutions that align with your brand identity, target audience, & specific goals.",
+      title: "Magento",
+      para: "An open-source marvel that attracts medium and large vendors with its high customization, out-of-the-box features, and seamless integration of integrations Attend eCommerce events and watch your business soar to new heights with its incredible capabilities.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -72,8 +72,8 @@ const EcommerceDevelopmentCompany = () => {
     {
       id: 3,
       icon: "02",
-      title: "User Experience (UX) Design",
-      para: "Our UX experts create intuitive interfaces, streamlined navigation & visually appealing designs that captivate users & drive engagement.",
+      title: "Shopify",
+      para: "Our e-commerce development solutions combine the captivating power of content to make your online store look stunning. From seamless showcase setups to beautiful design templates, we provide integration, migration, app development, and more! As your Shopify partner, we will guide you to eCommerce success.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -85,8 +85,8 @@ const EcommerceDevelopmentCompany = () => {
     {
       id: 4,
       icon: "03",
-      title: "M-commerce Development",
-      para: "Our developers are proficient in building responsive & adaptive e-commerce platforms that provide a seamless UX across all devices.",
+      title: "WooCommerce",
+      para: "Agile Architect of Dreams, which powers both startups and giants with its user-friendly capabilities, With the soundtrack of the plugins and endless customization, your website will fly into infinity.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -98,8 +98,8 @@ const EcommerceDevelopmentCompany = () => {
     {
       id: 5,
       icon: "04",
-      title: "Integration & Third-Party Services",
-      para: "We seamlessly integrate your payment gateways, shipping providers, CRM tools, inventory management & other third-party services.",
+      title: "Drupal Commerce",
+      para: "The gateway to the e-commerce wonderland where start-ups and SMEs open their doors to a world of possibilities. Be enchanted by free and highly customizable tools that take you into the world of online success with no licensing fees.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -111,8 +111,8 @@ const EcommerceDevelopmentCompany = () => {
     {
       id: 6,
       icon: "05",
-      title: "E-commerce Analytics & Reports",
-      para: "By tracking key metrics, analyzing customer behavior & measuring sales performance, you gain business decisions & optimize your marketing strategies.",
+      title: "SAP Commerce Cloud",
+      para: "A powerful PaaS solution for medium and large digital retailers! Its attractive features drive omnichannel strategies and create success in the digital space by supporting business scalability. Enter a world of endless possibilities where dreams rise and business rises to new levels of excellence.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -308,7 +308,18 @@ const EcommerceDevelopmentCompany = () => {
   return (
     <div>
       <Head>
-        <title>Ecommerce Development Company</title>
+        <title>User Research Company in Gurgaon - Ackrolix</title>  
+        <meta name="description" content="Ackrolix is a professional User Research Company based in Gurgaon, providing expert insights and analysis to enhance user experience." />
+        <meta property="og:title" content="User Research Company in Gurgaon - Ackrolix" />
+        <meta
+          property="og:description"
+          content="Ackrolix is a professional User Research Company based in Gurgaon, providing expert insights and analysis to enhance user experience."
+        />
+        <meta
+          property="og:image"
+          content="https://www.ackrolix.com/assets/images/logoack.png"
+        />      
+      
       </Head>
       <Header />
       <div
@@ -318,12 +329,12 @@ const EcommerceDevelopmentCompany = () => {
         }}
       >
         <Banner 
-          bannertitle="Elevating E-Commerce Experiences for Unmatched Online Success"
-          bannersubtext="At Ackrolix Innovations, we are dedicated to elevate e-commerce experience to new heights. We understand that in today's digital landscape, a seamless &amp; captivating online presence is essential for your business's success. Our expert team of developers is committed to empowering your online journey."
+          bannertitle="Ecommerce Development company in Gurgaon"
+          bannersubtext="In the thriving city of Gurgaon, Ackrolix brings the e-commerce development scene to life, starting an exciting adventure to push the limits of innovation, foster digital imagination, and reimagine the online experience."
           serviceimg="/assets/images/service/svg/ecom.png"
           servicehead="Creating Seamless Connections &amp; Conversion in E-commerce Experiences"
-          servicedesc1="Our team of skilled developers implements robust e-commerce platforms with secure payment gateways, streamlined checkout processes, and personalized product recommendations. By leveraging data-driven insights and industry best practices, we optimize conversion rates, transforming browsing visitors into loyal customers."
-          servicedesc2="We also understand that ongoing optimization is crucial for sustained success. That's why we continuously monitor user behavior, conduct A/B testing, and leverage analytics tools to identify opportunities for improvement. Our iterative approach ensures that your e-commerce experiences are constantly refined, ensuring maximum engagement and conversion rates."
+          servicedesc1="As a reputable e-commerce Development Company in Gurgaon, Ackrolix recognizes that the goal of e-commerce is to develop a digital strategy that enables companies and customers to interact on a deeper level, where imagination knows no limitations and every pixel emanates enthusiasm. From Gurgaon to the global stage, our team of digital lovers—visionaries, designers, and computer nerds—builds e-commerce systems that cross national boundaries and promote business growth."
+          servicedesc2="With our excellent e-commerce Development Services in Gurgaon, we provide businesses looking to succeed in the online market with specialized e-commerce development solutions. Discover the potential of Ackrolix and partner with the top Custom e-commerce Development Company in Gurgaon to improve your online visibility and drive unlimited growth."
         />
       </div>
       <Cards card={cards}/>
@@ -345,8 +356,8 @@ const EcommerceDevelopmentCompany = () => {
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
               processhead="Process"
-              processsub="Ecommerce Development Process"
-              processdesc="This process involves gathering requirements, planning, designing, developing, testing, launching, and maintaining the e-commerce platform to ensure its functionality, usability, and success."
+              processsub="Why choose Ackrolix for your Ecommerce Solutions?"
+              processdesc="Ackrolix, a premier Ecommerce Development Company in Gurgaon, is a hotbed of inventiveness and originality. To push the limits of Ecommerce, our team of innovative designers, programmers, and marketing specialists works diligently. Utilizing the top Ecommerce platforms like Shopify, WooCommerce, Magento, and more, we specialize in developing online experiences that leave a lasting impact on your customers."
               processimg="/assets/images/service/svg/ecom1.png"
             />
             <Process process={processes} />
