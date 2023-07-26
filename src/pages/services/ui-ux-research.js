@@ -16,23 +16,23 @@ const Research = () => {
   const processes = [
     {
       id: "1",
-      name: "Make A Plan",
-      desc: "We make a comprehensive plan of all the activities pertaining to user research and have a detailed walkthrough of each step.",
+      name: "Define",
+      desc: "The project's aims and objectives define the study's scope and target audience. Work with clients to develop research objectives.",
     },
     {
       id: "2",
-      name: "Recruit Participants & Conduct Research",
-      desc: "We hire participants that represent target users and conduct research using qualitative and/or quantitative methods.",
+      name: "Ideate",
+      desc: "Organize brainstorming sessions with different groups and develop new ideas based on research findings that translate insights into design concepts.",
     },
     {
       id: "3",
-      name: "Synthesize",
-      desc: "We fill in the knowledge gaps, prove or disprove our hypotheses, and discover opportunities for our design efforts.",
+      name: "Prototype",
+      desc: "Create interactive prototypes from design ideas and current usage and get additional feedback from users. Rework and edit model-based views.",
     },
     {
       id: "4",
-      name: "Reporting",
-      desc: "We prepare and submit a comprehensive report on the findings of the research with actionable suggestions.",
+      name: "Test",
+      desc: "User-tested refined prototypes and measured user response, behavior, and satisfaction. Restore according to the instructions.",
     },
   ];
   const techs = [
@@ -119,12 +119,14 @@ const Research = () => {
       display: "hidden",
       maintitle: "Expertise",
       subtitle: "OUR EXPERTISE",
+      para: "Ackrolix is a dependable User Research and recruitment agency committed to knowing your users and providing actionable insights. Partner with our Gurgaon UX Research Agency for experienced user research services that pave the path for remarkable user experiences."
+
     },
     {
       id: 2,
       icon: "01",
-      title: "Competitor Research",
-      para: "We conduct competitor analysis to gain insights into their product's functions, flows and design.",
+      title: "Innovation",
+      para: "At Ackrolix, we are at the forefront of innovation. Our UX research services in Gurgaon aim to push boundaries, challenge conventions, and redefine the world of possibilities. Our innovative research methods enable us to provide insights that support and improve your products and services.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -136,8 +138,8 @@ const Research = () => {
     {
       id: 3,
       icon: "02",
-      title: "Product Audit",
-      para: "We thoroughly assess your existing product from both - aesthetics and functional viewpoint and provide suggestions.",
+      title: "User-Centric Expertise:",
+      para: "Our dedicated research team embodies the user-centered spirit. By grasping their motivations, desires, and pain points, we gain insight into the minds of our target audience. Through insight, we deeply understand your users and enable you to fully meet their needs",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -149,8 +151,8 @@ const Research = () => {
     {
       id: 4,
       icon: "03",
-      title: "User Interviews And Surveys",
-      para: "We investigate the participants to uncover their hidden needs and pain points to develop a more meaningful product.",
+      title: "Usability Testing:",
+      para: "We bring creativity to the testing process, making it a fun and insightful experience. Our researchers carefully monitor how users navigate your interface, collecting feedback to improve your design.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -162,8 +164,8 @@ const Research = () => {
     {
       id: 5,
       icon: "04",
-      title: "Data Analysis",
-      para: "We sift through existing data to look for trends, patterns that hint towards opportunities or impending issues.",
+      title: "Design Thinking:",
+      para: "Start the thinking process with our Design Thinking workshops. Together, we reveal the full potential of your team's creativity and foster an environment where ideas can flourish. We use collective intelligence to create solutions that have a lasting impact.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -176,10 +178,19 @@ const Research = () => {
   return (
     <div>
       <Head>
-        <title>UI-UX Research</title>
+        <title>User Research Company in Gurgaon - Ackrolix</title>
         <meta
           name="description"
-          content="Check out iPhone 12 XR Pro and iPhone 12 Pro Max. Visit your local store and for expert advice."
+          content="Ackrolix is a professional User Research Company based in Gurgaon, providing expert insights and analysis to enhance user experience."
+          />
+          <meta property="og:title" content="User Research Company in Gurgaon - Ackrolix" />
+          <meta
+            property="og:description"
+            content="Ackrolix is a professional User Research Company based in Gurgaon, providing expert insights and analysis to enhance user experience."
+          />
+          <meta
+            property="og:image"
+            content="https://www.ackrolix.com/assets/images/logoack.png"
         />
       </Head>
       <Header />
@@ -190,12 +201,12 @@ const Research = () => {
         }}
       >
         <Banner
-          bannertitle="We investigate users needs"
-          bannersubtext="As a leading UX research company in Mumbai, dig deep into identifying users' motivations and pain points, investigate their root causes and extract valuable insights."
+          bannertitle="Ackrolix: Innovating as the Leading User Research Company in Gurgaon"
+          bannersubtext="Ackrolix is a prominent User Research Firm based in Gurgaon. Our voyage into human experience and innovation yields a comprehensive understanding map that affects the future by precisely unraveling user behaviors, preferences, and aspirations."
           serviceimg="/assets/images/service/svg/ur.png"
-          servicehead="Knowing users problems"
-          servicedesc1="We are inquisitive about every aspect that motivates target users. We listen to users and understand their intentions & actions while using your offerings."
-          servicedesc2="From these insights, we define and prioritize problems to solve based on priority and impact."
+          servicehead="Ackrolix: Your User Research Experts"
+          servicedesc1="At Ackrolix, we believe that user experience research is the key to defining innovation and driving success. Our particular approach to user research distinguishes us in the business. We go beyond simply gathering data and instead engage in an exciting journey to genuinely understand the essence of your audience."
+          servicedesc2="Our dedicated staff goes deep into the hearts and brains of users to untangle their ideas and wonders, combining analytical skills with artistic genius. As a leading User Research Agency in Gurgaon, we offer comprehensive user experience research services tailored to your specific requirements."
         />
       </div>
       <Cards card={cards} />
@@ -218,10 +229,8 @@ const Research = () => {
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
               processhead="Steps"
-              processsub="Steps we follow for
-              user research"
-              processdesc="UX strategy services
-we offer"
+              processsub="Processes and Steps in User Research"
+              processdesc="Ackrolix's UX research process in Gurgaon turns data into stories that tell what users want. Our process creates an enchanting experience, turning your products into pure brilliance."
               processimg="/assets/images/service/svg/ur1.png"
             />
             <Process process={processes} />

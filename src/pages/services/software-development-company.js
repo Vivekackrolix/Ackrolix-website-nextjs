@@ -16,33 +16,33 @@ const SoftwareDevelopmentCompany = () => {
   const processes = [
     {
       id: "1",
-      name: "Requirements Gathering",
-      desc: "The first step in the software architecture process is to gather the requirements for the software system. This includes understanding the functional & non-functional requirements of the system.",
+      name: "On-demand software development:",
+      desc: "Ackrolix's On-Demand Software Development is a premium product that creates digital solutions that meet your needs. With a team of talented and talented people, we use the latest technology to create software that fits your needs.",
     },
     {
       id: "2",
-      name: "Architectural Design",
-      desc: "The next step is to create an architectural design for the software system. This includes defining the components of the system, their interactions, and the system's overall structure.",
+      name: "Start-up software development:",
+      desc: "With endless creativity and technology, they create digital impressions that attract customers and promote brands. As users are guided, they navigate needs and wants and develop solutions that resonate with their hearts. Following the lights of innovation and passion, they cast a spell of success, helping startups thrive in the ever-changing digital environment.     ",
     },
     {
       id: "3",
-      name: "Implementation",
-      desc: "The implementation phase is where the architectural design is turned into working software. This includes coding, testing, and deploying the software system.",
+      name: "Retail and eCommerce software development:",
+      desc: "They combine great ideas with expertise to create superior solutions. From a seamless experience to a personal journey, the software designs captivate the end user with easy navigation and engaging connections. Retail and e-commerce software developments with many innovations and user focus are a testament to the great growth and success of the brand in the digital space.",
     },
     {
       id: "4",
-      name: "Evolution",
-      desc: "The software architecture process is an important part of the software development process. A well-designed software architecture can help to ensure that the software system is reliable, efficient, & maintainable.",
+      name: "Manufacturing Software development:",
+      desc: "They use their magic to create custom software that fits the specific needs of manufacturers. From product management to quality control, their production has become a conflict of knowledge, causing companies to control the originals.",
     },
     {
       id: "5",
-      name: "Testing & Quality Assurance",
-      desc: "Perform various testing activities, including unit testing, integration testing, system testing, and acceptance testing, to verify the correctness, reliability, and performance of the software system.",
+      name: "Real estate software development: ",
+      desc: "We produce custom software solutions for the real estate industry with a combination of creativity and expertise. From user-friendly interfaces to data-driven insight, our software brings simplicity and convenience, simplifying difficult tasks.",
     },
     {
       id: "6",
-      name: "Deployment & Integration",
-      desc: "Deploy the software system in the target environment, ensuring smooth integration with other systems and components. Consider aspects like deployment models, configuration management, and version control.",
+      name: "Healthcare software development",
+      desc: "They work hard to create solutions that improve patient care and make medical operations more efficient. From electronic health records to telehealth clinics, Ackrolix is ​​transforming the healthcare landscape and empowering healthcare professionals with easy access to digital devices.",
     },
   ];
   const techs = [
@@ -218,19 +218,19 @@ const SoftwareDevelopmentCompany = () => {
   const cards = [
     {
       id: 1,
-      para: "Software architecture provides a visual representation and documentation of the system's structure, components, and interactions. It serves as a communication tool for stakeholders, developers, and other project members, fostering better understanding and collaboration.",
+      para: "At Ackrolix, a top Gurgaon software development company, our team of experts is entrusted with developing ground-breaking software solutions that transform the digital world. We, as a Software Development Agency in Gurgaon, infuse everyone with exceptional strength and creativity and bring them to life, from the venerable trinity of Microsoft software (Word, Excel, and PowerPoint) to many more computer-focused concepts. As a software design company in Gurgaon, innovation is our guiding principle, and we are never content with the current state of affairs. We are aware that the digital world is a dynamic environment and that evolution is the key to success.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
       maintitle: "Solutions",
-      subtitle: "Designing Scalable & Robust Software Architecture",
+      subtitle: "Fostering Innovation: Ackrolix, Gurgaon's Prominent Software Company",
     },
     {
       id: 2,
       icon: "01",
-      title: "Maintainability",
-      para: "A well-designed architecture promotes ease of maintenance by organizing components and dependencies in a structured manner.",
+      title: "Software Consulting",
+      para: "Our service is a digital search engine that guides you through your search for software and services. Discover the secrets of success, harness the power of software for success, and make smart business decisions to leverage your technology. Enter the endless world where innovation and creativity know no bounds. ",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -242,8 +242,8 @@ const SoftwareDevelopmentCompany = () => {
     {
       id: 3,
       icon: "02",
-      title: "Cost Optimization",
-      para: "Expand without overspending with pay-for-use technology that minimizes infrastructure operation costs.",
+      title: "Custom Software Applications",
+      para: "We are developers of custom software magic, creating beautiful apps for websites and mobile devices. Our software developers can work wonders, unlock the potential of your business processes, deliver unmatched value, and turn your vision into a reality that will amaze the world.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -255,8 +255,8 @@ const SoftwareDevelopmentCompany = () => {
     {
       id: 4,
       icon: "03",
-      title: "Modularity",
-      para: "Software architecture promotes the decomposition of a system into modular components, allowing for independent development, testing, and maintenance of individual parts.",
+      title: "Enterprise Software Solutions",
+      para: "From a unique web marketing strategy to quick, easy decision-making, we can make the ordinary extraordinary. Witness the ultimate innovation as we let you fly higher and faster with unmatched ease. Welcome to a place of endless possibilities, brought to you by the wisdom of Ackrolix.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -268,8 +268,8 @@ const SoftwareDevelopmentCompany = () => {
     {
       id: 5,
       icon: "04",
-      title: "Security",
-      para: "Architecture plays a crucial role in ensuring the security of a software system. It includes mechanisms for data protection, access control, encryption, and other security measures.",
+      title: "Application Services",
+      para: "We control, scale, accelerate, and autoscale with our advanced technology. Take control of a unique app and see your tech dreams come true like never before! The future of digital talent awaits you, and Ackrolix is ​​with you. ",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -281,8 +281,8 @@ const SoftwareDevelopmentCompany = () => {
     {
       id: 6,
       icon: "05",
-      title: "Reliability",
-      para: "Software architecture incorporates fault tolerance mechanisms to ensure system reliability and resilience. It includes strategies such as redundancy, error handling, and recovery mechanisms.",
+      title: "Team extension",
+      para: "At Ackrolix, we offer the best solutions that are an extension of our team's capabilities. Our talented staff has the skills and abilities you seek to get your project done. done with innovation and expertise. Together, we will conquer the digital world and turn your vision into a wonderful reality.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -294,8 +294,8 @@ const SoftwareDevelopmentCompany = () => {
     {
       id: 7,
       icon: "06",
-      title: "Performance",
-      para: "Effective software architecture considers performance requirements and incorporates design decisions that optimize resource utilization, minimize bottlenecks, and enhance overall system efficiency.",
+      title: "UI/UX",
+      para: "We are a UX solution provider that unlocks the secrets of engaging experiences. We create dazzling and inspiring UI designs with laser precision. From problems to solutions, we are your creative leaders who bring you unforgettable transformation products.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -308,7 +308,17 @@ const SoftwareDevelopmentCompany = () => {
   return (
     <div>
       <Head>
-        <title>Software Architect Company</title>        
+        <title>Software Architect Company</title>  
+        <meta name="description" content="Ackrolix is a leading Digital Product Design Company in Gurgaon, renowned for its exceptional services and innovative solutions." />
+        <meta property="og:title" content="Digital Product Design Company in Gurgaon - Ackrolix" />
+        <meta
+          property="og:description"
+          content="Ackrolix is a leading Digital Product Design Company in Gurgaon, renowned for its exceptional services and innovative solutions."
+        />
+        <meta
+          property="og:image"
+          content="https://www.ackrolix.com/assets/images/logoack.png"
+        />      
       </Head>
       <Header />
       <div
@@ -318,12 +328,12 @@ const SoftwareDevelopmentCompany = () => {
         }}
       >
        <Banner 
-          bannertitle="Unlocking Innovation Through Expert Software Architect Solutions"
-          bannersubtext="Unlock Innovation and Drive Success with Expert Software Architect Solutions. Leverage cutting-edge technologies and strategic expertise to design and implement transformative software architectures that propel your organization forward."
+          bannertitle="Revolutionizing Tech: Ackrolix, Gurgaon's Innovation Hub"
+          bannersubtext="Welcome to the innovation hub in Gurgaon, where Ackrolix makes the technology dream a reality. We are more than just a regular Software Development Agency; we create the best digital experiences by pushing the envelope of what is conceivable."
           serviceimg="/assets/images/service/svg/soft.png"
-          servicehead="A well designed software architecture saves thousands of development hours"
-          servicedesc1="We’ve seen it happen many times in our software engineering work for 200+ projects. Last client dropped server maintenance and operation costs by 300 times. Time to see what performance you can achieve."
-          servicedesc2="Our software architects will help you establish a secure, flexible, and efficient software development process that meets your needs. Aa a well-structured software architecture yields substantial benefits by drastically reducing development time, resulting in significant cost savings equivalent to thousands of hours that would otherwise be expended during the development process."
+          servicehead="Ackrolix: The future is our playground; dreams do come true. Gurgaon-based software development company"
+          servicedesc1="Ackrolix is a symbol of advancement in the technology of Software Development Services in Gurgaon. By keeping an eye on emerging trends, we make sure that your plans are outfitted with the most up-to-date and effective Software Design Services."
+          servicedesc2="That is what we call the fantastic, fascinating experience with Ackrolix. Because we are a Software design firm that is a firm believer in the value of open communication and cooperation, we keep you updated at every stage. We will work to realize your dreams because they are the ones that fuel us. Our Software company, i.e., Ackrolix, is your one-stop shop for technology insights, whether you're interested in web development, mobile apps, or high-tech software. Enter the realm of our Software development services,  where imagination and creativity are allowed to run free, and your vision will become unforgettable."
         />
       </div>
       <Cards card={cards} />
@@ -347,7 +357,7 @@ const SoftwareDevelopmentCompany = () => {
             <ProcessHead
               processhead="Process"
               processsub="A Structured Process For Success"
-              processdesc="Our structured approach that organizations & design teams follow to create new products or improve existing ones. It encompasses the various stages & activities involved in transforming an idea or concept into a tangible & market ready product."
+              processdesc="Ackrolix, a prominent Gurgaon-based software development company, has risen to the top of the industry by recognizing the importance of innovation. You may be confident that your vision will materialize when working with Ackrolix, your go-to software development company in Gurgaon. We plan our hours to be as effective as possible, that every minute counts towards the success of your Software Development Services in Gurgaon."
               processimg="/assets/images/service/svg/soft1.png"
             />
             <Process process={processes} />
