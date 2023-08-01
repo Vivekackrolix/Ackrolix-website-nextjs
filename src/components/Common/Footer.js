@@ -149,7 +149,7 @@ const Footer = () => {
                       className="text-black group-hover:text-primary mt-3"
                     />
                     <h2 className="text-sm md:w-[90%]">
-                     Dubia, Sarjah, UK, USA
+                     Dubai, Sarjah, UK, USA
                     </h2>
                     </span>
                   </li>
