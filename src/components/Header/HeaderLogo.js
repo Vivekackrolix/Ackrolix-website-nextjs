@@ -5,12 +5,14 @@ import { IoMdCall, IoMdMail } from "react-icons/io";
 const HeaderLogo = () => {
   return (
     <div className="md:grid grid-cols-9 gap-10 items-center pt-3 hidden">
-
       <div className="flex items-center gap-20 col-span-5">
         <div className="">
           <Link href="/">
             <div>
-              <img src="/assets/images/logoack.png" className="w-52 h-16 object-cover" />
+              <img
+                src="/assets/images/logoack.png"
+                className="w-52 h-16 object-cover"
+              />
             </div>
           </Link>
         </div>
@@ -24,29 +26,29 @@ const HeaderLogo = () => {
                 size={20}
                 className="text-black group-hover:text-primary"
               />
-              <h2 className="text-[12px] group-hover:text-primary ">Info@ackrolix.com</h2>
+              <h2 className="text-[12px] group-hover:text-primary ">
+                Info@ackrolix.com
+              </h2>
             </div>
           </Link>
-          <Link href="tel:+919599062435">
+          <Link href="tel:+919910190071">
             <div className="flex space-x-2 items-center justify-end group">
               <IoMdCall
                 size={20}
                 className="text-black group-hover:text-primary"
               />
-              <h2 className="text-[12px] group-hover:text-primary">+91-9599062435</h2>
+              <h2 className="text-[12px] group-hover:text-primary">
+                +91-9910190071
+              </h2>
             </div>
           </Link>
         </div>
-
 
         <div className="flex justify-end ">
           <Link href="/contact">
             <button className="button-2 px-5 py-2 rounded-md">
               <div className="eff-2"></div>
-              <span className="text-base flex items-center ">
-                {" "}
-                Contact Us
-              </span>
+              <span className="text-base flex items-center "> Contact Us</span>
             </button>
           </Link>
         </div>
