@@ -5,7 +5,8 @@ import { GoLocation } from "react-icons/go";
 import Subscription from "../Home/Subscription";
 const Footer = () => {
   return (
-    <div className="mt-6 relative  md:mt-12 "
+    <div
+      className="mt-6 relative  md:mt-12 "
       style={{
         backgroundImage: 'url("/assets/images/backgroundfooter.png")',
       }}
@@ -24,7 +25,10 @@ const Footer = () => {
                 </div>
               </Link>
               <p className="text-sm text-justify">
-              Ackrolix Supports Startup & Enterprises in Developing World-Class Products. We help organizations capitalize on cutting-edge technologies and employ robust frameworks and efficient workflows to create a robust and scalable product.
+                Ackrolix Supports Startup & Enterprises in Developing
+                World-Class Products. We help organizations capitalize on
+                cutting-edge technologies and employ robust frameworks and
+                efficient workflows to create a robust and scalable product.
               </p>
               <div className="flex space-x-5">
                 <Link href="https://m.facebook.com/people/Ackrolix-Innovations-Pvt-Ltd/100076925016084/">
@@ -60,9 +64,7 @@ const Footer = () => {
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path
-                      d="M11.1392 0.240936C5.41751 0.240936 0.779297 4.87924 0.779297 10.601C0.779297 16.3228 5.41751 20.9611 11.1392 20.9611C16.8609 20.9611 21.4991 16.3228 21.4991 10.601C21.4991 4.87924 16.8609 0.240936 11.1392 0.240936ZM8.60318 14.8951H6.5053V8.14374H8.60318V14.8951ZM7.54129 7.31494C6.87869 7.31494 6.45026 6.84549 6.45026 6.2649C6.45026 5.67243 6.89164 5.21702 7.56827 5.21702C8.2449 5.21702 8.6593 5.67243 8.67225 6.2649C8.67225 6.84549 8.2449 7.31494 7.54129 7.31494ZM16.2652 14.8951H14.1673V11.1536C14.1673 10.2827 13.863 9.69128 13.1043 9.69128C12.5248 9.69128 12.1806 10.0917 12.0284 10.4769C11.9723 10.614 11.9583 10.8082 11.9583 11.0014V14.894H9.85932V10.2967C9.85932 9.45386 9.83234 8.74916 9.80428 8.14266H11.627L11.723 9.08047H11.7651C12.0414 8.64016 12.718 7.9905 13.85 7.9905C15.2303 7.9905 16.2652 8.91535 16.2652 10.9032V14.8951Z"
-                    />
+                    <path d="M11.1392 0.240936C5.41751 0.240936 0.779297 4.87924 0.779297 10.601C0.779297 16.3228 5.41751 20.9611 11.1392 20.9611C16.8609 20.9611 21.4991 16.3228 21.4991 10.601C21.4991 4.87924 16.8609 0.240936 11.1392 0.240936ZM8.60318 14.8951H6.5053V8.14374H8.60318V14.8951ZM7.54129 7.31494C6.87869 7.31494 6.45026 6.84549 6.45026 6.2649C6.45026 5.67243 6.89164 5.21702 7.56827 5.21702C8.2449 5.21702 8.6593 5.67243 8.67225 6.2649C8.67225 6.84549 8.2449 7.31494 7.54129 7.31494ZM16.2652 14.8951H14.1673V11.1536C14.1673 10.2827 13.863 9.69128 13.1043 9.69128C12.5248 9.69128 12.1806 10.0917 12.0284 10.4769C11.9723 10.614 11.9583 10.8082 11.9583 11.0014V14.894H9.85932V10.2967C9.85932 9.45386 9.83234 8.74916 9.80428 8.14266H11.627L11.723 9.08047H11.7651C12.0414 8.64016 12.718 7.9905 13.85 7.9905C15.2303 7.9905 16.2652 8.91535 16.2652 10.9032V14.8951Z" />
                   </svg>
                 </Link>
               </div>
@@ -144,22 +146,22 @@ const Footer = () => {
                   <li className=" space-x-2  pt-4 group cursor-pointer">
                     <p className="py-2"> International Locations : </p>
                     <span className="flex items-center">
-                    <GoLocation
-                      size={24}
-                      className="text-black group-hover:text-primary mt-3"
-                    />
-                    <h2 className="text-sm md:w-[90%]">
-                     Dubai, Sarjah, UK, USA
-                    </h2>
+                      <GoLocation
+                        size={24}
+                        className="text-black group-hover:text-primary mt-3"
+                      />
+                      <h2 className="text-sm md:w-[90%]">
+                        Dubai, Sarjah, UK, USA
+                      </h2>
                     </span>
                   </li>
-                  <Link href="tel:+919599062435">
+                  <Link href="tel:+919910190071">
                     <li className="flex space-x-2 items-center pt-6 group">
                       <IoMdCall
                         size={28}
                         className="text-black group-hover:text-primary mt-3"
                       />
-                      <span className="text-sm">+91-9599062435</span>
+                      <span className="text-sm">+91-9910190071</span>
                     </li>
                   </Link>
                   <Link href="mailto:info@ackrolix.com">
@@ -235,8 +237,11 @@ const Footer = () => {
           <div className="text-center py-5 text-sm md:px-0 px-5">
             <p>
               {" "}
-              © Copyright 2023 <span className="font-semibold">Ackrolix Innovation Pvt. Ltd.</span> | All Rights
-              Reserved
+              © Copyright 2023{" "}
+              <span className="font-semibold">
+                Ackrolix Innovation Pvt. Ltd.
+              </span>{" "}
+              | All Rights Reserved
             </p>
           </div>
         </div>
