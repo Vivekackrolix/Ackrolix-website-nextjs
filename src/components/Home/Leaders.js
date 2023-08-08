@@ -1,25 +1,25 @@
 import React from "react";
-import Image from "next/image"
+import Image from "next/image";
 import ComponentHead from "../Common/ComponentHead";
 
 const Leaders = () => {
   const cardData = [
     {
-      name: 'Viveka Mandal',
-      img: '/assets/images/leaders/leaderone.png',
-      role: 'Founder & CEO',
+      name: "Jay Gulati",
+      img: "/assets/images/leaders/leaderthree.png",
+      role: "Founder & CEO",
     },
     {
-      name: 'Subrata Sarkar',
-      img: '/assets/images/leaders/leadertwo.png',
-      role: 'Co-Founder & CMO',
+      name: "Subrata Sarkar",
+      img: "/assets/images/leaders/leadertwo.png",
+      role: "Co-Founder & CMO",
     },
     {
-      name: 'Jay Gulati',
-      img: '/assets/images/leaders/leaderthree.png',
-      role: 'Co-Founder & CFO',
-    }
-  ]
+      name: "Saleem Nawaz",
+      img: "/assets/images/advisor/saleem.png",
+      role: "Co-Founder & CFO",
+    },
+  ];
   return (
     <div className="container-ack md:px-0 px-5 md:pt-0 pt-12 ">
       <ComponentHead
@@ -50,7 +50,7 @@ const Leaders = () => {
                 </div>
               </div>
             </div>
-          )
+          );
         })}
       </div>
     </div>

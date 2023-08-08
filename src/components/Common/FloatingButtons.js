@@ -11,11 +11,11 @@ const FloatingButtons = () => {
           <IoMdMail size={24} className="text-black hover:text-primary" />
         </Link>
         <hr className="mt-3 " />
-        <Link href="tel:+919599062435">
+        <Link href="tel:+919910190071">
           <IoMdCall size={24} className="text-black hover:text-primary mt-3" />
         </Link>
         <hr className="mt-3 " />
-        <Link href="https://wa.me/918178567042 ">
+        <Link href="https://wa.me/919910190071">
           <FiMessageSquare
             size={24}
             className="text-black hover:text-primary mt-3"

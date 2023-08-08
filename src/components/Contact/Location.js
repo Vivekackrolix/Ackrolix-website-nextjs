@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react"
+import React from "react";
 import { BiPhoneCall } from "react-icons/bi";
 import { FaLocationArrow } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
@@ -9,7 +9,7 @@ const location = [
     id: 1,
     img: "/assets/images/india.png",
     place: "Gurgaon",
-    number: "+91-9599062435",
+    number: "+91-9910190071",
     mail: "info@ackrolix.com",
   },
   {
@@ -41,7 +41,7 @@ const location = [
     mail: "info@ackrolix.com",
   },
   {
-    id:6,
+    id: 6,
     img: "/assets/images/UAEflag.jpg",
     place: "Sharjah",
     number: "+971547097369",
@@ -61,14 +61,14 @@ const location = [
     number: "(210)879-3223",
     mail: "info@ackrolix.com",
   },
-
-]
+];
 const Location = () => {
   return (
     <div className="container-sck bg-[url('../../public/assets/images/locationbackground.png')] background-size:cover background-position:center background-repeat:no-repeat bg-fixed">
-      <div className="relative mb-50 my-10"
+      <div
+        className="relative mb-50 my-10"
 
-      // style={{ backgroundImage: `url("../../assets/images/locationbackground.png")` }}
+        // style={{ backgroundImage: `url("../../assets/images/locationbackground.png")` }}
       >
         <div className="md:text-[7rem] text-[5rem] tracking-wider text-center textdark font-bold  md:pt-10 ">
           Locations
@@ -80,15 +80,14 @@ const Location = () => {
         </div>
       </div>
       <div className="grid md:grid-cols-4 items-center  container-ack px-5 ">
-
         <div className=" md:col-span-4 grid md:grid-cols-4 items-center md:py-8 py-2 md:px-8 px-2 ">
-
           {location.map((item, index) => (
             <>
-
               <div style={{ margin: 7 }}>
-
-                <div className="relative text-left px-6  py-3 bg-gray-50 rounded-xl border mb-5" key={index}>
+                <div
+                  className="relative text-left px-6  py-3 bg-gray-50 rounded-xl border mb-5"
+                  key={index}
+                >
                   <div className="inline-flex justify-left items-center rounded-md md:mt-8 ">
                     <img
                       src={item.img}
@@ -129,16 +128,14 @@ const Location = () => {
                     </Link>
                   </div>
                 </div>
-
               </div>
             </>
           ))}
-         
         </div>
       </div>
       <div className="grid ">
         <div className="h-full ">
-        <img src="/assets/images/maplocation.gif" alt="" />
+          <img src="/assets/images/maplocation.gif" alt="" />
         </div>
       </div>
     </div>
