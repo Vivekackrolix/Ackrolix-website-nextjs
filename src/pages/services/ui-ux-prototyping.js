@@ -16,33 +16,33 @@ const Prototyping = () => {
   const processes = [
     {
       id: "1",
-      name: "Comprehensive Analysis",
-desc:"Ackrolix begins our prototype development process with a thorough examination of your project's requirements and objectives. We perform extensive research to fully comprehend your target audience, market trends, and competitors.",
+      name: "Industry knowledge",
+      desc:"The best prototype development company in Gurgaon, Ackrolix, brings years of experience to the table to ensure that your vision is carried out precisely.",
     },
     {
       id: "2",
-      name: "Innovative Ideation",
-      desc:"Our expert designers and developers work together to come up with innovative ideas for your prototype. We brainstorm and refine ideas that are in line with your vision and company objectives.",
+      name: "Complete Solutions",
+      desc:"With our all-encompassing prototype development services in Gurgaon, we provide complete services that turn ideas into reality.",
     },
     {
       id: "3",
-      name: "User-Centric Approach",
-desc:"We prioritise user experience when developing prototypes. Our user-centric approach guarantees that the prototype is intuitive, entertaining, and satisfies your end-users' needs and expectations.",
+      name: "A Range of Industries",
+      desc:"Our broad experience enables us to manage a variety of tasks with accuracy and proficiency, from electronics to consumer goods.",
     },
     {
       id: "4",
-      name: "Agile Development",
-      desc: "To ensure flexibility and adaptability, we use an agile development process. We can make essential adjustments and improvements throughout the development lifetime thanks to our iterative approach.",
+      name: "Innovative Technology",
+      desc: "Our cutting-edge tools and processes, such as additive manufacturing, quickly and effectively generate high-quality prototypes.",
     },
     {
       id: "5",
-      name: "Rigorous Testing",
-      desc: "We do extensive testing before giving the prototype to you in order to discover and correct any faults or inaccuracies. This testing phase guarantees that the prototype is of good quality and functional.",
+      name: "Collaborative Methodology",
+      desc: " Work together with us throughout the process to make sure your input influences the finished product and consistently meets or exceeds expectations.",
     },
     {
       id: "6",
-      name: "Client Collaboration",
-      desc: "We appreciate your feedback and participation throughout the prototype development process. We actively seek input and work with you to ensure that the final prototype meets or exceeds your expectations.",
+      name: "Prompt Delivery",
+      desc: "We value deadlines and stick to them by using a simplified method to produce products on time and for a reasonable price.",
     },
    
   ];
@@ -245,7 +245,7 @@ const cards = [
           "
            bannersubtext="Ackrolix is a renowned Prototype Development Company in Gurgaon. We specialize in creating working duplicates of products to ensure that they fit market standards and user specifications."
           serviceimg="/assets/images/service/svg/res.png"
-          servicehead="Tailored Prototype Development Service for Your Projects"
+          servicehead="Our Foolproof Services will turn your Visions into Reality"
           servicedesc1="Our skilled team adheres to an efficient Prototype Development Process, which allows us to discover and rectify design flaws early in the development cycle. Our prototypes attract potential buyers by imitating the real product, giving them a personal sense of what's to come and creating trust in your concept."
           servicedesc2="Whether your project is small or large, our Prototype Development Solutions are designed to your exact requirements. We develop commercially feasible and profitable products that meet the needs of your clients. We adapt to the size and complexity of your project, from simple paper sketches to fully functional models."
           servicedesc3="We design and iterate prototypes quickly using our fast prototyping approach, allowing you to provide feedback throughout the development process."
@@ -271,9 +271,9 @@ const cards = [
         >
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
-              processhead="Approach"
-              processsub=""
-              processdesc="Full-scope app modernization services you can start using quickly (even in weeks!) to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+              processhead="Why Choose Us"
+              processsub="Why Choose Us"
+              processdesc="Ackrolix takes great pleasure in being Gurgaon's go-to Prototype Development Agency. We provide innovative Prototype Development Services that are targeted to your specific needs, with an emphasis on creativity, competence, and customer-centricity."
               processimg="/assets/images/service/svg/res1.png"
             />
             <Process process={processes} />

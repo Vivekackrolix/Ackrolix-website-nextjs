@@ -17,29 +17,29 @@ const Marketing = () => {
   const processes = [
     {
       id: "1",
-      name: "Brand and Business",
-desc:"Evaluates the level of your digital presence, including competitive position, online reputation and customer relationship management (CRM)"
+      name: "Expert Team",
+desc:"Talented experts developing data-driven strategies for significant digital growth."
     },
     {
       id: "2",
-      name: "Content and Engagement",
-desc:"Assesses your brand engagement, social media marketing strategy, email marketing strategy and content strategy SEO performance, etc."    },
+      name: "Customized Solutions",
+desc:"Strategies that are in line with your company's objectives to provide the highest return on investment."    },
     {
       id: "3",
-      name: "Internal Team or Partners",
-desc: "Determines your capacity to generate online marketing ideas and perform necessary web optimization processes."   },
+      name: "Diverse Services",
+desc: "A comprehensive offering of PPC, social media, SEO, and other digital marketing services."   },
     {
       id: "4",
-      name: "  Technology and Software Integration",
-desc:"Identifies your organization’s major challenges in tracking campaign performance metrics."    },
+      name: "Proven Results",
+desc:"Results that have been demonstrated through improved online exposure and engagement."    },
     {
       id: "5",
-      name: "Lead Sources",
-desc:"Determines your key traffic sources and the availability of essential marketing channels"    },
+      name: "Client-Centric Approach",
+desc:"A collaborative relationship that puts your individual needs and goals first."    },
     {
       id: "6",
-      name: "Success Measurement",
-desc:"Evaluates your campaign performance based on factors such as customer lifetime value (CLV), lead volume and website traffic"    },
+      name: "Constant Innovation",
+desc:"Keeping abreast of the most recent developments to keep your online presence current."    },
   ];
   const techs = [
     {
@@ -191,19 +191,19 @@ desc:"Evaluates your campaign performance based on factors such as customer life
 const cards = [
     {
       id: 1,
-      para: "Given the plethora of marketing strategy agencies that offer website audit services, online marketing and social media strategy solutions, it can be challenging to find the right agency that fits your business. In some cases, you might fall into the trap of an internet marketing and content strategy agency that over-promises but under-delivers.",
+      para: "Ackrolix is your partner in attaining digital marketing excellence, helping you with everything from developing compelling content that connects with your audience to implementing data-driven tactics that provide quantifiable results. Allow us to lead you through the dynamic world of digital marketing, turning obstacles into chances and elevating your brand to the top of the online marketplace.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Strategy",
-      subtitle: "Our Marketing Strategy Agency Considers Your Unique Industry",
+      maintitle: "SUCCESS",
+      subtitle: "Diverse Digital Marketing Services for Your Success",
     },
     {
       id: 2,
       icon: "01",
-      title: "Web Audit Practices",
-      para: "A reputable marketing strategy company runs a complete digital marketing audit, provides transparent site audit results and clarifies website issues and technical processes. Additionally, a reliable digital strategy firm uses advanced SEO audit tools to ensure all campaign details and recommendations are accurate.",
+      title: "SEO Optimisation",
+      para: "With the help of our SEO know-how, increase your online presence. In order to keep your brand at the top of search engine results, we optimize your website, improve keyword ranks, and increase organic traffic.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -215,8 +215,8 @@ const cards = [
     {
       id: 3,
       icon: "02",
-      title: "eCommerce Marketing Strategy",
-      para: "Many marketers have entered the eCommerce marketplace, but only a few truly understand its demands, limitations and potential. If you’re building your eCommerce strategy or still solidifying your social media marketing plan for your online store, it’s imperative that you choose a digital marketing strategy agency with years of experience in eCommerce optimization.",
+      title: "PPC Campaigns",
+      para: "With our focused PPC campaigns, you can maximize your ROI. To generate high-quality traffic and conversions, our specialists create persuasive advertising, control bids, and keep track of performance.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -228,8 +228,8 @@ const cards = [
     {
       id: 4,
       icon: "03",
-      title: "Online Marketplace Advertising Plan",
-      para: "Are you a third-party retailer on Amazon, Target Plus or Walmart Marketplace? To improve your profitability and ensure your Amazon marketing strategy adheres to the marketplace standards, be sure to consult with a digital strategy firm that is well-versed in the demands and restrictions of various online marketplace platforms.",
+      title: "Social Media Campaigns",
+      para: "Utilize social media's strength by using its many channels. To effectively connect and engage with your audience, we develop compelling content, manage profiles, and put data-driven initiatives into practice.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -241,8 +241,8 @@ const cards = [
     {
       id: 5,
       icon: "04",
-      title: "Marketing Flexibility",
-      para: "A trustworthy digital strategy consultant formulates a social media marketing business plan and digital marketing techniques that adapt to client demands and changing market conditions. Whether you need help developing a B2B social media strategy, B2C social media strategy or other digital marketing strategies, our internet marketing strategy consultants can assist you.",
+      title: "Content marketing",
+      para: "Give your brand fuel by creating insightful content. In order to establish authority and increase audience engagement, our team creates educational and entertaining material, including blogs and infographics.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -254,8 +254,8 @@ const cards = [
     {
       id: 6,
       icon: "05",
-      title: "Advertising Strategy",
-      para: "Promoting your products and services online requires cutting-edge organic and paid search strategies to rise above the din and attract customer attention. However, only a few marketing strategy agencies can effectively produce and implement both Google AdWords strategy and organic digital marketing techniques.",
+      title: "Email marketing",
+      para: "We provide effective email campaigns to stay in touch with your audience. We create, carry out, and evaluate campaigns that develop leads, uphold engagement, and raise conversions.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -267,8 +267,8 @@ const cards = [
     {
       id: 7,
       icon: "06",
-      title: "SEO Website Strategy",
-      para: "A dependable internet strategy consultant examines all aspects of your web design and SEO performance to determine all factors that affect your website accessibility and hinder your online growth. Beware of a digital strategy agency that delves right into search optimization without discussing your responsive web design issues.",
+      title: "Analytics & Reporting",
+      para: "Use data-driven insights to gauge success. To optimize campaigns for ongoing growth, we give complete analytics, monitor important data, and deliver thorough reports.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -320,7 +320,25 @@ const cards = [
   return (
     <div>
       <Head>
-        <title>Digital Marketing</title>        
+        <title>Digital Marketing Company in Gurgaon - Ackrolix</title>
+        <meta
+          name="description"
+          content="Ackrolix is a top-rated Digital Marketing Company in Gurgaon, providing exceptional services to help businesses grow and succeed."
+          />
+          <meta property="og:title" 
+          content="Digital Marketing Company in Gurgaon - Ackrolix" />
+          <meta
+            property="og:description"
+            content="Ackrolix is a top-rated Digital Marketing Company in Gurgaon, providing exceptional services to help businesses grow and succeed."
+          />
+           <meta
+            property="og:url"
+            content="#"
+          />
+          <meta
+            property="og:image"
+            content="https://www.ackrolix.com/assets/images/logoack.png"
+        />
       </Head>
       <Header />
       <div
@@ -330,13 +348,12 @@ const cards = [
         }}
       >
         <Banner 
-          bannertitle="You Know What You Want,
-          But You’re Not Sure How to Get There"
-          bannersubtext="We Ensure You Don’t Take the Wrong Turn En Route to Success."
+          bannertitle="Welcome to Ackrolix, Your Reliable Partner for Outstanding Digital Marketing"
+          bannersubtext="We take pride in being your all-inclusive digital marketing solution at Ackrolix. We are dedicated to developing your online presence into a thriving success story as a top digital marketing firm. Our knowledgeable team is aware that a successful online business requires more than just a website; it also needs a carefully planned digital marketing strategy that supports your company's objectives."
           serviceimg="/assets/images/service/svg/dig.png"
-          servicehead="Why You Need to Start With Strategy"
-          servicedesc1="Marketing your brand without an internet marketing strategy or using an inappropriate online marketing plan is a surefire way to lose money, waste time and get nowhere."
-          servicedesc2=" In today’s digital world, growing a business comes with many challenges and opportunities that demand different web marketing strategies and solutions. A digital marketing strategy that has worked for a specific audience segment may not be the best approach for another. Likewise, internet marketing strategies that yielded positive results a year ago may not generate the same results today." 
+          servicehead="Promote Your Brand with Ackrolix's Integrated Digital Marketing Solutions"
+          servicedesc1=" Our customized digital marketing services are made to support your growth whether you're a startup trying to build your brand or an established company trying to widen your digital presence."
+          servicedesc2=" We set out on a journey to increase your online exposure, engage your target audience, and drive conversions with a well-defined digital marketing strategy in place. We provide a broad range of internet marketing services, such as search engine optimization (SEO), pay-per-click advertising (PPC), social media marketing, content marketing, email marketing, and more as an established digital marketing agency. Every area of your online presence will be optimized for maximum impact thanks to our all-encompassing strategy." 
         />
       </div>
       <Cards card={cards} />
@@ -358,9 +375,9 @@ const cards = [
         >
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
-              processhead="Areas"
-              processsub="6 Key Areas of Focus "
-              processdesc="To ensure we outline a digital marketing plan tailored to your brand, we ask you to accomplish a self-assessment questionnaire based on six core areas:"
+              processhead="Why ChooseUS"
+              processsub=" Why Choose Us "
+              processdesc="For professional strategies, specialised solutions, a variety of services, tested outcomes, a client-centric approach, and ongoing innovation driving your online success story, choose Ackrolix as your trusted digital marketing partner."
               processimg="/assets/images/service/svg/dig1.png"
             />
             <Process process={processes} />

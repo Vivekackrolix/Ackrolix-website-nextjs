@@ -16,33 +16,33 @@ const SmmAgency = () => {
   const processes = [
     {
       id: "1",
-      name: "Listen",
-      desc: " We gain insight into your customers and their interests through social media listening tools."
+      name: "Unparalleled Expertise & Innovation",
+      desc: "Ackrolix, the top social media marketing firm in Gurgaon, provides unmatched knowledge and precise tactics."
     },
     {
       id: "2",
-      name: "Plan",
-      desc: "At Ackrolix, we work closely with brands to understand their goals, create brand narratives and create custom solutions for multiple platforms."
+      name: "Targeted Campaigns",
+      desc: "For the best audience engagement, our social media marketing services in Gurgaon use exact targeting."
     },
     {
       id: "3",
-      name: "Execute",
-      desc: "Our expertise is creating memorable product stories that engage existing and new customers, maximising impact and engagement."
+      name: " Proven Results",
+      desc: "As a leading Gurgaon social media marketing firm, our track record demonstrates steady growth and success."
     },
     {
       id: "4",
-      name: "Optimise",
-      desc: "We're constantly monitoring advertising results across multiple platforms, using these valuable insights to improve our strategies in real-time for the best results.",
+      name: "Customised Approach",
+      desc: "Ackrolix, the top social media marketing company in Gurgaon, creates strategies specifically to meet the requirements of each customer.",
     },
     {
       id: "5",
-      name: "Paid and Organic Team",
-      desc: "We ensure our clients are matched with a subject matter expert. Our team comprises organic and paid strategists with years of expertise and experience, so you can rest easy knowing your campaign is well taken care of. Although paid and organic are very different aspects of social media marketing, we implement a cohesive strategy to maximize your social media marketing conversions."
+      name: "Comprehensive Solutions",
+      desc: "Ackrolix has experience in many different markets, including B2B and B2C at all sizes. Whether you own a startup, enterprise or a multi-location company."
     },
     {
       id: "6",
-      name: "Diverse Marketing Experience",
-      desc: "Ackrolix has experience in many different markets, including B2B and B2C at all sizes. Whether you own a startup, enterprise or a multi-location company, our social media marketing firm strives to go above and beyond your expectations. We give your brand a solid social media presence and online reputation through sustained research, tracking and adaptation to online trends and resources."
+      name: "Strategic Insights",
+      desc: "For data-driven insights and effective brand expansion, pick Ackrolix, the top social media marketing company in Gurgaon."
     },
   ];
   const techs = [
@@ -195,19 +195,19 @@ const SmmAgency = () => {
   const cards = [
     {
       id: 1,
-      para: "Ackrolix offers full services to help businesses maximise their online presence and engagement. Their teams of experts are skilled at creating effective social media strategies that resonate with each client's unique goals and audience. Ackrolix achieves results by advertising across multiple platforms, creating shared content, managing accounts, and running ad campaigns. Using the power of social media, they can increase product awareness, customer loyalty, and productivity.",
+      para: "For outstanding online brand growth, Ackrolix's great social media marketing services combine strategic planning, compelling content production, audience interaction, data-driven analysis, powerful ad campaigns, and perceptive performance reporting.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
       maintitle: "Services",
-      subtitle: "Social media marketing services",
+      subtitle: "Our Exemplary Social Media Marketing Services ",
     },
     {
       id: 2,
       icon: "01",
-      title: "Social media strategy",
-      para: "Ackrolix's social media strategy includes creating content, managing accounts, and running advertising campaigns across platforms to increase brand awareness, trust, and leads. Their data-driven approach enables continuous improvement to achieve optimum results.",
+      title: "Strategic Planning",
+      para: "Weaved social media plans that are in line with the objectives of your company, target the appropriate demographic, and optimise content for maximum interaction and impact.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -219,8 +219,8 @@ const SmmAgency = () => {
     {
       id: 3,
       icon: "02",
-      title: "Social media optimization",
-      para: "Ackrolix is creating engaging content and running advertising campaigns. Increases business awareness and encourages customer engagement through data-driven ideas.",
+      title: "Content Creation",
+      para: "Create engaging images and compelling prose that appeal to your audience in order to maintain consistent branding and a powerful online presence across platforms.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -232,8 +232,8 @@ const SmmAgency = () => {
     {
       id: 4,
       icon: "03",
-      title: "Social media promotion",
-      para: "Increase your brand name, engagement, and success with our professional social media services.",
+      title: "Audience Engagement",
+      para: "Promote meaningful connections by being actively involved, replying to messages and comments, and starting dialogues that help to develop a devoted following for your company.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -245,8 +245,8 @@ const SmmAgency = () => {
     {
       id: 5,
       icon: "04",
-      title: "Community management",
-      para: "Ackrolix enabling meaningful interactions and building strong online communities. Their expertise provides audience engagement, excellent customer support, and trust for businesses looking to build a strong online presence.",
+      title: " Data-Driven Analytics",
+      para: "Utilising top-notch tools, monitor and analyse social media performance while adjusting strategy in real-time depending on insights.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -258,8 +258,8 @@ const SmmAgency = () => {
     {
       id: 6,
       icon: "05",
-      title: "Social Influencer marketing",
-      para: "Ackrolix specialises in using social media influencers to promote great brands. Its teams of experts identify key stakeholders, build real partnerships, and run effective campaigns that take business awareness and engagement to new heights.",
+      title: "Ad Campaigns",
+      para: "Run successful paid ads by utilising accurate audience targeting, imaginative graphics, and clever placements to increase visibility and encourage conversions.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -272,7 +272,7 @@ const SmmAgency = () => {
       id: 7,
       icon: "06",
       title: "Social media Advertising",
-      para: "Ackrolix specialises in delivering targeted and effective campaigns to increase brand awareness, engage audiences and increase conversions. With expert marketing strategies and data-driven insights, they optimise results to enable businesses to get the most out of their marketing efforts.",
+      para: "Ackrolix specialises in delivering targeted and effective campaigns to increase brand awareness, engage audiences and increase conversions.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -350,14 +350,11 @@ const SmmAgency = () => {
         }}
       >
         <Banner
-          bannertitle="Best social media marketing agency in gurgaon."
-          bannersubtext=""
+          bannertitle="Craft Digital Success with our Premium Social Media Marketing Services"
+          bannersubtext="Welcome to Ackrolix, Gurgaon's premier provider of first-rate social media marketing services. We take great pleasure in our ability to connect brands with their audience in meaningful and effective ways as a top social media marketing company. "
           serviceimg="/assets/images/service/svg/med.png"
-          servicehead="How Ackrolix Can Help Your Business Harness the Power of Social Media."
-          servicedesc1="
-          Ackrolix is ​​a social media marketing company based in Gurgaon that provides innovative and effective solutions to businesses aiming to harness the power of social media for growth and success. With a dedicated team of social media experts and a deep understanding of social media."
-          
-        
+          servicehead="Increase the Impact of Your Brand with Ackrolix"
+          servicedesc1="Ackrolix is ​​a social media marketing company based in Gurgaon that provides innovative and effective solutions to businesses aiming to harness the power of social media for growth and success. With a dedicated team of social media experts and a deep understanding of social media."
           servicedesc2=" Ackrolix specialises in creating effective campaigns that drive engagement, increase brand awareness and build meaningful connections with audiences. As an advertising company, Ackrolix starts by researching and understanding each client's unique needs and goals. One of Ackrolix's key strengths is content creation and management. They create shareable and engaging content that resonates with their audience on various social media sites. Whether it's an image, a shared video, or a blog post, Ackrolix ensures that every content has a purpose, provides meaningful interactions, and builds trust."
 
           
@@ -384,9 +381,9 @@ const SmmAgency = () => {
         >
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
-              processhead="Ackrolix"
-              processsub="Social media marketing strategy"
-              processdesc="Ackrolix's data-driven strategy begins with thoroughly understanding each client's business goals and target audience. They create relevant content and run ad campaigns across multiple platforms to increase brand awareness, increase engagement and generate leads. Continuous analysis and optimization provide the most impact and measurability, making Ackrolix the partner for businesses looking for good and good business."
+              processhead="Why ChooseUS"
+              processsub="Why Choose Us as your Social Media Marketing Partner"
+              processdesc="Ackrolix distinguishes itself as the top social media marketing company in Gurgaon thanks to our go-to tactics, focused targeting, dependable outcomes, personalised approach, all-inclusive solutions, and strategic insights."
               processimg="/assets/images/service/svg/med1.png"
             />
             <Process process={processes} />

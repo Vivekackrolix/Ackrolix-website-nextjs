@@ -11,38 +11,39 @@ import ProcessHead from "../../components/Services/DetailPage/ProcessHead";
 import Work from "../../components/Services/DetailPage/Work";
 import Enquiry from "../../components/Services/DetailPage/Enquiry";
 import Clients from "../../components/Home/Clients";
+import ProccessHead from "../../components/Services/DetailPage/ProcessHead";
 
 const WebsiteDevelopment = () => {
   const processes = [
     {
       id: "1",
-      name: "Rehosting or Lift-and-Shift",
-      desc: "This approach involves moving an existing application to a new infrastructure without making significant changes to the application's architecture or functionality.",
+      name: "Understanding Client Requirement",
+      desc: "Our Website Design Company, Ackrolix, understands the specific requirements of our clients. We initiate a detailed discussion with them to grasp their business goals, target audience, brand identity, and desired functionalities.",
     },
     {
       id: "2",
-      name: "Refactoring or Re-architecting",
-      desc: "Refactoring involves making structural changes to the application's codebase and architecture while preserving its core functionality. It aims to improve the application's performance, scalability, and maintainability.",
+      name: "Research and Analysis",
+      desc: "We examine the client's industry, competitors, and current market trends to identify opportunities and challenges. This research helps us develop a strategic approach to designing a website that stands out from the competition.",
     },
     {
       id: "3",
-      name: "Replatforming",
-      desc: "Replatforming entails moving an application to a different platform or technology stack while retaining its core features & functionality. For example, migrating an on-premises application to a cloud platform.",
+      name: "Planning and Strategy",
+      desc: "The talented team of our Web Development Agency works to bring the vision to life. We create visually appealing designs that align with the client's brand identity and ensure the website is fully functional across all devices.",
     },
     {
       id: "4",
-      name: "Rearchitecting or Redesigning",
-      desc: "Rearchitecting involves a significant overhaul of the application's architecture and design to meet current business needs and technological advancements.",
+      name: "Content Creation and Optimization",
+      desc: "Our skilled content creators develop relevant and SEO-friendly content that resonates with the target audience while also boosting the website's search engine rankings.",
     },
     {
       id: "5",
-      name: "Containerization",
-      desc: "Containerization involves encapsulating an application and its dependencies into containers, using technologies like Docker. This approach allows applications to run consistently across different environments and simplifies deployment and scalability.",
+      name: "Testing and Quality Assurance",
+      desc: "We conduct rigorous testing and quality assurance to identify and fix any potential issues. We ensure that the website functions smoothly and provides a seamless user experience.",
     },
     {
       id: "6",
-      name: "Replacement or Rebuilding",
-      desc: "In some cases, it may be more feasible to replace an existing application with a new solution rather than attempting to modernize it. This approach involves rebuilding the application from scratch, leveraging modern technologies and design principles.",
+      name: "Website Launch",
+      desc: "Our team at Website Design Company in Gurgaon ensures a smooth transition to the live website, and we closely monitor its performance during this critical phase.",
     },
   ];
   const techs = [
@@ -308,7 +309,23 @@ const cards = [
   return (
     <div>
       <Head>
-        <title>Website Development</title>        
+        <title>Website Design & Development Company in Gurgaon - Ackrolix</title>
+        <meta
+          name="description"
+          content="Ackrolix is a Web Development Company in Gurgaon that builds better for optimum performance and customer engagement across all devices and platforms."
+        />
+        <meta
+          property="og:title"
+          content="Website Design & Development Company in Gurgaon - Ackrolix"
+        />
+        <meta
+          property="og:description"
+          content="Ackrolix is a Web Development Company in Gurgaon that builds better for optimum performance and customer engagement across all devices and platforms."
+        />
+        <meta
+          property="og:image"
+          content="https://www.ackrolix.com/assets/images/logoack.png"
+        />
       </Head>
       <Header />
       <div
@@ -335,6 +352,16 @@ const cards = [
       />
       <Technology tech={techs} />
       </div>
+
+      <div className="container-ack md:px-0 px-5">
+            <ProccessHead
+              processhead="ROLE"
+              processsub="Role of a Website Development Company"
+              processdesc="A well-designed Website Design Company plays a vital role in attracting potential customers and establishing credibility."
+              processimg="/assets/images/service/svg/app1.png"
+            />
+            <Process process={processes} />
+          </div>
 
       <div>
         <div

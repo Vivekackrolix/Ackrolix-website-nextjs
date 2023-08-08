@@ -16,33 +16,33 @@ const AppModernizationDetails = () => {
   const processes = [
     {
       id: "1",
-      name: "Rehosting or Lift-and-Shift",
-      desc: "This approach involves moving an existing application to a new infrastructure without making significant changes to the application's architecture or functionality.",
+      name: "Unrivalled Knowledge",
+      desc: "Ackrolix excels as Gurgaon's leading application modernization firm, revitalising obsolete systems with current languages, frameworks, and databases.",
     },
     {
       id: "2",
-      name: "Refactoring or Re-architecting",
-      desc: "Refactoring involves making structural changes to the application's codebase and architecture while preserving its core functionality. It aims to improve the application's performance, scalability, and maintainability.",
+      name: "Revival of a Legacy",
+      desc: "We specialise in old programmes and use current technologies to adapt obsolete languages and platforms, improving performance and usefulness.",
     },
     {
       id: "3",
-      name: "Replatforming",
-      desc: "Replatforming entails moving an application to a different platform or technology stack while retaining its core features & functionality. For example, migrating an on-premises application to a cloud platform.",
+      name: "Thorough Process",
+      desc: "Our complete modernization approach assures smooth migrations from legacy systems to cutting-edge technology, with agility, scalability, and security as top priorities.",
     },
     {
       id: "4",
-      name: "Rearchitecting or Redesigning",
-      desc: "Rearchitecting involves a significant overhaul of the application's architecture and design to meet current business needs and technological advancements.",
+      name: "Customised Solutions",
+      desc: "We tailor solutions to your application's specific needs, maximising its potential for growth, agility, scalability, and security.",
     },
     {
       id: "5",
-      name: "Containerization",
-      desc: "Containerization involves encapsulating an application and its dependencies into containers, using technologies like Docker. This approach allows applications to run consistently across different environments and simplifies deployment and scalability.",
+      name: "End-to-End Service",
+      desc: "Ackrolix, as your go-to modernization agency, provides end-to-end assistance, from strategy to implementation and ongoing maintenance, assuring successful conversions.",
     },
     {
       id: "6",
-      name: "Replacement or Rebuilding",
-      desc: "In some cases, it may be more feasible to replace an existing application with a new solution rather than attempting to modernize it. This approach involves rebuilding the application from scratch, leveraging modern technologies and design principles.",
+      name: "Repeated Success",
+      desc: "Ackrolix's creative solutions have received praise, making us a top choice among Gurgaon application modernization suppliers.",
     },
   ];
   const techs = [
@@ -268,7 +268,7 @@ const AppModernizationDetails = () => {
     {
       id: 5,
       icon: "04",
-      title: "Services for Application Redesigning",
+      title: "Application Redesigning",
       para: "Our professional team can rapidly recover and modify code and design for your long-running enterprise systems as a leading Application Modernisation Company. Ackrolix provides comprehensive services to upgrade your applications, ensuring they remain relevant in today's digital landscape.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
@@ -294,8 +294,8 @@ const AppModernizationDetails = () => {
     {
       id: 7,
       icon: "06",
-      title: "New Growth Possibilities",
-      para: "New business possibilities for a modernized app, including AI, machine learning, big data, and the public cloud.",
+      title: "Rehosting",
+      para: "Ackrolix delivers rehosting services, in which we move your existing on-premises apps to the cloud without modifying them. This approach guarantees that business objectives, such as quicker product launches or the shift away from on-premises data centres, are met.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -363,9 +363,9 @@ const AppModernizationDetails = () => {
         >
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
-              processhead="Services"
-              processsub="App Modernization On Peek"
-              processdesc="Full-scope app modernization services you can start using quickly (even in weeks!) to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+              processhead="Why Choose Us"
+              processsub="Why Choose Us"
+              processdesc="From early analysis and planning to smooth implementation and continuous maintenance, we offer end-to-end support. Numerous happy clients who have benefited from our innovative solutions attest to our track record as one of the Best Application Modernization providers."
               processimg="/assets/images/service/svg/app1.png"
             />
             <Process process={processes} />
