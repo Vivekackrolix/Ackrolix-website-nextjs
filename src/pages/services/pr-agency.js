@@ -16,26 +16,33 @@ const PrAgency = () => {
   const processes = [
     {
       id: "1",
-      name: "Executive Positioning",
-desc:"Strategize your personal and public brand to influence the stakeholders. Working on the collective goal of the leader and organizational repositioning, by relaying the valued message to the stakeholders."    },
+      name: "Experienced PR Strategists",
+      desc:"Our skilled team develops customized public relations plans to help your brand's message and reach."   
+     },
     {
       id: "2",
-      name: "Influencer Engagements",
-      desc: "Creating a brand-influencer partnership for a long-term relationship with the audience. Data-driven, well-researched and result-oriented approach to equip your brand with credibility and trust from the audience.",
+      name: "Media Excellence",
+      desc: "We get top-tier media coverage, increasing the visibility and reputation of your brand in the industry.",
     },
     {
       id: "3",
-      name: "Crisis Communications",
-desc:"Effects of unforeseen events can take a hit on the brand’s reputation and hamper relationships on various dimensions. Helping your brand cruise the crisis with a multilayered and holistic approach."    },
+      name: "Crisis Management",
+      desc:"You can rely on us to manage difficult situations quickly and effectively with crisis communication tactics."  
+      },
     {
       id: "4",
-      name: "Reputation Management",
-      desc: "Managing public perception across the channels with a crucially crafted and controlled narrative, and enhancing the stakeholder perception with customized strategies.",
+      name: "Captivating Content",
+      desc: "Our talented content developers create captivating storylines that connect with your target audience.",
     },
     {
       id: "5",
-      name: "Purpose & ESG",
-      desc: "Bridging the gap between a social impact and your business message by carving out the purpose behind your project. Communicating the social goals to the public for positive perception.",
+      name: "Influencer Collaborations",
+      desc: "We form meaningful connections with influencers to increase the reach and engagement of your business.",
+    },
+    {
+      id: "5",
+      name: "Results-Oriented Approach",
+      desc: "Using measurable metrics, we ensure that our public relations activities correspond with your business goals and produce concrete results.",
     },
   ];
   const techs = [
@@ -188,19 +195,19 @@ desc:"Effects of unforeseen events can take a hit on the brand’s reputation an
   const cards = [
     {
       id: 1,
-      // para: "Our modernization solutions revolutionize your applications' performance, scalability, agility, & maintainability. We enable seamless integration with emerging technologies, optimize infrastructure, & streamline workflows to ensure your applications are future-proof.",
+      para: "Ackrolix, a renowned PR agency in Gurgaon, can help you boost your brand's visibility. Media relations, crisis management, content production, influencer alliances, event publicity, and strategic social media skills are all part of our comprehensive offerings.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Approach",
-      subtitle: "OUR APPROACH",
+      maintitle: "SERVICES",
+      subtitle: "Our Outstanding Public Relations Services",
     },
     {
       id: 2,
       icon: "01",
-      title: "Corporate Communications",
-      para: "Strategically crafted internal and external communication to secure your business and brand from reputation disruption. Easing the process of organizational management with an engaging dialog.",
+      title: "Press Relations",
+      para: "Through smart press releases and media coverage, build strong relationships with prominent media outlets to ensure your brand's message is heard by the proper audience.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -212,8 +219,8 @@ desc:"Effects of unforeseen events can take a hit on the brand’s reputation an
     {
       id: 3,
       icon: "02",
-      title: "Brand Awareness",
-      para: "The right stories about your brand develop a positive sentiment among the public. Interest-centric creative storytelling to bring out the emotional connection and catch their attention.",
+      title: "Crisis Management",
+      para: "Protect your reputation with preemptive crisis planning and expert guidance, effectively managing and reducing possible public relations problems to preserve brand integrity.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -225,8 +232,8 @@ desc:"Effects of unforeseen events can take a hit on the brand’s reputation an
     {
       id: 4,
       icon: "03",
-      title: "Event & Launch PR",
-      para: "Communication that helps your project enter the public domain with a strong influence. Capturing the attention of your audience with precise PR techniques and media reach to deliver remarkable results.",
+      title: "Material Creation",
+      para: "Create captivating storylines through engaging material, ranging from press releases to thought leadership articles, to boost your brand's credibility and market placement.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -238,8 +245,8 @@ desc:"Effects of unforeseen events can take a hit on the brand’s reputation an
     {
       id: 5,
       icon: "04",
-      title: "Media Relation Management",
-      para: "A flawless campaign with a strong message is the result of a crucial mix of media channels. Guided and calculated approach to establish your brand’s relationship with the media and related stakeholders.",
+      title: "Influencer Partnerships",
+      para: "Work with industry influencers and thought leaders to magnify your brand message and connect with a larger audience by utilizing their reach and credibility.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -251,8 +258,21 @@ desc:"Effects of unforeseen events can take a hit on the brand’s reputation an
     {
       id: 6,
       icon: "05",
-      title: "Earned, Owned & Paid Media",
-      para: "Researched insights to plan the content that goes out to different platforms. A result-driven approach that gets the best out of campaigns across various channels.",
+      title: "Event Publicity",
+      para: "Create buzz and media coverage to boost brand recognition and engagement among your target audience by planning and executing successful events.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
+    },
+    {
+      id: 7,
+      icon: "06",
+      title: "Social Media Strategy",
+      para: "Build a loyal online community around your company by developing a smart social media presence, producing compelling content, and nurturing meaningful conversations.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -304,7 +324,25 @@ desc:"Effects of unforeseen events can take a hit on the brand’s reputation an
   return (
     <div>
       <Head>
-        <title>PR Agency</title>
+        <title>PR Service Company in Gurgaon - Ackrolix</title>
+        <meta
+          name="description"
+          content="Ackrolix is a reputable PR service company based in Gurgaon, offering professional and reliable public relations solutions."
+          />
+          <meta property="og:title" 
+          content="PR Service Company in Gurgaon - Ackrolix" />
+          <meta
+            property="og:description"
+            content="Ackrolix is a reputable PR service company based in Gurgaon, offering professional and reliable public relations solutions."
+          />
+           <meta
+            property="og:url"
+            content="#"
+          />
+          <meta
+            property="og:image"
+            content="https://www.ackrolix.com/assets/images/logoack.png"
+        />
       </Head>
       <Header />
       <div
@@ -314,15 +352,12 @@ desc:"Effects of unforeseen events can take a hit on the brand’s reputation an
         }}
       >
         <Banner
-          bannertitle="Publicity is absolutely critical.
-          A good PR story is infinitely
-          more effective than a front
-          page ad."
-          // bannersubtext="Get your app back on track for growth with our practice-driven app modernization skills. We provide full-scope app modernization services you can start using quickly to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+          bannertitle="Bringing Brands and Audiences Together: Top Public Relations Firm in Gurgaon"
+          bannersubtext="Ackrolix is the top PR firm in Gurgaon, thanks to a devoted team of specialists who understand the ever-changing communication landscape. We are dedicated to providing strategic solutions that not only increase the visibility of your business but also create significant interactions."
           serviceimg="/assets/images/service/svg/pr.png"
-          servicehead="PUBLIC RELATIONS"
-          servicedesc1="Marketing plants a brand in the audience’s mind but PR establishes it in their heart. Contemporary digital presence has become more complex than ever with evolving consumer preferences. Flawless and appealing communication is the key to gaining consumer trust, which is the currency of an eternal relationship."
-          servicedesc2="We give wings to your story by offering a wide mix of digital and offline channels that will carry it across public platforms. With our research and comprehensive knowledge, we craft a committed media aggregation strategy. We make your story heard to ensure that your endeavors reach and leave a mark in people’s mind."
+          servicehead="Raise Your Brand's Voice with Ackrolix Gurgaon's Best PR Agency"
+          servicedesc1="Welcome to Ackrolix, your dependable Public Relations partner. We specialise in building and amplifying captivating narratives that resonate with your target audience as a top PR agency in Gurgaon. Our mission is to help companies become influential voices by connecting them with customers, stakeholders, and the media."
+          servicedesc2="Whether you're a startup or an established company, our unique methods and bespoke campaigns guarantee that your brand narrative is heard loud and clear. Join us and discover the potential of excellent public relations to promote growth and foster long-term connections."
         />
       </div>
       <Cards card={cards} />
@@ -344,9 +379,9 @@ desc:"Effects of unforeseen events can take a hit on the brand’s reputation an
         >
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
-              processhead="Solutions"
-              processsub="IMAGE SOLUTIONS"
-              processdesc="We are here to balance and enhance public perception with a fresh narrative. Warren Buffett once said that it takes twenty years to build a reputation and five minutes to ruin it. With our swift and strategic crisis solutions, we make sure nothing harms your relationship with the audience. When life gives your public image a hit, we come up with a strategy and quick solution (and also a lemonade!)."
+              processhead="Why ChooseUS"
+              processsub="Why Choose Us as your Go-To Partner for Public Relations?"
+              processdesc="Choose Ackrolix as your Public Relations partner for unparalleled Public Relations Services. Our skilled staff develops customized plans, acquires top-tier media coverage, successfully handles crises, provides appealing content, engages with influencers, and ensures results-driven success."
               processimg="/assets/images/service/svg/pr1.png"
             />
             <Process process={processes} />

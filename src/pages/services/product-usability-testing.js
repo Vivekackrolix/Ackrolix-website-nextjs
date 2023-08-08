@@ -16,23 +16,33 @@ const Usability = () => {
   const processes = [
     {
       id: "1",
-      name: "Planning The Test",
-      desc: "We think thoroughly about objectives, product, platform, target users, and location.",
+      name: "Director of Usability Testing in Gurgaon",
+      desc: "Ackrolix is the leading usability testing firm in Gurgaon, delivering amazing user experiences via our significant expertise.",
     },
     {
       id: "2",
-      name: "Test User Participants",
-      desc: "We hire the ideal participants that closely fit the user persona and carry out the test.",
+      name: "Dedication to Excellence",
+      desc: "Our reputed usability testing company places a premium on understanding user wants and behaviours, guaranteeing that your software exceeds industry standards.",
     },
     {
       id: "3",
-      name: "Analyze Test Data",
-      desc: "We closely look at the collected data to identify the problems and fix them for better UX.",
+      name: "Progressive Evaluation Methods",
+      desc: "Our usability testing services carefully examine your product's usability using modern technology, combining real-world scenarios and user input.",
     },
     {
       id: "4",
-      name: "Reporting",
-      desc: "We present the findings to our clients, enabling them to make key decisions.",
+      name: "Customised User-Centered Solutions",
+      desc: "Ackrolix creates custom usability services in Gurgaon that increase user pleasure and loyalty through personalised, user-focused techniques.",
+    },
+    {
+      id: "5",
+      name: "Empowering User Experiences",
+      desc: "When Ackrolix is your usability testing partner, you can expect efficient processes, insightful outcomes, and profound audience insights.",
+    },
+    {
+      id: "6",
+      name: "Demonstrate Excellence, Engagement",
+      desc: "Select Ackrolix for user-friendly interfaces and interactions that boost engagement while improving overall performance and differentiating your brand.",
     },
   
   ];
@@ -217,9 +227,9 @@ const cards = [
           bannertitle="Ackrolix: Distinctive Usability Testing Company"
           bannersubtext="Usability testing's alluring power is harnessed by Ackrolix, a renowned usability testing company in Gurgaon, to create captivating digital experiences. In order to develop custom performance tests, our talented team approaches design with empathic curiosity and a great grasp of consumers' wants and concerns."
           serviceimg="/assets/images/service/svg/usa.png"
-          servicehead="Testing leads to finding gaps & fixing them"
-          servicedesc1="With usability testing, we get to see what people actually do—what works for them, and what doesn’t—not what we think they would do or even what they think they would do if they were using your product."
-          servicedesc2="Through usability testing, we determine 5 aspects: Satisfaction, Learnability, Number of Errors, Efficiency and Memorability."
+          servicehead="Elevating Digital Experiences: Expert Usability Testing Services"
+          servicedesc1="We optimise the usability testing procedure using A/B testing, carefully examining each component to guarantee flawless digital experiences. Through the integration of user input, data analytics, and creativity, our usability test boiler creates engaging and individualised experiences across platforms. Users have pleasant and enticing experiences whether they are navigating the magical world of websites or setting out on the otherworldly trip of mobile applications."
+          servicedesc2="We hold the key to understanding individual preferences and creating enduring bonds between consumers and companies through carefully developed, personalised experiences. We create enchantment in every digital interaction with the help of our usability testing services in Gurgaon, leaving an enduring imprint of understanding and contentment."
         />
       </div>
       <Cards card={cards} />
@@ -241,10 +251,9 @@ const cards = [
         >
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
-              processhead="Approach"
-              processsub="OUR APPROACH"
-              processdesc="Steps we follow for
-              usability testing"
+              processhead="Why ChooseUS"
+              processsub="Why Choose Us"
+              processdesc="Ackrolix distinguishes out as the go-to company in Gurgaon for usability testing. We are committed to giving your users outstanding experiences thanks to our broad expertise and commitment to offering top-notch usability testing services."
               processimg="/assets/images/service/svg/usa1.png"
             />
             <Process process={processes} />

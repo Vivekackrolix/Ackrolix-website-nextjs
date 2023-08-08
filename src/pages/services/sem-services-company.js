@@ -16,33 +16,33 @@ const SemAgency = () => {
   const processes = [
     {
       id: "1",
-      name: "Better Brand Recognition",
-      desc: "Internet search engine marketing allows you to choose and bid on the most accurate keywords that match your customers’ search intent. Additionally, Google SEM enables you to place your brand name in the ad’s headline, display URL, description and extension link.",
+      name: "Expertise & Experience",
+      desc: "Ackrolix, a leading SEM firm, has a seasoned staff with years of experience in developing efficient search engine marketing strategies that produce measurable results.",
     },
     {
       id: "2",
-      name: "Increased Conversion",
-      desc: "One of the key benefits of Google SEM ads is its ability to provide near-immediate results with a fast return on investment (ROI). With the right search engine marketing solutions, you can generate new sales and conversions on the same day.",
+      name: "Well-Built Approach",
+      desc: "We design tactics to each client's specific goals, assuring focused ads that resonate with their specific audience and industry.",
     },
     {
       id: "3",
-      name: "Specific Targeting",
-      desc: "Statistics show that more than 30 billion Google searches are conducted every month and 99.9 percent of these global searches do not apply to your audience targeting approach.",
+      name: "Data-Driven Insights",
+      desc: "As a reputable SEM firm, we rely on data analytics to constantly refine and optimize campaigns in order to maximize ROI and remain ahead of changing industry trends.",
     },
     {
       id: "4",
-      name: "Greater Campaign Control",
-      desc: "SEM digital marketing makes it easy to manage your advertising budget, campaign scope and brand messaging. Unlike in SEO, where search engines decide how organic search results are displayed, Google search advertising gives you control over your calls-to-action (CTAs), ad schedule, audience targeting and other aspects of your Google SEM ads.",
+      name: "High-Tech Tools",
+      desc: "Ackrolix, a top search engine marketing business, uses advanced tools and technologies to do comprehensive keyword research, competitor analysis, and performance tracking.",
     },
     {
       id: "5",
-      name: "Measurable Growth",
-      desc: "Internet search engine marketing enables you to test your ad performance and measure the results for each campaign. With access to in-depth analytics and campaign data, you can determine which ads generate the highest conversion rate for your company in terms of CTR, clicks, impressions and other metrics."
+      name: "Transparent Reporting",
+      desc: "Clients choose us as their go-to SEM agency because of our commitment to transparent reporting, which provides them with real-time insights into campaign performance and outcomes."
     },
     {
       id: "6",
-      name: "Improved Organic Traffic",
-      desc: "Research shows that more than 93 percent of online experiences begin with a search engine. This means gaining higher search visibility positions your brand where the majority of your customers are. By knowing what is SEM and how you can leverage it to your advantage, you can drive high-quality traffic to your website from search engines."
+      name: "Proven Success",
+      desc: "Ackrolix has a proven track record as the finest search engine marketing business, continuously delivering great results, increasing traffic, leads, and conversions for our clients."
     },
   ];
   const techs = [
@@ -195,19 +195,19 @@ const SemAgency = () => {
   const cards = [
     {
       id: 1,
-      para: "Search engines use algorithms to rank SEM ads and determine their search relevance. Paid search engine marketing is all about creating the right search engine marketing strategy, bidding on high-value keywords and continuously improving your search advertising tactics based on analytics results to lower your ad spending and improve profitability.",
+      para: "Ackrolix, a top SEM company in Gurgaon, offers full search engine marketing services. We specialize in keyword research, ad production, bid management, and conversion optimisation to ensure maximum ROI and business growth.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Work",
-      subtitle: "How Does SEM Work?",
+      maintitle: "SERVICES",
+      subtitle: "Our Services",
     },
     {
       id: 2,
       icon: "01",
-      title: "Keyword Research and Analysis",
-      para: "Our SEM company utilizes advanced keyword research tools, such as Google Search Console, to identify high-performing search terms and eliminate negative keywords from your list that are not an effective use of your search advertising budget.",
+      title: "Keyword Research",
+      para: "Identify appropriate keywords to target, ensuring your adverts reach the proper audience and increasing your search engine presence.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -219,8 +219,8 @@ const SemAgency = () => {
     {
       id: 3,
       icon: "02",
-      title: "Ads Creation and Landing Page Development",
-      para: "Once we’ve identified your target keywords, our search engine marketing experts craft text-based ads to display in search results and link them to unique, optimized landing pages. The goal is to capture your target audience’s initial search intent and move them to the bottom of your sales funnel.",
+      title: "Ad Campaign Development",
+      para: "Create enticing ad campaigns that catch attention, generate clicks, and bring traffic to your website for increased conversions.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -232,8 +232,8 @@ const SemAgency = () => {
     {
       id: 4,
       icon: "03",
-      title: " Account Setup and Tracking",
-      para: "This phase is crucial in understanding the effectiveness of your search engine marketing strategy. Our SEM firm runs a lead-tracking report to see if the search engine in use supports conversion tracking. If it does, we double-check the codes to ensure they are properly installed on your landing pages.",
+      title: "Ad Copywriting",
+      para: "Create convincing ad copy that resonates with users, emphasizing your offerings and motivating them to act.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -245,8 +245,8 @@ const SemAgency = () => {
     {
       id: 5,
       icon: "04",
-      title: "Campaign Launch and Monitoring",
-      para: "Now that you have optimized paid search marketing ads, well-designed landing pages and a robust search engine marketing strategy, you are almost ready to launch your PPC search engine marketing campaign. Our SEM agency manages your campaign settings, such as locations, languages, networks and devices, to determine how your ads will run. Upon the campaign launch, we closely monitor your ad performance.",
+      title: "Bid Management",
+      para: "Use strategic bid management approaches to maximize your ad budget and achieve maximum ROI and cost-effective results.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -258,8 +258,21 @@ const SemAgency = () => {
     {
       id: 6,
       icon: "05",
-      title: "Evaluation and Analysis",
-      para: "Benchmarking campaign results against your paid search marketing goals is key to measuring your SEM success. We track and evaluate your key performance indicators (KPIs), including click-through rate (CTR), Quality Score, search impression share and cost per conversion. The analytics results allow us to optimize your next paid search engine marketing campaigns for higher conversions.",
+      title: "Performance monitoring",
+      para: "Use advanced monitoring tools to analyze campaign performance and make data-driven modifications for continual improvement.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
+    },
+    {
+      id: 7,
+      icon: "06",
+      title: "Conversion Optimisation",
+      para: "Optimize landing pages and add elements to optimize user experience, resulting in increased conversion rates and campaign success. ",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -309,8 +322,26 @@ const SemAgency = () => {
   ];
   return (
     <div>
-      <Head>
-        <title>Social Engine Marketing</title>
+     <Head>
+        <title>Search Engine Marketing Service Company in Gurgaon - Ackrolix</title>
+        <meta
+          name="description"
+          content="Boost your online presence with Ackrolix - the leading Search Engine Marketing Service Company in Gurgaon. let us assist you in achieving your digital objectives."
+          />
+          <meta property="og:title" 
+          content="Search Engine Marketing Service Company in Gurgaon - Ackrolix" />
+          <meta
+            property="og:description"
+            content="Boost your online presence with Ackrolix - the leading Search Engine Marketing Service Company in Gurgaon. let us assist you in achieving your digital objectives."
+          />
+           <meta
+            property="og:url"
+            content="#"
+          />
+          <meta
+            property="og:image"
+            content="https://www.ackrolix.com/assets/images/logoack.png"
+        />
       </Head>
       <Header />
       <div
@@ -320,17 +351,12 @@ const SemAgency = () => {
         }}
       >
         <Banner
-          bannertitle="What is SEM and Why It’s a Great Investment"
-          bannersubtext="In today’s increasingly competitive digital world, search engines have become an indispensable utility across industries and institutions, including digital marketing, healthcare, education and eCommerce. Search engines are customer service tools that allow online users to locate diverse information on the internet, including news, blog posts and brand offerings, and make informed decisions."
+          bannertitle="Ackrolix: Gurgaon's Best Search Engine Marketing Company"
+          bannersubtext="Welcome to Ackrolix, your go-to source in Gurgaon for innovative Search Engine Marketing (SEM) services. As a top SEM firm, we offer unmatched experience and brilliant ideas to increase your brand's online visibility and produce significant outcomes."
           serviceimg="/assets/images/service/svg/eng.png"
-          servicehead="What Are Search Engines?"
-          servicedesc1=" Search engines have three significant functions:"
-          servicedesc2="1. Crawl
-          Search engines use their own web crawlers or search engine spiders to scour billions of pages on the internet and find new and updated content, such as web pages, videos, PDF files and images. Search engine spiders fetch a few websites and follow the links on these pages to find new URLs.
-        "servicedesc3="  2. Index
-In this phase, search engines store and organize the content based on the keywords, data, recency and user engagement.The new URLs found in the crawling process are indexed in a massive database called Caffeine to be retrieved when the content on the URL matches an online user’s search query.
-"servicedesc4="3. Rank
-Search engines categorize web pages and rank them based on relevance to provide the most useful search results to online users. The higher your website ranks on SERPs, the greater your search visibility and significance to the query."
+          servicehead="Manifest the Might of SEM with Ackrolix: Your Trusted SEM Agency"
+          servicedesc1=" We at Ackrolix are your growth catalyst, not simply another provider of SEM services in Gurgaon. Our complete approach to SEM encompasses all facets of the practice, from campaign optimisation and performance evaluation to keyword research and ad production. We guarantee that your investment in SEM produces measurable results by placing a strong emphasis on maximizing ROI. As the top search engine marketing firm in Gurgaon."
+          servicedesc2="Our skilled team of experts is familiar with the complex dynamics of the digital environment, and we specialize in developing well-built SEM plans that complement your particular company objectives."
         />
       </div>
       <Cards card={cards} />
@@ -352,9 +378,9 @@ Search engines categorize web pages and rank them based on relevance to provide 
         >
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
-              processhead="Essential"
-              processsub="Search Engine Marketing Essential"
-              processdesc="SEM digital marketing makes your business more visible in search engines. And unlike traditional advertising tactics, internet search engine marketing connects your company with an extremely targeted audience segment."
+              processhead="Why ChooseUS"
+              processsub="Why Choose Us?"
+              processdesc="Ackrolix is your go-to SEM partner for experienced ideas, tailored approaches, data-driven insights, novel tools, transparent reporting, and a track record of generating successful search engine marketing campaigns."
               processimg="/assets/images/service/svg/eng1.png"
             />
             <Process process={processes} />
