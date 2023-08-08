@@ -16,24 +16,35 @@ const UiStrategy = () => {
   const processes = [
     {
       id: "1",
-      name: "Align Business Goals And UX",
-      desc: "We help you in achieving your business aspirations through the effective implementation of UX strategy."
+      name: "Excellent UX Strategy Services",
+      desc: "As the leading UX design agency in Gurgaon, pick Ackrolix because we consistently provide top-notch UX strategy services that help businesses succeed. Every element of your digital experience will be in line with your company objectives thanks to our specialised UX design strategy, which is adapted to your particular needs."
     },
     {
       id: "2",
-      name: "Utilize Research Insights",
-      desc: "We take the insights gained from user research and craft the product that solves users' problems and achieves business goals."
+      name: "UX Strategy Experts",
+      desc: "Offering the best UX strategy services in Gurgaon, we have a team of seasoned professionals who use precise methods and industry best practises to produce an easy user experience. Our UX business strategy places a strong emphasis on comprehending your target market's needs and pain spots. This helps us create engaging interactions that are logical and visually appealing."
     },
     {
       id: "3",
-      name: "Add Personality Elements",
-      desc: "We blend brand personality elements into UX design, such that it ensures consistency in your digital product."
+      name: "Elevating Experiences, Driving Conversions",
+      desc: "We take great pride in developing user-centric solutions that elevate your brand and improve customer happiness as a top UX Strategy Agency in Gurgaon. Our data-driven methodology, in conjunction with in-depth research, enables us to create a UX design strategy that encourages long-term engagement and increases conversions."
     },
     {
       id: "4",
-      name: "Conducting Workshops",
-      desc: "We will partner with your design team, management and stakeholders to help create a refined UX strategy."
+      name: "Empowering Your Digital Experience",
+      desc: "At Ackrolix, we place a high value on teamwork, making sure that your vision guides all design choices. Wireframing, prototyping, and usability testing are all parts of our UX strategy services, which take a comprehensive approach to improving your digital experience."
     },
+    {
+      id: "5",
+      name: "Improve Your User Experience Strategy",
+      desc: "By choosing us for the top UX strategy services in Gurgaon, you can raise your company's performance and stand out from the crowd. Your brand will experience elevated consumer loyalty, greater conversions, and long-term success in the digital environment with the help of our UX Design Company in Gurgaon."
+    },
+    {
+      id: "6",
+      name: "Empowering Growth Through UX",
+      desc: "Choosing our top-tier UX strategy services in Gurgaon boosts your company's performance and distinguishes it from competitors. With Ackrolix, the premier UX Design Company in Gurgaon, your brand will gain greater consumer loyalty, increased conversions, and long-term digital success. Count on us to work with you to develop a UX design strategy that will fuel your company's success."
+    },
+
 
   ];
   const techs = [
@@ -118,14 +129,14 @@ const UiStrategy = () => {
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Approach",
-      subtitle: "OUR APPROACH",
+      maintitle: "Services",
+      subtitle: "Our Unique UX Design Services",
     },
     {
       id: 2,
       icon: "01",
-      title: "Define Goals & Set The Plan",
-      para: "We define UX goals and set logical milestones to get an accurate idea based on the scope of work and the time required to achieve them.",
+      title: "UX Design Strategy",
+      para: "UX design concepts convey the essence of creativity, which includes innovation for every pixel and interaction. Our approach is based on understanding users in a relationship and exploring their desires and pain points.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -137,8 +148,8 @@ const UiStrategy = () => {
     {
       id: 3,
       icon: "02",
-      title: "Formulate Problem Statement",
-      para: "We make the target user's needs absolutely clear so that the final product helps in effectively fulfilling them. ",
+      title: "Innovative Strategy",
+      para: "At Ackrolix, we consult our avant-garde ideas, break the mould and breathe new life into the market. With a keen understanding of unmet needs, we've developed ways to help users exceed expectations.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -150,8 +161,8 @@ const UiStrategy = () => {
     {
       id: 4,
       icon: "03",
-      title: "Define Key UX Metrics",
-      para: "We define the most important metrics based on industry benchmarks, that provide a frame of reference to measure the success of UX efforts.",
+      title: "Business Consulting",
+      para: "To bring the business to its maximum potential, we get to the heart of its business, uncovering ideas and challenges. Together with our customers, we create effective solutions that use digital resources to delight users while digitising their content",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -163,8 +174,8 @@ const UiStrategy = () => {
     {
       id: 5,
       icon: "04",
-      title: "Design & Test",
-      para: "Once all the above things are in place, we start by developing the user flows, wireframes, and information architecture of your product.",
+      title: "Design Thinking",
+      para: "From practical capabilities and strategic thinking to identifying the best solutions, we partner with your account management team to empower the user. By creating a target group, we investigate the user's behaviour, uncover their challenges.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -176,8 +187,21 @@ const UiStrategy = () => {
     {
       id: 6,
       icon: "05",
-      title: "Calculate ROI Of UX",
-      para: "We measure several key metrics such as filling of the lead capture form, new sign-ups, conversions & sales, and Net Promoter Score (NPS).",
+      title: "Research",
+      para: "Our products deliver value and are designed with a passion for science to ensure that every business has growth potential, is growth-driven, and is budget-friendly. By focusing on research, we understand finance, business trends, and modern technology.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
+    },
+    {
+      id: 6,
+      icon: "06",
+      title: "Branding",
+      para: "Your brand name comprises countless elements such as a catchy tone of communication, the catchy music of your website and the voice of your marketing strategy, social cohesion. We build partnerships with people in the middle to ensure every interaction is strong with your vision.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -191,7 +215,24 @@ const UiStrategy = () => {
   return (
     <div>
       <Head>
-        <title>UI-UX Strategy</title>
+        <title>UX Strategy Agency in Gurgaon - Ackrolix</title>
+        <meta
+          name="description"
+          content="Discover the power of exceptional user experience with Ackrolix, the leading UX strategy agency in Gurgaon. Elevate your brand's digital presence today."
+          />
+          <meta property="og:title" content="UX Strategy Agency in Gurgaon - Ackrolix" />
+          <meta
+            property="og:description"
+            content="Discover the power of exceptional user experience with Ackrolix, the leading UX strategy agency in Gurgaon. Elevate your brand's digital presence today."
+          />
+           <meta
+            property="og:url"
+            content="#"
+          />
+          <meta
+            property="og:image"
+            content="https://www.ackrolix.com/assets/images/logoack.png"
+        />
       </Head>
       <Header />
       <div
@@ -201,13 +242,13 @@ const UiStrategy = () => {
         }}
       >
         <Banner
-          bannertitle="We Strategize User Experience"
+          bannertitle="Intuitive Digital Art: Ackrolix - Your Trusted UX Design Company in Gurgaon."
           bannersubtext="We align UX strategy to your business strategy so it provides a seamless experience across multiple customer touchpoints."
           serviceimg="/assets/images/service/svg/stra.png"
-          servicehead="UX strategy helps to build and position the products in right way"
-          servicedesc1="UX strategy is the culmination of your business strategy, the value of innovation your business provides, validated user research, and frictionless user experience."
-          servicedesc2="The business strategy is the basis for core competencies and offerings i.e. the product. It does not only ensure customer satisfaction but offers a competitive advantage as well."
-        />
+          servicehead="How Ackrolix Crafts Digital Experiences that Connect with Users"
+          servicedesc1="UX design is an art form at Ackrolix, where every digital encounter is meticulously crafted to connect with users. Our passionate, hardworking team of UX experts crafts simple, aesthetically pleasing, and long-lasting experiences. We explore our audience's thoughts through in-depth UX research, charting user journeys and developing wireframes that serve as the basis for digital art. Meeting consumers' wants and preferences is our first priority when using a user-centred approach."
+          servicedesc2="
+          Extensive research, painstaking design, and stringent testing are all part of our approach to quality, which results in a finished product that is both beautiful to look at and enjoyable to use. We take pride in creating simple, comprehensible solutions to complicated problems We provide outstanding UX strategy services that equip organisations with powerful UX design solutions as a top UX design company in Gurgaon."   />
       </div>
       <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
@@ -228,8 +269,8 @@ const UiStrategy = () => {
         >
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
-              processhead="Expertise"
-              processsub="OUR EXPERTISE"
+              processhead="Why Choose Us"
+              processsub="Why choose us?"
               processdesc="Full-scope app modernization services you can start using quickly (even in weeks!) to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
               processimg="/assets/images/service/svg/stra1.png"
             />

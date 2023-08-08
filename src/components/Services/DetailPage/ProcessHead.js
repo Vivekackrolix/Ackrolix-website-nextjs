@@ -10,9 +10,9 @@ const ProccessHead = ({processhead, processsub, processdesc, processimg}) => {
                   {processhead}
                 </div>
                 <div className="absolute md:top-[6.7rem] top-[5rem] inset-x-0 flex justify-left">
-                  <div className="text-[30px] leading-normal text-left font-bold max-w-xl">
-                    {processsub}
-                  </div>
+                  <h2 className="text-[30px] leading-normal text-left font-bold max-w-xl">
+                    {processsub} 
+                  </h2>
                 </div>
                 <div className="load-wrapp relative bottom-[20px]">
                   <div className="load">

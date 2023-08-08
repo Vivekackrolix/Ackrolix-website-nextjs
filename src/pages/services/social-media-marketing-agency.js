@@ -16,23 +16,23 @@ const SmmAgency = () => {
   const processes = [
     {
       id: "1",
-      name: "Dedicated Account Managers",
-      desc: "At Ackrolix, we assign specific strategists depending on your industry demands, social media marketing needs and goals. This means you could get multiple social media digital marketing experts working on your brand. Your dedicated account managers are available by email or phone to respond to any questions or engage in discussions."
+      name: "Listen",
+      desc: " We gain insight into your customers and their interests through social media listening tools."
     },
     {
       id: "2",
-      name: "Extensive Onboarding Process",
-      desc: "Our social media marketing consultants provide you with an in-depth social media marketing strategy breakdown during your campaign inception. This way, you know exactly what tactics we will implement to achieve your goals. Additionally, we establish your campaign metrics from the get-go to ensure we are on the same page."
+      name: "Plan",
+      desc: "At Ackrolix, we work closely with brands to understand their goals, create brand narratives and create custom solutions for multiple platforms."
     },
     {
       id: "3",
-      name: "Custom Social Media Marketing Strategy",
-      desc: "Boost your social media engagement and marketing efforts with a social media marketing strategy designed to fit your needs and budget. Our social media marketing experts identify your target audience to create effective social media digital marketing plans that drive higher ROI. "
+      name: "Execute",
+      desc: "Our expertise is creating memorable product stories that engage existing and new customers, maximising impact and engagement."
     },
     {
       id: "4",
-      name: "Social Media Campaign Reports",
-      desc: "Our custom, in-depth reporting measures include social media campaign reports that give a full overview of your social media performance. We also offer a monthly breakdown of the social media tasks we’ve performed and the hours we’ve spent to help you monitor your ROI.",
+      name: "Optimise",
+      desc: "We're constantly monitoring advertising results across multiple platforms, using these valuable insights to improve our strategies in real-time for the best results.",
     },
     {
       id: "5",
@@ -195,19 +195,19 @@ const SmmAgency = () => {
   const cards = [
     {
       id: 1,
-      para: "Social media marketing services have numerous advantages for startups and established brands. With the right social media marketing plan and campaign monitoring system, social media content marketing can lead to increased search traffic, better SEO,  healthier customer engagement and improved brand loyalty.",
+      para: "Ackrolix offers full services to help businesses maximise their online presence and engagement. Their teams of experts are skilled at creating effective social media strategies that resonate with each client's unique goals and audience. Ackrolix achieves results by advertising across multiple platforms, creating shared content, managing accounts, and running ad campaigns. Using the power of social media, they can increase product awareness, customer loyalty, and productivity.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Benefits",
-      subtitle: "What Are the Benefits of Social Media Marketing Services",
+      maintitle: "Services",
+      subtitle: "Social media marketing services",
     },
     {
       id: 2,
       icon: "01",
-      title: "Better Online Exposure",
-      para: "Social media marketing is continually progressing and adapting, becoming a powerful online marketing resource for companies and brands. Social media platforms like Facebook, Twitter, LinkedIn and Instagram can dynamically increase exposure and interest in your company.",
+      title: "Social media strategy",
+      para: "Ackrolix's social media strategy includes creating content, managing accounts, and running advertising campaigns across platforms to increase brand awareness, trust, and leads. Their data-driven approach enables continuous improvement to achieve optimum results.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -219,8 +219,8 @@ const SmmAgency = () => {
     {
       id: 3,
       icon: "02",
-      title: "High Search Rankings",
-      para: "Search engines like Google and Bing now integrate updates, Tweets, profiles and comments into their results pages, recognizing the importance of social interaction. The more people share your content across social media channels, the more traffic they send to your website, and therefore, the better your search rankings.",
+      title: "Social media optimization",
+      para: "Ackrolix is creating engaging content and running advertising campaigns. Increases business awareness and encourages customer engagement through data-driven ideas.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -232,8 +232,8 @@ const SmmAgency = () => {
     {
       id: 4,
       icon: "03",
-      title: "Specific Audience Targeting",
-      para: "No matter how valuable and engaging your content, it won’t generate conversions if it doesn’t reach the right audience. Marketing through social media allows you to identify and categorize your ideal customers by age, location and online activities, among other metrics.",
+      title: "Social media promotion",
+      para: "Increase your brand name, engagement, and success with our professional social media services.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -245,8 +245,8 @@ const SmmAgency = () => {
     {
       id: 5,
       icon: "04",
-      title: "Improved Customer Reach",
-      para: "A Global Web Index study shows that approximately 54 percent of online users utilize social media platforms for product research. Furthermore, 49 percent of consumers depend on recommendations from social media influencers when looking for brands.",
+      title: "Community management",
+      para: "Ackrolix enabling meaningful interactions and building strong online communities. Their expertise provides audience engagement, excellent customer support, and trust for businesses looking to build a strong online presence.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -258,8 +258,8 @@ const SmmAgency = () => {
     {
       id: 6,
       icon: "05",
-      title: "Complete Brand Control",
-      para: "Social media marketing packages are tailored to your specific needs and financial capacity. This means you have complete control over your branding, budget and social media content marketing strategy. Learning how to use social media for marketing enables you to create and maintain an image that appeals to your target audience and ensure your B2B social media marketing game is always on point.",
+      title: "Social Influencer marketing",
+      para: "Ackrolix specialises in using social media influencers to promote great brands. Its teams of experts identify key stakeholders, build real partnerships, and run effective campaigns that take business awareness and engagement to new heights.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -271,8 +271,8 @@ const SmmAgency = () => {
     {
       id: 7,
       icon: "06",
-      title: "Enhanced Customer Trust",
-      para: "Understanding how to use social media for marketing allows you to build a thought leadership brand and create deep, meaningful connections with your followers. Our social media marketing agency shares valuable content and engages in online conversations about your company to keep a pulse on your target market.",
+      title: "Social media Advertising",
+      para: "Ackrolix specialises in delivering targeted and effective campaigns to increase brand awareness, engage audiences and increase conversions. With expert marketing strategies and data-driven insights, they optimise results to enable businesses to get the most out of their marketing efforts.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -323,7 +323,24 @@ const SmmAgency = () => {
   return (
     <div>
       <Head>
-        <title>Social Media Marketing</title>
+        <title>Social Media Marketing Agency in Gurgaon - Ackrolix</title>
+        <meta
+          name="description"
+          content="Ackrolix is a professional Social Media Marketing Agency based in Gurgaon, that provides expert services to improve your online visibility."
+          />
+          <meta property="og:title" content="Social Media Marketing Agency in Gurgaon - Ackrolix" />
+          <meta
+            property="og:description"
+            content="Ackrolix is a professional Social Media Marketing Agency based in Gurgaon, that provides expert services to improve your online visibility."
+          />
+           <meta
+            property="og:url"
+            content="#"
+          />
+          <meta
+            property="og:image"
+            content="https://www.ackrolix.com/assets/images/logoack.png"
+        />
       </Head>
       <Header />
       <div
@@ -333,16 +350,19 @@ const SmmAgency = () => {
         }}
       >
         <Banner
-          bannertitle="Build your brand awareness across the web and create meaningful connections with your customers and followers through social media marketing (SMM)."
-          bannersubtext="Ackrolix provides social media marketing for small businesses, enterprises and multiple-location companies. No matter if you own a startup or a Fortune 500 company, our social media marketing experts can assist you with your campaign. Partner with us and let our social media marketing agency boost your brand visibility and integrity!"
+          bannertitle="Best social media marketing agency in gurgaon."
+          bannersubtext=""
           serviceimg="/assets/images/service/svg/med.png"
-          servicehead="Social Media Marketing Basics"
-          servicedesc1="Social media channels have become a major source of news and information in today’s internet-driven world. But that’s not all. Social media presence is also a vital factor in search rankings and digital marketing."
-          servicedesc2="As social media usage continues to grow exponentially, knowing how to market on social media is becoming more crucial in reaching your target demographics and creating brand awareness. Many marketers, however, enter the digital and social media marketing realm without fully understanding what is social media marketing and its demands. Don’t make the same mistake.
-
-          Our social media marketing specialists explain the different aspects of business-to-consumer (B2C) and business-to-business (B2B) social media marketing to help you get started with your campaign. Read on and learn what is social media marketing and how to market on social media straight from Ackrolix’s social media marketing experts.
+          servicehead="How Ackrolix Can Help Your Business Harness the Power of Social Media."
+          servicedesc1="
+          Ackrolix is ​​a social media marketing company based in Gurgaon that provides innovative and effective solutions to businesses aiming to harness the power of social media for growth and success. With a dedicated team of social media experts and a deep understanding of social media."
           
-          "
+        
+          servicedesc2=" Ackrolix specialises in creating effective campaigns that drive engagement, increase brand awareness and build meaningful connections with audiences. As an advertising company, Ackrolix starts by researching and understanding each client's unique needs and goals. One of Ackrolix's key strengths is content creation and management. They create shareable and engaging content that resonates with their audience on various social media sites. Whether it's an image, a shared video, or a blog post, Ackrolix ensures that every content has a purpose, provides meaningful interactions, and builds trust."
+
+          
+          
+          
         />
       </div>
       <Cards card={cards} />
@@ -365,8 +385,8 @@ const SmmAgency = () => {
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
               processhead="Ackrolix"
-              processsub="Ackrolix for Your SMM"
-              processdesc="As an award-winning social media management company, Ackrolix Internet Marketing Agency maintains full transparency so you can see first-hand how our efforts are increasing your online revenue. Our commitment to effective social media management and marketing strategies creates a valuable network resource for your online marketing needs."
+              processsub="Social media marketing strategy"
+              processdesc="Ackrolix's data-driven strategy begins with thoroughly understanding each client's business goals and target audience. They create relevant content and run ad campaigns across multiple platforms to increase brand awareness, increase engagement and generate leads. Continuous analysis and optimization provide the most impact and measurability, making Ackrolix the partner for businesses looking for good and good business."
               processimg="/assets/images/service/svg/med1.png"
             />
             <Process process={processes} />

@@ -16,33 +16,33 @@ const UiDesign = () => {
   const processes = [
     {
       id: "1",
-      name: "Rehosting or Lift-and-Shift",
-      desc: "This approach involves moving an existing application to a new infrastructure without making significant changes to the application's architecture or functionality.",
+      name: "Research",
+      desc: "By combining data-driven research and creative magic, we unravel the mystery of user behaviour. Our intellectual team delves deep into human interaction to create engaging user interfaces.",
     },
     {
       id: "2",
-      name: "Refactoring or Re-architecting",
-      desc: "Refactoring involves making structural changes to the application's codebase and architecture while preserving its core functionality. It aims to improve the application's performance, scalability, and maintainability.",
+      name: "Wireframing",
+      desc: "We lay the foundation for your digital masterpiece and unleash creativity with every hit, ideas come to life, and your vision expands.",
     },
     {
       id: "3",
-      name: "Replatforming",
-      desc: "Replatforming entails moving an application to a different platform or technology stack while retaining its core features & functionality. For example, migrating an on-premises application to a cloud platform.",
+      name: "Execution",
+      desc: "We fascinate designs by blending the vision of our people with artistic talent, sketching, refining, and sculpting. Data-driven insights support our creative excellence by making every interaction a catalyst for customer satisfaction.",
     },
     {
       id: "4",
-      name: "Rearchitecting or Redesigning",
-      desc: "Rearchitecting involves a significant overhaul of the application's architecture and design to meet current business needs and technological advancements.",
+      name: "Testing",
+      desc: "Our team transforms into brave adventurers and embarks on sea voyages to make your UI win hearts. User experience and feedback become our cues, our marks of success.",
     },
     {
       id: "5",
-      name: "Containerization",
-      desc: "Containerization involves encapsulating an application and its dependencies into containers, using technologies like Docker. This approach allows applications to run consistently across different environments and simplifies deployment and scalability.",
+      name: "Launch",
+      desc: "At Ackrolix, we push your brand to the limits of creativity and innovation. Our exciting process begins with a storm of ideas fueled by the strength of our strong team.",
     },
     {
       id: "6",
-      name: "Replacement or Rebuilding",
-      desc: "In some cases, it may be more feasible to replace an existing application with a new solution rather than attempting to modernize it. This approach involves rebuilding the application from scratch, leveraging modern technologies and design principles.",
+      name: "Vibrancy",
+      desc: "Passion, creativity, and creative firework define Ackrolix's Gurgaon UI design journey. Live studio brand magic, eye-catching interfaces, and user craving.",
     },
   ];
   const techs = [
@@ -122,19 +122,19 @@ const UiDesign = () => {
 const cards = [
     {
       id: 1,
-      para: "UI/UX Design Services we Offer",
+      para: "Our Design vision has created captivating experiences that keep users connected, and we combine creative excellence with data-driven insights to ensure every pixel tells the right story.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Expertise",
-      subtitle: "OUR EXPERTISE",
+      maintitle: "SERVICE",
+      subtitle: "UI Design Service",
     },
     {
       id: 2,
       icon: "01",
-      title: "Lean MVP Prototyping",
-para:"We adopt a lean approach while developing the prototype of the MVP to gather feedback quickly and improvise.",
+      title: "Website design",
+      para:"A beautiful customer can attract visitors to stay on your website longer, delight their eyes and improve their experience.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -146,8 +146,8 @@ para:"We adopt a lean approach while developing the prototype of the MVP to gath
     {
       id: 3,
       icon: "02",
-      title: "Cost Optimization",
-      para: "The strategic efforts to reduce expenses associated with application development, maintenance, & operations while maximizing value & efficiency.",
+      title: "Mobile app design",
+      para: "Stunning and user-friendly mobile user interface that guarantees your app will rank high on users' home screens.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -159,8 +159,8 @@ para:"We adopt a lean approach while developing the prototype of the MVP to gath
     {
       id: 4,
       icon: "03",
-      title: "Better Security",
-      para: "Fewer vulnerabilities generated by old and disorderly legacy code (threat identified by OWASP).",
+      title: "Web and Mobile design",
+      para: "Ackrolix creates a unified user experience, deploys web apps for desktop and mobile, or compares UI for mobile and web apps.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -172,8 +172,8 @@ para:"We adopt a lean approach while developing the prototype of the MVP to gath
     {
       id: 5,
       icon: "04",
-      title: "Improved CX",
-      para: "Enhanced performance and easier 3rd party integrations lead to improved customer experience (CX).",
+      title: "Saas design",
+      para: "Our expertly crafted SaaS user interface is designed to appeal to the target audience of your software product and provides a unique customer experience.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -185,8 +185,8 @@ para:"We adopt a lean approach while developing the prototype of the MVP to gath
     {
       id: 6,
       icon: "05",
-      title: "Better Business Performance",
-      para: "Higher sales through improved CX (IBM reports that app modernization leads to a 14% revenue increase).",
+      title: "Creative Direction",
+      para: "We adopt an agile, collaborative approach to creating unique digital experiences that are consistent with brand needs.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -198,8 +198,8 @@ para:"We adopt a lean approach while developing the prototype of the MVP to gath
     {
       id: 7,
       icon: "06",
-      title: "New Growth Possibilities",
-      para: "New business possibilities for a modernized app, including AI, machine learning, big data, and the public cloud.",
+      title: "Usability Testing",
+      para: "Through intelligent analysis, continuously delight customers by generating more accurate digital experiences that unify purpose, improve quality, and drive development.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -212,7 +212,24 @@ para:"We adopt a lean approach while developing the prototype of the MVP to gath
   return (
     <div>
       <Head>
-        <title>UI Design</title>        
+      <title>UI Designing Company in Gurgaon - Ackrolix</title>  
+        <meta name="description"
+         content="Ackrolix is a leading UI designing company in Gurgaon, providing finest  services to clients worldwide. Trust us for exceptional design solutions." />
+        <link rel="canonical" href="#"/>
+        <meta property="og:title" 
+        content="UI Designing Company in Gurgaon - Ackrolix" />
+        <meta
+          property="og:description"
+          content="Ackrolix is a leading UI designing company in Gurgaon, providing finest  services to clients worldwide. Trust us for exceptional design solutions."
+        />
+        <meta
+          property="og:url"
+          content="#"
+        />
+        <meta
+          property="og:image"
+          content="https://www.ackrolix.com/assets/images/logoack.png"
+        />              
       </Head>
       <Header />
       <div
@@ -222,12 +239,12 @@ para:"We adopt a lean approach while developing the prototype of the MVP to gath
         }}
       >
         <Banner 
-          bannertitle="We strategize and simplify complex apps"
-          bannersubtext="We have both - motivation and mindset to solve complex challenges through a design-first approach."
+          bannertitle="UI Designing company in Gurgaon"
+          bannersubtext="Ackrolix - UI designing company in Gurgaon, Our passion for design is to create a music of visual delight. We are experts in pixels, masters of beauty, and architects of unforgettable customer experiences. Our creative spirit knows no bounds, and we do each project with a unique touch of magic."
           serviceimg="/assets/images/service/svg/desi.png"
           servicehead="An Optimized UI/UX Can Change The Dynamics Of A Business"
-          servicedesc1="User Experience is one of the key pillars of your business as it enhances customer satisfaction and promotes growth. UI/UX design has the potential to make or break your brand & business."
-          servicedesc2="We don’t just think creatively but strategically too and help you achieve your business goals while devising a product that solves your users’ needs."
+          servicedesc1="At Ackrolix, every project is a testament to our commitment to creating UI experiences that represent the moment. We are more than a UI design company; We are dream weavers creating digital experiences that captivate users."
+          servicedesc2="UI design in Ackrolix is about pixels on the screen, and our team creates eye-catching visuals that resonate with your target audience as well; as we discover the essence of your brand, understand its spirit, and connect it to all our designs. Our experience as a UI Design Company in Gurgaon embodies Excellence and innovation. We bring your brand to life and create unforgettable experiences."
         />
       </div>
       <Cards card={cards} />
@@ -249,9 +266,9 @@ para:"We adopt a lean approach while developing the prototype of the MVP to gath
         >
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
-               processhead="Expertise"
-               processsub="OUR EXPERTISE"
-              processdesc="Full-scope app modernization services you can start using quickly (even in weeks!) to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+               processhead="PROCESS"
+               processsub="UI Design Process"
+              processdesc="Ackrolix's journey as a UI design agency in Gurgaon was filled with passion, creativity, and innovation. We are innovative designers who create visual impressions, bring your brand to life in our live studio, and let inspiration ignite like a firework. We create interfaces that make your users want more with bright colours and smart characters."
               processimg="/assets/images/service/svg/desi1.png"
             />
             <Process process={processes} />

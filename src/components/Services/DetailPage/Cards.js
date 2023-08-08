@@ -24,9 +24,9 @@ const Cards = ({card}) => {
                   </div>
                   <div className={`${item.main}`}>
                     {item.subtitle ? (
-                      <div className="text-3xl font-bold absolute md:top-[3.8rem] top-[3rem]">
+                      <h3 className="text-3xl font-bold absolute md:top-[3.8rem] top-[3rem]">
                         {item.subtitle}{" "}
-                      </div>
+                      </h3>
                     ) : null}
                     <div className="load-wrapp relative bottom-[-5px]">
                           <div className="load">
