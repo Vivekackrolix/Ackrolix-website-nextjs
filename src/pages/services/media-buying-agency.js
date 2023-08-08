@@ -16,28 +16,33 @@ const MediaBuying = () => {
   const processes = [
     {
       id: "1",
-      name: "We believe in the outcome",
-      desc: "As one of the few integrated social media buying agencies, we create a goal-specific plan for both branding and performance campaigns."
+      name: "Master Planning",
+      desc: "We will investigate your brand identity, target audience, budget, and core messaging in close collaboration with you. Our team of media buying experts will then create a tailored and impactful strategy based on your specific Key Performance Indicators (KPIs)."
     },
     {
       id: "2",
-      name: "Pro at process",
-      desc: "Among social media buying agencies, we have a laser-sharp focus on creating ROI-driven campaigns by creating the most relevant custom audience and lookalikes."
+      name: "Market Arena Data Insights",
+      desc: "We know when and how much to spend on your media buying campaign to obtain unmatched value. Our market analytics ensure that your ad is placed optimally for maximum reach and engagement."
     },
     {
       id: "3",
-      name: "Defining strategies",
-      desc: "We execute negotiation strategies to optimize costs for brand visibility and leads, by varied means of media staging, ensuring your brand is top-notch at optimized costs."
+      name: "Platform Analysis",
+      desc: "We will carefully find and select the most appropriate platforms and channels for your advertisements based on a thorough analysis of your individual company objectives and goals."
     },
     {
       id: "4",
-      name: "Creative media plans",
-      desc: "Our creative edge sets our media plan apart from other media companies by analyzing gaps to engage consumers through data-driven and targeted media plans at extremely competitive rates"
+      name: "Creative Audience Engagement",
+      desc: "We have the knowledge and experience to assist you in developing a highly innovative and appealing strategy that not only grabs but also captivates your audience's imagination, ensuring your message resonates powerfully and successfully with them."
     },
     {
       id: "5",
-      name: "Innovation never goes out of fashion",
-      desc: "At GOZOOP, we believe in trying new platforms and strategies to achieve our targets to reach new conclusions and widen the horizon for revenue. We are always ready to push the boundaries of possibility to meet our goals."
+      name: "Reporting and Analysis",
+      desc: "You will receive extensive and detailed reports that summarise the results of your efforts and provide easy-to-digest insights. These reports will keep you informed and up to date on the most recent developments giving you a comprehensive picture of the progress and impact of your marketing activities."
+    },
+    {
+      id: "6",
+      name: "Foolproof Coordination",
+      desc: "We'll make certain that every platform used in your ad campaign is perfectly coordinated, guaranteeing that your ads look new and are carefully optimised to effectively engage viewers. Our committed approach ensures that your messaging is consistent across all media."
     },
 
   ];
@@ -319,7 +324,22 @@ const MediaBuying = () => {
   return (
     <div>
       <Head>
-        <title>Media Buying and Plannig</title>
+      <title>Media Planning and Buying Agency in Gurgaon- Ackrolix</title> 
+        <meta name="description" content="Looking for a media planning and buying agency in Gurgaon? Look no further than Ackrolix! Let us help you reach your target audience with ease." />
+        <link rel="canonical" href="#"/>
+        <meta property="og:title" content="Media Planning and Buying Agency in Gurgaon- Ackrolix" />
+        <meta
+          property="og:description"
+          content="Looking for a media planning and buying agency in Gurgaon? Look no further than Ackrolix! Let us help you reach your target audience with ease."
+        />
+        <meta
+          property="og:url"
+          content="#"
+        />
+        <meta
+          property="og:image"
+          content="https://www.ackrolix.com/assets/images/logoack.png"
+        />      
       </Head>
       <Header />
       <div
@@ -329,16 +349,14 @@ const MediaBuying = () => {
         }}
       >
         <Banner
-          bannertitle="We know exactly where to place your ads and we’re equipped with all the right tools!"
-          // bannersubtext="Get your app back on track for growth with our practice-driven app modernization skills. We provide full-scope app modernization services you can start using quickly to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+          bannertitle="Ackrolix, Your Trusted Media Buying Agency in Gurgaon! Access the Power of Media Buying!"
+          bannersubtext="At Ackrolix, we recognize that a successful marketing campaign is about more than simply creative slogans; it's about communicating with your target demographic at the right time and at the right price. That's where our Media Buying Services come in, assisting you in developing campaigns that drive marketing ROI and efficiently reach your target demographic."
           serviceimg="/assets/images/service/svg/buy.png"
-          servicehead="MEDIA PLANNING BUYING "
-          servicedesc1="Optimizing platforms, pushing the boundaries of innovation, and engaging with consumers is what we do.
-
-          As a digital media agency, we drive outcomes for brands and map the right audiences within the digital landscape. From communication planning, performance planning to e-commerce consulting, our media team is powered by data-led insights, rooted in human behavior."
-          servicedesc2="We provide a 360-degree plan within the digital fraternity, including social, third-party, affiliate marketing, and native ads.
-
-          We are not only a programmatic buying agency but also among the best PPC advertising companies available. Our team brings together creative thinking, and a lens for innovation, remaining focused on constantly driving value for partner brands through a spectrum of services."
+          serviceimgAlt="Media Buying Agency"
+          servicehead="Ackrolix Media Planning Services That Help You Reach Your Target Audience. "
+          servicedesc1="Our skilled staff excels at Media Planning and Buying, employing a deliberate approach to locate and purchase ad space on the channels that are most important to your target audience. We serve traditional marketing channels such as television, radio, and print, as well as digital channels such as websites, social media, and streaming platforms."
+          
+          servicedesc2="You may expect maximum exposure among your target market while optimising your budget   when you use Ackrolix as your Digital Media Buying Agency. Our media buyers use exclusive  strategies such as Programmatic Buys, which use AI and algorithms to conduct real-time bidding on ad space targeted to specific consumer profiles. Furthermore, we execute Direct Buys, directly negotiating ad pricing and run periods with relevant advertisers to ensure optimal placements for your business."
         />
       </div>
       {/* <Cards card={cards} /> */}
@@ -361,7 +379,7 @@ const MediaBuying = () => {
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
               processhead="Services"
-              processsub="Media Buying and Plannig"
+              processsub="Our Media Planning and Buying Services              "
               processdesc="Optimizing platforms, pushing the boundaries of innovation."
               processimg="/assets/images/service/svg/buy1.png"
             />

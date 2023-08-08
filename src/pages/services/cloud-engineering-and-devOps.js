@@ -16,51 +16,51 @@ const CloudEngineeringAndDevOps = () => {
   const processes = [
     {
       id: "1",
-      name: "Planning & Requirement Gatthering",
-      desc: "Understand the business requirements and objectives for the cloud-based system. Identify the desired functionalities, scalability, security, and performance needs.",
+      name: "Faster Development",
+      desc: "DevOps integrates multiple automated processes, enabling rapid solution development, testing, and release, resulting in exceptional speed and greater efficiency.",
     },
     {
       id: "2",
-      name: "Architecture Design",
-      desc: "Design the overall cloud architecture, including infrastructure components, network configuration, security measures, and scalability options.",
+      name: "Improved efficiency",
+      desc: "You can improve overall business efficiency by completing deployment and testing using a DevOps solution.",
     },
     {
       id: "3",
-      name: "Infrastructure Provisioning",
-      desc: "IaC tools like Terraform or CloudFormation to automate the provisioning and management of cloud resources. Define infrastructure configurations in code, enabling repeatable and consistent deployments.",
+      name: "Smooth operations",
+      desc: "DevOps accelerates the release cycle by identifying and eliminating redundant processes, increasing efficiency, and reducing costs.",
     },
     {
       id: "4",
-      name: "Continuous Integration & Deployment",
-      desc: "Implementing a CI/CD pipeline to automate the build, test, and deployment processes. Use tools like Jenkins, GitLab CI/CD, or CircleCI to automate code integration, testing, and release management.",
+      name: "Cloud Engineering Excellence",
+      desc: "Ackrolix's skilled developers, refined technology, customer-focused approach, and successful implementations across industries define cloud engineering excellence.",
     },
     {
       id: "5",
-      name: "Configuration Management",
-      desc: "This includes managing server configurations, installing software dependencies, and ensuring consistency across environments.",
+      name: "Effective Cloud Solutions",
+      desc: "Gurgaon's Best in Cloud Engineering & DevOps, Top Cloud App Development Services from Ackrolix.",
     },
     {
       id: "6",
-      name: "Monitoring And Logging",
-      desc: "Implement monitoring & logging solutions to gain insights into the performance, availability & health of cloud-based systems. Use tools like Prometheus, Grafana, ELK Stack, or CloudWatch to monitor metrics, log data & so on.",
+      name: "Empower Your Business",
+      desc: "Ackrolix Provides Top-Notch Cloud Engineering & DevOps Solutions in Gurgaon to Boost Your Business.",
     },
   ];
   const cards = [
     {
       id: 1,
-      para: "As a game-changer for businesses across industries. It offers numerous benefits, including increased agility, scalability, and cost-efficiency. By leveraging cloud solutions, businesses can optimize their operations, drive innovation, & stay ahead in the competitive market.",
+      para: "Ackrolix offers various services to help businesses realise the full potential of cloud computing. Focusing on innovation and efficiency, Ackrolix offers solutions to meet the unique needs of its customers.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Solutions",
-      subtitle: "Transforming Businesses With Cloud Solutions",
+      maintitle: "Services",
+      subtitle: "Cloud Application Development Services",
     },
     {
       id: 2,
       icon: "01",
-      title: "Fully Scalable",
-      para: "Your application will automatically increase or decrease cloud computing resources in response to usage.",
+      title: "Continuous Delivery",
+      para: "As a professional DevOps consulting firm, we provide continuous delivery (CD) capabilities that enable powerful automation to increase operational efficiency.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -72,8 +72,8 @@ const CloudEngineeringAndDevOps = () => {
     {
       id: 3,
       icon: "02",
-      title: "New Business Speed",
-      para: "Reducing time-to-market under a perfected continuous deployment model",
+      title: "Configuration management",
+      para: "Our services include a highly efficient distribution management system that eliminates configuration conflicts and optimises costs.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -85,8 +85,8 @@ const CloudEngineeringAndDevOps = () => {
     {
       id: 4,
       icon: "03",
-      title: "Fast Delivery",
-      para: "Cut cloud development time with hundreds of services from cloud providers.",
+      title: "Infrastructure as a code",
+      para: "Our team of efficient and experienced professionals delivers best-in-class Infrastructure as Code (IaC) solutions that use automation to create programmable infrastructure.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -98,8 +98,8 @@ const CloudEngineeringAndDevOps = () => {
     {
       id: 5,
       icon: "04",
-      title: "Never Overspend",
-      para: "Under the pay-per-use model, you avoid idle server time charges.",
+      title: "Monitoring and Logging",
+      para: "We follow industry best practices to provide quality analysis, decision-making, and user experience using the latest DevOps tools and techniques.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -111,8 +111,8 @@ const CloudEngineeringAndDevOps = () => {
     {
       id: 6,
       icon: "05",
-      title: "Flexible Development",
-      para: "Swap, modify, or replace components on the go without refactoring.",
+      title: "SaaS Development",
+      para: "We create cloud-based solutions with seamless data integration, strong security, scalability, and effective service level management.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -124,8 +124,8 @@ const CloudEngineeringAndDevOps = () => {
     {
       id: 7,
       icon: "06",
-      title: "Outstanding Security",
-      para: "The cloud offers first-class security services, so you won't have to build from scratch.",
+      title: "Cloud Infrastructure Management",
+      para: "For the best scalability and compatibility, we adapt solutions to technical limitations by seamlessly integrating current infrastructure, third-party services, and apps.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -308,7 +308,24 @@ const CloudEngineeringAndDevOps = () => {
   return (
     <div>
       <Head>
-        <title>Cloud engineering &amp; DevOps</title>
+        <title>Cloud Application Development Company in Gurgaon - Ackrolix</title>
+        <meta
+          name="description"
+          content="Ackrolix is a leading cloud application development company in Gurgaon. That helps businesses of all sizes build and deploy scalable, secure, and reliable cloud applications."
+          />
+          <meta property="og:title" content="Cloud Application Development Company in Gurgaon - Ackrolix" />
+          <meta
+            property="og:description"
+            content="Ackrolix is a leading cloud application development company in Gurgaon. That helps businesses of all sizes build and deploy scalable, secure, and reliable cloud applications."
+          />
+           <meta
+            property="og:url"
+            content="#"
+          />
+          <meta
+            property="og:image"
+            content="https://www.ackrolix.com/assets/images/logoack.png"
+        />
       </Head>
       <Header />
       <div
@@ -318,12 +335,12 @@ const CloudEngineeringAndDevOps = () => {
         }}
       >
         <Banner 
-          bannertitle="Lead your cloud development like the best in business do"
-          bannersubtext="Together, we will establish an optimal cloud computing workflow that helps you cut down cloud spending, automate infrastructure monitoring, and increase architectural flexibility."
+          bannertitle="Solutions for Cloud Engineering and DevOps to Boost Business"
+          bannersubtext="Ackrolix, a prominent cloud engineering and devops firm with offices in Gurgaon, is a market leader in the technology sector, providing pioneering solutions for organisations of all kinds. Our committed team of experts excels at converting ageing IT infrastructures into stable, scalable cloud-based designs."
           serviceimg="/assets/images/service/svg/clo.png"
-          servicehead="Cloud development done right expands your software &amp; team capabilities"
-          servicedesc1="Using cloud based development resources to build and scale your app requires a rare skill set and an even more rare mentality.You need the sharpest knowledge from the worlds of cloud software development and infrastructure. That&apos;s a lot to handle."
-          servicedesc2="Your DevOps and other cloud developers can learn by experimenting with cloud environment if there&apos;s time and money. Or you can jump-start your cloud development in weeks (not months) with our team rich in cross-industry cloud development experience."
+          servicehead="Upgrade Your Business with Ackrolix Cloud Engineering and DevOps Pioneers in Gurgaon"
+          servicedesc1="Ackrolix, a prominent cloud engineering and devops firm with offices in Gurgaon, is a market leader in the technology sector, providing pioneering solutions for organisations of all kinds. Our committed team of experts excels at converting ageing IT infrastructures into stable, scalable cloud-based designs."
+          servicedesc2="Another one of Ackrolix's main competencies is DevOps, which is crucial to the process of developing and distributing software. We offer effective Continuous Integration/Continuous Delivery (CI/CD) pipelines, automated testing, and delivery processes by combining development and operations teams. This more efficient method encourages teamwork, shortens the development process, and reduces the time it takes to market new features and products."
         />
       </div>
       <Cards card={cards}/>
@@ -345,8 +362,8 @@ const CloudEngineeringAndDevOps = () => {
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
               processhead="Process"
-              processsub="Process We Follow"
-              processdesc="The cloud and DevOps engineering process involves a series of steps and practices aimed at building, deploying, and managing cloud-based systems while fostering collaboration and automation."
+              processsub="Why choose Ackrolix?"
+              processdesc="Choose Ackrolix as the top provider of cloud application development services due to its unmatched knowledge, creative solutions, and exceptional outcomes. Ackrolix provides skilled developers, refined technology, and a customer-centric approach. The company has a history of developing successful applications for a range of sectors."
               processimg="/assets/images/service/svg/clo1.png"
             />
             <Process process={processes} />

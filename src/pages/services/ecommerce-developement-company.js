@@ -140,186 +140,163 @@ const EcommerceDevelopmentCompany = () => {
       id: "1",
       img: "/assets/images/service/svg/react.svg",
       name: "React.js",
-
     },
     {
       id: "2",
       img: "/assets/images/service/svg/flutter.svg",
       name: "Angular",
-
     },
     {
       id: "3",
       img: "/assets/images/service/svg/next.png",
       name: "Next.js",
-
     },
     {
       id: "4",
       img: "/assets/images/service/svg/nodejs.svg",
       name: "Node.js",
-
     },
     {
       id: "5",
       img: "/assets/images/service/svg/express.png",
       name: "Express",
-
     },
     {
       id: "6",
       img: "/assets/images/service/svg/html.png",
       name: "HTML",
-
     },
     {
       id: "7",
       img: "/assets/images/service/svg/bootstrap.png",
       name: "Bootstrap",
-
     },
     {
       id: "8",
       img: "/assets/images/service/svg/php.png",
       name: "php",
-
     },
     {
       id: "9",
       img: "/assets/images/service/svg/laravel.png",
       name: "Laravel",
-
     },
     {
       id: "10",
       img: "/assets/images/service/svg/codeigniter.png",
       name: "Codeigniter",
-
     },
     {
       id: "11",
       img: "/assets/images/service/svg/net.png",
       name: "Asp.net",
-
     },
     {
       id: "12",
       img: "/assets/images/service/svg/phython.png",
       name: "phython",
-
     },
     {
       id: "13",
       img: "/assets/images/service/svg/java.svg",
       name: "JAVA",
-
     },
     {
       id: "14",
       img: "/assets/images/service/svg/andriod.png",
       name: "Android",
-
     },
     {
       id: "15",
       img: "/assets/images/service/svg/flutter.svg",
       name: "Flutter",
-
     },
     {
       id: "16",
       img: "/assets/images/service/svg/ios.svg",
       name: "iOS",
-
     },
     {
       id: "17",
       img: "/assets/images/service/svg/react.svg",
       name: "ReactNative",
-
     },
     {
       id: "18",
       img: "/assets/images/service/svg/sql.png",
       name: "MySQL",
-
     },
     {
       id: "19",
       img: "/assets/images/service/svg/mongodb.png",
       name: "MonogoDb",
-
     },
     {
       id: "20",
       img: "/assets/images/service/svg/postgresql.svg",
       name: "PostgreSQL",
-
     },
     {
       id: "21",
       img: "/assets/images/service/svg/amazon-web-services.svg",
       name: "AWS",
-
     },
     {
       id: "22",
       img: "/assets/images/service/svg/wordpress.png",
       name: "Wordpress",
-
     },
     {
       id: "23",
       img: "/assets/images/service/svg/shopify.svg",
       name: "Shopify",
-
     },
     {
       id: "24",
       img: "/assets/images/service/svg/joomla.svg",
       name: "Joomla",
-
     },
     {
       id: "25",
       img: "/assets/images/service/svg/magento.svg",
       name: "Magento",
-
     },
     {
       id: "26",
       img: "/assets/images/service/svg/webflow.svg",
       name: "Webflow",
-
     },
     {
       id: "27",
       img: "/assets/images/service/svg/firebase.svg",
       name: "Firebase",
-
     },
     {
       id: "28",
       img: "/assets/images/service/svg/jquery.svg",
       name: "JQuery",
-
     },
   ];
   return (
     <div>
       <Head>
-        <title>User Research Company in Gurgaon - Ackrolix</title>  
-        <meta name="description" content="Ackrolix is a professional User Research Company based in Gurgaon, providing expert insights and analysis to enhance user experience." />
-        <meta property="og:title" content="User Research Company in Gurgaon - Ackrolix" />
+        <title>Ecommerce Development company in Gurgaon - Ackrolix</title>
+        <meta
+          name="description"
+          content="Ackrolix is a top-rated Ecommerce Development Company in Gurgaon, delivering exceptional solutions to businesses of all sizes."
+        />
+        <meta
+          property="og:title"
+          content="Ecommerce Development company in Gurgaon - Ackrolix"
+        />
         <meta
           property="og:description"
-          content="Ackrolix is a professional User Research Company based in Gurgaon, providing expert insights and analysis to enhance user experience."
+          content="Ackrolix is a top-rated Ecommerce Development Company in Gurgaon, delivering exceptional solutions to businesses of all sizes."
         />
         <meta
           property="og:image"
           content="https://www.ackrolix.com/assets/images/logoack.png"
-        />      
-      
+        />
       </Head>
       <Header />
       <div
@@ -328,23 +305,23 @@ const EcommerceDevelopmentCompany = () => {
           backgroundImage: 'url("/assets/images/mainbackground.png ")',
         }}
       >
-        <Banner 
+        <Banner
           bannertitle="Ecommerce Development company in Gurgaon"
           bannersubtext="In the thriving city of Gurgaon, Ackrolix brings the e-commerce development scene to life, starting an exciting adventure to push the limits of innovation, foster digital imagination, and reimagine the online experience."
           serviceimg="/assets/images/service/svg/ecom.png"
-          servicehead="Creating Seamless Connections &amp; Conversion in E-commerce Experiences"
+          servicehead="Ackrolix leading e-commerce development company empowering global businesses."
           servicedesc1="As a reputable e-commerce Development Company in Gurgaon, Ackrolix recognizes that the goal of e-commerce is to develop a digital strategy that enables companies and customers to interact on a deeper level, where imagination knows no limitations and every pixel emanates enthusiasm. From Gurgaon to the global stage, our team of digital lovers—visionaries, designers, and computer nerds—builds e-commerce systems that cross national boundaries and promote business growth."
-          servicedesc2="With our excellent e-commerce Development Services in Gurgaon, we provide businesses looking to succeed in the online market with specialized e-commerce development solutions. Discover the potential of Ackrolix and partner with the top Custom e-commerce Development Company in Gurgaon to improve your online visibility and drive unlimited growth."
+          servicedesc2="Collaboration is essential to our journey because it allows us to fully comprehend our clients' requirements, dreams, and goals. We create engaging digital experiences that hold users' attention right away. We design every element of your online store for the greatest effect and engagement by drawing on our in-depth knowledge of business trends and customer behavior. Each project is a collaborative journey where innovation and technology drive client pleasure. "
         />
       </div>
-      <Cards card={cards}/>
+      <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
-       <ComponentHead
-        title="Technology"
-        sub="Unleashing The Potential Of Innovation"
-        head="At Ackrolix Innovations, we are at the forefront of revolutionizing e-commerce technology. We understand that staying ahead in the competitive online marketplace requires harnessing the power of innovative technologies to enhance user experiences, drive conversions &amp; optimize business operations."
-      />
-      <Technology tech={techs} />
+        <ComponentHead
+          title="Technology"
+          sub="Unleashing The Potential Of Innovation"
+          head="At Ackrolix Innovations, we are at the forefront of revolutionizing e-commerce technology. We understand that staying ahead in the competitive online marketplace requires harnessing the power of innovative technologies to enhance user experiences, drive conversions &amp; optimize business operations."
+        />
+        <Technology tech={techs} />
       </div>
       <div>
         <div

@@ -223,14 +223,14 @@ const cards = [
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Revitalize",
-      subtitle: "Revolutionize Your Applications With Modernization Solutions",
+      maintitle: "SERVICES",
+      subtitle: "Our Web Development Services",
     },
     {
       id: 2,
       icon: "01",
-      title: "Complete product teams",
-      para: "Access Business Analysts, Product Designers, Project Managers, QA Engineers, DevOps, or Full-stack developers.",
+      title: "Custom Web Development",
+      para: "Our Web Development Services specialize in creating custom websites from scratch, designed to align with your brand identity and specific requirements.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -242,8 +242,8 @@ const cards = [
     {
       id: 3,
       icon: "02",
-      title: "Fast iterations & frequent releases",
-      para: "Pre-build components and our own templates let our team deliver more in each sprint – this is the perk of having such experienced web developers on board.",
+      title: "Responsive Web Design",
+      para: "As a web development agency, Ackrolix ensures that websites developed are responsive and adapt smoothly to different devices, providing an optimal user experience on desktops, tablets, and smartphones.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -255,8 +255,8 @@ const cards = [
     {
       id: 4,
       icon: "03",
-      title: "Business-tailored architecture",
-      para: "Always designed and develop with your company's growth and the product's scalability in mind.",
+      title: "E-commerce Solutions",
+      para: "Our Website Development Company provides robust e-commerce integration, enabling secure payment gateways, intuitive product catalogs, and user-friendly checkout processes for online businesses.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -268,8 +268,8 @@ const cards = [
     {
       id: 5,
       icon: "04",
-      title: "Thorough quality assurance",
-      para: "We do QA before each deploy through manual and automated tests that catch bugs, performance issues, and conversion blockers",
+      title: "Content Management Systems (CMS)",
+      para: "Our Website Design Company optimizes websites for search engines, improving their visibility and ranking on search results pages to attract more organic traffic.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -281,8 +281,8 @@ const cards = [
     {
       id: 6,
       icon: "05",
-      title: "Scalable & secure infrastructure",
-      para: "Web development services full of custom solutions optimized for efficiency, flexibility and deployment speed.",
+      title: "UI/UX Design",
+      para: "As a web design company, Ackrolix focuses on creating user-friendly interfaces and smooth navigation to enhance the overall user experience and reduce bounce rates.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -294,8 +294,8 @@ const cards = [
     {
       id: 7,
       icon: "06",
-      title: "World-class UX/UI",
-      para: "Designed to help your business with user adoption.",
+      title: "Web Application Development",
+      para: "Our Website Development Company develops web applications that cater to specific business needs, ensuring seamless functionality and enhanced user engagement.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -318,8 +318,8 @@ const cards = [
         }}
       >
         <Banner 
-          bannertitle="Work with a development team with skills CTOs praise"
-          bannersubtext="Software supports your business growth, and you need more from it. We’ve helped over 160+ companies build scalable products with confidence. Technology executives chose our development teams because of their skills tested in 7+ markets."
+          bannertitle="Ingenious Web Design and Development Company"
+          bannersubtext="Ackrolix has established itself as a well-known Web Design and Website Development Company in Gurgaon, India, with a solid reputation for its emphasis on innovation and originality. Our team of talented designers and programmers is dedicated to providing outstanding web design and development solutions that are customized to meet the specific requirements of each client."
           serviceimg="/assets/images/service/svg/web.png"
           servicehead="One scalable team for start-to-finish development"
           servicedesc1="What does it mean to be reliable? It means your outsourced team works as well as your web developers do. Access web development services trusted by 98% of CTOs that you’ll find understanding with. They made APIs, custom web applications, hybrid mobile app development, provided web design services, updated stacks, and build cloud-native systems."

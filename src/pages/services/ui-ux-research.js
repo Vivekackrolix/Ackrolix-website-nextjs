@@ -118,7 +118,7 @@ const Research = () => {
       textcolor: "text-secondary",
       display: "hidden",
       maintitle: "Expertise",
-      subtitle: "OUR EXPERTISE",
+      subtitle: "Ackrolix: Your User Research Experts",
       para: "Ackrolix is a dependable User Research and recruitment agency committed to knowing your users and providing actionable insights. Partner with our Gurgaon UX Research Agency for experienced user research services that pave the path for remarkable user experiences."
 
     },
@@ -138,7 +138,7 @@ const Research = () => {
     {
       id: 3,
       icon: "02",
-      title: "User-Centric Expertise:",
+      title: "User-Centric Expertise",
       para: "Our dedicated research team embodies the user-centered spirit. By grasping their motivations, desires, and pain points, we gain insight into the minds of our target audience. Through insight, we deeply understand your users and enable you to fully meet their needs",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
@@ -151,7 +151,7 @@ const Research = () => {
     {
       id: 4,
       icon: "03",
-      title: "Usability Testing:",
+      title: "Usability Testing",
       para: "We bring creativity to the testing process, making it a fun and insightful experience. Our researchers carefully monitor how users navigate your interface, collecting feedback to improve your design.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
@@ -164,8 +164,34 @@ const Research = () => {
     {
       id: 5,
       icon: "04",
-      title: "Design Thinking:",
+      title: "Design Thinking",
       para: "Start the thinking process with our Design Thinking workshops. Together, we reveal the full potential of your team's creativity and foster an environment where ideas can flourish. We use collective intelligence to create solutions that have a lasting impact.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
+    },
+    {
+      id: 6,
+      icon: "05",
+      title: "Promoting startups",
+      para: "Ackrolix supports startups through innovative research based on their needs. We understand the importance of profitability, and our creative approach helps startups build a solid foundation for success.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
+    },
+    {
+      id: 7,
+      icon: "06",
+      title: "User Surveys",
+      para: "At Ackrolix, we do user research to make it interactive and exciting. Our creative ideas allow users to share their ideas, creating a rich source of information for you to discover.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -187,6 +213,10 @@ const Research = () => {
           <meta
             property="og:description"
             content="Ackrolix is a professional User Research Company based in Gurgaon, providing expert insights and analysis to enhance user experience."
+          />
+           <meta
+            property="og:url"
+            content="#"
           />
           <meta
             property="og:image"
