@@ -313,7 +313,7 @@ const ProductDdesignCompany = () => {
       <div className="container-ack md:px-0 px-5">
         <ComponentHead
           title="Technology"
-          sub="Product Design Company"
+          sub="Product Design Company "
           head="Ackrolix, a leading firm in Gurgaon for digital product design & development, is your devoted associate in reaching digital excellence. Put your faith in our digital product design services and watch your items shine and be distinguished. Witness the strength of Ackrolix, your acclaimed Gurgaon-based digital product agency, and work with us to build a digital environment that redefines greatness."
         />
         <Technology tech={techs} />

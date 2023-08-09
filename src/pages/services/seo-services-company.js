@@ -16,39 +16,35 @@ const SeoAgency = () => {
   const processes = [
     {
       id: "1",
-      name: "Discover",
-      desc: "As your search engine optimization company, we take the time to understand your business needs, demands and expectations. During the discovery phase, we set up a meeting with your key company stakeholders and conduct an initial site review. Afterwards, we identify your key performance indicators (KPIs), determine your conversion path and perform extensive keyword research. Doing so allows us to gain in-depth knowledge of your company’s processes, site purpose and goals."
+      name: "Experienced",
+      desc: "We are pleased to have completed over 100 extraordinarily fruitful projects in a variety of industries, illustrating our unwavering dedication to excellence and innovation. These accomplishments are a reflection of our team's exceptional skill, unwavering commitment, and unrelenting quest for excellence. We enthusiastically anticipate starting new endeavours and reaching even larger milestones as we move forward."
     },
     {
       id: "2",
-      name: "Analyze",
-      desc: "The next step is analysis, which covers competitive benchmarking, in-depth site audit, site analytics review and link risk assessment. In this stage, we collect and analyze all your business data to determine the factors that affect your digital presence. We look at your historical traffic patterns, on-site technical issues, competitor’s backlink strategies and link building tactics. We utilize the analytics results in formulating the best approach for your SEO."
+      name: "Customization",
+      desc: "Our items are painstakingly made and methodically planned to precisely meet and surpass your particular needs. Our committed team is ready to deliver unmatched solutions that connect with your audience and propel remarkable success for your business, whether you're looking for exceptional web design and advanced e-commerce solutions or seamless mobile app development and effective digital marketing strategies."
     },
     {
       id: "3",
-      name: "Strategize",
-      desc: "Once we’ve identified your marketing gaps and opportunities, our SEO experts will create a 60-day strategic online marketing plan (SOMP). This includes your campaign goals, expected outcomes for each marketing channel and estimated completion time. During the first month of your campaign, our SEO company prioritizes the most critical aspects of your SEO. This is to ensure all our SEO efforts deliver immediate, targeted results."
+      name: "24/7 Support",
+      desc: "Our extremely knowledgeable and devoted expert team is available to provide round-the-clock support, ensuring that your website runs without a hitch at all times. We take great pleasure in offering excellent support and swiftly and effectively resolving any problems. Day or night, you can rely on us for consistent service and a hassle-free website experience."
     },
     {
       id: "4",
-      name: "Execute",
-      desc: "In this phase, we start executing the SOMP. We optimize your web pages and blog posts with high-performing keywords, improve your site structure and manage your business listings. Our SEO company also leverages a multiple channel strategy to improve your overall SEO results. We implement social media management campaigns and reach out to third-party websites to increase your online reach.",
+      name: "Affordable Prices",
+      desc: "We ensure that our customers get the most value for their hard-earned money by always offering home appliance pricing that are competitive with the market. We are the go-to source for all of your home appliance needs because of our dedication to affordability and the unwavering quality and dependability of our goods. Discover the ease of buying home appliances without worrying about costs — we've got you covered!",
     },
     {
       id: "5",
-      name: "Report",
-      desc: "Our SEO team schedules regular consultations and monthly reports with your project managers to keep you up-to-date with your campaign progress. During our consultation, we present a comprehensive report that provides an overview of your site performance. This includes your KPI trends, overall traffic and ranking. Every month, we create a new 90-day roadmap, so you know exactly how your campaign is doing and what to expect.",
+      name: "Customer Trust",
+      desc: "We receive incredibly helpful references for 90% of our booming business, which is a testimonial to the exceptional quality of service we continuously provide. Customers are becoming our most ardent brand promoters, telling others about the exceptional interactions they've had with us. We are incredibly appreciative of our loyal customers' support, and we anxiously anticipate developing new relationships through their sincere referrals.",
     },
     {
       id: "6",
-      name: "Measure",
-      desc: "From the moment you sign up with our SEO company, we set up a tracking system that allows us to monitor your online progress and understand the impact of your SEO campaign. We monitor and analyze your analytics, keyword rankings and KPI. Our SEO experts also look at your organic traffic, bounce rate, conversion rate, local visibility and click-through rates (CTRs). By monitoring your SEO efforts, we gain actionable insights and improve your optimization strategies.",
+      name: "Milestone Setting",
+      desc: "We take great delight in showing our unwavering commitment to excellence and innovation, having completed over 100 incredibly successful projects in a variety of industries. As we reflect on our experience, we are inspired and eager to take on new challenges and reach even bigger milestones in the future. With every milestone we reach,we solidify our position as a dominant force in the market, prepared to take on the upcoming challenges with tenacity.",
     },
-    {
-      id: "6",
-      name: "Adjust",
-      desc: "As part of our ongoing SEO efforts, we continuously adjust our optimization strategies based on the latest algorithm updates and market trends. Search engines are dynamically changing and industry demands are continuously evolving. As such, we take a proactive approach to ensure your website ranks high on search results. Trust our SEO team to make the necessary adjustments and keep you informed of your campaign progress at all times.",
-    },
+  
   ];
   const techs = [
     {
@@ -206,13 +202,13 @@ const SeoAgency = () => {
       textcolor: "text-secondary",
       display: "hidden",
       maintitle: "Better",
-      subtitle: " Ackrolix SEO Services Are Better",
+      subtitle: "Our Exemplary SEO services in Gurgaon",
     },
     {
       id: 2,
       icon: "01",
-      title: "Experience Matters",
-      para: "For more than 15 years, Ackrolix has helped businesses in all industries grow their online presence to drive more revenue. We have the experience and client success stories to support any size business wanting to increase online traffic and grow its leads.",
+      title: "On-page SEO",
+      para: "By combining content and keywords with meta tags and user-friendly design, our magic is search engine optimization. We bring each page to life, working magic to attract visitors and improve rankings.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -224,8 +220,8 @@ const SeoAgency = () => {
     {
       id: 3,
       icon: "02",
-      title: "Dedicated SEO Professionals",
-      para: "We believe our job is to make a technical, complicated and sometimes overwhelming search engine optimization process as simple as possible for our clients. One of the many ways we accomplish this is by providing each client with a single point of contact to manage your project.",
+      title: "Off-page SEO",
+      para: "We take your work experience to new heights with quality backlinks, social media, and referrals. Our off-page SEO strategies can grab the attention of search engines and give your website the reputation it deserves.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -237,8 +233,8 @@ const SeoAgency = () => {
     {
       id: 4,
       icon: "03",
-      title: "Relationships & Results",
-      para: "We live by our two primary core values: Relationships and Results. We’re here for every client, that’s our pillar. We have SEO experts who specialize in helping businesses of all sizes -- from small businesses to large, national franchises -- achieve exponential growth.",
+      title: "Content SEO",
+      para: "With effective SEO techniques, we ensure that your content dominates the rankings. From engaging blog posts to a viable website, our magic words attract users and algorithms alike. The power of SEO content and watching your online presence rise to new levels of visibility and success with Ackrolix.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -250,8 +246,8 @@ const SeoAgency = () => {
     {
       id: 5,
       icon: "04",
-      title: "We’re Always Getting Better",
-      para: "SEO is never stagnant and neither are we. SEO is always changing because of multiple Google algorithm updates each year that impact ranking factors and we are always on top of the latest news and trends. Our search engine optimization company is constantly learning new techniques and staying up-to-date to remain ahead of the curve.",
+      title: "Keyword Research",
+      para: "With clever wizardry, we delve deep into scientific trends and user behaviour to make magic potions for highlights. These mantras allow your brand to shine in the digital world, attract the attention of your target audience and stand out from the competition. Embrace the magic of Ackrolix keyword research, where every word is a stepping stone to digital success.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -263,8 +259,8 @@ const SeoAgency = () => {
     {
       id: 6,
       icon: "05",
-      title: "We Play Fair",
-      para: "We value honesty and integrity in everything we do. We always play fair, using white hat SEO to drive results without spamming or gaming the system that can lead to possible Google penalties. Simply put: We don’t have to cheat to win in SEO. As a Google Partner, we play by the rules and never jeopardize your business in any way. We never compromise our integrity.",
+      title: "Technical SEO",
+      para: "Through good site analysis, negative optimization, and authoritative link building, they link to the website of SEO magic that makes search engines. Its magic improves your website performance by involving both users and algorithms. Rely on Ackrolix's expertise to deliver higher quality, better visibility, and a better customer experience that outperforms your competitors.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -276,8 +272,8 @@ const SeoAgency = () => {
     {
       id: 7,
       icon: "06",
-      title: "Transparent Reporting",
-      para: "While our competitors use smoke and mirrors, we maintain full transparency so you can see first-hand how our efforts are increasing your online revenue. Our custom, in-depth reporting includes Google Analytics reports to give you a full overview of your site’s SEO performance, regularly updated keyword rankings and a monthly breakdown of the SEO tasks we’ve performed. ",
+      title: "Guest Blogging",
+      para: "Through good site analysis, negative optimization, and authoritative link building, they link to the website with SEO magic that leads to search engines. Its magic improves your website performance by involving both users and algorithms. Rely on Ackrolix's expertise to deliver higher quality, better visibility, and a better customer experience that outperforms your competitors.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -328,7 +324,24 @@ const SeoAgency = () => {
   return (
     <div>
       <Head>
-        <title>Search Engine Optimization</title>
+        <title>SEO Service Company in Gurgaon - Ackrolix</title>
+        <meta name="description"
+         content="Boost your online presence with Ackrolix, a leading SEO service company based in Gurgaon. Get expert solutions for your digital marketing needs. Get in touch with us today." />
+        <link rel="canonical" href="#"/>
+        <meta property="og:title" 
+        content="SEO Service Company in Gurgaon - Ackrolix" />
+        <meta
+          property="og:description"
+          content="Boost your online presence with Ackrolix, a leading SEO service company based in Gurgaon. Get expert solutions for your digital marketing needs. Get in touch with us today."
+        />
+        <meta
+          property="og:url"
+          content="#"
+        />
+        <meta
+          property="og:image"
+          content="https://www.ackrolix.com/assets/images/logoack.png"
+        />     
       </Head>
       <Header />
       <div
@@ -338,22 +351,12 @@ const SeoAgency = () => {
         }}
       >
         <Banner
-          bannertitle=" Search Engine Optimization is a Great Investment"
-          bannersubtext="Search engine optimization is more commonly known as its acronym SEO. Optimization is the basis of all SEO practices. Once your brand's presence (website, content and social media platforms) is optimized across the internet, you increase its online visibility. Your website will find its way to the first page of the search engine results pages (SERPs). Your online customers will find your business much quicker too."
+          bannertitle=" Raise Ranking with Ackrolix: Your Leading SEO Services Company in Gurgaon"
+          bannersubtext="Ackrolix distinguishes itself as a successful league of SEO gurus in the crowded market of SEO agencies. Beyond optimising search engine results, our team of professionals focuses on raising conversion rates, revenues, and client advantages without raising prices. Ackrolix understands the critical role SEO and social media play in business growth, with over 80% of internet searches having an impact on success. In today's competitive business environment, innovation is essential to survival."
           serviceimg="/assets/images/service/svg/sea.png"
-          servicehead="An SEO Marketing Company That Gets It"
-          servicedesc1="Let’s face it. You know what you need but you just don’t know how to get it. Our SEO specialists hear that over and over from SEO clients who contact Ackrolix Internet Marketing Agency.
-
-          You’re likely here because of one or more of the following reasons:
-          
-          •  Your website isn’t being found online.
-          
-          •  Your website traffic has diminished recently and you don’t know why.
-          
-          •  Suddenly, your volume of incoming calls and leads has declined.
-          
-          •  You’re starting a new website and want to ramp up new business quickly."
-          servicedesc2="Ackrolix is a customer-focused SEO company. Our SEO experts work closely with our clients to develop personalized SEO strategies that drive long-term profitability. By using a proven, efficient and effective methodology, we are able to create high-quality, measurable results."
+          servicehead="Boost Your Online Presence with Ackrolix's Winning SEO Services"
+          servicedesc1="We guarantee commercial success and maximise your ranking with our comprehensive knowledge by building a strong online presence that connects with the digital world. With brilliant performance across devices and platforms, our creative abilities translate into successful websites and enticing user experiences that captivate visitors with intuitive navigation and beautiful design. Search engines may detect the significance and authority of your online presence thanks to the strategically constructed high-quality, authoritative links that Ackrolix creates."
+          servicedesc2="Select Ackrolix as your go-to SEO company in Gurgaon, where creativity and experience merge to propel your company to new heights. Our all-encompassing SEO services are designed to increase conversions, profits, and customer benefits while building a strong online presence that appeals to your target market. As a top provider of SEO services in Gurgaon."
         />
       </div>
       <Cards card={cards} />
@@ -375,9 +378,9 @@ const SeoAgency = () => {
         >
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
-              processhead="Methaodology"
-              processsub="Ackrolix Agile SEO Methodology"
-              processdesc="Our SEO company utilizes a methodology called “Agile SEO,” which allows us to build a robust campaign framework that provides value for your business. Ackrolix's Agile SEO approach is built around the following processes:"
+              processhead="Why Choose Us"
+              processsub="Why Choose Us?"
+              processdesc="Choose Ackrolix as your SEO Company in Gurgaon to unlock the true potential of your online presence. With rich experience and expertise in multiple industries, we create SEO strategies for your specific goals."
               processimg="/assets/images/service/svg/sea1.png"
             />
             <Process process={processes} />

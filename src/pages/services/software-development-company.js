@@ -218,7 +218,7 @@ const SoftwareDevelopmentCompany = () => {
   const cards = [
     {
       id: 1,
-      para: "At Ackrolix, a top Gurgaon software development company, our team of experts is entrusted with developing ground-breaking software solutions that transform the digital world. We, as a Software Development Agency in Gurgaon, infuse everyone with exceptional strength and creativity and bring them to life, from the venerable trinity of Microsoft software (Word, Excel, and PowerPoint) to many more computer-focused concepts. As a software design company in Gurgaon, innovation is our guiding principle, and we are never content with the current state of affairs. We are aware that the digital world is a dynamic environment and that evolution is the key to success.",
+      para: "At Ackrolix, a top Gurgaon software development company, our team of experts is entrusted with developing ground-breaking software solutions that transform the digital world. We, as a Software Development Agency in Gurgaon, infuse everyone with exceptional strength and creativity and bring them to life, from the venerable trinity of Microsoft software (Word, Excel, and PowerPoint) to many more computer-focused concepts.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
@@ -308,12 +308,17 @@ const SoftwareDevelopmentCompany = () => {
   return (
     <div>
       <Head>
-        <title>Software Architect Company</title>  
-        <meta name="description" content="Ackrolix is a leading Digital Product Design Company in Gurgaon, renowned for its exceptional services and innovative solutions." />
-        <meta property="og:title" content="Digital Product Design Company in Gurgaon - Ackrolix" />
+        <title>Software Development Company in Gurgaon - Ackrolix</title>  
+        <meta name="description" content="Ackrolix is a leading Software Development Company in Gurgaon, providing top-notch services to clients worldwide.Count on us for all your software requirements." />
+        <link rel="canonical" href="#"/>
+        <meta property="og:title" content="Software Development Company in Gurgaon - Ackrolix" />
         <meta
           property="og:description"
-          content="Ackrolix is a leading Digital Product Design Company in Gurgaon, renowned for its exceptional services and innovative solutions."
+          content="Ackrolix is a leading Software Development Company in Gurgaon, providing top-notch services to clients worldwide.Count on us for all your software requirements."
+        />
+        <meta
+          property="og:url"
+          content="#"
         />
         <meta
           property="og:image"
@@ -331,7 +336,7 @@ const SoftwareDevelopmentCompany = () => {
           bannertitle="Revolutionizing Tech: Ackrolix, Gurgaon's Innovation Hub"
           bannersubtext="Welcome to the innovation hub in Gurgaon, where Ackrolix makes the technology dream a reality. We are more than just a regular Software Development Agency; we create the best digital experiences by pushing the envelope of what is conceivable."
           serviceimg="/assets/images/service/svg/soft.png"
-          servicehead="Ackrolix: The future is our playground; dreams do come true. Gurgaon-based software development company"
+          servicehead="The future is our playground; dreams do come true"
           servicedesc1="Ackrolix is a symbol of advancement in the technology of Software Development Services in Gurgaon. By keeping an eye on emerging trends, we make sure that your plans are outfitted with the most up-to-date and effective Software Design Services."
           servicedesc2="That is what we call the fantastic, fascinating experience with Ackrolix. Because we are a Software design firm that is a firm believer in the value of open communication and cooperation, we keep you updated at every stage. We will work to realize your dreams because they are the ones that fuel us. Our Software company, i.e., Ackrolix, is your one-stop shop for technology insights, whether you're interested in web development, mobile apps, or high-tech software. Enter the realm of our Software development services,  where imagination and creativity are allowed to run free, and your vision will become unforgettable."
         />

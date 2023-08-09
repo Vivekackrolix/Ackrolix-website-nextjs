@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Footer from '../../components/Common/Footer';
+import Footer from "../../components/Common/Footer";
 import Header from "../../components/Common/Header";
 import Banner from "../../components/Services/DetailPage/Banner";
 import Cards from "../../components/Services/DetailPage/Cards";
@@ -16,25 +16,35 @@ const Visualisation = () => {
   const processes = [
     {
       id: "1",
-      name: "Define User Goals",
-      desc: "We start by defining the expectation of the users from the data, and how it can best fulfil their needs.",
+      name: "Upgrade Business",
+      desc: "Expert Data Visualisation Services in Gurgaon Transforming Businesses.",
     },
     {
       id: "2",
-      name: "Understand Data And Studies",
-      desc: "We gather in-depth information about all the data points covered in the product and their inter-relationships.",
+      name: "Visual Clarity",
+      desc: "For Powerful Storytelling and Action, Our Team Creates Compelling Data Representations.",
     },
     {
       id: "3",
-      name: "Building Data Architecture",
-      desc: "We organize the data logically, decide on the level of drill-downs and filters, pagination and data sources.",
+      name: "Interactive Excellence",
+      desc: "Ackrolix, your Gurgaon-based dynamic data visualisation company, provides proactive tools and technology for interactive excellence.",
     },
     {
       id: "4",
-      name: "Visualizing Data",
-      desc: "We finalize the first view of the dashboard and create designs of charts and graphs based on various data types.",
+      name: "Solutions That Fit",
+      desc: "We Comprehend Your Goals and Tailor Our Services to Meet Your Data Needs.",
     },
-
+    {
+      id: "5",
+      name: "Upscaled Decision-Making",
+      desc: "Ackrolix offers cutting-edge visualisations that improve analysis and performance, empowering decision-making.",
+    },
+    {
+      id: "6",
+      name: "Discover Insights",
+      desc: "Join forces with us for data-driven development, sure decisions, and efficient communication.",
+    },
+    
   ];
   const techs = [
     {
@@ -77,37 +87,37 @@ const Visualisation = () => {
       id: "7",
       img: "/assets/images/service/svg/axure.png",
       name: "Axure RP",
-      desc: " Axure RP is often used for complex interactions and user flows."
+      desc: " Axure RP is often used for complex interactions and user flows.",
     },
     {
       id: "8",
       img: "/assets/images/service/svg/marvel.png",
       name: "Marvel",
-      desc: " A user-friendly prototyping tool that enables designers to create interactive prototypes with ease. "
+      desc: " A user-friendly prototyping tool that enables designers to create interactive prototypes with ease. ",
     },
     {
       id: "9",
       img: "/assets/images/service/svg/zepline.png",
       name: "Zeplin",
-      desc: "  Zeplin generates style guides, assets, and CSS code snippets to ensure smooth collaboration between designers and developers."
+      desc: "  Zeplin generates style guides, assets, and CSS code snippets to ensure smooth collaboration between designers and developers.",
     },
     {
       id: "10",
       img: "/assets/images/service/svg/principle.png",
       name: "Principle",
-      desc: " Principle integrates well with Sketch and enables designers to add motion to their designs."
+      desc: " Principle integrates well with Sketch and enables designers to add motion to their designs.",
     },
     {
       id: "11",
       img: "/assets/images/service/svg/procreate.png",
-      name:"Procreate",
-      desc: "A digital illustration app designed specifically for iPad."
+      name: "Procreate",
+      desc: "A digital illustration app designed specifically for iPad.",
     },
     {
       id: "12",
       img: "/assets/images/service/svg/logobal.png",
       name: "Balsamiq",
-      desc: " Balsamiq enables designers to quickly sketch out interface ideas and concepts."
+      desc: " Balsamiq enables designers to quickly sketch out interface ideas and concepts.",
     },
   ];
   const cards = [
@@ -124,8 +134,8 @@ const Visualisation = () => {
     {
       id: 2,
       icon: "01",
-      title: "Custom Dashboards",
-      para: "We add the functionality of creating custom dashboards through easy to use features, thereby making UX more pleasurable.",
+      title: "Tracking organizational Efficiency ",
+      para: "Ackrolix assists its clients in putting their company’s important data and details together in an efficient manner by converting data from diverse sources into immersive visuals. ",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -137,8 +147,8 @@ const Visualisation = () => {
     {
       id: 3,
       icon: "02",
-      title: "Custom Visual Components",
-      para: "We build custom components that support the dashboard's properties and functionality.",
+      title: "The Accounting Records ",
+      para: "To improve financial forecasts and budget planning, financials track a company's income, costs, and profitability. To assure stability and growth, it requires recognizing and controlling financial risks while constantly monitoring financial data.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -150,8 +160,8 @@ const Visualisation = () => {
     {
       id: 4,
       icon: "03",
-      title: "Dynamic Stories & Infographics      ",
-      para: "We enhance the value of the data by organizing and presenting it into easily comprehensible stories and infographics.",
+      title: "Manufacturing:",
+      para: "Improving manufacturing process quality and overall equipment effectiveness by carefully observing equipment performance accelerates the development of new products and improves their quality through the detection and correction of manufacturing process flaws.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -163,8 +173,8 @@ const Visualisation = () => {
     {
       id: 5,
       icon: "04",
-      title: "Push Reports",
-      para: "We also provide the option of generating reports that help stakeholders to make appropriate decisions.",
+      title: "Supply Chain:",
+      para: "Boost supply chain effectiveness by using Ackrolix's knowledgeable services. To increase the precision of demand planning and simplify order administration, our team pinpoints demand factors. We track procurement data, analyse spend, and look for options for rationalisation.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -173,12 +183,53 @@ const Visualisation = () => {
       textcolor: "text-secondary",
       main: "hidden",
     },
-
+    {
+      id: 6,
+      icon: "05",
+      title: "Selling and Promoting:",
+      para: "Optimise campaign planning and budgeting using predictive prospect response research to improve marketing and sales. Use consumer segmentation to create individualised marketing plans and cross-selling initiatives. Utilise client sentiment research to raise the calibre of your goods and services.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
+    },
+    {
+      id: 7,
+      icon: "06",
+      title: "HR activities:",
+      para: "Monitoring employee activity assists in discovering performance gaps and enhancing employee performance. Data from talent management can be visualised to help with recruitment decisions and to spot top performers and open positions. An analysis of retention practices reveals factors that influence employee satisfaction and lower turnover.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
+    },
   ];
   return (
     <div>
       <Head>
-        <title>Data Visualisation</title>
+        <title>Data Visualization Services Company in Gurgaon - Ackrolix</title>
+        <meta
+          name="description"
+          content="Ackrolix is a leading Data Visualization Services Company in Gurgaon, providing  high-quality solutions for businesses seeking to enhance their data visualization capabilities."
+        />
+        <meta
+          property="og:title"
+          content="Data Visualization Services Company in Gurgaon - Ackrolix"
+        />
+        <meta
+          property="og:description"
+          content="Ackrolix is a leading Data Visualization Services Company in Gurgaon, providing  high-quality solutions for businesses seeking to enhance their data visualization capabilities."
+        />
+        <meta
+          property="og:image"
+          content="https://www.ackrolix.com/assets/images/logoack.png"
+        />
       </Head>
       <Header />
       <div
@@ -188,12 +239,12 @@ const Visualisation = () => {
         }}
       >
         <Banner
-          bannertitle="We make data sensible and actionable"
-          bannersubtext="We present the data in visual form and help decision-makers to identify key opportunities and impending issues."
+          bannertitle="Ackrolix: Most trusted Data Visualization Company in Gurgaon"
+          bannersubtext="Ackrolix, your reliable Data visualization Company in Gurgaon, can help you discover the power of your data! Understanding and making sense of data are essential for businesses to succeed in today's data-driven environment. At Ackrolix, we offer excellent Data visualisation Services in Gurgaon that make it simple for our clients to obtain, examine, and comprehend complex data."
           serviceimg="/assets/images/service/svg/vis.png"
-          servicehead="Insightful data leads to better products & growth"
-          servicedesc1="Pictures are more clearer to understand than numbers. With data visualisation, it is possible to present data in a more digestible & attractive manner through charts & graphs."
-          servicedesc2="We simplify data presentation through appropriate diagrams so that it becomes easier to identify trends, patterns, and outliers within large data sets."
+          servicehead="Determine the Vastness of Data with Ackrolix's Data Visualisation Calibre"
+          servicedesc1="We serve a variety of industries, including government, finance, marketing, education, sports, and more as the go-to Data Visualisation Company in Gurgaon. For professionals looking to develop their data-driven decision-making skills and become experts at using data to make captivating visual tales, our services are crucial."
+          servicedesc2="Making sense of information is essential for organizations to succeed in today's data-driven environment. Ackrolix is an expert in offering top-notch Data visualization Services in Gurgaon that enable our customers to easily comprehend, examine, and exchange data. As a leading Data visualization Company in Gurgaon, we provide cutting-edge solutions that make your data come to life so you can make wise decisions and discover insightful information."
         />
       </div>
       <Cards card={cards} />
@@ -224,10 +275,12 @@ const Visualisation = () => {
             <Process process={processes} />
           </div>
         </div>
-        <div className="h-[7.5rem]"
+        <div
+          className="h-[7.5rem]"
           style={{
             backgroundImage: 'url("/assets/images/service/wave.png")',
-          }}></div>
+          }}
+        ></div>
       </div>
 
       <Work />

@@ -16,23 +16,33 @@ const Prototyping = () => {
   const processes = [
     {
       id: "1",
-      name: "Wireframe Prototypes",
-desc:"We create basic wireframe prototypes to test the logic and functionality of the user flows before proceeding to UI design.",
+      name: "Industry knowledge",
+      desc:"The best prototype development company in Gurgaon, Ackrolix, brings years of experience to the table to ensure that your vision is carried out precisely.",
     },
     {
       id: "2",
-      name: "Interactive Prototypes",
-      desc:"We build interactive prototypes to gather a bit of detailed feedback from the client as well as the users.",
+      name: "Complete Solutions",
+      desc:"With our all-encompassing prototype development services in Gurgaon, we provide complete services that turn ideas into reality.",
     },
     {
       id: "3",
-      name: "Digital Prototypes",
-desc:"Through digital prototypes, we create the most realistic version of the actual product that helps us gain in-depth insights.",
+      name: "A Range of Industries",
+      desc:"Our broad experience enables us to manage a variety of tasks with accuracy and proficiency, from electronics to consumer goods.",
     },
     {
       id: "4",
-      name: "Coded Prototypes",
-      desc: "After the final approval of the digital prototype by the client, we generate coded prototypes and host them to test again with the users.",
+      name: "Innovative Technology",
+      desc: "Our cutting-edge tools and processes, such as additive manufacturing, quickly and effectively generate high-quality prototypes.",
+    },
+    {
+      id: "5",
+      name: "Collaborative Methodology",
+      desc: " Work together with us throughout the process to make sure your input influences the finished product and consistently meets or exceeds expectations.",
+    },
+    {
+      id: "6",
+      name: "Prompt Delivery",
+      desc: "We value deadlines and stick to them by using a simplified method to produce products on time and for a reasonable price.",
     },
    
   ];
@@ -118,14 +128,14 @@ const cards = [
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Approach",
-      subtitle: "OUR APPROACH",
+      maintitle: "Services",
+      subtitle: "Our Exemplary Prototype Development Services",
     },
     {
       id: 2,
       icon: "01",
-      title: "Goals Of The Project",
-      para: "We start with the goal of the product in mind, by defining why it is intended to be built.",
+      title: "Requirements Gathering Process",
+      para: "The process of prototyping software begins with acquiring project requirements from clients or product users.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -137,8 +147,8 @@ const cards = [
     {
       id: 3,
       icon: "02",
-      title: "Study The Competition",
-      para: "We study the competitors to know where the product stands and what unique value it offers.",
+      title: "Swift Prototype Development",
+      para: "During the first stage of product development, a quick and simple design of the entire product is created, allowing for rapid prototype development.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -150,8 +160,8 @@ const cards = [
     {
       id: 4,
       icon: "03",
-      title: "Identify Target Audience & Their Needs",
-      para: "We strive to understand demographics perfectly to create products that serve their needs well.",
+      title: "Development Services for Prototyping",
+      para: "These services entail the creation of working models or replicas of products in order to test and validate their design and functionality prior to full-scale production.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -163,8 +173,8 @@ const cards = [
     {
       id: 5,
       icon: "04",
-      title: "Determine The Type Of Product & Device",
-      para: "We also consider the nature of the product i.e. website or mobile app and the devices it will support.",
+      title: "Additive Manufacturing",
+      para: "Additive Manufacturing, also known as 3D printing, creates objects layer by layer from computer models. It allows for complicated designs and rapid prototyping.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -176,8 +186,21 @@ const cards = [
     {
       id: 6,
       icon: "05",
-      title: "Consider The Deliverables",
-      para: "We get absolutely clear about what we need to deliver so that we stay on the right track.",
+      title: "Prototype Creation",
+      para: "A small-scale functioning model of the product will be rigorously created during this critical stage. A prototype is built using detailed information and specifications acquired from clients or consumers.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
+    },
+    {
+      id: 7,
+      icon: "06",
+      title: "Mock-up prototypes",
+      para: "Mock-up prototypes are non-functional representations of items that are used for visual evaluation and testing the design aesthetics and ergonomics.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -191,7 +214,24 @@ const cards = [
   return (
     <div>
       <Head>
-        <title>UI-UX Prototyping</title>        
+        <title>Prototype Design Agency in Gurgaon - Ackrolix</title>
+        <meta
+          name="description"
+          content="Ackrolix is a leading prototype design agency based in Gurgaon. Our innovative solutions and expert team will bring your ideas to life.  Reach out to us now. "
+          />
+          <meta property="og:title" content="Prototype Design Agency in Gurgaon - Ackrolix" />
+          <meta
+            property="og:description"
+            content="Ackrolix is a leading prototype design agency based in Gurgaon. Our innovative solutions and expert team will bring your ideas to life.  Reach out to us now."
+          />
+           <meta
+            property="og:url"
+            content="#"
+          />
+          <meta
+            property="og:image"
+            content="https://www.ackrolix.com/assets/images/logoack.png"
+        />        
       </Head>
       <Header />
       <div
@@ -201,13 +241,16 @@ const cards = [
         }}
       >
         <Banner 
-          bannertitle="This is new day"
-          bannersubtext="We build rapid and fluid prototypes that emulate the real product."
+          bannertitle="Empowering Vision with Gurgaon’s leading Prototype Development Company
+          "
+           bannersubtext="Ackrolix is a renowned Prototype Development Company in Gurgaon. We specialize in creating working duplicates of products to ensure that they fit market standards and user specifications."
           serviceimg="/assets/images/service/svg/res.png"
-          servicehead="Replicating the actual product behaviour"
-          servicedesc1="A prototype is an early draft of a design used to get rapid feedback on whether the intended design works well or needs to be updated in some areas."
-          servicedesc2="Prototypes can range anywhere from a low fidelity sketched prototype created on a sheet of paper, just like the example below, all the way through to a high fidelity interactive clickable design that closely represents the finished product."
+          servicehead="Our Foolproof Services will turn your Visions into Reality"
+          servicedesc1="Our skilled team adheres to an efficient Prototype Development Process, which allows us to discover and rectify design flaws early in the development cycle. Our prototypes attract potential buyers by imitating the real product, giving them a personal sense of what's to come and creating trust in your concept."
+          servicedesc2="Whether your project is small or large, our Prototype Development Solutions are designed to your exact requirements. We develop commercially feasible and profitable products that meet the needs of your clients. We adapt to the size and complexity of your project, from simple paper sketches to fully functional models."
+          servicedesc3="We design and iterate prototypes quickly using our fast prototyping approach, allowing you to provide feedback throughout the development process."
         />
+        
       </div>
       <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
@@ -228,9 +271,9 @@ const cards = [
         >
           <div className="container-ack md:px-0 px-5">
             <ProcessHead
-              processhead="Services"
-              processsub="Prototyping services we offer"
-              processdesc="Full-scope app modernization services you can start using quickly (even in weeks!) to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
+              processhead="Why Choose Us"
+              processsub="Why Choose Us"
+              processdesc="Ackrolix takes great pleasure in being Gurgaon's go-to Prototype Development Agency. We provide innovative Prototype Development Services that are targeted to your specific needs, with an emphasis on creativity, competence, and customer-centricity."
               processimg="/assets/images/service/svg/res1.png"
             />
             <Process process={processes} />

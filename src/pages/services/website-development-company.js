@@ -11,38 +11,39 @@ import ProcessHead from "../../components/Services/DetailPage/ProcessHead";
 import Work from "../../components/Services/DetailPage/Work";
 import Enquiry from "../../components/Services/DetailPage/Enquiry";
 import Clients from "../../components/Home/Clients";
+import ProccessHead from "../../components/Services/DetailPage/ProcessHead";
 
 const WebsiteDevelopment = () => {
   const processes = [
     {
       id: "1",
-      name: "Rehosting or Lift-and-Shift",
-      desc: "This approach involves moving an existing application to a new infrastructure without making significant changes to the application's architecture or functionality.",
+      name: "Understanding Client Requirement",
+      desc: "Our Website Design Company, Ackrolix, understands the specific requirements of our clients. We initiate a detailed discussion with them to grasp their business goals, target audience, brand identity, and desired functionalities.",
     },
     {
       id: "2",
-      name: "Refactoring or Re-architecting",
-      desc: "Refactoring involves making structural changes to the application's codebase and architecture while preserving its core functionality. It aims to improve the application's performance, scalability, and maintainability.",
+      name: "Research and Analysis",
+      desc: "We examine the client's industry, competitors, and current market trends to identify opportunities and challenges. This research helps us develop a strategic approach to designing a website that stands out from the competition.",
     },
     {
       id: "3",
-      name: "Replatforming",
-      desc: "Replatforming entails moving an application to a different platform or technology stack while retaining its core features & functionality. For example, migrating an on-premises application to a cloud platform.",
+      name: "Planning and Strategy",
+      desc: "The talented team of our Web Development Agency works to bring the vision to life. We create visually appealing designs that align with the client's brand identity and ensure the website is fully functional across all devices.",
     },
     {
       id: "4",
-      name: "Rearchitecting or Redesigning",
-      desc: "Rearchitecting involves a significant overhaul of the application's architecture and design to meet current business needs and technological advancements.",
+      name: "Content Creation and Optimization",
+      desc: "Our skilled content creators develop relevant and SEO-friendly content that resonates with the target audience while also boosting the website's search engine rankings.",
     },
     {
       id: "5",
-      name: "Containerization",
-      desc: "Containerization involves encapsulating an application and its dependencies into containers, using technologies like Docker. This approach allows applications to run consistently across different environments and simplifies deployment and scalability.",
+      name: "Testing and Quality Assurance",
+      desc: "We conduct rigorous testing and quality assurance to identify and fix any potential issues. We ensure that the website functions smoothly and provides a seamless user experience.",
     },
     {
       id: "6",
-      name: "Replacement or Rebuilding",
-      desc: "In some cases, it may be more feasible to replace an existing application with a new solution rather than attempting to modernize it. This approach involves rebuilding the application from scratch, leveraging modern technologies and design principles.",
+      name: "Website Launch",
+      desc: "Our team at Website Design Company in Gurgaon ensures a smooth transition to the live website, and we closely monitor its performance during this critical phase.",
     },
   ];
   const techs = [
@@ -223,14 +224,14 @@ const cards = [
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Revitalize",
-      subtitle: "Revolutionize Your Applications With Modernization Solutions",
+      maintitle: "SERVICES",
+      subtitle: "Our Web Development Services",
     },
     {
       id: 2,
       icon: "01",
-      title: "Complete product teams",
-      para: "Access Business Analysts, Product Designers, Project Managers, QA Engineers, DevOps, or Full-stack developers.",
+      title: "Custom Web Development",
+      para: "Our Web Development Services specialize in creating custom websites from scratch, designed to align with your brand identity and specific requirements.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -242,8 +243,8 @@ const cards = [
     {
       id: 3,
       icon: "02",
-      title: "Fast iterations & frequent releases",
-      para: "Pre-build components and our own templates let our team deliver more in each sprint – this is the perk of having such experienced web developers on board.",
+      title: "Responsive Web Design",
+      para: "As a web development agency, Ackrolix ensures that websites developed are responsive and adapt smoothly to different devices, providing an optimal user experience on desktops, tablets, and smartphones.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -255,8 +256,8 @@ const cards = [
     {
       id: 4,
       icon: "03",
-      title: "Business-tailored architecture",
-      para: "Always designed and develop with your company's growth and the product's scalability in mind.",
+      title: "E-commerce Solutions",
+      para: "Our Website Development Company provides robust e-commerce integration, enabling secure payment gateways, intuitive product catalogs, and user-friendly checkout processes for online businesses.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -268,8 +269,8 @@ const cards = [
     {
       id: 5,
       icon: "04",
-      title: "Thorough quality assurance",
-      para: "We do QA before each deploy through manual and automated tests that catch bugs, performance issues, and conversion blockers",
+      title: "Content Management Systems (CMS)",
+      para: "Our Website Design Company optimizes websites for search engines, improving their visibility and ranking on search results pages to attract more organic traffic.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -281,8 +282,8 @@ const cards = [
     {
       id: 6,
       icon: "05",
-      title: "Scalable & secure infrastructure",
-      para: "Web development services full of custom solutions optimized for efficiency, flexibility and deployment speed.",
+      title: "UI/UX Design",
+      para: "As a web design company, Ackrolix focuses on creating user-friendly interfaces and smooth navigation to enhance the overall user experience and reduce bounce rates.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -294,8 +295,8 @@ const cards = [
     {
       id: 7,
       icon: "06",
-      title: "World-class UX/UI",
-      para: "Designed to help your business with user adoption.",
+      title: "Web Application Development",
+      para: "Our Website Development Company develops web applications that cater to specific business needs, ensuring seamless functionality and enhanced user engagement.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -308,7 +309,23 @@ const cards = [
   return (
     <div>
       <Head>
-        <title>Website Development</title>        
+        <title>Website Design & Development Company in Gurgaon - Ackrolix</title>
+        <meta
+          name="description"
+          content="Ackrolix is a Web Development Company in Gurgaon that builds better for optimum performance and customer engagement across all devices and platforms."
+        />
+        <meta
+          property="og:title"
+          content="Website Design & Development Company in Gurgaon - Ackrolix"
+        />
+        <meta
+          property="og:description"
+          content="Ackrolix is a Web Development Company in Gurgaon that builds better for optimum performance and customer engagement across all devices and platforms."
+        />
+        <meta
+          property="og:image"
+          content="https://www.ackrolix.com/assets/images/logoack.png"
+        />
       </Head>
       <Header />
       <div
@@ -318,8 +335,8 @@ const cards = [
         }}
       >
         <Banner 
-          bannertitle="Work with a development team with skills CTOs praise"
-          bannersubtext="Software supports your business growth, and you need more from it. We’ve helped over 160+ companies build scalable products with confidence. Technology executives chose our development teams because of their skills tested in 7+ markets."
+          bannertitle="Ingenious Web Design and Development Company"
+          bannersubtext="Ackrolix has established itself as a well-known Web Design and Website Development Company in Gurgaon, India, with a solid reputation for its emphasis on innovation and originality. Our team of talented designers and programmers is dedicated to providing outstanding web design and development solutions that are customized to meet the specific requirements of each client."
           serviceimg="/assets/images/service/svg/web.png"
           servicehead="One scalable team for start-to-finish development"
           servicedesc1="What does it mean to be reliable? It means your outsourced team works as well as your web developers do. Access web development services trusted by 98% of CTOs that you’ll find understanding with. They made APIs, custom web applications, hybrid mobile app development, provided web design services, updated stacks, and build cloud-native systems."
@@ -335,6 +352,16 @@ const cards = [
       />
       <Technology tech={techs} />
       </div>
+
+      <div className="container-ack md:px-0 px-5">
+            <ProccessHead
+              processhead="ROLE"
+              processsub="Role of a Website Development Company"
+              processdesc="A well-designed Website Design Company plays a vital role in attracting potential customers and establishing credibility."
+              processimg="/assets/images/service/svg/app1.png"
+            />
+            <Process process={processes} />
+          </div>
 
       <div>
         <div
