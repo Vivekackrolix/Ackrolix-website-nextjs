@@ -6,11 +6,11 @@ import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 function Memories() {
   const resumeData = [
-    { id: 1, sliderImg: "assets/images/memories/home-gallery/1.webp" },
-    { id: 2, sliderImg: "assets/images/memories/home-gallery/2.webp" },
+    { id: 1, sliderImg: "assets/images/memories/home-gallery/3.webp" },
+    { id: 2, sliderImg: "assets/images/memories/home-gallery/3.webp" },
     { id: 3, sliderImg: "assets/images/memories/home-gallery/3.webp" },
-    { id: 4, sliderImg: "assets/images/memories/home-gallery/1.webp" },
-    { id: 5, sliderImg: "assets/images/memories/home-gallery/2.webp" },
+    { id: 4, sliderImg: "assets/images/memories/home-gallery/3.webp" },
+    { id: 5, sliderImg: "assets/images/memories/home-gallery/3.webp" },
   ];
 
   const NextArrow = ({ onClick }) => {
@@ -95,7 +95,10 @@ function Memories() {
       <div className="MemoriesSlider">
         <Slider {...settings}>
           {resumeData.map((item, idx) => (
-            <div className={idx === imgIndex ? "m_slide activeSlide" : "m_slide"} key={idx}>
+            <div
+              className={idx === imgIndex ? "m_slide activeSlide" : "m_slide"}
+              key={idx}
+            >
               <img src={item.sliderImg} alt={idx} />
             </div>
           ))}

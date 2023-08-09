@@ -133,19 +133,22 @@ const Footer = () => {
               <h2 className="text-xl font-semibold text-black">CONTACT</h2>
               <div className="flex space-x-10 py-4">
                 <ul className="">
-                  <li className="flex space-x-2 items-center pt-4 group cursor-pointer">
-                    <GoLocation
-                      size={24}
-                      className="text-black group-hover:text-primary mt-3"
-                    />
-
-                    <h2 className="text-sm md:w-[90%]">
-                      Gurgaon, Mumbai, Banglore, Kolkata
-                    </h2>
+                  
+                  <li className="group cursor-pointer">
+                    <p className="py-2"> India Locations : </p>
+                    <span className="flex items-center space-x-2">
+                      <GoLocation
+                        size={24}
+                        className="text-black group-hover:text-primary mt-3"
+                      />
+                      <h2 className="text-sm md:w-[90%]">
+                        Gurgaon, Mumbai, Banglore, Kolkata
+                      </h2>
+                    </span>
                   </li>
-                  <li className=" space-x-2  pt-4 group cursor-pointer">
+                  <li className="group cursor-pointer">
                     <p className="py-2"> International Locations : </p>
-                    <span className="flex items-center">
+                    <span className="flex items-center space-x-2">
                       <GoLocation
                         size={24}
                         className="text-black group-hover:text-primary mt-3"
@@ -156,7 +159,7 @@ const Footer = () => {
                     </span>
                   </li>
                   <Link href="tel:+919910190071">
-                    <li className="flex space-x-2 items-center pt-6 group">
+                    <li className="flex space-x-2 items-center pt-3 group">
                       <IoMdCall
                         size={28}
                         className="text-black group-hover:text-primary mt-3"
@@ -165,7 +168,7 @@ const Footer = () => {
                     </li>
                   </Link>
                   <Link href="mailto:info@ackrolix.com">
-                    <li className="flex space-x-2 items-center pt-6 group">
+                    <li className="flex space-x-2 items-center pt-3 group">
                       <IoMdMail
                         size={28}
                         className="text-black group-hover:text-primary"
