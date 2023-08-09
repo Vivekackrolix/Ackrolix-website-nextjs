@@ -10,15 +10,16 @@ const HeaderLogo = () => {
           <Link href="/">
             <div>
               <img
-                src="/assets/images/logoack.png"
+                src="/assets/images/logo-new.png"
                 className="w-52 h-16 object-cover"
               />
             </div>
           </Link>
         </div>
       </div>
-
+   
       <div className="flex justify-between space-x-6 items-center col-span-4">
+       
         <div className="grid grid-cols-2 gap-4 items-center">
           <Link href="mailto:info@ackrolix.com">
             <div className="flex space-x-2 items-center justify-end group">

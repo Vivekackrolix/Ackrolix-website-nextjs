@@ -21,6 +21,7 @@ const Header = () => {
             href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;800&display=swap"
             rel="stylesheet"
           />
+          
           <HeaderLogo />
           <hr />
           <Navbar />
