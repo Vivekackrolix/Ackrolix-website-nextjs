@@ -5,25 +5,26 @@ const All = () => {
   const advisors = [
     {
       id: 1,
-      image: "/assets/images/leaders/leadersix.png",
-      name: "Mr. Saleem Nawaz",
-      designation: "Managing Partner - Dubai",
-      desc: "Everything you’ve ever wanted is on the other side of fear."
+      image: "/assets/images/leaders/leaderthree.png",
+      name: "Mr. Jay Gulati",
+      designation: "Founder & CEO",
+      desc: "The only way to do great work is to love what you do.",
     },
     {
       id: 2,
-      image: "/assets/images/leaders/leaderone.png",
-      name: "Mr. Viveka Mandal",
-      designation: "CEO & Founder",
-      desc: "Dance is the hidden language of the soul.",
+      image: "/assets/images/leaders/leadertwo.png",
+      name: "Mr. Subrata Sarkar",
+      designation: "Co-Founder & CMO",
+      desc: "Everything you’ve ever wanted is on the other side of fear.",
     },
     {
       id: 3,
-      image: "/assets/images/leaders/leaderthree.png",
-      name: "Mr. Jay Gulati",
-      designation: "CFO & Co-Founder",
-      desc: "The only way to do great work is to love what you do.",
+      image: "/assets/images/leaders/leadersix.png",
+      name: "Mr. Saleem Nawaz",
+      designation: "Co-Founder & CFO",
+      desc: "Everything you’ve ever wanted is on the other side of fear.",
     },
+
     {
       id: 4,
       image: "/assets/images/leaders/leaderfour.png",
@@ -31,36 +32,24 @@ const All = () => {
       designation: "Business Advisor",
       desc: "Dance is the hidden language of the soul.",
     },
+
     {
       id: 5,
-      image: "/assets/images/leaders/leadertwo.png",
-      name: "Mr. Subrata Sarkar",
-      designation: "CMO & Co-Founder",
-      desc: "Everything you’ve ever wanted is on the other side of fear.",
-    },
-    {
-      id: 6,
       image: "/assets/images/leaders/leaderfive.jpeg",
       name: "Arvind Franchis",
       designation: "Chief People Officer",
       desc: "The only way to do great work is to love what you do.",
     },
     {
-      id: 7,
+      id: 6,
       image: "/assets/images/leaders/leadereight.jpeg",
       name: "Mr. Ashwani",
       designation: "General Manager",
       desc: "Everything you’ve ever wanted is on the other side of fear.",
     },
+
     {
-      id: 8,
-      image: "/assets/images/leaders/leaderseven.jpeg",
-      name: "Mr. Vikas Sharma",
-      designation: "Country Manager",
-      desc: "The only way to do great work is to love what you do.",
-    },
-    {
-      id: 9,
+      id: 7,
       image: "/assets/images/advisorone.png",
       name: "Ms. Anupriya Roy",
       designation: "General Manager",
