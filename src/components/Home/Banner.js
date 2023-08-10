@@ -55,7 +55,7 @@ const Banner = () => {
   const clientsData = [
     {
       id: 1,
-      image: "/assets/images/banner/1.webp",
+      image: "/assets/images/banner/banner-one.png",
     },
     {
       id: 2,
