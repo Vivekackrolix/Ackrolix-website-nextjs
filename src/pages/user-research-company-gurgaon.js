@@ -1,16 +1,16 @@
 import React from "react";
 import Head from "next/head";
-import Footer from "../../components/Common/Footer";
-import Header from "../../components/Common/Header";
-import Banner from "../../components/Services/DetailPage/Banner";
-import Cards from "../../components/Services/DetailPage/Cards";
-import Technology from "../../components/Services/DetailPage/Technology";
-import ComponentHead from "../../components/Common/ComponentHead";
-import Process from "../../components/Services/DetailPage/Process";
-import ProcessHead from "../../components/Services/DetailPage/ProcessHead";
-import Work from "../../components/Services/DetailPage/Work";
-import Enquiry from "../../components/Services/DetailPage/Enquiry";
-import Clients from "../../components/Home/Clients";
+import Header from "../components/Common/Header";
+import Banner from "../components/Services/DetailPage/Banner";
+import Cards from "../components/Services/DetailPage/Cards";
+import ComponentHead from "../components/Common/ComponentHead";
+import Technology from "../components/Services/DetailPage/Technology";
+import ProccessHead from "../components/Services/DetailPage/ProcessHead";
+import Process from "../components/Services/DetailPage/Process";
+import Work from "../components/Services/DetailPage/Work";
+import Enquiry from "../components/Services/DetailPage/Enquiry";
+import Clients from "../components/Home/Clients";
+import Footer from "../components/Common/Footer";
 
 const Research = () => {
   const processes = [
@@ -262,7 +262,7 @@ const Research = () => {
           }}
         >
           <div className="container-ack md:px-0 px-5">
-            <ProcessHead
+            <ProccessHead
               processhead="Steps"
               processsub="Why choose Ackrolix?"
               processdesc="Our team of creative and passionate professionals is dedicated to creating engaging user experiences. With a combination of data-driven insights and innovative approaches, we bring your vision to life and turn it into reality."

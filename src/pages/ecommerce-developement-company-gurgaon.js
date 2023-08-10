@@ -1,16 +1,16 @@
 import React from "react";
 import Head from "next/head";
-import Footer from "../../components/Common/Footer";
-import Header from "../../components/Common/Header";
-import ComponentHead from "../../components/Common/ComponentHead";
-import Banner from "../../components/Services/DetailPage/Banner";
-import Process from "../../components/Services/DetailPage/Process";
-import ProcessHead from "../../components/Services/DetailPage/ProcessHead";
-import Cards from "../../components/Services/DetailPage/Cards";
-import Enquiry from "../../components/Services/DetailPage/Enquiry";
-import Technology from "../../components/Services/DetailPage/Technology";
-import Work from "../../components/Services/DetailPage/Work";
-import Clients from "../../components/Home/Clients";
+import Header from "../components/Common/Header";
+import Banner from "../components/Services/DetailPage/Banner";
+import Cards from "../components/Services/DetailPage/Cards";
+import ComponentHead from "../components/Common/ComponentHead";
+import Technology from "../components/Services/DetailPage/Technology";
+import ProccessHead from "../components/Services/DetailPage/ProcessHead";
+import Process from "../components/Services/DetailPage/Process";
+import Work from "../components/Services/DetailPage/Work";
+import Enquiry from "../components/Services/DetailPage/Enquiry";
+import Clients from "../components/Home/Clients";
+import Footer from "../components/Common/Footer";
 
 const EcommerceDevelopmentCompany = () => {
   const processes = [
@@ -331,7 +331,7 @@ const EcommerceDevelopmentCompany = () => {
           }}
         >
           <div className="container-ack md:px-0 px-5">
-            <ProcessHead
+            <ProccessHead
               processhead="Process"
               processsub="Why choose Ackrolix for your Ecommerce Solutions?"
               processdesc="Ackrolix, a premier Ecommerce Development Company in Gurgaon, is a hotbed of inventiveness and originality. To push the limits of Ecommerce, our team of innovative designers, programmers, and marketing specialists works diligently. Utilizing the top Ecommerce platforms like Shopify, WooCommerce, Magento, and more, we specialize in developing online experiences that leave a lasting impact on your customers."

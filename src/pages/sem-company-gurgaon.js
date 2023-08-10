@@ -1,45 +1,49 @@
 import React from "react";
 import Head from "next/head";
-import Footer from '../../components/Common/Footer';
-import Header from "../../components/Common/Header";
-import Banner from "../../components/Services/DetailPage/Banner";
-import Cards from "../../components/Services/DetailPage/Cards";
-import Technology from "../../components/Services/DetailPage/Technology";
-import ComponentHead from "../../components/Common/ComponentHead";
-import Process from "../../components/Services/DetailPage/Process";
-import ProcessHead from "../../components/Services/DetailPage/ProcessHead";
-import Work from "../../components/Services/DetailPage/Work";
-import Enquiry from "../../components/Services/DetailPage/Enquiry";
-import Clients from "../../components/Home/Clients";
-import CaseStudies from "../../components/Services/DetailPage/CaseStudies";
-
-const Marketing = () => {
+import Header from "../components/Common/Header";
+import Banner from "../components/Services/DetailPage/Banner";
+import Cards from "../components/Services/DetailPage/Cards";
+import ComponentHead from "../components/Common/ComponentHead";
+import Technology from "../components/Services/DetailPage/Technology";
+import ProccessHead from "../components/Services/DetailPage/ProcessHead";
+import Process from "../components/Services/DetailPage/Process";
+import Work from "../components/Services/DetailPage/Work";
+import Enquiry from "../components/Services/DetailPage/Enquiry";
+import Clients from "../components/Home/Clients";
+import Footer from "../components/Common/Footer";
+import CaseStudies from "../components/Services/DetailPage/CaseStudies";
+const SemAgency = () => {
   const processes = [
     {
       id: "1",
-      name: "Expert Team",
-desc:"Talented experts developing data-driven strategies for significant digital growth."
+      name: "Expertise & Experience",
+      desc: "Ackrolix, a leading SEM firm, has a seasoned staff with years of experience in developing efficient search engine marketing strategies that produce measurable results.",
     },
     {
       id: "2",
-      name: "Customized Solutions",
-desc:"Strategies that are in line with your company's objectives to provide the highest return on investment."    },
+      name: "Well-Built Approach",
+      desc: "We design tactics to each client's specific goals, assuring focused ads that resonate with their specific audience and industry.",
+    },
     {
       id: "3",
-      name: "Diverse Services",
-desc: "A comprehensive offering of PPC, social media, SEO, and other digital marketing services."   },
+      name: "Data-Driven Insights",
+      desc: "As a reputable SEM firm, we rely on data analytics to constantly refine and optimize campaigns in order to maximize ROI and remain ahead of changing industry trends.",
+    },
     {
       id: "4",
-      name: "Proven Results",
-desc:"Results that have been demonstrated through improved online exposure and engagement."    },
+      name: "High-Tech Tools",
+      desc: "Ackrolix, a top search engine marketing business, uses advanced tools and technologies to do comprehensive keyword research, competitor analysis, and performance tracking.",
+    },
     {
       id: "5",
-      name: "Client-Centric Approach",
-desc:"A collaborative relationship that puts your individual needs and goals first."    },
+      name: "Transparent Reporting",
+      desc: "Clients choose us as their go-to SEM agency because of our commitment to transparent reporting, which provides them with real-time insights into campaign performance and outcomes."
+    },
     {
       id: "6",
-      name: "Constant Innovation",
-desc:"Keeping abreast of the most recent developments to keep your online presence current."    },
+      name: "Proven Success",
+      desc: "Ackrolix has a proven track record as the finest search engine marketing business, continuously delivering great results, increasing traffic, leads, and conversions for our clients."
+    },
   ];
   const techs = [
     {
@@ -179,6 +183,7 @@ desc:"Keeping abreast of the most recent developments to keep your online presen
       img: "/assets/images/service/svg/marketo.png",
       name: "Marketo",
 
+
     },
     {
       id: "25",
@@ -186,24 +191,23 @@ desc:"Keeping abreast of the most recent developments to keep your online presen
       name: "Tumblr",
 
     },
-   
   ];
-const cards = [
+  const cards = [
     {
       id: 1,
-      para: "Ackrolix is your partner in attaining digital marketing excellence, helping you with everything from developing compelling content that connects with your audience to implementing data-driven tactics that provide quantifiable results. Allow us to lead you through the dynamic world of digital marketing, turning obstacles into chances and elevating your brand to the top of the online marketplace.",
+      para: "Ackrolix, a top SEM company in Gurgaon, offers full search engine marketing services. We specialize in keyword research, ad production, bid management, and conversion optimisation to ensure maximum ROI and business growth.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "SUCCESS",
-      subtitle: "Diverse Digital Marketing Services for Your Success",
+      maintitle: "SERVICES",
+      subtitle: "Our Services",
     },
     {
       id: 2,
       icon: "01",
-      title: "SEO Optimisation",
-      para: "With the help of our SEO know-how, increase your online presence. In order to keep your brand at the top of search engine results, we optimize your website, improve keyword ranks, and increase organic traffic.",
+      title: "Keyword Research",
+      para: "Identify appropriate keywords to target, ensuring your adverts reach the proper audience and increasing your search engine presence.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -215,8 +219,8 @@ const cards = [
     {
       id: 3,
       icon: "02",
-      title: "PPC Campaigns",
-      para: "With our focused PPC campaigns, you can maximize your ROI. To generate high-quality traffic and conversions, our specialists create persuasive advertising, control bids, and keep track of performance.",
+      title: "Ad Campaign Development",
+      para: "Create enticing ad campaigns that catch attention, generate clicks, and bring traffic to your website for increased conversions.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -228,8 +232,8 @@ const cards = [
     {
       id: 4,
       icon: "03",
-      title: "Social Media Campaigns",
-      para: "Utilize social media's strength by using its many channels. To effectively connect and engage with your audience, we develop compelling content, manage profiles, and put data-driven initiatives into practice.",
+      title: "Ad Copywriting",
+      para: "Create convincing ad copy that resonates with users, emphasizing your offerings and motivating them to act.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -241,8 +245,8 @@ const cards = [
     {
       id: 5,
       icon: "04",
-      title: "Content marketing",
-      para: "Give your brand fuel by creating insightful content. In order to establish authority and increase audience engagement, our team creates educational and entertaining material, including blogs and infographics.",
+      title: "Bid Management",
+      para: "Use strategic bid management approaches to maximize your ad budget and achieve maximum ROI and cost-effective results.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -254,8 +258,8 @@ const cards = [
     {
       id: 6,
       icon: "05",
-      title: "Email marketing",
-      para: "We provide effective email campaigns to stay in touch with your audience. We create, carry out, and evaluate campaigns that develop leads, uphold engagement, and raise conversions.",
+      title: "Performance monitoring",
+      para: "Use advanced monitoring tools to analyze campaign performance and make data-driven modifications for continual improvement.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -267,8 +271,8 @@ const cards = [
     {
       id: 7,
       icon: "06",
-      title: "Analytics & Reporting",
-      para: "Use data-driven insights to gauge success. To optimize campaigns for ongoing growth, we give complete analytics, monitor important data, and deliver thorough reports.",
+      title: "Conversion Optimisation",
+      para: "Optimize landing pages and add elements to optimize user experience, resulting in increased conversion rates and campaign success. ",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -277,8 +281,7 @@ const cards = [
       textcolor: "text-secondary",
       main: "hidden",
     },
-  ];  
-
+  ];
   const casestudies=[
     {
       id:1,
@@ -319,17 +322,17 @@ const cards = [
   ];
   return (
     <div>
-      <Head>
-        <title>Digital Marketing Company in Gurgaon - Ackrolix</title>
+     <Head>
+        <title>Search Engine Marketing Service Company in Gurgaon - Ackrolix</title>
         <meta
           name="description"
-          content="Ackrolix is a top-rated Digital Marketing Company in Gurgaon, providing exceptional services to help businesses grow and succeed."
+          content="Boost your online presence with Ackrolix - the leading Search Engine Marketing Service Company in Gurgaon. let us assist you in achieving your digital objectives."
           />
           <meta property="og:title" 
-          content="Digital Marketing Company in Gurgaon - Ackrolix" />
+          content="Search Engine Marketing Service Company in Gurgaon - Ackrolix" />
           <meta
             property="og:description"
-            content="Ackrolix is a top-rated Digital Marketing Company in Gurgaon, providing exceptional services to help businesses grow and succeed."
+            content="Boost your online presence with Ackrolix - the leading Search Engine Marketing Service Company in Gurgaon. let us assist you in achieving your digital objectives."
           />
            <meta
             property="og:url"
@@ -347,23 +350,23 @@ const cards = [
           backgroundImage: 'url("/assets/images/mainbackground.png ")',
         }}
       >
-        <Banner 
-          bannertitle="Welcome to Ackrolix, Your Reliable Partner for Outstanding Digital Marketing"
-          bannersubtext="We take pride in being your all-inclusive digital marketing solution at Ackrolix. We are dedicated to developing your online presence into a thriving success story as a top digital marketing firm. Our knowledgeable team is aware that a successful online business requires more than just a website; it also needs a carefully planned digital marketing strategy that supports your company's objectives."
-          serviceimg="/assets/images/service/svg/dig.png"
-          servicehead="Promote Your Brand with Ackrolix's Integrated Digital Marketing Solutions"
-          servicedesc1=" Our customized digital marketing services are made to support your growth whether you're a startup trying to build your brand or an established company trying to widen your digital presence."
-          servicedesc2=" We set out on a journey to increase your online exposure, engage your target audience, and drive conversions with a well-defined digital marketing strategy in place. We provide a broad range of internet marketing services, such as search engine optimization (SEO), pay-per-click advertising (PPC), social media marketing, content marketing, email marketing, and more as an established digital marketing agency. Every area of your online presence will be optimized for maximum impact thanks to our all-encompassing strategy." 
+        <Banner
+          bannertitle="Ackrolix: Gurgaon's Best Search Engine Marketing Company"
+          bannersubtext="Welcome to Ackrolix, your go-to source in Gurgaon for innovative Search Engine Marketing (SEM) services. As a top SEM firm, we offer unmatched experience and brilliant ideas to increase your brand's online visibility and produce significant outcomes."
+          serviceimg="/assets/images/service/svg/eng.png"
+          servicehead="Manifest the Might of SEM with Ackrolix: Your Trusted SEM Agency"
+          servicedesc1=" We at Ackrolix are your growth catalyst, not simply another provider of SEM services in Gurgaon. Our complete approach to SEM encompasses all facets of the practice, from campaign optimisation and performance evaluation to keyword research and ad production. We guarantee that your investment in SEM produces measurable results by placing a strong emphasis on maximizing ROI. As the top search engine marketing firm in Gurgaon."
+          servicedesc2="Our skilled team of experts is familiar with the complex dynamics of the digital environment, and we specialize in developing well-built SEM plans that complement your particular company objectives."
         />
       </div>
       <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
-       <ComponentHead
-        title="Platforms"
-        sub="Digital Marketing"
-        head="The Platforms stack for Digital Marketing can vary depending on the specific requirements of the application and the chosen modernization approach."
-      />
-      <Technology tech={techs} />
+        <ComponentHead
+          title="Platforms"
+          sub="Social Engine Marketing"
+          head="The Platforms stack for Social Engine Marketing can vary depending on the specific requirements of the application and the chosen modernization approach."
+        />
+        <Technology tech={techs} />
       </div>
 
       <div>
@@ -374,11 +377,11 @@ const cards = [
           }}
         >
           <div className="container-ack md:px-0 px-5">
-            <ProcessHead
+            <ProccessHead
               processhead="Why ChooseUS"
-              processsub=" Why Choose Us "
-              processdesc="For professional strategies, specialised solutions, a variety of services, tested outcomes, a client-centric approach, and ongoing innovation driving your online success story, choose Ackrolix as your trusted digital marketing partner."
-              processimg="/assets/images/service/svg/dig1.png"
+              processsub="Why Choose Us?"
+              processdesc="Ackrolix is your go-to SEM partner for experienced ideas, tailored approaches, data-driven insights, novel tools, transparent reporting, and a track record of generating successful search engine marketing campaigns."
+              processimg="/assets/images/service/svg/eng1.png"
             />
             <Process process={processes} />
           </div>
@@ -388,11 +391,14 @@ const cards = [
             backgroundImage: 'url("/assets/images/service/wave.png")',
           }}></div>
       </div>
+
+
       <ComponentHead
         title="Studies"
         sub="Case Studies"
       />
 <CaseStudies casestudies={casestudies}/>
+
       <Work />
       {/* <Section /> */}
       <Enquiry />
@@ -402,4 +408,4 @@ const cards = [
   );
 };
 
-export default Marketing;
+export default SemAgency;

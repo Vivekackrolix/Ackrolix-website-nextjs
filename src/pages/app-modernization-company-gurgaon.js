@@ -1,16 +1,16 @@
 import React from "react";
 import Head from "next/head";
-import Footer from '../../components/Common/Footer';
-import Header from "../../components/Common/Header";
-import Banner from "../../components/Services/DetailPage/Banner";
-import Cards from "../../components/Services/DetailPage/Cards";
-import Technology from "../../components/Services/DetailPage/Technology";
-import ComponentHead from "../../components/Common/ComponentHead";
-import Process from "../../components/Services/DetailPage/Process";
-import ProcessHead from "../../components/Services/DetailPage/ProcessHead";
-import Work from "../../components/Services/DetailPage/Work";
-import Enquiry from "../../components/Services/DetailPage/Enquiry";
-import Clients from "../../components/Home/Clients";
+import Header from "../components/Common/Header";
+import Banner from "../components/Services/DetailPage/Banner";
+import Cards from "../components/Services/DetailPage/Cards";
+import ComponentHead from "../components/Common/ComponentHead";
+import Technology from "../components/Services/DetailPage/Technology";
+import ProccessHead from "../components/Services/DetailPage/ProcessHead";
+import Process from "../components/Services/DetailPage/Process";
+import Work from "../components/Services/DetailPage/Work";
+import Enquiry from "../components/Services/DetailPage/Enquiry";
+import Clients from "../components/Home/Clients";
+import Footer from "../components/Common/Footer";
 
 const AppModernizationDetails = () => {
   const processes = [
@@ -328,7 +328,7 @@ const AppModernizationDetails = () => {
             content="https://www.ackrolix.com/assets/images/logoack.png"
         />
       </Head>
-      <Header />
+      <Header/>
       <div
         className=" bg-right"
         style={{
@@ -362,7 +362,7 @@ const AppModernizationDetails = () => {
           }}
         >
           <div className="container-ack md:px-0 px-5">
-            <ProcessHead
+            <ProccessHead
               processhead="Why Choose Us"
               processsub="Why Choose Us"
               processdesc="From early analysis and planning to smooth implementation and continuous maintenance, we offer end-to-end support. Numerous happy clients who have benefited from our innovative solutions attest to our track record as one of the Best Application Modernization providers."
