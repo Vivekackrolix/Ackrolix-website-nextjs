@@ -1,50 +1,49 @@
 import React from "react";
 import Head from "next/head";
-import Footer from '../../components/Common/Footer';
-import Header from "../../components/Common/Header";
-import Banner from "../../components/Services/DetailPage/Banner";
-import Cards from "../../components/Services/DetailPage/Cards";
-import Technology from "../../components/Services/DetailPage/Technology";
-import ComponentHead from "../../components/Common/ComponentHead";
-import Process from "../../components/Services/DetailPage/Process";
-import ProcessHead from "../../components/Services/DetailPage/ProcessHead";
-import Work from "../../components/Services/DetailPage/Work";
-import Enquiry from "../../components/Services/DetailPage/Enquiry";
-import Clients from "../../components/Home/Clients";
-import CaseStudies from "../../components/Services/DetailPage/CaseStudies";
-const MediaBuying = () => {
+import Header from "../components/Common/Header";
+import Banner from "../components/Services/DetailPage/Banner";
+import Cards from "../components/Services/DetailPage/Cards";
+import ComponentHead from "../components/Common/ComponentHead";
+import Technology from "../components/Services/DetailPage/Technology";
+import ProccessHead from "../components/Services/DetailPage/ProcessHead";
+import Process from "../components/Services/DetailPage/Process";
+import Work from "../components/Services/DetailPage/Work";
+import Enquiry from "../components/Services/DetailPage/Enquiry";
+import Clients from "../components/Home/Clients";
+import Footer from "../components/Common/Footer";
+import CaseStudies from "../components/Services/DetailPage/CaseStudies";
+const PrAgency = () => {
   const processes = [
     {
       id: "1",
-      name: "Media Buying Expertise and Strategy",
-      desc: "Navigating diverse media landscapes necessitates strategic thinking. In the media glut of the digital age, brands aspire for impact."
-    },
+      name: "Experienced PR Strategists",
+      desc:"Our skilled team develops customized public relations plans to help your brand's message and reach."   
+     },
     {
       id: "2",
-      name: "Competitive Advertising Real Estate",
-      desc: "Obtaining ad space in oversaturated marketplaces is intensely competitive, necessitating precision and ingenuity."
+      name: "Media Excellence",
+      desc: "We get top-tier media coverage, increasing the visibility and reputation of your brand in the industry.",
     },
     {
       id: "3",
-      name: " Ackrolix: Reliable Media Purchasing Partner",
-      desc: "We utilise relationships and skills as a leading Media Buying Agency in Gurgaon for best engagement."
-    },
+      name: "Crisis Management",
+      desc:"You can rely on us to manage difficult situations quickly and effectively with crisis communication tactics."  
+      },
     {
       id: "4",
-      name: "Strategic Advertising Placement",
-      desc: "Our skilled team assures exact ad placing, resulting in increased engagement, conversions, and brand visibility."
+      name: "Captivating Content",
+      desc: "Our talented content developers create captivating storylines that connect with your target audience.",
     },
     {
       id: "5",
-      name: "Multi-Channel Holistic Approach",
-      desc: "Ackrolix's comprehensive media strategy fosters partnerships and interaction, moving your company forward in the digital space."
+      name: "Influencer Collaborations",
+      desc: "We form meaningful connections with influencers to increase the reach and engagement of your business.",
     },
     {
-      id: "6",
-      name: "Akrolix Digital Domination",
-      desc: "Work with us, your Digital Media Buying firm, to develop successful tactics that outperform the competition and increase brand influence."
+      id: "5",
+      name: "Results-Oriented Approach",
+      desc: "Using measurable metrics, we ensure that our public relations activities correspond with your business goals and produce concrete results.",
     },
-
   ];
   const techs = [
     {
@@ -196,19 +195,19 @@ const MediaBuying = () => {
   const cards = [
     {
       id: 1,
-      para: "Our modernization solutions revolutionize your applications' performance, scalability, agility, & maintainability. We enable seamless integration with emerging technologies, optimize infrastructure, & streamline workflows to ensure your applications are future-proof.",
+      para: "Ackrolix, a renowned PR agency in Gurgaon, can help you boost your brand's visibility. Media relations, crisis management, content production, influencer alliances, event publicity, and strategic social media skills are all part of our comprehensive offerings.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
       maintitle: "SERVICES",
-      subtitle: "Our Media Planning and Buying Services",
+      subtitle: "Our Outstanding Public Relations Services",
     },
     {
       id: 2,
       icon: "01",
-      title: "Master Planning",
-      para: "We will investigate your brand identity, target audience, budget, and core messaging in close collaboration with you. Our team of media buying experts will then create a tailored and impactful strategy based on your specific Key Performance Indicators (KPIs).",
+      title: "Press Relations",
+      para: "Through smart press releases and media coverage, build strong relationships with prominent media outlets to ensure your brand's message is heard by the proper audience.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -220,8 +219,8 @@ const MediaBuying = () => {
     {
       id: 3,
       icon: "02",
-      title: "Market Arena Data Insights ",
-      para: "We know when and how much to spend on your media buying campaign to obtain unmatched value. Our market analytics ensure that your ad is placed optimally for maximum reach and engagement.",
+      title: "Crisis Management",
+      para: "Protect your reputation with preemptive crisis planning and expert guidance, effectively managing and reducing possible public relations problems to preserve brand integrity.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -233,8 +232,8 @@ const MediaBuying = () => {
     {
       id: 4,
       icon: "03",
-      title: "Platform Analysis",
-      para: "We will carefully find and select the most appropriate platforms and channels for your advertisements based on a thorough analysis of your individual company objectives and goals. By accurately targeting the relevant audience and leveraging the most successful advertising channels, we aim to assure optimal conversion rates and return on investment (ROI).",
+      title: "Material Creation",
+      para: "Create captivating storylines through engaging material, ranging from press releases to thought leadership articles, to boost your brand's credibility and market placement.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -246,8 +245,8 @@ const MediaBuying = () => {
     {
       id: 5,
       icon: "04",
-      title: "Reporting and Analysis",
-      para: "You will receive extensive and detailed reports that summarise the results of your efforts and provide easy-to-digest insights. These reports will keep you informed and up to date on the most recent developments, giving you a comprehensive picture of the progress and impact of your marketing activities.",
+      title: "Influencer Partnerships",
+      para: "Work with industry influencers and thought leaders to magnify your brand message and connect with a larger audience by utilizing their reach and credibility.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -259,8 +258,8 @@ const MediaBuying = () => {
     {
       id: 6,
       icon: "05",
-      title: "Creative Audience Engagement",
-      para: "We have the knowledge and experience to assist you in developing a highly innovative and appealing strategy that not only grabs but also captivates your audience's imagination, ensuring your message resonates powerfully and successfully with them.",
+      title: "Event Publicity",
+      para: "Create buzz and media coverage to boost brand recognition and engagement among your target audience by planning and executing successful events.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -272,8 +271,8 @@ const MediaBuying = () => {
     {
       id: 7,
       icon: "06",
-      title: "Foolproof Coordination",
-      para: "We'll make certain that every platform used in your ad campaign is perfectly coordinated, guaranteeing that your ads look new and are carefully optimised to effectively engage viewers. Our committed approach ensures that your messaging is consistent across all media.",
+      title: "Social Media Strategy",
+      para: "Build a loyal online community around your company by developing a smart social media presence, producing compelling content, and nurturing meaningful conversations.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -282,6 +281,7 @@ const MediaBuying = () => {
       textcolor: "text-secondary",
       main: "hidden",
     },
+ 
   ];
   const casestudies=[
     {
@@ -320,26 +320,29 @@ const MediaBuying = () => {
       name:"North Star Metric",
       desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
     },
-  ]
+  ];
   return (
     <div>
       <Head>
-      <title>Media Planning and Buying Agency in Gurgaon- Ackrolix</title> 
-        <meta name="description" content="Looking for a media planning and buying agency in Gurgaon? Look no further than Ackrolix! Let us help you reach your target audience with ease." />
-        <link rel="canonical" href="#"/>
-        <meta property="og:title" content="Media Planning and Buying Agency in Gurgaon- Ackrolix" />
+        <title>PR Service Company in Gurgaon - Ackrolix</title>
         <meta
-          property="og:description"
-          content="Looking for a media planning and buying agency in Gurgaon? Look no further than Ackrolix! Let us help you reach your target audience with ease."
+          name="description"
+          content="Ackrolix is a reputable PR service company based in Gurgaon, offering professional and reliable public relations solutions."
+          />
+          <meta property="og:title" 
+          content="PR Service Company in Gurgaon - Ackrolix" />
+          <meta
+            property="og:description"
+            content="Ackrolix is a reputable PR service company based in Gurgaon, offering professional and reliable public relations solutions."
+          />
+           <meta
+            property="og:url"
+            content="#"
+          />
+          <meta
+            property="og:image"
+            content="https://www.ackrolix.com/assets/images/logoack.png"
         />
-        <meta
-          property="og:url"
-          content="#"
-        />
-        <meta
-          property="og:image"
-          content="https://www.ackrolix.com/assets/images/logoack.png"
-        />      
       </Head>
       <Header />
       <div
@@ -349,22 +352,20 @@ const MediaBuying = () => {
         }}
       >
         <Banner
-          bannertitle="Ackrolix, Your Trusted Media Buying Agency in Gurgaon! Access the Power of Media Buying!"
-          bannersubtext="At Ackrolix, we recognize that a successful marketing campaign is about more than simply creative slogans; it's about communicating with your target demographic at the right time and at the right price. That's where our Media Buying Services come in, assisting you in developing campaigns that drive marketing ROI and efficiently reach your target demographic."
-          serviceimg="/assets/images/service/svg/buy.png"
-          serviceimgAlt="Media Buying Agency"
-          servicehead="Strategic Media Buying Services for Effective Marketing Campaigns"
-          servicedesc1="Our skilled staff excels at Media Planning and Buying, employing a deliberate approach to locate and purchase ad space on the channels that are most important to your target audience. We serve traditional marketing channels such as television, radio, and print, as well as digital channels such as websites, social media, and streaming platforms."
-          
-          servicedesc2="You may expect maximum exposure among your target market while optimising your budget   when you use Ackrolix as your Digital Media Buying Agency. Our media buyers use exclusive  strategies such as Programmatic Buys, which use AI and algorithms to conduct real-time bidding on ad space targeted to specific consumer profiles. Furthermore, we execute Direct Buys, directly negotiating ad pricing and run periods with relevant advertisers to ensure optimal placements for your business."
+          bannertitle="Bringing Brands and Audiences Together: Top Public Relations Firm in Gurgaon"
+          bannersubtext="Ackrolix is the top PR firm in Gurgaon, thanks to a devoted team of specialists who understand the ever-changing communication landscape. We are dedicated to providing strategic solutions that not only increase the visibility of your business but also create significant interactions."
+          serviceimg="/assets/images/service/svg/pr.png"
+          servicehead="Raise Your Brand's Voice with Ackrolix Gurgaon's Best PR Agency"
+          servicedesc1="Welcome to Ackrolix, your dependable Public Relations partner. We specialise in building and amplifying captivating narratives that resonate with your target audience as a top PR agency in Gurgaon. Our mission is to help companies become influential voices by connecting them with customers, stakeholders, and the media."
+          servicedesc2="Whether you're a startup or an established company, our unique methods and bespoke campaigns guarantee that your brand narrative is heard loud and clear. Join us and discover the potential of excellent public relations to promote growth and foster long-term connections."
         />
       </div>
       <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
         <ComponentHead
           title="Platforms"
-          sub="Media Buying and Plannig"
-          head="The Platforms stack for Media Buying and Plannig can vary depending on the specific requirements of the application and the chosen modernization approach."
+          sub="PR Agency"
+          head="The Platforms stack for PR Agency can vary depending on the specific requirements of the application and the chosen modernization approach."
         />
         <Technology tech={techs} />
       </div>
@@ -377,11 +378,11 @@ const MediaBuying = () => {
           }}
         >
           <div className="container-ack md:px-0 px-5">
-            <ProcessHead
-              processhead="Services"
-              processsub="Our Media Planning and Buying Services              "
-              processdesc="Optimizing platforms, pushing the boundaries of innovation."
-              processimg="/assets/images/service/svg/buy1.png"
+            <ProccessHead
+              processhead="Why ChooseUS"
+              processsub="Why Choose Us as your Go-To Partner for Public Relations?"
+              processdesc="Choose Ackrolix as your Public Relations partner for unparalleled Public Relations Services. Our skilled staff develops customized plans, acquires top-tier media coverage, successfully handles crises, provides appealing content, engages with influencers, and ensures results-driven success."
+              processimg="/assets/images/service/svg/pr1.png"
             />
             <Process process={processes} />
           </div>
@@ -391,11 +392,13 @@ const MediaBuying = () => {
             backgroundImage: 'url("/assets/images/service/wave.png")',
           }}></div>
       </div>
+
       <ComponentHead
         title="Studies"
         sub="Case Studies"
       />
 <CaseStudies casestudies={casestudies}/>
+
       <Work />
       {/* <Section /> */}
       <Enquiry />
@@ -405,4 +408,4 @@ const MediaBuying = () => {
   );
 };
 
-export default MediaBuying;
+export default PrAgency;

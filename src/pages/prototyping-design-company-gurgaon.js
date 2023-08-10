@@ -1,16 +1,16 @@
 import React from "react";
 import Head from "next/head";
-import Footer from '../../components/Common/Footer';
-import Header from "../../components/Common/Header";
-import Banner from "../../components/Services/DetailPage/Banner";
-import Cards from "../../components/Services/DetailPage/Cards";
-import Technology from "../../components/Services/DetailPage/Technology";
-import ComponentHead from "../../components/Common/ComponentHead";
-import Process from "../../components/Services/DetailPage/Process";
-import ProcessHead from "../../components/Services/DetailPage/ProcessHead";
-import Work from "../../components/Services/DetailPage/Work";
-import Enquiry from "../../components/Services/DetailPage/Enquiry";
-import Clients from "../../components/Home/Clients";
+import Header from "../components/Common/Header";
+import Banner from "../components/Services/DetailPage/Banner";
+import Cards from "../components/Services/DetailPage/Cards";
+import ComponentHead from "../components/Common/ComponentHead";
+import Technology from "../components/Services/DetailPage/Technology";
+import ProccessHead from "../components/Services/DetailPage/ProcessHead";
+import Process from "../components/Services/DetailPage/Process";
+import Work from "../components/Services/DetailPage/Work";
+import Enquiry from "../components/Services/DetailPage/Enquiry";
+import Clients from "../components/Home/Clients";
+import Footer from "../components/Common/Footer";
 
 const Prototyping = () => {
   const processes = [
@@ -270,7 +270,7 @@ const cards = [
           }}
         >
           <div className="container-ack md:px-0 px-5">
-            <ProcessHead
+            <ProccessHead
               processhead="Why Choose Us"
               processsub="Why Choose Us"
               processdesc="Ackrolix takes great pleasure in being Gurgaon's go-to Prototype Development Agency. We provide innovative Prototype Development Services that are targeted to your specific needs, with an emphasis on creativity, competence, and customer-centricity."

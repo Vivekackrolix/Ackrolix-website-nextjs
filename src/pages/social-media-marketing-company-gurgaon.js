@@ -1,17 +1,18 @@
 import React from "react";
 import Head from "next/head";
-import Footer from '../../components/Common/Footer';
-import Header from "../../components/Common/Header";
-import Banner from "../../components/Services/DetailPage/Banner";
-import Cards from "../../components/Services/DetailPage/Cards";
-import Technology from "../../components/Services/DetailPage/Technology";
-import ComponentHead from "../../components/Common/ComponentHead";
-import Process from "../../components/Services/DetailPage/Process";
-import ProcessHead from "../../components/Services/DetailPage/ProcessHead";
-import Work from "../../components/Services/DetailPage/Work";
-import Enquiry from "../../components/Services/DetailPage/Enquiry";
-import Clients from "../../components/Home/Clients";
-import CaseStudies from "../../components/Services/DetailPage/CaseStudies";
+
+import Header from "../components/Common/Header";
+import Banner from "../components/Services/DetailPage/Banner";
+import Cards from "../components/Services/DetailPage/Cards";
+import ComponentHead from "../components/Common/ComponentHead";
+import Technology from "../components/Services/DetailPage/Technology";
+import ProccessHead from "../components/Services/DetailPage/ProcessHead";
+import Process from "../components/Services/DetailPage/Process";
+import Work from "../components/Services/DetailPage/Work";
+import Enquiry from "../components/Services/DetailPage/Enquiry";
+import Clients from "../components/Home/Clients";
+import Footer from "../components/Common/Footer";
+import CaseStudies from "../components/Services/DetailPage/CaseStudies";
 const SmmAgency = () => {
   const processes = [
     {
@@ -380,7 +381,7 @@ const SmmAgency = () => {
           }}
         >
           <div className="container-ack md:px-0 px-5">
-            <ProcessHead
+            <ProccessHead
               processhead="Why ChooseUS"
               processsub="Why Choose Us as your Social Media Marketing Partner"
               processdesc="Ackrolix distinguishes itself as the top social media marketing company in Gurgaon thanks to our go-to tactics, focused targeting, dependable outcomes, personalised approach, all-inclusive solutions, and strategic insights."
