@@ -94,7 +94,7 @@ const Navbar = () => {
                             href="/ux-design-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            UX Strategy Company
+                            UX Design Company
                           </Link>
                           <Link
                             href="/ui-designing-company-gurgaon"
@@ -168,7 +168,7 @@ const Navbar = () => {
                         </div>
 
 
-                        <div className="p-1 text-black text-xs  w-96 text-left flex flex-col rounded-r-md">
+                        <div className="p-1 text-black text-xs  w-80 text-left flex flex-col rounded-r-md">
                           <p className=" text-black text-base font-bold px-4 py-5 "> <Link href="/services">Digital Modernization </Link></p>
 
                           <Link
@@ -230,44 +230,44 @@ const Navbar = () => {
                     </Disclosure.Button>
                     <Disclosure.Panel className="text-gray-500 px-10 ">
                       <div className="top-0 bg-white flex flex-col py-5">
-                        <div className="p-1 text-black text-xs  w-80 text-left flex flex-col rounded-l-md  border-r-2 border-primary">
+                      <div className="p-1 text-black text-xs  w-80 text-left flex flex-col rounded-l-md  border-r-2 border-primary">
                           <p className=" text-black text-base font-bold px-4 py-5 "> <Link href="/services">Product Conceptualization</Link>  </p>
 
                           <Link
                             href="/prototyping-design-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            Prototyping
+                            Prototyping Design Company
                           </Link>
                           <Link
                             href="/ux-design-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            UX Strategy
+                            UX Design Company
                           </Link>
                           <Link
                             href="/ui-designing-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            UI Designing
+                            UI Designing Company
                           </Link>
                           <Link
                             href="/user-research-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a]   rounded-md px-4 py-2 text-sm"
                           >
-                            User Research
+                            User Research Company
                           </Link>
                           <Link
                             href="/usability-testing-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            Usability Testing
+                            Usability Testing Company
                           </Link>
                           <Link
                             href="/data-visualisation-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            Data Visualisation
+                            Data Visualisation Company
                           </Link>
 
                         </div>
@@ -279,39 +279,39 @@ const Navbar = () => {
                             href="/website-development-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            Web Development
+                            Web Development Company
                           </Link>
                           <Link
                             href="/app-modernization-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            App Modernization
+                            App Modernization Company
                           </Link>
                           <Link
                             href="/software-development-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            Software Development
+                            Software Development Company
                           </Link>
                           <Link
                             href="/digital-product-design-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a]   rounded-md px-4 py-2 text-sm"
                           >
-                            Digital Product Design
+                           Digital Product Design Company
                           </Link>
 
                           <Link
                             href="/ecommerce-developement-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            Ecommerce Development
+                            Ecommerce Development Company
                           </Link>
 
                           <Link
                             href="/cloud-app-development-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            Cloud Engineering & DevOps
+                            Cloud Application Development Company
                           </Link>
 
                         </div>
@@ -324,7 +324,7 @@ const Navbar = () => {
                             href="/digital-marketing-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a]   rounded-md px-4 py-2 text-sm"
                           >
-                            Digital Marketing Strategy
+                            Digital Marketing Company
                           </Link>
 
 
@@ -332,32 +332,32 @@ const Navbar = () => {
                             href="/social-media-marketing-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            Social Media Marketing (SMM)
+                          Social Media Marketing Company
                           </Link>
 
                           <Link
                             href="/sem-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            Search Engine Marketing (SEM)
+                            Search Engine Marketing Company
                           </Link>
                           <Link
                             href="/seo-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            Search Engine Optimization (SEO)
+                            SEO Company
                           </Link>
                           <Link
                             href="/pr-agency-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            Public Relations (PR)
+                            PR Agency
                           </Link>
                           <Link
                             href="/media-buying-company-gurgaon"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            Media Buying and Planning
+                            Media Buying Company
                           </Link>
                         </div>
 
