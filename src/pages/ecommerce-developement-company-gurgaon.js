@@ -285,6 +285,7 @@ const EcommerceDevelopmentCompany = () => {
           name="description"
           content="Ackrolix is a top-rated Ecommerce Development Company in Gurgaon, delivering exceptional solutions to businesses of all sizes."
         />
+         <link rel="canonical" href="https://www.ackrolix.com/ecommerce-developement-company-gurgaon"/>
         <meta
           property="og:title"
           content="Ecommerce Development company in Gurgaon - Ackrolix"
@@ -309,6 +310,7 @@ const EcommerceDevelopmentCompany = () => {
           bannertitle="Ecommerce Development company in Gurgaon"
           bannersubtext="In the thriving city of Gurgaon, Ackrolix brings the e-commerce development scene to life, starting an exciting adventure to push the limits of innovation, foster digital imagination, and reimagine the online experience."
           serviceimg="/assets/images/service/svg/ecom.png"
+          serviceimgAlt="Ecommerce Development company"
           servicehead="Ackrolix leading e-commerce development company empowering global businesses."
           servicedesc1="As a reputable e-commerce Development Company in Gurgaon, Ackrolix recognizes that the goal of e-commerce is to develop a digital strategy that enables companies and customers to interact on a deeper level, where imagination knows no limitations and every pixel emanates enthusiasm. From Gurgaon to the global stage, our team of digital lovers—visionaries, designers, and computer nerds—builds e-commerce systems that cross national boundaries and promote business growth."
           servicedesc2="Collaboration is essential to our journey because it allows us to fully comprehend our clients' requirements, dreams, and goals. We create engaging digital experiences that hold users' attention right away. We design every element of your online store for the greatest effect and engagement by drawing on our in-depth knowledge of business trends and customer behavior. Each project is a collaborative journey where innovation and technology drive client pleasure. "
@@ -336,6 +338,7 @@ const EcommerceDevelopmentCompany = () => {
               processsub="Why choose Ackrolix for your Ecommerce Solutions?"
               processdesc="Ackrolix, a premier Ecommerce Development Company in Gurgaon, is a hotbed of inventiveness and originality. To push the limits of Ecommerce, our team of innovative designers, programmers, and marketing specialists works diligently. Utilizing the top Ecommerce platforms like Shopify, WooCommerce, Magento, and more, we specialize in developing online experiences that leave a lasting impact on your customers."
               processimg="/assets/images/service/svg/ecom1.png"
+              proocessalt="ecommerce development services"
             />
             <Process process={processes} />
           </div>

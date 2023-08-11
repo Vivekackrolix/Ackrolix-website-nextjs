@@ -329,6 +329,7 @@ const PrAgency = () => {
           name="description"
           content="Ackrolix is a reputable PR service company based in Gurgaon, offering professional and reliable public relations solutions."
           />
+           <link rel="canonical" href="https://www.ackrolix.com/pr-agency-gurgaon"/>
           <meta property="og:title" 
           content="PR Service Company in Gurgaon - Ackrolix" />
           <meta
@@ -355,6 +356,7 @@ const PrAgency = () => {
           bannertitle="Bringing Brands and Audiences Together: Top Public Relations Firm in Gurgaon"
           bannersubtext="Ackrolix is the top PR firm in Gurgaon, thanks to a devoted team of specialists who understand the ever-changing communication landscape. We are dedicated to providing strategic solutions that not only increase the visibility of your business but also create significant interactions."
           serviceimg="/assets/images/service/svg/pr.png"
+          serviceimgAlt="public relations agency"
           servicehead="Raise Your Brand's Voice with Ackrolix Gurgaon's Best PR Agency"
           servicedesc1="Welcome to Ackrolix, your dependable Public Relations partner. We specialise in building and amplifying captivating narratives that resonate with your target audience as a top PR agency in Gurgaon. Our mission is to help companies become influential voices by connecting them with customers, stakeholders, and the media."
           servicedesc2="Whether you're a startup or an established company, our unique methods and bespoke campaigns guarantee that your brand narrative is heard loud and clear. Join us and discover the potential of excellent public relations to promote growth and foster long-term connections."
@@ -383,6 +385,7 @@ const PrAgency = () => {
               processsub="Why Choose Us as your Go-To Partner for Public Relations?"
               processdesc="Choose Ackrolix as your Public Relations partner for unparalleled Public Relations Services. Our skilled staff develops customized plans, acquires top-tier media coverage, successfully handles crises, provides appealing content, engages with influencers, and ensures results-driven success."
               processimg="/assets/images/service/svg/pr1.png"
+              proocessalt="pr agency"
             />
             <Process process={processes} />
           </div>

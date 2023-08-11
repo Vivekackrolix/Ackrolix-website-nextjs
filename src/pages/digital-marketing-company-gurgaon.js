@@ -325,6 +325,7 @@ const cards = [
           name="description"
           content="Ackrolix is a top-rated Digital Marketing Company in Gurgaon, providing exceptional services to help businesses grow and succeed."
           />
+           <link rel="canonical" href="https://www.ackrolix.com/digital-marketing-company-gurgaon"/>
           <meta property="og:title" 
           content="Digital Marketing Company in Gurgaon - Ackrolix" />
           <meta
@@ -351,6 +352,7 @@ const cards = [
           bannertitle="Welcome to Ackrolix, Your Reliable Partner for Outstanding Digital Marketing"
           bannersubtext="We take pride in being your all-inclusive digital marketing solution at Ackrolix. We are dedicated to developing your online presence into a thriving success story as a top digital marketing firm. Our knowledgeable team is aware that a successful online business requires more than just a website; it also needs a carefully planned digital marketing strategy that supports your company's objectives."
           serviceimg="/assets/images/service/svg/dig.png"
+          serviceimgAlt="digital marketing company"
           servicehead="Promote Your Brand with Ackrolix's Integrated Digital Marketing Solutions"
           servicedesc1=" Our customized digital marketing services are made to support your growth whether you're a startup trying to build your brand or an established company trying to widen your digital presence."
           servicedesc2=" We set out on a journey to increase your online exposure, engage your target audience, and drive conversions with a well-defined digital marketing strategy in place. We provide a broad range of internet marketing services, such as search engine optimization (SEO), pay-per-click advertising (PPC), social media marketing, content marketing, email marketing, and more as an established digital marketing agency. Every area of your online presence will be optimized for maximum impact thanks to our all-encompassing strategy." 
@@ -379,6 +381,7 @@ const cards = [
               processsub=" Why Choose Us "
               processdesc="For professional strategies, specialised solutions, a variety of services, tested outcomes, a client-centric approach, and ongoing innovation driving your online success story, choose Ackrolix as your trusted digital marketing partner."
               processimg="/assets/images/service/svg/dig1.png"
+              proocessalt="digital market agency"
             />
             <Process process={processes} />
           </div>

@@ -313,6 +313,7 @@ const CloudEngineeringAndDevOps = () => {
           name="description"
           content="Ackrolix is a leading cloud application development company in Gurgaon. That helps businesses of all sizes build and deploy scalable, secure, and reliable cloud applications."
           />
+           <link rel="canonical" href="https://www.ackrolix.com/cloud-app-development-company-gurgaon"/>
           <meta property="og:title" content="Cloud Application Development Company in Gurgaon - Ackrolix" />
           <meta
             property="og:description"
@@ -338,6 +339,7 @@ const CloudEngineeringAndDevOps = () => {
           bannertitle="Solutions for Cloud Engineering and DevOps to Boost Business"
           bannersubtext="Ackrolix, a prominent cloud engineering and devops firm with offices in Gurgaon, is a market leader in the technology sector, providing pioneering solutions for organisations of all kinds. Our committed team of experts excels at converting ageing IT infrastructures into stable, scalable cloud-based designs."
           serviceimg="/assets/images/service/svg/clo.png"
+          serviceimgAlt="Cloud Application Development Services in Gurgaon"
           servicehead="Upgrade Your Business with Ackrolix Cloud Engineering and DevOps Pioneers in Gurgaon"
           servicedesc1="Ackrolix, a prominent cloud engineering and devops firm with offices in Gurgaon, is a market leader in the technology sector, providing pioneering solutions for organisations of all kinds. Our committed team of experts excels at converting ageing IT infrastructures into stable, scalable cloud-based designs."
           servicedesc2="Another one of Ackrolix's main competencies is DevOps, which is crucial to the process of developing and distributing software. We offer effective Continuous Integration/Continuous Delivery (CI/CD) pipelines, automated testing, and delivery processes by combining development and operations teams. This more efficient method encourages teamwork, shortens the development process, and reduces the time it takes to market new features and products."
@@ -365,6 +367,7 @@ const CloudEngineeringAndDevOps = () => {
               processsub="Why choose Ackrolix?"
               processdesc="Choose Ackrolix as the top provider of cloud application development services due to its unmatched knowledge, creative solutions, and exceptional outcomes. Ackrolix provides skilled developers, refined technology, and a customer-centric approach. The company has a history of developing successful applications for a range of sectors."
               processimg="/assets/images/service/svg/clo1.png"
+              proocessalt="Cloud App Development Services"
             />
             <Process process={processes} />
           </div>

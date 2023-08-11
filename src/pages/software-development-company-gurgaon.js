@@ -310,7 +310,7 @@ const SoftwareDevelopmentCompany = () => {
       <Head>
         <title>Software Development Company in Gurgaon - Ackrolix</title>  
         <meta name="description" content="Ackrolix is a leading Software Development Company in Gurgaon, providing top-notch services to clients worldwide.Count on us for all your software requirements." />
-        <link rel="canonical" href="#"/>
+        <link rel="canonical" href="https://www.ackrolix.com/software-development-company-gurgaon"/>
         <meta property="og:title" content="Software Development Company in Gurgaon - Ackrolix" />
         <meta
           property="og:description"
@@ -336,6 +336,7 @@ const SoftwareDevelopmentCompany = () => {
           bannertitle="Revolutionizing Tech: Ackrolix, Gurgaon's Innovation Hub"
           bannersubtext="Welcome to the innovation hub in Gurgaon, where Ackrolix makes the technology dream a reality. We are more than just a regular Software Development Agency; we create the best digital experiences by pushing the envelope of what is conceivable."
           serviceimg="/assets/images/service/svg/soft.png"
+          serviceimgAlt="Software Development Company"
           servicehead="The future is our playground; dreams do come true"
           servicedesc1="Ackrolix is a symbol of advancement in the technology of Software Development Services in Gurgaon. By keeping an eye on emerging trends, we make sure that your plans are outfitted with the most up-to-date and effective Software Design Services."
           servicedesc2="That is what we call the fantastic, fascinating experience with Ackrolix. Because we are a Software design firm that is a firm believer in the value of open communication and cooperation, we keep you updated at every stage. We will work to realize your dreams because they are the ones that fuel us. Our Software company, i.e., Ackrolix, is your one-stop shop for technology insights, whether you're interested in web development, mobile apps, or high-tech software. Enter the realm of our Software development services,  where imagination and creativity are allowed to run free, and your vision will become unforgettable."
@@ -364,6 +365,7 @@ const SoftwareDevelopmentCompany = () => {
               processsub="A Structured Process For Success"
               processdesc="Ackrolix, a prominent Gurgaon-based software development company, has risen to the top of the industry by recognizing the importance of innovation. You may be confident that your vision will materialize when working with Ackrolix, your go-to software development company in Gurgaon. We plan our hours to be as effective as possible, that every minute counts towards the success of your Software Development Services in Gurgaon."
               processimg="/assets/images/service/svg/soft1.png"
+              proocessalt="Software Development Services"
             />
             <Process process={processes} />
           </div>

@@ -33,7 +33,7 @@ const Banner = ({
           <div className="md:grid grid-cols-2 gap-6 pt-12 container-ack  ">
             <div className="pb-5 ">
               {/* <img src="/assets/images/aboutusimg3.png" alt="" /> */}
-              <img src={serviceimg} alt={serviceimgAlt} />
+              <img src={serviceimg} alt={serviceimgAlt}  />
             </div>
 
             <div className=" md:px-0 px-5 pb-10 md:pb-0  relative">

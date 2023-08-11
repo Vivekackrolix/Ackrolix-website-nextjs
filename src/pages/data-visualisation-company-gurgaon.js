@@ -218,6 +218,7 @@ const Visualisation = () => {
           name="description"
           content="Ackrolix is a leading Data Visualization Services Company in Gurgaon, providing  high-quality solutions for businesses seeking to enhance their data visualization capabilities."
         />
+         <link rel="canonical" href="https://www.ackrolix.com/data-visualisation-company-gurgaon"/>
         <meta
           property="og:title"
           content="Data Visualization Services Company in Gurgaon - Ackrolix"
@@ -242,6 +243,7 @@ const Visualisation = () => {
           bannertitle="Ackrolix: Most trusted Data Visualization Company in Gurgaon"
           bannersubtext="Ackrolix, your reliable Data visualization Company in Gurgaon, can help you discover the power of your data! Understanding and making sense of data are essential for businesses to succeed in today's data-driven environment. At Ackrolix, we offer excellent Data visualisation Services in Gurgaon that make it simple for our clients to obtain, examine, and comprehend complex data."
           serviceimg="/assets/images/service/svg/vis.png"
+          serviceimgAlt="data visualisation company"
           servicehead="Determine the Vastness of Data with Ackrolix's Data Visualisation Calibre"
           servicedesc1="We serve a variety of industries, including government, finance, marketing, education, sports, and more as the go-to Data Visualisation Company in Gurgaon. For professionals looking to develop their data-driven decision-making skills and become experts at using data to make captivating visual tales, our services are crucial."
           servicedesc2="Making sense of information is essential for organizations to succeed in today's data-driven environment. Ackrolix is an expert in offering top-notch Data visualization Services in Gurgaon that enable our customers to easily comprehend, examine, and exchange data. As a leading Data visualization Company in Gurgaon, we provide cutting-edge solutions that make your data come to life so you can make wise decisions and discover insightful information."
@@ -271,6 +273,7 @@ const Visualisation = () => {
               processdesc="Steps we follow for
               data visualisation"
               processimg="/assets/images/service/svg/vis1.png"
+              proocessalt="data visualisation agency"
             />
             <Process process={processes} />
           </div>

@@ -214,6 +214,8 @@ const Research = () => {
           name="description"
           content="Ackrolix is a professional User Research Company based in Gurgaon, providing expert insights and analysis to enhance user experience."
           />
+                  <link rel="canonical" href="https://www.ackrolix.com/user-research-company-gurgaon"/>
+
           <meta property="og:title" content="User Research Company in Gurgaon - Ackrolix" />
           <meta
             property="og:description"
@@ -239,6 +241,7 @@ const Research = () => {
           bannertitle="Ackrolix: Innovating as the Leading User Research Company in Gurgaon"
           bannersubtext="Ackrolix is a prominent User Research Firm based in Gurgaon. Our voyage into human experience and innovation yields a comprehensive understanding map that affects the future by precisely unraveling user behaviors, preferences, and aspirations."
           serviceimg="/assets/images/service/svg/ur.png"
+          serviceimgAlt="user research company"
           servicehead="We unveil User Insights by being your Guide to Excellence"
           servicedesc1="At Ackrolix, we believe that user experience research is the key to defining innovation and driving success. Our particular approach to user research distinguishes us in the business. We go beyond simply gathering data and instead engage in an exciting journey to genuinely understand the essence of your audience."
           servicedesc2="Our dedicated staff goes deep into the hearts and brains of users to untangle their ideas and wonders, combining analytical skills with artistic genius. As a leading User Research Agency in Gurgaon, we offer comprehensive user experience research services tailored to your specific requirements."
@@ -267,6 +270,7 @@ const Research = () => {
               processsub="Why choose Ackrolix?"
               processdesc="Our team of creative and passionate professionals is dedicated to creating engaging user experiences. With a combination of data-driven insights and innovative approaches, we bring your vision to life and turn it into reality."
               processimg="/assets/images/service/svg/ur1.png"
+              proocessalt="user experience research services"
             />
             <Process process={processes} />
           </div>

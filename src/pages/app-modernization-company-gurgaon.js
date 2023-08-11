@@ -309,10 +309,12 @@ const AppModernizationDetails = () => {
     <div>
       <Head>
         <title>App Modernization Services Company in Gurgaon - Ackrolix</title>
+        
         <meta
           name="description"
           content="Looking to modernize your app? Look no further than Ackrolix. Our team of experts offers custom App Modernization Services that will make your app look and work better than ever."
           />
+           <link rel="canonical" href="https://www.ackrolix.com/app-modernization-company-gurgaon"/>
           <meta property="og:title" 
           content="App Modernization Services Company in Gurgaon - Ackrolix" />
           <meta
@@ -339,6 +341,7 @@ const AppModernizationDetails = () => {
           bannertitle="Ackrolix - Transform Your Business with our Application Modernisation Solutions"
           bannersubtext="Ackrolix, the top Application Modernisation Company in Gurgaon, will help you realise the full potential of your old applications. Our effective and successful services ensure that your software is upgraded for modern computing approaches, taking advantage of newer languages, frameworks, and infrastructure platforms."
           serviceimg="/assets/images/service/svg/app.png"
+          serviceimgAlt="App Modernization Services"
           servicehead="Ackrolix's excellent Application Modernisation Services may breathe new life into legacy applications"
           servicedesc1="Ackrolix's Application Modernisation Agency will help you secure your investments while also embracing technological developments. Our strong modernisation strategy decreases resource requirements while increasing deployment frequency and dependability, as well as increasing uptime and resiliency. Improve efficiency and safety by seamlessly integrating modern infrastructure, tools, and languages into your software portfolio."
           servicedesc2="Our Application Modernisation Services are designed for businesses looking for an efficient digital transformation plan. We recognise the importance of your current application portfolio and provide solutions that improve your application's platform infrastructure and internal architecture. Take advantage of faster feature delivery and expose current functionality via APIs for smooth integration with other services."
@@ -367,6 +370,7 @@ const AppModernizationDetails = () => {
               processsub="Why Choose Us"
               processdesc="From early analysis and planning to smooth implementation and continuous maintenance, we offer end-to-end support. Numerous happy clients who have benefited from our innovative solutions attest to our track record as one of the Best Application Modernization providers."
               processimg="/assets/images/service/svg/app1.png"
+              proocessalt="Legacy Application Modernization Services"
             />
             <Process process={processes} />
           </div>

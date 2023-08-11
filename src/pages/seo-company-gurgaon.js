@@ -327,7 +327,7 @@ const SeoAgency = () => {
         <title>SEO Service Company in Gurgaon - Ackrolix</title>
         <meta name="description"
          content="Boost your online presence with Ackrolix, a leading SEO service company based in Gurgaon. Get expert solutions for your digital marketing needs. Get in touch with us today." />
-        <link rel="canonical" href="#"/>
+      <link rel="canonical" href="https://www.ackrolix.com/seo-company-gurgaon"/>
         <meta property="og:title" 
         content="SEO Service Company in Gurgaon - Ackrolix" />
         <meta
@@ -354,6 +354,7 @@ const SeoAgency = () => {
           bannertitle=" Raise Ranking with Ackrolix: Your Leading SEO Services Company in Gurgaon"
           bannersubtext="Ackrolix distinguishes itself as a successful league of SEO gurus in the crowded market of SEO agencies. Beyond optimising search engine results, our team of professionals focuses on raising conversion rates, revenues, and client advantages without raising prices. Ackrolix understands the critical role SEO and social media play in business growth, with over 80% of internet searches having an impact on success. In today's competitive business environment, innovation is essential to survival."
           serviceimg="/assets/images/service/svg/sea.png"
+          serviceimgAlt="seo services company"
           servicehead="Boost Your Online Presence with Ackrolix's Winning SEO Services"
           servicedesc1="We guarantee commercial success and maximise your ranking with our comprehensive knowledge by building a strong online presence that connects with the digital world. With brilliant performance across devices and platforms, our creative abilities translate into successful websites and enticing user experiences that captivate visitors with intuitive navigation and beautiful design. Search engines may detect the significance and authority of your online presence thanks to the strategically constructed high-quality, authoritative links that Ackrolix creates."
           servicedesc2="Select Ackrolix as your go-to SEO company in Gurgaon, where creativity and experience merge to propel your company to new heights. Our all-encompassing SEO services are designed to increase conversions, profits, and customer benefits while building a strong online presence that appeals to your target market. As a top provider of SEO services in Gurgaon."
@@ -382,6 +383,7 @@ const SeoAgency = () => {
               processsub="Why Choose Us?"
               processdesc="Choose Ackrolix as your SEO Company in Gurgaon to unlock the true potential of your online presence. With rich experience and expertise in multiple industries, we create SEO strategies for your specific goals."
               processimg="/assets/images/service/svg/sea1.png"
+              proocessalt="seo services"
             />
             <Process process={processes} />
           </div>

@@ -328,6 +328,7 @@ const SemAgency = () => {
           name="description"
           content="Boost your online presence with Ackrolix - the leading Search Engine Marketing Service Company in Gurgaon. let us assist you in achieving your digital objectives."
           />
+           <link rel="canonical" href="https://www.ackrolix.com/sem-company-gurgaon"/>
           <meta property="og:title" 
           content="Search Engine Marketing Service Company in Gurgaon - Ackrolix" />
           <meta
@@ -354,6 +355,7 @@ const SemAgency = () => {
           bannertitle="Ackrolix: Gurgaon's Best Search Engine Marketing Company"
           bannersubtext="Welcome to Ackrolix, your go-to source in Gurgaon for innovative Search Engine Marketing (SEM) services. As a top SEM firm, we offer unmatched experience and brilliant ideas to increase your brand's online visibility and produce significant outcomes."
           serviceimg="/assets/images/service/svg/eng.png"
+          serviceimgAlt="search engine marketing company"
           servicehead="Manifest the Might of SEM with Ackrolix: Your Trusted SEM Agency"
           servicedesc1=" We at Ackrolix are your growth catalyst, not simply another provider of SEM services in Gurgaon. Our complete approach to SEM encompasses all facets of the practice, from campaign optimisation and performance evaluation to keyword research and ad production. We guarantee that your investment in SEM produces measurable results by placing a strong emphasis on maximizing ROI. As the top search engine marketing firm in Gurgaon."
           servicedesc2="Our skilled team of experts is familiar with the complex dynamics of the digital environment, and we specialize in developing well-built SEM plans that complement your particular company objectives."
@@ -382,6 +384,7 @@ const SemAgency = () => {
               processsub="Why Choose Us?"
               processdesc="Ackrolix is your go-to SEM partner for experienced ideas, tailored approaches, data-driven insights, novel tools, transparent reporting, and a track record of generating successful search engine marketing campaigns."
               processimg="/assets/images/service/svg/eng1.png"
+              proocessalt="Search Engine Marketing Services"
             />
             <Process process={processes} />
           </div>
