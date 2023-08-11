@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillPlayCircle } from "react-icons/ai";
 
-const ProccessHead = ({processhead, processsub, processdesc, processimg}) => {
+const ProccessHead = ({processhead, processsub, processdesc, processimg,proocessalt}) => {
     return (
       <div>        
             <div className="grid md:grid-cols-2 gap-10 items-center container-ack">
@@ -31,10 +31,10 @@ const ProccessHead = ({processhead, processsub, processdesc, processimg}) => {
                 <div className="  relative ">
                   <img
                     src={processimg}
-                    alt=""
+                    alt={proocessalt}
                     className=""
                   />
-                  <div className=" absolute md:top-[8rem] top-[4.5rem] md:left-[15rem] left-[10rem]">
+                  {/* <div className=" absolute md:top-[8rem] top-[4.5rem] md:left-[15rem] left-[10rem]">
                     <div className="relative inline-flex">
                       <span className="flex h-16 w-16">
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary bg-opacity-50 opacity-75 duration-500"></span>
@@ -43,7 +43,7 @@ const ProccessHead = ({processhead, processsub, processdesc, processimg}) => {
                         </span>
                       </span>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

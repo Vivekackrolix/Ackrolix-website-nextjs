@@ -326,7 +326,7 @@ const MediaBuying = () => {
       <Head>
       <title>Media Planning and Buying Agency in Gurgaon- Ackrolix</title> 
         <meta name="description" content="Looking for a media planning and buying agency in Gurgaon? Look no further than Ackrolix! Let us help you reach your target audience with ease." />
-        <link rel="canonical" href="#"/>
+        <link rel="canonical" href="https://www.ackrolix.com/social-media-marketing-company-gurgaon"/>
         <meta property="og:title" content="Media Planning and Buying Agency in Gurgaon- Ackrolix" />
         <meta
           property="og:description"
@@ -382,6 +382,7 @@ const MediaBuying = () => {
               processsub="Our Media Planning and Buying Services              "
               processdesc="Optimizing platforms, pushing the boundaries of innovation."
               processimg="/assets/images/service/svg/buy1.png"
+              proocessalt="Media Planning Services"
             />
             <Process process={processes} />
           </div>

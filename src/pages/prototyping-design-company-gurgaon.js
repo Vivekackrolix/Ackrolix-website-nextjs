@@ -219,6 +219,8 @@ const cards = [
           name="description"
           content="Ackrolix is a leading prototype design agency based in Gurgaon. Our innovative solutions and expert team will bring your ideas to life.  Reach out to us now. "
           />
+                                    <link rel="canonical" href="https://www.ackrolix.com/prototyping-design-company-gurgaon"/>
+
           <meta property="og:title" content="Prototype Design Agency in Gurgaon - Ackrolix" />
           <meta
             property="og:description"
@@ -245,6 +247,7 @@ const cards = [
           "
            bannersubtext="Ackrolix is a renowned Prototype Development Company in Gurgaon. We specialize in creating working duplicates of products to ensure that they fit market standards and user specifications."
           serviceimg="/assets/images/service/svg/res.png"
+          serviceimgAlt="prototyping design company"
           servicehead="Our Foolproof Services will turn your Visions into Reality"
           servicedesc1="Our skilled team adheres to an efficient Prototype Development Process, which allows us to discover and rectify design flaws early in the development cycle. Our prototypes attract potential buyers by imitating the real product, giving them a personal sense of what's to come and creating trust in your concept."
           servicedesc2="Whether your project is small or large, our Prototype Development Solutions are designed to your exact requirements. We develop commercially feasible and profitable products that meet the needs of your clients. We adapt to the size and complexity of your project, from simple paper sketches to fully functional models."
@@ -275,6 +278,7 @@ const cards = [
               processsub="Why Choose Us"
               processdesc="Ackrolix takes great pleasure in being Gurgaon's go-to Prototype Development Agency. We provide innovative Prototype Development Services that are targeted to your specific needs, with an emphasis on creativity, competence, and customer-centricity."
               processimg="/assets/images/service/svg/res1.png"
+              proocessalt="Prototype Design Agency"
             />
             <Process process={processes} />
           </div>

@@ -221,6 +221,8 @@ const UiStrategy = () => {
           name="description"
           content="Discover the power of exceptional user experience with Ackrolix, the leading UX strategy agency in Gurgaon. Elevate your brand's digital presence today."
           />
+                          <link rel="canonical" href="https://www.ackrolix.com/ux-design-company-gurgaon"/>
+
           <meta property="og:title" content="UX Strategy Agency in Gurgaon - Ackrolix" />
           <meta
             property="og:description"
@@ -246,6 +248,7 @@ const UiStrategy = () => {
           bannertitle="Intuitive Digital Art: Ackrolix - Your Trusted UX Design Company in Gurgaon."
           bannersubtext="We align UX strategy to your business strategy so it provides a seamless experience across multiple customer touchpoints."
           serviceimg="/assets/images/service/svg/stra.png"
+          serviceimgAlt="UX strategy services"
           servicehead="How Ackrolix Crafts Digital Experiences that Connect with Users"
           servicedesc1="UX design is an art form at Ackrolix, where every digital encounter is meticulously crafted to connect with users. Our passionate, hardworking team of UX experts crafts simple, aesthetically pleasing, and long-lasting experiences. We explore our audience's thoughts through in-depth UX research, charting user journeys and developing wireframes that serve as the basis for digital art. Meeting consumers' wants and preferences is our first priority when using a user-centred approach."
           servicedesc2="
@@ -274,6 +277,7 @@ const UiStrategy = () => {
               processsub="Why choose us?"
               processdesc="Full-scope app modernization services you can start using quickly (even in weeks!) to fix, boost, and revamp your systems with teams that have worked for over 160 companies."
               processimg="/assets/images/service/svg/stra1.png"
+              proocessalt="UX Design Strategy"
             />
             <Process process={processes} />
           </div>

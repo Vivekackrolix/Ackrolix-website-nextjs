@@ -313,6 +313,8 @@ const cards = [
           name="description"
           content="Ackrolix is a Web Development Company in Gurgaon that builds better for optimum performance and customer engagement across all devices and platforms."
         />
+                <link rel="canonical" href="https://www.ackrolix.com/website-development-company-gurgaon"/>
+
         <meta
           property="og:title"
           content="Website Design & Development Company in Gurgaon - Ackrolix"
@@ -337,6 +339,7 @@ const cards = [
           bannertitle="Ingenious Web Design and Development Company"
           bannersubtext="Ackrolix has established itself as a well-known Web Design and Website Development Company in Gurgaon, India, with a solid reputation for its emphasis on innovation and originality. Our team of talented designers and programmers is dedicated to providing outstanding web design and development solutions that are customized to meet the specific requirements of each client."
           serviceimg="/assets/images/service/svg/web.png"
+          serviceimgAlt="Web Development Company"
           servicehead="One scalable team for start-to-finish development"
           servicedesc1="What does it mean to be reliable? It means your outsourced team works as well as your web developers do. Access web development services trusted by 98% of CTOs that you’ll find understanding with. They made APIs, custom web applications, hybrid mobile app development, provided web design services, updated stacks, and build cloud-native systems."
           servicedesc2="One place — everyone you need: Business Analysts, Product Designers, Project Managers, QA Engineers, DevOps, and Full-stack developers. Expect our web development team to be proactive throughout the project with an abundance of improvement suggestions that will get business moving even in areas such as search engine optimization."
@@ -358,6 +361,7 @@ const cards = [
               processsub="Role of a Website Development Company"
               processdesc="A well-designed Website Design Company plays a vital role in attracting potential customers and establishing credibility."
               processimg="/assets/images/service/svg/app1.png"
+              proocessalt="website Design Company"
             />
             <Process process={processes} />
           </div>

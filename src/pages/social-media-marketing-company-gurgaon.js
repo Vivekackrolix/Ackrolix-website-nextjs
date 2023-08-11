@@ -329,6 +329,7 @@ const SmmAgency = () => {
           name="description"
           content="Ackrolix is a professional Social Media Marketing Agency based in Gurgaon, that provides expert services to improve your online visibility."
           />
+           <link rel="canonical" href="https://www.ackrolix.com/social-media-marketing-company-gurgaon"/>
           <meta property="og:title" content="Social Media Marketing Agency in Gurgaon - Ackrolix" />
           <meta
             property="og:description"
@@ -354,6 +355,7 @@ const SmmAgency = () => {
           bannertitle="Craft Digital Success with our Premium Social Media Marketing Services"
           bannersubtext="Welcome to Ackrolix, Gurgaon's premier provider of first-rate social media marketing services. We take great pleasure in our ability to connect brands with their audience in meaningful and effective ways as a top social media marketing company. "
           serviceimg="/assets/images/service/svg/med.png"
+          serviceimgAlt="social media marketing agency"
           servicehead="Increase the Impact of Your Brand with Ackrolix"
           servicedesc1="Ackrolix is ​​a social media marketing company based in Gurgaon that provides innovative and effective solutions to businesses aiming to harness the power of social media for growth and success. With a dedicated team of social media experts and a deep understanding of social media."
           servicedesc2=" Ackrolix specialises in creating effective campaigns that drive engagement, increase brand awareness and build meaningful connections with audiences. As an advertising company, Ackrolix starts by researching and understanding each client's unique needs and goals. One of Ackrolix's key strengths is content creation and management. They create shareable and engaging content that resonates with their audience on various social media sites. Whether it's an image, a shared video, or a blog post, Ackrolix ensures that every content has a purpose, provides meaningful interactions, and builds trust."
@@ -386,6 +388,7 @@ const SmmAgency = () => {
               processsub="Why Choose Us as your Social Media Marketing Partner"
               processdesc="Ackrolix distinguishes itself as the top social media marketing company in Gurgaon thanks to our go-to tactics, focused targeting, dependable outcomes, personalised approach, all-inclusive solutions, and strategic insights."
               processimg="/assets/images/service/svg/med1.png"
+              proocessalt="social media marketing services"
             />
             <Process process={processes} />
           </div>
