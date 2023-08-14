@@ -61,7 +61,7 @@ const Advisors = () => {
         <ComponentHead
           title="Advisors"
           sub="Our Industry Experts"
-          head="Transforming ideas into reality: Our Industry Experts understand the importance of being responsible stewards of the environment"
+          head="Ackrolix puts ideas into practise. Our industry experts recognise the value of being responsible towards the clients."
         />
 
         <div className="grid md:grid-cols-3 gap-6 pt-2">

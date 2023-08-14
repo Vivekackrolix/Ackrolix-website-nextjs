@@ -334,7 +334,7 @@ const cards = [
           />
            <meta
             property="og:url"
-            content="#"
+            content="https://www.ackrolix.com/digital-marketing-company-gurgaon"
           />
           <meta
             property="og:image"

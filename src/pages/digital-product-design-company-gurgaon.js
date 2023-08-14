@@ -288,6 +288,10 @@ const ProductDdesignCompany = () => {
           property="og:description"
           content="Ackrolix is a leading Digital Product Design Company in Gurgaon, renowned for its exceptional services and innovative solutions."
         />
+         <meta
+          property="og:url"
+          content="https://www.ackrolix.com/digital-product-design-company-gurgaon"
+        />
         <meta
           property="og:image"
           content="https://www.ackrolix.com/assets/images/logoack.png"

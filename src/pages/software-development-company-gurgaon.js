@@ -318,7 +318,7 @@ const SoftwareDevelopmentCompany = () => {
         />
         <meta
           property="og:url"
-          content="#"
+          content="https://www.ackrolix.com/software-development-company-gurgaon"
         />
         <meta
           property="og:image"

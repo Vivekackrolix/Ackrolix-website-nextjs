@@ -323,7 +323,7 @@ const AppModernizationDetails = () => {
           />
            <meta
             property="og:url"
-            content="#"
+            content="https://www.ackrolix.com/app-modernization-company-gurgaon"
           />
           <meta
             property="og:image"

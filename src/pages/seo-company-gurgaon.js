@@ -336,7 +336,7 @@ const SeoAgency = () => {
         />
         <meta
           property="og:url"
-          content="#"
+          content="https://www.ackrolix.com/seo-company-gurgaon"
         />
         <meta
           property="og:image"

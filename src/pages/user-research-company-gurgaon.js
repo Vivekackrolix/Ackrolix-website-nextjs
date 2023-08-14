@@ -223,7 +223,7 @@ const Research = () => {
           />
            <meta
             property="og:url"
-            content="#"
+            content="https://www.ackrolix.com/user-research-company-gurgaon"
           />
           <meta
             property="og:image"

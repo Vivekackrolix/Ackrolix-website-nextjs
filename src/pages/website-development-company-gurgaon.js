@@ -324,6 +324,10 @@ const cards = [
           content="Ackrolix is a Web Development Company in Gurgaon that builds better for optimum performance and customer engagement across all devices and platforms."
         />
         <meta
+          property="og:url"
+          content="https://www.ackrolix.com/website-development-company-gurgaon"
+        />
+        <meta
           property="og:image"
           content="https://www.ackrolix.com/assets/images/logoack.png"
         />

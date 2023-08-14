@@ -126,15 +126,15 @@ const Banner = () => {
                 <div className="flex justify-start items-center space-x-1">
                   <span className="text-primary md:text-sm text-base uppercase font-semibold">
                     {" "}
-                    Innovation at its finest{" "}
+                    Exemplary Innovation on Display{" "}
                   </span>{" "}
                   <img src="/assets/icons/icon.png" className="w-9 bulb" />
                 </div>
-                <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-                  Product Conceptualization & Development
-                </h2>
+                <h1 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
+                Product Conceptualisation & Development
+                </h1>
                 <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
-                  From concept to reality Ackrolix Innovations delivers game changing products for startups and fortune companies.
+                Ackrolix Innovations improves for both startups and well-established businesses, producing effective solutions.
                 </p>
                 <div className="pt-10 w-full">
                   <Link href="/contact">
@@ -153,15 +153,15 @@ const Banner = () => {
                 <div className="flex justify-start items-center space-x-1">
                   <span className="text-primary md:text-sm text-base uppercase font-semibold">
                     {" "}
-                    Where Ideas Come to Life{" "}
+                    The spot where notions are born{" "}
                   </span>{" "}
                   <img src="/assets/icons/icon.png" className="w-9 bulb" />
                 </div>
                 <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-                Empowering The Web With Innovative Development
+                Facilitating Ingenious Development
                 </h2>
                 <p className="text-textcolor pt-4 text-justify text-[15px] font-medium">
-                From creativity to technology Ackrolix Innovations crafts designs with seamless functionality that leave a lasting impression.
+                Ackrolix finds useful solutions. We leave enduring impressions by fusing creativity and technology.
                 </p>
                 <div className="pt-10 w-full">
                   <Link href="/contact">
@@ -180,12 +180,12 @@ const Banner = () => {
                 <div className="flex justify-start items-center space-x-1">
                   <span className="text-primary md:text-sm text-base uppercase font-semibold">
                     {" "}
-                    Crafting Cutting-Edge Apps{" "}
+                    Building novel applications{" "}
                   </span>{" "}
                   <img src="/assets/icons/icon.png" className="w-9 bulb" />
                 </div>
                 <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-                Transforming Your Brand With Mobile App Development
+                Developing Mobile Apps to Improve Your Brand
                 </h2>
                 <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
                 From idea to app store, Ackrolix Innovations guides you through the Mobile App Development journey.

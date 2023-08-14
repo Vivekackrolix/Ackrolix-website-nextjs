@@ -337,7 +337,7 @@ const SmmAgency = () => {
           />
            <meta
             property="og:url"
-            content="#"
+            content="https://www.ackrolix.com/social-media-marketing-company-gurgaon"
           />
           <meta
             property="og:image"

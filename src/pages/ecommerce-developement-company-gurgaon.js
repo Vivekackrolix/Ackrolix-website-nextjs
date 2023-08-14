@@ -294,6 +294,10 @@ const EcommerceDevelopmentCompany = () => {
           property="og:description"
           content="Ackrolix is a top-rated Ecommerce Development Company in Gurgaon, delivering exceptional solutions to businesses of all sizes."
         />
+         <meta
+          property="og:url"
+          content="https://www.ackrolix.com/ecommerce-developement-company-gurgaon"
+        />
         <meta
           property="og:image"
           content="https://www.ackrolix.com/assets/images/logoack.png"

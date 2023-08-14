@@ -226,7 +226,7 @@ const cards = [
         />
         <meta
           property="og:url"
-          content="#"
+          content="https://www.ackrolix.com/services/usability-testing-company-gurgaon"
         />
         <meta
           property="og:image"
