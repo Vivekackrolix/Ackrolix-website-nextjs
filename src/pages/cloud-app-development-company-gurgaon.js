@@ -321,7 +321,7 @@ const CloudEngineeringAndDevOps = () => {
           />
            <meta
             property="og:url"
-            content="#"
+            content="https://www.ackrolix.com/cloud-app-development-company-gurgaon"
           />
           <meta
             property="og:image"

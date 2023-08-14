@@ -224,7 +224,7 @@ const cards = [
         />
         <meta
           property="og:url"
-          content="#"
+          content="https://www.ackrolix.com/ui-designing-company-gurgaon"
         />
         <meta
           property="og:image"

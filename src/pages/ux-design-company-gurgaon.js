@@ -230,7 +230,7 @@ const UiStrategy = () => {
           />
            <meta
             property="og:url"
-            content="#"
+            content="https://www.ackrolix.com/ux-design-company-gurgaon"
           />
           <meta
             property="og:image"

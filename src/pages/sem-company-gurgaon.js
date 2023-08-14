@@ -337,7 +337,7 @@ const SemAgency = () => {
           />
            <meta
             property="og:url"
-            content="#"
+            content="https://www.ackrolix.com/sem-company-gurgaon"
           />
           <meta
             property="og:image"

@@ -19,8 +19,27 @@ import BannerResponsive from "../components/Home/BannerResponsive";
 const index = () => {
   return (
     <>
-      <Head>
-        <title>Ackrolix Innovations Pvt. Ltd.</title>
+       <Head>
+        <title>Advertising Agency in Gurgaon - Ackrolix</title>
+        <meta
+          name="description"
+          content="Looking for the best advertising agency in Gurgaon? Look no further than Ackrolix! Our team of experts will help you achieve your marketing goals."
+          />
+         <link rel="canonical" href="https://www.ackrolix.com/"/>
+
+          <meta property="og:title" content="Advertising Agency in Gurgaon - Ackrolix" />
+          <meta
+            property="og:description"
+            content="Looking for the best advertising agency in Gurgaon? Look no further than Ackrolix! Our team of experts will help you achieve your marketing goals."
+          />
+           <meta
+            property="og:url"
+            content="https://www.ackrolix.com/"
+          />
+          <meta
+            property="og:image"
+            content="https://www.ackrolix.com/assets/images/logoack.png"
+        />        
       </Head>
       <Header />
       <Banner />
