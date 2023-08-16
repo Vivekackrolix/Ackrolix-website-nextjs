@@ -94,7 +94,7 @@ const About = () => {
             <div className="md:w-[95%] pl-16 w-full md:text-base text-xs text-textcolor text-justify font-text pb-4">
               <div className="line-heading">
                 <div className="text-[46px] max-[480px]:text-[30px] text-secondary relative z-10 pb-5 text-left font-bold max-w-xl">
-                Your Business Growth Volunteers
+                Firm Volunteers
                 </div>
               </div>
               <div className="load-wrapp relative bottom-[15px]">
