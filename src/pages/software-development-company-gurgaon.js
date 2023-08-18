@@ -320,6 +320,8 @@ const SoftwareDevelopmentCompany = () => {
           property="og:url"
           content="https://www.ackrolix.com/software-development-company-gurgaon"
         />
+         <meta name="robots" 
+        content="index,follow" />
         <meta
           property="og:image"
           content="https://www.ackrolix.com/assets/images/logoack.png"
