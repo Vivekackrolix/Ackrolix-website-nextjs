@@ -10,18 +10,25 @@ const aboutdata = [
   {
     id: 1,
     image: "/assets/images/about/aboutone.png",
+    alttext: "ad company in gurgaon"
   },
   {
     id: 2,
     image: "/assets/images/about/aboutwo.png",
+    alttext: "best advertising agency in gurgaon"
+
   },
   {
     id: 3,
     image: "/assets/images/about/abouthree.png",
+    alttext: "advertising agency in gurgaon"
+
   },
   {
     id: 4,
     image: "/assets/images/about/aboutfour.png",
+    alttext: "advertising company in gurgaon"
+
   },
 ];
 
@@ -137,7 +144,7 @@ const About = () => {
                   <div className="px-2">
                     <img
                       src={item.image}
-                      alt=" "
+                      alt={item.alttext}
                       className="  rounded-lg  w-full"
                     />
                   </div>

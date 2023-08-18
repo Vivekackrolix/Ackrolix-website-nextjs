@@ -11,6 +11,7 @@ const BannerResponsive = () => {
         {
           id: 1,
           image: "/assets/images/banner/1.webp",
+          atlText:"online advertising agency in gurgaon"
         },
         
       ];
@@ -34,7 +35,7 @@ const BannerResponsive = () => {
                 <div className="">
                   <img
                     src={item.image}
-                    alt=" "
+                    alt={item.atlText}
                     className=" mx-auto md:h-full w-full h-[490px] object-cover"
                   />
                 </div>

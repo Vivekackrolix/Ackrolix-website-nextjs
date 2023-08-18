@@ -56,14 +56,17 @@ const Banner = () => {
     {
       id: 1,
       image: "/assets/images/banner/banner-one.png",
+      altText: "advertising agency in gurgaon",
     },
     {
       id: 2,
       image: "/assets/images/banner/2.webp",
+      altText: "best advertising agency in gurgaon",
     },
     {
       id: 3,
       image: "/assets/images/banner/3.webp",
+      altText: "ad company in gurgaon",
     },
   ];
 
@@ -110,7 +113,7 @@ const Banner = () => {
                   <div className="">
                     <img
                       src={item.image}
-                      alt=" "
+                      alt={item.altText}
                       className="rounded-lg mx-auto md:h-full h-[450px] object-cover"
                     />
                   </div>
@@ -131,10 +134,11 @@ const Banner = () => {
                   <img src="/assets/icons/icon.png" className="w-9 bulb" />
                 </div>
                 <h1 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-                Product Conceptualisation & Development
+                  Advertising Agency in Gurgaon: Ackrolix Innovations{" "}
                 </h1>
                 <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
-                Ackrolix Innovations improves for both startups and well-established businesses, producing effective solutions.
+                  Ackrolix Innovations improves for both startups and
+                  well-established businesses, producing effective solutions.
                 </p>
                 <div className="pt-10 w-full">
                   <Link href="/contact">
@@ -158,10 +162,11 @@ const Banner = () => {
                   <img src="/assets/icons/icon.png" className="w-9 bulb" />
                 </div>
                 <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-                Facilitating Ingenious Development
+                  Facilitating Ingenious Development
                 </h2>
                 <p className="text-textcolor pt-4 text-justify text-[15px] font-medium">
-                Ackrolix finds useful solutions. We leave enduring impressions by fusing creativity and technology.
+                  Ackrolix finds useful solutions. We leave enduring impressions
+                  by fusing creativity and technology.
                 </p>
                 <div className="pt-10 w-full">
                   <Link href="/contact">
@@ -185,10 +190,11 @@ const Banner = () => {
                   <img src="/assets/icons/icon.png" className="w-9 bulb" />
                 </div>
                 <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-                Developing Mobile Apps to Improve Your Brand
+                  Developing Mobile Apps to Improve Your Brand
                 </h2>
                 <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
-                From idea to app store, Ackrolix Innovations guides you through the Mobile App Development journey.
+                  From idea to app store, Ackrolix Innovations guides you
+                  through the Mobile App Development journey.
                 </p>
                 <div className="pt-10 w-full">
                   <Link href="/contact">
