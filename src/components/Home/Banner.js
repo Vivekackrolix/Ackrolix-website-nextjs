@@ -134,7 +134,7 @@ const Banner = () => {
                   <img src="/assets/icons/icon.png" className="w-9 bulb" />
                 </div>
                 <h1 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-                  Advertising Agency in Gurgaon: Ackrolix Innovations{" "}
+                Ackrolix Advertising Agency in Gurgaon: {" "}
                 </h1>
                 <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
                   Ackrolix Innovations improves for both startups and
@@ -162,7 +162,7 @@ const Banner = () => {
                   <img src="/assets/icons/icon.png" className="w-9 bulb" />
                 </div>
                 <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-                  Facilitating Ingenious Development
+                  Facilitating Advertising Agency
                 </h2>
                 <p className="text-textcolor pt-4 text-justify text-[15px] font-medium">
                   Ackrolix finds useful solutions. We leave enduring impressions

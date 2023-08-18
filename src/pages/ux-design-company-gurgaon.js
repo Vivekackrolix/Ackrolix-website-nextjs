@@ -245,11 +245,11 @@ const UiStrategy = () => {
         }}
       >
         <Banner
-          bannertitle="Intuitive Digital Art: Ackrolix - Your Trusted UX Design Company in Gurgaon."
+          bannertitle="Intuitive Digital Art: Ackrolix - Your Trusted UX Design Company in Gurgaon"
           bannersubtext="We align UX strategy to your business strategy so it provides a seamless experience across multiple customer touchpoints."
           serviceimg="/assets/images/service/svg/stra.png"
           serviceimgAlt="UX strategy services"
-          servicehead="How Ackrolix Crafts Digital Experiences that Connect with Users"
+          servicehead="Ackrolix Crafts UX Design Services"
           servicedesc1="UX design is an art form at Ackrolix, where every digital encounter is meticulously crafted to connect with users. Our passionate, hardworking team of UX experts crafts simple, aesthetically pleasing, and long-lasting experiences. We explore our audience's thoughts through in-depth UX research, charting user journeys and developing wireframes that serve as the basis for digital art. Meeting consumers' wants and preferences is our first priority when using a user-centred approach."
           servicedesc2="
           Extensive research, painstaking design, and stringent testing are all part of our approach to quality, which results in a finished product that is both beautiful to look at and enjoyable to use. We take pride in creating simple, comprehensible solutions to complicated problems We provide outstanding UX strategy services that equip organisations with powerful UX design solutions as a top UX design company in Gurgaon."   />
