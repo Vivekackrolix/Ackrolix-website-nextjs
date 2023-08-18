@@ -242,7 +242,7 @@ const Research = () => {
           bannersubtext="Ackrolix is a prominent User Research Firm based in Gurgaon. Our voyage into human experience and innovation yields a comprehensive understanding map that affects the future by precisely unraveling user behaviors, preferences, and aspirations."
           serviceimg="/assets/images/service/svg/ur.png"
           serviceimgAlt="user research company"
-          servicehead="We unveil User Insights by being your Guide to Excellence"
+          servicehead="Our User Research Agency is a Guide To Exellence"
           servicedesc1="At Ackrolix, we believe that user experience research is the key to defining innovation and driving success. Our particular approach to user research distinguishes us in the business. We go beyond simply gathering data and instead engage in an exciting journey to genuinely understand the essence of your audience."
           servicedesc2="Our dedicated staff goes deep into the hearts and brains of users to untangle their ideas and wonders, combining analytical skills with artistic genius. As a leading User Research Agency in Gurgaon, we offer comprehensive user experience research services tailored to your specific requirements."
         />

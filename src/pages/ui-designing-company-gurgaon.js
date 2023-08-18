@@ -243,7 +243,7 @@ const cards = [
           bannersubtext="Ackrolix - UI designing company in Gurgaon, Our passion for design is to create a music of visual delight. We are experts in pixels, masters of beauty, and architects of unforgettable customer experiences. Our creative spirit knows no bounds, and we do each project with a unique touch of magic."
           serviceimg="/assets/images/service/svg/desi.png"
           serviceimgAlt="UI Designing company"
-          servicehead="An Optimized UI/UX Can Change The Dynamics Of A Business"
+          servicehead="Our UI Design Services Provide Visual Symphony"
           servicedesc1="At Ackrolix, every project is a testament to our commitment to creating UI experiences that represent the moment. We are more than a UI design company; We are dream weavers creating digital experiences that captivate users."
           servicedesc2="UI design in Ackrolix is about pixels on the screen, and our team creates eye-catching visuals that resonate with your target audience as well; as we discover the essence of your brand, understand its spirit, and connect it to all our designs. Our experience as a UI Design Company in Gurgaon embodies Excellence and innovation. We bring your brand to life and create unforgettable experiences."
         />
