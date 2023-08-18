@@ -323,6 +323,8 @@ const CloudEngineeringAndDevOps = () => {
             property="og:url"
             content="https://www.ackrolix.com/cloud-app-development-company-gurgaon"
           />
+           <meta name="robots" 
+        content="index,follow" />
           <meta
             property="og:image"
             content="https://www.ackrolix.com/assets/images/logoack.png"

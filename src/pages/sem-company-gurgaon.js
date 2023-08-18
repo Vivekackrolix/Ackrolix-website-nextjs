@@ -343,6 +343,8 @@ const SemAgency = () => {
             property="og:image"
             content="https://www.ackrolix.com/assets/images/logoack.png"
         />
+         <meta name="robots" 
+        content="index,follow" />
       </Head>
       <Header />
       <div
