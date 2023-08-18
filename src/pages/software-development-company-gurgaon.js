@@ -333,7 +333,7 @@ const SoftwareDevelopmentCompany = () => {
         }}
       >
        <Banner 
-          bannertitle="Revolutionizing Tech: Ackrolix, Gurgaon's Innovation Hub"
+          bannertitle="Ackrolix: The Software Development Company that Pushes the Envelope"
           bannersubtext="Welcome to the innovation hub in Gurgaon, where Ackrolix makes the technology dream a reality. We are more than just a regular Software Development Agency; we create the best digital experiences by pushing the envelope of what is conceivable."
           serviceimg="/assets/images/service/svg/soft.png"
           serviceimgAlt="Software Development Company"

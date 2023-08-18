@@ -336,7 +336,7 @@ const CloudEngineeringAndDevOps = () => {
         }}
       >
         <Banner 
-          bannertitle="Solutions for Cloud Engineering and DevOps to Boost Business"
+          bannertitle="Cloud Application Development Services in Gurgaon by Akcrolix"
           bannersubtext="Ackrolix, a prominent cloud engineering and devops firm with offices in Gurgaon, is a market leader in the technology sector, providing pioneering solutions for organisations of all kinds. Our committed team of experts excels at converting ageing IT infrastructures into stable, scalable cloud-based designs."
           serviceimg="/assets/images/service/svg/clo.png"
           serviceimgAlt="Cloud Application Development Services in Gurgaon"
