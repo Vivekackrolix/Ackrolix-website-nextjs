@@ -288,6 +288,12 @@ const ProductDdesignCompany = () => {
           property="og:description"
           content="Ackrolix is a leading Digital Product Design Company in Gurgaon, renowned for its exceptional services and innovative solutions."
         />
+         <meta
+          property="og:url"
+          content="https://www.ackrolix.com/digital-product-design-company-gurgaon"
+        />
+        <meta name="robots" 
+        content="index,follow" />
         <meta
           property="og:image"
           content="https://www.ackrolix.com/assets/images/logoack.png"
@@ -306,7 +312,7 @@ const ProductDdesignCompany = () => {
           Ackrolix is Gurgaon's top Digital Product Design Company which assists your business to access endless creativity. Take advantage of Ackrolix's Digital Product Design Services in Gurgaon to set out on an exciting voyage of creation. As we create magnificent interfaces and amazing experiences that will astound your audience, let your boldest and most transformative ideas come to life. Our goal as a premier Digital Product Development Company is to make your ideas a reality. As a Digital Product Agency, we produce designs that are smooth and appealing that please your target market."
           serviceimg="/assets/images/service/svg/pro.png"
           serviceimgAlt="Digital Product Design Company"
-          servicehead="Ackrolix Innovation: Redefining Digital Product Design Excellence"
+          servicehead="Top Digital Product Design Agency Redefining Excellence"
           servicedesc1="We're glad you're here at Ackrolix Innovation, an advanced digital product design firm in Gurgaon. Our Digital Product Design is a masterpiece of imagination and in-depth knowledge of human behaviour. Our design team at Ackrolix is a formidable force, equipped with pioneering tools and concepts that push the frontiers of creativity and keep up with changing business trends."
           servicedesc2="When you work with us, your products will sparkle on the online store and shine like illuminating beacons in the night. Because we fully believe in the value of cooperation and collaboration, we actively involve our clients in the design process. We listen, learn, and adjust throughout the process, making sure that the finished product exceeds your expectations."
         />

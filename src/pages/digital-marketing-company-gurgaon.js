@@ -334,12 +334,14 @@ const cards = [
           />
            <meta
             property="og:url"
-            content="#"
+            content="https://www.ackrolix.com/digital-marketing-company-gurgaon"
           />
           <meta
             property="og:image"
             content="https://www.ackrolix.com/assets/images/logoack.png"
         />
+         <meta name="robots" 
+        content="index,follow" />
       </Head>
       <Header />
       <div
@@ -349,7 +351,7 @@ const cards = [
         }}
       >
         <Banner 
-          bannertitle="Welcome to Ackrolix, Your Reliable Partner for Outstanding Digital Marketing"
+          bannertitle="Grow Your Business with Ackrolix, the Best Digital Marketing Company in Gurgaon"
           bannersubtext="We take pride in being your all-inclusive digital marketing solution at Ackrolix. We are dedicated to developing your online presence into a thriving success story as a top digital marketing firm. Our knowledgeable team is aware that a successful online business requires more than just a website; it also needs a carefully planned digital marketing strategy that supports your company's objectives."
           serviceimg="/assets/images/service/svg/dig.png"
           serviceimgAlt="digital marketing company"

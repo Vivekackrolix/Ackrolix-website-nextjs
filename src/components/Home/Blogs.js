@@ -10,7 +10,7 @@ const Blogs = () => {
         <ComponentHead
           title="Blogs"
           sub="Our Latest Insights"
-          head="Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper urna, facilisis vulputate velit arcu vitae mi."
+          head="Get insights and innovative ideas with the help of our educational blog postings."
         />
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <img src="/assets/images/blogone.png" alt="" className="rounded-md" />

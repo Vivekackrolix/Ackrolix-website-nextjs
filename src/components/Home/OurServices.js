@@ -7,9 +7,9 @@ const OurServices = () => {
   return (
     <div className="container-ack  md:px-0 px-5 md:pt-0 pt-12">
       <ComponentHead
-        title="Our Expertise"
-        sub="What We Serve"
-        head="Creating products that make a difference: Ackrolix Innovations leads the way in ethical and sustainable practices"
+        title="Our Services"
+        sub="Our Exceptional Services"
+        head="Ackrolix Innovations leads the way. We use moral and environmental practises while developing innovative goods."
       />
       <div className="grid md:grid-cols-3 gap-10 pt-2">
         <div className="overflow-hidden rounded-2xl relative group concept">
@@ -20,12 +20,13 @@ const OurServices = () => {
             <div>
               <div className="p-4 space-y-3 text-2xl max-[480px]:text-xl">
                 <div className="font-bold text-center">
-                  Product Conceptualization
+                Product Conceptualisation
                 </div>
                 <div className="flex justify-center">
                   <div className="text-sm text-white text-center w-[70%] max-[480px]:w-[100%]">
-                    We transform your complex product simple, meaningful,
-                    memorable, less clicks, intuitive & functional with UI/UX.
+                  We simplify your complex product into something memorable and intuitive.
+                   Our products are functional with excellent UI/UX that requires fewer clicks.
+
                   </div>
                 </div>
 
@@ -53,7 +54,7 @@ const OurServices = () => {
 
         <div className="overflow-hidden rounded-2xl relative group concept concept-close">
           <div className="w-full absolute grid top-[-16px] items-center cursor-pointer font-bold text-center drop-shadow-2xl z-10 group-hover:z-0 px-6 py-2 group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-150 ease-in-out text-white text-3xl bg-[#09090933] h-full max-[480px]:text-xl border-2 border-yellow-500 rounded-lg">
-            Product Development
+          Product Development
           </div>
           
           <div className=" bg-[#09090973] h-80 z-10 opacity-0 group-hover:opacity-100 transition duration-150 ease-in-out absolute  inset-x-0  pt-30 text-white flex items-center">
@@ -62,8 +63,8 @@ const OurServices = () => {
                 <div className="font-bold text-center">Product <br/>Development</div>
                 <div className="flex justify-center">
                   <div className="text-sm text-white text-center w-[70%] max-[480px]:w-[100%]">
-                    It&apos;s a Journey to transform the concept into web & app to
-                    market release by using different technologies & strategies.
+                  Turning concepts into web/apps is our vision. 
+                  We utilise various market-launch techniques and technologies.
                   </div>
                 </div>
                 <div className="flex justify-center">
@@ -89,7 +90,7 @@ const OurServices = () => {
         </div>
         <div className="overflow-hidden rounded-2xl relative group concept concept-close">
           <div className="w-full absolute grid top-[-16px] items-center cursor-pointer font-bold text-center drop-shadow-2xl z-10 group-hover:z-0 px-6 py-2 group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-150 ease-in-out text-white text-3xl bg-[#09090933] h-full max-[480px]:text-xl border-2 border-yellow-500 rounded-lg ">
-            Digital Modernization
+          Digital Modernisation
           </div>
           
           <div className=" bg-[#09090973] h-80 z-10 opacity-0 group-hover:opacity-100 transition duration-150 ease-in-out absolute  inset-x-0  pt-30 text-white flex items-center">
@@ -98,8 +99,7 @@ const OurServices = () => {
                 <div className="font-bold text-center">Digital <br/>Modernization</div>
                 <div className="flex justify-center">
                   <div className="text-sm text-white text-center w-[70%] max-[480px]:w-[100%]">
-                    It&apos;s a Journey to transform the concept into web & app to
-                    market release by using different technologies & strategies.
+                  We equip organisations with the tools to thrive in the changing digital environment.
                   </div>
                 </div>
                 <div className="flex justify-center">

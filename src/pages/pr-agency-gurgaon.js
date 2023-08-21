@@ -338,12 +338,14 @@ const PrAgency = () => {
           />
            <meta
             property="og:url"
-            content="#"
+            content="https://www.ackrolix.com/pr-agency-gurgaon"
           />
           <meta
             property="og:image"
             content="https://www.ackrolix.com/assets/images/logoack.png"
         />
+         <meta name="robots" 
+        content="index,follow" />
       </Head>
       <Header />
       <div
@@ -353,7 +355,7 @@ const PrAgency = () => {
         }}
       >
         <Banner
-          bannertitle="Bringing Brands and Audiences Together: Top Public Relations Firm in Gurgaon"
+          bannertitle="Get Noticed with PR: Ackrolix, the Best PR Agency in Gurgaon"
           bannersubtext="Ackrolix is the top PR firm in Gurgaon, thanks to a devoted team of specialists who understand the ever-changing communication landscape. We are dedicated to providing strategic solutions that not only increase the visibility of your business but also create significant interactions."
           serviceimg="/assets/images/service/svg/pr.png"
           serviceimgAlt="public relations agency"

@@ -10,18 +10,25 @@ const aboutdata = [
   {
     id: 1,
     image: "/assets/images/about/aboutone.png",
+    alttext: "ad company in gurgaon"
   },
   {
     id: 2,
     image: "/assets/images/about/aboutwo.png",
+    alttext: "best advertising agency in gurgaon"
+
   },
   {
     id: 3,
     image: "/assets/images/about/abouthree.png",
+    alttext: "advertising agency in gurgaon"
+
   },
   {
     id: 4,
     image: "/assets/images/about/aboutfour.png",
+    alttext: "advertising company in gurgaon"
+
   },
 ];
 
@@ -94,7 +101,7 @@ const About = () => {
             <div className="md:w-[95%] pl-16 w-full md:text-base text-xs text-textcolor text-justify font-text pb-4">
               <div className="line-heading">
                 <div className="text-[46px] max-[480px]:text-[30px] text-secondary relative z-10 pb-5 text-left font-bold max-w-xl">
-                  Who We Are
+                 Firm Volunteers 
                 </div>
               </div>
               <div className="load-wrapp relative bottom-[15px]">
@@ -106,17 +113,13 @@ const About = () => {
               </div>
               <p className="mb-2">
                 {" "}
-                Ackrolix Innovations Pvt. Ltd. is a product conceptualization
-                and development company that partners with businesses to create
-                digital experiences across design, mobile applications and web technologies.
-              </p>
-              <p className="mb-2">
-                {" "}
-                What we love and do every day is turn product ideas into reality
-                and bring them to market. We are constantly motivated by our love
-                for entrepreneurship and product development. We strive to assist
-                our clients in starting or expanding their businesses by making their ideas a reality.
-              </p>
+                Ackrolix Innovations Pvt. Ltd. works with businesses 
+                to develop web, mobile, and design-related digital experiences. 
+                We honour entrepreneurship and development while turning product
+                 ideas into real-world offerings. We turn our clients' ideas into reality.
+                  Thereby, we enable the expansion of their businesses.
+                  </p>
+              
               <div className="flex justify-start pb-10 pt-5">
                 <Link href="/about">
                   <button className=" button-2  px-8 py-2 rounded-md">
@@ -141,7 +144,7 @@ const About = () => {
                   <div className="px-2">
                     <img
                       src={item.image}
-                      alt=" "
+                      alt={item.alttext}
                       className="  rounded-lg  w-full"
                     />
                   </div>

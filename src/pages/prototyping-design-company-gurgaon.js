@@ -228,12 +228,14 @@ const cards = [
           />
            <meta
             property="og:url"
-            content="#"
+            content="https://www.ackrolix.com/prototyping-design-company-gurgaon"
           />
           <meta
             property="og:image"
             content="https://www.ackrolix.com/assets/images/logoack.png"
-        />        
+        /> 
+         <meta name="robots" 
+        content="index,follow" />       
       </Head>
       <Header />
       <div
@@ -248,7 +250,7 @@ const cards = [
            bannersubtext="Ackrolix is a renowned Prototype Development Company in Gurgaon. We specialize in creating working duplicates of products to ensure that they fit market standards and user specifications."
           serviceimg="/assets/images/service/svg/res.png"
           serviceimgAlt="prototyping design company"
-          servicehead="Our Foolproof Services will turn your Visions into Reality"
+          servicehead="Our Foolproof Prototype Development Services"
           servicedesc1="Our skilled team adheres to an efficient Prototype Development Process, which allows us to discover and rectify design flaws early in the development cycle. Our prototypes attract potential buyers by imitating the real product, giving them a personal sense of what's to come and creating trust in your concept."
           servicedesc2="Whether your project is small or large, our Prototype Development Solutions are designed to your exact requirements. We develop commercially feasible and profitable products that meet the needs of your clients. We adapt to the size and complexity of your project, from simple paper sketches to fully functional models."
           servicedesc3="We design and iterate prototypes quickly using our fast prototyping approach, allowing you to provide feedback throughout the development process."

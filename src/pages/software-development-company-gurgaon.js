@@ -318,8 +318,10 @@ const SoftwareDevelopmentCompany = () => {
         />
         <meta
           property="og:url"
-          content="#"
+          content="https://www.ackrolix.com/software-development-company-gurgaon"
         />
+         <meta name="robots" 
+        content="index,follow" />
         <meta
           property="og:image"
           content="https://www.ackrolix.com/assets/images/logoack.png"
@@ -333,11 +335,11 @@ const SoftwareDevelopmentCompany = () => {
         }}
       >
        <Banner 
-          bannertitle="Revolutionizing Tech: Ackrolix, Gurgaon's Innovation Hub"
+          bannertitle="Ackrolix: The Software Development Company that Pushes the Envelope"
           bannersubtext="Welcome to the innovation hub in Gurgaon, where Ackrolix makes the technology dream a reality. We are more than just a regular Software Development Agency; we create the best digital experiences by pushing the envelope of what is conceivable."
           serviceimg="/assets/images/service/svg/soft.png"
           serviceimgAlt="Software Development Company"
-          servicehead="The future is our playground; dreams do come true"
+          servicehead="We are Your Go-to Software Development Agency "
           servicedesc1="Ackrolix is a symbol of advancement in the technology of Software Development Services in Gurgaon. By keeping an eye on emerging trends, we make sure that your plans are outfitted with the most up-to-date and effective Software Design Services."
           servicedesc2="That is what we call the fantastic, fascinating experience with Ackrolix. Because we are a Software design firm that is a firm believer in the value of open communication and cooperation, we keep you updated at every stage. We will work to realize your dreams because they are the ones that fuel us. Our Software company, i.e., Ackrolix, is your one-stop shop for technology insights, whether you're interested in web development, mobile apps, or high-tech software. Enter the realm of our Software development services,  where imagination and creativity are allowed to run free, and your vision will become unforgettable."
         />

@@ -337,12 +337,14 @@ const SemAgency = () => {
           />
            <meta
             property="og:url"
-            content="#"
+            content="https://www.ackrolix.com/sem-company-gurgaon"
           />
           <meta
             property="og:image"
             content="https://www.ackrolix.com/assets/images/logoack.png"
         />
+         <meta name="robots" 
+        content="index,follow" />
       </Head>
       <Header />
       <div

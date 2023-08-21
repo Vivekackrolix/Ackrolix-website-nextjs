@@ -228,9 +228,15 @@ const Visualisation = () => {
           content="Ackrolix is a leading Data Visualization Services Company in Gurgaon, providing  high-quality solutions for businesses seeking to enhance their data visualization capabilities."
         />
         <meta
+          property="og:url"
+          content="https://www.ackrolix.com/data-visualisation-company-gurgaon"
+        />
+        <meta
           property="og:image"
           content="https://www.ackrolix.com/assets/images/logoack.png"
         />
+         <meta name="robots" 
+        content="index,follow" />
       </Head>
       <Header />
       <div
