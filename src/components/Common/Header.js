@@ -26,9 +26,7 @@ const Header = () => {
           <hr />
           <Navbar />
 
-          <div className=" flex justify-center items-center p-4 w-[80%] mx-auto">
-        <img src="/assets/images/line-tricolor.gif" />
-      </div>
+        
         </div>
       </div>
     </>

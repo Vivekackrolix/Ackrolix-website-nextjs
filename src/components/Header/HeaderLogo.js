@@ -10,7 +10,7 @@ const HeaderLogo = () => {
           <Link href="/">
             <div>
               <img
-                src="/assets/images/logo-tricolor.png"
+                src="/assets/images/logoack.png"
                 className="w-52 h-16 object-cover"
               />
             </div>
