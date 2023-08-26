@@ -3,7 +3,7 @@ import Footer from "../components/Common/Footer";
 import Header from "../components/Common/Header";
 import React from "react";
 
-const BlogDetailPage = () => {
+const blogDetails = () => {
   return (
     <div>
       <Header />
@@ -13,4 +13,4 @@ const BlogDetailPage = () => {
   );
 };
 
-export default BlogDetailPage;
+export default blogDetails;

@@ -6,7 +6,6 @@ const Blogs = () => {
   return (
     <div className="bg-[#F6F8F9]">
       <div className="container-ack md:px-0 px-5">
-
         <ComponentHead
           title="Blogs"
           sub="Our Latest Insights"
@@ -20,14 +19,18 @@ const Blogs = () => {
               22 March 2023{" "}
             </p>
             <h2 className="font-bold text-lg py-2 text-secondary text-left">
-              Make microservices more efficient & scalable with Backend For Frontend:
+              Make microservices more efficient & scalable with Backend For
+              Frontend:
             </h2>
             <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
-              Microservices architecture has gained significant popularity due to its ability to break down large applications into smaller, independent services.
-              However, managing interactions between these services can become complex, especially when dealing with multiple front-end applications.
+              Microservices architecture has gained significant popularity due
+              to its ability to break down large applications into smaller,
+              independent services. However, managing interactions between these
+              services can become complex, especially when dealing with multiple
+              front-end applications.
             </div>
             <div className="pb-5 flex justify-between">
-              <Link href="/blogDetailPage">
+              <Link href="/blog-details">
                 <button className="text-black  py-2 text-sm  border-primary border-b-2">
                   Read More
                 </button>
@@ -82,14 +85,18 @@ const Blogs = () => {
               22 March 2023{" "}
             </p>
             <h2 className="font-bold text-lg py-2 text-secondary text-left">
-              Custom project management in agile - Ackrolix is different, just like everybody else
-
+              Custom project management in agile - Ackrolix is different, just
+              like everybody else
             </h2>
             <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
-              Agile project management has revolutionized the way teams approach software development, fostering flexibility, collaboration, and continuous improvement. However, many organizations find that adopting a one-size-fits-all agile framework doesn&apos;t always meet their unique project management needs.
+              Agile project management has revolutionized the way teams approach
+              software development, fostering flexibility, collaboration, and
+              continuous improvement. However, many organizations find that
+              adopting a one-size-fits-all agile framework doesn&apos;t always
+              meet their unique project management needs.
             </div>
             <div className="pb-5 flex justify-between">
-              <Link href="/blogDetailPage">
+              <Link href="/blog-details">
                 <button className="text-black  py-2 text-sm  border-primary border-b-2">
                   Read More
                 </button>
@@ -158,13 +165,18 @@ const Blogs = () => {
               22 March 2023{" "}
             </p>
             <h2 className="font-bold text-lg py-2 text-secondary text-left">
-              Custom project management in agile - Ackrolix is different, just like everybody else
+              Custom project management in agile - Ackrolix is different, just
+              like everybody else
             </h2>
             <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
-              Agile project management has revolutionized the way teams approach software development, fostering flexibility, collaboration, and continuous improvement. However, many organizations find that adopting a one-size-fits-all agile framework doesn&apos;t always meet their unique project management needs
+              Agile project management has revolutionized the way teams approach
+              software development, fostering flexibility, collaboration, and
+              continuous improvement. However, many organizations find that
+              adopting a one-size-fits-all agile framework doesn&apos;t always
+              meet their unique project management needs
             </div>
             <div className="pb-5 flex justify-between">
-              <Link href="/blogDetailPage">
+              <Link href="/blog-details">
                 <button className="text-black  py-2 text-sm  border-primary border-b-2">
                   Read More
                 </button>
@@ -225,13 +237,17 @@ const Blogs = () => {
               22 March 2023{" "}
             </p>
             <h2 className="font-bold text-lg py-2 text-secondary text-left">
-              Software development life cycle - how to find your way as a product owner
+              Software development life cycle - how to find your way as a
+              product owner
             </h2>
             <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
-              In the world of software development, the role of a product owner is critical in driving the success of a project. As a product owner, you play a pivotal role in guiding the development team and ensuring that the end product meets the needs of the users.
+              In the world of software development, the role of a product owner
+              is critical in driving the success of a project. As a product
+              owner, you play a pivotal role in guiding the development team and
+              ensuring that the end product meets the needs of the users.
             </div>
             <div className="pb-5 flex justify-between">
-              <Link href="/blogDetailPage">
+              <Link href="/blog-details">
                 <button className="text-black  py-2 text-sm  border-primary border-b-2">
                   Read More
                 </button>

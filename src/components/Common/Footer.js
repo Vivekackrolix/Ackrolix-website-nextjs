@@ -121,7 +121,7 @@ const Footer = () => {
                       <span className="">Technologies</span>
                     </li>
                   </Link>
-                  <Link href="/IndustryWeServe">
+                  <Link href="/industry-weServe">
                     <li className="text-sm hover:text-primary">
                       <span className="">Industry We Serve</span>
                     </li>
@@ -133,7 +133,6 @@ const Footer = () => {
               <h2 className="text-xl font-semibold text-black">CONTACT</h2>
               <div className="flex space-x-10 py-4">
                 <ul className="">
-                  
                   <li className="group cursor-pointer">
                     <p className="py-2"> India Locations : </p>
                     <span className="flex items-center space-x-2">

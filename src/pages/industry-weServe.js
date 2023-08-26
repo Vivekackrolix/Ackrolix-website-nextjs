@@ -8,7 +8,7 @@ import Card from "../components/Industry/Card";
 import Band from "../components/Common/Band";
 import Footer from "../components/Common/Footer";
 
-const IndustryWeServe = () => {
+const industryWeServe = () => {
   return (
     <>
       <div>
@@ -25,7 +25,7 @@ const IndustryWeServe = () => {
         <ComponentHead
           title=" Serve"
           sub="We Serve"
-          head ="Here is a list of all the industries that we serve"
+          head="Here is a list of all the industries that we serve"
         />
         <Card />
         <Band />
@@ -35,4 +35,4 @@ const IndustryWeServe = () => {
   );
 };
 
-export default IndustryWeServe;
+export default industryWeServe;
