@@ -217,7 +217,7 @@ const cards = [
       <title>Usability Testing Services Company in Gurgaon - Ackrolix</title>  
         <meta name="description"
          content="Ackrolix is a professional Usability Testing Services Company based in Gurgaon, providing expert solutions to enhance user experience." />
-        <link rel="canonical" href="https://www.ackrolix.com/services/usability-testing-company-gurgaon"/>
+        <link rel="canonical" href="https://www.ackrolix.com/usability-testing-company-gurgaon"/>
         <meta property="og:title" 
         content="Usability Testing Services Company in Gurgaon - Ackrolix" />
         <meta
@@ -226,7 +226,7 @@ const cards = [
         />
         <meta
           property="og:url"
-          content="https://www.ackrolix.com/services/usability-testing-company-gurgaon"
+          content="https://www.ackrolix.com/usability-testing-company-gurgaon"
         />
         <meta
           property="og:image"
