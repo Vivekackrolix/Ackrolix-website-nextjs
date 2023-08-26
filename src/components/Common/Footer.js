@@ -121,7 +121,7 @@ const Footer = () => {
                       <span className="">Technologies</span>
                     </li>
                   </Link>
-                  <Link href="/industry-weServe">
+                  <Link href="/industry-we-serve">
                     <li className="text-sm hover:text-primary">
                       <span className="">Industry We Serve</span>
                     </li>
