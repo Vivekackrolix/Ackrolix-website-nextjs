@@ -9,7 +9,7 @@ import Banner from "../components/Industry/IndustryDetails/Banner";
 import Advisors from "../components/Common/Advisor";
 import CardSlider from "../components/Industry/IndustryDetails/CardSlider";
 
-const industryDetailsPage = () => {
+const industry = () => {
   return (
     <>
       <div>
@@ -43,4 +43,4 @@ const industryDetailsPage = () => {
   );
 };
 
-export default industryDetailsPage;
+export default industry;
