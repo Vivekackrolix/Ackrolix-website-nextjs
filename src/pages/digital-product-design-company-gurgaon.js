@@ -296,7 +296,7 @@ const ProductDdesignCompany = () => {
         content="index,follow" />
         <meta
           property="og:image"
-          content="https://www.ackrolix.com/assets/images/logoack.png"
+          content="https://www.ackrolix.com/assets/images/service/svg/pro.png"
         />
       </Head>
       <Header />

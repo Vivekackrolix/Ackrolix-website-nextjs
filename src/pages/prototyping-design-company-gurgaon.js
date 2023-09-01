@@ -232,7 +232,7 @@ const cards = [
           />
           <meta
             property="og:image"
-            content="https://www.ackrolix.com/assets/images/logoack.png"
+            content="https://www.ackrolix.com/assets/images/service/svg/res.png"
         /> 
          <meta name="robots" 
         content="index,follow" />       
