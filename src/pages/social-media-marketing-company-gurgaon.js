@@ -341,7 +341,7 @@ const SmmAgency = () => {
           />
           <meta
             property="og:image"
-            content="https://www.ackrolix.com/assets/images/logoack.png"
+            content="https://www.ackrolix.com/assets/images/service/svg/med.png"
         />
          <meta name="robots" 
         content="index,follow" />
