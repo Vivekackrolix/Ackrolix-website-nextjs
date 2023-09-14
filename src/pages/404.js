@@ -1,9 +1,12 @@
 // 404.js
 import React from "react";
+import Header from "../components/Common/Header";
+import Footer from "../components/Common/Footer";
 
 export default function FourOhFour() {
   return (
     <>
+      <Header />
       <div className="flex justify-center items-center min-h-screen bg-white bg-fixed bg-cover bg-bottom md:p-0 p-8">
         <div className="md:flex items-center gap-8">
           <div>
@@ -28,6 +31,7 @@ export default function FourOhFour() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
