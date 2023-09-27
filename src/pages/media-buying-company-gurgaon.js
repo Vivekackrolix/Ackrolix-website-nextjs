@@ -341,7 +341,37 @@ const MediaBuying = () => {
           content="https://www.ackrolix.com/assets/images/service/svg/buy.png"
         />  
          <meta name="robots" 
-        content="index,follow" />    
+        content="index,follow" /> 
+
+        <script type="application/ld+json">
+{`{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.ackrolix.com/media-buying-company-gurgaon#webpage",
+  "url": "https://www.ackrolix.com/media-buying-company-gurgaon",
+  "inLanguage": "en - US",
+  "name": "Media Buying",
+  "description": "Looking for a media planning and buying agency in Gurgaon? Look no further than Ackrolix! Let us help you reach your target audience with ease.",
+  "isPartOf": {
+    "@id": "#website"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ]}`
+}
+</script>
+   
       </Head>
       <Header />
       <div

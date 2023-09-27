@@ -304,6 +304,37 @@ const EcommerceDevelopmentCompany = () => {
         />
          <meta name="robots" 
         content="index,follow" />
+
+<script type="application/ld+json">
+{`{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.ackrolix.com/ecommerce-developement-company-gurgaon#webpage",
+  "url": "https://www.ackrolix.com/ecommerce-developement-company-gurgaon",
+  "inLanguage": "en - US",
+  "name": "Ecommerce Development",
+  "description": "Ackrolix is a top-rated Ecommerce Development Company in Gurgaon, delivering exceptional solutions to businesses of all sizes.",
+  "isPartOf": {
+    "@id": "#website"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ]}`
+}
+</script>
+
+
       </Head>
       <Header />
       <div

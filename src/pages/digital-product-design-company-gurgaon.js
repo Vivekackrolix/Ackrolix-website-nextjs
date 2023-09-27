@@ -298,6 +298,37 @@ const ProductDdesignCompany = () => {
           property="og:image"
           content="https://www.ackrolix.com/assets/images/service/svg/pro.png"
         />
+
+<script type="application/ld+json">
+{`{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.ackrolix.com/digital-product-design-company-gurgaon#webpage",
+  "url": "https://www.ackrolix.com/digital-product-design-company-gurgaon",
+  "inLanguage": "en - US",
+  "name": "Digital Product Design",
+  "description": "Ackrolix is a leading Digital Product Design Company in Gurgaon, renowned for its exceptional services and innovative solutions.",
+  "isPartOf": {
+    "@id": "#website"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ]}`
+}
+</script>
+
+
       </Head>
       <Header />
       <div

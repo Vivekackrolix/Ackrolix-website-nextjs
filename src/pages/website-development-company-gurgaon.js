@@ -333,6 +333,40 @@ const cards = [
         />
          <meta name="robots" 
         content="index,follow" />
+
+
+<script type="application/ld+json">
+{`{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.ackrolix.com/website-development-company-gurgaon#webpage",
+  "url": "https://www.ackrolix.com/website-development-company-gurgaon",
+  "inLanguage": "en - US",
+  "name": "Website Development",
+  "description": "Ackrolix is a Web Development Company in Gurgaon that builds better for optimum performance and customer engagement across all devices and platforms.",
+  "isPartOf": {
+    "@id": "#website"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ]}`
+}
+</script>
+
+
+
+
       </Head>
       <Header />
       <div

@@ -41,7 +41,49 @@ const index = () => {
             content="https://www.ackrolix.com/assets/images/logoack.png"
         />    
          <meta name="robots" 
-        content="index,follow" />    
+        content="index,follow" />   
+
+        <script type="application/ld+json">
+{`{ "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Ackrolix",
+  "alternateName": "Advertising Agency",
+  "url": "https://www.ackrolix.com/",
+  "logo": "https://www.ackrolix.com/assets/images/logoack.png",
+  "sameAs": [
+    "https://m.facebook.com/people/Ackrolix-Innovations-Pvt-Ltd/100076925016084/",
+    "https://www.instagram.com/ackrolix/",
+    "https://in.linkedin.com/company/ackrolix"
+  ]}`
+}
+</script>
+
+
+<script type="application/ld+json">
+{`{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Ackrolix",
+  "image": "https://www.ackrolix.com/assets/images/banner/banner-one.png",
+  "@id": "",
+  "url": "https://www.ackrolix.com/",
+  "telephone": "+91-9910190071",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Plot No. 136, 3rd Floor, Rider House, Sector 44",
+    "addressLocality": "Gurgaon",
+    "postalCode": "122003",
+    "addressCountry": "IN"
+  } ,
+  "department": {
+    "@type": "LocalBusiness",
+    "name": "Ackrolix",
+    "image": "https://www.ackrolix.com/assets/images/banner/banner-one.png",
+    "telephone": "+91-9910190071" 
+  }}`
+}
+</script>
+ 
       </Head>
       <Header />
       <Banner />

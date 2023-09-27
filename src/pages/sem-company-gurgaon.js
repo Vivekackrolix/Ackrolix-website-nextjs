@@ -345,6 +345,36 @@ const SemAgency = () => {
         />
          <meta name="robots" 
         content="index,follow" />
+        <script type="application/ld+json">
+{`{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.ackrolix.com/sem-company-gurgaon#webpage",
+  "url": "https://www.ackrolix.com/sem-company-gurgaon",
+  "inLanguage": "en - US",
+  "name": "Search Engine Marketing",
+  "description": "Boost your online presence with Ackrolix - the leading Search Engine Marketing Service Company in Gurgaon. let us assist you in achieving your digital objectives.",
+  "isPartOf": {
+    "@id": "#website"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ]}`
+}
+</script>
+
+
       </Head>
       <Header />
       <div

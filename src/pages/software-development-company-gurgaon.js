@@ -325,7 +325,40 @@ const SoftwareDevelopmentCompany = () => {
         <meta
           property="og:image"
           content="https://www.ackrolix.com/assets/images/service/svg/soft.png"
-        />      
+        />   
+
+
+        <script type="application/ld+json">
+{`{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.ackrolix.com/software-development-company-gurgaon#webpage",
+  "url": "https://www.ackrolix.com/software-development-company-gurgaon",
+  "inLanguage": "en - US",
+  "name": "Software Development",
+  "description": "Ackrolix is a leading Software Development Company in Gurgaon, providing top-notch services to clients worldwide.Count on us for all your software requirements.",
+  "isPartOf": {
+    "@id": "#website"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ]}`
+}
+</script>
+
+
+
       </Head>
       <Header />
       <div

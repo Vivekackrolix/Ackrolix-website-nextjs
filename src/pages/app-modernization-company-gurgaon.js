@@ -331,6 +331,37 @@ const AppModernizationDetails = () => {
         />
          <meta name="robots" 
         content="index,follow" />
+
+
+<script type="application/ld+json">
+{`{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.ackrolix.com/app-modernization-company-gurgaon#webpage",
+  "url": "https://www.ackrolix.com/app-modernization-company-gurgaon",
+  "inLanguage": "en - US",
+  "name": "App Modernisation ",
+  "description": "Looking to modernize your app? Look no further than Ackrolix. Our team of experts offers custom App Modernization Services that will make your app look and work better than ever.",
+  "isPartOf": {
+    "@id": "#website"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ]}`
+}
+</script>
+
       </Head>
       <Header/>
       <div

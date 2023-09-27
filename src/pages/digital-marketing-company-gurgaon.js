@@ -342,6 +342,37 @@ const cards = [
         />
          <meta name="robots" 
         content="index,follow" />
+
+<script type="application/ld+json">
+{`{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.ackrolix.com/digital-marketing-company-gurgaon#webpage",
+  "url": "https://www.ackrolix.com/digital-marketing-company-gurgaon",
+  "inLanguage": "en - US",
+  "name": "Digital Marketing",
+  "description": "Ackrolix is a top-rated Digital Marketing Company in Gurgaon, providing exceptional services to help businesses grow and succeed.",
+  "isPartOf": {
+    "@id": "#website"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ]}`
+}
+</script>
+
+
       </Head>
       <Header />
       <div

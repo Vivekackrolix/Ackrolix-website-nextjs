@@ -346,6 +346,36 @@ const PrAgency = () => {
         />
          <meta name="robots" 
         content="index,follow" />
+
+<script type="application/ld+json">
+{`{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.ackrolix.com/pr-agency-gurgaon#webpage",
+  "url": "https://www.ackrolix.com/pr-agency-gurgaon",
+  "inLanguage": "en - US",
+  "name": "PR Agency",
+  "description": "Ackrolix is a reputable PR service company based in Gurgaon, offering professional and reliable public relations solutions.",
+  "isPartOf": {
+    "@id": "#website"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ]}`
+}
+</script>
+
       </Head>
       <Header />
       <div
