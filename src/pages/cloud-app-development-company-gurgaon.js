@@ -329,6 +329,37 @@ const CloudEngineeringAndDevOps = () => {
             property="og:image"
             content="https://www.ackrolix.com/assets/images/service/svg/clo.png"
         />
+
+<script type="application/ld+json">
+{`{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.ackrolix.com/cloud-app-development-company-gurgaon#webpage",
+  "url": "https://www.ackrolix.com/cloud-app-development-company-gurgaon",
+  "inLanguage": "en - US",
+  "name": "Cloud Application Development",
+  "description": "Ackrolix is a leading cloud application development company in Gurgaon. That helps businesses of all sizes build and deploy scalable, secure, and reliable cloud applications.",
+  "isPartOf": {
+    "@id": "#website"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ]}`
+}
+</script>
+
+
       </Head>
       <Header />
       <div

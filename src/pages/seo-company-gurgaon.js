@@ -344,6 +344,38 @@ const SeoAgency = () => {
         />   
          <meta name="robots" 
         content="index,follow" />  
+
+<script type="application/ld+json">
+{`{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.ackrolix.com/seo-company-gurgaon#webpage",
+  "url": "https://www.ackrolix.com/seo-company-gurgaon",
+  "inLanguage": "en - US",
+  "name": "SEO Services ",
+  "description": "Boost your online presence with Ackrolix, a leading SEO service company based in Gurgaon. Get expert solutions for your digital marketing needs. Get in touch with us today.",
+  "isPartOf": {
+    "@id": "#website"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Ackrolix",
+      "sameAs": "https://www.ackrolix.com/"
+    }
+  ]}`
+}
+</script>
+
+
+
       </Head>
       <Header />
       <div
