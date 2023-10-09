@@ -27,7 +27,7 @@ const Experts = () => {
 
       </div>
       <AllExperts />
-      <Team />
+      {/* <Team /> */}
       <Footer />
     </div>
   );

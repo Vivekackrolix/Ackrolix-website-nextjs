@@ -7,23 +7,23 @@ const All = () => {
       id: 1,
       image: "/assets/images/leaders/leaderthree.png",
       name: "Mr. Jay Gulati",
-      designation: "Founder & CEO",
+      designation: "Director",
       desc: "The only way to do great work is to love what you do.",
     },
     {
       id: 2,
       image: "/assets/images/leaders/leadertwo.png",
       name: "Mr. Subrata Sarkar",
-      designation: "Co-Founder & CMO",
+      designation: "Co-Founder",
       desc: "Everything you’ve ever wanted is on the other side of fear.",
     },
-    {
-      id: 3,
-      image: "/assets/images/leaders/leadersix.png",
-      name: "Mr. Saleem Nawaz",
-      designation: "Co-Founder & CFO",
-      desc: "Everything you’ve ever wanted is on the other side of fear.",
-    },
+    // {
+    //   id: 3,
+    //   image: "/assets/images/leaders/leadersix.png",
+    //   name: "Mr. Saleem Nawaz",
+    //   designation: "Co-Founder & CFO",
+    //   desc: "Everything you’ve ever wanted is on the other side of fear.",
+    // },
 
     {
       id: 4,
