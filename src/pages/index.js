@@ -90,7 +90,7 @@ const index = () => {
       <BannerResponsive/>
       <About />
       <OurServices />
-      <OurGroups/>
+      {/* <OurGroups/> */}
       <Advisors />
       <Memories />
       <Card />

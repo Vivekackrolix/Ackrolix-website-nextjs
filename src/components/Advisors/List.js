@@ -20,14 +20,14 @@ const List = () => {
 
       link: "/advisorDetailPage",
     },
-    {
-      id: 3,
+    // {
+    //   id: 3,
 
-      image: "/assets/images/advisor/saleem.png",
-      name: "Saleem Nawaz",
-      desc: "Saleem Nawaz Mandi Shaikh, a digipreneur and Web3 specialist has initiated D369 & is raising $1 bn for 250+ start-ups under the patronage of the Royal Family of UAE & multiple renowned Venture Capitalists and will be entirely based on Web3 and Metaverse..",
-      link: "/advisorDetailPage",
-    },
+    //   image: "/assets/images/advisor/saleem.png",
+    //   name: "Saleem Nawaz",
+    //   desc: "Saleem Nawaz Mandi Shaikh, a digipreneur and Web3 specialist has initiated D369 & is raising $1 bn for 250+ start-ups under the patronage of the Royal Family of UAE & multiple renowned Venture Capitalists and will be entirely based on Web3 and Metaverse..",
+    //   link: "/advisorDetailPage",
+    // },
     {
       id: 4,
 
