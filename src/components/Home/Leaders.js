@@ -9,11 +9,11 @@ const Leaders = () => {
       img: "/assets/images/leaders/leaderthree.png",
       role: "Director",
     },
-    {
-      name: "Subrata Sarkar",
-      img: "/assets/images/leaders/leadertwo.png",
-      role: "Co-Founder",
-    },
+    // {
+    //   name: "Subrata Sarkar",
+    //   img: "/assets/images/leaders/leadertwo.png",
+    //   role: "Co-Founder",
+    // },
   ];
   return (
     <div className="container-ack md:px-0 px-5 md:pt-0 pt-12 ">
@@ -23,7 +23,7 @@ const Leaders = () => {
         head="Revolutionizing industries through innovation: Empowering your business with our Leaders"
       />
 
-      <div className="grid md:grid-cols-2">
+      <div className="grid md:grid-cols-1">
         {cardData.map((item, key) => {
           return (
             <div className="cardBox" key={key}>

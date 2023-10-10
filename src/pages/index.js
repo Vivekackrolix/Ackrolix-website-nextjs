@@ -92,7 +92,7 @@ const index = () => {
       <OurServices />
       {/* <OurGroups/> */}
       <Advisors />
-      <Memories />
+      {/* <Memories /> */}
       <Card />
       <Portfolio />
       <Leaders />
