@@ -10,20 +10,20 @@ const All = () => {
       designation: "Director",
       desc: "The only way to do great work is to love what you do.",
     },
-    // {
-    //   id: 2,
-    //   image: "/assets/images/leaders/leadertwo.png",
-    //   name: "Mr. Subrata Sarkar",
-    //   designation: "Co-Founder",
-    //   desc: "Everything you’ve ever wanted is on the other side of fear.",
-    // },
-    // {
-    //   id: 3,
-    //   image: "/assets/images/leaders/leadersix.png",
-    //   name: "Mr. Saleem Nawaz",
-    //   designation: "Co-Founder & CFO",
-    //   desc: "Everything you’ve ever wanted is on the other side of fear.",
-    // },
+    {
+      id: 2,
+      image: "/assets/images/leaders/Akshay.jpeg",
+      name: "Mr. Akshay Gupta",
+      designation: "Business Head & Partner",
+      desc: "Everything you’ve ever wanted is on the other side of fear.",
+    },
+    {
+      id: 3,
+      image: "/assets/images/leaders/Anurag.jpeg",
+      name: "Mr. Anurag Gupta",
+      designation: "Business Head & Partner",
+      desc: "Everything you’ve ever wanted is on the other side of fear.",
+    },
 
     {
       id: 4,
@@ -67,7 +67,7 @@ const All = () => {
                   <img
                     src={item.image}
                     alt=""
-                    className="rounded-[100%] w-20 h-20 mx-auto"
+                    className="rounded-[100%] w-20 h-20 mx-auto object-cover"
                   />
                 </div>
 
