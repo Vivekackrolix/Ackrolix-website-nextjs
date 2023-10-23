@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-      <link rel="shortcut icon" href="/assets/images/ackrolix-favicon.png"  />
+      <link rel="shortcut icon" href="/assets/images/ackrolix-favicon.png" />
       <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'></link>
     {/* Google Tag Manager  */}
     <script
