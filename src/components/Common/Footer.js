@@ -111,19 +111,19 @@ const Footer = () => {
                       <span className="">Career</span>
                     </li>
                   </Link>
-                  <Link href="/portfolio">
+                  <Link href="/terms-and-conditions">
                     <li className="text-sm hover:text-primary">
-                      <span className="">Portfolio</span>
+                      <span className="">Terms and Conditions</span>
                     </li>
                   </Link>
-                  <Link href="/technology">
+                  <Link href="/privacy-policy">
                     <li className="text-sm hover:text-primary">
-                      <span className="">Technologies</span>
+                      <span className="">Privacy Policy</span>
                     </li>
                   </Link>
-                  <Link href="/industry-we-serve">
+                  <Link href="/cancellation-and-refund-policy">
                     <li className="text-sm hover:text-primary">
-                      <span className="">Industry We Serve</span>
+                      <span className="">Cancellation and Refund Policy</span>
                     </li>
                   </Link>
                 </ul>
