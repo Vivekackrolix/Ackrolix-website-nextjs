@@ -1,5 +1,8 @@
 import React from 'react'
-
+import Heading from '../components/Common/Heading'
+import Header from '../components/Common/Header'
+import Head from 'next/head'
+import Footer from '../components/Common/Footer'
 const TermsAndConditions = () => {
     return (
         <>
