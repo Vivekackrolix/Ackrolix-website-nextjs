@@ -88,11 +88,6 @@ const Footer = () => {
                       <span className="">Our Expertise</span>
                     </li>
                   </Link>
-                  <Link href="/advisors">
-                    <li className="text-sm hover:text-primary">
-                      <span className="">Advisors</span>
-                    </li>
-                  </Link>
                   <Link href="/experts">
                     <li className="text-sm hover:text-primary">
                       <span className="">Our Experts</span>
