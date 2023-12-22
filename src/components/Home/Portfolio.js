@@ -10,7 +10,7 @@ const Portfolio = () => {
         <ComponentHead
           title="Portfolio"
           sub="Portfolio"
-          head="Where imagination meets technology: Ackrolix Innovations creates products that defy expectations"
+          head="At the Intersection of Imagination and Technology, We Artfully Craft Products that Surpass Your Expectations and Pioneer 'What's Next?' with Unique Online Advertising Services in India."
         />
         <div className="masonry-grid pb-2">
           <div className="masonry-grid-item containerzoom">

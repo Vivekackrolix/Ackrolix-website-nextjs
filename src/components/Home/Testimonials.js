@@ -115,8 +115,8 @@ const Testimonial = () => {
         <div>
           <ComponentHead
             title="Testimonials"
-            sub="A Word From Our Clients"
-            head="Thrilled Clients Speak Out: How Our Experts Solutions Have Transformed Their Business Communication"
+            sub="Success Stories of Our Clients"
+            head="Our clients aren't just satisfied, they're empowered. Hear how:"
           />
 
           <div className="">

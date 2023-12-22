@@ -7,10 +7,11 @@ const Subscription = () => {
       <div className="bg-black rounded-md grid md:grid-cols-12 py-8 px-7">
         <div className="md:col-span-7">
           <p className="font-semibold text-white text-3xl">
-            Subscribe to get updated
+            Boost your Business today!
           </p>
           <p className="text-sm text-white">
-          Enter your email to get the latest updates, news & articles. 
+            Share your email to get expert tips, industry trends, & inspiring
+            stories.
           </p>
         </div>
         <div className="md:col-span-5 md:pt-0 pt-5">
@@ -26,7 +27,9 @@ const Subscription = () => {
             <div className=" w-full md:mt-0 mt-4">
               <button className=" button-1  px-12 py-2 rounded-md">
                 <div className="eff-1"></div>
-                <span className="text-base flex items-center font-semibold">Subscribe</span>
+                <span className="text-base flex items-center font-semibold">
+                  Book a Demo
+                </span>
               </button>
             </div>
           </div>

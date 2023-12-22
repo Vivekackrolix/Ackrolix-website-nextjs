@@ -24,8 +24,8 @@ const Leaders = () => {
     <div className="container-ack md:px-0 px-5 md:pt-0 pt-12 ">
       <ComponentHead
         title="Leaders"
-        sub="Our Creators"
-        head="Revolutionizing industries through innovation: Empowering your business with our Leaders"
+        sub="Our Visionaries"
+        head="We Empower Your Business with Our Trailblazers and Drive Innovation Across Industries."
       />
 
       <div className="grid md:grid-cols-3">
