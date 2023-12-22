@@ -27,7 +27,7 @@ const Footer = () => {
               <p className="text-sm text-justify">
                 Ackrolix Supports Startup & Enterprises in Developing
                 World-Class Products. We help organizations capitalize on
-                cutting-edge technologies and employ robust frameworks and
+                cutting-edge technologies and employ smart work frameworks and
                 efficient workflows to create a robust and scalable product.
               </p>
               <div className="flex space-x-5">

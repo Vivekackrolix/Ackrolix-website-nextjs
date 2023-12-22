@@ -23,7 +23,7 @@ const index = () => {
         <title>Advertising Agency in Gurgaon - Ackrolix</title>
         <meta
           name="description"
-          content="Looking for the best advertising agency in Gurgaon? Look no further than Ackrolix! Our team of experts will help you achieve your marketing goals."
+          content="Ackrolix Innovations is an award-winning best advertising agency in India. We offer a experts team that will help you grow your business."
         />
         <link rel="canonical" href="https://www.ackrolix.com/" />
 
