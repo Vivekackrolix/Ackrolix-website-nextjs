@@ -153,7 +153,7 @@ const clientsData = [
     id: 30,
 
     image: "/assets//images/clients/coal-giene.png",
-  },  
+  },
   {
     id: 31,
 
@@ -185,7 +185,6 @@ const clientsData = [
     image: "/assets//images/clients/itdi.png",
   },
 ];
-
 
 const Clients = () => {
   const settings = {
@@ -262,12 +261,14 @@ const Clients = () => {
           </div>
         </div>
 
-        <div className="pt-1 text-base text-left text-textcolor">
-          We have successfully moved business metrics and delivered high impact
-          work for 120+ startups, unicorns, nonprofits and industry titans
-          across sectors such as Jindal Steel & Power (JSPL) , Intech Organics,
-          Expert Buddy, Nesto Hub & many more..
-        </div>
+        <p className="pt-1 text-base text-left text-textcolor">
+          We empower businesses, from startups to established giants, to achieve
+          remarkable results. Our work with Jindal Steel & Power boosted brand
+          awareness by 20% and qualified leads by 15%. For Intech Organics, we
+          optimised supply chains, reducing costs by 10% and improving quality.
+          With 120+ satisfied clients, we deliver high-impact work across
+          healthcare, education, and more.
+        </p>
       </div>
 
       {/* <div className="relative md:hidden block">

@@ -19,32 +19,31 @@ import BannerResponsive from "../components/Home/BannerResponsive";
 const index = () => {
   return (
     <>
-       <Head>
+      <Head>
         <title>Advertising Agency in Gurgaon - Ackrolix</title>
         <meta
           name="description"
           content="Looking for the best advertising agency in Gurgaon? Look no further than Ackrolix! Our team of experts will help you achieve your marketing goals."
-          />
-         <link rel="canonical" href="https://www.ackrolix.com/"/>
+        />
+        <link rel="canonical" href="https://www.ackrolix.com/" />
 
-          <meta property="og:title" content="Advertising Agency in Gurgaon - Ackrolix" />
-          <meta
-            property="og:description"
-            content="Looking for the best advertising agency in Gurgaon? Look no further than Ackrolix! Our team of experts will help you achieve your marketing goals."
-          />
-           <meta
-            property="og:url"
-            content="https://www.ackrolix.com/"
-          />
-          <meta
-            property="og:image"
-            content="https://www.ackrolix.com/assets/images/logoack.png"
-        />    
-         <meta name="robots" 
-        content="index,follow" />   
+        <meta
+          property="og:title"
+          content="Advertising Agency in Gurgaon - Ackrolix"
+        />
+        <meta
+          property="og:description"
+          content="Looking for the best advertising agency in Gurgaon? Look no further than Ackrolix! Our team of experts will help you achieve your marketing goals."
+        />
+        <meta property="og:url" content="https://www.ackrolix.com/" />
+        <meta
+          property="og:image"
+          content="https://www.ackrolix.com/assets/images/logoack.png"
+        />
+        <meta name="robots" content="index,follow" />
 
         <script type="application/ld+json">
-{`{ "@context": "https://schema.org",
+          {`{ "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Ackrolix",
   "alternateName": "Advertising Agency",
@@ -54,13 +53,11 @@ const index = () => {
     "https://m.facebook.com/people/Ackrolix-Innovations-Pvt-Ltd/100076925016084/",
     "https://www.instagram.com/ackrolix/",
     "https://in.linkedin.com/company/ackrolix"
-  ]}`
-}
-</script>
+  ]}`}
+        </script>
 
-
-<script type="application/ld+json">
-{`{
+        <script type="application/ld+json">
+          {`{
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Ackrolix",
@@ -80,14 +77,12 @@ const index = () => {
     "name": "Ackrolix",
     "image": "https://www.ackrolix.com/assets/images/banner/banner-one.png",
     "telephone": "+91-9910190071" 
-  }}`
-}
-</script>
- 
+  }}`}
+        </script>
       </Head>
       <Header />
       <Banner />
-      <BannerResponsive/>
+      <BannerResponsive />
       <About />
       <OurServices />
       {/* <OurGroups/> */}
