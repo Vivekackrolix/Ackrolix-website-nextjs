@@ -20,7 +20,7 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>Advertising Agency in Gurgaon - Ackrolix</title>
+        <title>Ackrolix | Best Advertising agency in India</title>
         <meta
           name="description"
           content="Ackrolix Innovations is an award-winning best advertising agency in India. We offer a experts team that will help you grow your business."
