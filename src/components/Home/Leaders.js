@@ -11,12 +11,12 @@ const Leaders = () => {
     },
     {
       name: "Akshay Gupta",
-      img: "/assets/images/leaders/Akshay.jpeg",
+      img: "/assets/images/leaders/leader2.png",
       role: "Business Head & Partner",
     },
     {
       name: "Anurag Gupta",
-      img: "/assets/images/leaders/Anurag.jpeg",
+      img: "/assets/images/leaders/leader3.png",
       role: "Business Head & Partner",
     },
   ];
@@ -35,11 +35,11 @@ const Leaders = () => {
               <div className="">
                 <div className="front">
                   <div className="flex flex-col justify-center items-center pt-8">
-                    <div>
+                    <div >
                       <img
                         src={item.img}
                         alt=""
-                        className="w-40 h-40 flex justify-center object-cover"
+                        className="w-40 h-40 flex justify-center object-cover rounded-full"
                       />
                     </div>
                     <p className="text-lg font-semibold text-black pt-5">
