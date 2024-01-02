@@ -10,25 +10,22 @@ const aboutdata = [
   {
     id: 1,
     image: "/assets/images/about/aboutone.png",
-    alttext: "ad company in gurgaon"
+    alttext: "ad company in gurgaon",
   },
   {
     id: 2,
     image: "/assets/images/about/aboutwo.png",
-    alttext: "best advertising agency in gurgaon"
-
+    alttext: "best advertising agency in gurgaon",
   },
   {
     id: 3,
     image: "/assets/images/about/abouthree.png",
-    alttext: "advertising agency in gurgaon"
-
+    alttext: "advertising agency in gurgaon",
   },
   {
     id: 4,
     image: "/assets/images/about/aboutfour.png",
-    alttext: "advertising company in gurgaon"
-
+    alttext: "advertising company in gurgaon",
   },
 ];
 
@@ -96,12 +93,11 @@ const About = () => {
     <div className="bg-[#F6F8F9] md:py-10 md:pt-0 pt-12">
       <div className="md:grid grid-cols-5 gap-4 justfiy-center items-center mobile-hide ">
         <div className="col-span-2 md:px-0 px-5  ">
-
           <div className="">
             <div className="md:w-[95%] pl-16 w-full md:text-base text-xs text-textcolor text-justify font-text pb-4">
               <div className="line-heading">
                 <div className="text-[46px] max-[480px]:text-[30px] text-secondary relative z-10 pb-5 text-left font-bold max-w-xl">
-                 Firm Volunteers 
+                  Firm Volunteers
                 </div>
               </div>
               <div className="load-wrapp relative bottom-[15px]">
@@ -111,15 +107,20 @@ const About = () => {
                   <div className="line"></div>
                 </div>
               </div>
+              <p className="font-bold pb-2">
+                Committed Volunteerism at Ackrolix Innovations Pvt. Ltd.
+              </p>
               <p className="mb-2">
                 {" "}
-                Ackrolix Innovations Pvt. Ltd. works with businesses 
-                to develop web, mobile, and design-related digital experiences. 
-                We honour entrepreneurship and development while turning product
-                 ideas into real-world offerings. We turn our clients' ideas into reality.
-                  Thereby, we enable the expansion of their businesses.
-                  </p>
-              
+                Collaborating with businesses to create impactful digital
+                experiences spanning web, mobile, and design, Ackrolix
+                Innovations celebrates entrepreneurship and progress by turning
+                product ideas to tangible realities. Our cutting-edge digital
+                advertising services in India go beyond vision, actively
+                transforming the aspirations of business leaders into practical
+                practice.
+              </p>
+
               <div className="flex justify-start pb-10 pt-5">
                 <Link href="/about">
                   <button className=" button-2  px-8 py-2 rounded-md">
@@ -173,8 +174,9 @@ const About = () => {
             <div className="w-full text-base text-textcolor text-justify font-text  pb-4 ">
               Ackrolix Innovations Pvt Ltd is an award winning product
               conceptualization & development company that partners with
-              businesses to create digital experiences to their customer&apos;s love,
-              across strategy, design, mobile applications and web technologies.
+              businesses to create digital experiences to their customer&apos;s
+              love, across strategy, design, mobile applications and web
+              technologies.
             </div>
             <div className="w-full text-base text-textcolor text-justify font-text  py-4">
               Over the last Eight years, we have employed technology as a

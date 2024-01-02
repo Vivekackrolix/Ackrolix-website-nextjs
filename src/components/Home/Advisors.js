@@ -61,7 +61,7 @@ const Advisors = () => {
         <ComponentHead
           title="Advisors"
           sub="Our Industry Experts"
-          head="Ackrolix puts ideas into practise. Our industry experts recognise the value of being responsible towards the clients."
+          head="At Ackrolix, we transform imagination into action. Our seasoned experts understand the importance of cultivating a responsible approach towards our clients, and society."
         />
 
         <div className="grid md:grid-cols-3 gap-6 pt-2">
@@ -77,8 +77,9 @@ const Advisors = () => {
                     />
                   </div>
 
-                  <h2 className="font-semibold text-lg py-3 text-black text-center">
-                    {item.name}
+                  <h2 className="font-semibold text-lg py-3 text-black text-center space-y-2">
+                    <span>{item.name}</span>
+                    <hr className="text-primary h-1 bg-primary rounded-md w-12 text-center mx-auto" />
                   </h2>
 
                   <p className="text-black/50 group-hover:text-black text-justify tracking-tighter px-5 text-sm ">

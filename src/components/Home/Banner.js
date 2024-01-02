@@ -129,16 +129,16 @@ const Banner = () => {
                 <div className="flex justify-start items-center space-x-1">
                   <span className="text-primary md:text-sm text-base uppercase font-semibold">
                     {" "}
-                    Exemplary Innovation on Display{" "}
+                    Pioneering Innovations in Action!{" "}
                   </span>{" "}
                   <img src="/assets/icons/icon.png" className="w-9 bulb" />
                 </div>
                 <h1 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-                Ackrolix Advertising Agency in Gurgaon: {" "}
+                  Ackrolix Innovations: Best Advertising Agency in India
                 </h1>
                 <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
-                  Ackrolix Innovations improves for both startups and
-                  well-established businesses, producing effective solutions.
+                  We're your few that improve brands, propell businesses forward
+                  in complex times, & develop solutions that speak only results.
                 </p>
                 <div className="pt-10 w-full">
                   <Link href="/contact">
@@ -146,7 +146,7 @@ const Banner = () => {
                       <div className="eff-3"></div>
                       <span className="text-base flex items-center ">
                         {" "}
-                        Discover Now
+                        Get In Touch
                         <MdKeyboardArrowRight className=" text-base" />
                       </span>
                     </button>
@@ -157,7 +157,7 @@ const Banner = () => {
                 <div className="flex justify-start items-center space-x-1">
                   <span className="text-primary md:text-sm text-base uppercase font-semibold">
                     {" "}
-                    The spot where notions are born{" "}
+                    The Nexus of Limitless Creativity Unleashed!
                   </span>{" "}
                   <img src="/assets/icons/icon.png" className="w-9 bulb" />
                 </div>
@@ -165,8 +165,10 @@ const Banner = () => {
                   Facilitating Advertising Agency
                 </h2>
                 <p className="text-textcolor pt-4 text-justify text-[15px] font-medium">
-                  Ackrolix finds useful solutions. We leave enduring impressions
-                  by fusing creativity and technology.
+                  Ackrolix is the best Advertising Agency in India because we've
+                  country's best minds fusing creativity and technology to
+                  develop best solutions, leaving enduring impressions every
+                  time.
                 </p>
                 <div className="pt-10 w-full">
                   <Link href="/contact">
@@ -174,7 +176,7 @@ const Banner = () => {
                       <div className="eff-3"></div>
                       <span className="text-base flex items-center ">
                         {" "}
-                        Discover Now
+                        Meet Our Creative Team
                         <MdKeyboardArrowRight className=" text-base" />
                       </span>
                     </button>
@@ -185,16 +187,16 @@ const Banner = () => {
                 <div className="flex justify-start items-center space-x-1">
                   <span className="text-primary md:text-sm text-base uppercase font-semibold">
                     {" "}
-                    Building novel applications{" "}
+                    Crafting Tomorrow with Unmatched Ingenuity
                   </span>{" "}
                   <img src="/assets/icons/icon.png" className="w-9 bulb" />
                 </div>
                 <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-                  Developing Mobile Apps to Improve Your Brand
+                  Empowering Your Mobile App Dreams
                 </h2>
                 <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
-                  From idea to app store, Ackrolix Innovations guides you
-                  through the Mobile App Development journey.
+                  Ackrolix Innovations seamlessly Transforms Visions into
+                  Game-changing App Store Realities.
                 </p>
                 <div className="pt-10 w-full">
                   <Link href="/contact">
@@ -202,7 +204,36 @@ const Banner = () => {
                       <div className="eff-3"></div>
                       <span className="text-base flex items-center ">
                         {" "}
-                        Discover Now
+                        Get Started Today
+                        <MdKeyboardArrowRight className=" text-base" />
+                      </span>
+                    </button>
+                  </Link>
+                </div>
+              </li>
+              <li>
+                <div className="flex justify-start items-center space-x-1">
+                  <span className="text-primary md:text-sm text-base uppercase font-semibold">
+                    {" "}
+                    Innovative Excellence at Each Step!
+                  </span>{" "}
+                  <img src="/assets/icons/icon.png" className="w-9 bulb" />
+                </div>
+                <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
+                  Conceptualising and Creating Compelling Products!
+                </h2>
+                <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
+                  From Ideation to Reality, this Digital Advertising Company in
+                  India Delivers Transformative Solutions for Startups and
+                  Fortune Companies.
+                </p>
+                <div className="pt-10 w-full">
+                  <Link href="/contact">
+                    <button className="button-3 bg-secondary hover:bg-primary text-white px-12 py-3 justify-center rounded-md flex items-center w-full text-center">
+                      <div className="eff-3"></div>
+                      <span className="text-base flex items-center ">
+                        {" "}
+                        Explore More
                         <MdKeyboardArrowRight className=" text-base" />
                       </span>
                     </button>
