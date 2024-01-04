@@ -75,7 +75,7 @@ const FormSection = () => {
     <>
       <div
         className="bg-cover"
-        // style={{ backgroundImage: `url("/assets/images/banner/3.webp")` }}
+      // style={{ backgroundImage: `url("/assets/images/banner/3.webp")` }}
       >
         <div className="relative mb-50 ">
           <div className="md:text-[7rem] text-[5rem] text-white tracking-wider text-center texttransparent font-bold  md:pt-10 ">
@@ -83,7 +83,7 @@ const FormSection = () => {
           </div>
           <div className=" md:top-[5.8rem] font-bold  text-[46px]  text-center flex flex-col md:space-y-6 absolute left-[39%] bottom-[15px]">
             <h2>
-              Get in <span className="text-primary">Touch</span>
+              Let's build something  <span className="text-primary">worth building</span>
             </h2>
           </div>
         </div>
@@ -94,7 +94,7 @@ const FormSection = () => {
               className=" md:text-start text-center text-sm md:pr-12 md:top-[5.8rem] font-bold top-10 left-16 text-[46px]  flex flex-col md:space-y-6 "
             >
               {
-                "We appreciate your interest in Ackrolix. We're available to respond to any queries you may have."
+                "Got questions? Got ideas? Need guidance? We're listening. Just a form away!"
               }
             </p>
 
@@ -169,14 +169,10 @@ const FormSection = () => {
           <div className="grid pl-16 justify-items items-center ">
             <div className="">
               <h1 className="font-extrabold text-3xl mb-5">
-                Connect with Our Experts for Expert Advice and Supports
+                Ackrolix, Across The Global Web
               </h1>
               <p>
-                When you choose to connect with our experts, you gain access to
-                a wealth of knowledge and experience. Our team comprises
-                professionals who have excelled in their respective fields and
-                possess a deep understanding of the challenges and complexities
-                you may face.
+                10,000+ pros, 3 yrs of awards. Our experts have tackled everything; from common roadblocks to industry-specific knots, paving the way for award-winning results for 3 years running. Ackrolix clients rave about the clarity, depth, and actionable insights that unlock their full potential. Ready? Let's talk!
               </p>
 
               <Link href="mailto:info@ackrolix.com">
