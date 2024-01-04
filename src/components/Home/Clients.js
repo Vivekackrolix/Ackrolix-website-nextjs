@@ -249,7 +249,7 @@ const Clients = () => {
         <div className="">
           <div className="client-line-heading">
             <div className="text-[46px] max-[480px]:text-[30px]  text-secondary relative z-10 bottom-[34px] md:text-left text-center font-bold max-w-xl">
-              Our Satisfied Clients
+            Customer Delight
             </div>
           </div>
           <div className="load-wrapp relative bottom-[44px] ml-32 md:ml-0">
@@ -262,12 +262,7 @@ const Clients = () => {
         </div>
 
         <p className="pt-1 text-base text-left text-textcolor">
-          We empower businesses, from startups to established giants, to achieve
-          remarkable results. Our work with Jindal Steel & Power boosted brand
-          awareness by 20% and qualified leads by 15%. For Intech Organics, we
-          optimised supply chains, reducing costs by 10% and improving quality.
-          With 120+ satisfied clients, we deliver high-impact work across
-          healthcare, education, and more.
+        Empowering businesses, from startups to established giants, to achieve remarkable results. Our collaboration with Jindal Steel & Power increased brand awareness by 20% and generated a 15% rise in qualified leads. Working with Intech Organics, we optimized supply chains, cutting costs by 10% and enhancing quality. With a track record of 120+ satisfied clients, our high-impact work spans across industries such as healthcare, education, and more.
         </p>
       </div>
 

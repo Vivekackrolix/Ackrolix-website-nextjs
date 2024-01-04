@@ -7,11 +7,10 @@ const Subscription = () => {
       <div className="bg-black rounded-md grid md:grid-cols-12 py-8 px-7">
         <div className="md:col-span-7">
           <p className="font-semibold text-white text-3xl">
-            Boost your Business today!
+          Ready for accelerated growth?
           </p>
           <p className="text-sm text-white">
-            Share your email to get expert tips, industry trends, & inspiring
-            stories.
+          Get a personalized boost with industry trends, inspiring stories & expert guidance. 
           </p>
         </div>
         <div className="md:col-span-5 md:pt-0 pt-5">
@@ -19,7 +18,7 @@ const Subscription = () => {
             <div className="w-full">
               <input
                 type="text"
-                placeholder="Enter your email"
+                placeholder="Share your email"
                 className="outline-none p-2  text-white bg-transparent border border-white w-full rounded-md placeholder:text-gray px-4"
               />
             </div>
