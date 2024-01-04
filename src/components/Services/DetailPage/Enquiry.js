@@ -77,13 +77,12 @@ const Enquiry = () => {
               <div className="">
                 <div className="absolute md:top-[5rem] top-[4rem] inset-x-0 flex justify-left">
                   <div className="text-[40px] text-left text-white font-bold max-w-xl">
-                    Have A Query?
+                  Got a Question for Us?
                   </div>
                 </div>
 
                 <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  py-4">
-                  Yes, We Can Help You With Your Ideas, Challenges & Ambitions!!
-                  Let&apos;s make things work. Just tell us the requirements.
+                Absolutely! We're here to help with your ideas, challenges, and ambitions. Share your requirements, and let's bring your vision to life!
                 </div>
               </div>
             </div>
