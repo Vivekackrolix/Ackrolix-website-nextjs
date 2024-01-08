@@ -209,17 +209,17 @@ const Research = () => {
   return (
     <div>
       <Head>
-        <title>User Research Company in Gurgaon - Ackrolix</title>
+        <title> Your Trusted User Research Agency in india | ackrolix innovations</title>
         <meta
           name="description"
-          content="Ackrolix is a professional User Research Company based in Gurgaon, providing expert insights and analysis to enhance user experience."
+          content="As a leading User Research Agency in india, we offer comprehensive user experience research services to your specific requirements."
           />
                   <link rel="canonical" href="https://www.ackrolix.com/user-research-company-gurgaon"/>
 
-          <meta property="og:title" content="User Research Company in Gurgaon - Ackrolix" />
+          <meta property="og:title" content=" Your Trusted User Research Agency in india | ackrolix innovations" />
           <meta
             property="og:description"
-            content="Ackrolix is a professional User Research Company based in Gurgaon, providing expert insights and analysis to enhance user experience."
+            content="As a leading User Research Agency in india, we offer comprehensive user experience research services to your specific requirements."
           />
            <meta
             property="og:url"

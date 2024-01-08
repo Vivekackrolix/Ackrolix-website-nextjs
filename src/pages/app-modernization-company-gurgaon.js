@@ -308,18 +308,18 @@ const AppModernizationDetails = () => {
   return (
     <div>
       <Head>
-        <title>App Modernization Services Company in Gurgaon - Ackrolix</title>
+        <title>Unlocking Business Potential: Application Modernization Solutions in India</title>
         
         <meta
           name="description"
-          content="Looking to modernize your app? Look no further than Ackrolix. Our team of experts offers custom App Modernization Services that will make your app look and work better than ever."
+          content="Looking to modernize your applications? Say hello to Ackrolix, the go-to Application Modernisation company! We understand the significance of staying relevant in today's fast-paced digital landscape. Our skilled team possesses the know-how to revitalize your applications, strengthening their performance, functionality, and overall user experience."
           />
            <link rel="canonical" href="https://www.ackrolix.com/app-modernization-company-gurgaon"/>
           <meta property="og:title" 
-          content="App Modernization Services Company in Gurgaon - Ackrolix" />
+          content="Unlocking Business Potential: Application Modernization Solutions in India" />
           <meta
             property="og:description"
-            content="Looking to modernize your app? Look no further than Ackrolix. Our team of experts offers custom App Modernization Services that will make your app look and work better than ever."
+            content="Looking to modernize your applications? Say hello to Ackrolix, the go-to Application Modernisation company! We understand the significance of staying relevant in today's fast-paced digital landscape. Our skilled team possesses the know-how to revitalize your applications, strengthening their performance, functionality, and overall user experience."
           />
            <meta
             property="og:url"
@@ -341,7 +341,7 @@ const AppModernizationDetails = () => {
   "url": "https://www.ackrolix.com/app-modernization-company-gurgaon",
   "inLanguage": "en - US",
   "name": "App Modernisation ",
-  "description": "Looking to modernize your app? Look no further than Ackrolix. Our team of experts offers custom App Modernization Services that will make your app look and work better than ever.",
+  "description": "Looking to modernize your applications? Say hello to Ackrolix, the go-to Application Modernisation company! We understand the significance of staying relevant in today's fast-paced digital landscape. Our skilled team possesses the know-how to revitalize your applications, strengthening their performance, functionality, and overall user experience.",
   "isPartOf": {
     "@id": "#website"
   },

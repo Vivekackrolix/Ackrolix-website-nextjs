@@ -308,37 +308,40 @@ const CloudEngineeringAndDevOps = () => {
   return (
     <div>
       <Head>
-        <title>Cloud Application Development Company in Gurgaon - Ackrolix</title>
+        <title>Cloud Application Development Services in India</title>
         <meta
           name="description"
-          content="Ackrolix is a leading cloud application development company in Gurgaon. That helps businesses of all sizes build and deploy scalable, secure, and reliable cloud applications."
-          />
-           <link rel="canonical" href="https://www.ackrolix.com/cloud-app-development-company-gurgaon"/>
-          <meta property="og:title" content="Cloud Application Development Company in Gurgaon - Ackrolix" />
-          <meta
-            property="og:description"
-            content="Ackrolix is a leading cloud application development company in Gurgaon. That helps businesses of all sizes build and deploy scalable, secure, and reliable cloud applications."
-          />
-           <meta
-            property="og:url"
-            content="https://www.ackrolix.com/cloud-app-development-company-gurgaon"
-          />
-           <meta name="robots" 
-        content="index,follow" />
-          <meta
-            property="og:image"
-            content="https://www.ackrolix.com/assets/images/service/svg/clo.png"
+          content="We are the best and leading Agency in Cloud Application Development Services in India.
+ We are offering the best Application Development Services."
+        />
+        <link rel="canonical" href="https://www.ackrolix.com/cloud-app-development-company-gurgaon" />
+        <meta property="og:title" content="Cloud Application Development Services in India" />
+        <meta
+          property="og:description"
+          content="We are the best and leading Agency in Cloud Application Development Services in India.
+ We are offering the best Application Development Services."
+        />
+        <meta
+          property="og:url"
+          content="https://www.ackrolix.com/cloud-app-development-company-gurgaon"
+        />
+        <meta name="robots"
+          content="index,follow" />
+        <meta
+          property="og:image"
+          content="https://www.ackrolix.com/assets/images/service/svg/clo.png"
         />
 
-<script type="application/ld+json">
-{`{
+        <script type="application/ld+json">
+          {`{
   "@context": "http://schema.org",
   "@type": "WebPage",
   "@id": "https://www.ackrolix.com/cloud-app-development-company-gurgaon#webpage",
   "url": "https://www.ackrolix.com/cloud-app-development-company-gurgaon",
   "inLanguage": "en - US",
   "name": "Cloud Application Development",
-  "description": "Ackrolix is a leading cloud application development company in Gurgaon. That helps businesses of all sizes build and deploy scalable, secure, and reliable cloud applications.",
+  "description": "We are the best and leading Agency in Cloud Application Development Services in India.
+ We are offering the best Application Development Services.",
   "isPartOf": {
     "@id": "#website"
   },
@@ -356,8 +359,8 @@ const CloudEngineeringAndDevOps = () => {
       "sameAs": "https://www.ackrolix.com/"
     }
   ]}`
-}
-</script>
+          }
+        </script>
 
 
       </Head>
@@ -368,7 +371,7 @@ const CloudEngineeringAndDevOps = () => {
           backgroundImage: 'url("/assets/images/mainbackground.png ")',
         }}
       >
-        <Banner 
+        <Banner
           bannertitle="Cloud Application Development Services in Gurgaon by Akcrolix"
           bannersubtext="Ackrolix, a prominent cloud engineering and devops firm with offices in Gurgaon, is a market leader in the technology sector, providing pioneering solutions for organisations of all kinds. Our committed team of experts excels at converting ageing IT infrastructures into stable, scalable cloud-based designs."
           serviceimg="/assets/images/service/svg/clo.png"
@@ -378,14 +381,14 @@ const CloudEngineeringAndDevOps = () => {
           servicedesc2="Another one of Ackrolix's main competencies is DevOps, which is crucial to the process of developing and distributing software. We offer effective Continuous Integration/Continuous Delivery (CI/CD) pipelines, automated testing, and delivery processes by combining development and operations teams. This more efficient method encourages teamwork, shortens the development process, and reduces the time it takes to market new features and products."
         />
       </div>
-      <Cards card={cards}/>
+      <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
-       <ComponentHead
-        title="Technology"
-        sub="Empowering Cloud &amp; DevOps Engineering"
-        head="By harnessing a cutting-edge technology stack, businesses can empower their cloud and DevOps initiatives to drive transformation and achieve their strategic goals."
-      />
-      <Technology tech={techs} />
+        <ComponentHead
+          title="Technology"
+          sub="Empowering Cloud &amp; DevOps Engineering"
+          head="By harnessing a cutting-edge technology stack, businesses can empower their cloud and DevOps initiatives to drive transformation and achieve their strategic goals."
+        />
+        <Technology tech={techs} />
       </div>
       <div>
         <div

@@ -280,34 +280,36 @@ const ProductDdesignCompany = () => {
   return (
     <div>
       <Head>
-        <title>Digital Product Design Company in Gurgaon - Ackrolix</title>
-        <meta name="description" content="Ackrolix is a leading Digital Product Design Company in Gurgaon, renowned for its exceptional services and innovative solutions." />
-        <link rel="canonical" href="https://www.ackrolix.com/digital-product-design-company-gurgaon"/>
-        <meta property="og:title" content="Digital Product Design Company in Gurgaon - Ackrolix" />
+        <title>Ackrolix | Best Digital Product Design Agency in India. </title>
+        <meta name="description" content="Ackrolix is the best Digital Product Design Agency in India.
+ We provide the best Digital Product designing Services in India. " />
+        <link rel="canonical" href="https://www.ackrolix.com/digital-product-design-company-gurgaon" />
+        <meta property="og:title" content="Ackrolix | Best Digital Product Design Agency in India. " />
         <meta
           property="og:description"
-          content="Ackrolix is a leading Digital Product Design Company in Gurgaon, renowned for its exceptional services and innovative solutions."
+          content="Ackrolix is the best Digital Product Design Agency in India.We provide the best Digital Product designing Services in India. "
         />
-         <meta
+        <meta
           property="og:url"
           content="https://www.ackrolix.com/digital-product-design-company-gurgaon"
         />
-        <meta name="robots" 
-        content="index,follow" />
+        <meta name="robots"
+          content="index,follow" />
         <meta
           property="og:image"
           content="https://www.ackrolix.com/assets/images/service/svg/pro.png"
         />
 
-<script type="application/ld+json">
-{`{
+        <script type="application/ld+json">
+          {`{
   "@context": "http://schema.org",
   "@type": "WebPage",
   "@id": "https://www.ackrolix.com/digital-product-design-company-gurgaon#webpage",
   "url": "https://www.ackrolix.com/digital-product-design-company-gurgaon",
   "inLanguage": "en - US",
   "name": "Digital Product Design",
-  "description": "Ackrolix is a leading Digital Product Design Company in Gurgaon, renowned for its exceptional services and innovative solutions.",
+  "description": ""Ackrolix is the best Digital Product Design Agency in India.
+ We provide the best Digital Product designing Services in India. "",
   "isPartOf": {
     "@id": "#website"
   },
@@ -325,8 +327,8 @@ const ProductDdesignCompany = () => {
       "sameAs": "https://www.ackrolix.com/"
     }
   ]}`
-}
-</script>
+          }
+        </script>
 
 
       </Head>

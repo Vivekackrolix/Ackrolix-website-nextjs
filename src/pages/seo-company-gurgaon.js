@@ -324,15 +324,15 @@ const SeoAgency = () => {
   return (
     <div>
       <Head>
-        <title>SEO Service Company in Gurgaon - Ackrolix</title>
+        <title>Ackrolix: seo company in india</title>
         <meta name="description"
-         content="Boost your online presence with Ackrolix, a leading SEO service company based in Gurgaon. Get expert solutions for your digital marketing needs. Get in touch with us today." />
+         content="We are the number one SEO Company in India that offers assured first-page rankings. Our data-driven proven SEO methods are unique. Get a free Audit Today." />
       <link rel="canonical" href="https://www.ackrolix.com/seo-company-gurgaon"/>
         <meta property="og:title" 
-        content="SEO Service Company in Gurgaon - Ackrolix" />
+        content="Ackrolix: seo company in india" />
         <meta
           property="og:description"
-          content="Boost your online presence with Ackrolix, a leading SEO service company based in Gurgaon. Get expert solutions for your digital marketing needs. Get in touch with us today."
+          content="We are the number one SEO Company in India that offers assured first-page rankings. Our data-driven proven SEO methods are unique. Get a free Audit Today."
         />
         <meta
           property="og:url"
@@ -353,7 +353,7 @@ const SeoAgency = () => {
   "url": "https://www.ackrolix.com/seo-company-gurgaon",
   "inLanguage": "en - US",
   "name": "SEO Services ",
-  "description": "Boost your online presence with Ackrolix, a leading SEO service company based in Gurgaon. Get expert solutions for your digital marketing needs. Get in touch with us today.",
+  "description": "We are the number one SEO Company in India that offers assured first-page rankings. Our data-driven proven SEO methods are unique. Get a free Audit Today.",
   "isPartOf": {
     "@id": "#website"
   },

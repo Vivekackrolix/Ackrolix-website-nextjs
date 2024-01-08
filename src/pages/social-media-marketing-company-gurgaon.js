@@ -324,16 +324,16 @@ const SmmAgency = () => {
   return (
     <div>
       <Head>
-        <title>Social Media Marketing Agency in Gurgaon - Ackrolix</title>
+        <title>Ackrolix: Social Media Marketing Company in India</title>
         <meta
           name="description"
-          content="Ackrolix is a professional Social Media Marketing Agency based in Gurgaon, that provides expert services to improve your online visibility."
+          content="Ackrolix: best social media marketing company in India! we are  specializes in strategic solutions to boost your online presence and drive impactful results."
           />
            <link rel="canonical" href="https://www.ackrolix.com/social-media-marketing-company-gurgaon"/>
-          <meta property="og:title" content="Social Media Marketing Agency in Gurgaon - Ackrolix" />
+          <meta property="og:title" content="Ackrolix: Social Media Marketing Company in India" />
           <meta
             property="og:description"
-            content="Ackrolix is a professional Social Media Marketing Agency based in Gurgaon, that provides expert services to improve your online visibility."
+            content="Ackrolix: best social media marketing company in India! we are  specializes in strategic solutions to boost your online presence and drive impactful results."
           />
            <meta
             property="og:url"
@@ -354,7 +354,7 @@ const SmmAgency = () => {
   "url": "https://www.ackrolix.com/social-media-marketing-company-gurgaon",
   "inLanguage": "en - US",
   "name": "Social Media Marketing",
-  "description": "Ackrolix is a professional Social Media Marketing Agency based in Gurgaon, that provides expert services to improve your online visibility.",
+  "description": "Ackrolix: best social media marketing company in India! we are  specializes in strategic solutions to boost your online presence and drive impactful results.",
   "isPartOf": {
     "@id": "#website"
   },

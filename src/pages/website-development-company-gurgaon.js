@@ -308,20 +308,20 @@ const cards = [
   return (
     <div>
       <Head>
-        <title>Website Design & Development Company in Gurgaon - Ackrolix</title>
+        <title>Ackrolix - The Solution for Cutting-Edge Web Development Companies in India</title>
         <meta
           name="description"
-          content="Ackrolix is a Web Development Company in Gurgaon that builds better for optimum performance and customer engagement across all devices and platforms."
+          content="With Ackrolix, you will have access to a wide range of powerful tools and functionalities tailored to meet the unique needs of web development companies in India. From seamless project management to collaborative coding features, our platform empowers your team to work together efficiently and effectively."
         />
                 <link rel="canonical" href="https://www.ackrolix.com/website-development-company-gurgaon"/>
 
         <meta
           property="og:title"
-          content="Website Design & Development Company in Gurgaon - Ackrolix"
+          content="Ackrolix - The Solution for Cutting-Edge Web Development Companies in India"
         />
         <meta
           property="og:description"
-          content="Ackrolix is a Web Development Company in Gurgaon that builds better for optimum performance and customer engagement across all devices and platforms."
+          content="With Ackrolix, you will have access to a wide range of powerful tools and functionalities tailored to meet the unique needs of web development companies in India. From seamless project management to collaborative coding features, our platform empowers your team to work together efficiently and effectively."
         />
         <meta
           property="og:url"
@@ -343,7 +343,7 @@ const cards = [
   "url": "https://www.ackrolix.com/website-development-company-gurgaon",
   "inLanguage": "en - US",
   "name": "Website Development",
-  "description": "Ackrolix is a Web Development Company in Gurgaon that builds better for optimum performance and customer engagement across all devices and platforms.",
+  "description": "With Ackrolix, you will have access to a wide range of powerful tools and functionalities tailored to meet the unique needs of web development companies in India. From seamless project management to collaborative coding features, our platform empowers your team to work together efficiently and effectively.",
   "isPartOf": {
     "@id": "#website"
   },

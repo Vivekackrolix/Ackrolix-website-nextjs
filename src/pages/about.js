@@ -14,7 +14,10 @@ const About = () => {
   return (
     <div className="">
       <Head>
-        <title>About Us</title>
+        <title>
+          About Us | Ackrolix Innovations</title>
+        <meta name="description" content="We are all about changing lives and solving problems.
+Ackrolix is known for its innovative approach, teamwork, and commitment to excellence. " />
       </Head>
       <Header />
       <Banner />

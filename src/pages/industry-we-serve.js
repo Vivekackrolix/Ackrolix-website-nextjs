@@ -7,13 +7,14 @@ import ComponentHead from "../components/Common/ComponentHead";
 import Card from "../components/Industry/Card";
 import Band from "../components/Common/Band";
 import Footer from "../components/Common/Footer";
-
 const industryWeServe = () => {
   return (
     <>
       <div>
         <Head>
-          <title> Industry </title>
+          <title> Ackrolix Innovations | Industry we serve </title>
+          <meta name="description" content="Discover how Ackrolix Industry serves diverse sectors with 
+innovative solutions, delivering excellence and reliability across various industries." />
         </Head>
         <Header />
         <Heading

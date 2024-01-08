@@ -17,8 +17,8 @@ const PrAgency = () => {
     {
       id: "1",
       name: "Experienced PR Strategists",
-      desc:"Our skilled team develops customized public relations plans to help your brand's message and reach."   
-     },
+      desc: "Our skilled team develops customized public relations plans to help your brand's message and reach."
+    },
     {
       id: "2",
       name: "Media Excellence",
@@ -27,8 +27,8 @@ const PrAgency = () => {
     {
       id: "3",
       name: "Crisis Management",
-      desc:"You can rely on us to manage difficult situations quickly and effectively with crisis communication tactics."  
-      },
+      desc: "You can rely on us to manage difficult situations quickly and effectively with crisis communication tactics."
+    },
     {
       id: "4",
       name: "Captivating Content",
@@ -190,7 +190,7 @@ const PrAgency = () => {
       name: "Tumblr",
 
     },
-   
+
   ];
   const cards = [
     {
@@ -281,81 +281,84 @@ const PrAgency = () => {
       textcolor: "text-secondary",
       main: "hidden",
     },
- 
+
   ];
-  const casestudies=[
+  const casestudies = [
     {
-      id:1,
-      image:"/assets/images/service/caseone.png",
-      name:"Logical Fallacies",
-      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      id: 1,
+      image: "/assets/images/service/caseone.png",
+      name: "Logical Fallacies",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
     },
     {
-      id:2,
-      image:"/assets/images/service/casetwo.png",
-      name:"Long term risk",
-      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      id: 2,
+      image: "/assets/images/service/casetwo.png",
+      name: "Long term risk",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
     },
     {
-      id:3,
-      image:"/assets/images/service/casethree.png",
-      name:"growth hackers",
-      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      id: 3,
+      image: "/assets/images/service/casethree.png",
+      name: "growth hackers",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
     },
     {
-      id:4,
-      image:"/assets/images/service/casetwo.png",
-      name:" whole lot of factors",
-      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      id: 4,
+      image: "/assets/images/service/casetwo.png",
+      name: " whole lot of factors",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
     },
     {
-      id:5,
-      image:"/assets/images/service/casethree.png",
-      name:"Outliers’ success",
-      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      id: 5,
+      image: "/assets/images/service/casethree.png",
+      name: "Outliers’ success",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
     },
     {
-      id:6,
-      image:"/assets/images/service/caseone.png",
-      name:"North Star Metric",
-      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      id: 6,
+      image: "/assets/images/service/caseone.png",
+      name: "North Star Metric",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
     },
   ];
   return (
     <div>
       <Head>
-        <title>PR Service Company in Gurgaon - Ackrolix</title>
+        <title>Ackrolix | Providing the Best PR services in India</title>
         <meta
           name="description"
-          content="Ackrolix is a reputable PR service company based in Gurgaon, offering professional and reliable public relations solutions."
-          />
-           <link rel="canonical" href="https://www.ackrolix.com/pr-agency-gurgaon"/>
-          <meta property="og:title" 
-          content="PR Service Company in Gurgaon - Ackrolix" />
-          <meta
-            property="og:description"
-            content="Ackrolix is a reputable PR service company based in Gurgaon, offering professional and reliable public relations solutions."
-          />
-           <meta
-            property="og:url"
-            content="https://www.ackrolix.com/pr-agency-gurgaon"
-          />
-          <meta
-            property="og:image"
-            content="https://www.ackrolix.com/assets/images/service/svg/pr.png"
+          content="Ackrolix Provides the Best PR Services in India. 
+We are playing a significant role by Generating awareness, Brand mentions, and Building backlinks."
         />
-         <meta name="robots" 
-        content="index,follow" />
+        <link rel="canonical" href="https://www.ackrolix.com/pr-agency-gurgaon" />
+        <meta property="og:title"
+          content="Ackrolix | Providing the Best PR services in India" />
+        <meta
+          property="og:description"
+          content="Ackrolix Provides the Best PR Services in India. 
+We are playing a significant role by Generating awareness, Brand mentions, and Building backlinks."
+        />
+        <meta
+          property="og:url"
+          content="https://www.ackrolix.com/pr-agency-gurgaon"
+        />
+        <meta
+          property="og:image"
+          content="https://www.ackrolix.com/assets/images/service/svg/pr.png"
+        />
+        <meta name="robots"
+          content="index,follow" />
 
-<script type="application/ld+json">
-{`{
+        <script type="application/ld+json">
+          {`{
   "@context": "http://schema.org",
   "@type": "WebPage",
   "@id": "https://www.ackrolix.com/pr-agency-gurgaon#webpage",
   "url": "https://www.ackrolix.com/pr-agency-gurgaon",
   "inLanguage": "en - US",
   "name": "PR Agency",
-  "description": "Ackrolix is a reputable PR service company based in Gurgaon, offering professional and reliable public relations solutions.",
+  "description": "Ackrolix Provides the Best PR Services in India. 
+We are playing a significant role by Generating awareness, Brand mentions, and Building backlinks.",
   "isPartOf": {
     "@id": "#website"
   },
@@ -373,8 +376,8 @@ const PrAgency = () => {
       "sameAs": "https://www.ackrolix.com/"
     }
   ]}`
-}
-</script>
+          }
+        </script>
 
       </Head>
       <Header />
@@ -432,7 +435,7 @@ const PrAgency = () => {
         title="Studies"
         sub="Case Studies"
       />
-<CaseStudies casestudies={casestudies}/>
+      <CaseStudies casestudies={casestudies} />
 
       <Work />
       {/* <Section /> */}
