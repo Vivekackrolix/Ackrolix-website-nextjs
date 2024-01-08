@@ -191,7 +191,7 @@ const MediaBuying = () => {
       name: "Tumblr",
 
     },
-   
+
   ];
   const cards = [
     {
@@ -283,54 +283,56 @@ const MediaBuying = () => {
       main: "hidden",
     },
   ];
-  const casestudies=[
+  const casestudies = [
     {
-      id:1,
-      image:"/assets/images/service/caseone.png",
-      name:"Logical Fallacies",
-      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      id: 1,
+      image: "/assets/images/service/caseone.png",
+      name: "Logical Fallacies",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
     },
     {
-      id:2,
-      image:"/assets/images/service/casetwo.png",
-      name:"Long term risk",
-      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      id: 2,
+      image: "/assets/images/service/casetwo.png",
+      name: "Long term risk",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
     },
     {
-      id:3,
-      image:"/assets/images/service/casethree.png",
-      name:"growth hackers",
-      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      id: 3,
+      image: "/assets/images/service/casethree.png",
+      name: "growth hackers",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
     },
     {
-      id:4,
-      image:"/assets/images/service/casetwo.png",
-      name:" whole lot of factors",
-      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      id: 4,
+      image: "/assets/images/service/casetwo.png",
+      name: " whole lot of factors",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
     },
     {
-      id:5,
-      image:"/assets/images/service/casethree.png",
-      name:"Outliers’ success",
-      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      id: 5,
+      image: "/assets/images/service/casethree.png",
+      name: "Outliers’ success",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
     },
     {
-      id:6,
-      image:"/assets/images/service/caseone.png",
-      name:"North Star Metric",
-      desc:"What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      id: 6,
+      image: "/assets/images/service/caseone.png",
+      name: "North Star Metric",
+      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
     },
   ]
   return (
     <div>
       <Head>
-      <title>Media Planning and Buying Agency in Gurgaon- Ackrolix</title> 
-        <meta name="description" content="Looking for a media planning and buying agency in Gurgaon? Look no further than Ackrolix! Let us help you reach your target audience with ease." />
-        <link rel="canonical" href="https://www.ackrolix.com/media-buying-company-gurgaon"/>
-        <meta property="og:title" content="Media Planning and Buying Agency in Gurgaon- Ackrolix" />
+        <title>Media Buying Company in India | Ackrolix Innovations</title>
+        <meta name="description" content="Ackrolix Innovations is the best Media best-buying company in 
+India that offers Communication Planning, Content Creation, and Technology." />
+        <link rel="canonical" href="https://www.ackrolix.com/media-buying-company-gurgaon" />
+        <meta property="og:title" content="Media Buying Company in India | Ackrolix Innovations" />
         <meta
           property="og:description"
-          content="Looking for a media planning and buying agency in Gurgaon? Look no further than Ackrolix! Let us help you reach your target audience with ease."
+          content="Ackrolix Innovations is the best Media best-buying company in 
+India that offers Communication Planning, Content Creation, and Technology."
         />
         <meta
           property="og:url"
@@ -339,19 +341,20 @@ const MediaBuying = () => {
         <meta
           property="og:image"
           content="https://www.ackrolix.com/assets/images/service/svg/buy.png"
-        />  
-         <meta name="robots" 
-        content="index,follow" /> 
+        />
+        <meta name="robots"
+          content="index,follow" />
 
         <script type="application/ld+json">
-{`{
+          {`{
   "@context": "http://schema.org",
   "@type": "WebPage",
   "@id": "https://www.ackrolix.com/media-buying-company-gurgaon#webpage",
   "url": "https://www.ackrolix.com/media-buying-company-gurgaon",
   "inLanguage": "en - US",
   "name": "Media Buying",
-  "description": "Looking for a media planning and buying agency in Gurgaon? Look no further than Ackrolix! Let us help you reach your target audience with ease.",
+  "description": ""Ackrolix Innovations is the best Media best-buying company in 
+India that offers Communication Planning, Content Creation, and Technology.",
   "isPartOf": {
     "@id": "#website"
   },
@@ -369,9 +372,9 @@ const MediaBuying = () => {
       "sameAs": "https://www.ackrolix.com/"
     }
   ]}`
-}
-</script>
-   
+          }
+        </script>
+
       </Head>
       <Header />
       <div
@@ -387,7 +390,7 @@ const MediaBuying = () => {
           serviceimgAlt="Media Buying Agency"
           servicehead="Strategic Media Buying Services for Effective Marketing Campaigns"
           servicedesc1="Our skilled staff excels at Media Planning and Buying, employing a deliberate approach to locate and purchase ad space on the channels that are most important to your target audience. We serve traditional marketing channels such as television, radio, and print, as well as digital channels such as websites, social media, and streaming platforms."
-          
+
           servicedesc2="You may expect maximum exposure among your target market while optimising your budget   when you use Ackrolix as your Digital Media Buying Agency. Our media buyers use exclusive  strategies such as Programmatic Buys, which use AI and algorithms to conduct real-time bidding on ad space targeted to specific consumer profiles. Furthermore, we execute Direct Buys, directly negotiating ad pricing and run periods with relevant advertisers to ensure optimal placements for your business."
         />
       </div>
@@ -428,7 +431,7 @@ const MediaBuying = () => {
         title="Studies"
         sub="Case Studies"
       />
-<CaseStudies casestudies={casestudies}/>
+      <CaseStudies casestudies={casestudies} />
       <Work />
       {/* <Section /> */}
       <Enquiry />

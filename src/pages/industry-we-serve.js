@@ -13,7 +13,9 @@ const industryWeServe = () => {
     <>
       <div>
         <Head>
-          <title> Industry </title>
+          <title> Ackrolix Innovations | Industry we serve </title>
+          <meta name="description" content="Discover how Ackrolix Industry serves diverse sectors with 
+innovative solutions, delivering excellence and reliability across various industries." />
         </Head>
         <Header />
         <Heading

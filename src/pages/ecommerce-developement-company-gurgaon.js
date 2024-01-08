@@ -280,21 +280,23 @@ const EcommerceDevelopmentCompany = () => {
   return (
     <div>
       <Head>
-        <title>Ecommerce Development company in Gurgaon - Ackrolix</title>
+        <title>E-commerce Website Development Services in India</title>
         <meta
           name="description"
-          content="Ackrolix is a top-rated Ecommerce Development Company in Gurgaon, delivering exceptional solutions to businesses of all sizes."
+          content="At Ackrolix we provide the best E-commerce Website Development Services in India.
+ We are offering high-quality E-Commerce solutions to our clients."
         />
-         <link rel="canonical" href="https://www.ackrolix.com/ecommerce-developement-company-gurgaon"/>
+        <link rel="canonical" href="https://www.ackrolix.com/ecommerce-developement-company-gurgaon" />
         <meta
           property="og:title"
-          content="Ecommerce Development company in Gurgaon - Ackrolix"
+          content="E-commerce Website Development Services in India"
         />
         <meta
           property="og:description"
-          content="Ackrolix is a top-rated Ecommerce Development Company in Gurgaon, delivering exceptional solutions to businesses of all sizes."
+          content="At Ackrolix we provide the best E-commerce Website Development Services in India.
+ We are offering high-quality E-Commerce solutions to our clients."
         />
-         <meta
+        <meta
           property="og:url"
           content="https://www.ackrolix.com/ecommerce-developement-company-gurgaon"
         />
@@ -302,18 +304,19 @@ const EcommerceDevelopmentCompany = () => {
           property="og:image"
           content="https://www.ackrolix.com/assets/images/service/svg/ecom.png"
         />
-         <meta name="robots" 
-        content="index,follow" />
+        <meta name="robots"
+          content="index,follow" />
 
-<script type="application/ld+json">
-{`{
+        <script type="application/ld+json">
+          {`{
   "@context": "http://schema.org",
   "@type": "WebPage",
   "@id": "https://www.ackrolix.com/ecommerce-developement-company-gurgaon#webpage",
   "url": "https://www.ackrolix.com/ecommerce-developement-company-gurgaon",
   "inLanguage": "en - US",
   "name": "Ecommerce Development",
-  "description": "Ackrolix is a top-rated Ecommerce Development Company in Gurgaon, delivering exceptional solutions to businesses of all sizes.",
+  "description": "At Ackrolix we provide the best E-commerce Website Development Services in India.
+ We are offering high-quality E-Commerce solutions to our clients.",
   "isPartOf": {
     "@id": "#website"
   },
@@ -331,8 +334,8 @@ const EcommerceDevelopmentCompany = () => {
       "sameAs": "https://www.ackrolix.com/"
     }
   ]}`
-}
-</script>
+          }
+        </script>
 
 
       </Head>

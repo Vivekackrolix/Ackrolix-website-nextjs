@@ -214,15 +214,15 @@ const cards = [
   return (
     <div>
       <Head>
-      <title>Usability Testing Services Company in Gurgaon - Ackrolix</title>  
+      <title>Ackrolix innovations | Best usablity testing services </title>  
         <meta name="description"
-         content="Ackrolix is a professional Usability Testing Services Company based in Gurgaon, providing expert solutions to enhance user experience." />
+         content="loooking for a Best Usability testing services in India. Choose Ackrolix Innovations for Digital Excellence!" />
         <link rel="canonical" href="https://www.ackrolix.com/usability-testing-company-gurgaon"/>
         <meta property="og:title" 
-        content="Usability Testing Services Company in Gurgaon - Ackrolix" />
+        content="Ackrolix innovations | Best usablity testing services " />
         <meta
           property="og:description"
-          content="Ackrolix is a professional Usability Testing Services Company based in Gurgaon, providing expert solutions to enhance user experience."
+          content="loooking for a Best Usability testing services in India. Choose Ackrolix Innovations for Digital Excellence!"
         />
         <meta
           property="og:url"

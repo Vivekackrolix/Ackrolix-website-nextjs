@@ -320,17 +320,17 @@ const cards = [
   return (
     <div>
       <Head>
-        <title>Digital Marketing Company in Gurgaon - Ackrolix</title>
+        <title>Ackrolix: Digital Marketing Agency in India</title>
         <meta
           name="description"
-          content="Ackrolix is a top-rated Digital Marketing Company in Gurgaon, providing exceptional services to help businesses grow and succeed."
+          content="Are you looking for a most trusted award winning digital marketing agency in India, then you are at the right place."
           />
            <link rel="canonical" href="https://www.ackrolix.com/digital-marketing-company-gurgaon"/>
           <meta property="og:title" 
-          content="Digital Marketing Company in Gurgaon - Ackrolix" />
+          content="Ackrolix: Digital Marketing Agency in India" />
           <meta
             property="og:description"
-            content="Ackrolix is a top-rated Digital Marketing Company in Gurgaon, providing exceptional services to help businesses grow and succeed."
+            content="Are you looking for a most trusted award winning digital marketing agency in India, then you are at the right place."
           />
            <meta
             property="og:url"
@@ -351,7 +351,7 @@ const cards = [
   "url": "https://www.ackrolix.com/digital-marketing-company-gurgaon",
   "inLanguage": "en - US",
   "name": "Digital Marketing",
-  "description": "Ackrolix is a top-rated Digital Marketing Company in Gurgaon, providing exceptional services to help businesses grow and succeed.",
+  "description": "Are you looking for a most trusted award winning digital marketing agency in India, then you are at the right place.",
   "isPartOf": {
     "@id": "#website"
   },

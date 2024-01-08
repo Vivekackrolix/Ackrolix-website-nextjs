@@ -308,13 +308,13 @@ const SoftwareDevelopmentCompany = () => {
   return (
     <div>
       <Head>
-        <title>Software Development Company in Gurgaon - Ackrolix</title>  
-        <meta name="description" content="Ackrolix is a leading Software Development Company in Gurgaon, providing top-notch services to clients worldwide.Count on us for all your software requirements." />
+        <title>Ackrolix / software development company in india</title>  
+        <meta name="description" content="Looking for a reliable software development company in India? Look no further! Ackrolix is your one-stop solution for all your software development needs." />
         <link rel="canonical" href="https://www.ackrolix.com/software-development-company-gurgaon"/>
-        <meta property="og:title" content="Software Development Company in Gurgaon - Ackrolix" />
+        <meta property="og:title" content="Ackrolix / software development company in india" />
         <meta
           property="og:description"
-          content="Ackrolix is a leading Software Development Company in Gurgaon, providing top-notch services to clients worldwide.Count on us for all your software requirements."
+          content="Looking for a reliable software development company in India? Look no further! Ackrolix is your one-stop solution for all your software development needs."
         />
         <meta
           property="og:url"
@@ -336,7 +336,7 @@ const SoftwareDevelopmentCompany = () => {
   "url": "https://www.ackrolix.com/software-development-company-gurgaon",
   "inLanguage": "en - US",
   "name": "Software Development",
-  "description": "Ackrolix is a leading Software Development Company in Gurgaon, providing top-notch services to clients worldwide.Count on us for all your software requirements.",
+  "description": "Looking for a reliable software development company in India? Look no further! Ackrolix is your one-stop solution for all your software development needs.",
   "isPartOf": {
     "@id": "#website"
   },

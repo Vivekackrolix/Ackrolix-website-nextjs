@@ -323,17 +323,17 @@ const SemAgency = () => {
   return (
     <div>
      <Head>
-        <title>Search Engine Marketing Service Company in Gurgaon - Ackrolix</title>
+        <title>Ackrolix: Search Engine Marketing Company in India</title>
         <meta
           name="description"
-          content="Boost your online presence with Ackrolix - the leading Search Engine Marketing Service Company in Gurgaon. let us assist you in achieving your digital objectives."
+          content="Looking for the best Search Engine Marketing agency in India to help you achieve optimum results and improve your ROI? Look no further than ackrolix"
           />
            <link rel="canonical" href="https://www.ackrolix.com/sem-company-gurgaon"/>
           <meta property="og:title" 
-          content="Search Engine Marketing Service Company in Gurgaon - Ackrolix" />
+          content="Ackrolix: Search Engine Marketing Company in India" />
           <meta
             property="og:description"
-            content="Boost your online presence with Ackrolix - the leading Search Engine Marketing Service Company in Gurgaon. let us assist you in achieving your digital objectives."
+            content="Looking for the best Search Engine Marketing agency in India to help you achieve optimum results and improve your ROI? Look no further than ackrolix"
           />
            <meta
             property="og:url"
@@ -353,7 +353,7 @@ const SemAgency = () => {
   "url": "https://www.ackrolix.com/sem-company-gurgaon",
   "inLanguage": "en - US",
   "name": "Search Engine Marketing",
-  "description": "Boost your online presence with Ackrolix - the leading Search Engine Marketing Service Company in Gurgaon. let us assist you in achieving your digital objectives.",
+  "description": "Looking for the best Search Engine Marketing agency in India to help you achieve optimum results and improve your ROI? Look no further than ackrolix",
   "isPartOf": {
     "@id": "#website"
   },

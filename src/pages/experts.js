@@ -9,10 +9,13 @@ import React from "react";
 const Experts = () => {
   return (
     <div>
-      <Header />
+    
       <Head>
-        <title>Experts</title>
+        <title>Ackrolix Innovations | Our Experts</title>
+        <meta name="description" content="Our Experts passionate about product development and
+takes pride in delivering solutions that exceed expectations." />
       </Head>
+      <Header />
       <div
         className="pb-10 bg-right"
         style={{
