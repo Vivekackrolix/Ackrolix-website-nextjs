@@ -3,7 +3,7 @@ import Header from "../components/Common/Header";
 import Banner from "../components/Moments/Banner";
 import Gallery from "../components/Moments/Gallery";
 import React from "react";
-
+import Head from "next/head";
 const moments = () => {
   return (
     <>

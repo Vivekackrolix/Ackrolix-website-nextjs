@@ -7,7 +7,6 @@ import ComponentHead from "../components/Common/ComponentHead";
 import Card from "../components/Industry/Card";
 import Band from "../components/Common/Band";
 import Footer from "../components/Common/Footer";
-
 const industryWeServe = () => {
   return (
     <>
