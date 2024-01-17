@@ -17,32 +17,32 @@ const WebsiteDevelopment = () => {
     {
       id: "1",
       name: "Understanding Client Requirement",
-      desc: "Our Website Design Company, Ackrolix, understands the specific requirements of our clients. We initiate a detailed discussion with them to grasp their business goals, target audience, brand identity, and desired functionalities.",
+      desc: "No two businesses are alike, and their websites shouldn't be either. We craft intuitive features that drive conversions and build secure platforms that enhance customer trust – all to help you discover a website that's your brand's digital fingerprint. Let's help you build something online that resonates, converts, and thrives.",
     },
     {
       id: "2",
       name: "Research and Analysis",
-      desc: "We examine the client's industry, competitors, and current market trends to identify opportunities and challenges. This research helps us develop a strategic approach to designing a website that stands out from the competition.",
+      desc: "We crack the code of your unique market landscape, dissecting industry trends, competitor strategies, and hidden opportunities. Get ready for a 30% boost in leads, conversion rates that rise by 20%, and an ever-growing online presence that leaves your competition in the dust. Let’s begin.",
     },
     {
       id: "3",
       name: "Planning and Strategy",
-      desc: "The talented team of our Web Development Agency works to bring the vision to life. We create visually appealing designs that align with the client's brand identity and ensure the website is fully functional across all devices.",
+      desc: "Our award-winning team crafts business-centric websites that enhance your brand and skyrocket user engagement. We blend cutting-edge web design stack, like immersive storytelling and AI-powered personalization, with flawless cross-device functionality. Let's turn your vision into reality.",
     },
     {
       id: "4",
       name: "Content Creation and Optimization",
-      desc: "Our skilled content creators develop relevant and SEO-friendly content that resonates with the target audience while also boosting the website's search engine rankings.",
+      desc: "We create content that Buzzes! Imagine engaging blog posts that skyrocket traffic 30% and landing pages that magically convert visitors into leads. Our content-bees craft SEO-powered stories & targeted pages that hook users, get Google's seal of approval, and deliver magic for your brand. Let’s get started.",
     },
     {
       id: "5",
       name: "Testing and Quality Assurance",
-      desc: "We conduct rigorous testing and quality assurance to identify and fix any potential issues. We ensure that the website functions smoothly and provides a seamless user experience.",
+      desc: "We meticulously test and fine-tune every detail of your website, eliminating 99% of potential bugs before launch. Our team obsesses over every pixel and interaction to deliver websites and apps that are not just functional, but delightful. Let’s engineer your online presence, together. Connect with us now!",
     },
     {
       id: "6",
-      name: "Website Launch",
-      desc: "Our team at Website Design Company in Gurgaon ensures a smooth transition to the live website, and we closely monitor its performance during this critical phase.",
+      name: "Go-Live",
+      desc: "Make your website live with confidence. We orchestrate a flawless transition, eliminating downtime and ensuring lightning-fast page loads that wow your users. Experience a website that delights, drives conversions by 25%, and delivers peak performance from day one. Let’s discuss. Let’s converse!",
     },
   ];
   const techs = [
@@ -218,19 +218,19 @@ const WebsiteDevelopment = () => {
 const cards = [
     {
       id: 1,
-      para: "Our modernization solutions revolutionize your applications' performance, scalability, agility, & maintainability. We enable seamless integration with emerging technologies, optimize infrastructure, & streamline workflows to ensure your applications are future-proof.",
+      para: "Future-proof your business with modern apps and websites. Supercharge performance, scale & agility with cutting-edge tech-stack. Boost employee productivity, engage more users, and unlock revenue growth.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "SERVICES",
-      subtitle: "Our Web Development Services",
+      maintitle: "Capabilities",
+      subtitle: "Agile Web Development Services",
     },
     {
       id: 2,
       icon: "01",
-      title: "Custom Web Development",
-      para: "Our Web Development Services specialize in creating custom websites from scratch, designed to align with your brand identity and specific requirements.",
+      title: "Tailored Design, Exceptional Experience",
+      para: "We build custom websites that reflect your brand and empower your users. From intuitive navigation to pixel-perfect aesthetics, we craft experiences that engage and convert.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -242,8 +242,8 @@ const cards = [
     {
       id: 3,
       icon: "02",
-      title: "Responsive Web Design",
-      para: "As a web development agency, Ackrolix ensures that websites developed are responsive and adapt smoothly to different devices, providing an optimal user experience on desktops, tablets, and smartphones.",
+      title: "Seamless Across Screens",
+      para: "Responsive design isn't just a checkbox; it's our mantra. Your website will look and perform flawlessly on any device, ensuring a smooth journey for every visitor.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -255,8 +255,8 @@ const cards = [
     {
       id: 4,
       icon: "03",
-      title: "E-commerce Solutions",
-      para: "Our Website Development Company provides robust e-commerce integration, enabling secure payment gateways, intuitive product catalogs, and user-friendly checkout processes for online businesses.",
+      title: "E-commerce Made Easy",
+      para: "Sell smarter, not harder. We integrate robust e-commerce solutions with secure payments, user-friendly catalogues, and streamlined checkouts, driving conversions and delighting your customers.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -268,8 +268,8 @@ const cards = [
     {
       id: 5,
       icon: "04",
-      title: "Content Management Systems (CMS)",
-      para: "Our Website Design Company optimizes websites for search engines, improving their visibility and ranking on search results pages to attract more organic traffic.",
+      title: "SEO Magic",
+      para: "We weave SEO into the fabric of your website, boosting visibility and attracting organic traffic like a magnet. Climb the search rankings and watch your audience grow.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -281,8 +281,8 @@ const cards = [
     {
       id: 6,
       icon: "05",
-      title: "UI/UX Design",
-      para: "As a web design company, Ackrolix focuses on creating user-friendly interfaces and smooth navigation to enhance the overall user experience and reduce bounce rates.",
+      title: "Frictionless Flow",
+      para: "UI/UX design that sings beautiful melodies. We obsess over intuitive interfaces and smooth navigation, minimising bounce rates and maximising user engagement. Your website will feel like a joy to use, not a chore.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -294,8 +294,8 @@ const cards = [
     {
       id: 7,
       icon: "06",
-      title: "Web Application Development",
-      para: "Our Website Development Company develops web applications that cater to specific business needs, ensuring seamless functionality and enhanced user engagement.",
+      title: "Powering Your Vision",
+      para: "Need a custom web application to solve your unique business challenges? We're your digital architects, crafting bespoke solutions that seamlessly integrate with your workflow and enhance user engagement.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -376,30 +376,30 @@ const cards = [
         }}
       >
         <Banner 
-          bannertitle="Ingenious Web Design and Development Company"
-          bannersubtext="Ackrolix has established itself as a well-known Web Design and Website Development Company in Gurgaon, India, with a solid reputation for its emphasis on innovation and originality. Our team of talented designers and programmers is dedicated to providing outstanding web design and development solutions that are customized to meet the specific requirements of each client."
+          bannertitle="Ackrolix: Your Trusted Web Development Company In India"
+          bannersubtext="Ackrolix, a name synonymous with innovation and originality, has carved itself as a prominent Web Design and Website Development Company in India. Our talented team of UI/UX designers and web developers, empowered by our agile software development practices, meticulously craft outstanding web design and software solutions. Each project is a bespoke creation, tailored to address the unique requirements of our clients, consistently exceeding expectations."
           serviceimg="/assets/images/service/svg/web.png"
           serviceimgAlt="Web Development Company"
-          servicehead="One scalable team for start-to-finish development"
-          servicedesc1="What does it mean to be reliable? It means your outsourced team works as well as your web developers do. Access web development services trusted by 98% of CTOs that you’ll find understanding with. They made APIs, custom web applications, hybrid mobile app development, provided web design services, updated stacks, and build cloud-native systems."
-          servicedesc2="One place — everyone you need: Business Analysts, Product Designers, Project Managers, QA Engineers, DevOps, and Full-stack developers. Expect our web development team to be proactive throughout the project with an abundance of improvement suggestions that will get business moving even in areas such as search engine optimization."
+          servicehead="Empowering Growth through Scalable and Agile Software Development"
+          servicedesc1="Begin your web app development with Ackrolix's futuristic  agile software development strategy, ensuring reliability for greater impact. Our dedicated team of web developers collaborates with you on a personalised 1:1 basis, ensuring a meticulous approach to address your unique concerns. Join the league of 120+ growing businesses that entrust Ackrolix for cutting-edge web development services. Our seasoned experts specialise in crafting highly functional APIs, seamless custom web applications, dynamic hybrid mobile apps, and providing unparalleled web design services."
+          servicedesc2="Ackrolix Innovations crafts next-generation digital experiences like web platforms, mobile apps, or custom software solutions powered by cloud-native systems. We increase your brand presence by 20% (and further boost in increased leads and higher conversions), delivering unparalleled scalability, agility, and elevated customer engagement. Let's build the future of your brand. Connect with us today!"
         />
       </div>
       <Cards card={cards} />
       <div className="container-ack md:px-0 px-5">
        <ComponentHead
         title="Technology"
-        sub="Website Development"
-        head="The technology stack for Website Development can vary depending on the specific requirements of the application and the chosen modernization approach."
+        sub="Agile Website Development"
+        head="The right tech stack isn’t just about functionality—it’s the foundation for a seamless, engaging user experience. Let’s build it together."
       />
       <Technology tech={techs} />
       </div>
 
       <div className="container-ack md:px-0 px-5">
             <ProccessHead
-              processhead="ROLE"
-              processsub="Role of a Website Development Company"
-              processdesc="A well-designed Website Design Company plays a vital role in attracting potential customers and establishing credibility."
+              processhead="Choose Us"
+              processsub="Why Choose a Website Development Company"
+              processdesc="Your website is more than just an online presence – it's your first and lasting impression. Begin the journey of crafting your dream website with us today!"
               processimg="/assets/images/service/svg/app1.png"
               proocessalt="website Design Company"
             />

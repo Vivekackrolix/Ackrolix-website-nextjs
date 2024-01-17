@@ -201,14 +201,14 @@ const SeoAgency = () => {
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
-      maintitle: "Better",
-      subtitle: "Our Exemplary SEO services in Gurgaon",
+      maintitle: "Excellence",
+      subtitle: "Trusted, Impactful SEO Services in India",
     },
     {
       id: 2,
       icon: "01",
       title: "On-page SEO",
-      para: "By combining content and keywords with meta tags and user-friendly design, our magic is search engine optimization. We bring each page to life, working magic to attract visitors and improve rankings.",
+      para: "Transform your content into enchanting spells with a blend of keywords, meta tags, and user-friendly design. Our magical touch in search engine optimization brings every page to life, attracting visitors and elevating rankings.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -221,7 +221,7 @@ const SeoAgency = () => {
       id: 3,
       icon: "02",
       title: "Off-page SEO",
-      para: "We take your work experience to new heights with quality backlinks, social media, and referrals. Our off-page SEO strategies can grab the attention of search engines and give your website the reputation it deserves.",
+      para: "Ascend to new heights in your digital journey with quality backlinks, social media prowess, and referrals. Our off-page SEO strategies captivate search engines, granting your website the reputation it truly deserves.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -234,7 +234,7 @@ const SeoAgency = () => {
       id: 4,
       icon: "03",
       title: "Content SEO",
-      para: "With effective SEO techniques, we ensure that your content dominates the rankings. From engaging blog posts to a viable website, our magic words attract users and algorithms alike. The power of SEO content and watching your online presence rise to new levels of visibility and success with Ackrolix.",
+      para: "Harness the power of effective SEO techniques to ensure your content dominates the rankings. From compelling blog posts to a robust website, our wizardry with words attracts both users and algorithms. Watch your online presence soar to new heights of visibility and success with Ackrolix.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -247,7 +247,7 @@ const SeoAgency = () => {
       id: 5,
       icon: "04",
       title: "Keyword Research",
-      para: "With clever wizardry, we delve deep into scientific trends and user behaviour to make magic potions for highlights. These mantras allow your brand to shine in the digital world, attract the attention of your target audience and stand out from the competition. Embrace the magic of Ackrolix keyword research, where every word is a stepping stone to digital success.",
+      para: "Embark on a journey into scientific trends and user behavior with our clever wizardry. We craft magic potions for highlights, allowing your brand to shine in the digital realm, captivate your target audience, and stand out from the competition. Embrace the magic of Ackrolix keyword research, where every word is a stepping stone to digital success.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -260,7 +260,7 @@ const SeoAgency = () => {
       id: 6,
       icon: "05",
       title: "Technical SEO",
-      para: "Through good site analysis, negative optimization, and authoritative link building, they link to the website of SEO magic that makes search engines. Its magic improves your website performance by involving both users and algorithms. Rely on Ackrolix's expertise to deliver higher quality, better visibility, and a better customer experience that outperforms your competitors.",
+      para: "Unleash the power of SEO magic through thorough site analysis, expert link building, and negative optimization. This magical blend enchants search engines, enhancing your website's performance for both users and algorithms. Trust Ackrolix's expertise to deliver superior quality, enhanced visibility, and a remarkable customer experience that outshines your competitors.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -273,7 +273,7 @@ const SeoAgency = () => {
       id: 7,
       icon: "06",
       title: "Guest Blogging",
-      para: "Through good site analysis, negative optimization, and authoritative link building, they link to the website with SEO magic that leads to search engines. Its magic improves your website performance by involving both users and algorithms. Rely on Ackrolix's expertise to deliver higher quality, better visibility, and a better customer experience that outperforms your competitors.",
+      para: "Extend the reach of your enchantment with insightful site analysis, strategic link building, and expert optimization. Ackrolix's SEO magic intertwines with search engines, enhancing your website's performance for both users and algorithms. Rely on our expertise to deliver superior quality, heightened visibility, and an unparalleled customer experience that outshines your competitors.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -385,13 +385,13 @@ const SeoAgency = () => {
         }}
       >
         <Banner
-          bannertitle=" Raise Ranking with Ackrolix: Your Leading SEO Services Company in Gurgaon"
-          bannersubtext="Ackrolix distinguishes itself as a successful league of SEO gurus in the crowded market of SEO agencies. Beyond optimising search engine results, our team of professionals focuses on raising conversion rates, revenues, and client advantages without raising prices. Ackrolix understands the critical role SEO and social media play in business growth, with over 80% of internet searches having an impact on success. In today's competitive business environment, innovation is essential to survival."
+          bannertitle="Get High SEO Rankings with Ackrolix: Your Trusted SEO Agency in India"
+          bannersubtext="At Ackrolix, our team of SEO experts stands out in the saturated market of SEO agencies. Going beyond mere search engine optimization, we prioritize elevating conversion rates, increasing revenues, and maximizing client benefits—all without increasing costs. Recognizing the pivotal role SEO and social media play in business growth, we understand that over 80% of internet searches influence success. In today's fiercely competitive business landscape, innovation isn't just a choice; it's a necessity for survival."
           serviceimg="/assets/images/service/svg/sea.png"
           serviceimgAlt="seo services company"
-          servicehead="Boost Your Online Presence with Ackrolix's Winning SEO Services"
+          servicehead="Amplify Your Brand's Visibility with Ackrolix's Top-Tier SEO Solutions"
           servicedesc1="We guarantee commercial success and maximise your ranking with our comprehensive knowledge by building a strong online presence that connects with the digital world. With brilliant performance across devices and platforms, our creative abilities translate into successful websites and enticing user experiences that captivate visitors with intuitive navigation and beautiful design. Search engines may detect the significance and authority of your online presence thanks to the strategically constructed high-quality, authoritative links that Ackrolix creates."
-          servicedesc2="Select Ackrolix as your go-to SEO company in Gurgaon, where creativity and experience merge to propel your company to new heights. Our all-encompassing SEO services are designed to increase conversions, profits, and customer benefits while building a strong online presence that appeals to your target market. As a top provider of SEO services in Gurgaon."
+          servicedesc2="Select Ackrolix as your go-to SEO company in India, where creativity and experience merge to propel your company to new heights. Our all-encompassing SEO services are designed to increase conversions, profits, and customer benefits while building a strong online presence that appeals to your target market. As a top provider of SEO services in India."
         />
       </div>
       <Cards card={cards} />
@@ -415,7 +415,7 @@ const SeoAgency = () => {
             <ProccessHead
               processhead="Why Choose Us"
               processsub="Why Choose Us?"
-              processdesc="Choose Ackrolix as your SEO Company in Gurgaon to unlock the true potential of your online presence. With rich experience and expertise in multiple industries, we create SEO strategies for your specific goals."
+              processdesc="Choose Ackrolix as your SEO Company in India to unlock the true potential of your online presence. With rich experience and expertise in multiple industries, we create SEO strategies for your specific goals."
               processimg="/assets/images/service/svg/sea1.png"
               proocessalt="seo services"
             />
