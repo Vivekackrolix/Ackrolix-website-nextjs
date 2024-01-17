@@ -18,28 +18,28 @@ const Marketing = () => {
     {
       id: "1",
       name: "Expert Team",
-desc:"Talented experts developing data-driven strategies for significant digital growth."
+desc:"Our accomplished team of experts specializes in developing data-driven strategies, ensuring substantial digital growth for your business."
     },
     {
       id: "2",
       name: "Customized Solutions",
-desc:"Strategies that are in line with your company's objectives to provide the highest return on investment."    },
+desc:"Crafting strategies aligned with your company's objectives, we focus on delivering the highest return on investment tailored to your unique goals."    },
     {
       id: "3",
       name: "Diverse Services",
-desc: "A comprehensive offering of PPC, social media, SEO, and other digital marketing services."   },
+desc: "Benefit from a comprehensive suite of services, including PPC, social media, SEO, and various other digital marketing solutions, providing a holistic approach to your digital presence."   },
     {
       id: "4",
       name: "Proven Results",
-desc:"Results that have been demonstrated through improved online exposure and engagement."    },
+desc:"Witness tangible results backed by a track record of improved online exposure and enhanced engagement, showcasing the effectiveness of our strategies."    },
     {
       id: "5",
       name: "Client-Centric Approach",
-desc:"A collaborative relationship that puts your individual needs and goals first."    },
+desc:"Experience a collaborative partnership where your individual needs and goals take precedence, ensuring a client-centric approach at every step."    },
     {
       id: "6",
       name: "Constant Innovation",
-desc:"Keeping abreast of the most recent developments to keep your online presence current."    },
+desc:"Stay ahead with our commitment to constant innovation, keeping your online presence current by staying abreast of the latest developments in the digital landscape."    },
   ];
   const techs = [
     {
@@ -191,19 +191,19 @@ desc:"Keeping abreast of the most recent developments to keep your online presen
 const cards = [
     {
       id: 1,
-      para: "Ackrolix is your partner in attaining digital marketing excellence, helping you with everything from developing compelling content that connects with your audience to implementing data-driven tactics that provide quantifiable results. Allow us to lead you through the dynamic world of digital marketing, turning obstacles into chances and elevating your brand to the top of the online marketplace.",
+      para: "Leave behind cookie-cutter agencies and digital shadows: Ackrolix ignites your brand with data-driven strategies that spark viral fire and transform clicks into loyal customers. We don't chase trends, we create them, doubling your conversions with laser-precision ads and content that wins hearts. Ready to rise above the noise and conquer globally? Partner with Ackrolix, your global growth engine, and watch your bottom line skyrocket. Get your free marketing campaigns strategy today.",
       bgcolor: "bg-[#fff]",
       cols: "md:col-span-2",
       textcolor: "text-secondary",
       display: "hidden",
       maintitle: "SUCCESS",
-      subtitle: "Diverse Digital Marketing Services for Your Success",
+      subtitle: "Unfold your success story with our Digital Marketing Services",
     },
     {
       id: 2,
       icon: "01",
       title: "SEO Optimisation",
-      para: "With the help of our SEO know-how, increase your online presence. In order to keep your brand at the top of search engine results, we optimize your website, improve keyword ranks, and increase organic traffic.",
+      para: "Boost your online presence with our expert SEO strategies. We optimize your website, enhance keyword rankings, and elevate organic traffic, ensuring your brand maintains a prominent position in search engine results.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -216,7 +216,7 @@ const cards = [
       id: 3,
       icon: "02",
       title: "PPC Campaigns",
-      para: "With our focused PPC campaigns, you can maximize your ROI. To generate high-quality traffic and conversions, our specialists create persuasive advertising, control bids, and keep track of performance.",
+      para: "Maximize your ROI through targeted PPC campaigns. Our specialists craft compelling advertisements, manage bids, and monitor performance, generating high-quality traffic and conversions.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -229,7 +229,7 @@ const cards = [
       id: 4,
       icon: "03",
       title: "Social Media Campaigns",
-      para: "Utilize social media's strength by using its many channels. To effectively connect and engage with your audience, we develop compelling content, manage profiles, and put data-driven initiatives into practice.",
+      para: "Harness the power of social media across multiple channels. Our team creates engaging content, manages profiles, and implements data-driven initiatives for effective audience connection and interaction.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -242,7 +242,7 @@ const cards = [
       id: 5,
       icon: "04",
       title: "Content marketing",
-      para: "Give your brand fuel by creating insightful content. In order to establish authority and increase audience engagement, our team creates educational and entertaining material, including blogs and infographics.",
+      para: "Fuel your brand with insightful content. Our team produces educational and entertaining material, including blogs and infographics, to establish authority and boost audience engagement.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -255,7 +255,7 @@ const cards = [
       id: 6,
       icon: "05",
       title: "Email marketing",
-      para: "We provide effective email campaigns to stay in touch with your audience. We create, carry out, and evaluate campaigns that develop leads, uphold engagement, and raise conversions.",
+      para: "Stay connected with your audience through effective email campaigns. We design, execute, and evaluate campaigns that generate leads, maintain engagement, and increase conversions.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -268,7 +268,7 @@ const cards = [
       id: 7,
       icon: "06",
       title: "Analytics & Reporting",
-      para: "Use data-driven insights to gauge success. To optimize campaigns for ongoing growth, we give complete analytics, monitor important data, and deliver thorough reports.",
+      para: "Measure success with data-driven insights. We provide comprehensive analytics, monitor essential data, and deliver detailed reports to optimize campaigns for continuous growth.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -382,13 +382,14 @@ const cards = [
         }}
       >
         <Banner 
-          bannertitle="Grow Your Business with Ackrolix, the Best Digital Marketing Company in Gurgaon"
-          bannersubtext="We take pride in being your all-inclusive digital marketing solution at Ackrolix. We are dedicated to developing your online presence into a thriving success story as a top digital marketing firm. Our knowledgeable team is aware that a successful online business requires more than just a website; it also needs a carefully planned digital marketing strategy that supports your company's objectives."
+          bannertitle="Reach Millions More Customers With The Leading Digital Marketing Agency In India"
+          bannersubtext="Don't settle for any generic digital marketing agency in India. Partner with a trusted partner in growth - Ackrolix: your all-inclusive solution to tell your brand story to the world. Let's work together to turn your online presence into an impactful story."
           serviceimg="/assets/images/service/svg/dig.png"
           serviceimgAlt="digital marketing company"
-          servicehead="Promote Your Brand with Ackrolix's Integrated Digital Marketing Solutions"
-          servicedesc1=" Our customized digital marketing services are made to support your growth whether you're a startup trying to build your brand or an established company trying to widen your digital presence."
-          servicedesc2=" We set out on a journey to increase your online exposure, engage your target audience, and drive conversions with a well-defined digital marketing strategy in place. We provide a broad range of internet marketing services, such as search engine optimization (SEO), pay-per-click advertising (PPC), social media marketing, content marketing, email marketing, and more as an established digital marketing agency. Every area of your online presence will be optimized for maximum impact thanks to our all-encompassing strategy." 
+          servicehead="Slay Your Digital Game with a Marketing Agency in India that Sets Your Brand's Narrative"
+          servicedesc1="Get ready to rule the digital space of billions of Indians and the world "
+          servicedesc2="Rule the Indian digital space with Ackrolix, your all-inclusive growth engine with 120+ happy clients, fuels startups, brands, and established players alike. From budding startups to seasoned brands, we tailor custom strategies wielding SEO, PPC, social, content, and email like weapons of mass engagement. Our UI/UX designers, digital strategists, SEO hawks, and content builders unleash their brains to help upgrade your brand's potential pixel by pixel. So, are you ready to rule online? Partner with Ackrolix - your growth partner to your digital success."
+          servicedesc3="Beyond buzzwords, Ackrolix is your collaborative storyteller, crafting marketing campaigns that captivate your audience and drive faster, yet real conversions quickly. Contact us today, and let Ackrolix be your marketing copilot for total digital win." 
         />
       </div>
       <Cards card={cards} />
@@ -396,7 +397,7 @@ const cards = [
        <ComponentHead
         title="Platforms"
         sub="Digital Marketing"
-        head="The Platforms stack for Digital Marketing can vary depending on the specific requirements of the application and the chosen modernization approach."
+        head="The platform stack for digital marketing varies based on specific application requirements and chosen modernization approaches."
       />
       <Technology tech={techs} />
       </div>
@@ -412,7 +413,7 @@ const cards = [
             <ProccessHead
               processhead="Why ChooseUS"
               processsub=" Why Choose Us "
-              processdesc="For professional strategies, specialised solutions, a variety of services, tested outcomes, a client-centric approach, and ongoing innovation driving your online success story, choose Ackrolix as your trusted digital marketing partner."
+              processdesc="Build your online empire with Ackrolix. SEO & PPC mastery, viral content that sparks action, and 2x conversions - let your success story unfold. Tailored tactics for your industry, not boring ad campaigns. Our data-driven innovation keeps your brand a cut above. Ready to rule online? Partner with Ackrolix and watch your bottom line reach new heights."
               processimg="/assets/images/service/svg/dig1.png"
               proocessalt="digital market agency"
             />
