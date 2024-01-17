@@ -81,7 +81,7 @@ const Enquiry = () => {
                   </div>
                 </div>
 
-                <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pt-10">
+                 <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pt-10">
                 We know! Our experts are here to assist you with your ideas, challenges, and aspirations. Share your requirements, and let's turn your vision into real business.
                 </div>
               </div>
