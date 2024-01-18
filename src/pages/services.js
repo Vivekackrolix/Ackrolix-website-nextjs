@@ -21,8 +21,8 @@ const Services = () => {
     >
     <ComponentHead
         title="Our Services"
-        sub="Unlocking The Potential"
-        head="Our greatest strength is the ability to adapt to our customer’s changing business requirements and deliver optimum quality."
+        sub="Explore, Build, Deploy"
+        head="is our essence and your true success. Looking to create unforgettable experiences?"
       />
       </div>
       <Tabs />

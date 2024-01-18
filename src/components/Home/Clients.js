@@ -262,7 +262,7 @@ const Clients = () => {
         </div>
 
         <p className="pt-1 text-base text-left text-textcolor">
-        Fueling growth for startups and giants alike, we craft data-driven solutions that deliver real results. Jindal Steel & Power saw a 20% brand awareness boost and 15% more leads. For Intech Organics, we optimised supply chains, cutting costs by 10% and enhancing quality. Across healthcare, education, and 120+ industries, we partner with ambitious brands to support their full potential. Looking to fuel your growth success story? Let’s talk!
+        Empowering businesses, from startups to established giants, to achieve remarkable results. Our collaboration with Jindal Steel & Power increased brand awareness by 20% and generated a 15% rise in qualified leads. Working with Intech Organics, we optimized supply chains, cutting costs by 10% and enhancing quality. With a track record of 120+ satisfied clients, our high-impact work spans across industries such as healthcare, education, and more.
         </p>
       </div>
 

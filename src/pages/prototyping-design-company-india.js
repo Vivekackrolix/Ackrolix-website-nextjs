@@ -16,32 +16,32 @@ const Prototyping = () => {
   const processes = [
     {
       id: "1",
-      name: "Industry knowledge",
-      desc:"The best prototype development company in Gurgaon, Ackrolix, brings years of experience to the table to ensure that your vision is carried out precisely.",
+      name: "Industry Expertise",
+      desc:"As the premier prototype development company in India, Ackrolix brings a wealth of industry knowledge to the forefront, ensuring precise execution of your vision",
     },
     {
       id: "2",
-      name: "Complete Solutions",
-      desc:"With our all-encompassing prototype development services in Gurgaon, we provide complete services that turn ideas into reality.",
+      name: "Holistic Solutions",
+      desc:"Ackrolix offers comprehensive prototype development services in India, providing end-to-end solutions that transform ideas into reality.",
     },
     {
       id: "3",
-      name: "A Range of Industries",
-      desc:"Our broad experience enables us to manage a variety of tasks with accuracy and proficiency, from electronics to consumer goods.",
+      name: "Diverse Industries",
+      desc:"Our extensive experience empowers us to adeptly handle tasks across a spectrum of industries, from electronics to consumer goods, with precision and proficiency.",
     },
     {
       id: "4",
-      name: "Innovative Technology",
-      desc: "Our cutting-edge tools and processes, such as additive manufacturing, quickly and effectively generate high-quality prototypes.",
+      name: "Cutting-edge Technology",
+      desc: "Utilizing innovative tools and processes, including cutting-edge technologies like additive manufacturing, we swiftly and effectively produce high-quality prototypes.",
     },
     {
       id: "5",
-      name: "Collaborative Methodology",
-      desc: " Work together with us throughout the process to make sure your input influences the finished product and consistently meets or exceeds expectations.",
+      name: "Collaborative Approach",
+      desc: "Engage in a collaborative methodology with Ackrolix throughout the process, ensuring your input significantly influences the final product, consistently exceeding expectations.",
     },
     {
       id: "6",
-      name: "Prompt Delivery",
+      name: "Timely Deliveries",
       desc: "We value deadlines and stick to them by using a simplified method to produce products on time and for a reasonable price.",
     },
    
@@ -129,13 +129,13 @@ const cards = [
       textcolor: "text-secondary",
       display: "hidden",
       maintitle: "Services",
-      subtitle: "Our Exemplary Prototype Development Services",
+      subtitle: "Our Out-of-the-Box Prototype Development Services",
     },
     {
       id: 2,
       icon: "01",
-      title: "Requirements Gathering Process",
-      para: "The process of prototyping software begins with acquiring project requirements from clients or product users.",
+      title: "Requirements Elicitation Process",
+      para: "The journey of prototyping software commences with a comprehensive exploration of project requirements obtained directly from clients or end-users.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -147,8 +147,8 @@ const cards = [
     {
       id: 3,
       icon: "02",
-      title: "Swift Prototype Development",
-      para: "During the first stage of product development, a quick and simple design of the entire product is created, allowing for rapid prototype development.",
+      title: "Rapid Prototype Development",
+      para: "In the initial phase of product development, a swift and straightforward design of the entire product is crafted, facilitating the expeditious creation of prototypes.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -160,8 +160,8 @@ const cards = [
     {
       id: 4,
       icon: "03",
-      title: "Development Services for Prototyping",
-      para: "These services entail the creation of working models or replicas of products in order to test and validate their design and functionality prior to full-scale production.",
+      title: "Prototyping Development Services",
+      para: "These services encompass the development of functional models or replicas, enabling rigorous testing and validation of both the design and functionality before transitioning to full-scale production.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -173,8 +173,8 @@ const cards = [
     {
       id: 5,
       icon: "04",
-      title: "Additive Manufacturing",
-      para: "Additive Manufacturing, also known as 3D printing, creates objects layer by layer from computer models. It allows for complicated designs and rapid prototyping.",
+      title: "Innovative Additive Manufacturing",
+      para: "Utilizing advanced techniques like Additive Manufacturing, commonly known as 3D printing, to construct objects layer by layer from digital models. This method allows for intricate designs and accelerates the prototyping process.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -186,8 +186,8 @@ const cards = [
     {
       id: 6,
       icon: "05",
-      title: "Prototype Creation",
-      para: "A small-scale functioning model of the product will be rigorously created during this critical stage. A prototype is built using detailed information and specifications acquired from clients or consumers.",
+      title: "Prototype Crafting",
+      para: "In this pivotal stage, a small-scale, fully operational model of the product is meticulously crafted. The prototype is constructed based on detailed information and specifications gathered from clients or end consumers.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -199,8 +199,8 @@ const cards = [
     {
       id: 7,
       icon: "06",
-      title: "Mock-up prototypes",
-      para: "Mock-up prototypes are non-functional representations of items that are used for visual evaluation and testing the design aesthetics and ergonomics.",
+      title: "Aesthetic Mock-up Prototypes",
+      para: "Engaging in the creation of non-functional mock-up prototypes that serve as visual representations for evaluating design aesthetics and ergonomics through rigorous testing and observation.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -245,15 +245,14 @@ const cards = [
         }}
       >
         <Banner 
-          bannertitle="Empowering Vision with Gurgaon’s leading Prototype Development Company
-          "
-           bannersubtext="Ackrolix is a renowned Prototype Development Company in Gurgaon. We specialize in creating working duplicates of products to ensure that they fit market standards and user specifications."
+          bannertitle="Empower Your Vision With India’s Premier Prototype Development Company"
+           bannersubtext="Ackrolix is a renowned Prototype Design and Development Company in India. We specialize in crafting functional replicas that align with market standards and users’ needs."
           serviceimg="/assets/images/service/svg/res.png"
           serviceimgAlt="prototyping design company"
-          servicehead="Our Foolproof Prototype Development Services"
-          servicedesc1="Our skilled team adheres to an efficient Prototype Development Process, which allows us to discover and rectify design flaws early in the development cycle. Our prototypes attract potential buyers by imitating the real product, giving them a personal sense of what's to come and creating trust in your concept."
-          servicedesc2="Whether your project is small or large, our Prototype Development Solutions are designed to your exact requirements. We develop commercially feasible and profitable products that meet the needs of your clients. We adapt to the size and complexity of your project, from simple paper sketches to fully functional models."
-          servicedesc3="We design and iterate prototypes quickly using our fast prototyping approach, allowing you to provide feedback throughout the development process."
+          servicehead="Explore Our Prototype Development Services Suite"
+          servicedesc1="Empowered by a team of seasoned design and development nomads, we navigate the efficient pathways of our Prototype Development Process. This method enables us to unearth and rectify design flaws in the early stages, ensuring seamless development. Our prototypes go beyond imitation, offering potential buyers a tangible preview of your product, fostering trust in your concept."
+          servicedesc2="Whether your project is a petite endeavour or a grand venture, our Prototype Development Solutions are tailored to your precise needs. From simple paper sketches to fully functional models, we adapt to the size and complexity of your project, crafting commercially viable and profitable products that resonate with your clients."
+          servicedesc3="With our swift prototyping approach, we design and iterate prototypes promptly, inviting your continuous feedback throughout the development journey. Trust us to bring your vision to life with precision and efficiency."
         />
         
       </div>
@@ -261,8 +260,8 @@ const cards = [
       <div className="container-ack md:px-0 px-5">
       <ComponentHead
           title="Technology"
-          sub="Tools we are using In UI/UX Designing & Strategy"
-          head="The technology stack for Data Visualisation can vary depending on the specific requirements of the application and the chosen modernization approach."
+          sub="Prototyping, UI/UX Strategy, & Design Tools"
+          head="The technology stack for Data Visualization may vary based on the unique requirements of the application and the chosen approach to modernization. Here are the modern tools we employ to modernize your business."
         />
       <Technology tech={techs} />
       </div>
@@ -277,8 +276,8 @@ const cards = [
           <div className="container-ack md:px-0 px-5">
             <ProccessHead
               processhead="Why Choose Us"
-              processsub="Why Choose Us"
-              processdesc="Ackrolix takes great pleasure in being Gurgaon's go-to Prototype Development Agency. We provide innovative Prototype Development Services that are targeted to your specific needs, with an emphasis on creativity, competence, and customer-centricity."
+              processsub="Why Choose Ackrolix?"
+              processdesc="The Ackrolix team proudly stands as the leading Prototype Development Agency in India, globally offering bespoke and innovative services. Our expertise in creativity and customer-centric solutions ensures excellence in meeting your unique needs every time."
               processimg="/assets/images/service/svg/res1.png"
               proocessalt="Prototype Design Agency"
             />

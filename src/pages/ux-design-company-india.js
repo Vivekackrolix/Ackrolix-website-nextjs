@@ -189,7 +189,7 @@ const UiStrategy = () => {
       id: 6,
       icon: "05",
       title: "Purposeful UX Research",
-      para: "Crafted with a passion for art and science, our products ensure growth potential, a focus on research, and alignment with modern business trends and technology. We prioritize delivering value, fostering growth, and maintaining budget-friendly solutions for every niche and business-size.      ",
+      para: "Crafted with a passion for art and science, our products ensure growth potential, a focus on research, and alignment with modern business trends and technology. We prioritize delivering value, fostering growth, and maintaining budget-friendly solutions for every niche and business-size.",
       bgcolor: "bg-[#F6F8F9]",
       cols: "md:col-span-1",
       display: "icon",
@@ -259,8 +259,8 @@ const UiStrategy = () => {
       <div className="container-ack md:px-0 px-5">
         <ComponentHead
           title="Technology"
-          sub="Our UI/UX Design Service Tools"
-          head="The UI/UX design technology stack for visualization may vary based on specific requirements and the chosen modernization approach. Here’s what we employ"
+          sub="Our UI/UX Design Toolkit"
+          head="The UI/UX design technology stack for visualization may vary based on specific requirements and the chosen modernization approach. Here’s what we employ."
         />
         <Technology tech={techs} />
       </div>
