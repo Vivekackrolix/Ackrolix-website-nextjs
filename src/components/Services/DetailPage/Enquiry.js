@@ -82,8 +82,7 @@ const Enquiry = () => {
                 </div>
 
                  <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pt-10">
-                 From initial spark to flawless execution, we champion your vision with our design, technology, and marketing expertise. Let's set up a call today and bring your vision to life!
-                </div>
+                 Certainly! We're here to assist with your ideas, challenges, and aspirations. Share your requirements, and let's transform your vision into a mission reality!
               </div>
             </div>
 
@@ -175,9 +174,10 @@ const Enquiry = () => {
           </div>
         </div>
       </div>
+      </div>
       {isModalOpen ? <ThankYouModal /> : ""}
-    </>
+      </>
   );
-};
+  }
 
 export default Enquiry;

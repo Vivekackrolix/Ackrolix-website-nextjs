@@ -9,8 +9,8 @@ const Work = () => {
       <div className="container-ack md:px-0 px-5 pb-5">
         <ComponentHead
           title="Work"
-          sub="Explore Our Work"
-          head="Ackrolix: Where imagination meets boundless innovation. We design intuitive mobile apps that redefine possibilities and make the complex feel effortless. Explore our work and discover the future, made accessible."
+          sub="Our Work"
+          head="We thrive at the intersection of imagination and technology, sculpting next-gen UX strategies and creating products that go beyond imagination."
         />
         <div className="masonry-grid pb-2">
           <div className="masonry-grid-item containerzoom">

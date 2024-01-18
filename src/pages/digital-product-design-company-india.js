@@ -17,32 +17,32 @@ const ProductDdesignCompany = () => {
     {
       id: "1",
       name: "UI/UX",
-      desc: "Dive into the endless possibilities of Ackrolix UI and UX expertise! See amazing user flows, wireframes, and designs to bring your dreams to life. Our team conquers cutting-edge mobile and web app design technologies to create experiences that amaze audiences. Work proficiently with developers or export easily to your in-house team - the choice is yours! Your vision, our image - together, we will create miracles!      ",
+      desc: "Dive into Ackrolix's UI/UX expertise and discover the experience-captivating designs that bring your visions to life. Our UI/UX design team excels in cutting-edge design for mobile apps and web apps, offering seamless collaboration with developers or easy export to your in-house team. Your vision, our expertise—let's create miracles together!",
     },
     {
       id: "2",
-      name: "WEB",
-      desc: "Open the doors to endless possibilities with our many dynamic services! We have everything from design reviews to advanced UI/UX masterpieces to mind-blowing prototyping and seamless development! Whether you dream of building a new website from scratch or need a modern update, our full range of services ensures your digital presence is integrated and innovative. Let's redesign your website to impress your competitors!",
+      name: "Web Design",
+      desc: "Explore endless possibilities with our dynamic services—design reviews, advanced UI/UX, mind-blowing prototyping, and seamless development. Whether it's a new website or a modern update, we ensure an integrated and innovative digital presence. Let's revamp your site and make a lasting impression on competitors!",
     },
     {
       id: "3",
-      name: "MOBILE APPS",
-      desc: "Let your apps shine with unique designs in a sea of ​​2 million apps daily! iOS, Android, Web, or cross-platform, we help you. We will turn your ideas into masterpieces by creating lightning-fast, user-friendly, and exciting mobile applications that delight your target customers. Enjoy using our ideas to create something extraordinary!",
+      name: "Mobile App Development",
+      desc: "Elevate your apps in an ocean of over 2 million daily contenders! Whether for iOS, Android, Web, or cross-platform, we transform your ideas into lightning-fast, user-friendly, and captivating mobile applications. Let your unique designs shine, delighting your target customers. Unleash the extraordinary with Ackrolix’s innovative ideas!",
     },
     {
       id: "4",
       name: "BRANDING",
-      desc: "Reveal the secrets of top customers with Ackrolix! Build trust and recognition with compelling images, text, and products that speak directly to your audience. From legendary global titans to the biggest business giants, we will create a magnetic link to keep them coming back! Experience the magic of effective communication and watch your brand rise to unprecedented heights.",
+      desc: "Top-tier branding is Ackrolix's thing! Foster trust and recognition through compelling visuals, persuasive text, and products tailored for your audience. From global titans to business giants, we craft a magnetic connection that ensures lasting engagement. Feel the magic of effective communication and witness your brand ascend to unprecedented heights.",
     },
     {
       id: "5",
-      name: "ICON/ ILLUSTRATION",
-      desc: "These little things can convey your message quickly and intelligently so you can say more with less. Turn your own eyes into captivating creative music that words alone can't do. Get ready to prove the impact of this powerful design, impress your audience, and take your brand to new heights!",
+      name: "ICON & ILLUSTRATION",
+      desc: "Communicate swiftly and intelligently with these small wonders, saying more with less. Transform your vision into heartfelt creative expressions beyond words. Harness the power of impactful, user-centric design to impress your audience and elevate your brand to new heights.",
     },
     {
       id: "6",
-      name: "TEAM EXTENSION",
-      desc: "Speed ​​up your product development process with the Ackrolix support team! Our product developers can integrate with your existing team, making it creative and experienced. Get ready to improve your digital product development and see innovation reach new heights! Increase your success with a successful partnership with Ackrolix.",
+      name: "Growing Beyond Limits",
+      desc: "Accelerate your product development process with Ackrolix support! Our experienced product managers and developers seamlessly integrate with your team, bringing creativity to reinvent your ideas. Enhance your digital product development and witness innovation soar. Achieve desired success through a budding partnership with Ackrolix",
     },
   ];
   const techs = [
@@ -340,14 +340,14 @@ const ProductDdesignCompany = () => {
         }}
       >
         <Banner
-          bannertitle="Manifest Creative Digital Product Design and Development with Ackrolix          "
+          bannertitle="Envision Your Mobile App Ideas or Enterprise Grade Software Dream with Ackrolix's Design & Development Mastery"
           bannersubtext="     
-          Ackrolix is Gurgaon's top Digital Product Design Company which assists your business to access endless creativity. Take advantage of Ackrolix's Digital Product Design Services in Gurgaon to set out on an exciting voyage of creation. As we create magnificent interfaces and amazing experiences that will astound your audience, let your boldest and most transformative ideas come to life. Our goal as a premier Digital Product Development Company is to make your ideas a reality. As a Digital Product Agency, we produce designs that are smooth and appealing that please your target market."
+          Welcome to Ackrolix – India's leading Digital Product Design Company. Our dedicated team of experts is here to guide you through an exhilarating journey of creation. Immerse yourself in innovative design, delivering captivating user interfaces and extraordinary experiences. Unleash your boldest ideas with India's premier Digital Product Development Agency. We're not just an agency; we're your partners in digital product excellence. Let our seamless designs speak to your customers and pave the way for success. Your digital product design journey begins with Ackrolix – where creativity knows no limits."
           serviceimg="/assets/images/service/svg/pro.png"
           serviceimgAlt="Digital Product Design Company"
-          servicehead="Top Digital Product Design Agency Redefining Excellence"
-          servicedesc1="We're glad you're here at Ackrolix Innovation, an advanced digital product design firm in Gurgaon. Our Digital Product Design is a masterpiece of imagination and in-depth knowledge of human behaviour. Our design team at Ackrolix is a formidable force, equipped with pioneering tools and concepts that push the frontiers of creativity and keep up with changing business trends."
-          servicedesc2="When you work with us, your products will sparkle on the online store and shine like illuminating beacons in the night. Because we fully believe in the value of cooperation and collaboration, we actively involve our clients in the design process. We listen, learn, and adjust throughout the process, making sure that the finished product exceeds your expectations."
+          servicehead="Best Digital Product Design Agency Redefining Technological Excellence"
+          servicedesc1="Welcome to the Ackrolix Innovation hub, where the gateway to cutting-edge digital product design in India swings wide open exclusively for you. As your premier destination among Digital Product Design Agencies, we extend a warm invitation for you to immerse yourself in an unparalleled experience—a blend of artistic brilliance intricately woven with a deep understanding of human behavior and experiences, setting a new standard of excellence."
+          servicedesc2="At Ackrolix, our dynamic design team wields innovative tools to transcend creative boundaries and adapt to evolving business trends. Connect with us for standout products that shine as beacons in the digital space. With active client involvement, attentive listening, and continuous learning, Ackrolix Innovation ensures your digital products exceed user expectations, setting new standards of technological excellence."
         />
       </div>
       {/* <Cards card={cards} /> */}
@@ -355,7 +355,7 @@ const ProductDdesignCompany = () => {
         <ComponentHead
           title="Technology"
           sub="Product Design Company "
-          head="Ackrolix, a leading firm in Gurgaon for digital product design & development, is your devoted associate in reaching digital excellence. Put your faith in our digital product design services and watch your items shine and be distinguished. Witness the strength of Ackrolix, your acclaimed Gurgaon-based digital product agency, and work with us to build a digital environment that redefines greatness."
+          head="Ackrolix leads the way in digital product design and development across India. Entrust us as your committed partner on the journey to total digital excellence, and let our services elevate your products to new heights. Experience the transformative impact of Ackrolix Innovation, a renowned digital product agency in India. Join us in crafting a digital canvas that not only meets but redefines the status quo of greatness."
         />
         <Technology tech={techs} />
       </div>
@@ -370,8 +370,8 @@ const ProductDdesignCompany = () => {
           <div className="container-ack md:px-0 px-5">
             <ProccessHead
               processhead="Stages"
-              processsub="Key to Success (Our services)"
-              processdesc="Leading Gurgaon-based digital product design firm Ackrolix has mastered the art of developing beautiful digital products that solve customer problems and boost revenue across a range of sectors. You are where the magic begins! To deliver the best possible user experience, our team of brilliant digital product designers and skilled business analysts intimately understands your requirements."
+              processsub="Unlock Your Success with Our Key Services"
+              processdesc="At Ackrolix, India's premier digital product design firm, we excel in crafting stunning digital solutions that not only solve problems but also drive increased revenue across sectors. Positioned at the start of today’s digital magic, our exceptional product design team ensures an unparalleled user experience by deeply understanding your requirements."
               processimg="/assets/images/service/svg/pro1.png"
               proocessalt="Digital Product Design Services"
             />
