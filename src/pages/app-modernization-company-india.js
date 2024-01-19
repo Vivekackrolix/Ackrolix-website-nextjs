@@ -308,22 +308,22 @@ const AppModernizationDetails = () => {
   return (
     <div>
       <Head>
-        <title>Unlocking Business Potential: Application Modernization Solutions in India</title>
+        <title>Ackrolix Innovations: Application Modernization Company in India</title>
         
         <meta
           name="description"
-          content="Looking to modernize your applications? Say hello to Ackrolix, the go-to Application Modernisation company! We understand the significance of staying relevant in today's fast-paced digital landscape. Our skilled team possesses the know-how to revitalize your applications, strengthening their performance, functionality, and overall user experience."
+          content="Looking to modernize your applications? Say hello to Ackrolix, the go-to Application Modernisation company in India! We understand the significance of staying relevant in today's fast-paced digital landscape."
           />
-           <link rel="canonical" href="https://www.ackrolix.com/app-modernization-company-gurgaon"/>
+           <link rel="canonical" href="https://www.ackrolix.com/app-modernization-company-in-India"/>
           <meta property="og:title" 
-          content="Unlocking Business Potential: Application Modernization Solutions in India" />
+          content="Ackrolix Innovations: Application Modernization Company in India"/>
           <meta
             property="og:description"
-            content="Looking to modernize your applications? Say hello to Ackrolix, the go-to Application Modernisation company! We understand the significance of staying relevant in today's fast-paced digital landscape. Our skilled team possesses the know-how to revitalize your applications, strengthening their performance, functionality, and overall user experience."
+            content="Looking to modernize your applications? Say hello to Ackrolix, the go-to Application Modernisation company in India! We understand the significance of staying relevant in today's fast-paced digital landscape."
           />
            <meta
             property="og:url"
-            content="https://www.ackrolix.com/app-modernization-company-gurgaon"
+            content="https://www.ackrolix.com/app-modernization-company-in-India"
           />
           <meta
             property="og:image"

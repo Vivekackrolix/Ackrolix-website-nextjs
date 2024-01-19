@@ -213,15 +213,15 @@ const Visualisation = () => {
   return (
     <div>
       <Head>
-        <title>Ackrolix Innovations | Leading Data Visualization Services in India</title>
+        <title>Ackrolix Innovations | Data Visualization Services in India</title>
         <meta
           name="description"
           content="Ackrolix provides the Data visualization services in India. We have data experts that helps to turn your complex data into visually compelling Information."
         />
-         <link rel="canonical" href="https://www.ackrolix.com/data-visualisation-company-gurgaon"/>
+         <link rel="canonical" href="https://www.ackrolix.com/data-visualisation-company-in-India"/>
         <meta
           property="og:title"
-          content="Ackrolix Innovations | Leading Data Visualization Services in India"
+          content="Ackrolix Innovations | Data Visualization Services in India"
         />
         <meta
           property="og:description"
@@ -229,7 +229,7 @@ const Visualisation = () => {
         />
         <meta
           property="og:url"
-          content="https://www.ackrolix.com/data-visualisation-company-gurgaon"
+          content="https://https://www.ackrolix.com/data-visualisation-company-in-India"
         />
         <meta
           property="og:image"

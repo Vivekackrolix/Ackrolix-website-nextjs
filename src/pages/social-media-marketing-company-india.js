@@ -329,7 +329,7 @@ const SmmAgency = () => {
           name="description"
           content="Ackrolix: best social media marketing company in India! we are  specializes in strategic solutions to boost your online presence and drive impactful results."
           />
-           <link rel="canonical" href="https://www.ackrolix.com/social-media-marketing-company-gurgaon"/>
+           <link rel="canonical" href="https://www.ackrolix.com/social-media-marketing-company-in-India"/>
           <meta property="og:title" content="Ackrolix: Social Media Marketing Company in India" />
           <meta
             property="og:description"
@@ -337,7 +337,7 @@ const SmmAgency = () => {
           />
            <meta
             property="og:url"
-            content="https://www.ackrolix.com/social-media-marketing-company-gurgaon"
+            content="https://www.ackrolix.com/social-media-marketing-company-in-India"
           />
           <meta
             property="og:image"

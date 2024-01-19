@@ -216,21 +216,21 @@ const UiStrategy = () => {
   return (
     <div>
       <Head>
-        <title>Ackrolix| ux design agency in india</title>
+        <title>Ackrolix| UX design agency in India</title>
         <meta
           name="description"
-          content="Ackrolix is a global UX design agency helping businesses succeed.we decade of experience at building impressive interface design and layout. "
+          content="Ackrolix is a global UX design agency in India helping businesses succeed.we decade of experience at building impressive interface design and layout. "
         />
-        <link rel="canonical" href="https://www.ackrolix.com/ux-design-company-gurgaon" />
+        <link rel="canonical" href="https://www.ackrolix.com/ux-design-company-in-India" />
 
-        <meta property="og:title" content="Ackrolix| ux design agency in india" />
+        <meta property="og:title" content="Ackrolix| UX design agency in India" />
         <meta
           property="og:description"
-          content="Ackrolix is a global UX design agency helping businesses succeed.we decade of experience at building impressive interface design and layout. "
+          content="Ackrolix is a global UX design agency in India helping businesses succeed.we decade of experience at building impressive interface design and layout. "
         />
         <meta
           property="og:url"
-          content="https://www.ackrolix.com/ux-design-company-gurgaon"
+          content="https://www.ackrolix.com/ux-design-company-in-India"
         />
         <meta
           property="og:image"

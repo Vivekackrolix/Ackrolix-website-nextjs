@@ -308,24 +308,24 @@ const cards = [
   return (
     <div>
       <Head>
-        <title>Ackrolix - The Solution for Cutting-Edge Web Development Companies in India</title>
+        <title>Ackrolix - Web Development Company in India</title>
         <meta
           name="description"
-          content="With Ackrolix, you will have access to a wide range of powerful tools and functionalities tailored to meet the unique needs of web development companies in India. From seamless project management to collaborative coding features, our platform empowers your team to work together efficiently and effectively."
+          content="With Ackrolix, you will have access to a wide range of powerful tools and functionalities tailored to meet the unique needs of web development company in India. From seamless project management to collaborative coding features, our platform empowers your team to work together efficiently and effectively."
         />
-                <link rel="canonical" href="https://www.ackrolix.com/website-development-company-gurgaon"/>
+                <link rel="canonical" href="https://www.ackrolix.com/website-development-company-in-India"/>
 
         <meta
           property="og:title"
-          content="Ackrolix - The Solution for Cutting-Edge Web Development Companies in India"
+          content="Ackrolix - Web Development Company in India"
         />
         <meta
           property="og:description"
-          content="With Ackrolix, you will have access to a wide range of powerful tools and functionalities tailored to meet the unique needs of web development companies in India. From seamless project management to collaborative coding features, our platform empowers your team to work together efficiently and effectively."
+          content="With Ackrolix, you will have access to a wide range of powerful tools and functionalities tailored to meet the unique needs of web development company in India. From seamless project management to collaborative coding features, our platform empowers your team to work together efficiently and effectively."
         />
         <meta
           property="og:url"
-          content="https://www.ackrolix.com/website-development-company-gurgaon"
+          content="https://www.ackrolix.com/website-development-company-in-India"
         />
         <meta
           property="og:image"

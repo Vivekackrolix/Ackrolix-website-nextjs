@@ -323,21 +323,21 @@ const SemAgency = () => {
   return (
     <div>
      <Head>
-        <title>Ackrolix: Search Engine Marketing Company in India</title>
+        <title>Ackrolix: Search Engine Marketing agency in India</title>
         <meta
           name="description"
           content="Looking for the best Search Engine Marketing agency in India to help you achieve optimum results and improve your ROI? Look no further than ackrolix"
           />
-           <link rel="canonical" href="https://www.ackrolix.com/sem-company-gurgaon"/>
+           <link rel="canonical" href="https://www.ackrolix.com/sem-agency-in-India"/>
           <meta property="og:title" 
-          content="Ackrolix: Search Engine Marketing Company in India" />
+          content="Ackrolix: Search Engine Marketing agency in India" />
           <meta
             property="og:description"
             content="Looking for the best Search Engine Marketing agency in India to help you achieve optimum results and improve your ROI? Look no further than ackrolix"
           />
            <meta
             property="og:url"
-            content="https://www.ackrolix.com/sem-company-gurgaon"
+            content="https://www.ackrolix.com/sem-agency-in-India"
           />
           <meta
             property="og:image"

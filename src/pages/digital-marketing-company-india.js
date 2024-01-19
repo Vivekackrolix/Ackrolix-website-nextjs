@@ -325,7 +325,7 @@ const cards = [
           name="description"
           content="Are you looking for a most trusted award winning digital marketing agency in India, then you are at the right place."
           />
-           <link rel="canonical" href="https://www.ackrolix.com/digital-marketing-company-gurgaon"/>
+           <link rel="canonical" href="https://www.ackrolix.com/digital-marketing-company-in-India"/>
           <meta property="og:title" 
           content="Ackrolix: Digital Marketing Agency in India" />
           <meta
@@ -334,7 +334,7 @@ const cards = [
           />
            <meta
             property="og:url"
-            content="https://www.ackrolix.com/digital-marketing-company-gurgaon"
+            content="https://www.ackrolix.com/digital-marketing-company-in-India"
           />
           <meta
             property="og:image"

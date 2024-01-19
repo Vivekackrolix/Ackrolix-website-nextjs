@@ -327,7 +327,7 @@ const MediaBuying = () => {
         <title>Media Buying Company in India | Ackrolix Innovations</title>
         <meta name="description" content="Ackrolix Innovations is the best Media best-buying company in 
 India that offers Communication Planning, Content Creation, and Technology." />
-        <link rel="canonical" href="https://www.ackrolix.com/media-buying-company-gurgaon" />
+        <link rel="canonical" href="https://www.ackrolix.com/media-buying-company-in-India" />
         <meta property="og:title" content="Media Buying Company in India | Ackrolix Innovations" />
         <meta
           property="og:description"
@@ -336,7 +336,7 @@ India that offers Communication Planning, Content Creation, and Technology."
         />
         <meta
           property="og:url"
-          content="https://www.ackrolix.com/media-buying-company-gurgaon"
+          content="https://www.ackrolix.com/media-buying-company-in-India"
         />
         <meta
           property="og:image"

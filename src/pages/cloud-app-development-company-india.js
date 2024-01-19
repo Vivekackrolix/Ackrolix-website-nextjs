@@ -314,7 +314,7 @@ const CloudEngineeringAndDevOps = () => {
           content="We are the best and leading Agency in Cloud Application Development Services in India.
  We are offering the best Application Development Services."
         />
-        <link rel="canonical" href="https://www.ackrolix.com/cloud-app-development-company-gurgaon" />
+        <link rel="canonical" href="https://www.ackrolix.com/cloud-app-development-company-in-India" />
         <meta property="og:title" content="Cloud Application Development Services in India" />
         <meta
           property="og:description"
@@ -323,7 +323,7 @@ const CloudEngineeringAndDevOps = () => {
         />
         <meta
           property="og:url"
-          content="https://www.ackrolix.com/cloud-app-development-company-gurgaon"
+          content="https://www.ackrolix.com/cloud-app-development-company-in-India"
         />
         <meta name="robots"
           content="index,follow" />
