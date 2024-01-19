@@ -324,19 +324,19 @@ const SeoAgency = () => {
   return (
     <div>
       <Head>
-        <title>Ackrolix: seo company in india</title>
+        <title>Ackrolix: seo company in India</title>
         <meta name="description"
          content="We are the number one SEO Company in India that offers assured first-page rankings. Our data-driven proven SEO methods are unique. Get a free Audit Today." />
-      <link rel="canonical" href="https://www.ackrolix.com/seo-company-gurgaon"/>
+      <link rel="canonical" href="https://www.ackrolix.com/seo-company-in-India"/>
         <meta property="og:title" 
-        content="Ackrolix: seo company in india" />
+        content="Ackrolix: seo company in India" />
         <meta
           property="og:description"
           content="We are the number one SEO Company in India that offers assured first-page rankings. Our data-driven proven SEO methods are unique. Get a free Audit Today."
         />
         <meta
           property="og:url"
-          content="https://www.ackrolix.com/seo-company-gurgaon"
+          content="https://www.ackrolix.com/seo-company-in-India"
         />
         <meta
           property="og:image"

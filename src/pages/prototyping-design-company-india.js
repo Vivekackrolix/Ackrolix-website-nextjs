@@ -214,21 +214,21 @@ const cards = [
   return (
     <div>
       <Head>
-        <title>Best prototype designing services in india</title>
+        <title>Best prototype designing services in India</title>
         <meta
           name="description"
-          content="You won't be disappointed with a company recognized as one of India's best prototype designing services. we provide Fast, flexible, and affordable prototyping solutions. "
+          content="You won't be disappointed with a company recognized as one of India's best prototype designing services in India. we provide Fast, flexible, and affordable prototyping solutions. "
           />
-                                    <link rel="canonical" href="https://www.ackrolix.com/prototyping-design-company-gurgaon"/>
+                                    <link rel="canonical" href="https://www.ackrolix.com/prototyping-design-company-in-India"/>
 
-          <meta property="og:title" content="Best prototype designing services in india" />
+          <meta property="og:title" content="Best prototype designing services in India" />
           <meta
             property="og:description"
-            content="You won't be disappointed with a company recognized as one of India's best prototype designing services. we provide Fast, flexible, and affordable prototyping solutions."
+            content="You won't be disappointed with a company recognized as one of India's best prototype designing services in India. we provide Fast, flexible, and affordable prototyping solutions."
           />
            <meta
             property="og:url"
-            content="https://www.ackrolix.com/prototyping-design-company-gurgaon"
+            content="https://www.ackrolix.com/prototyping-design-company-in-India"
           />
           <meta
             property="og:image"

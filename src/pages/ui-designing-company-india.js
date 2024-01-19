@@ -212,19 +212,19 @@ const cards = [
   return (
     <div>
       <Head>
-      <title>Ackrolix | ui design company in india</title>  
+      <title>Ackrolix | UI design company in India</title>  
         <meta name="description"
-         content="Ackrolix leading UI Design agency in India, that helps you in designing and crafting digital experiences offering services to clients across the globe" />
-        <link rel="canonical" href="https://www.ackrolix.com/ui-designing-company-gurgaon"/>
+         content="Ackrolix leading UI Design company in India, that helps you in designing and crafting digital experiences offering services to clients across the globe" />
+        <link rel="canonical" href="https://www.ackrolix.com/ui-designing-company-in-India"/>
         <meta property="og:title" 
-        content="Ackrolix | ui design company in india" />
+        content="Ackrolix | UI design company in india" />
         <meta
           property="og:description"
-          content="Ackrolix leading UI Design agency in India, that helps you in designing and crafting digital experiences offering services to clients across the globe"
+          content="Ackrolix leading UI Design company in India, that helps you in designing and crafting digital experiences offering services to clients across the globe"
         />
         <meta
           property="og:url"
-          content="https://www.ackrolix.com/ui-designing-company-gurgaon"
+          content="https://www.ackrolix.com/ui-designing-company-in-India"
         />
         <meta
           property="og:image"

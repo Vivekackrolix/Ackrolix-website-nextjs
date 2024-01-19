@@ -286,7 +286,7 @@ const EcommerceDevelopmentCompany = () => {
           content="At Ackrolix we provide the best E-commerce Website Development Services in India.
  We are offering high-quality E-Commerce solutions to our clients."
         />
-        <link rel="canonical" href="https://www.ackrolix.com/ecommerce-developement-company-gurgaon" />
+        <link rel="canonical" href="https://www.ackrolix.com/ecommerce-developement-company-in-India" />
         <meta
           property="og:title"
           content="E-commerce Website Development Services in India"
@@ -298,7 +298,7 @@ const EcommerceDevelopmentCompany = () => {
         />
         <meta
           property="og:url"
-          content="https://www.ackrolix.com/ecommerce-developement-company-gurgaon"
+          content="https://www.ackrolix.com/ecommerce-developement-company-in-India"
         />
         <meta
           property="og:image"

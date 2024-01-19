@@ -308,17 +308,17 @@ const SoftwareDevelopmentCompany = () => {
   return (
     <div>
       <Head>
-        <title>Ackrolix / software development company in india</title>  
+        <title>Ackrolix: software development company in India</title>  
         <meta name="description" content="Looking for a reliable software development company in India? Look no further! Ackrolix is your one-stop solution for all your software development needs." />
-        <link rel="canonical" href="https://www.ackrolix.com/software-development-company-gurgaon"/>
-        <meta property="og:title" content="Ackrolix / software development company in india" />
+        <link rel="canonical" href="https://www.ackrolix.com/software-development-company-in-India"/>
+        <meta property="og:title" content="Ackrolix: software development company in India" />
         <meta
           property="og:description"
           content="Looking for a reliable software development company in India? Look no further! Ackrolix is your one-stop solution for all your software development needs."
         />
         <meta
           property="og:url"
-          content="https://www.ackrolix.com/software-development-company-gurgaon"
+          content="https://www.ackrolix.com/software-development-company-in-India"
         />
          <meta name="robots" 
         content="index,follow" />

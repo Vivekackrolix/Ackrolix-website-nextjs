@@ -283,7 +283,7 @@ const ProductDdesignCompany = () => {
         <title>Ackrolix | Best Digital Product Design Agency in India. </title>
         <meta name="description" content="Ackrolix is the best Digital Product Design Agency in India.
  We provide the best Digital Product designing Services in India. " />
-        <link rel="canonical" href="https://www.ackrolix.com/digital-product-design-company-gurgaon" />
+        <link rel="canonical" href="https://www.ackrolix.com/digital-product-design-company-in-India" />
         <meta property="og:title" content="Ackrolix | Best Digital Product Design Agency in India. " />
         <meta
           property="og:description"
@@ -291,7 +291,7 @@ const ProductDdesignCompany = () => {
         />
         <meta
           property="og:url"
-          content="https://www.ackrolix.com/digital-product-design-company-gurgaon"
+          content="https://www.ackrolix.com/digital-product-design-company-in-India"
         />
         <meta name="robots"
           content="index,follow" />
