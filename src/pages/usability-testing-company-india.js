@@ -217,7 +217,7 @@ const cards = [
       <title>Ackrolix Innovations | Best Usablity testing services in India </title>  
         <meta name="description"
          content="looking for a best Usability testing services in India. Choose Ackrolix Innovations for Digital Excellence!" />
-        <link rel="canonical" href="https://www.ackrolix.com/usability-testing-company-in-India"/>
+        <link rel="canonical" href="https://www.ackrolix.com/usability-testing-services-in-India"/>
         <meta property="og:title" 
         content="Ackrolix Innovations | Best Usablity testing services in India" />
         <meta
@@ -226,7 +226,7 @@ const cards = [
         />
         <meta
           property="og:url"
-          content="https://www.ackrolix.com/usability-testing-company-in-India"
+          content="https://www.ackrolix.com/usability-testing-services-in-India"
         />
         <meta
           property="og:image"
