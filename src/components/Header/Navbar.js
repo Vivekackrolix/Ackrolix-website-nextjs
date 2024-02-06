@@ -1,12 +1,12 @@
-import Link from "next/link";
-import React, { useEffect, useState } from "react";
-import { Disclosure } from "@headlessui/react";
-import { FiChevronDown } from "react-icons/fi";
-import { MdKeyboardArrowDown } from "react-icons/md";
-import { FaBars, FaCross, FaTimes } from "react-icons/fa";
-import { RiArrowDropDownLine } from "react-icons/ri";
-import { BsChevronDown } from "react-icons/bs";
-import { useRouter } from "next/router";
+import Link from 'next/link';
+import React, { useEffect, useState } from 'react';
+import { Disclosure } from '@headlessui/react';
+import { FiChevronDown } from 'react-icons/fi';
+import { MdKeyboardArrowDown } from 'react-icons/md';
+import { FaBars, FaCross, FaTimes } from 'react-icons/fa';
+import { RiArrowDropDownLine } from 'react-icons/ri';
+import { BsChevronDown } from 'react-icons/bs';
+import { useRouter } from 'next/router';
 const Navbar = () => {
   // setting mobile nav
   const [click, setClick] = useState(false);
@@ -18,52 +18,52 @@ const Navbar = () => {
   const router = useRouter();
 
   return (
-    <div className="header text-black duration-300  w-full z-20  header-home py-2 ">
+    <div className="z-20 w-full py-2 text-black duration-300 header header-home ">
       <nav className="navbar ">
-        <Link href="/" className="md:hidden block">
+        <Link href="/" className="block md:hidden">
           <img src="/assets/images/acklogo.png" alt="image" />
         </Link>
         <div>
           <ul
             className={
               click
-                ? "nav-menu active md:space-y-0 space-y-4 pb-3 "
-                : "nav-menu flex justify-between space-x-4"
+                ? 'nav-menu active md:space-y-0 space-y-4 pb-3 '
+                : 'nav-menu flex justify-between space-x-4'
             }
           >
             <Link href="/">
               <li
                 className={
-                  router.pathname == "/"
-                    ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
-                    : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
+                  router.pathname == '/'
+                    ? 'active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer '
+                    : 'group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black'
                 }
               >
                 Home
               </li>
             </Link>
             {/* for mobile start */}
-            <li className="md:hidden block ">
+            <li className="block md:hidden ">
               <Link href="/">
-                <p className="text-white px-10">Home</p>
+                <p className="px-10 text-white">Home</p>
               </Link>
             </li>
             {/* for mobile end */}
             <Link href="/about">
               <li
                 className={
-                  router.pathname == "/about"
-                    ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
-                    : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer text-black"
+                  router.pathname == '/about'
+                    ? 'active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer '
+                    : 'group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer text-black'
                 }
               >
                 About
               </li>
             </Link>
             {/* for mobile start */}
-            <li className="md:hidden block ">
+            <li className="block md:hidden ">
               <Link href="/about">
-                <p className="text-white px-10">About</p>
+                <p className="px-10 text-white">About</p>
               </Link>
             </li>
             {/* for mobile end */}
@@ -73,7 +73,7 @@ const Navbar = () => {
               "
             >
               <p className="group-hover:text-[#edb00a] flex items-center justify-center">
-                Services{" "}
+                Services{' '}
                 <span>
                   <BsChevronDown
                     className="text-black group-hover:text-[#edb00a]"
@@ -82,57 +82,11 @@ const Navbar = () => {
                 </span>
               </p>
               <div className="group-hover:block z-[999] shadow-lg shadow-black/30 dropdown-menu absolute hidden transition-all  duration-300 translate-y-2 h-auto top-[2.1rem] md:-left-10 ">
-                <div className="top-0 bg-white flex py-5">
-                  <div className="p-1 text-black text-xs  w-80 text-left flex flex-col rounded-l-md  border-r-2 border-primary">
-                    <p className=" text-black text-base font-bold px-4 py-5 ">
-                      {" "}
-                      <Link href="/services">
-                        Product Conceptualization
-                      </Link>{" "}
-                    </p>
-
-                    <Link
-                      href="/prototyping-design-company-india"
-                      className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                    >
-                      Prototyping Design Company
-                    </Link>
-                    <Link
-                      href="/ux-design-company-india"
-                      className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                    >
-                      UX Design Company
-                    </Link>
-                    <Link
-                      href="/ui-designing-company-india"
-                      className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                    >
-                      UI Designing Company
-                    </Link>
-                    <Link
-                      href="/user-research-company-india"
-                      className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a]   rounded-md px-4 py-2 text-sm"
-                    >
-                      User Research Company
-                    </Link>
-                    <Link
-                      href="/usability-testing-company-india"
-                      className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                    >
-                      Usability Testing Company
-                    </Link>
-                    <Link
-                      href="/data-visualisation-company-india"
-                      className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                    >
-                      Data Visualisation Company
-                    </Link>
-                  </div>
-
-                  <div className="p-1 text-black text-xs  w-80 text-left flex flex-col  border-r-2 border-primary">
-                    <p className=" text-black text-base font-bold px-4 py-5 ">
-                      {" "}
-                      <Link href="/services">Product Development</Link>{" "}
+                <div className="top-0 flex py-5 bg-white">
+                  <div className="flex flex-col p-1 text-xs text-left text-black border-r-2 w-80 border-primary">
+                    <p className="px-4 py-5 text-base font-bold text-black ">
+                      {' '}
+                      <Link href="/services">Product Development</Link>{' '}
                     </p>
 
                     <Link
@@ -141,43 +95,11 @@ const Navbar = () => {
                     >
                       Web Development Company
                     </Link>
-                    <Link
-                      href="/app-modernization-company-india"
-                      className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                    >
-                      App Modernization Company
-                    </Link>
-                    <Link
-                      href="/software-development-company-india"
-                      className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                    >
-                      Software Development Company
-                    </Link>
-                    <Link
-                      href="/digital-product-design-company-india"
-                      className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a]   rounded-md px-4 py-2 text-sm"
-                    >
-                      Digital Product Design Company
-                    </Link>
-
-                    <Link
-                      href="/ecommerce-developement-company-india"
-                      className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                    >
-                      Ecommerce Development Company
-                    </Link>
-
-                    <Link
-                      href="/cloud-app-development-company-india"
-                      className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                    >
-                      Cloud Application Development Company
-                    </Link>
                   </div>
 
-                  <div className="p-1 text-black text-xs  w-80 text-left flex flex-col rounded-r-md">
-                    <p className=" text-black text-base font-bold px-4 py-5 ">
-                      {" "}
+                  <div className="flex flex-col p-1 text-xs text-left text-black w-80 rounded-r-md">
+                    <p className="px-4 py-5 text-base font-bold text-black ">
+                      {' '}
                       <Link href="/services">Digital Modernization </Link>
                     </p>
 
@@ -224,72 +146,26 @@ const Navbar = () => {
               </div>
             </li>
             {/* for mobile start */}
-            <li className="md:hidden block ">
+            <li className="block md:hidden ">
               <Disclosure>
                 {({ open }) => (
                   <>
-                    <Disclosure.Button className="text-white flex items-center px-10 justify-start w-full">
+                    <Disclosure.Button className="flex items-center justify-start w-full px-10 text-white">
                       Services
                       <RiArrowDropDownLine
                         className={
-                          open ? "rotate-180 transform w-8 h-8" : "w-8 h-8"
+                          open ? 'rotate-180 transform w-8 h-8' : 'w-8 h-8'
                         }
                       />
                     </Disclosure.Button>
-                    <Disclosure.Panel className="text-gray-500 px-10 ">
-                      <div className="top-0 bg-white flex flex-col py-5">
-                        <div className="p-1 text-black text-xs  w-80 text-left flex flex-col rounded-l-md  border-r-2 border-primary">
-                          <p className=" text-black text-base font-bold px-4 py-5 ">
-                            {" "}
-                            <Link href="/services">
-                              Product Conceptualization
-                            </Link>{" "}
-                          </p>
-
-                          <Link
-                            href="/prototyping-design-company-india"
-                            className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                          >
-                            Prototyping Design Company
-                          </Link>
-                          <Link
-                            href="/ux-design-company-india"
-                            className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                          >
-                            UX Design Company
-                          </Link>
-                          <Link
-                            href="/ui-designing-company-india"
-                            className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                          >
-                            UI Designing Company
-                          </Link>
-                          <Link
-                            href="/user-research-company-india"
-                            className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a]   rounded-md px-4 py-2 text-sm"
-                          >
-                            User Research Company
-                          </Link>
-                          <Link
-                            href="/usability-testing-company-india"
-                            className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                          >
-                            Usability Testing Company
-                          </Link>
-                          <Link
-                            href="/data-visualisation-company-india"
-                            className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                          >
-                            Data Visualisation Company
-                          </Link>
-                        </div>
-
-                        <div className="p-1 text-black text-xs  w-80 text-left flex flex-col  border-r-2 border-primary">
-                          <p className=" text-black text-base font-bold px-4 py-5 ">
-                            {" "}
+                    <Disclosure.Panel className="px-10 text-gray-500 ">
+                      <div className="top-0 flex flex-col py-5 bg-white">
+                        <div className="flex flex-col p-1 text-xs text-left text-black border-r-2 w-80 border-primary">
+                          <p className="px-4 py-5 text-base font-bold text-black ">
+                            {' '}
                             <Link href="/services">
                               Product Development
-                            </Link>{" "}
+                            </Link>{' '}
                           </p>
 
                           <Link
@@ -298,43 +174,11 @@ const Navbar = () => {
                           >
                             Web Development Company
                           </Link>
-                          <Link
-                            href="/app-modernization-company-india"
-                            className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                          >
-                            App Modernization Company
-                          </Link>
-                          <Link
-                            href="/software-development-company-india"
-                            className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                          >
-                            Software Development Company
-                          </Link>
-                          <Link
-                            href="/digital-product-design-company-india"
-                            className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a]   rounded-md px-4 py-2 text-sm"
-                          >
-                            Digital Product Design Company
-                          </Link>
-
-                          <Link
-                            href="/ecommerce-developement-company-india"
-                            className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                          >
-                            Ecommerce Development Company
-                          </Link>
-
-                          <Link
-                            href="/cloud-app-development-company-india"
-                            className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
-                          >
-                            Cloud Application Development Company
-                          </Link>
                         </div>
 
-                        <div className="p-1 text-black text-xs  w-80 text-left flex flex-col rounded-r-md">
-                          <p className=" text-black text-base font-bold px-4 py-5 ">
-                            {" "}
+                        <div className="flex flex-col p-1 text-xs text-left text-black w-80 rounded-r-md">
+                          <p className="px-4 py-5 text-base font-bold text-black ">
+                            {' '}
                             <Link href="/services">Digital Modernization </Link>
                           </p>
 
@@ -388,72 +232,72 @@ const Navbar = () => {
             <Link href="/experts">
               <li
                 className={
-                  router.pathname == "/experts"
-                    ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
-                    : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
+                  router.pathname == '/experts'
+                    ? 'active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer '
+                    : 'group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black'
                 }
               >
                 Our Experts
               </li>
             </Link>
             {/* for mobile start */}
-            <li className="md:hidden block ">
+            <li className="block md:hidden ">
               <Link href="/experts">
-                <p className="text-white px-10">Our Experts</p>
+                <p className="px-10 text-white">Our Experts</p>
               </Link>
             </li>
             {/* for mobile end */}
             <Link href="/moments">
               <li
                 className={
-                  router.pathname == "/moments"
-                    ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
-                    : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
+                  router.pathname == '/moments'
+                    ? 'active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer '
+                    : 'group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black'
                 }
               >
                 Moments
               </li>
             </Link>
             {/* for mobile start */}
-            <li className="md:hidden block ">
+            <li className="block md:hidden ">
               <Link href="/moments">
-                <p className="text-white px-10">Moments</p>
+                <p className="px-10 text-white">Moments</p>
               </Link>
             </li>
             {/* for mobile end */}
             <Link href="/career">
               <li
                 className={
-                  router.pathname == "/career"
-                    ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
-                    : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
+                  router.pathname == '/career'
+                    ? 'active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer '
+                    : 'group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black'
                 }
               >
                 Career
               </li>
             </Link>
             {/* for mobile start */}
-            <li className="md:hidden block ">
+            <li className="block md:hidden ">
               <Link href="/career">
-                <p className="text-white px-10">Career</p>
+                <p className="px-10 text-white">Career</p>
               </Link>
             </li>
             {/* for mobile end */}
             <Link href="/portfolio">
               <li
                 className={
-                  router.pathname == "/portfolio"
-                    ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
-                    : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
+                  router.pathname == '/portfolio'
+                    ? 'active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer '
+                    : 'group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black'
                 }
               >
                 Portfolio
               </li>
             </Link>
             {/* for mobile start */}
-            <li className="md:hidden block ">
+            <li className="block md:hidden ">
               <Link href="/portfolio">
-                <p className="text-white px-10">Portfolio</p>
+                <p className="px-10 text-white">Portfolio</p>
               </Link>
             </li>
             <li
@@ -462,19 +306,19 @@ const Navbar = () => {
             >
               <Link href="/technology">
                 <p className="group-hover:text-[#edb00a] flex items-center justify-center">
-                  Technologies{" "}
+                  Technologies{' '}
                   <span>
                     <BsChevronDown
                       className="text-black group-hover:text-[#edb00a]"
                       size={14}
                     />
-                  </span>{" "}
+                  </span>{' '}
                 </p>
               </Link>
               <div className="group-hover:block z-[999] shadow-lg shadow-black/30 dropdown-menu absolute hidden transition-all  duration-300 translate-y-2 h-auto top-[2.1rem] md:-right-20 ">
-                <div className="top-0 bg-white flex py-5">
-                  <div className="p-1 text-black text-xs  w-44 text-left flex flex-col rounded-l-md  border-r-2 border-primary">
-                    <p className=" text-black text-base font-bold px-4 py-5 ">
+                <div className="top-0 flex py-5 bg-white">
+                  <div className="flex flex-col p-1 text-xs text-left text-black border-r-2 w-44 rounded-l-md border-primary">
+                    <p className="px-4 py-5 text-base font-bold text-black ">
                       <Link href="/technology">Frontend Development </Link>
                     </p>
 
@@ -510,9 +354,9 @@ const Navbar = () => {
                     </Link>
                   </div>
 
-                  <div className="p-1 text-black text-xs  w-44 text-left flex flex-col  border-r-2 border-primary">
-                    <p className=" text-black text-base font-bold px-4 py-5 ">
-                      <Link href="/technology"> Backend Development</Link>{" "}
+                  <div className="flex flex-col p-1 text-xs text-left text-black border-r-2 w-44 border-primary">
+                    <p className="px-4 py-5 text-base font-bold text-black ">
+                      <Link href="/technology"> Backend Development</Link>{' '}
                     </p>
 
                     <Link
@@ -561,8 +405,8 @@ const Navbar = () => {
                     </Link>
                   </div>
 
-                  <div className="p-1 text-black text-xs  w-40 text-left flex flex-col border-r-2 border-primary">
-                    <p className=" text-black text-base font-bold px-4 py-5 ">
+                  <div className="flex flex-col w-40 p-1 text-xs text-left text-black border-r-2 border-primary">
+                    <p className="px-4 py-5 text-base font-bold text-black ">
                       <Link href="/technology"> Mobile App</Link>
                     </p>
 
@@ -599,8 +443,8 @@ const Navbar = () => {
                       IOS
                     </Link>
                   </div>
-                  <div className="p-1 text-black text-xs  w-40 text-left flex flex-col border-r-2 border-primary">
-                    <p className=" text-black text-base font-bold px-4 py-5 ">
+                  <div className="flex flex-col w-40 p-1 text-xs text-left text-black border-r-2 border-primary">
+                    <p className="px-4 py-5 text-base font-bold text-black ">
                       <Link href="/technology"> Database</Link>
                     </p>
 
@@ -626,8 +470,8 @@ const Navbar = () => {
                     </Link>
                   </div>
 
-                  <div className="p-1 text-black text-xs  w-40 text-left flex flex-col border-r-2 border-primary">
-                    <p className=" text-black text-base font-bold px-4 py-5 ">
+                  <div className="flex flex-col w-40 p-1 text-xs text-left text-black border-r-2 border-primary">
+                    <p className="px-4 py-5 text-base font-bold text-black ">
                       <Link href="/technology"> Server </Link>
                     </p>
 
@@ -659,8 +503,8 @@ const Navbar = () => {
                     </Link>
                   </div>
 
-                  <div className="p-1 text-black text-xs  w-40 text-left flex flex-col rounded-r-md ">
-                    <p className=" text-black text-base font-bold px-4 py-5 ">
+                  <div className="flex flex-col w-40 p-1 text-xs text-left text-black rounded-r-md ">
+                    <p className="px-4 py-5 text-base font-bold text-black ">
                       <Link href="/technology"> CMS </Link>
                     </p>
 
@@ -701,24 +545,24 @@ const Navbar = () => {
               </div>
             </li>
             {/* for mobile start */}
-            <li className="md:hidden block ">
+            <li className="block md:hidden ">
               <Disclosure>
                 {({ open }) => (
                   <>
-                    <Disclosure.Button className="text-white flex items-center px-10 justify-start w-full">
+                    <Disclosure.Button className="flex items-center justify-start w-full px-10 text-white">
                       Technologies
                       <RiArrowDropDownLine
                         className={
-                          open ? "rotate-180 transform w-8 h-8" : "w-8 h-8"
+                          open ? 'rotate-180 transform w-8 h-8' : 'w-8 h-8'
                         }
                       />
                     </Disclosure.Button>
-                    <Disclosure.Panel className="text-gray-500 px-10 ">
-                      <div className="top-0 bg-white flex flex-col py-5">
-                        <div className="p-1 text-black text-xs  w-44 text-left flex flex-col rounded-l-md  border-r-2 border-primary">
-                          <p className=" text-black text-base font-bold px-4 py-5 ">
+                    <Disclosure.Panel className="px-10 text-gray-500 ">
+                      <div className="top-0 flex flex-col py-5 bg-white">
+                        <div className="flex flex-col p-1 text-xs text-left text-black border-r-2 w-44 rounded-l-md border-primary">
+                          <p className="px-4 py-5 text-base font-bold text-black ">
                             <Link href="/technology">
-                              Frontend Development{" "}
+                              Frontend Development{' '}
                             </Link>
                           </p>
 
@@ -754,9 +598,9 @@ const Navbar = () => {
                           </Link>
                         </div>
 
-                        <div className="p-1 text-black text-xs  w-44 text-left flex flex-col  border-r-2 border-primary">
-                          <p className=" text-black text-base font-bold px-4 py-5 ">
-                            <Link href="/technology"> Backend Development</Link>{" "}
+                        <div className="flex flex-col p-1 text-xs text-left text-black border-r-2 w-44 border-primary">
+                          <p className="px-4 py-5 text-base font-bold text-black ">
+                            <Link href="/technology"> Backend Development</Link>{' '}
                           </p>
 
                           <Link
@@ -805,8 +649,8 @@ const Navbar = () => {
                           </Link>
                         </div>
 
-                        <div className="p-1 text-black text-xs  w-40 text-left flex flex-col border-r-2 border-primary">
-                          <p className=" text-black text-base font-bold px-4 py-5 ">
+                        <div className="flex flex-col w-40 p-1 text-xs text-left text-black border-r-2 border-primary">
+                          <p className="px-4 py-5 text-base font-bold text-black ">
                             <Link href="/technology"> Mobile App</Link>
                           </p>
 
@@ -843,8 +687,8 @@ const Navbar = () => {
                             IOS
                           </Link>
                         </div>
-                        <div className="p-1 text-black text-xs  w-40 text-left flex flex-col border-r-2 border-primary">
-                          <p className=" text-black text-base font-bold px-4 py-5 ">
+                        <div className="flex flex-col w-40 p-1 text-xs text-left text-black border-r-2 border-primary">
+                          <p className="px-4 py-5 text-base font-bold text-black ">
                             <Link href="/technology"> Database</Link>
                           </p>
 
@@ -870,8 +714,8 @@ const Navbar = () => {
                           </Link>
                         </div>
 
-                        <div className="p-1 text-black text-xs  w-40 text-left flex flex-col border-r-2 border-primary">
-                          <p className=" text-black text-base font-bold px-4 py-5 ">
+                        <div className="flex flex-col w-40 p-1 text-xs text-left text-black border-r-2 border-primary">
+                          <p className="px-4 py-5 text-base font-bold text-black ">
                             <Link href="/technology"> Server </Link>
                           </p>
 
@@ -903,8 +747,8 @@ const Navbar = () => {
                           </Link>
                         </div>
 
-                        <div className="p-1 text-black text-xs  w-40 text-left flex flex-col rounded-r-md ">
-                          <p className=" text-black text-base font-bold px-4 py-5 ">
+                        <div className="flex flex-col w-40 p-1 text-xs text-left text-black rounded-r-md ">
+                          <p className="px-4 py-5 text-base font-bold text-black ">
                             <Link href="/technology"> CMS </Link>
                           </p>
 
@@ -952,36 +796,36 @@ const Navbar = () => {
             <Link href="/industry-we-serve">
               <li
                 className={
-                  router.pathname == "/industry-we-serve"
-                    ? "active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer "
-                    : "group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black"
+                  router.pathname == '/industry-we-serve'
+                    ? 'active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer '
+                    : 'group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black'
                 }
               >
                 Industry We Serve
               </li>
             </Link>
             {/* for mobile start */}
-            <li className="md:hidden block ">
+            <li className="block md:hidden ">
               <Link href="/industry-we-serve">
-                <p className="text-white px-10">Industry We Serve</p>
+                <p className="px-10 text-white">Industry We Serve</p>
               </Link>
             </li>
             {/* for mobile end */}
           </ul>
         </div>
 
-        <div className="hamburger cursor-pointer" onClick={handleClick}>
+        <div className="cursor-pointer hamburger" onClick={handleClick}>
           {click ? (
             <>
               <FaTimes
                 size={30}
-                style={{ color: "#000" }}
+                style={{ color: '#000' }}
                 onClick={closeMenu}
               />
               {/* <FaCross size={20} style={{color: "#fff"}}/> */}
             </>
           ) : (
-            <FaBars size={30} style={{ color: "#000" }} />
+            <FaBars size={30} style={{ color: '#000' }} />
           )}
         </div>
       </nav>
