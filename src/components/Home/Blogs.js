@@ -1,37 +1,37 @@
-import Link from "next/link";
-import React from "react";
-import ComponentHead from "../Common/ComponentHead";
+import Link from 'next/link';
+import React from 'react';
+import ComponentHead from '../Common/ComponentHead';
 
 const Blogs = () => {
   return (
     <div className="bg-[#F6F8F9]">
-      <div className="container-ack md:px-0 px-5">
+      <div className="px-5 container-ack md:px-0">
         <ComponentHead
           title="Blogs"
-          sub="Our Latest Insights"
-          head="From industry trends to cutting-edge strategies, discover actionable insights"
+          sub="Latest In Trends"
+          head="Always up to date with the latest trends and technologies in industry."
         />
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+        <div className="grid items-center gap-8 md:grid-cols-2">
           <img src="/assets/images/blogone.png" alt="" className="rounded-md" />
 
           <div>
-            <p className="w-full text-sm font-semibold text-primary text-justify font-text">
-              22 March 2023{" "}
+            <p className="w-full text-sm font-semibold text-justify text-primary font-text">
+              22 March 2023{' '}
             </p>
-            <h2 className="font-bold text-lg py-2 text-secondary text-left">
+            <h2 className="py-2 text-lg font-bold text-left text-secondary">
               Make microservices more efficient & scalable with Backend For
               Frontend:
             </h2>
-            <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
+            <div className="w-full pb-2 text-sm text-justify text-textcolor font-text">
               Microservices architecture has gained significant popularity due
               to its ability to break down large applications into smaller,
               independent services. However, managing interactions between these
               services can become complex, especially when dealing with multiple
               front-end applications.
             </div>
-            <div className="pb-5 flex justify-between">
+            <div className="flex justify-between pb-5">
               <Link href="/blog-details">
-                <button className="text-black  py-2 text-sm  border-primary border-b-2">
+                <button className="py-2 text-sm text-black border-b-2 border-primary">
                   Read More
                 </button>
               </Link>
@@ -79,25 +79,25 @@ const Blogs = () => {
           </div>
         </div>
 
-        <div className="md:grid md:grid-cols-2 gap-8 items-center pt-10 hidden">
+        <div className="items-center hidden gap-8 pt-10 md:grid md:grid-cols-2">
           <div>
-            <p className="w-full text-sm font-semibold text-primary text-justify font-text">
-              22 March 2023{" "}
+            <p className="w-full text-sm font-semibold text-justify text-primary font-text">
+              22 March 2023{' '}
             </p>
-            <h2 className="font-bold text-lg py-2 text-secondary text-left">
+            <h2 className="py-2 text-lg font-bold text-left text-secondary">
               Custom project management in agile - Ackrolix is different, just
               like everybody else
             </h2>
-            <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
+            <div className="w-full pb-2 text-sm text-justify text-textcolor font-text">
               Agile project management has revolutionized the way teams approach
               software development, fostering flexibility, collaboration, and
               continuous improvement. However, many organizations find that
               adopting a one-size-fits-all agile framework doesn&apos;t always
               meet their unique project management needs.
             </div>
-            <div className="pb-5 flex justify-between">
+            <div className="flex justify-between pb-5">
               <Link href="/blog-details">
-                <button className="text-black  py-2 text-sm  border-primary border-b-2">
+                <button className="py-2 text-sm text-black border-b-2 border-primary">
                   Read More
                 </button>
               </Link>
@@ -152,32 +152,32 @@ const Blogs = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 items-center pt-10 md:hidden">
+        <div className="grid items-center gap-8 pt-10 md:grid-cols-2 md:hidden">
           <div>
             <img
               src="/assets/images/blogtwo.png"
               alt=""
               className="rounded-md"
             />
-          </div>{" "}
+          </div>{' '}
           <div>
-            <p className="w-full text-sm font-semibold text-primary text-justify font-text">
-              22 March 2023{" "}
+            <p className="w-full text-sm font-semibold text-justify text-primary font-text">
+              22 March 2023{' '}
             </p>
-            <h2 className="font-bold text-lg py-2 text-secondary text-left">
+            <h2 className="py-2 text-lg font-bold text-left text-secondary">
               Custom project management in agile - Ackrolix is different, just
               like everybody else
             </h2>
-            <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
+            <div className="w-full pb-2 text-sm text-justify text-textcolor font-text">
               Agile project management has revolutionized the way teams approach
               software development, fostering flexibility, collaboration, and
               continuous improvement. However, many organizations find that
               adopting a one-size-fits-all agile framework doesn&apos;t always
               meet their unique project management needs
             </div>
-            <div className="pb-5 flex justify-between">
+            <div className="flex justify-between pb-5">
               <Link href="/blog-details">
-                <button className="text-black  py-2 text-sm  border-primary border-b-2">
+                <button className="py-2 text-sm text-black border-b-2 border-primary">
                   Read More
                 </button>
               </Link>
@@ -225,7 +225,7 @@ const Blogs = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 items-center pt-10 pb-16">
+        <div className="grid items-center gap-8 pt-10 pb-16 md:grid-cols-2">
           <img
             src="/assets/images/blogthree.png"
             alt=""
@@ -233,22 +233,22 @@ const Blogs = () => {
           />
 
           <div>
-            <p className="w-full text-sm font-semibold text-primary text-justify font-text">
-              22 March 2023{" "}
+            <p className="w-full text-sm font-semibold text-justify text-primary font-text">
+              22 March 2023{' '}
             </p>
-            <h2 className="font-bold text-lg py-2 text-secondary text-left">
+            <h2 className="py-2 text-lg font-bold text-left text-secondary">
               Software development life cycle - how to find your way as a
               product owner
             </h2>
-            <div className=" w-full text-sm text-textcolor text-justify font-text  pb-2">
+            <div className="w-full pb-2 text-sm text-justify text-textcolor font-text">
               In the world of software development, the role of a product owner
               is critical in driving the success of a project. As a product
               owner, you play a pivotal role in guiding the development team and
               ensuring that the end product meets the needs of the users.
             </div>
-            <div className="pb-5 flex justify-between">
+            <div className="flex justify-between pb-5">
               <Link href="/blog-details">
-                <button className="text-black  py-2 text-sm  border-primary border-b-2">
+                <button className="py-2 text-sm text-black border-b-2 border-primary">
                   Read More
                 </button>
               </Link>

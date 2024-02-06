@@ -298,14 +298,14 @@ const SemAgency = () => {
   return (
     <div>
       <Head>
-        <title>Ackrolix: Search Engine Marketing agency in India</title>
+        <title>Ackrolix: Influencer Marketing agency in India</title>
         <meta
           name="description"
           content="Looking for the best Search Engine Marketing agency in India to help you achieve optimum results and improve your ROI? Look no further than ackrolix"
         />
         <link
           rel="canonical"
-          href="https://www.ackrolix.com/sem-agency-in-India"
+          href="https://www.ackrolix.com/influencer-marketing-company-india"
         />
         <meta
           property="og:title"
@@ -360,7 +360,7 @@ const SemAgency = () => {
         }}
       >
         <Banner
-          bannertitle="Ackrolix: Gurgaon's Best Search Engine Marketing Company"
+          bannertitle="Ackrolix: Gurgaon's Best Influencer Marketing Company"
           bannersubtext="Welcome to Ackrolix, your go-to source in Gurgaon for innovative Search Engine Marketing (SEM) services. As a top SEM firm, we offer unmatched experience and brilliant ideas to increase your brand's online visibility and produce significant outcomes."
           serviceimg="/assets/images/service/svg/eng.png"
           serviceimgAlt="search engine marketing company"
