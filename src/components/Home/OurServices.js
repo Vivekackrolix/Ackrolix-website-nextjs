@@ -43,7 +43,7 @@ const OurServices = () => {
           <img
             alt="product-concept"
             className="object-cover object-left-top w-full h-full "
-            src="/assets/images/product-concept.jpg"
+            src="/assets/images/ourServices/ser-1.jpg"
           />
         </div>
 
@@ -82,7 +82,7 @@ const OurServices = () => {
           <img
             alt=""
             className="object-cover object-left-top w-full grayscale-0 group-hover:grayscale h-80"
-            src="/assets/images/product-develop.jpg"
+            src="/assets/images/ourServices/ser-2.jpg"
           />
         </div>
         <div className="relative overflow-hidden rounded-2xl group concept concept-close">
@@ -121,7 +121,7 @@ const OurServices = () => {
           <img
             alt=""
             className="object-cover object-left-top w-full grayscale-0 group-hover:grayscale h-80"
-            src="/assets/images/digitalModernization.png"
+            src="/assets/images/ourServices/ser-3.jpg"
           />
         </div>
 
@@ -161,7 +161,7 @@ const OurServices = () => {
           <img
             alt=""
             className="object-cover object-left-top w-full grayscale-0 group-hover:grayscale h-80"
-            src="/assets/images/digitalModernization.png"
+            src="/assets/images/ourServices/ser-4.jpg"
           />
         </div>
         <div className="relative overflow-hidden rounded-2xl group concept concept-close">
@@ -201,7 +201,7 @@ const OurServices = () => {
           <img
             alt=""
             className="object-cover object-left-top w-full grayscale-0 group-hover:grayscale h-80"
-            src="/assets/images/digitalModernization.png"
+            src="/assets/images/ourServices/ser-5.jpg"
           />
         </div>
         <div className="relative overflow-hidden rounded-2xl group concept concept-close">
@@ -238,7 +238,7 @@ const OurServices = () => {
           <img
             alt=""
             className="object-cover object-left-top w-full grayscale-0 group-hover:grayscale h-80"
-            src="/assets/images/digitalModernization.png"
+            src="/assets/images/ourServices/ser-6.jpg"
           />
         </div>
       </div>

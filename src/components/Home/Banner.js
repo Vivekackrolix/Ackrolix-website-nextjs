@@ -55,17 +55,17 @@ const Banner = () => {
   const clientsData = [
     {
       id: 1,
-      image: '/assets/images/banner/banner-one.png',
+      image: '/assets/images/banner/2.jpg',
       altText: 'advertising agency in gurgaon',
     },
     {
       id: 2,
-      image: '/assets/images/banner/2.webp',
+      image: '/assets/images/banner/1.jpg',
       altText: 'best advertising agency in gurgaon',
     },
     {
       id: 3,
-      image: '/assets/images/banner/3.webp',
+      image: '/assets/images/banner/3.jpg',
       altText: 'ad company in gurgaon',
     },
   ];
