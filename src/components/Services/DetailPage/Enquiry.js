@@ -69,24 +69,28 @@ const Enquiry = () => {
     <>
       <div className="bg-[#282828]">
         <div className="container-ack md:px-0 px-5">
-          <div className="grid md:grid-cols-5 md:gap-[9.5rem] gap-5 items-center">
-            <div className="md:col-span-2 md:px-0 px-5 md:pt-0 pt-8  relative">
+          <div className="flex py-5 md:gap-[9.5rem] gap-5 items-center">
+            <div className="md:col-span-2 md:px-0 px-5 md:pt-0 pt-8 w-full  relative">
               <div className="md:text-[4rem] text-[4rem] tracking-wider text-left texttransparent1 font-bold  md:pt-10 ">
                 Reach Us
               </div>
               <div className="">
                 <div className="absolute md:top-[5rem] top-[4rem] inset-x-0 flex justify-left">
                   <div className="text-[32px] text-left text-white font-bold max-w-xl">
-                  Got a Question for Us?
+                  Looking to scale your business like never before? 
+                  {/*  */}
+
                   </div>
                 </div>
 
                  <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pt-10">
-                 Certainly! We're here to assist with your ideas, challenges, and aspirations. Share your requirements, and let's transform your vision into a mission reality!
+                 Let's shake up your business and mesmerize your customers with something new every time.Fill this form and get in touch!
               </div>
             </div>
 
-            <div className="pb-5 md:pt-10 md:col-span-3 ">
+            
+          </div>
+          <div className="pb-5 w-full">
               <form>
                 <div className="flex justify-start items-center space-x-4">
                   <div className="w-full">
@@ -171,7 +175,6 @@ const Enquiry = () => {
                 </div>
               </form>
             </div>
-          </div>
         </div>
       </div>
       </div>

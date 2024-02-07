@@ -10,7 +10,7 @@ const Work = () => {
         <ComponentHead
           title="Work"
           sub="Our Work"
-          head="We thrive at the intersection of imagination and technology, sculpting next-gen UX strategies and creating products that go beyond imagination."
+          head="We are the pioneers of imagination and technology, shaping the future of social experiences that defy the limits of reality."
         />
         <div className="masonry-grid pb-2">
           <div className="masonry-grid-item containerzoom">

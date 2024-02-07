@@ -17,32 +17,32 @@ const SemAgency = () => {
     {
       id: '1',
       name: 'Expertise & Experience',
-      desc: 'Ackrolix, a leading SEM firm, has a seasoned staff with years of experience in developing efficient search engine marketing strategies that produce measurable results.',
+      desc: 'Ackrolix, a seasoned influencer marketing firm, has developed effective strategies for over 500 brands, influencing millions online.',
     },
     {
       id: '2',
-      name: 'Well-Built Approach',
-      desc: "We design tactics to each client's specific goals, assuring focused ads that resonate with their specific audience and industry.",
+      name: 'Customized Solutions',
+      desc: "Our design goal-specific solutions ensure relevant influencer collaborations. Access to 50+ creators across 5+ sectors, reaching 6000+ followers.",
     },
     {
       id: '3',
       name: 'Data-Driven Insights',
-      desc: 'As a reputable SEM firm, we rely on data analytics to constantly refine and optimize campaigns in order to maximize ROI and remain ahead of changing industry trends.',
+      desc: 'We utilize data analytics, AI, and machine learning to refine campaigns, maximize ROI, and track performance.',
     },
     {
       id: '4',
-      name: 'High-Tech Tools',
-      desc: 'Ackrolix, a top search engine marketing business, uses advanced tools and technologies to do comprehensive keyword research, competitor analysis, and performance tracking.',
+      name: 'Innovative Tools',
+      desc: 'Our influencers use advanced tools for influencer research, analysis, and management. We offer solutions like social commerce, OTT, and content syndication.',
     },
     {
       id: '5',
       name: 'Transparent Reporting',
-      desc: 'Clients choose us as their go-to SEM agency because of our commitment to transparent reporting, which provides them with real-time insights into campaign performance and outcomes.',
+      desc: 'Our commitment to transparent reporting provides real-time insights into campaign performance and helps improve future campaigns.',
     },
     {
       id: '6',
       name: 'Proven Success',
-      desc: 'Ackrolix has a proven track record as the finest search engine marketing business, continuously delivering great results, increasing traffic, leads, and conversions for our clients.',
+      desc: 'Team Ackrolix consistently delivers outstanding results, increasing brand awareness, engagement, conversions, and loyalty.',
     },
   ];
   const techs = [
@@ -170,19 +170,19 @@ const SemAgency = () => {
   const cards = [
     {
       id: 1,
-      para: 'Ackrolix, a top SEM company in Gurgaon, offers full search engine marketing services. We specialize in keyword research, ad production, bid management, and conversion optimisation to ensure maximum ROI and business growth.',
+      para: `Social Media has forever changed the Doing-Business-Game and the way consumers interact with brands and make purchase decisions. At Ackrolix, we help you harness the power of social media to transform your business and drive sales. We've the expertise you need in influencer marketing, paid performance, owned social, creative and content services for innovative social media campaigns. Increase brand awareness, engagement, conversions, loyalty. Grow with us, become a social-first brand.`,
       bgcolor: 'bg-[#fff]',
       cols: 'md:col-span-2',
       textcolor: 'text-secondary',
       display: 'hidden',
       maintitle: 'SERVICES',
-      subtitle: 'Our Services',
+      subtitle: 'Influencer Marketing Services',
     },
     {
       id: 2,
       icon: '01',
-      title: 'Keyword Research',
-      para: 'Identify appropriate keywords to target, ensuring your adverts reach the proper audience and increasing your search engine presence.',
+      title: 'Influencer Marketing',
+      para: 'Our team of influencers help you reach and influence millions of consumers with the power of authentic and trusted creators.',
       bgcolor: 'bg-[#F6F8F9]',
       cols: 'md:col-span-1',
       display: 'icon',
@@ -194,8 +194,8 @@ const SemAgency = () => {
     {
       id: 3,
       icon: '02',
-      title: 'Ad Campaign Development',
-      para: 'Create enticing ad campaigns that catch attention, generate clicks, and bring traffic to your website for increased conversions.',
+      title: 'Paid & Performance Media',
+      para: 'Boost your brand visibility and ROI with data-driven and optimized paid media campaigns across social platforms.',
       bgcolor: 'bg-[#F6F8F9]',
       cols: 'md:col-span-1',
       display: 'icon',
@@ -208,7 +208,7 @@ const SemAgency = () => {
       id: 4,
       icon: '03',
       title: 'Ad Copywriting',
-      para: 'Create convincing ad copy that resonates with users, emphasizing your offerings and motivating them to act.',
+      para: 'We craft compelling and persuasive ad copy that captures your audience’s attention and drives them to action.',
       bgcolor: 'bg-[#F6F8F9]',
       cols: 'md:col-span-1',
       display: 'icon',
@@ -220,8 +220,8 @@ const SemAgency = () => {
     {
       id: 5,
       icon: '04',
-      title: 'Bid Management',
-      para: 'Use strategic bid management approaches to maximize your ad budget and achieve maximum ROI and cost-effective results.',
+      title: 'Creative and Content',
+      para: 'Create and distribute high-quality and engaging content with us to showcase your brand story and value proposition.',
       bgcolor: 'bg-[#F6F8F9]',
       cols: 'md:col-span-1',
       display: 'icon',
@@ -233,8 +233,8 @@ const SemAgency = () => {
     {
       id: 6,
       icon: '05',
-      title: 'Performance monitoring',
-      para: 'Use advanced monitoring tools to analyze campaign performance and make data-driven modifications for continual improvement.',
+      title: 'Social Experiential Marketing',
+      para: 'Immerse your customers in memorable and interactive social experiences that amplify your brand awareness and loyalty.',
       bgcolor: 'bg-[#F6F8F9]',
       cols: 'md:col-span-1',
       display: 'icon',
@@ -246,8 +246,8 @@ const SemAgency = () => {
     {
       id: 7,
       icon: '06',
-      title: 'Conversion Optimisation',
-      para: 'Optimize landing pages and add elements to optimize user experience, resulting in increased conversion rates and campaign success. ',
+      title: 'Conversion Optimization & B2B Marketing',
+      para: 'Turn your prospects into customers and your customers into influencers with our effective and tailored B2B marketing strategies.',
       bgcolor: 'bg-[#F6F8F9]',
       cols: 'md:col-span-1',
       display: 'icon',
@@ -360,13 +360,15 @@ const SemAgency = () => {
         }}
       >
         <Banner
-          bannertitle="Ackrolix: Gurgaon's Best Influencer Marketing Company"
-          bannersubtext="Welcome to Ackrolix, your go-to source in Gurgaon for innovative Search Engine Marketing (SEM) services. As a top SEM firm, we offer unmatched experience and brilliant ideas to increase your brand's online visibility and produce significant outcomes."
+          bannertitle="Grow with Ackrolix: India's Leading Influencer Marketing Partner for Impact"
+          bannersubtext="We are your dynamic influencer marketing partner that creates a powerful impact while maintaining a non-intrusive approach. Our adept team harmoniously amalgamates data, influencers, and followers, fostering an environment that propels your business to new heights."
           serviceimg="/assets/images/service/svg/eng.png"
           serviceimgAlt="search engine marketing company"
-          servicehead="Manifest the Might of SEM with Ackrolix: Your Trusted SEM Agency"
-          servicedesc1=" We at Ackrolix are your growth catalyst, not simply another provider of SEM services in Gurgaon. Our complete approach to SEM encompasses all facets of the practice, from campaign optimisation and performance evaluation to keyword research and ad production. We guarantee that your investment in SEM produces measurable results by placing a strong emphasis on maximizing ROI. As the top search engine marketing firm in Gurgaon."
-          servicedesc2="Our skilled team of experts is familiar with the complex dynamics of the digital environment, and we specialize in developing well-built SEM plans that complement your particular company objectives."
+          servicehead="Empowering Your Business to Garner the Attention it Deserves, and More."
+          servicedesc1=" At Ackrolix, we are more than just an influencer marketing agency. We are a full-service social media transformation and business partner that helps you leverage the power of creators, AI technology & solutions, and data to grow your brand and achieve your business goals."
+          servicedesc2="We have worked with 120+ brands across various industries, generating brand awareness to millions of impressions and at least 20% increase in engagements.  Ackrolix is trusted by World’s leading brands, such as  Jindal Steel and Power,  RSM - UK, Discovery Land Company, and many more.  
+
+          If you are looking for a social media transformation partner that can help you grow your brand with influencer marketing, paid performance, owned social, and creative and content services, look no further than Ackrolix."
         />
       </div>
       <Cards card={cards} />
@@ -374,7 +376,7 @@ const SemAgency = () => {
         <ComponentHead
           title="Platforms"
           sub="Social Engine Marketing"
-          head="The Platforms stack for Social Engine Marketing can vary depending on the specific requirements of the application and the chosen modernization approach."
+          head="Depending on your goals and target audience, you can choose from different platforms and strategies to reach and engage your potential customers."
         />
         <Technology tech={techs} />
       </div>
@@ -390,7 +392,7 @@ const SemAgency = () => {
             <ProccessHead
               processhead="Why ChooseUS"
               processsub="Why Choose Us?"
-              processdesc="Ackrolix is your go-to SEM partner for experienced ideas, tailored approaches, data-driven insights, novel tools, transparent reporting, and a track record of generating successful search engine marketing campaigns."
+              processdesc="Ackrolix is your go-to influencer marketing partner for creative ideas, customized solutions, data-driven insights, innovative tools, transparent reporting, and a track record of generating successful influencer marketing campaigns."
               processimg="/assets/images/service/svg/eng1.png"
               proocessalt="Search Engine Marketing Services"
             />
