@@ -162,7 +162,7 @@ const Footer = () => {
           <div className="px-5 py-5 text-sm text-center md:px-0">
             <p>
               {' '}
-              © Copyright 2023{' '}
+              © Copyright {new Date().getFullYear()}{' '}
               <span className="font-semibold">
                 Ackrolix Innovation Pvt. Ltd.
               </span>{' '}

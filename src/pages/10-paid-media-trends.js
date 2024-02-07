@@ -4,7 +4,7 @@ import Header from '../components/Common/Header';
 import React from 'react';
 import { blogs } from '../constants/blogs';
 
-const blogDetails = () => {
+const blogDetails = ({ blog }) => {
   return (
     <div>
       <Header />
