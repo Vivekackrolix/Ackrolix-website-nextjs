@@ -1,17 +1,17 @@
-import React from "react";
+import React from 'react';
 
-const BlogDetail = () => {
+const BlogDetail = ({ blog }) => {
   return (
-    <div className="container-ack pt-16 md:px-0 px-5">
+    <div className="px-5 pt-16 container-ack md:px-0">
       <div className="text-4xl  text-center font-bold md:w-[70%] mx-auto">
-        Etiam nulla lectus amet nunc molestie at vulputate.
+        {blog.title}
       </div>
 
       <img src="/assets/images/blog/blogdetail.png" alt="" className="pt-10" />
 
-      <div className="flex justify-between items-center pt-3">
-        <p className="w-full text-base text-textcolor text-justify font-text  ">
-          22 March 2023{" "}
+      <div className="flex items-center justify-between pt-3">
+        <p className="w-full text-base text-justify text-textcolor font-text ">
+          22 March 2023{' '}
         </p>
         <div className="flex space-x-4">
           <svg
@@ -51,38 +51,14 @@ const BlogDetail = () => {
         </div>
       </div>
 
-      <div className="text-lg font-semibold pt-6 md:text-left text-justify tracking-tighter md:tracking-normal">
-        Lorem ipsum dolor sit amet consectetur. Nibh aliquam est sodales nam
-        gravida ultrices vitae. Mattis consequat eu mollis aliquet viverra
-        morbi. Imperdiet phasellus hac massa consectetur. Mauris odio aliquam
-        erat duis. Sed sit sit leo sit. Est facilisis quisque sit fermentum
-        mauris duis.
+      <div className="pt-6 text-lg font-semibold tracking-tighter text-justify md:text-left md:tracking-normal">
+        {blog.titleDescription}
       </div>
 
-      <div className="pt-3 text-textcolor md:text-left text-justify tracking-tighter md:tracking-normal">
-        Lorem ipsum dolor sit amet consectetur. Odio amet et tortor suspendisse
-        a magna massa scelerisque. Pellentesque viverra pulvinar sit faucibus
-        maecenas lacus augue venenatis. Aliquet imperdiet congue diam cursus
-        turpis lacus tincidunt. Duis interdum dolor ut diam lobortis
-        sollicitudin egestas ultricies scelerisque. Egestas scelerisque mauris
-        nibh morbi et in. Odio id aliquet in est praesent lectus non. Porttitor
-        nisl semper suspendisse ut ut maecenas tincidunt consectetur.
-      </div>
-      <div className="pt-3 text-textcolor md:text-left text-justify tracking-tighter md:tracking-normal">
-        Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas tincidunt
-        urna vulputate. Elit amet nam nulla dignissim elit Lorem ipsum dolor sit
-        amet consectetur. Leo tellus in maecenas tincidunt urna vulputate. Elit
-        amet nam nulla dignissim elit
-      </div>
-
-      <div className="text-center text-lg font-semibold pt-12">
-        Etiam nulla lectus amet nunc molestie at vulputate.
-      </div>
-
-      <div className="grid md:grid-cols-2 gap-10 pt-8">
+      <div className="grid gap-10 pt-8 md:grid-cols-2">
         <img src="/assets/images/blog/blogdetailtwo.png" alt="" />
         <div>
-          <p className="pt-2 text-textcolor md:text-left text-justify tracking-tighter md:tracking-normal">
+          <p className="pt-2 tracking-tighter text-justify text-textcolor md:text-left md:tracking-normal">
             Lorem ipsum dolor sit amet consectetur. Odio amet et tortor
             suspendisse a magna massa scelerisque. Pellentesque viverra pulvinar
             sit faucibus maecenas lacus augue venenatis. Aliquet imperdiet
@@ -92,16 +68,16 @@ const BlogDetail = () => {
             lectus non. Porttitor nisl semper suspendisse ut ut maecenas
             tincidunt consectetur.
           </p>
-          <p className="pt-4 text-textcolor md:text-left text-justify tracking-tighter md:tracking-normal">
+          <p className="pt-4 tracking-tighter text-justify text-textcolor md:text-left md:tracking-normal">
             Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas
             tincidunt urna vulputate. Elit amet nam nulla dignissim elit Lorem
             ipsum dolor sit amet consectetur. Leo tellus in maecenas tincidunt
-            urna vulputate. Elit amet nam nulla dignissim elit{" "}
+            urna vulputate. Elit amet nam nulla dignissim elit{' '}
           </p>
         </div>
       </div>
 
-      <div className="pt-4 text-textcolor md:text-left text-justify tracking-tighter md:tracking-normal">
+      <div className="pt-4 tracking-tighter text-justify text-textcolor md:text-left md:tracking-normal">
         Lorem ipsum dolor sit amet consectetur. Odio amet et tortor suspendisse
         a magna massa scelerisque. Pellentesque viverra pulvinar sit faucibus
         maecenas lacus augue venenatis. Aliquet imperdiet congue diam cursus
@@ -110,14 +86,14 @@ const BlogDetail = () => {
         nibh morbi et in. Odio id aliquet in est praesent lectus non. Porttitor
         nisl semper suspendisse ut ut maecenas tincidunt consectetur.
       </div>
-      <div className="pt-2 text-textcolor md:text-left text-justify tracking-tighter md:tracking-normal">
+      <div className="pt-2 tracking-tighter text-justify text-textcolor md:text-left md:tracking-normal">
         Lorem ipsum dolor sit amet consectetur. Leo tellus in maecenas tincidunt
         urna vulputate. Elit amet nam nulla dignissim elit Lorem ipsum dolor sit
         amet consectetur. Leo tellus in maecenas tincidunt urna vulputate. Elit
         amet nam nulla dignissim elit
       </div>
 
-      <div className="pt-2 pb-10 text-textcolor md:text-left text-justify tracking-tighter md:tracking-normal">
+      <div className="pt-2 pb-10 tracking-tighter text-justify text-textcolor md:text-left md:tracking-normal">
         Lorem ipsum dolor sit amet consectetur. Integer congue est purus mattis
         nibh adipiscing. Semper sapien fames vivamus magnis massa suspendisse
         ut. At sit lectus velit sed velit nulla ac. Malesuada aliquam dui eget

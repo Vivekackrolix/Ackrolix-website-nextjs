@@ -12,7 +12,11 @@ const Blogs = () => {
           head="Always up to date with the latest trends and technologies in industry."
         />
         <div className="grid items-center gap-8 md:grid-cols-2">
-          <img src="/assets/images/blogone.png" alt="" className="rounded-md" />
+          <img
+            src="/assets/images/blog/blog-1.jpg"
+            alt=""
+            className="rounded-md"
+          />
 
           <div>
             <p className="w-full text-sm font-semibold text-justify text-primary font-text">
@@ -30,7 +34,7 @@ const Blogs = () => {
               front-end applications.
             </div>
             <div className="flex justify-between pb-5">
-              <Link href="/blog-details">
+              <Link href="/10-paid-media-trends">
                 <button className="py-2 text-sm text-black border-b-2 border-primary">
                   Read More
                 </button>
@@ -145,7 +149,7 @@ const Blogs = () => {
           </div>
           <div>
             <img
-              src="/assets/images/blogtwo.png"
+              src="/assets/images/blog/blog-2.jpg"
               alt=""
               className="rounded-md"
             />
@@ -155,7 +159,7 @@ const Blogs = () => {
         <div className="grid items-center gap-8 pt-10 md:grid-cols-2 md:hidden">
           <div>
             <img
-              src="/assets/images/blogtwo.png"
+              src="/assets/images/blog/blog-2.jpg"
               alt=""
               className="rounded-md"
             />
@@ -227,7 +231,7 @@ const Blogs = () => {
 
         <div className="grid items-center gap-8 pt-10 pb-16 md:grid-cols-2">
           <img
-            src="/assets/images/blogthree.png"
+            src="/assets/images/blog/blog-3.jpg"
             alt=""
             className="rounded-md"
           />
