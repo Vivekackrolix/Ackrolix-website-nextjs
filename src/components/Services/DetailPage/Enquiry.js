@@ -77,7 +77,8 @@ const Enquiry = () => {
               <div className="">
                 <div className="absolute md:top-[5rem] top-[4rem] inset-x-0 flex justify-left">
                   <div className="text-[32px] text-left text-white font-bold max-w-xl">
-                  Looking to scale your business like never before?
+                  Looking to scale your business like never before? 
+                  {/*  */}
 
                   </div>
                 </div>
