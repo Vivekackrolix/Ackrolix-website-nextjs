@@ -1,23 +1,23 @@
-import Link from "next/link";
-import React, { useEffect } from "react";
-import { MdKeyboardArrowRight } from "react-icons/md";
+import Link from 'next/link';
+import React, { useEffect } from 'react';
+import { MdKeyboardArrowRight } from 'react-icons/md';
 
 const Card = () => {
   useEffect(() => {
-    document.querySelectorAll(".card-slider").forEach((item) => {
-      let clone = item.querySelector(".card-slider-items").cloneNode(true);
-      clone.classList.add("clone");
+    document.querySelectorAll('.card-slider').forEach(item => {
+      let clone = item.querySelector('.card-slider-items').cloneNode(true);
+      clone.classList.add('clone');
       clone.ariaHidden = true;
       item.append(clone);
     });
   }, []);
 
   return (
-    <div className="container-ack pt-16 px-5">
+    <div className="px-5 pt-16 container-ack">
       <div className="bg-[#F6F8F9] rounded-xl ">
-        <div className="grid md:grid-cols-2 gap-6 items-center relative">
-          <div className=" md:px-0 px-5 pb-10 md:pb-0">
-            <div className=" md:pl-8 md:px-0 px-5  md:pt-0 pt-5">
+        <div className="relative grid items-center gap-6 md:grid-cols-2">
+          <div className="px-5 pb-10 md:px-0 md:pb-0">
+            <div className="px-5 pt-5 md:pl-8 md:px-0 md:pt-0">
               <h5 className="text-[32px] max-[480px]:text-[20px] font-bold  ">
                 Great Things In Business Are Never Done By One Person.
                 <br />
@@ -26,14 +26,14 @@ const Card = () => {
                 </span>
               </h5>
 
-              <div className="flex justify-left pt-5">
+              <div className="flex pt-5 justify-left">
                 <Link href="/contact">
-                  <button className=" button-2 px-8 py-2 rounded-md">
+                  <button className="px-8 py-2 rounded-md button-2">
                     <div className="eff-2"></div>
-                    <span className="text-base flex items-center ">
-                      {" "}
+                    <span className="flex items-center text-base ">
+                      {' '}
                       Let's Do It Together
-                      <MdKeyboardArrowRight className=" text-base" />
+                      <MdKeyboardArrowRight className="text-base " />
                     </span>
                   </button>
                 </Link>
@@ -41,13 +41,13 @@ const Card = () => {
             </div>
           </div>
 
-          <div className="card-cta relative">
+          <div className="relative card-cta">
             <div className="card-slide">
               <div className="card-slider sliderOne">
                 <div className="card-slider-items">
                   <div className="item">
                     <img
-                      src="https://source.unsplash.com/random/300x450/?earth,1"
+                      src="/assets/images/doItTogether/slide-1.jpg"
                       alt=""
                       width="300"
                       height="450"
@@ -55,7 +55,7 @@ const Card = () => {
                   </div>
                   <div className="item">
                     <img
-                      src="https://source.unsplash.com/random/300x450/?earth,2"
+                      src="/assets/images/doItTogether/slide-2.jpg"
                       alt=""
                       width="300"
                       height="450"
@@ -63,7 +63,7 @@ const Card = () => {
                   </div>
                   <div className="item">
                     <img
-                      src="https://source.unsplash.com/random/300x450/?earth,3"
+                      src="/assets/images/doItTogether/slide-3.jpg"
                       alt=""
                       width="300"
                       height="450"
@@ -71,7 +71,15 @@ const Card = () => {
                   </div>
                   <div className="item">
                     <img
-                      src="https://source.unsplash.com/random/300x450/?earth,4"
+                      src="/assets/images/doItTogether/slide-4.jpg"
+                      alt=""
+                      width="300"
+                      height="450"
+                    />
+                  </div>
+                  <div className="item">
+                    <img
+                      src="/assets/images/doItTogether/slide-5.jpg"
                       alt=""
                       width="300"
                       height="450"
@@ -85,7 +93,7 @@ const Card = () => {
                     return (
                       <div key={index} className="item">
                         <img
-                          src="https://source.unsplash.com/random/300x450/?fire,1"
+                          src="/assets/images/doItTogether/slide-3.jpg"
                           alt=""
                           width="300"
                           height="450"
@@ -101,7 +109,7 @@ const Card = () => {
                     return (
                       <div key={index} className="item">
                         <img
-                          src="https://source.unsplash.com/random/300x450/?fire,1"
+                          src="/assets/images/doItTogether/slide-2.jpg"
                           alt=""
                           width="300"
                           height="650"

@@ -9,22 +9,27 @@ import Link from 'next/link';
 const aboutdata = [
   {
     id: 1,
-    image: '/assets/images/about/aboutone.png',
+    image: '/assets/images/about/slide-1.jpg',
     alttext: 'ad company in gurgaon',
   },
   {
     id: 2,
-    image: '/assets/images/about/aboutwo.png',
+    image: '/assets/images/about/slide-2.jpg',
     alttext: 'best advertising agency in gurgaon',
   },
   {
     id: 3,
-    image: '/assets/images/about/abouthree.png',
+    image: '/assets/images/about/slide-3.jpg',
     alttext: 'advertising agency in gurgaon',
   },
   {
     id: 4,
-    image: '/assets/images/about/aboutfour.png',
+    image: '/assets/images/about/slide-4.jpg',
+    alttext: 'advertising company in gurgaon',
+  },
+  {
+    id: 5,
+    image: '/assets/images/about/slide-6.jpg',
     alttext: 'advertising company in gurgaon',
   },
 ];
