@@ -1690,3 +1690,12 @@ body:not(.device-touch) .clients-grid li a {
     top: 50%;
   }
    */
+.truncate-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* Number of lines to display */
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+}

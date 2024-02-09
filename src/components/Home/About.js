@@ -29,7 +29,7 @@ const aboutdata = [
   },
   {
     id: 5,
-    image: '/assets/images/about/slide-6.jpg',
+    image: '/assets/images/about/slide-6.jpeg',
     alttext: 'advertising company in gurgaon',
   },
 ];
