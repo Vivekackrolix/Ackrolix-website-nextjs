@@ -324,16 +324,16 @@ const SmmAgency = () => {
   return (
     <div>
       <Head>
-        <title>Ackrolix: Social Media Marketing Company in India</title>
+        <title> Social Media Marketing services in India | Ackrolix </title>
         <meta
           name="description"
-          content="Ackrolix: best social media marketing company in India! we are  specializes in strategic solutions to boost your online presence and drive impactful results."
+          content="Ackrolix: best social media marketing sevices in India! we are specializes in strategic solutions to boost your online presence and drive impactful results."
           />
            <link rel="canonical" href="https://www.ackrolix.com/social-media-marketing-company-in-India"/>
-          <meta property="og:title" content="Ackrolix: Social Media Marketing Company in India" />
+          <meta property="og:title" content=" Social Media Marketing services in India | Ackrolix" />
           <meta
             property="og:description"
-            content="Ackrolix: best social media marketing company in India! we are  specializes in strategic solutions to boost your online presence and drive impactful results."
+            content="Ackrolix: Ackrolix: best social media marketing sevices in India! we are specializes in strategic solutions to boost your online presence and drive impactful results."
           />
            <meta
             property="og:url"

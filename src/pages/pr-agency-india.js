@@ -324,18 +324,18 @@ const PrAgency = () => {
   return (
     <div>
       <Head>
-        <title>Ackrolix Innovations | Best PR services in India</title>
+        <title> Best PR agency in India | Ackrolix</title>
         <meta
           name="description"
-          content="Ackrolix Provides the Best PR services in India. 
+          content="Ackrolix is the best PR agency in India. We are playing a significant role by Generating awareness, Brand mentions, and Building backlinks.. 
 We are playing a significant role by Generating awareness, Brand mentions, and Building backlinks."
         />
         <link rel="canonical" href="https://www.ackrolix.com/pr-services-in-India" />
         <meta property="og:title"
-          content="Ackrolix Innovations| Best PR services in India" />
+          content=" Best PR agency in India | Ackrolix" />
         <meta
           property="og:description"
-          content="Ackrolix Provides the Best PR Services in India. 
+          content="Ackrolix is the best PR agency in India. We are playing a significant role by Generating awareness, Brand mentions, and Building backlinks. 
 We are playing a significant role by Generating awareness, Brand mentions, and Building backlinks."
         />
         <meta

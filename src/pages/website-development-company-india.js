@@ -308,20 +308,20 @@ const cards = [
   return (
     <div>
       <Head>
-        <title>Ackrolix - Web Development Company in India</title>
+        <title>Web Design services in India| Ackrolix</title>
         <meta
           name="description"
-          content="With Ackrolix, you will have access to a wide range of powerful tools and functionalities tailored to meet the unique needs of web development company in India. From seamless project management to collaborative coding features, our platform empowers your team to work together efficiently and effectively."
+          content="With Ackrolix, you will have access to a wide range of powerful tools and functionalities tailored to meet the unique needs of web design services in India. From seamless project management to collaborative coding features, our platform empowers your team to work together efficiently and effectively."
         />
                 <link rel="canonical" href="https://www.ackrolix.com/website-development-company-in-India"/>
 
         <meta
           property="og:title"
-          content="Ackrolix - Web Development Company in India"
+          content="Web Design services in India| Ackrolix"
         />
         <meta
           property="og:description"
-          content="With Ackrolix, you will have access to a wide range of powerful tools and functionalities tailored to meet the unique needs of web development company in India. From seamless project management to collaborative coding features, our platform empowers your team to work together efficiently and effectively."
+          content="With Ackrolix, you will have access to a wide range of powerful tools and functionalities tailored to meet the unique needs of web design services in India. From seamless project management to collaborative coding features, our platform empowers your team to work together efficiently and effectively."
         />
         <meta
           property="og:url"
@@ -376,7 +376,7 @@ const cards = [
         }}
       >
         <Banner 
-          bannertitle="Ackrolix: Your Trusted Web Development Company In India"
+          bannertitle="Ackrolix: Your Trusted Web Design Services In India"
           bannersubtext="Ackrolix, a name synonymous with innovation and originality, has carved itself as a prominent Web Design and Website Development Company in India. Our talented team of UI/UX designers and web developers, empowered by our agile software development practices, meticulously craft outstanding web design and software solutions. Each project is a bespoke creation, tailored to address the unique requirements of our clients, consistently exceeding expectations."
           serviceimg="/assets/images/service/svg/web.png"
           serviceimgAlt="Web Development Company"

@@ -320,14 +320,14 @@ const cards = [
   return (
     <div>
       <Head>
-        <title>Ackrolix: Digital Marketing Agency in India</title>
+        <title>Digital Marketing services in India | Ackrolix</title>
         <meta
           name="description"
-          content="Are you looking for a most trusted award winning digital marketing agency in India, then you are at the right place."
+          content="Are you looking for a most trusted award winning digital marketing services in India, then you are at the right place."
           />
            <link rel="canonical" href="https://www.ackrolix.com/digital-marketing-company-in-India"/>
           <meta property="og:title" 
-          content="Ackrolix: Digital Marketing Agency in India" />
+          content="Digital Marketing services in India | Ackrolix" />
           <meta
             property="og:description"
             content="Are you looking for a most trusted award winning digital marketing agency in India, then you are at the right place."
@@ -382,7 +382,7 @@ const cards = [
         }}
       >
         <Banner 
-          bannertitle="Reach Millions More Customers With The Leading Digital Marketing Agency In India"
+          bannertitle="Reach Millions More Customers With The Leading Digital Marketing Services In India"
           bannersubtext="Don't settle for any generic digital marketing agency in India. Partner with a trusted partner in growth - Ackrolix: your all-inclusive solution to tell your brand story to the world. Let's work together to turn your online presence into an impactful story."
           serviceimg="/assets/images/service/svg/dig.png"
           serviceimgAlt="digital marketing company"

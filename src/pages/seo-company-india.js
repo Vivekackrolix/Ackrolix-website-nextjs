@@ -324,15 +324,15 @@ const SeoAgency = () => {
   return (
     <div>
       <Head>
-        <title>Ackrolix: seo company in India</title>
+        <title>SEO services in India | Ackrolix</title>
         <meta name="description"
-         content="We are the number one SEO Company in India that offers assured first-page rankings. Our data-driven proven SEO methods are unique. Get a free Audit Today." />
+         content="We are the number one SEO services in India that offers assured first-page rankings. Our data-driven proven SEO methods are unique. Get a free Audit Today." />
       <link rel="canonical" href="https://www.ackrolix.com/seo-company-in-India"/>
         <meta property="og:title" 
-        content="Ackrolix: seo company in India" />
+        content="SEO services in India | Ackrolix" />
         <meta
           property="og:description"
-          content="We are the number one SEO Company in India that offers assured first-page rankings. Our data-driven proven SEO methods are unique. Get a free Audit Today."
+          content="We are the number one SEO services in India that offers assured first-page rankings. Our data-driven proven SEO methods are unique. Get a free Audit Today."
         />
         <meta
           property="og:url"
@@ -385,7 +385,7 @@ const SeoAgency = () => {
         }}
       >
         <Banner
-          bannertitle="Get High SEO Rankings with Ackrolix: Your Trusted SEO Agency in India"
+          bannertitle="Get High SEO Rankings with Ackrolix: Your Trusted SEO Services in India"
           bannersubtext="At Ackrolix, our team of SEO experts stands out in the saturated market of SEO agencies. Going beyond mere search engine optimization, we prioritize elevating conversion rates, increasing revenues, and maximizing client benefits—all without increasing costs. Recognizing the pivotal role SEO and social media play in business growth, we understand that over 80% of internet searches influence success. In today's fiercely competitive business landscape, innovation isn't just a choice; it's a necessity for survival."
           serviceimg="/assets/images/service/svg/sea.png"
           serviceimgAlt="seo services company"

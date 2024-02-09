@@ -298,10 +298,10 @@ const SemAgency = () => {
   return (
     <div>
       <Head>
-        <title>Ackrolix: Influencer Marketing agency in India</title>
+        <title>Influencer Marketing services in India | Ackrolix</title>
         <meta
           name="description"
-          content="Looking for the best Search Engine Marketing agency in India to help you achieve optimum results and improve your ROI? Look no further than ackrolix"
+          content="Discover the leading influencer marketing services in India! Our expert team connects brands with influential voices to amplify your message and get results."
         />
         <link
           rel="canonical"
@@ -309,11 +309,11 @@ const SemAgency = () => {
         />
         <meta
           property="og:title"
-          content="Ackrolix: Search Engine Marketing agency in India"
+          content="Influencer Marketing services in India | Ackrolix"
         />
         <meta
           property="og:description"
-          content="Looking for the best Search Engine Marketing agency in India to help you achieve optimum results and improve your ROI? Look no further than ackrolix"
+          content="Discover the leading influencer marketing services in India! Our expert team connects brands with influential voices to amplify your message and get results."
         />
         <meta
           property="og:url"

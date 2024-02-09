@@ -324,15 +324,13 @@ const MediaBuying = () => {
   return (
     <div>
       <Head>
-        <title>Media Buying Company in India | Ackrolix Innovations</title>
-        <meta name="description" content="Ackrolix Innovations is the best Media best-buying company in 
-India that offers Communication Planning, Content Creation, and Technology." />
+        <title>Media Buying services in India | Ackrolix </title>
+        <meta name="description" content="Ackrolix Innovations is the best Media best-buying services in India that offers Communication Planning, Content Creation, and Technology." />
         <link rel="canonical" href="https://www.ackrolix.com/media-buying-company-in-India" />
-        <meta property="og:title" content="Media Buying Company in India | Ackrolix Innovations" />
+        <meta property="og:title" content="Media Buying services in India | Ackrolix " />
         <meta
           property="og:description"
-          content="Ackrolix Innovations is the best Media best-buying company in 
-India that offers Communication Planning, Content Creation, and Technology."
+          content="Ackrolix Innovations is the best Media best-buying services in India that offers Communication Planning, Content Creation, and Technology."
         />
         <meta
           property="og:url"
@@ -384,7 +382,7 @@ India that offers Communication Planning, Content Creation, and Technology.",
         }}
       >
         <Banner
-          bannertitle="Ackrolix, Your Trusted Media Buying Agency in Gurgaon! Access the Power of Media Buying!"
+          bannertitle="Ackrolix, Your Trusted Media Buying Services in Gurgaon! Access the Power of Media Buying!"
           bannersubtext="At Ackrolix, we recognize that a successful marketing campaign is about more than simply creative slogans; it's about communicating with your target demographic at the right time and at the right price. That's where our Media Buying Services come in, assisting you in developing campaigns that drive marketing ROI and efficiently reach your target demographic."
           serviceimg="/assets/images/service/svg/buy.png"
           serviceimgAlt="Media Buying Agency"

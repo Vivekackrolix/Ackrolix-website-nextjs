@@ -9,7 +9,7 @@ const moments = () => {
     <>
 
       <Head>
-        <title>Ackrolix Innovations | Moments</title>
+        <title> Moments | Ackrolix</title>
         <meta name="description" content="Our life experiences are fundamentally shaped by our memories. 
 Uderstanding why some memories are better recalled than others and embracing that fluidity can reduce conflict" />
       </Head>

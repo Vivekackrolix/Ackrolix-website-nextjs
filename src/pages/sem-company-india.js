@@ -298,10 +298,10 @@ const SemAgency = () => {
   return (
     <div>
       <Head>
-        <title>Ackrolix: Search Engine Marketing agency in India</title>
+        <title>Search Engine Marketing services in Indian | Ackrolix</title>
         <meta
           name="description"
-          content="Looking for the best Search Engine Marketing agency in India to help you achieve optimum results and improve your ROI? Look no further than ackrolix"
+          content="Looking for the best Search Engine Marketing services in India to help you achieve optimum results and improve your ROI? Look no further than ackrolix."
         />
         <link
           rel="canonical"
@@ -309,11 +309,11 @@ const SemAgency = () => {
         />
         <meta
           property="og:title"
-          content="Ackrolix: Search Engine Marketing agency in India"
+          content="Search Engine Marketing services in Indian | Ackrolix"
         />
         <meta
           property="og:description"
-          content="Looking for the best Search Engine Marketing agency in India to help you achieve optimum results and improve your ROI? Look no further than ackrolix"
+          content="Looking for the best Search Engine Marketing services in India to help you achieve optimum results and improve your ROI? Look no further than ackrolix."
         />
         <meta
           property="og:url"
@@ -360,7 +360,7 @@ const SemAgency = () => {
         }}
       >
         <Banner
-          bannertitle="Ackrolix: Gurgaon's Best Search Engine Marketing Company"
+          bannertitle="Ackrolix: Gurgaon's Best Search Engine Marketing Services"
           bannersubtext="Welcome to Ackrolix, your go-to source in Gurgaon for innovative Search Engine Marketing (SEM) services. As a top SEM firm, we offer unmatched experience and brilliant ideas to increase your brand's online visibility and produce significant outcomes."
           serviceimg="/assets/images/service/svg/eng.png"
           serviceimgAlt="search engine marketing company"
