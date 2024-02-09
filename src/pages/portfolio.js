@@ -8,7 +8,10 @@ function portfolio() {
   return (
     <>
       <Head>
-        <title> Portfolio </title>
+        <title> Portfolio | Ackrolix </title>
+        <meta
+          name="description"
+          content="Dive into the dynamic portfolio of Ackrolix, which showcases innovative solutions and cutting-edge projects. A testament to their expertise and vision."/>
       </Head>
       <Header />
       <Heading

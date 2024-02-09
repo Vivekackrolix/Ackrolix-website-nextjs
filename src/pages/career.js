@@ -10,7 +10,11 @@ const Career = () => {
   return (
     <div>
       <Head>
-        <title> Career </title>
+        <title> Career | Ackrolix </title>
+        <meta
+          name="description"
+          content="Explore a fulfilling career journey with Ackrolix - Discover opportunities and growth paths. Elevate your career with Ackrolix today!"
+        />
       </Head>
       <Header />
       <Heading
