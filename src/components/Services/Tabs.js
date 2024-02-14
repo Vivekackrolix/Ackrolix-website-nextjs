@@ -18,7 +18,7 @@ const serviceData = [
     image: '/assets/images/service/web-development.png',
     name: 'Web Development',
     desc: "Your Vision, Our Expertise: Build powerful web applications/web apps, from custom web design to robust backend development. We've helped 30+ startups soar and 150+ global brands evolve. Let's discuss your web ambitions.",
-    link: '/website-development-company-india',
+    link: '/website-development-services-india',
   },
 ];
 
@@ -28,28 +28,28 @@ const DigitalModernization = [
     image: '/assets/images/service/DigitalMarketingStrategy.png',
     name: 'Digital Marketing Strategy',
     desc: 'Unleash Digital Profits: Stop guessing and start growing. We build data-driven marketing plans that align with your goals, engage your audience, and drive profitable results. Get your Free Marketing Strategy Blueprint now.',
-    link: '/digital-marketing-company-india',
+    link: '/digital-marketing-services-india',
   },
   {
     id: 2,
     image: '/assets/images/service/SearchEngineOptimization.png',
     name: 'Search Engine Optimization (SEO)',
     desc: 'Own the Search Engine Throne: Climb up to the charts of Google’s SERPs and attract organic traffic. Our SEO experts optimize your website and content, so customers can find you first. Boost Your Organic Traffic Today.',
-    link: '/seo-company-india',
+    link: '/seo-services-india',
   },
   {
     id: 3,
     image: '/assets/images/service/SearchEngineMarketing.png',
     name: 'Search Engine Marketing (SEM)',
     desc: 'Turn Pay into Results: Get real ROI from online ads. We manage your SEM campaigns to bring in qualified leads at the right price. Maximize Your Ad Spend with Expert SEM.',
-    link: '/sem-company-india',
+    link: '/search-engine-marketing-services-india',
   },
   {
     id: 4,
     image: '/assets/images/service/SocialMediaMarketing.png',
     name: 'Social Media Marketing (SMM)',
     desc: 'Begin Conversations, Supercharge Growth: Build a buzzing online community. We create engaging content and manage your social media presence to win hearts and convert fans. Get More Followers & Brand Advocates.',
-    link: '/social-media-marketing-company-india',
+    link: '/social-media-marketing-services-india',
   },
   {
     id: 5,
