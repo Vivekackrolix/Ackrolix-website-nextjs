@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Banner = ({
   bannertitle,
@@ -13,9 +13,9 @@ const Banner = ({
 }) => {
   return (
     <div>
-      <div className="container-ack md:px-0 px-5 ">
+      <div className="px-5 container-ack md:px-0 ">
         <div className="pt-24 md:w-[80%]  mx-auto">
-          <h1 className="text-4xl leading-normal capitalize text-center font-bold ">
+          <h1 className="text-3xl font-bold leading-normal text-center capitalize ">
             {bannertitle}
           </h1>
           <div className="load-wrapp relative bottom-[15px] top-0 text-center">
@@ -25,20 +25,20 @@ const Banner = ({
               <div className="line"></div>
             </div>
           </div>
-          <p className="text-base text-textcolor text-center pt-3">
+          <p className="pt-3 text-base text-center text-textcolor">
             {bannersubtext}
           </p>
         </div>
         <div>
-          <div className="md:grid grid-cols-2 gap-6 pt-12 container-ack  ">
+          <div className="grid-cols-2 gap-6 pt-12 md:grid container-ack ">
             <div className="pb-5 ">
               {/* <img src="/assets/images/aboutusimg3.png" alt="" /> */}
-              <img src={serviceimg} alt={serviceimgAlt}  />
+              <img src={serviceimg} alt={serviceimgAlt} />
             </div>
 
-            <div className=" md:px-0 px-5 pb-10 md:pb-0  relative">
+            <div className="relative px-5 pb-10  md:px-0 md:pb-0">
               <div className="">
-                <h2 className="text-2xl capitalize font-semibold ">
+                <h2 className="text-2xl font-semibold capitalize ">
                   {servicehead}
                 </h2>
                 <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pb-4 md:pt-8 pt-4">
