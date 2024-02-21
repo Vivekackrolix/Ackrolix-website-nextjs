@@ -77,14 +77,14 @@ const Enquiry = () => {
               <div className="">
                 <div className="absolute md:top-[5rem] top-[4rem] inset-x-0 flex justify-left">
                   <div className="text-[32px] text-left text-white font-bold max-w-xl">
-                  Looking to scale your business like never before? 
+                  Have You Got a Question for Us? 
                   {/*  */}
 
                   </div>
                 </div>
 
                  <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pt-10">
-                 Let's shake up your business and mesmerize your customers with something new every time.Fill this form and get in touch!
+                 We're passionate about helping people like you turn their ideas into reality. We have the experience and resources to support you every step of the way, and your success is our success. Share your requirements, receive a free quote, and let's work together to transform your vision into a mission-reality!
               </div>
             </div>
 
