@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+
 import Header from '../components/Common/Header';
 import Banner from '../components/Services/DetailPage/Banner';
 import Cards from '../components/Services/DetailPage/Cards';
@@ -12,37 +13,37 @@ import Enquiry from '../components/Services/DetailPage/Enquiry';
 import Clients from '../components/Home/Clients';
 import Footer from '../components/Common/Footer';
 import CaseStudies from '../components/Services/DetailPage/CaseStudies';
-const SemAgency = () => {
+const SmmAgency = () => {
   const processes = [
     {
       id: '1',
-      name: 'Expertise & Experience',
-      desc: 'Ackrolix, a seasoned influencer marketing firm, has developed effective strategies for over 500 brands, influencing millions online.',
+      name: 'Unparalleled Expertise & Innovation',
+      desc: 'Ackrolix, the top social media marketing firm in Gurgaon, provides unmatched knowledge and precise tactics.',
     },
     {
       id: '2',
-      name: 'Customized Solutions',
-      desc: "Our design goal-specific solutions ensure relevant influencer collaborations. Access to 50+ creators across 5+ sectors, reaching 6000+ followers.",
+      name: 'Targeted Campaigns',
+      desc: 'For the best audience engagement, our social media marketing services in Gurgaon use exact targeting.',
     },
     {
       id: '3',
-      name: 'Data-Driven Insights',
-      desc: 'We utilize data analytics, AI, and machine learning to refine campaigns, maximize ROI, and track performance.',
+      name: ' Proven Results',
+      desc: 'As a leading Gurgaon social media marketing firm, our track record demonstrates steady growth and success.',
     },
     {
       id: '4',
-      name: 'Innovative Tools',
-      desc: 'Our influencers use advanced tools for influencer research, analysis, and management. We offer solutions like social commerce, OTT, and content syndication.',
+      name: 'Customised Approach',
+      desc: 'Ackrolix, the top social media marketing company in Gurgaon, creates strategies specifically to meet the requirements of each customer.',
     },
     {
       id: '5',
-      name: 'Transparent Reporting',
-      desc: 'Our commitment to transparent reporting provides real-time insights into campaign performance and helps improve future campaigns.',
+      name: 'Comprehensive Solutions',
+      desc: 'Ackrolix has experience in many different markets, including B2B and B2C at all sizes. Whether you own a startup, enterprise or a multi-location company.',
     },
     {
       id: '6',
-      name: 'Proven Success',
-      desc: 'Team Ackrolix consistently delivers outstanding results, increasing brand awareness, engagement, conversions, and loyalty.',
+      name: 'Strategic Insights',
+      desc: 'For data-driven insights and effective brand expansion, pick Ackrolix, the top social media marketing company in Gurgaon.',
     },
   ];
   const techs = [
@@ -170,19 +171,19 @@ const SemAgency = () => {
   const cards = [
     {
       id: 1,
-      para: `Social Media has forever changed the Doing-Business-Game and the way consumers interact with brands and make purchase decisions. At Ackrolix, we help you harness the power of social media to transform your business and drive sales. We've the expertise you need in influencer marketing, paid performance, owned social, creative and content services for innovative social media campaigns. Increase brand awareness, engagement, conversions, loyalty. Grow with us, become a social-first brand.`,
+      para: "For outstanding online brand growth, Ackrolix's great social media marketing services combine strategic planning, compelling content production, audience interaction, data-driven analysis, powerful ad campaigns, and perceptive performance reporting.",
       bgcolor: 'bg-[#fff]',
       cols: 'md:col-span-2',
       textcolor: 'text-secondary',
       display: 'hidden',
-      maintitle: 'SERVICES',
-      subtitle: 'Influencer Marketing Services',
+      maintitle: 'Services',
+      subtitle: 'Our Exemplary Social Media Marketing Services ',
     },
     {
       id: 2,
       icon: '01',
-      title: 'Influencer Marketing',
-      para: 'Our team of influencers help you reach and influence millions of consumers with the power of authentic and trusted creators.',
+      title: 'Strategic Planning',
+      para: 'Weaved social media plans that are in line with the objectives of your company, target the appropriate demographic, and optimise content for maximum interaction and impact.',
       bgcolor: 'bg-[#F6F8F9]',
       cols: 'md:col-span-1',
       display: 'icon',
@@ -194,8 +195,8 @@ const SemAgency = () => {
     {
       id: 3,
       icon: '02',
-      title: 'Paid & Performance Media',
-      para: 'Boost your brand visibility and ROI with data-driven and optimized paid media campaigns across social platforms.',
+      title: 'Content Creation',
+      para: 'Create engaging images and compelling prose that appeal to your audience in order to maintain consistent branding and a powerful online presence across platforms.',
       bgcolor: 'bg-[#F6F8F9]',
       cols: 'md:col-span-1',
       display: 'icon',
@@ -207,8 +208,8 @@ const SemAgency = () => {
     {
       id: 4,
       icon: '03',
-      title: 'Ad Copywriting',
-      para: 'We craft compelling and persuasive ad copy that captures your audience’s attention and drives them to action.',
+      title: 'Audience Engagement',
+      para: 'Promote meaningful connections by being actively involved, replying to messages and comments, and starting dialogues that help to develop a devoted following for your company.',
       bgcolor: 'bg-[#F6F8F9]',
       cols: 'md:col-span-1',
       display: 'icon',
@@ -220,8 +221,8 @@ const SemAgency = () => {
     {
       id: 5,
       icon: '04',
-      title: 'Creative and Content',
-      para: 'Create and distribute high-quality and engaging content with us to showcase your brand story and value proposition.',
+      title: ' Data-Driven Analytics',
+      para: 'Utilising top-notch tools, monitor and analyse social media performance while adjusting strategy in real-time depending on insights.',
       bgcolor: 'bg-[#F6F8F9]',
       cols: 'md:col-span-1',
       display: 'icon',
@@ -233,8 +234,8 @@ const SemAgency = () => {
     {
       id: 6,
       icon: '05',
-      title: 'Social Experiential Marketing',
-      para: 'Immerse your customers in memorable and interactive social experiences that amplify your brand awareness and loyalty.',
+      title: 'Ad Campaigns',
+      para: 'Run successful paid ads by utilising accurate audience targeting, imaginative graphics, and clever placements to increase visibility and encourage conversions.',
       bgcolor: 'bg-[#F6F8F9]',
       cols: 'md:col-span-1',
       display: 'icon',
@@ -246,8 +247,8 @@ const SemAgency = () => {
     {
       id: 7,
       icon: '06',
-      title: 'Conversion Optimization & B2B Marketing',
-      para: 'Turn your prospects into customers and your customers into influencers with our effective and tailored B2B marketing strategies.',
+      title: 'Social media Advertising',
+      para: 'Ackrolix specialises in delivering targeted and effective campaigns to increase brand awareness, engage audiences and increase conversions.',
       bgcolor: 'bg-[#F6F8F9]',
       cols: 'md:col-span-1',
       display: 'icon',
@@ -298,41 +299,42 @@ const SemAgency = () => {
   return (
     <div>
       <Head>
-        <title>Influencer Marketing services in India | Ackrolix</title>
+        <title> Social Media Marketing services in India | Ackrolix </title>
         <meta
           name="description"
-          content="Discover the leading influencer marketing services in India! Our expert team connects brands with influential voices to amplify your message and get results."
+          content="Ackrolix: best social media marketing sevices in India! we are specializes in strategic solutions to boost your online presence and drive impactful results."
         />
         <link
           rel="canonical"
-          href="https://www.ackrolix.com/influencer-marketing-company-india"
+          href="https://www.ackrolix.com/social-media-marketing-company-in-India"
         />
         <meta
           property="og:title"
-          content="Influencer Marketing services in India | Ackrolix"
+          content=" Social Media Marketing services in India | Ackrolix"
         />
         <meta
           property="og:description"
-          content="Discover the leading influencer marketing services in India! Our expert team connects brands with influential voices to amplify your message and get results."
+          content="Ackrolix: Ackrolix: best social media marketing sevices in India! we are specializes in strategic solutions to boost your online presence and drive impactful results."
         />
         <meta
           property="og:url"
-          content="https://www.ackrolix.com/sem-agency-in-India"
+          content="https://www.ackrolix.com/social-media-marketing-company-in-India"
         />
         <meta
           property="og:image"
-          content="https://www.ackrolix.com/assets/images/service/svg/eng.png"
+          content="https://www.ackrolix.com/assets/images/service/svg/med.png"
         />
         <meta name="robots" content="index,follow" />
+
         <script type="application/ld+json">
           {`{
   "@context": "http://schema.org",
   "@type": "WebPage",
-  "@id": "https://www.ackrolix.com/sem-company-gurgaon#webpage",
-  "url": "https://www.ackrolix.com/sem-company-gurgaon",
+  "@id": "https://www.ackrolix.com/social-media-marketing-company-gurgaon#webpage",
+  "url": "https://www.ackrolix.com/social-media-marketing-company-gurgaon",
   "inLanguage": "en - US",
-  "name": "Search Engine Marketing",
-  "description": "Looking for the best Search Engine Marketing agency in India to help you achieve optimum results and improve your ROI? Look no further than ackrolix",
+  "name": "Social Media Marketing",
+  "description": "Ackrolix: best social media marketing company in India! we are  specializes in strategic solutions to boost your online presence and drive impactful results.",
   "isPartOf": {
     "@id": "#website"
   },
@@ -360,23 +362,21 @@ const SemAgency = () => {
         }}
       >
         <Banner
-          bannertitle="Grow with Ackrolix: India's Leading Influencer Marketing Partner for Impact"
-          bannersubtext="We are your dynamic influencer marketing partner that creates a powerful impact while maintaining a non-intrusive approach. Our adept team harmoniously amalgamates data, influencers, and followers, fostering an environment that propels your business to new heights."
-          serviceimg="/assets/images/service/svg/eng.png"
-          serviceimgAlt="search engine marketing company"
-          servicehead="Empowering Your Business to Garner the Attention it Deserves, and More."
-          servicedesc1=" At Ackrolix, we are more than just an influencer marketing agency. We are a full-service social media transformation and business partner that helps you leverage the power of creators, AI technology & solutions, and data to grow your brand and achieve your business goals."
-          servicedesc2="We have worked with 120+ brands across various industries, generating brand awareness to millions of impressions and at least 20% increase in engagements.  Ackrolix is trusted by World’s leading brands, such as  Jindal Steel and Power,  RSM - UK, Discovery Land Company, and many more.  
-
-          If you are looking for a social media transformation partner that can help you grow your brand with influencer marketing, paid performance, owned social, and creative and content services, look no further than Ackrolix."
+          bannertitle="Craft Digital Success with our Premium Social Media Marketing Services"
+          bannersubtext="Welcome to Ackrolix, Gurgaon's premier provider of first-rate social media marketing services. We take great pleasure in our ability to connect brands with their audience in meaningful and effective ways as a top social media marketing company. "
+          serviceimg="/assets/images/service/svg/med.png"
+          serviceimgAlt="social media marketing agency"
+          servicehead="Increase the Impact of Your Brand with Ackrolix"
+          servicedesc1="Ackrolix is ​​a social media marketing company based in Gurgaon that provides innovative and effective solutions to businesses aiming to harness the power of social media for growth and success. With a dedicated team of social media experts and a deep understanding of social media."
+          servicedesc2=" Ackrolix specialises in creating effective campaigns that drive engagement, increase brand awareness and build meaningful connections with audiences. As an advertising company, Ackrolix starts by researching and understanding each client's unique needs and goals. One of Ackrolix's key strengths is content creation and management. They create shareable and engaging content that resonates with their audience on various social media sites. Whether it's an image, a shared video, or a blog post, Ackrolix ensures that every content has a purpose, provides meaningful interactions, and builds trust."
         />
       </div>
       <Cards card={cards} />
       <div className="px-5 container-ack md:px-0">
         <ComponentHead
           title="Platforms"
-          sub="Social Engine Marketing"
-          head="Depending on your goals and target audience, you can choose from different platforms and strategies to reach and engage your potential customers."
+          sub="Social Media Marketing"
+          head="The Platforms stack for Social Media Marketing can vary depending on the specific requirements of the application and the chosen modernization approach."
         />
         <Technology tech={techs} />
       </div>
@@ -391,10 +391,10 @@ const SemAgency = () => {
           <div className="px-5 container-ack md:px-0">
             <ProccessHead
               processhead="Why ChooseUS"
-              processsub="Why Choose Us?"
-              processdesc="Ackrolix is your go-to influencer marketing partner for creative ideas, customized solutions, data-driven insights, innovative tools, transparent reporting, and a track record of generating successful influencer marketing campaigns."
-              processimg="/assets/images/service/svg/eng1.png"
-              proocessalt="Search Engine Marketing Services"
+              processsub="Why Choose Us as your Social Media Marketing Partner"
+              processdesc="Ackrolix distinguishes itself as the top social media marketing company in Gurgaon thanks to our go-to tactics, focused targeting, dependable outcomes, personalised approach, all-inclusive solutions, and strategic insights."
+              processimg="/assets/images/service/svg/med1.png"
+              proocessalt="social media marketing services"
             />
             <Process process={processes} />
           </div>
@@ -419,4 +419,4 @@ const SemAgency = () => {
   );
 };
 
-export default SemAgency;
+export default SmmAgency;

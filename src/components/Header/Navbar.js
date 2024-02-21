@@ -85,37 +85,37 @@ const Navbar = () => {
                 <div className="top-0 flex py-5 bg-white">
                   <div className="flex flex-col p-1 text-xs text-left text-black border-r-2 w-80 border-primary">
                     <Link
-                      href="/digital-marketing-company-india"
+                      href="/digital-marketing-services-india"
                       className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a]   rounded-md px-4 py-2 text-sm"
                     >
-                      Digital Marketing Company
+                      Digital Marketing Services
                     </Link>
 
                     <Link
-                      href="/social-media-marketing-company-india"
+                      href="/social-media-marketing-services-india"
                       className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                     >
-                      Social Media Marketing Company
+                      Social Media Marketing Services
                     </Link>
                     <Link
-                      href="/seo-company-india"
+                      href="/seo-services-india"
                       className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                     >
-                      SEO Company
+                      SEO Services
                     </Link>
                     <Link
-                      href="/influencer-marketing-company-india"
+                      href="/influencer-marketing-services-india"
                       className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                     >
-                      Influencer Marketing
+                      Influencer Marketing Services
                     </Link>
                   </div>
                   <div className="flex flex-col p-1 text-xs text-left text-black ">
                     <Link
-                      href="/website-development-company-india"
+                      href="/website-development-services-india"
                       className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                     >
-                      Web Development Company
+                      Web Development Services
                     </Link>
                     <Link
                       href="/pr-agency-india"
@@ -130,10 +130,10 @@ const Navbar = () => {
                       Media Buying Company
                     </Link>
                     <Link
-                      href="/sem-company-india"
+                      href="/search-engine-marketing-services-india"
                       className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                     >
-                      Search Engine Marketing Company
+                      Search Engine Marketing Services
                     </Link>
                   </div>
                 </div>
@@ -163,10 +163,10 @@ const Navbar = () => {
                           </p>
 
                           <Link
-                            href="/website-development-company-india"
+                            href="/website-development-services-india"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            Web Development Company
+                            Web Development Services
                           </Link>
                         </div>
 
@@ -177,30 +177,30 @@ const Navbar = () => {
                           </p>
 
                           <Link
-                            href="/digital-marketing-company-india"
+                            href="/digital-marketing-services-india"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a]   rounded-md px-4 py-2 text-sm"
                           >
-                            Digital Marketing Company
+                            Digital Marketing Services
                           </Link>
 
                           <Link
-                            href="/social-media-marketing-company-india"
+                            href="/social-media-marketing-services-india"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            Social Media Marketing Company
+                            Social Media Marketing Services
                           </Link>
 
                           <Link
-                            href="/sem-company-india"
+                            href="/search-engine-marketing-services-india"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            Search Engine Marketing Company
+                            Search Engine Marketing Services
                           </Link>
                           <Link
-                            href="/seo-company-india"
+                            href="/seo-services-india"
                             className=" hover:text-white hover:bg-gradient-to-r from-primary to-[#edb00a] py-2  rounded-md  px-4 text-sm"
                           >
-                            SEO Company
+                            SEO Services
                           </Link>
                           <Link
                             href="/pr-agency-india"

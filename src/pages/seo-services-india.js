@@ -1,17 +1,17 @@
-import React from "react";
-import Head from "next/head";
-import Header from "../components/Common/Header";
-import Banner from "../components/Services/DetailPage/Banner";
-import Cards from "../components/Services/DetailPage/Cards";
-import ComponentHead from "../components/Common/ComponentHead";
-import Technology from "../components/Services/DetailPage/Technology";
-import ProccessHead from "../components/Services/DetailPage/ProcessHead";
-import Process from "../components/Services/DetailPage/Process";
-import Work from "../components/Services/DetailPage/Work";
-import Enquiry from "../components/Services/DetailPage/Enquiry";
-import Clients from "../components/Home/Clients";
-import Footer from "../components/Common/Footer";
-import CaseStudies from "../components/Services/DetailPage/CaseStudies";
+import React from 'react';
+import Head from 'next/head';
+import Header from '../components/Common/Header';
+import Banner from '../components/Services/DetailPage/Banner';
+import Cards from '../components/Services/DetailPage/Cards';
+import ComponentHead from '../components/Common/ComponentHead';
+import Technology from '../components/Services/DetailPage/Technology';
+import ProccessHead from '../components/Services/DetailPage/ProcessHead';
+import Process from '../components/Services/DetailPage/Process';
+import Work from '../components/Services/DetailPage/Work';
+import Enquiry from '../components/Services/DetailPage/Enquiry';
+import Clients from '../components/Home/Clients';
+import Footer from '../components/Common/Footer';
+import CaseStudies from '../components/Services/DetailPage/CaseStudies';
 const SeoAgency = () => {
   const processes = [
     {
@@ -44,154 +44,128 @@ const SeoAgency = () => {
       name: "Milestone Achievements",
       desc: "Celebrating our commitment to excellence and innovation, we've successfully completed 100+ projects across various industries. Reflecting on our experiences, we are inspired and ready to take on new challenges, reaching even greater milestones. With each achievement, we solidify our position as a dominant force in the market, prepared to tackle future challenges with tenacity.",
     },
-  
   ];
   const techs = [
     {
-      id: "1",
-      img: "/assets/images/service/svg/google.svg",
-      name: "Google",
-
+      id: '1',
+      img: '/assets/images/service/svg/google.svg',
+      name: 'Google',
     },
     {
-      id: "2",
-      img: "/assets/images/service/svg/google-ads.svg",
-      name: "Google Ads",
-
+      id: '2',
+      img: '/assets/images/service/svg/google-ads.svg',
+      name: 'Google Ads',
     },
     {
-      id: "3",
-      img: "/assets/images/service/svg/google-analytics.svg",
-      name: "google Analytics",
-
+      id: '3',
+      img: '/assets/images/service/svg/google-analytics.svg',
+      name: 'google Analytics',
     },
     {
-      id: "4",
-      img: "/assets/images/service/svg/facebook.svg",
-      name: "Facebook",
-
+      id: '4',
+      img: '/assets/images/service/svg/facebook.svg',
+      name: 'Facebook',
     },
     {
-      id: "5",
-      img: "/assets/images/service/svg/instagram.svg",
-      name: "Instagram",
-
+      id: '5',
+      img: '/assets/images/service/svg/instagram.svg',
+      name: 'Instagram',
     },
     {
-      id: "6",
-      img: "/assets/images/service/svg/twitter.svg",
-      name: "Twitter",
-
+      id: '6',
+      img: '/assets/images/service/svg/twitter.svg',
+      name: 'Twitter',
     },
     {
-      id: "7",
-      img: "/assets/images/service/svg/linkedin.svg",
-      name: "LinkedIn",
-
+      id: '7',
+      img: '/assets/images/service/svg/linkedin.svg',
+      name: 'LinkedIn',
     },
     {
-      id: "8",
-      img: "/assets/images/service/svg/youtube.svg",
-      name: "YouTube",
-
+      id: '8',
+      img: '/assets/images/service/svg/youtube.svg',
+      name: 'YouTube',
     },
     {
-      id: "10",
-      img: "/assets/images/service/svg/pinterest.svg",
-      name: "Pinterest",
-
+      id: '10',
+      img: '/assets/images/service/svg/pinterest.svg',
+      name: 'Pinterest',
     },
     {
-      id: "11",
-      img: "/assets/images/service/svg/snapchat.svg",
-      name: "Snapchat",
-
+      id: '11',
+      img: '/assets/images/service/svg/snapchat.svg',
+      name: 'Snapchat',
     },
     {
-      id: "12",
-      img: "/assets/images/service/svg/tiktok.svg",
-      name: "TikTok",
-
+      id: '12',
+      img: '/assets/images/service/svg/tiktok.svg',
+      name: 'TikTok',
     },
     {
-      id: "13",
-      img: "/assets/images/service/svg/quora.svg",
-      name: "Quora",
-
+      id: '13',
+      img: '/assets/images/service/svg/quora.svg',
+      name: 'Quora',
     },
     {
-      id: "14",
-      img: "/assets/images/service/svg/reddit.svg",
-      name: "Reddit",
-
+      id: '14',
+      img: '/assets/images/service/svg/reddit.svg',
+      name: 'Reddit',
     },
     {
-      id: "15",
-      img: "/assets/images/service/svg/mailchimp.png",
-      name: "Mailchimp",
-
+      id: '15',
+      img: '/assets/images/service/svg/mailchimp.png',
+      name: 'Mailchimp',
     },
     {
-      id: "16",
-      img: "/assets/images/service/svg/semr.png",
-      name: "SEMrush",
-
+      id: '16',
+      img: '/assets/images/service/svg/semr.png',
+      name: 'SEMrush',
     },
     {
-      id: "17",
-      img: "/assets/images/service/svg/ahref.png",
-      name: "Ahrefs",
-
+      id: '17',
+      img: '/assets/images/service/svg/ahref.png',
+      name: 'Ahrefs',
     },
     {
-      id: "18",
-      img: "/assets/images/service/svg/moz.png",
-      name: "Moz",
-
+      id: '18',
+      img: '/assets/images/service/svg/moz.png',
+      name: 'Moz',
     },
     {
-      id: "19",
-      img: "/assets/images/service/svg/analytics.webp",
-      name: "Adobe Analytics",
-
+      id: '19',
+      img: '/assets/images/service/svg/analytics.webp',
+      name: 'Adobe Analytics',
     },
     {
-      id: "20",
-      img: "/assets/images/service/svg/cj.png",
-      name: "Commission Junction",
-
+      id: '20',
+      img: '/assets/images/service/svg/cj.png',
+      name: 'Commission Junction',
     },
     {
-      id: "21",
-      img: "/assets/images/service/svg/shareasale.png",
-      name: "ShareASale",
-
+      id: '21',
+      img: '/assets/images/service/svg/shareasale.png',
+      name: 'ShareASale',
     },
     {
-      id: "22",
-      img: "/assets/images/service/svg/hubspot.png",
-      name: "HubSpot",
-
+      id: '22',
+      img: '/assets/images/service/svg/hubspot.png',
+      name: 'HubSpot',
     },
     {
-      id: "23",
-      img: "/assets/images/service/svg/pardot.png",
-      name: "Pardot",
-
+      id: '23',
+      img: '/assets/images/service/svg/pardot.png',
+      name: 'Pardot',
     },
     {
-      id: "24",
-      img: "/assets/images/service/svg/marketo.png",
-      name: "Marketo",
-
+      id: '24',
+      img: '/assets/images/service/svg/marketo.png',
+      name: 'Marketo',
     },
     {
-      id: "25",
-      img: "/assets/images/service/svg/tumblr.svg",
-      name: "Tumblr",
-
+      id: '25',
+      img: '/assets/images/service/svg/tumblr.svg',
+      name: 'Tumblr',
     },
-
   ];
   const cards = [
     {
@@ -286,50 +260,54 @@ const SeoAgency = () => {
   const casestudies = [
     {
       id: 1,
-      image: "/assets/images/service/caseone.png",
-      name: "Logical Fallacies",
-      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      image: '/assets/images/service/caseone.png',
+      name: 'Logical Fallacies',
+      desc: 'What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. ',
     },
     {
       id: 2,
-      image: "/assets/images/service/casetwo.png",
-      name: "Long term risk",
-      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      image: '/assets/images/service/casetwo.png',
+      name: 'Long term risk',
+      desc: 'What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. ',
     },
     {
       id: 3,
-      image: "/assets/images/service/casethree.png",
-      name: "growth hackers",
-      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      image: '/assets/images/service/casethree.png',
+      name: 'growth hackers',
+      desc: 'What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. ',
     },
     {
       id: 4,
-      image: "/assets/images/service/casetwo.png",
-      name: " whole lot of factors",
-      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      image: '/assets/images/service/casetwo.png',
+      name: ' whole lot of factors',
+      desc: 'What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. ',
     },
     {
       id: 5,
-      image: "/assets/images/service/casethree.png",
-      name: "Outliers’ success",
-      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      image: '/assets/images/service/casethree.png',
+      name: 'Outliers’ success',
+      desc: 'What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. ',
     },
     {
       id: 6,
-      image: "/assets/images/service/caseone.png",
-      name: "North Star Metric",
-      desc: "What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. "
+      image: '/assets/images/service/caseone.png',
+      name: 'North Star Metric',
+      desc: 'What I’m talking about is the sensationalist posts attempting to boil down a successful company into a blog post of no more than a few thousand words. ',
     },
-  ]
+  ];
   return (
     <div>
       <Head>
         <title>SEO services in India | Ackrolix</title>
-        <meta name="description"
-         content="We are the number one SEO services in India that offers assured first-page rankings. Our data-driven proven SEO methods are unique. Get a free Audit Today." />
-      <link rel="canonical" href="https://www.ackrolix.com/seo-company-in-India"/>
-        <meta property="og:title" 
-        content="SEO services in India | Ackrolix" />
+        <meta
+          name="description"
+          content="We are the number one SEO services in India that offers assured first-page rankings. Our data-driven proven SEO methods are unique. Get a free Audit Today."
+        />
+        <link
+          rel="canonical"
+          href="https://www.ackrolix.com/seo-company-in-India"
+        />
+        <meta property="og:title" content="SEO services in India | Ackrolix" />
         <meta
           property="og:description"
           content="We are the number one SEO services in India that offers assured first-page rankings. Our data-driven proven SEO methods are unique. Get a free Audit Today."
@@ -341,12 +319,11 @@ const SeoAgency = () => {
         <meta
           property="og:image"
           content="https://www.ackrolix.com/assets/images/service/svg/sea.png"
-        />   
-         <meta name="robots" 
-        content="index,follow" />  
+        />
+        <meta name="robots" content="index,follow" />
 
-<script type="application/ld+json">
-{`{
+        <script type="application/ld+json">
+          {`{
   "@context": "http://schema.org",
   "@type": "WebPage",
   "@id": "https://www.ackrolix.com/seo-company-gurgaon#webpage",
@@ -370,16 +347,12 @@ const SeoAgency = () => {
       "name": "Ackrolix",
       "sameAs": "https://www.ackrolix.com/"
     }
-  ]}`
-}
-</script>
-
-
-
+  ]}`}
+        </script>
       </Head>
       <Header />
       <div
-        className=" bg-right"
+        className="bg-right "
         style={{
           backgroundImage: 'url("/assets/images/mainbackground.png ")',
         }}
@@ -395,7 +368,7 @@ const SeoAgency = () => {
         />
       </div>
       <Cards card={cards} />
-      <div className="container-ack md:px-0 px-5">
+      <div className="px-5 container-ack md:px-0">
         <ComponentHead
           title="Platforms"
           sub="Search Engine Optimization"
@@ -411,7 +384,7 @@ const SeoAgency = () => {
               'url("/assets/images/service/servicebackground.png")',
           }}
         >
-          <div className="container-ack md:px-0 px-5">
+          <div className="px-5 container-ack md:px-0">
             <ProccessHead
               processhead="Why Choose Us"
               processsub="Why Choose Us?"
@@ -422,15 +395,14 @@ const SeoAgency = () => {
             <Process process={processes} />
           </div>
         </div>
-        <div className="h-[7.5rem]"
+        <div
+          className="h-[7.5rem]"
           style={{
             backgroundImage: 'url("/assets/images/service/wave.png")',
-          }}></div>
+          }}
+        ></div>
       </div>
-      <ComponentHead
-        title="Studies"
-        sub="Case Studies"
-      />
+      <ComponentHead title="Studies" sub="Case Studies" />
       <CaseStudies casestudies={casestudies} />
       <Work />
       {/* <Section /> */}
