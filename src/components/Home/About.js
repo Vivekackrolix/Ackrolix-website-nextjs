@@ -15,22 +15,22 @@ const aboutdata = [
   {
     id: 2,
     image: '/assets/images/about/slide-2.jpg',
-    alttext: 'best advertising agency in gurgaon',
+    alttext: 'best Marketing agency in gurgaon',
   },
   {
     id: 3,
     image: '/assets/images/about/slide-3.jpg',
-    alttext: 'advertising agency in gurgaon',
+    alttext: 'Marketing agency in gurgaon',
   },
   {
     id: 4,
     image: '/assets/images/about/slide-4.jpg',
-    alttext: 'advertising company in gurgaon',
+    alttext: 'Marketing company in gurgaon',
   },
   {
     id: 5,
     image: '/assets/images/about/slide-6.jpeg',
-    alttext: 'advertising company in gurgaon',
+    alttext: 'Marketing company in gurgaon',
   },
 ];
 
