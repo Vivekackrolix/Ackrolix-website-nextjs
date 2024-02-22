@@ -95,7 +95,7 @@ const index = () => {
       <Clients />
       <Blogs />
       <Testimonial />
-      <er />
+      <Footer />
     </>
   );
 };
