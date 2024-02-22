@@ -19,21 +19,35 @@ import BannerResponsive from '../components/Home/BannerResponsive';
 const index = () => {
   return (
     <>
-      <Head>
-        <title>Ackrolix | Best Marketing agency in India</title>
+    
+    <Head>
+      <title> Award Winning Marketing Agency in India | Ackrolix</title>
         <meta
           name="description"
-          content="Ackrolix Innovations is an award-winning best Marketing agency in India. We offer a experts team that will help you grow your business."
+          content="Ackrolix Innovations is an award-winning best Marketing agency in India. We offer's a experts team that will help you grow your business traditional to digital & Join us Today!"
+        />
+        <meta
+          name="keywords"
+          content="Best Markeitng Ageny in India
+          Top Markeitng Agency in India
+          Digital Marketing services in India
+          Web development services in India
+          Website Marketing Services in India
+          Seo Marketing services in India
+          Best seo Marketing Agency in India
+          Social Media Marketing Agency in India
+          Best pr Markitng Agency in India
+          Marketing Agency in India"
         />
         <link rel="canonical" href="https://www.ackrolix.com/" />
 
         <meta
           property="og:title"
-          content="Marketing Agency in Gurgaon - Ackrolix"
+          content=" Award Winning Marketing Agency in India | Ackrolix"
         />
         <meta
           property="og:description"
-          content="Looking for the best Marketing agency in Gurgaon? Look no further than Ackrolix! Our team of experts will help you achieve your marketing goals."
+          content="Ackrolix Innovations is an award-winning best Marketing agency in India. We offer's a experts team that will help you grow your business traditional to digital & Join us Today!"
         />
         <meta property="og:url" content="https://www.ackrolix.com/" />
         <meta

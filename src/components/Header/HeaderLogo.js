@@ -11,6 +11,7 @@ const HeaderLogo = () => {
             <div>
               <img
                 src="/assets/images/logoack.png"
+                
                 className="w-52 h-16 object-cover"
               />
             </div>

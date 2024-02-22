@@ -10,7 +10,8 @@ const Work = () => {
         <ComponentHead
           title="Work"
           sub="Our Work"
-          head="We endeavour to give life to your ideas and inject vitality into your mission and vision. Discover our clients relishing the modern essence of our outstanding SEO services In India."
+          head="At the intersection of creativity and technology, Ackrolix Innovations pioneers products that exceed your expectations, every single time.
+          "
         />
         <div className="masonry-grid pb-2">
           <div className="masonry-grid-item containerzoom">
