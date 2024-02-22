@@ -56,12 +56,12 @@ const Banner = () => {
     {
       id: 1,
       image: '/assets/images/banner/2.jpg',
-      altText: 'advertising agency in gurgaon',
+      altText: 'Marketing agency in gurgaon',
     },
     {
       id: 2,
       image: '/assets/images/banner/1.jpg',
-      altText: 'best advertising agency in gurgaon',
+      altText: 'best Marketing agency in gurgaon',
     },
     {
       id: 3,
@@ -134,7 +134,7 @@ const Banner = () => {
                   <img src="/assets/icons/icon.png" className="w-9 bulb" />
                 </div>
                 <h1 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-                  Ackrolix Innovations: Best Online Advertising Agency in India
+                  Ackrolix Innovations: Best Online Marketing Agency in India
                 </h1>
                 <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
                   We're your few that improve brands, propell businesses forward
@@ -162,10 +162,10 @@ const Banner = () => {
                   <img src="/assets/icons/icon.png" className="w-9 bulb" />
                 </div>
                 <h2 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-                  Facilitating Advertising Agency
+                  Facilitating Marketing Agency
                 </h2>
                 <p className="text-textcolor pt-4 text-justify text-[15px] font-medium">
-                  Ackrolix is the best Advertising Agency in India because we've
+                  Ackrolix is the best Marketing Agency in India because we've
                   country's best minds fusing creativity and technology to
                   develop best solutions, leaving enduring impressions every
                   time.
@@ -227,7 +227,7 @@ const Banner = () => {
                   <strong>
                     Conceptualising and Creating Compelling Products:
                   </strong>{' '}
-                  From Ideation to Reality, this Digital Advertising Company in
+                  From Ideation to Reality, this Digital Marketing Company in
                   India Delivers Transformative Solutions for Individuals,
                   Startups and Fortune 500 Companies.
                 </p>

@@ -262,7 +262,7 @@ const Clients = () => {
         </div>
 
         <p className="pt-1 text-base text-left text-textcolor">
-        We help businesses of all shapes and sizes to reach their full potential. Our partnership with Jindal Steel & Power boosted their brand visibility by 20% and brought them 15% more prospects. Our cooperation with Intech Organics improved their supply chains, saving them 10% in expenses and increasing their quality. With 120+ happy clients, our impactful work covers various sectors such as Healthcare, Education, Power, EdTech, Finance and Insurance, IT Services & Consulting, Digital Solutions, Real Estate, Entertainment, Food and Beverages, Fashion and Apparel, and more.
+        Empowering businesses, from startups to established giants, to achieve remarkable results. Our collaboration with Jindal Steel & Power increased brand awareness by 20% and generated a 15% rise in qualified leads. Working with Intech Organics, we optimized supply chains, cutting costs by 10% and enhancing quality. With a track record of 120+ satisfied clients, our high-impact work spans across industries such as healthcare, education, banking, finance and insurance (BFSI), IT Services and Consulting, and more.
         </p>
       </div>
 

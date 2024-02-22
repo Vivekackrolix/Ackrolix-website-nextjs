@@ -17,6 +17,7 @@ const Footer = () => {
         backgroundImage: 'url("/assets/images/backgroundfooter.png")',
       }}
     >
+      {/*  */}
       <div className="absolute w-full px-5 md:-top-10 md:px-0 -top-12">
         <Subscription />
       </div>

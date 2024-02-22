@@ -15,34 +15,34 @@ import CaseStudies from '../components/Services/DetailPage/CaseStudies';
 const SeoAgency = () => {
   const processes = [
     {
-      id: '1',
-      name: 'Experienced',
-      desc: "We are pleased to have completed over 100 extraordinarily fruitful projects in a variety of industries, illustrating our unwavering dedication to excellence and innovation. These accomplishments are a reflection of our team's exceptional skill, unwavering commitment, and unrelenting quest for excellence. We enthusiastically anticipate starting new endeavours and reaching even larger milestones as we move forward.",
+      id: "1",
+      name: "Experience Excellence",
+      desc: "Having successfully delivered 100+ impactful projects across various industries, we take pride in our team's exceptional skills and unwavering commitment to excellence and innovation. These achievements reflect our dedication, and we look forward to embarking on new ventures and achieving even greater milestones."
     },
     {
-      id: '2',
-      name: 'Customization',
-      desc: "Our items are painstakingly made and methodically planned to precisely meet and surpass your particular needs. Our committed team is ready to deliver unmatched solutions that connect with your audience and propel remarkable success for your business, whether you're looking for exceptional web design and advanced e-commerce solutions or seamless mobile app development and effective digital marketing strategies.",
+      id: "2",
+      name: "Tailored Solutions",
+      desc: "Our meticulously crafted products are designed to precisely meet and exceed your unique requirements. Whether it's outstanding web design, advanced eCommerce solutions, seamless mobile app development, or effective digital marketing strategies, our dedicated team is poised to deliver unparalleled solutions that resonate with your audience and drive remarkable success for your business."
     },
     {
-      id: '3',
-      name: '24/7 Support',
-      desc: 'Our extremely knowledgeable and devoted expert team is available to provide round-the-clock support, ensuring that your website runs without a hitch at all times. We take great pleasure in offering excellent support and swiftly and effectively resolving any problems. Day or night, you can rely on us for consistent service and a hassle-free website experience.',
+      id: "3",
+      name: "Always Available Support",
+      desc: "Our highly knowledgeable and dedicated SEO expert team is available 24/7 to ensure your website runs seamlessly at all times. We take pride	 in providing excellent support, swiftly and effectively resolving any issues. Day or night, you can rely on us for consistent service and a hassle-free website experience."
     },
     {
-      id: '4',
-      name: 'Affordable Prices',
-      desc: "We ensure that our customers get the most value for their hard-earned money by always offering home appliance pricing that are competitive with the market. We are the go-to source for all of your home appliance needs because of our dedication to affordability and the unwavering quality and dependability of our goods. Discover the ease of buying home appliances without worrying about costs — we've got you covered!",
+      id: "4",
+      name: "Budget-Friendly Prices",
+      desc: "We prioritize delivering value for your money by consistently offering competitive pricing in the market. If you’re seeking top SEO services in India, our commitment to affordability, quality, and reliability makes Ackrolix your go-to source. Experience the convenience of acquiring top-notch digital products and SEO services without worrying about costs – we've got you covered!",
     },
     {
-      id: '5',
-      name: 'Customer Trust',
-      desc: "We receive incredibly helpful references for 90% of our booming business, which is a testimonial to the exceptional quality of service we continuously provide. Customers are becoming our most ardent brand promoters, telling others about the exceptional interactions they've had with us. We are incredibly appreciative of our loyal customers' support, and we anxiously anticipate developing new relationships through their sincere referrals.",
+      id: "5",
+      name: "Customer Confidence",
+      desc: "With 90% of our thriving business attributed to positive referrals, our customers become our most ardent brand promoters. Their testimonials speak to the exceptional quality of service we consistently provide. We appreciate the loyal support of our customers and eagerly look forward to building new relationships through their sincere referrals.",
     },
     {
-      id: '6',
-      name: 'Milestone Setting',
-      desc: 'We take great delight in showing our unwavering commitment to excellence and innovation, having completed over 100 incredibly successful projects in a variety of industries. As we reflect on our experience, we are inspired and eager to take on new challenges and reach even bigger milestones in the future. With every milestone we reach,we solidify our position as a dominant force in the market, prepared to take on the upcoming challenges with tenacity.',
+      id: "6",
+      name: "Milestone Achievements",
+      desc: "Celebrating our commitment to excellence and innovation, we've successfully completed 100+ projects across various industries. Reflecting on our experiences, we are inspired and ready to take on new challenges, reaching even greater milestones. With each achievement, we solidify our position as a dominant force in the market, prepared to tackle future challenges with tenacity.",
     },
   ];
   const techs = [
@@ -170,91 +170,91 @@ const SeoAgency = () => {
   const cards = [
     {
       id: 1,
-      para: 'Our SEO Solutions Work: We’ve Proven it Over and Over Again',
-      bgcolor: 'bg-[#fff]',
-      cols: 'md:col-span-2',
-      textcolor: 'text-secondary',
-      display: 'hidden',
-      maintitle: 'Excellence',
-      subtitle: 'Trusted, Impactful SEO Services in India',
+      para: "Proven SEO Solutions Tailored Just for You – Time and Again!",
+      bgcolor: "bg-[#fff]",
+      cols: "md:col-span-2",
+      textcolor: "text-secondary",
+      display: "hidden",
+      maintitle: "Excellence",
+      subtitle: "Trusted, Impactful SEO Services in India",
     },
     {
       id: 2,
-      icon: '01',
-      title: 'On-page SEO',
-      para: 'Transform your content into enchanting spells with a blend of keywords, meta tags, and user-friendly design. Our magical touch in search engine optimization brings every page to life, attracting visitors and elevating rankings.',
-      bgcolor: 'bg-[#F6F8F9]',
-      cols: 'md:col-span-1',
-      display: 'icon',
-      textsize: 'text-xl',
-      fontbold: 'font-bold',
-      textcolor: 'text-secondary',
-      main: 'hidden',
+      icon: "01",
+      title: "Enhance Your On-Page SEO",
+      para: "Turn your content into captivating spells with a perfect blend of keywords, meta tags, and user-friendly design. Our magical touch in search engine optimization breathes life into every page, drawing in visitors and elevating your rankings.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
     },
     {
       id: 3,
-      icon: '02',
-      title: 'Off-page SEO',
-      para: 'Ascend to new heights in your digital journey with quality backlinks, social media prowess, and referrals. Our off-page SEO strategies captivate search engines, granting your website the reputation it truly deserves.',
-      bgcolor: 'bg-[#F6F8F9]',
-      cols: 'md:col-span-1',
-      display: 'icon',
-      textsize: 'text-xl',
-      fontbold: 'font-bold',
-      textcolor: 'text-secondary',
-      main: 'hidden',
+      icon: "02",
+      title: "Get Your Off-page SEO Soaring",
+      para: "Reach new heights in your digital journey with top-notch backlinks, social media prowess, and referrals. Our off-page SEO strategies enchant search engines, bestowing upon your website the reputation it truly deserves.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
     },
     {
       id: 4,
-      icon: '03',
-      title: 'Content SEO',
-      para: 'Harness the power of effective SEO techniques to ensure your content dominates the rankings. From compelling blog posts to a robust website, our wizardry with words attracts both users and algorithms. Watch your online presence soar to new heights of visibility and success with Ackrolix.',
-      bgcolor: 'bg-[#F6F8F9]',
-      cols: 'md:col-span-1',
-      display: 'icon',
-      textsize: 'text-xl',
-      fontbold: 'font-bold',
-      textcolor: 'text-secondary',
-      main: 'hidden',
+      icon: "03",
+      title: "Hire Powerful SEO Techniques",
+      para: "Command the power of effective SEO techniques to ensure your content reigns supreme in the rankings. From compelling blog posts to a robust website, our wizardry with words attracts both users and algorithms. Witness your online presence ascend to new heights of visibility and success with Ackrolix.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
     },
     {
       id: 5,
-      icon: '04',
-      title: 'Keyword Research',
-      para: 'Embark on a journey into scientific trends and user behavior with our clever wizardry. We craft magic potions for highlights, allowing your brand to shine in the digital realm, captivate your target audience, and stand out from the competition. Embrace the magic of Ackrolix keyword research, where every word is a stepping stone to digital success.',
-      bgcolor: 'bg-[#F6F8F9]',
-      cols: 'md:col-span-1',
-      display: 'icon',
-      textsize: 'text-xl',
-      fontbold: 'font-bold',
-      textcolor: 'text-secondary',
-      main: 'hidden',
+      icon: "04",
+      title: "Feel Our Keyword Research Magic",
+      para: "Embark on a journey into scientific trends and user behaviour with our clever wizardry. We concoct magic potions for highlights, allowing your brand to sparkle in the digital realm, captivating your target audience and outshining the competition. Embrace the magic of Ackrolix keyword research, where every word is a stepping stone to digital success.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
     },
     {
       id: 6,
-      icon: '05',
-      title: 'Technical SEO',
-      para: "Unleash the power of SEO magic through thorough site analysis, expert link building, and negative optimization. This magical blend enchants search engines, enhancing your website's performance for both users and algorithms. Trust Ackrolix's expertise to deliver superior quality, enhanced visibility, and a remarkable customer experience that outshines your competitors.",
-      bgcolor: 'bg-[#F6F8F9]',
-      cols: 'md:col-span-1',
-      display: 'icon',
-      textsize: 'text-xl',
-      fontbold: 'font-bold',
-      textcolor: 'text-secondary',
-      main: 'hidden',
+      icon: "05",
+      title: "Deploy Next-level Technical SEO",
+      para: "Unleash the power of SEO magic through meticulous site analysis, expert link building, and strategic optimization. This enchanting blend captivates search engines, enhancing your website's performance for both users and algorithms. Trust Ackrolix's expertise to deliver superior quality, heightened visibility, and a remarkable customer experience that outshines your competitors.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
     },
     {
       id: 7,
-      icon: '06',
-      title: 'Guest Blogging',
-      para: "Extend the reach of your enchantment with insightful site analysis, strategic link building, and expert optimization. Ackrolix's SEO magic intertwines with search engines, enhancing your website's performance for both users and algorithms. Rely on our expertise to deliver superior quality, heightened visibility, and an unparalleled customer experience that outshines your competitors.",
-      bgcolor: 'bg-[#F6F8F9]',
-      cols: 'md:col-span-1',
-      display: 'icon',
-      textsize: 'text-xl',
-      fontbold: 'font-bold',
-      textcolor: 'text-secondary',
-      main: 'hidden',
+      icon: "06",
+      title: "Increase Your Reach with Guest Blogging",
+      para: "Broaden the scope of your enchantment with insightful site analysis, strategic link building, and expert optimization. Ackrolix's SEO magic intertwines seamlessly with search engines, elevating your website's performance for both users and algorithms. Rely on our expertise to provide superior quality, heightened visibility, and an unparalleled customer experience that outshines your competitors.",
+      bgcolor: "bg-[#F6F8F9]",
+      cols: "md:col-span-1",
+      display: "icon",
+      textsize: "text-xl",
+      fontbold: "font-bold",
+      textcolor: "text-secondary",
+      main: "hidden",
     },
   ];
   const casestudies = [
@@ -359,12 +359,12 @@ const SeoAgency = () => {
       >
         <Banner
           bannertitle="Get High SEO Rankings with Ackrolix: Your Trusted SEO Services in India"
-          bannersubtext="At Ackrolix, our team of SEO experts stands out in the saturated market of SEO agencies. Going beyond mere search engine optimization, we prioritize elevating conversion rates, increasing revenues, and maximizing client benefits—all without increasing costs. Recognizing the pivotal role SEO and social media play in business growth, we understand that over 80% of internet searches influence success. In today's fiercely competitive business landscape, innovation isn't just a choice; it's a necessity for survival."
+          bannersubtext="At Ackrolix, our team of SEO experts stands out in the saturated market of SEO services In India. Going beyond mere search engine optimization, we prioritize elevating conversion rates, increasing revenues, and maximizing client benefits—all without increasing costs. Recognizing the pivotal role SEO and social media play in business growth, we understand that over 80% of internet searches influence success. In today's fiercely competitive market, innovation isn't just a choice; it's a necessity beyond survival."
           serviceimg="/assets/images/service/svg/sea.png"
           serviceimgAlt="seo services company"
-          servicehead="Amplify Your Brand's Visibility with Ackrolix's Top-Tier SEO Solutions"
-          servicedesc1="We guarantee commercial success and maximise your ranking with our comprehensive knowledge by building a strong online presence that connects with the digital world. With brilliant performance across devices and platforms, our creative abilities translate into successful websites and enticing user experiences that captivate visitors with intuitive navigation and beautiful design. Search engines may detect the significance and authority of your online presence thanks to the strategically constructed high-quality, authoritative links that Ackrolix creates."
-          servicedesc2="Select Ackrolix as your go-to SEO company in India, where creativity and experience merge to propel your company to new heights. Our all-encompassing SEO services are designed to increase conversions, profits, and customer benefits while building a strong online presence that appeals to your target market. As a top provider of SEO services in India."
+          servicehead="Amplify Your Brand's Visibility with Ackrolix's Top-Tier SEO Services and Solutions"
+          servicedesc1="Let's raise the bar and transform your online presence and elevate your digital success with Ackrolix, the best SEO services in India. Our expert team combines creativity and extensive experience to enhance your rankings, ensuring commercial success that goes beyond expectations. We specialize in crafting compelling websites with seamless user experiences across devices and platforms, showcasing intuitive navigation and stunning designs. We’re team Ackrolix and we go beyond aesthetics and minimalism. Strategically constructed high-quality, authoritative links not only enhance the visual appeal of your online presence but also boost its significance and authority in the eyes of search engines like Google, Bing, DuckDuckGo, Ask.com, Yahoo!, Yandex, or Baidu."
+          servicedesc2="What Is SEO?  SEO, or Search Engine Optimization, enhances a website's technical setup, content, and links to improve findability and relevance in user searches. This boosts rankings on search engines. Choose Ackrolix as your trusted SEO agency in India, where innovation meets expertise to propel your business to unparalleled heights. We provide comprehensive SEO services tailored to not only improve rankings but also drive conversions, increase profits, and deliver unmatched benefits to your customers. Revamp your brand strategy, its identity and presence with our transformative SEO services in India."
         />
       </div>
       <Cards card={cards} />
@@ -372,7 +372,7 @@ const SeoAgency = () => {
         <ComponentHead
           title="Platforms"
           sub="Search Engine Optimization"
-          head="The Platforms stack for Search Engine Optimization can vary depending on the specific requirements of the application and the chosen modernization approach."
+          head="The platform stack for Search Engine Optimization may vary based on the specific needs of the application and the chosen approach to modernization."
         />
         <Technology tech={techs} />
       </div>
@@ -388,7 +388,7 @@ const SeoAgency = () => {
             <ProccessHead
               processhead="Why Choose Us"
               processsub="Why Choose Us?"
-              processdesc="Choose Ackrolix as your SEO Company in India to unlock the true potential of your online presence. With rich experience and expertise in multiple industries, we create SEO strategies for your specific goals."
+              processdesc="Boost your online presence with Ackrolix, your trusted SEO services in India for best SEO outcomes. Our wealth of experience and industry expertise allows us to craft tailored SEO strategies aligned with your unique goals."
               processimg="/assets/images/service/svg/sea1.png"
               proocessalt="seo services"
             />
