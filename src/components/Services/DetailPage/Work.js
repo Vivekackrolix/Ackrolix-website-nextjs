@@ -10,7 +10,8 @@ const Work = () => {
         <ComponentHead
           title="Work"
           sub="Our Work"
-          head="Ackrolix: Where imagination meets boundless innovation. We design intuitive website applications that redefine possibilities and make the complex feel effortless. Explore our work and discover the future, made accessible."
+          head="At the intersection of creativity and technology, Ackrolix Innovations pioneers products that exceed your expectations, every single time.
+          "
         />
         <div className="masonry-grid pb-2">
           <div className="masonry-grid-item containerzoom">

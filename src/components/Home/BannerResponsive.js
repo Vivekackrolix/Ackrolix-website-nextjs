@@ -11,7 +11,7 @@ const BannerResponsive = () => {
         {
           id: 1,
           image: "/assets/images/banner/1.webp",
-          atlText:"online advertising agency in gurgaon"
+          atlText:"online advertising agency in India"
         },
         
       ];

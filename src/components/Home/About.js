@@ -10,27 +10,27 @@ const aboutdata = [
   {
     id: 1,
     image: '/assets/images/about/slide-1.jpg',
-    alttext: 'ad company in gurgaon',
+    alttext: 'Marketing Services in India ',
   },
   {
     id: 2,
     image: '/assets/images/about/slide-2.jpg',
-    alttext: 'best Marketing agency in gurgaon',
+    alttext: 'Marketing Agency in India',
   },
   {
     id: 3,
     image: '/assets/images/about/slide-3.jpg',
-    alttext: 'Marketing agency in gurgaon',
+    alttext: 'ad company in India',
   },
   {
     id: 4,
     image: '/assets/images/about/slide-4.jpg',
-    alttext: 'Marketing company in gurgaon',
+    alttext: 'Best Marketing agency in India ,',
   },
   {
     id: 5,
     image: '/assets/images/about/slide-6.jpeg',
-    alttext: 'Marketing company in gurgaon',
+    alttext: 'Marketing agency in India',
   },
 ];
 

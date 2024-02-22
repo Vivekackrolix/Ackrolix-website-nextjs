@@ -8,7 +8,7 @@ const OurServices = () => {
     <div className="px-5 pt-12 container-ack md:px-0 md:pt-0">
       <ComponentHead
         title="Our Services"
-        sub="Our Advertising Services"
+        sub="Our Marketing Services"
         head="Ackrolix Innovations is redefining the digital impact of online advertising services in India. Our resonating services champion ethical and eco-conscious practices, elevating solutions to new heights.        "
       />
       <div className="grid gap-10 pt-2 md:grid-cols-3">
@@ -41,7 +41,7 @@ const OurServices = () => {
             </div>
           </div>
           <img
-            alt="product-concept"
+            alt="Marketing Agency in india"
             className="object-cover object-left-top w-full h-full "
             src="/assets/images/ourServices/ser-1.jpg"
           />
@@ -80,7 +80,7 @@ const OurServices = () => {
             </div>
           </div>
           <img
-            alt=""
+            alt="Influncer marketing in India"
             className="object-cover object-left-top w-full grayscale-0 group-hover:grayscale h-80"
             src="/assets/images/ourServices/ser-2.jpg"
           />
@@ -119,7 +119,7 @@ const OurServices = () => {
             </div>
           </div>
           <img
-            alt=""
+            alt="Digital Marketing in India "
             className="object-cover object-left-top w-full grayscale-0 group-hover:grayscale h-80"
             src="/assets/images/ourServices/ser-3.jpg"
           />
@@ -159,7 +159,7 @@ const OurServices = () => {
             </div>
           </div>
           <img
-            alt=""
+            alt="Social Media Marketing Agency in India"
             className="object-cover object-left-top w-full grayscale-0 group-hover:grayscale h-80"
             src="/assets/images/ourServices/ser-4.jpg"
           />
@@ -199,7 +199,7 @@ const OurServices = () => {
             </div>
           </div>
           <img
-            alt=""
+            alt="Performnce Marketing agency in India"
             className="object-cover object-left-top w-full grayscale-0 group-hover:grayscale h-80"
             src="/assets/images/ourServices/ser-5.jpg"
           />
@@ -236,7 +236,7 @@ const OurServices = () => {
             </div>
           </div>
           <img
-            alt=""
+            alt="Social media marketing services in India"
             className="object-cover object-left-top w-full grayscale-0 group-hover:grayscale h-80"
             src="/assets/images/ourServices/ser-6.jpg"
           />

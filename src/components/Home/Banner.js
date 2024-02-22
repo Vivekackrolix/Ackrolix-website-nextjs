@@ -56,17 +56,17 @@ const Banner = () => {
     {
       id: 1,
       image: '/assets/images/banner/2.jpg',
-      altText: 'Marketing agency in gurgaon',
+      altText: 'Best Marketing agency in India ',
     },
     {
       id: 2,
       image: '/assets/images/banner/1.jpg',
-      altText: 'best Marketing agency in gurgaon',
+      altText: 'Marketing agency in India',
     },
     {
       id: 3,
       image: '/assets/images/banner/3.jpg',
-      altText: 'ad company in gurgaon',
+      altText: 'online advertising agency in India',
     },
   ];
 
@@ -134,7 +134,7 @@ const Banner = () => {
                   <img src="/assets/icons/icon.png" className="w-9 bulb" />
                 </div>
                 <h1 className="text-secondary md:text-[28px] text-lg font-bold leading-[1.2] pt-3">
-                  Ackrolix Innovations: Best Online Marketing Agency in India
+                  Ackrolix Innovations: Best Marketing Agency in India
                 </h1>
                 <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
                   We're your few that improve brands, propell businesses forward
@@ -195,7 +195,6 @@ const Banner = () => {
                   Ackrolix Innovations : Performance Marketing Company in india
                 </h2>
                 <p className="text-textcolor pt-4 text-[15px] text-justify font-medium">
-                  <strong>Empowering Your Website Design Dreams:</strong>{' '}
                   Ackrolix Innovations is the best performance marketing agency in India with its headquarter in Gurgaon that offers performance driven 360° digital marketing services.
                 </p>
                 <div className="w-full pt-10">

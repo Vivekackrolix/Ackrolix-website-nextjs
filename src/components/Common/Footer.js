@@ -28,7 +28,7 @@ const Footer = () => {
             <div className="space-y-4 md:col-span-4">
               <Link href="/">
                 <div>
-                  <img src="/assets/images/logoack.png" className="w-48" />
+                <img src="/assets/images/logoack.png" className="w-48"/>
                 </div>
               </Link>
               <p className="text-sm text-justify">

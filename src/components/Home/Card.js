@@ -48,7 +48,7 @@ const Card = () => {
                   <div className="item">
                     <img
                       src="/assets/images/doItTogether/slide-1.jpg"
-                      alt=""
+                      alt="Media Buying Agency in India"
                       width="300"
                       height="450"
                     />
@@ -56,7 +56,7 @@ const Card = () => {
                   <div className="item">
                     <img
                       src="/assets/images/doItTogether/slide-2.jpg"
-                      alt=""
+                      alt="Pr Agency in India"
                       width="300"
                       height="450"
                     />
@@ -64,7 +64,7 @@ const Card = () => {
                   <div className="item">
                     <img
                       src="/assets/images/doItTogether/slide-3.jpg"
-                      alt=""
+                      alt="Online marketing services in India"
                       width="300"
                       height="450"
                     />
@@ -72,7 +72,7 @@ const Card = () => {
                   <div className="item">
                     <img
                       src="/assets/images/doItTogether/slide-4.jpg"
-                      alt=""
+                      alt="Internet markeitng agency in india"
                       width="300"
                       height="450"
                     />
@@ -80,7 +80,7 @@ const Card = () => {
                   <div className="item">
                     <img
                       src="/assets/images/doItTogether/slide-5.jpg"
-                      alt=""
+                      alt="Website development services in india"
                       width="300"
                       height="450"
                     />
@@ -94,7 +94,7 @@ const Card = () => {
                       <div key={index} className="item">
                         <img
                           src="/assets/images/doItTogether/slide-3.jpg"
-                          alt=""
+                          alt="Online marketing services in India"
                           width="300"
                           height="450"
                         />
@@ -110,7 +110,7 @@ const Card = () => {
                       <div key={index} className="item">
                         <img
                           src="/assets/images/doItTogether/slide-2.jpg"
-                          alt=""
+                          alt="Pr Agency in India"
                           width="300"
                           height="650"
                         />

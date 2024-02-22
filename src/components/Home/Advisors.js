@@ -17,23 +17,25 @@ const Advisors = () => {
       id: 1,
 
       image: "/assets/images/advisor/nishant.png",
-      name: "Nishant Joon",
+      alt: "Paid Marketing services in India",
+      name: "Best Paid Marketing services in India",
       desc: "I had the pleasure of working with Ackrolix on a complex technology project, and I was blown away by their expertise and professionalism. Their deep understanding of the latest technologies and trends in the industry was evident from the start, and they were able to provide valuable insights and guidance throughout the entire project.",
       link: "/advisorDetailPage",
     },
     {
       id: 2,
       image: "/assets/images/advisor/ashwani.png",
-      name: "Ashwani Kumar",
-      desc: "Technology and business visionary with over 22+ years of successful & fruitful career in IT Management, who provided strategic direction on technology initiatives such as implementing Multiple ERP Modules in line with the core organizational goals and business & profit objectives of the company.",
-      link: "/advisorDetailPage",
+      alt: "Digital Marketing Services in India",
+      name: "Top Digital Marketing Services in India",
+      decs: "Technology and business visionary with over 22+ years of successful & fruitful career in IT Management, who provided strategic direction on technology initiatives such as implementing Multiple ERP Modules in line with the core organizational goals and business & profit objectives of the company.",
+      link: "advisorDetailPage",
     },
     {
       id: 3,
 
       image: "/assets/images/GeetaPatel.jpg",
-      alt: "geeta patel",
-      name: "Geeta Patel.",
+      alt: "Digital makreting experts in India",
+      name: "Top Digital makreting experts in India",
       desc: "Good innovation is about finding creative and effective solutions to problems. It involves thinking outside the box, taking risks, and being open to new ideas. Good innovation can lead to significant advancements in technology.",
       link: "/advisorDetailPage",
     },
@@ -41,7 +43,8 @@ const Advisors = () => {
       id: 4,
 
       image: "/assets/images/leaders/leaderfive.jpeg",
-      name: "Mahesh Kumar",
+      alt: "Marketing agency experts in India",
+      name: "Leading Marketing agency experts in India",
       desc: "Company motivation is crucial for ensuring that employees remain engaged and productive. A motivated workforce is more likely to go the extra mile to achieve company goals, and this can lead to increased productivity, better customer satisfaction, and higher profits.",
       link: "/advisorDetailPage",
     },
@@ -49,6 +52,7 @@ const Advisors = () => {
       id: 5,
 
       image: "/assets/images/AditiAhuja.png",
+      
       name: "Aditi Ahuja",
       desc: "Company quality refers to the level of excellence that a company strives to achieve in all aspects of its operations. This includes the quality of its products or services, customer service, employee satisfaction, and overall reputation.",
       link: "/advisorDetailPage",
