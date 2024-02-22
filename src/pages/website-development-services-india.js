@@ -190,7 +190,7 @@ const WebsiteDevelopment = () => {
   const cards = [
     {
       id: 1,
-      para: 'Future-proof your business with modern apps and websites. Supercharge performance, scale & agility with cutting-edge tech-stack. Boost employee productivity, engage more users, and unlock revenue growth.',
+      para: 'Future-proof your business with future’s apps and websites today with Ackrolix. Supercharge performance, scale & agility with cutting-edge tech-stack. Boost employee productivity, engage more users, and unlock revenue growth like never before.',
       bgcolor: 'bg-[#fff]',
       cols: 'md:col-span-2',
       textcolor: 'text-secondary',
@@ -344,12 +344,12 @@ const WebsiteDevelopment = () => {
         }}
       >
         <Banner
-          bannertitle="Ackrolix: Your Trusted Web Design Services In India"
-          bannersubtext="Ackrolix, a name synonymous with innovation and originality, has carved itself as a prominent Web Design and Website Development Company in India. Our talented team of UI/UX designers and web developers, empowered by our agile software development practices, meticulously craft outstanding web design and software solutions. Each project is a bespoke creation, tailored to address the unique requirements of our clients, consistently exceeding expectations."
+          bannertitle="Ackrolix: Your Reliable Website Development Services In India"
+          bannersubtext="Ackrolix, a name synonymous with innovation and originality, has carved itself as a prominent Web Design and Website Development Services Partner in the country. Our talented team of UX/UX designers and web developers, empowered by our agile software development practices, meticulously craft outstanding web design and software solutions. Each project is a bespoke creation, tailored to address the unique requirements of our clients, consistently exceeding expectations. Contact us for best website development services in India."
           serviceimg="/assets/images/service/svg/web.png"
           serviceimgAlt="Web Development Company"
           servicehead="Empowering Growth through Scalable and Agile Software Development"
-          servicedesc1="Begin your web app development with Ackrolix's futuristic  agile software development strategy, ensuring reliability for greater impact. Our dedicated team of web developers collaborates with you on a personalised 1:1 basis, ensuring a meticulous approach to address your unique concerns. Join the league of 120+ growing businesses that entrust Ackrolix for cutting-edge web development services. Our seasoned experts specialise in crafting highly functional APIs, seamless custom web applications, dynamic hybrid mobile apps, and providing unparalleled web design services."
+          servicedesc1="Begin your web app development with Ackrolix's futuristic  agile software development strategy, ensuring reliability for greater impact. Our dedicated team of web developers collaborates with you on a personalised 1:1 basis, ensuring a meticulous approach to address your unique concerns. Join the league of 120+ growing businesses that entrust Ackrolix for cutting-edge web development services. Our seasoned experts specialise in crafting highly functional APIs, seamless custom web applications, dynamic hybrid mobile apps, and providing unparalleled website development services in India."
           servicedesc2="Ackrolix Innovations crafts next-generation digital experiences like web platforms, mobile apps, or custom software solutions powered by cloud-native systems. We increase your brand presence by 20% (and further boost in increased leads and higher conversions), delivering unparalleled scalability, agility, and elevated customer engagement. Let's build the future of your brand. Connect with us today!"
         />
       </div>

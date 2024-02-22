@@ -20,20 +20,20 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>Ackrolix | Best Marketing agency in India</title>
+        <title> Award Winning Marketing Agency in India | Ackrolix</title>
         <meta
           name="description"
-          content="Ackrolix Innovations is an award-winning best Marketing agency in India. We offer a experts team that will help you grow your business."
+          content="Ackrolix Innovations is an award-winning best Marketing agency in India. We offer's a experts team that will help you grow your business traditional to digital & Join us Today!"
         />
         <link rel="canonical" href="https://www.ackrolix.com/" />
 
         <meta
           property="og:title"
-          content="Marketing Agency in Gurgaon - Ackrolix"
+          content=" Award Winning Marketing Agency in India | Ackrolix"
         />
         <meta
           property="og:description"
-          content="Looking for the best Marketing agency in Gurgaon? Look no further than Ackrolix! Our team of experts will help you achieve your marketing goals."
+          content="Ackrolix Innovations is an award-winning best Marketing agency in India. We offer's a experts team that will help you grow your business traditional to digital & Join us Today!"
         />
         <meta property="og:url" content="https://www.ackrolix.com/" />
         <meta

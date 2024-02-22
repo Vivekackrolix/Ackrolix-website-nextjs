@@ -84,8 +84,7 @@ const Enquiry = () => {
                 </div>
 
                  <div className="md:w-[95%] w-full text-base text-textcolor text-justify font-text  pt-10">
-                 We're passionate about helping people like you turn their ideas into reality. We have the experience and resources to support you every step of the way, and your success is our success. Share your requirements, receive a free quote, and let's work together to transform your vision into a mission-reality!
-              </div>
+                 From initial spark to flawless execution, we champion your vision with our design, technology, and marketing expertise. Let's set up a call today and bring your vision to life!</div>
             </div>
 
             
