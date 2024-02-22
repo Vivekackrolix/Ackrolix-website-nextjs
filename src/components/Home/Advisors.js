@@ -27,7 +27,7 @@ const Advisors = () => {
       image: "/assets/images/advisor/ashwani.png",
       alt: "Digital Marketing Services in India",
       name: "Ashwani Kumar",
-      decs: "Technology and business visionary with over 22+ years of successful & fruitful career in IT Management, who provided strategic direction on technology initiatives such as implementing Multiple ERP Modules in line with the core organizational goals and business & profit objectives of the company.",
+      desc: "Technology and business visionary with over 22+ years of successful & fruitful career in IT Management, who provided strategic direction on technology initiatives such as implementing Multiple ERP Modules in line with the core organizational goals and business & profit objectives of the company.",
       link: "advisorDetailPage",
     },
     {
