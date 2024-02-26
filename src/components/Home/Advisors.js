@@ -64,7 +64,8 @@ const Advisors = () => {
       <div className="container-ack md:px-0 px-5  ">
         <ComponentHead
           title="Advisors"
-          sub="Our Industry Experts"
+          sub="Our Industry Experts
+          "
           head="At Ackrolix, we transform imagination into action. Our seasoned experts understand the importance of cultivating a responsible approach towards our clients, and society."
         />
 

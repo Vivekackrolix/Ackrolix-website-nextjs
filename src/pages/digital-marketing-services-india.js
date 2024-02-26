@@ -177,7 +177,7 @@ const Marketing = () => {
       textcolor: 'text-secondary',
       display: 'hidden',
       maintitle: 'SUCCESS',
-      subtitle: 'Unfold your success story with our Digital Marketing Services',
+      subtitle: 'Unfold your success story with our Digital Marketing Services in India',
     },
     {
       id: 2,
@@ -364,10 +364,10 @@ const Marketing = () => {
       >
         <Banner
           bannertitle="Reach Millions More Customers With The Leading Digital Marketing Services In India"
-          bannersubtext="Don't settle for any generic digital marketing agency in India. Partner with a trusted partner in growth - Ackrolix: your all-inclusive solution to tell your brand story to the world. Let's work together to turn your online presence into an impactful story."
+          bannersubtext="Don't settle for any generic digital marketing services in India. Partner with a trusted partner in growth - Ackrolix: your all-inclusive solution to tell your brand story to the world. Let's work together to turn your online presence into an impactful story."
           serviceimg="/assets/images/service/svg/dig.png"
           serviceimgAlt="digital marketing company"
-          servicehead="Slay Your Digital Game with a Marketing Agency in India that Sets Your Brand's Narrative"
+          servicehead="Slay Your Digital Game with a Best Digital Marketing Services in India that Sets Your Brand's Narrative"
           servicedesc1="Get ready to rule the digital space of billions of Indians and the world "
           servicedesc2="Rule the Indian digital space with Ackrolix, your all-inclusive growth engine with 120+ happy clients, fuels startups, brands, and established players alike. From budding startups to seasoned brands, we tailor custom strategies wielding SEO, PPC, social, content, and email like weapons of mass engagement. Our UI/UX designers, digital strategists, SEO hawks, and content builders unleash their brains to help upgrade your brand's potential pixel by pixel. So, are you ready to rule online? Partner with Ackrolix - your growth partner to your digital success."
           servicedesc3="Beyond buzzwords, Ackrolix is your collaborative storyteller, crafting marketing campaigns that captivate your audience and drive faster, yet real conversions quickly. Contact us today, and let Ackrolix be your marketing copilot for total digital win."

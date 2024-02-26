@@ -10,7 +10,7 @@ const Portfolio = () => {
         <ComponentHead
           title="Portfolio"
           sub="Portfolio"
-          head="At the Intersection of Imagination and Technology, We Artfully Craft Products that Surpass Your Expectations and Pioneer 'What's Next?' with Unique Online Advertising Services in India."
+          head="At the Intersection of Imagination and Technology, We Artfully Craft Products that Surpass Your Expectations and Pioneer 'What's Next?' with Unique & Best marketing Services in India."
         />
         <div className="masonry-grid pb-2">
           <div className="masonry-grid-item containerzoom">
