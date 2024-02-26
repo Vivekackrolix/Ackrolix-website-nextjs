@@ -8,8 +8,8 @@ const OurServices = () => {
     <div className="px-5 pt-12 container-ack md:px-0 md:pt-0">
       <ComponentHead
         title="Our Services"
-        sub="Our Marketing Services"
-        head="Ackrolix Innovations is redefining the digital impact of online advertising services in India. Our resonating services champion ethical and eco-conscious practices, elevating solutions to new heights.        "
+        sub="Our Marketing Services in India"
+        head="Ackrolix Innovations is redefining the digital impact of online marketing services in India. Our resonating services champion ethical and eco-conscious practices, elevating solutions to new heights.        "
       />
       <div className="grid gap-10 pt-2 md:grid-cols-3">
         <div className="relative overflow-hidden rounded-2xl group concept">
