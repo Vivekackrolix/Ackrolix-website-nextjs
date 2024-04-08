@@ -19,9 +19,8 @@ import BannerResponsive from '../components/Home/BannerResponsive';
 const index = () => {
   return (
     <>
-    
-    <Head>
-      <title> Award Winning Marketing Agency in India | Ackrolix</title>
+      <Head>
+        <title> Award Winning Marketing Agency in India | Ackrolix</title>
         <meta
           name="description"
           content="Ackrolix Innovations is an award-winning best Marketing agency in India. We offer's a experts team that will help you grow your business traditional to digital & Join us Today!"

@@ -152,7 +152,7 @@ const Testimonial = () => {
 
           <div className="flex justify-center pt-5 pb-10">
             <Link href="/testimonials">
-              <button className="px-12 py-2 rounded-md  button-2">
+              <button className="px-12 py-2 rounded-md button-2">
                 <div className="eff-2"></div>
                 <span className="flex items-center text-base ">
                   {' '}
