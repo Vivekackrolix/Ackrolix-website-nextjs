@@ -313,6 +313,24 @@ const Navbar = () => {
               </Link>
             </li>
             {/* for mobile end */}
+            <Link href="/blogs">
+              <li
+                className={
+                  router.pathname == '/blogs'
+                    ? 'active text-primary hover:text-primary border-secondary border-b-2 group dropdown  md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary   group relative cursor-pointer '
+                    : 'group dropdown hover:text-primary md:flex hidden nav-item text-sm  font-semibold nav-desk hover:border-b-2 hover:duration-150 border-b-secondary  group relative cursor-pointer text-black'
+                }
+              >
+                Blogs
+              </li>
+            </Link>
+            {/* for mobile start */}
+            <li className="block md:hidden ">
+              <Link href="/blogs">
+                <p className="px-10 text-white">Blogs</p>
+              </Link>
+            </li>
+            {/* for mobile end */}
           </ul>
         </div>
 
