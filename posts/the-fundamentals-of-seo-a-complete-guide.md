@@ -3,6 +3,11 @@ title: 'The Fundamentals of SEO: A Complete Guide'
 image: /assets/images/blog/seo.webp
 date: 11 April 2024
 description: SEO, or search engine optimization, is the practice of improving your website's ranking. There are a number of fundamental aspects to SEO
+faq:  # Front matter key for the FAQ array
+  - question: What is the topic of this post?
+    answer: This post covers ...
+  - question: How can I learn more?
+    answer: Check out these resources ...
 ---
 
 # Finding the Fundamentals to SEO Success: Making SEO Services in India Easier
