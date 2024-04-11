@@ -37,7 +37,7 @@ const Post = defineDocumentType(() => ({
       type: 'string',
       required: true,
     },
-    faq: {
+    faqs: {
       type: 'list',
       of: FAQ,
     },
