@@ -3,24 +3,15 @@ import {
   makeSource,
   defineNestedType,
 } from 'contentlayer/source-files';
-const Tag = defineNestedType(() => ({
-  name: 'Tag',
+
+const FAQ = defineNestedType(() => ({
+  name: 'FAQ',
   fields: {
-    title: { type: 'string' },
+    question: { type: 'string', required: true },
+    answer: { type: 'string', required: true },
   },
 }));
-const Images = defineNestedType(() => ({
-  name: 'Images',
-  fields: {
-    title: { type: 'string', required: true },
-  },
-}));
-const Categories = defineNestedType(() => ({
-  name: 'Categories',
-  fields: {
-    title: { type: 'string' },
-  },
-}));
+
 const Post = defineDocumentType(() => ({
   name: 'Post',
   filePathPattern: `**/*.md`,
@@ -46,18 +37,14 @@ const Post = defineDocumentType(() => ({
       type: 'string',
       required: true,
     },
+    faq: {
+      type: 'list',
+      of: FAQ,
+    },
+
     // draft: {
     //   type: 'string',
     //   required: true,
-    // },
-    // summary: {
-    //   type: 'string',
-    //   required: true,
-    // },
-
-    // images: {
-    //   type: 'list',
-    //   of: Images,
     // },
   },
   computedFields: {

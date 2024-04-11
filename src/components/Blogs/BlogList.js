@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { allPosts, Post } from 'contentlayer/generated';
-import { format } from 'date-fns';
+import { compareDesc, format, parseISO } from 'date-fns';
 
 const Bloglist = () => {
   console.log(allPosts);
@@ -17,7 +17,12 @@ const Bloglist = () => {
 
                   <div className="pt-5">
                     <p className="w-full text-sm text-justify text-textcolor font-text ">
-                      {format(new Date(post?.date), 'MM-dd-yyyy')}
+                      <time
+                        dateTime={post.date}
+                        className="block mb-2 text-xs text-gray-600"
+                      >
+                        {format(parseISO(post.date), 'LLLL d, yyyy')}
+                      </time>
                     </p>
                     <h2 className="py-3 text-base font-semibold text-left text-secondary">
                       {post?.title}
